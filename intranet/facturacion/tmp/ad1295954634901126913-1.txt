@@ -1,0 +1,4 @@
+tipo|P
+codigo|5268271
+servicio|0680
+cant_dfa|1

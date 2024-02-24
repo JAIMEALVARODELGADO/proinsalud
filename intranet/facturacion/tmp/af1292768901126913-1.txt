@@ -1,0 +1,11 @@
+iden_ctr|654
+tipo_fac|2
+feci_fac|15/09/2021
+fecf_fac|16/09/2021
+rela_fac|
+codi_usu|258147
+iden_ctr|654
+cod_cie10|G20X
+area_fac|0681
+enti_fac|901126913-1
+nauto_fac|

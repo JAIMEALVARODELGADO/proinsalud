@@ -1,0 +1,12 @@
+tipo|P
+codigo|656661
+cant_dfa|1
+tipo|P
+codigo|654073
+cant_dfa|1
+tipo|P
+codigo|656660
+cant_dfa|1
+tipo|P
+codigo|656659
+cant_dfa|1

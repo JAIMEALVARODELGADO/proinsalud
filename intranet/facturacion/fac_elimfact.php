@@ -1,0 +1,101 @@
+<?php
+session_start();
+if(empty($Gidusufac)){
+  ?>
+  <script language='javascript'>
+  alert("La sesion ha finalizado, porfavor ingrese nuevamente a la aplicación");
+  window.top.close();
+  </script>
+  <?
+}
+else{
+?>
+<html>
+<head>
+<title>FACTURACION</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<SCRIPT LANGUAGE=JavaScript>
+function validag(){
+  if(form1.motivo.value==""){
+    alert("Identificar el motivo de la Anulacin");}
+  else{
+	 form1.submit();}
+}
+</script>
+</head>
+<form name="form1" method="POST" action="fac_3ganula.php">
+<body >
+<table class='Tbl0'><td class="Td0" align='center'>ANULACION DE LA FACTURA</td></table>
+<?
+include('php/conexion.php');
+if($clase=='A'){
+  //echo "Iden_fac: ".$iden_fac;
+  $fecha=time();
+  $fech_qxf=date("Y/m/d",$fecha);
+  $hora=$hor=date ("H:i:s",$fecha);
+  $con_desop="SELECT ef.iden_fac, ef.feci_fac, ef.fecf_fac, ef.codi_usu, con.CODI_CON, ef.nume_fac, usu.NROD_USU, usu.PNOM_USU, usu.SNOM_USU, usu.PAPE_USU, usu.SAPE_USU, con.NEPS_CON, ef.tipo_fac, ef.rela_fac
+  FROM encabezado_factura AS ef 
+  INNER JOIN contratacion AS ccio ON ef.iden_ctr = ccio.iden_ctr
+  INNER JOIN contrato AS con ON ccio.codi_con = con.CODI_CON 
+  INNER JOIN usuario AS usu ON ef.codi_usu = usu.CODI_USU
+  WHERE ef.iden_fac='$iden_fac'";
+  //echo "<br>".$con_desop;
+  $con_desop=mysql_query($con_desop);
+  echo "<table class='Tbl0'>";
+  echo "
+	<th class='Th0' width='10%'>FECHA</font></th>
+	<th class='Th0' width='10%'>HORA</font></th>
+  <th class='Th0' width='10%'>IDENTIFICACION</font></th>
+	<th class='Th0' width='30%'>NOMBRE</font></th>
+	<th class='Th0' width='40%'>MOTIVO DE ANULACION</font></th>";
+  while($row=mysql_fetch_array($con_desop)){
+    echo "<tr>";
+    echo "<td class='Td2'>$fech_qxf</td>";
+    echo "<td class='Td2'>$hora</td>";
+    echo "<td class='Td2'>$row[NROD_USU]<input type=hidden  name=nrod_usu value=$row[NROD_USU]></td>";
+    echo "<td class='Td2'>$row[PNOM_USU] $row[PAPE_USU]</td>";
+    echo "<td class='Td2'><textarea name='motivo' cols=50 rows=3></textarea></td>";
+    echo"</tr>";
+  }
+  echo "<tr>";
+  echo "<td class='Td2' colspan='4'><input type='checkbox' name='duplica'><b>Generar una prefactura con el contenido de esta factura</td>";
+  echo "</tr>";
+  echo "</table>";
+    ?>
+    <table class='Tbl2'>
+    <tr>
+      <td class='Td1' width='25%'><a href='#' onclick='validag()'><img hspace=0 width=15 height=15 src='icons\feed_delete.png' alt='Cancelar Orden' border=0 align='center'>ANULAR</a></td>        
+    </tr>
+    </table>
+    <?
+}
+else{
+  //$sql_="DELETE FROM encabezado_factura WHERE iden_fac=$iden_fac";
+  $sql_="UPDATE encabezado_factura SET esta_fac='3' WHERE iden_fac='$iden_fac'";
+  //echo "<br>".$sql_;
+  mysql_query($sql_);
+  //$sql_="DELETE FROM detalle_factura WHERE iden_fac=$iden_fac";
+  //echo "<br>".$sql_;
+  //mysql_query(sql_);
+  ?>
+  <script language='javascript'>
+        form1.action='fac_3lisfacanu.php';
+	//form1.submit();
+  </script>
+  <br><br><br><br>
+  <table class='Tbl2'>
+    <tr>      
+        <td class='Td1' >PREFACTURA ELIMINADA CON EXITO</td>
+    </tr>
+  </table>
+  <?
+}
+mysql_close();
+echo"<input type='hidden' name='id_fac' value='$iden_fac'>"; 
+?>
+</form>
+</body>
+</html>
+<?php
+}
+?>

@@ -1,0 +1,11 @@
+iden_ctr|701
+tipo_fac|2
+feci_fac|25/07/2022
+fecf_fac|27/07/2022
+rela_fac|
+codi_usu|161084
+iden_ctr|701
+cod_cie10|N939
+area_fac|06F4
+enti_fac|901021565-8
+nauto_fac|

@@ -1,0 +1,12 @@
+tipo|I
+codigo|3000010000032
+servicio|0634
+cant_dfa|1
+tipo|I
+codigo|3000005001017
+servicio|0634
+cant_dfa|1
+tipo|I
+codigo|3000010000009
+servicio|0634
+cant_dfa|1

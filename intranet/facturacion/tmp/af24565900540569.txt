@@ -1,0 +1,11 @@
+iden_ctr|315
+tipo_fac|2
+feci_fac|26/06/2013
+fecf_fac|26/06/2013
+rela_fac|
+codi_usu|28465
+iden_ctr|315
+cod_cie10|M238
+area_fac|0698
+enti_fac|900540569
+nauto_fac|

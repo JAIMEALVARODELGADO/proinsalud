@@ -1,0 +1,9 @@
+tipo|P
+codigo|148876
+cant_dfa|1
+tipo|P
+codigo|143034
+cant_dfa|1
+tipo|P
+codigo|148876
+cant_dfa|1

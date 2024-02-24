@@ -1,0 +1,3 @@
+tipo|P
+codigo|150121
+cant_dfa|1

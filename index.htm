@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+
+<html>
+<head>
+
+<title>index</title>
+<Script Language="JavaScript">
+function load() {
+	//para resolucion 800x600 
+	if (screen.width==800||screen.height==600) var load = window.open('inicio.htm','','scrollbars=si,menubar=si,width=800,height=600,top=0, left=0, resizable=si,toolbar=si,location=si,status=si, fullscreen=yes');
+	// para resolucion 640x480 
+	else if (screen.width==640||screen.height==480) var load = window.open('inicio.htm','','scrollbars=si,menubar=si,width=640,height=480,top=0, left=0, resizable=si,toolbar=si,location=si,status=si, fullscreen=yes');
+	//para resolucion 1024x768 
+	else if (screen.width==1024||screen.height==768) var load = window.open('inicio.htm','','scrollbars=si,menubar=si,width=1024,height=768,top=0, left=0, resizable=si,toolbar=si,location=si,status=si, fullscreen=yes');
+	//para otras resoluciones 
+	else var load = window.open('inicio.htm','','scrollbars=si,menubar=si,width=2024,height=700,top=0, left=0, resizable=si,toolbar=si,location=si,status=si, fullscreen=yes');
+}
+</Script>
+
+
+</head>
+<body onload="javascript:load()">
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,11 @@
+iden_ctr|778
+tipo_fac|2
+feci_fac|10/08/2023
+fecf_fac|11/08/2023
+rela_fac|
+codi_usu|13853241
+iden_ctr|778
+cod_cie10|T742
+area_fac|
+enti_fac|901021565
+nauto_fac|

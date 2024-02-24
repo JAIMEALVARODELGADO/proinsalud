@@ -1,0 +1,9 @@
+iden_ctr|14
+tipo_fac|2
+feci_fac|03/11/2011
+fecf_fac|04/01/2012
+rela_fac|
+codi_usu|274284
+iden_ctr|14
+cod_cie10|P072
+enti_fac|814000337-1

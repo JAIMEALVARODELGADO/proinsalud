@@ -1,0 +1,9 @@
+tipo|P
+codigo|107681
+cant_dfa|1
+tipo|P
+codigo|105561
+cant_dfa|1
+tipo|P
+codigo|105873
+cant_dfa|1

@@ -1,0 +1,3 @@
+tipo|P
+codigo|360202
+cant_dfa|19

@@ -1,0 +1,11 @@
+iden_ctr|573
+tipo_fac|2
+feci_fac|09/11/2023
+fecf_fac|10/11/2023
+rela_fac|
+codi_usu|157373
+iden_ctr|573
+cod_cie10|H46X
+area_fac|
+enti_fac|830023202-1
+nauto_fac|

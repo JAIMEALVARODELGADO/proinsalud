@@ -1,0 +1,12 @@
+tipo|P
+codigo|33416
+cant_dfa|2
+tipo|P
+codigo|33880
+cant_dfa|1
+tipo|P
+codigo|34134
+cant_dfa|1
+tipo|P
+codigo|34365
+cant_dfa|1

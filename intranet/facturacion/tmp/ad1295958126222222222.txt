@@ -1,0 +1,4 @@
+tipo|M
+codigo|217612
+servicio|0680
+cant_dfa|1

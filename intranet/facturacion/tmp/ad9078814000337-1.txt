@@ -1,0 +1,9 @@
+tipo|I
+codigo|3000005000220
+cant_dfa|1
+tipo|M
+codigo|151062
+cant_dfa|2
+tipo|P
+codigo|16447
+cant_dfa|1

@@ -1,0 +1,11 @@
+iden_ctr|257
+tipo_fac|2
+feci_fac|01/12/2015
+fecf_fac|29/12/2015
+rela_fac|
+codi_usu|25717
+iden_ctr|257
+cod_cie10|J960
+area_fac|0630
+enti_fac|900540569
+nauto_fac|

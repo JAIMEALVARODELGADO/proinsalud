@@ -1,0 +1,3 @@
+tipo|P
+codigo|2518316
+cant_dfa|1

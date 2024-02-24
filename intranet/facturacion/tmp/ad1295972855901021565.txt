@@ -1,0 +1,16 @@
+tipo|P
+codigo|5753472
+servicio|0680
+cant_dfa|1
+tipo|P
+codigo|5753448
+servicio|0680
+cant_dfa|1
+tipo|P
+codigo|5753584
+servicio|0680
+cant_dfa|1
+tipo|P
+codigo|5753581
+servicio|0680
+cant_dfa|1

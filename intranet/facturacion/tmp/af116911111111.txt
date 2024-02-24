@@ -1,0 +1,9 @@
+iden_ctr|32
+tipo_fac|2
+feci_fac|25/05/2012
+fecf_fac|31/05/2012
+rela_fac|
+codi_usu|2524
+iden_ctr|32
+cod_cie10|M169
+enti_fac|11111111

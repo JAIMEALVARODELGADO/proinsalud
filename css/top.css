@@ -1,0 +1,44 @@
+body {
+  background-color: #ffb756;
+  font : 8pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-weight : bold;
+  color : #ffb756;
+  text-align: center;  
+}
+
+#navegador{
+  background : #8F8FBD;
+  padding : 3px 10px 5px 10px;
+  border-top : 0px solid #cccccc;
+  border-bottom : 1px solid #cccccc;
+
+}
+
+img {
+  border: none;
+}
+
+
+a:link {
+  color: #FFFFFF;
+}
+
+a:visited {
+  color:#FFFFFF ;
+}
+
+a:active {
+  color: #FFB756;
+}
+
+a:hover{
+  text-decoration:underline;
+  color:#FFB756;
+} 
+
+a{
+  text-decoration:none;
+} 
+
+
+

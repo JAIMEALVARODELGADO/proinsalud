@@ -1,0 +1,36 @@
+tipo|I
+codigo|3000010000009
+servicio|0698
+cant_dfa|1
+tipo|I
+codigo|3000005001017
+servicio|0698
+cant_dfa|1
+tipo|I
+codigo|3000005000008
+servicio|0698
+cant_dfa| 1
+tipo|I
+codigo|3000005000002
+servicio|0698
+cant_dfa|1
+tipo|M
+codigo|511573
+servicio|0698
+cant_dfa| 1
+tipo|M
+codigo|215004
+servicio|0698
+cant_dfa|2
+tipo|M
+codigo|574395
+servicio|0698
+cant_dfa|  1
+tipo|M
+codigo|332003
+servicio|0698
+cant_dfa|1
+tipo|I
+codigo|3000055000005
+servicio|06F4
+cant_dfa|1

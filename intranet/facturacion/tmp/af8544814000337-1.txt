@@ -1,0 +1,9 @@
+iden_ctr|5
+tipo_fac|2
+feci_fac|21/06/2011
+fecf_fac|22/06/2011
+rela_fac|
+codi_usu|265433
+iden_ctr|5
+cod_cie10|I219
+enti_fac|814000337-1

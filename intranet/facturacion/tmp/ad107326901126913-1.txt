@@ -1,0 +1,8 @@
+tipo|I
+codigo|3000055000011
+servicio|0634
+cant_dfa|1
+tipo|M
+codigo|839251
+servicio|0634
+cant_dfa|1

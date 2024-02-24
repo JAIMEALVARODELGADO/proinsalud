@@ -1,0 +1,3 @@
+tipo|P
+codigo|
+cant_dfa|0

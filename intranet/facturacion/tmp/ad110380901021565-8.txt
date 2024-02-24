@@ -1,0 +1,4 @@
+tipo|P
+codigo|890206
+servicio|04
+cant_dfa|1

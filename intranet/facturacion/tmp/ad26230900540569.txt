@@ -1,0 +1,6 @@
+tipo|P
+codigo|360202
+cant_dfa|1
+tipo|P
+codigo|360138
+cant_dfa|1

@@ -1,0 +1,3 @@
+tipo|M
+codigo|044541
+cant_dfa|1

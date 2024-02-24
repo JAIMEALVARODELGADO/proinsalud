@@ -1,0 +1,11 @@
+iden_ctr|210
+tipo_fac|2
+feci_fac|23/09/2014
+fecf_fac|25/09/2014
+rela_fac|
+codi_usu|303136
+iden_ctr|210
+cod_cie10|J81X
+area_fac|0630
+enti_fac|814000337-1
+nauto_fac|20141542584

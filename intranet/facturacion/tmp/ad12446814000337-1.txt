@@ -1,0 +1,3 @@
+tipo|P
+codigo|88545
+cant_dfa|1

@@ -1,0 +1,11 @@
+iden_ctr|556
+tipo_fac|2
+feci_fac|30/03/2019
+fecf_fac|30/03/2019
+rela_fac|
+codi_usu|294683
+iden_ctr|556
+cod_cie10|H268
+area_fac|0698
+enti_fac|006
+nauto_fac|

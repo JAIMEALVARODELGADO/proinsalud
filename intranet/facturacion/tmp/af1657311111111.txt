@@ -1,0 +1,10 @@
+iden_ctr|32
+tipo_fac|2
+feci_fac|24/07/2012
+fecf_fac|27/07/2012
+rela_fac|
+codi_usu|12631
+iden_ctr|32
+cod_cie10|R568
+area_fac|0682
+enti_fac|11111111

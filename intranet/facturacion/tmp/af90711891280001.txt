@@ -1,0 +1,11 @@
+iden_ctr|442
+tipo_fac|2
+feci_fac|07/11/2017
+fecf_fac|10/11/2017
+rela_fac|
+codi_usu|1007887
+iden_ctr|442
+cod_cie10|K922
+area_fac|0681
+enti_fac|891280001
+nauto_fac|

@@ -1,0 +1,11 @@
+iden_ctr|294
+tipo_fac|2
+feci_fac|04/06/2015
+fecf_fac|04/06/2015
+rela_fac|
+codi_usu|257994
+iden_ctr|294
+cod_cie10|C443
+area_fac|0698
+enti_fac|830074184
+nauto_fac|

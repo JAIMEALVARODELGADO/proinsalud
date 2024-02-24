@@ -1,0 +1,9 @@
+iden_ctr|17
+tipo_fac|2
+feci_fac|22/07/2011
+fecf_fac|26/07/2011
+rela_fac|
+codi_usu|270597
+iden_ctr|17
+cod_cie10|P599
+enti_fac|11111111

@@ -1,0 +1,3 @@
+tipo|P
+codigo|764457
+cant_dfa|16

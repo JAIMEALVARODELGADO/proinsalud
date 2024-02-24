@@ -1,0 +1,16 @@
+tipo|M
+codigo|001164
+servicio|0680
+cant_dfa|1
+tipo|M
+codigo|001164
+servicio|0680
+cant_dfa|1
+tipo|M
+codigo|001164
+servicio|0680
+cant_dfa|1
+tipo|M
+codigo|001164
+servicio|0680
+cant_dfa|1

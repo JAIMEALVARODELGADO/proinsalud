@@ -1,0 +1,3 @@
+tipo|P
+codigo|143232
+cant_dfa|7

@@ -1,0 +1,3 @@
+tipo|P
+codigo|2187998
+cant_dfa|1

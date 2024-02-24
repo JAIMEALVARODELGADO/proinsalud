@@ -1,0 +1,9 @@
+tipo|P
+codigo|1530719
+cant_dfa|1
+tipo|P
+codigo|1530717
+cant_dfa|5
+tipo|P
+codigo|1530711
+cant_dfa|3

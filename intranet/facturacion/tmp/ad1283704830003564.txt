@@ -1,0 +1,4 @@
+tipo|M
+codigo|544275
+servicio|0681
+cant_dfa|2

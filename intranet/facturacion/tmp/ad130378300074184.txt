@@ -1,0 +1,6 @@
+tipo|P
+codigo|120329
+cant_dfa|1
+tipo|P
+codigo|120332
+cant_dfa|2

@@ -1,0 +1,9 @@
+tipo|P
+codigo|
+cant_dfa|0
+tipo|P
+codigo|15807
+cant_dfa|1
+tipo|P
+codigo|16403
+cant_dfa|1

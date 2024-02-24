@@ -1,0 +1,11 @@
+iden_ctr|676
+tipo_fac|2
+feci_fac|29/01/2021
+fecf_fac|02/02/2021
+rela_fac|
+codi_usu|5930
+iden_ctr|676
+cod_cie10|C775
+area_fac|0681
+enti_fac|901021565-8
+nauto_fac|

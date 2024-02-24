@@ -1,0 +1,11 @@
+iden_ctr|740
+tipo_fac|1
+feci_fac|15/02/2023
+fecf_fac|22/02/2023
+rela_fac|
+codi_usu|13844134
+iden_ctr|740
+cod_cie10|J81X
+area_fac|06F4
+enti_fac|901021565
+nauto_fac|

@@ -1,0 +1,12 @@
+tipo|M
+codigo|511576
+servicio|0630
+cant_dfa|1
+tipo|M
+codigo|217036
+servicio|0630
+cant_dfa|0
+tipo|M
+codigo|182045
+servicio|0630
+cant_dfa|0

@@ -1,0 +1,4 @@
+tipo|M
+codigo|041042
+servicio|0630
+cant_dfa|1

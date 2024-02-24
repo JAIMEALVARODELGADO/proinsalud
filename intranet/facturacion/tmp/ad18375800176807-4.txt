@@ -1,0 +1,3 @@
+tipo|P
+codigo|107843
+cant_dfa|1

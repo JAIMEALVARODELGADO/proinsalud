@@ -1,0 +1,9 @@
+iden_ctr|18
+tipo_fac|2
+feci_fac|15/07/2011
+fecf_fac|26/07/2011
+rela_fac|
+codi_usu|268593
+iden_ctr|18
+cod_cie10|O141
+enti_fac|11111111

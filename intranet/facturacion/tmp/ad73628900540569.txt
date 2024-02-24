@@ -1,0 +1,6 @@
+tipo|I
+codigo|0010013000017
+cant_dfa|1
+tipo|P
+codigo|2473313
+cant_dfa|1

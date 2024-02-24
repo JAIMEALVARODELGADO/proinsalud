@@ -1,0 +1,3 @@
+tipo|P
+codigo|50544
+cant_dfa|1

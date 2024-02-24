@@ -1,0 +1,10 @@
+iden_ctr|32
+tipo_fac|2
+feci_fac|17/10/2012
+fecf_fac|31/10/2012
+rela_fac|
+codi_usu|3913
+iden_ctr|32
+cod_cie10|K565
+area_fac|0681
+enti_fac|800176807-4

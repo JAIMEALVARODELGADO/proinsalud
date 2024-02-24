@@ -1,0 +1,10 @@
+iden_ctr|45
+tipo_fac|2
+feci_fac|27/09/2012
+fecf_fac|27/09/2012
+rela_fac|
+codi_usu|1659
+iden_ctr|45
+cod_cie10|N63X
+area_fac|0698
+enti_fac|800251440

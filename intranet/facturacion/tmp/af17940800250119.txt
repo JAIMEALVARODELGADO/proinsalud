@@ -1,0 +1,10 @@
+iden_ctr|76
+tipo_fac|2
+feci_fac|01/10/2012
+fecf_fac|01/10/2012
+rela_fac|
+codi_usu|265441
+iden_ctr|76
+cod_cie10|M674
+area_fac|0698
+enti_fac|800250119

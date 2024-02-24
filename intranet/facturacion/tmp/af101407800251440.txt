@@ -1,0 +1,11 @@
+iden_ctr|514
+tipo_fac|2
+feci_fac|10/09/2018
+fecf_fac|10/09/2018
+rela_fac|
+codi_usu|296326
+iden_ctr|514
+cod_cie10|L038
+area_fac|0682
+enti_fac|800251440
+nauto_fac|

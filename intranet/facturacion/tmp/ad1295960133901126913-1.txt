@@ -1,0 +1,4 @@
+tipo|M
+codigo|039399
+servicio|0630
+cant_dfa|1

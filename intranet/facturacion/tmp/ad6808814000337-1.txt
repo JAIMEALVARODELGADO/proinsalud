@@ -1,0 +1,6 @@
+tipo|P
+codigo|16430
+cant_dfa|1
+tipo|P
+codigo|16447
+cant_dfa|1

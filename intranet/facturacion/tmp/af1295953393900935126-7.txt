@@ -1,0 +1,11 @@
+iden_ctr|703
+tipo_fac|2
+feci_fac|16/10/2022
+fecf_fac|19/10/2022
+rela_fac|
+codi_usu|13842705
+iden_ctr|703
+cod_cie10|P599
+area_fac|0669
+enti_fac|900935126-7
+nauto_fac|212012264

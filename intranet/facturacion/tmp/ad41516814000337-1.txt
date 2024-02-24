@@ -1,0 +1,3 @@
+tipo|P
+codigo|998854
+cant_dfa|2

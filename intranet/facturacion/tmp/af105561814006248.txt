@@ -1,0 +1,11 @@
+iden_ctr|530
+tipo_fac|2
+feci_fac|30/12/2018
+fecf_fac|30/12/2018
+rela_fac|
+codi_usu|170781
+iden_ctr|530
+cod_cie10|J180
+area_fac|
+enti_fac|814006248
+nauto_fac|

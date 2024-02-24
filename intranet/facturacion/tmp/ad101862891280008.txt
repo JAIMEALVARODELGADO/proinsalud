@@ -1,0 +1,4 @@
+tipo|P
+codigo|4240064
+servicio|0680
+cant_dfa|6

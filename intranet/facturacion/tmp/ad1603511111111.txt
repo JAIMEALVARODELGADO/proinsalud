@@ -1,0 +1,3 @@
+tipo|P
+codigo|108341
+cant_dfa|1

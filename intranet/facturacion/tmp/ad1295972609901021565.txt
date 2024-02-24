@@ -1,0 +1,8 @@
+tipo|P
+codigo|5753211
+servicio|0634
+cant_dfa|1
+tipo|P
+codigo|5753747
+servicio|0634
+cant_dfa|1

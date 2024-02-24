@@ -1,0 +1,3 @@
+tipo|P
+codigo|2187981
+cant_dfa|1

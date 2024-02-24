@@ -1,0 +1,3 @@
+tipo|P
+codigo|46616
+cant_dfa|1

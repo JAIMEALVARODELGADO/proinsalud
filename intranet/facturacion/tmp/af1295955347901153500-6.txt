@@ -1,0 +1,11 @@
+iden_ctr|729
+tipo_fac|2
+feci_fac|25/11/2022
+fecf_fac|25/11/2022
+rela_fac|
+codi_usu|40009
+iden_ctr|729
+cod_cie10|D259
+area_fac|0630
+enti_fac|901153500-6
+nauto_fac|

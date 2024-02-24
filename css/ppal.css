@@ -1,0 +1,241 @@
+.Bds1{ /*Para los body*/
+	font: 12px Verdana;
+	text-align: Justify;
+	text-indent: 15px;
+	margin : 10px;
+}
+
+.Tbls1{ /*Modelo 1 Para tablas*/
+	text-align: Justify;
+	text-indent: 15px;
+	width: 60%;
+	margin: 30px 50px 20px 50px;
+	border-right : 2px Inset #CCCCCC;
+	border-bottom : 2px Inset #CCCCCC;
+}
+
+.Tbls2{ /*Modelo 2 para tablas*/
+	text-align: justify;
+	width: 80%;
+	margin: 20px;
+	border-right : 2px Inset #CCCCCC;
+	border-bottom : 2px Inset #CCCCCC;
+}
+
+.Ths1{ /*Para los titulos de las tablas*/
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: Bold;
+	text-align: Left;
+	text-transform : Uppercase;
+	background: Transparent Url("css_img/fondo1.gif") No-Repeat;
+	border-top: 1px Solid #CCCCCC;
+	border-bottom : 2px Inset #CCCCCC;
+}
+
+.Tds1{ /*Para el contenido de las tablas*/
+	font-size: 12px; 
+	background-color: #F0F0F0; 
+	margin: 5px;
+	padding: 5px;
+}
+
+.clase0{
+	width: 90%;
+	margin: 10px 10px 10px 10px;
+}
+
+.clase1{
+	background-color: #F0E8FF;
+	font-family: Arial;
+	font-size: 10px;
+	border: 0px;
+	text-align: Right;
+	text-transform: Uppercase;
+	padding: 5px 5px 5px 5px;
+	margin: 10px 5px 5px 5px;
+}
+
+.clase2{
+	background-color: #F0E8FF;
+	font-family: Arial;
+	font-size: 10px;
+	border: 0px;
+	text-align: Left;
+	padding: 5px;
+	margin: 10px 5px 5px 5px;
+}
+
+.Cajas{ /*Para campos de texto en formularios*/
+	font-family: Arial;
+	font-size: 10px;
+	text-align: left;
+	border: 1px Solid #FFB756;
+}
+
+.Botones{ /*Para botones de formularios*/
+	font-family: Verdana;
+	font-size: 10px;
+	font-style: Oblique;
+	font-weight: Bold;
+	text-align: Center;
+	border: 1px Ridge #FFFFFF;
+	text-transform : Uppercase;
+	background-color: #FFB756;
+	width: 140px;
+	height: 25px;
+}
+
+.public{ /*Estilo público de texto*/
+	font-family: Verdana;
+	font-style: Oblique;
+	font-size: 9px;
+	color: #8F8FBD;
+	font-weight: Bold;
+	text-transform : Uppercase;
+}
+
+.Margen{ /*Marjenes para mensajes dentro de marquee*/
+	margin: 20px 10px 10px 10px;
+}
+
+.Alerta { /*Informe de operación ejecutada en el sistema*/
+	width: 30%;
+	background: #F0E8FF Url(css_img/information.png) No-Repeat Center;
+	background-position: 15px 50%; /* x-pos y-pos */
+	text-align: Justify;
+	padding: 5px 20px 5px 45px;
+	border-top: 2px Solid #8F8FBD;
+	border-bottom: 2px Solid #8F8FBD;
+	color: #000000;
+}
+
+.em{ /*Para subtitulos o texto independiente*/
+	font-family: 12px Verdana;
+	font-weight: Bold;
+	font-style: Oblique;
+	text-transform : Uppercase;
+	color:#FF8000;
+}
+
+.Flts1:first-letter{ /*Para 1ras letras de párrafo*/
+	font-size: 150%; 
+	font-weight: Bold; 
+	color: #8F8FBD;
+	text-transform : Uppercase;
+}
+
+.Flns1:first-line{ /*Para 1ras líneas de párrafo */
+	font-size: 120%; 
+	font-weight: Bold; 
+	color: #8F8FBD;
+	text-transform : Uppercase;
+}
+
+a:link{
+	color: #8F8FBD;
+}
+
+a:visited{
+	color: #8F8FBD ;
+}
+
+a:active{
+	color: #FF8000;
+}
+
+a:hover{
+	text-decoration: Underline;
+	color: #FF8000;
+} 
+
+a{
+	text-decoration: None;
+} 
+
+img{
+	border: None;
+}
+
+H1{ /*Para titulos tipo 1*/
+	font-size: 14px;
+	color: #8F8FBD;
+	text-transform : Uppercase;
+	text-align: Justify;
+  	width: 80%;
+	margin: 30px 0px 10px 0px;
+}
+
+H2{ /*Para titulos tipo 2*/
+	font-size: 12px;
+	color: #8F8FBD;
+	text-transform : Capitalize;
+	text-align: Justify;
+  	width: 80%;
+	margin: 10px 10px 10px 20px;
+}
+
+#ppal ul{ 
+	margin: 0px 10px 0px 5px;  
+	list-style: None;
+	padding: 0px 10px 0px 10px; 
+}
+
+#ppal li{
+	padding-left: 30px;
+	margin-bottom: 5px;	
+	font-weight: Bold;
+}
+
+#gral ul{ 
+	margin: 0px 10px 0px 0px;  
+	list-style: None;
+	padding: 0px 10px 0px 0px; 
+}
+
+#gral li{
+	margin : 0px 10px 0px 0px;    
+	padding-left: 10px;
+	margin-bottom: 1px;	
+	font-weight: Normal;
+}
+
+#Lst1 ul{ /*Para listas tipo 1*/
+	margin: 0px 10px 0px 0px;  
+	list-style: Inside;
+	padding: 0px 10px 0px 0px; 
+}
+
+#Lst1 li{ /*Para los itens de listas tipo 1*/
+	margin : 0px 10px 0px 0px;    
+	padding-left: 10px;
+	margin-bottom: 1px;	
+	font-weight: Normal;
+}
+
+
+#lateral_der{
+	margin: 22px;    
+	width: 170px;
+	float: Right;
+	/*background: Transparent Url("css_img/medicamentos.gif") No-Repeat Center 45px 62px;*/
+	background-color: #F0E8FF;
+	border : 10px Double #F0E8FF; 
+	font-family: Verdana;
+	text-align: Center;
+	text-indent: 0px;
+}
+ 
+ #lateral_inf{
+	position: Absolute;
+	width: 75%;
+	height: 10px;
+	top: 90%;
+	border-top: 1px Solid #8F8FBD;
+	font-size: 9px;
+	text-align: Center;
+}
+
+.act{
+	color:#FF8000;
+}

@@ -1,0 +1,10 @@
+iden_ctr|96
+tipo_fac|2
+feci_fac|07/11/2013
+fecf_fac|12/11/2013
+rela_fac|
+codi_usu|279123
+iden_ctr|96
+cod_cie10|I209
+area_fac|0680
+enti_fac|900540569

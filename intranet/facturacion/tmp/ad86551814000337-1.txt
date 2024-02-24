@@ -1,0 +1,6 @@
+tipo|P
+codigo|3563043
+cant_dfa|1
+tipo|P
+codigo|3563221
+cant_dfa|1

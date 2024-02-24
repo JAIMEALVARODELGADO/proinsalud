@@ -1,0 +1,6 @@
+tipo|P
+codigo|1484132
+cant_dfa|1
+tipo|P
+codigo|1484133
+cant_dfa|1

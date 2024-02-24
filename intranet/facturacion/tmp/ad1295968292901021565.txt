@@ -1,0 +1,8 @@
+tipo|M
+codigo|807033
+servicio|06F4
+cant_dfa|1
+tipo|M
+codigo|485451
+servicio|06F4
+cant_dfa|1

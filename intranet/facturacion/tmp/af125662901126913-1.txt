@@ -1,0 +1,11 @@
+iden_ctr|611
+tipo_fac|2
+feci_fac|22/09/2020
+fecf_fac|22/09/2020
+rela_fac|
+codi_usu|14709
+iden_ctr|611
+cod_cie10|C900
+area_fac|0698
+enti_fac|901126913-1
+nauto_fac|

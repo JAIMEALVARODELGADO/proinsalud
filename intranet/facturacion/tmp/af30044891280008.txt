@@ -1,0 +1,10 @@
+iden_ctr|188
+tipo_fac|2
+feci_fac|25/01/2014
+fecf_fac|27/01/2014
+rela_fac|
+codi_usu|295248
+iden_ctr|188
+cod_cie10|C159
+area_fac|0681
+enti_fac|891280008

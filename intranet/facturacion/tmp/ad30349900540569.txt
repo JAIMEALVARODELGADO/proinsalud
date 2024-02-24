@@ -1,0 +1,3 @@
+tipo|I
+codigo|3000005000327
+cant_dfa|1

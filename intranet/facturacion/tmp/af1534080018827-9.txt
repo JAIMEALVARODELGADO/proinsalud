@@ -1,0 +1,10 @@
+iden_ctr|36
+tipo_fac|2
+feci_fac|28/05/2012
+fecf_fac|28/05/2012
+rela_fac|
+codi_usu|261683
+iden_ctr|36
+cod_cie10|D34X
+area_fac|0698
+enti_fac|80018827-9

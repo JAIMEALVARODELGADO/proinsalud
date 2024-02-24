@@ -1,0 +1,11 @@
+iden_ctr|597
+tipo_fac|2
+feci_fac|04/09/2019
+fecf_fac|12/09/2019
+rela_fac|
+codi_usu|1372756
+iden_ctr|597
+cod_cie10|N883
+area_fac|0680
+enti_fac|891280001
+nauto_fac|

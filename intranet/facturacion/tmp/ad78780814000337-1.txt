@@ -1,0 +1,6 @@
+tipo|P
+codigo|2482638
+cant_dfa|2
+tipo|P
+codigo|2482632
+cant_dfa|2

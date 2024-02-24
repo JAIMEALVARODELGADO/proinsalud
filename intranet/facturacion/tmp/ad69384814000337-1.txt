@@ -1,0 +1,3 @@
+tipo|P
+codigo|1539833
+cant_dfa|1

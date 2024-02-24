@@ -1,0 +1,3 @@
+tipo|P
+codigo|890201
+cant_dfa|1

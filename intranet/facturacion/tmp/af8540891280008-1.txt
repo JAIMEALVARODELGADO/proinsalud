@@ -1,0 +1,9 @@
+iden_ctr|11
+tipo_fac|2
+feci_fac|28/06/2011
+fecf_fac|02/07/2011
+rela_fac|
+codi_usu|269861
+iden_ctr|11
+cod_cie10|P369
+enti_fac|891280008-1

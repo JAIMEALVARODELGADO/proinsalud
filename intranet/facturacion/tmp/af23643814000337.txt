@@ -1,0 +1,10 @@
+iden_ctr|130
+tipo_fac|2
+feci_fac|21/05/2013
+fecf_fac|14/06/2013
+rela_fac|
+codi_usu|289226
+iden_ctr|130
+cod_cie10|P013
+area_fac|0669
+enti_fac|814000337

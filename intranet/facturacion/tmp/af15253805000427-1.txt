@@ -1,0 +1,10 @@
+iden_ctr|43
+tipo_fac|2
+feci_fac|23/05/2012
+fecf_fac|23/05/2012
+rela_fac|
+codi_usu|154789
+iden_ctr|43
+cod_cie10|K429
+area_fac|0698
+enti_fac|805000427-1

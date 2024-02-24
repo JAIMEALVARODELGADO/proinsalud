@@ -1,0 +1,11 @@
+iden_ctr|538
+tipo_fac|2
+feci_fac|18/01/2019
+fecf_fac|18/01/2019
+rela_fac|
+codi_usu|9868
+iden_ctr|538
+cod_cie10|I48X
+area_fac|0682
+enti_fac|901153500-6
+nauto_fac|

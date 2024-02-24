@@ -1,0 +1,9 @@
+iden_ctr|18
+tipo_fac|2
+feci_fac|05/08/2011
+fecf_fac|16/08/2011
+rela_fac|
+codi_usu|271271
+iden_ctr|18
+cod_cie10|I212
+enti_fac|800141060-9

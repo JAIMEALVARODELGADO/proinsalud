@@ -1,0 +1,11 @@
+iden_ctr|601
+tipo_fac|2
+feci_fac|30/10/2019
+fecf_fac|30/10/2019
+rela_fac|
+codi_usu|1374447
+iden_ctr|601
+cod_cie10|D440
+area_fac|0630
+enti_fac|900935126-7
+nauto_fac|

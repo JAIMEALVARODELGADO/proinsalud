@@ -1,0 +1,4 @@
+tipo|P
+codigo|5042476
+servicio|0630
+cant_dfa|1                       1

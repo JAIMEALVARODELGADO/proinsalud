@@ -1,0 +1,11 @@
+iden_ctr|462
+tipo_fac|2
+feci_fac|18/04/2018
+fecf_fac|19/04/2017
+rela_fac|
+codi_usu|1016323
+iden_ctr|462
+cod_cie10|P369
+area_fac|0669
+enti_fac|814000337-1
+nauto_fac|

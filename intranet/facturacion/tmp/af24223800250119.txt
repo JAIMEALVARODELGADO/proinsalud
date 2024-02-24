@@ -1,0 +1,10 @@
+iden_ctr|103
+tipo_fac|2
+feci_fac|13/06/2013
+fecf_fac|14/06/2013
+rela_fac|
+codi_usu|175553
+iden_ctr|103
+cod_cie10|L020
+area_fac|0680
+enti_fac|800250119

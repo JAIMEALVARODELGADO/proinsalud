@@ -1,0 +1,10 @@
+iden_ctr|32
+tipo_fac|2
+feci_fac|01/02/2013
+fecf_fac|04/02/2013
+rela_fac|
+codi_usu|286199
+iden_ctr|32
+cod_cie10|K85X
+area_fac|0681
+enti_fac|800176807-4

@@ -1,0 +1,11 @@
+iden_ctr|80
+tipo_fac|2
+feci_fac|21/06/2016
+fecf_fac|21/06/2016
+rela_fac|
+codi_usu|23110
+iden_ctr|80
+cod_cie10|R619
+area_fac|0698
+enti_fac|814006248
+nauto_fac|

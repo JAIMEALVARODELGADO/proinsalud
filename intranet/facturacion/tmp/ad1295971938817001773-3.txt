@@ -1,0 +1,24 @@
+tipo|M
+codigo|041037
+servicio|0680
+cant_dfa| 1
+tipo|M
+codigo|485634
+servicio|0680
+cant_dfa|2
+tipo|I
+codigo|3000055000005
+servicio|0680
+cant_dfa|1
+tipo|M
+codigo|511575
+servicio|0680
+cant_dfa|1
+tipo|M
+codigo|367482
+servicio|0680
+cant_dfa|1
+tipo|I
+codigo|3000005000007
+servicio|0680
+cant_dfa|1

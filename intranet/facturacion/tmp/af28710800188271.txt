@@ -1,0 +1,10 @@
+iden_ctr|171
+tipo_fac|2
+feci_fac|28/12/2013
+fecf_fac|12/01/2014
+rela_fac|
+codi_usu|6826
+iden_ctr|171
+cod_cie10|D649
+area_fac|
+enti_fac|800188271

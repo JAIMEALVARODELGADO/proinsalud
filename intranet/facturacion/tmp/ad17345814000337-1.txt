@@ -1,0 +1,15 @@
+tipo|P
+codigo|142156
+cant_dfa|1
+tipo|P
+codigo|142157
+cant_dfa|1
+tipo|P
+codigo|142482
+cant_dfa|1
+tipo|P
+codigo|142156
+cant_dfa|1
+tipo|P
+codigo|142157
+cant_dfa|1

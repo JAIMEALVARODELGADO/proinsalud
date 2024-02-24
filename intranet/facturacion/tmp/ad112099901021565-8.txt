@@ -1,0 +1,12 @@
+tipo|P
+codigo|4508141
+servicio|0680
+cant_dfa|3
+tipo|P
+codigo|4505803
+servicio|0634
+cant_dfa|1
+tipo|P
+codigo|4507884
+servicio|0634
+cant_dfa|1

@@ -1,0 +1,11 @@
+iden_ctr|481
+tipo_fac|2
+feci_fac|14/09/2018
+fecf_fac|15/09/2018
+rela_fac|
+codi_usu|55886
+iden_ctr|481
+cod_cie10|R611
+area_fac|0681
+enti_fac|006
+nauto_fac|

@@ -1,0 +1,3 @@
+tipo|P
+codigo|1294942
+cant_dfa|1

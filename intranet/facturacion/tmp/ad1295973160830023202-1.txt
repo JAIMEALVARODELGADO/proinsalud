@@ -1,0 +1,4 @@
+tipo|M
+codigo|004149
+servicio|0634
+cant_dfa|1

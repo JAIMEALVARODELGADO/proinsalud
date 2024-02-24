@@ -1,0 +1,9 @@
+iden_ctr|5
+tipo_fac|2
+feci_fac|26/07/2011
+fecf_fac|29/07/2011
+rela_fac|
+codi_usu|270935
+iden_ctr|5
+cod_cie10|J960
+enti_fac|814000337-1

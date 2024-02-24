@@ -1,0 +1,3 @@
+tipo|P
+codigo|1530719
+cant_dfa|13

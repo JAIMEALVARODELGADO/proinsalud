@@ -1,0 +1,11 @@
+iden_ctr|406
+tipo_fac|2
+feci_fac|05/01/2017
+fecf_fac|18/01/2017
+rela_fac|
+codi_usu|15373
+iden_ctr|406
+cod_cie10|J159
+area_fac|0680
+enti_fac|900540569
+nauto_fac|

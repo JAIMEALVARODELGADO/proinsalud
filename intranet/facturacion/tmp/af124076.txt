@@ -1,0 +1,11 @@
+iden_ctr|
+tipo_fac|
+feci_fac|
+fecf_fac|
+rela_fac|
+codi_usu|
+iden_ctr|
+cod_cie10|
+area_fac|
+enti_fac|
+nauto_fac|

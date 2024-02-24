@@ -1,0 +1,97 @@
+BODY {
+  background-color: #FFFFFF;
+  font : 8pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-weight : bold;
+  margin : 0px 0px 5px 0px;
+  padding : 0px;
+
+}
+
+#lateral{
+  width: 200px;
+  float:left;
+  background-color: #FFFFFF;
+  border-bottom : 1px solid #006699;
+  border-right : 1px solid #8F8FBD;
+}
+
+#lat{
+  width: 200px;
+  float:right;
+  background-color: #006699;
+  border-bottom : 1px solid #8F8FBD;
+  border-right : 1px solid #8F8FBD;
+}
+
+
+#general ul{
+  margin : 5px 5px 0px 0px;
+  list-style: none;
+  padding: 0px 0px 0px 4px;
+}
+
+#general li{
+  padding-left: 14px;
+  background: transparent url("css_img/vineta.gif") 0 2px no-repeat;
+  margin-bottom: 5px;	
+}
+#general lis{
+  padding-left: 14px;
+  background: transparent url("css_img/nuevo.png") 0 2px no-repeat;
+  margin-bottom: 5px;	
+}
+#general P{
+  text-align:justyfi;
+  color:#8F8FBD;
+  font-size:7pt;
+
+}  
+
+.titlat{
+  background-color:#8F8FBD;	  
+  color:#FFFFFF;
+  font-size:8pt;
+  text-transform : uppercase;
+  padding: 7px 3px 7px 8px;
+  margin: 0px 0px 8px 0px;  
+}
+
+.cuerpolateral{
+  padding: 0px 0px 10px 10px;
+}
+
+.cuerpocopy{
+  padding: 0px 5px 0px 5px;
+}
+
+A:link {
+  color: #8F8FBD;
+}
+
+A:visited {
+  color:#8F8FBD ;
+}
+
+A:active {
+  color: #FFB756;
+}
+
+A:hover{
+  text-decoration:underline;
+  color:#FFB756;
+} 
+
+A{
+  text-decoration:none;
+} 
+
+#inferior{
+	position: Absolute;
+	width: 10%;
+	height: 5px;
+	top: 75%;
+	left: 60;
+	border: 1px dotted #000000;
+	font-size: 9px;
+	font-weight:Bold;
+}

@@ -1,0 +1,11 @@
+iden_ctr|538
+tipo_fac|2
+feci_fac|09/12/2018
+fecf_fac|09/12/2018
+rela_fac|
+codi_usu|50
+iden_ctr|538
+cod_cie10|J90X
+area_fac|
+enti_fac|901153500-6
+nauto_fac|

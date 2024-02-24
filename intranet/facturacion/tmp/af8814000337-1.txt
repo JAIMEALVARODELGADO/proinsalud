@@ -1,0 +1,9 @@
+iden_ctr|210
+tipo_fac|2
+feci_fac|14/01/2012
+fecf_fac|09/06/2014
+rela_fac|
+codi_usu|276355
+iden_ctr|210
+cod_cie10|S525
+enti_fac|814000337-1

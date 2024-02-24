@@ -1,0 +1,11 @@
+iden_ctr|56
+tipo_fac|2
+feci_fac|23/10/2015
+fecf_fac|23/10/2015
+rela_fac|
+codi_usu|90
+iden_ctr|56
+cod_cie10|K811
+area_fac|0698
+enti_fac|900243869
+nauto_fac|

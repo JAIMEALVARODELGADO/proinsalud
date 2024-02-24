@@ -1,0 +1,11 @@
+iden_ctr|205
+tipo_fac|2
+feci_fac|26/04/2014
+fecf_fac|30/04/2014
+rela_fac|
+codi_usu|286086
+iden_ctr|205
+cod_cie10|C760
+area_fac|0630
+enti_fac|891280001
+nauto_fac|

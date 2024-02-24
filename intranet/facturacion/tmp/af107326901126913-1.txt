@@ -1,0 +1,11 @@
+iden_ctr|555
+tipo_fac|2
+feci_fac|15/02/2019
+fecf_fac|20/02/2019
+rela_fac|
+codi_usu|8017
+iden_ctr|555
+cod_cie10|I743
+area_fac|
+enti_fac|901126913-1
+nauto_fac|

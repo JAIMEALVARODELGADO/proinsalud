@@ -1,0 +1,3 @@
+tipo|P
+codigo|1293922
+cant_dfa|1

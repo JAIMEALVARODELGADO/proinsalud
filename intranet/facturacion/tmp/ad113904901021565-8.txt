@@ -1,0 +1,4 @@
+tipo|P
+codigo|4508141
+servicio|0682
+cant_dfa|2

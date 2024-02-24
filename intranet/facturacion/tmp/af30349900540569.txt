@@ -1,0 +1,10 @@
+iden_ctr|152
+tipo_fac|2
+feci_fac|01/02/2014
+fecf_fac|04/02/2014
+rela_fac|
+codi_usu|295796
+iden_ctr|152
+cod_cie10|P90X
+area_fac|0669
+enti_fac|900540569

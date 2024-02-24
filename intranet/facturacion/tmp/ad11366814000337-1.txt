@@ -1,0 +1,12 @@
+tipo|P
+codigo|38115
+cant_dfa|39
+tipo|P
+codigo|38118
+cant_dfa|14
+tipo|P
+codigo|38115
+cant_dfa|2
+tipo|P
+codigo|38118
+cant_dfa|5

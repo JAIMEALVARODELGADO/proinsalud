@@ -1,0 +1,6 @@
+tipo|P
+codigo|497846
+cant_dfa|3
+tipo|P
+codigo|497843
+cant_dfa|1

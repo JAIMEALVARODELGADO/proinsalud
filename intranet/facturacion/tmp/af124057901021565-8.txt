@@ -1,0 +1,11 @@
+iden_ctr|629
+tipo_fac|2
+feci_fac|12/07/2020
+fecf_fac|14/07/2020
+rela_fac|
+codi_usu|1379697
+iden_ctr|629
+cod_cie10|P073
+area_fac|0669
+enti_fac|901021565-8
+nauto_fac|

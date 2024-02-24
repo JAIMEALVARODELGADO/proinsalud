@@ -1,0 +1,4 @@
+tipo|P
+codigo|4179935
+servicio|0698
+cant_dfa|1

@@ -1,0 +1,11 @@
+iden_ctr|638
+tipo_fac|2
+feci_fac|26/02/2020
+fecf_fac|04/03/2020
+rela_fac|
+codi_usu|1376906
+iden_ctr|638
+cod_cie10|P073
+area_fac|0669
+enti_fac|900935126-7
+nauto_fac|205286835

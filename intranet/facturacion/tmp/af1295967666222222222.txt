@@ -1,0 +1,11 @@
+iden_ctr|746
+tipo_fac|1
+feci_fac|02/08/2023
+fecf_fac|03/08/2023
+rela_fac|
+codi_usu|158993
+iden_ctr|746
+cod_cie10|N189
+area_fac|0681
+enti_fac|222222222
+nauto_fac|

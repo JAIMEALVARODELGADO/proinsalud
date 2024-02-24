@@ -1,0 +1,4 @@
+tipo|I
+codigo|3000105000029
+servicio|0681
+cant_dfa|1

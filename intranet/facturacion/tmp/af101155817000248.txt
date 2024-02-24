@@ -1,0 +1,11 @@
+iden_ctr|483
+tipo_fac|2
+feci_fac|04/09/2018
+fecf_fac|04/09/2018
+rela_fac|
+codi_usu|282520
+iden_ctr|483
+cod_cie10|R17X
+area_fac|0698
+enti_fac|817000248
+nauto_fac|

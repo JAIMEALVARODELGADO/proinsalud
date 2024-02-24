@@ -1,0 +1,3 @@
+tipo|P
+codigo|2482632
+cant_dfa|2

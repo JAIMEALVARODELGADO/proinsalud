@@ -1,0 +1,10 @@
+iden_ctr|152
+tipo_fac|2
+feci_fac|18/03/2014
+fecf_fac|20/03/2014
+rela_fac|
+codi_usu|154567
+iden_ctr|152
+cod_cie10|O365
+area_fac|0681
+enti_fac|900540569

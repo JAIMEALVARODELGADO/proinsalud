@@ -1,0 +1,11 @@
+iden_ctr|745
+tipo_fac|2
+feci_fac|24/05/2023
+fecf_fac|26/05/2023
+rela_fac|
+codi_usu|5384
+iden_ctr|745
+cod_cie10|I219
+area_fac|0630
+enti_fac|901126913-1
+nauto_fac|

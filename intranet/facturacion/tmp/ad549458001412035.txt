@@ -1,0 +1,3 @@
+tipo|P
+codigo|1550552
+cant_dfa|4

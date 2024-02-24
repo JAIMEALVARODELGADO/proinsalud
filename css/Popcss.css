@@ -1,0 +1,90 @@
+#cerrarampliacion{
+	background-color: #FFF;
+	font-family: arial,verdana;
+	font-size: 8pt;
+	line-height: 20px;
+	text-align: center;
+	position: relative;
+	height: 20px;
+	padding-right: 5px;
+	z-index: 3;
+}	
+
+#Capa0{
+	position: relative;
+	margin: 10px;
+	width: 200px;
+	height: 350px;
+	background: #FFF;
+	opacity: .60; 
+	filter: alpha(opacity=60);
+	visibility: hidden;
+	z-index: 2;
+}
+
+#Capa1{
+	position: relative;
+	margin: 0;
+	width: 200px;
+	height: 350px;
+	background: #FFF;
+	opacity: .60; 
+	filter: alpha(opacity=60);
+	z-index: 3;
+}
+
+#container{
+	width: 480px;
+	height: 380px;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+#content{
+	width: 320px;
+	height: 320px;
+	background: #AAB3C6 url(/intraweb/img/signo1.gif);
+	opacity: .85; 
+	filter: alpha(opacity=85);
+	color: #000;
+}
+
+#nav{
+	width: 140px;
+	background: #AAB3C6 url(/intraweb/img/signo2.gif);
+	opacity: .85; 
+	filter: alpha(opacity=85);
+	float: right;
+	font-weight: Bold;
+	color: #FFF;
+}
+
+H2{ /*Para titulos tipo 2*/
+	font-size: 12px;
+	font-weight: Bold;
+	color: #FFB756;
+	text-transform : Capitalize;
+	text-align: Justify;
+  	width: 80%;
+}
+
+a:link{
+	color: #FFF;
+}
+
+a:visited{
+	color: #FFF ;
+}
+
+a:active{
+	color: #FFB756;
+}
+
+a:hover{
+	text-decoration: Underline;
+	color: #FFB756;
+} 
+
+a{
+	text-decoration: None;
+} 

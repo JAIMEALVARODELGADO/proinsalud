@@ -1,0 +1,11 @@
+iden_ctr|573
+tipo_fac|2
+feci_fac|23/03/2021
+fecf_fac|24/03/2021
+rela_fac|
+codi_usu|1385599
+iden_ctr|573
+cod_cie10|S518
+area_fac|0682
+enti_fac|830023202-1
+nauto_fac|
