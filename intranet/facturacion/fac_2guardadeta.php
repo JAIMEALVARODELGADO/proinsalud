@@ -106,7 +106,7 @@ else{
   if(empty($valo_tco)){$valo_tco=0;}  
   //$consultadet="SELECT iden_dfa,cant_dfa FROM detalle_factura WHERE tipo_dfa='$tipo_dfa' AND iden_fac=$iden_fac AND iden_tco='$rowcon[iden_]'";
   $consultadet="SELECT iden_dfa,cant_dfa FROM detalle_factura WHERE tipo_dfa='$tipo_dfa' AND iden_fac='$iden_fac' AND iden_tco='$rowcon[iden_]' AND servi_dfa='$servi_dfa'";
-  echo "<br>".$consultadet;
+  //echo "<br>".$consultadet;
   $consultadet=mysql_query($consultadet);
   if(mysql_num_rows($consultadet)<>0 and $acumular<>'N'){
       $rowdet=mysql_fetch_array($consultadet);

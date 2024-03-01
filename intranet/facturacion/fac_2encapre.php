@@ -1,7 +1,7 @@
 
 <meta http-equiv="Context-Type" content="text/html; charset=UTF-8">
 <?
-session_start();
+//session_start();
 $datos[0]='desc_';
 $datos[1]='iden_';
 ?>
