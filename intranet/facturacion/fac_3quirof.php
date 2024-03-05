@@ -68,7 +68,7 @@ ORDER BY $ord_fac<br>";*/
                 ORDER BY $ord_fac";
 
                 
-		//echo "<br>".$_pagi_sql;
+		echo "<br>".$_pagi_sql;
 		$_pagi_cuantos = 15; 
 		include("php/paginator.inc.php"); 
 		if(mysql_num_rows($_pagi_result)!=0) 
