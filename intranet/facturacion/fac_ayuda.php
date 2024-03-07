@@ -4,7 +4,7 @@
 <SCRIPT LANGUAGE='JavaScript'>
 function validar(){
 if(form1.codi_.value=="" && form1.nombre_.value==""){
-  alert("Debe digitar almenos un parametro de busqueda");}
+  alert("Debe digitar al menos un parametro de busqueda");}
 else{
   form1.submit();}
 }
