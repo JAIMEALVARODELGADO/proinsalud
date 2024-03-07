@@ -18,11 +18,11 @@ switch ($tipo){
         $actualiza="DELETE FROM nrconsulta WHERE id_consulta='$reg'";
         $retorna="fac_3muestraripscons.php";
         break;
-    /*case "P":
-        $actualiza="DELETE FROM fprocedim WHERE regi_fpr=$reg";
-        $retorna="fac_4hemuestraproc.php";
+    case "P":
+        $actualiza="DELETE FROM nrprocedimiento WHERE id_procedimiento='$reg'";
+        $retorna="fac_3muestraripsproc.php";
         break;
-    case "M":
+    /*case "M":
         $actualiza="DELETE FROM fmedicamento WHERE regi_fme=$reg";
         $retorna="fac_4hemuestramedi.php";
         break;
