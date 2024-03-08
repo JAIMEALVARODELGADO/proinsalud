@@ -116,8 +116,8 @@ include('php/funciones.php');
 <area shape="rect" coords="265,0,380,30" href="fac_3muestraripsmedi.php" alt="Medicamentos" />
 <!--<area shape="rect" coords="390,0,515,30" href="fac_4hemuestraotro.php" alt="Otros Servicios" />-->
 <area shape="rect" coords="520,0,645,30" href="fac_3muestraripsurge.php" alt="Est. Urgencias" />
-<area shape="rect" coords="655,0,800,30" href="fac_4hemuestrahosp.php" alt="Est. Hospitalizaci�n" />
-<area shape="rect" coords="800,0,910,30" href="fac_4hemuestrarnac.php" alt="Reci�n Nacidos" />
+<area shape="rect" coords="655,0,800,30" href="fac_3muestraripshosp.php" alt="Est. Hospitalización" />
+<area shape="rect" coords="800,0,910,30" href="fac_4hemuestrarnac.php" alt="Recién Nacidos" />
 </map>
 <table class="Tbl0" border='0'>
   <th class="Th1" width='10%'><b>Factura Nro:</td>

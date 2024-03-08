@@ -34,10 +34,10 @@ switch ($tipo){
         $actualiza="DELETE FROM nrurgencias WHERE id_urgencias='$reg'";
         $retorna="fac_3muestraripsurge.php";
         break;
-    /*case "H":
-        $actualiza="DELETE FROM fhospital WHERE regi_fho=$reg";
-        $retorna="fac_4hemuestrahosp.php";
-        break;*/
+    case "H":
+        $actualiza="DELETE FROM nrhospital WHERE id_hospital='$reg'";
+        $retorna="fac_3muestraripshosp.php";
+        break;
 }
 //echo $actualiza;
 mysql_query($actualiza);
