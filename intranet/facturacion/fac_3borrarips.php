@@ -30,11 +30,11 @@ switch ($tipo){
         $actualiza="DELETE FROM nrotroservicios WHERE id_otros='$reg'";
         $retorna="fac_3muestraripsotro.php";
         break;
-    /*case "U":
-        $actualiza="DELETE FROM furgencia WHERE regi_fur=$reg";
-        $retorna="fac_4hemuestraurge.php";
+    case "U":
+        $actualiza="DELETE FROM nrurgencias WHERE id_urgencias='$reg'";
+        $retorna="fac_3muestraripsurge.php";
         break;
-    case "H":
+    /*case "H":
         $actualiza="DELETE FROM fhospital WHERE regi_fho=$reg";
         $retorna="fac_4hemuestrahosp.php";
         break;*/
