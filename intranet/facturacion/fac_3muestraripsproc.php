@@ -138,7 +138,7 @@ function eliminar(tipo_,reg_){
 </head>
 <body>
 <form name='form1' method="POST" action='fac_3guardaripspro.php' target='fr02'>
-<table class="Tbl0"><tr><td class="Td0" align='center'>R I P S de la factura <?echo $gfactura;?></td></tr></table>
+<table class="Tbl0"><tr><td class="Td0" align='center'>R I P S(2275) de la factura <?echo $gfactura;?></td></tr></table>
 <?
 include('php/conexion.php');
 include('php/funciones.php');
@@ -147,7 +147,7 @@ include('php/funciones.php');
 <map name="actividades">
 <area shape="rect" coords="0,0,125,30" href="fac_3muestraripscons.php" alt="Consultas" />
 <!--<area shape="rect" coords="130,0,260,30" href="fac_4hemuestraproc.php" alt="Procedimientos" />-->
-<area shape="rect" coords="265,0,380,30" href="fac_4hemuestramedi.php" alt="Medicamentos" />
+<area shape="rect" coords="265,0,380,30" href="fac_3muestraripsmedi.php" alt="Medicamentos" />
 <area shape="rect" coords="390,0,515,30" href="fac_4hemuestraotro.php" alt="Otros Servicios" />
 <area shape="rect" coords="520,0,645,30" href="fac_4hemuestraurge.php" alt="Est. Urgencias" />
 <area shape="rect" coords="655,0,800,30" href="fac_4hemuestrahosp.php" alt="Est. Hospitalizaci�n" />
