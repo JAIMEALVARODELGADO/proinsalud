@@ -161,7 +161,7 @@ include('php/funciones.php');
 <!--<area shape="rect" coords="0,0,125,30" href="fac_4hemuestracons.php" alt="Consultas" />-->
 <area shape="rect" coords="130,0,260,30" href="fac_3muestraripsproc.php" alt="Procedimientos" />
 <area shape="rect" coords="265,0,380,30" href="fac_3muestraripsmedi.php" alt="Medicamentos" />
-<area shape="rect" coords="390,0,515,30" href="fac_4hemuestraotro.php" alt="Otros Servicios" />
+<area shape="rect" coords="390,0,515,30" href="fac_3muestraripsotro.php" alt="Otros Servicios" />
 <area shape="rect" coords="520,0,645,30" href="fac_4hemuestraurge.php" alt="Est. Urgencias" />
 <area shape="rect" coords="655,0,800,30" href="fac_4hemuestrahosp.php" alt="Est. Hospitalizaci�n" />
 <area shape="rect" coords="800,0,910,30" href="fac_4hemuestrarnac.php" alt="Reci�n Nacidos" />
@@ -194,21 +194,21 @@ include('php/funciones.php');
 </table>
 
 <table class="Tbl0" border='1'>
-  <th class="Th1" colspan='2'><b>Sel</td>
-  <th class="Th1"><b>Fecha Inicio Atención</td>
-  <th class="Th1"><b>Autorización</td>
-  <th class="Th1"><b>Código</td>
-  <th class="Th1"><b>Modalidad Atención</td>
-  <th class="Th1"><b>Grupo de Servicios</td>
-  <th class="Th1"><b>Servicio</td>
-  <th class="Th1"><b>Finalidad</td>
-  <th class="Th1"><b>Causa Externa</td>
-  <th class="Th1"><b>Diagnosticos</td>
-  <th class="Th1"><b>Tipo Dx Pr</td>  
-  <th class="Th1"><b>Valor</td>
-  <th class="Th1"><b>Concepto Recaudo</td>
-  <th class="Th1"><b>Vr. Moderador</td>
-  <th class="Th1"><b>FEV Moderador</td>
+  <th class="Th0" colspan='2'><b>Sel</td>
+  <th class="Th0"><b>Fecha Inicio Atención</td>
+  <th class="Th0"><b>Autorización</td>
+  <th class="Th0"><b>Código</td>
+  <th class="Th0"><b>Modalidad Atención</td>
+  <th class="Th0"><b>Grupo de Servicios</td>
+  <th class="Th0"><b>Servicio</td>
+  <th class="Th0"><b>Finalidad</td>
+  <th class="Th0"><b>Causa Externa</td>
+  <th class="Th0"><b>Diagnosticos</td>
+  <th class="Th0"><b>Tipo Dx Pr</td>  
+  <th class="Th0"><b>Valor</td>
+  <th class="Th0"><b>Concepto Recaudo</td>
+  <th class="Th0"><b>Vr. Moderador</td>
+  <th class="Th0"><b>FEV Moderador</td>
 <?php
   $cont=0;
   $total=0;  

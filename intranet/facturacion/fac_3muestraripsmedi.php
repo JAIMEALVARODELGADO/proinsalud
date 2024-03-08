@@ -146,7 +146,7 @@ include('php/funciones.php');
 <area shape="rect" coords="0,0,125,30" href="fac_3muestraripscons.php" alt="Consultas" />
 <area shape="rect" coords="130,0,260,30" href="fac_3muestraripsproc.php" alt="Procedimientos" />
 <!--<area shape="rect" coords="265,0,380,30" href="fac_4hemuestramedi.php" alt="Medicamentos" />-->
-<area shape="rect" coords="390,0,515,30" href="fac_4hemuestraotro.php" alt="Otros Servicios" />
+<area shape="rect" coords="390,0,515,30" href="fac_3muestraripsotro.php" alt="Otros Servicios" />
 <area shape="rect" coords="520,0,645,30" href="fac_4hemuestraurge.php" alt="Est. Urgencias" />
 <area shape="rect" coords="655,0,800,30" href="fac_4hemuestrahosp.php" alt="Est. Hospitalizaci�n" />
 <area shape="rect" coords="800,0,910,30" href="fac_4hemuestrarnac.php" alt="Reci�n Nacidos" />
@@ -175,25 +175,25 @@ include('php/funciones.php');
 ?>    
 </table>
 <table class="Tbl0" border='1'>
-  <th class="Th1" colspan='2'><b>Sel</td>
-  <th class="Th1"><b>Autorización</td>
-  <th class="Th1"><b>MIPRES</td>
-  <th class="Th1"><b>Fecha disensación</td>
-  <th class="Th1"><b>Diagnósticos</td>
-  <th class="Th1"><b>Tipo de medicamento</td>
-  <th class="Th1"><b>Código IUM</td>  
-  <th class="Th1"><b>Nombre</td>
-  <th class="Th1"><b>Concentración</td>
-  <th class="Th1"><b>Unidad de medida</td>
-  <th class="Th1"><b>Forma farmacéutica</td>
-  <th class="Th1"><b>Unidad de medida dispensada</td>
-  <th class="Th1"><b>Cantidad</td>
-  <th class="Th1"><b>Días tratamiento</td>
-  <th class="Th1"><b>Valor unitario</td>
-  <th class="Th1"><b>Valor Total</td>
-  <th class="Th1"><b>Concepto Recaudo</td>
-  <th class="Th1"><b>Vr. Moderador</td>
-  <th class="Th1"><b>FEV Moderador</td>
+  <th class="Th0" colspan='2'><b>Sel</td>
+  <th class="Th0"><b>Autorización</td>
+  <th class="Th0"><b>MIPRES</td>
+  <th class="Th0"><b>Fecha disensación</td>
+  <th class="Th0"><b>Diagnósticos</td>
+  <th class="Th0"><b>Tipo de medicamento</td>
+  <th class="Th0"><b>Código IUM</td>  
+  <th class="Th0"><b>Nombre</td>
+  <th class="Th0"><b>Concentración</td>
+  <th class="Th0"><b>Unidad de medida</td>
+  <th class="Th0"><b>Forma farmacéutica</td>
+  <th class="Th0"><b>Unidad de medida dispensada</td>
+  <th class="Th0"><b>Cantidad</td>
+  <th class="Th0"><b>Días tratamiento</td>
+  <th class="Th0"><b>Valor unitario</td>
+  <th class="Th0"><b>Valor Total</td>
+  <th class="Th0"><b>Concepto Recaudo</td>
+  <th class="Th0"><b>Vr. Moderador</td>
+  <th class="Th0"><b>FEV Moderador</td>
 <?
   $cont=0;
   $total=0;
@@ -237,10 +237,10 @@ include('php/funciones.php');
         <script language='javascript'>activasel('<?echo $nomvar;?>','<?echo $rowcon[tipomedicamento];?>');</script>
     <?php
 
-	$nomvar="codtecnologia".$cont;
-    echo "<td class='Td2' align='center'><input type='text' name='$nomvar' size='20' maxlength='20' value='$rowcon[codtecnologia]' disabled><a href='#'  onclick='ayuda(\"M\",\"$rowcon[codtecnologia]\")'><img src='icons/feed_magnify.png' width='15' height='15'></a></td>";
+	  $nomvar="codtecnologia".$cont;
+    echo "<td class='Td2' align='center'><input type='text' name='$nomvar' size='20' maxlength='20' value='$rowcon[codtecnologia]' disabled><!--<a href='#'  onclick='ayuda(\"M\",\"$rowcon[codtecnologia]\")'><img src='icons/feed_magnify.png' width='15' height='15'></a>--></td>";
 	
-	$nomvar="nomtecnologia".$cont;
+	  $nomvar="nomtecnologia".$cont;
     echo "<td class='Td2' align='center'><input type='text' name='$nomvar' size='30' maxlength='30' value='$rowcon[nomtecnologia]' disabled></td>";
 
     $nomvar="concentracion".$cont;
@@ -283,16 +283,16 @@ include('php/funciones.php');
     <?php
 
     $nomvar="cantidad".$cont;
-	echo "<td class='Td2' align='center'><input type='text' name='$nomvar' size='15' maxlength='20' value='$rowcon[cantidad]' disabled></td>";
+	  echo "<td class='Td2' align='center'><input type='text' name='$nomvar' size='15' maxlength='20' value='$rowcon[cantidad]' disabled></td>";
     
     $nomvar="diastratamiento".$cont;
-	echo "<td class='Td2' align='center'><input type='text' name='$nomvar' size='15' maxlength='20' value='$rowcon[diastratamiento]' disabled></td>";
+	  echo "<td class='Td2' align='center'><input type='text' name='$nomvar' size='15' maxlength='20' value='$rowcon[diastratamiento]' disabled></td>";
 
     $nomvar="vrunitmedicamento".$cont;
-	echo "<td class='Td2' align='center'><input type='text' name='$nomvar' size='15' maxlength='20' value='$rowcon[vrunitmedicamento]' disabled></td>";
+	  echo "<td class='Td2' align='center'><input type='text' name='$nomvar' size='15' maxlength='20' value='$rowcon[vrunitmedicamento]' disabled></td>";
 
     $nomvar="vrservicio".$cont;
-	echo "<td class='Td2' align='right'><input type='text' name='$nomvar' size='7' maxlength='7' value='".number_format($rowcon[vrservicio])."' disabled></td>";
+	  echo "<td class='Td2' align='right'><input type='text' name='$nomvar' size='7' maxlength='7' value='".number_format($rowcon[vrservicio])."' disabled></td>";
     
     $consultades=mysql_query("SELECT valo_des,nomb_des FROM destipos WHERE codt_des='H1'");
     $nomvar="conceptorecaudo".$cont;
@@ -310,11 +310,11 @@ include('php/funciones.php');
     echo "<td class='Td2' align='right'><input type='text' name='$nomvar' size='7' maxlength='7' value='".number_format($rowcon[valorpagomoderador])."' disabled></td>";
     
     $nomvar="numfevpagomoderador".$cont;
-	echo "<td class='Td2' align='center'><input type='text' name='$nomvar' size='15' maxlength='20' value='$rowcon[numfevpagomoderador]' disabled></td>";
+	  echo "<td class='Td2' align='center'><input type='text' name='$nomvar' size='15' maxlength='20' value='$rowcon[numfevpagomoderador]' disabled></td>";
 
     echo "</tr>";
-	$total=$total+$rowcon[vrservicio];
-	$cont++;
+	  $total=$total+$rowcon[vrservicio];
+	  $cont++;
   }
 echo "</tr>";
 echo "<td class='Td2' align='right' colspan=16><b>Total </td>";

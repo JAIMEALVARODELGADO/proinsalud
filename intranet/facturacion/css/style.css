@@ -109,7 +109,7 @@ a img {
 }
 
 a:link {
-    color: #1D669E;
+    color: #fff;
 }
 
 a:visited {
@@ -248,7 +248,7 @@ textarea {
 .Th0 {
     text-align: center;
     background-color: #0D47A1;
-    color: #fff;
+    color: #ffffff;
 }
 
 .Th1 {
