@@ -143,7 +143,7 @@ include('php/funciones.php');
 <area shape="rect" coords="390,0,515,30" href="fac_3muestraripsotro.php" alt="Otros Servicios" />
 <area shape="rect" coords="520,0,645,30" href="fac_3muestraripsurge.php" alt="Est. Urgencias" />
 <!--<area shape="rect" coords="655,0,800,30" href="fac_4hemuestrahosp.php" alt="Est. Hospitalizaci�n" />-->
-<area shape="rect" coords="800,0,910,30" href="fac_4hemuestrarnac.php" alt="Recién Nacidos" />
+<area shape="rect" coords="800,0,910,30" href="fac_3muestraripsrnac.php" alt="Recién Nacidos" />
 </map>
 <table class="Tbl0" border='0'>
   <th class="Th1" width='10%'><b>Factura Nro:</td>
@@ -186,9 +186,9 @@ include('php/funciones.php');
   $consultacon=mysql_query($consultacon);
   while($rowcon=mysql_fetch_array($consultacon)){
     $nomvar="id_hospital".$cont;
-	echo "<input type='hidden' name='$nomvar' value='$rowcon[id_hospital]'>";
+	  echo "<input type='hidden' name='$nomvar' value='$rowcon[id_hospital]'>";
     echo "<tr>";
-	$nomvar="chk".$cont;
+	  $nomvar="chk".$cont;
     echo "<td class='Td2' align='left'><input type='checkbox' name='$nomvar' onclick='activar($cont)'></td>";
     echo "<td class='Td2' align='left'><a href='#' onclick=eliminar('H','$rowcon[id_hospital]') title='Eliminar Registro'><img src='icons/feed_delete.png' width='15' height='15'></a></td>";
     
@@ -198,69 +198,69 @@ include('php/funciones.php');
 	  while($rowdes=mysql_fetch_array($consultades)){
 	    echo "<option value='$rowdes[valo_des]'>$rowdes[valo_des] ".substr($rowdes[nomb_des],0,20);
 	  }
-	echo "</select>";
-	echo "</td>";
-	?>
-	<script language='javascript'>activasel('<?echo $nomvar;?>','<?echo $rowcon[viaingresoservicio];?>');</script>
-	<?php
+	  echo "</select>";
+    echo "</td>";
+    ?>
+    <script language='javascript'>activasel('<?echo $nomvar;?>','<?echo $rowcon[viaingresoservicio];?>');</script>
+    <?php
 
     $nomvar="fechainicioatencion".$cont;
     echo "<td class='Td2' align='center'><input type='text' name='$nomvar' size='16' maxlength='16' value='$rowcon[fechainicioatencion]' disabled></td>";
 
-	$nomvar="numautorizacion".$cont;
+	  $nomvar="numautorizacion".$cont;
     echo "<td class='Td2' align='center'><input type='text' name='$nomvar' size='15' maxlength='15' value='$rowcon[numautorizacion]' disabled></td>";
 
     $consultades=mysql_query("SELECT valo_des,nomb_des FROM destipos WHERE codt_des='G8'");
-	$nomvar="causamotivoatencion".$cont;
+	  $nomvar="causamotivoatencion".$cont;
     echo "<td class='Td2' align='center'><select name='$nomvar' disabled>";
 	  while($rowdes=mysql_fetch_array($consultades)){
 	    echo "<option value='$rowdes[valo_des]'>$rowdes[valo_des] ".substr($rowdes[nomb_des],0,20);
 	  }
-	echo "</select>";
-	echo "</td>";
-	?>
-	<script language='javascript'>activasel('<?echo $nomvar;?>','<?echo $rowcon[causamotivoatencion];?>');</script>
-	<?php
+	  echo "</select>";
+	  echo "</td>";
+    ?>
+    <script language='javascript'>activasel('<?echo $nomvar;?>','<?echo $rowcon[causamotivoatencion];?>');</script>
+    <?php
 
-	$nomvar="coddiagnosticoprincipal".$cont;
+	  $nomvar="coddiagnosticoprincipal".$cont;
     echo "<td class='Td2' align='center'><b>Ingreso<input type='text' name='$nomvar' size='4' maxlength='4' value='$rowcon[coddiagnosticoprincipal]' disabled><a href='#' onclick='ayuda(\"D\",\"$rowcon[coddiagnosticoprincipal]\",\"$cont\")'><img src='icons/feed_magnify.png' width='15' height='15'></a>";
 
-	$nomvar="coddiagnosticoprincipale".$cont;
-	echo "<br>Egreso<input type='text' name='$nomvar' size='4' maxlength='4' value='$rowcon[coddiagnosticoprincipale]' disabled>";
+	  $nomvar="coddiagnosticoprincipale".$cont;
+	  echo "<br>Egreso<input type='text' name='$nomvar' size='4' maxlength='4' value='$rowcon[coddiagnosticoprincipale]' disabled>";
 
-	$nomvar="coddiagnosticorelacionadoe1".$cont;
-	echo "<br>Eg.Rel 1<input type='text' name='$nomvar' size='4' maxlength='4' value='$rowcon[coddiagnosticorelacionadoe1]' disabled>";
+    $nomvar="coddiagnosticorelacionadoe1".$cont;
+    echo "<br>Eg.Rel 1<input type='text' name='$nomvar' size='4' maxlength='4' value='$rowcon[coddiagnosticorelacionadoe1]' disabled>";
 
-	$nomvar="coddiagnosticorelacionadoe2".$cont;
-	echo "<br>Eg.Rel 2<input type='text' name='$nomvar' size='4' maxlength='4' value='$rowcon[coddiagnosticorelacionadoe2]' disabled>";
+    $nomvar="coddiagnosticorelacionadoe2".$cont;
+    echo "<br>Eg.Rel 2<input type='text' name='$nomvar' size='4' maxlength='4' value='$rowcon[coddiagnosticorelacionadoe2]' disabled>";
 
-	$nomvar="coddiagnosticorelacionadoe3".$cont;
-	echo "<br>Eg.Rel 3<input type='text' name='$nomvar' size='4' maxlength='4' value='$rowcon[coddiagnosticorelacionadoe3]' disabled>";
+    $nomvar="coddiagnosticorelacionadoe3".$cont;
+    echo "<br>Eg.Rel 3<input type='text' name='$nomvar' size='4' maxlength='4' value='$rowcon[coddiagnosticorelacionadoe3]' disabled>";
 
-	$nomvar="codcomplicacion".$cont;
-	echo "<br>Complicación<input type='text' name='$nomvar' size='4' maxlength='4' value='$rowcon[codcomplicacion]' disabled>";
+    $nomvar="codcomplicacion".$cont;
+    echo "<br>Complicación<input type='text' name='$nomvar' size='4' maxlength='4' value='$rowcon[codcomplicacion]' disabled>";
 
-  $nomvar="coddiagnosticocausamuerte".$cont;
-	echo "<br>Muerte<input type='text' name='$nomvar' size='4' maxlength='4' value='$rowcon[coddiagnosticocausamuerte]' disabled>";
-	echo "</td>";
+    $nomvar="coddiagnosticocausamuerte".$cont;
+    echo "<br>Muerte<input type='text' name='$nomvar' size='4' maxlength='4' value='$rowcon[coddiagnosticocausamuerte]' disabled>";
+    echo "</td>";
 
     $consultades=mysql_query("SELECT valo_des,nomb_des FROM destipos WHERE codt_des='H3'");
     $nomvar="condiciondestinoegreso".$cont;
     echo "<td class='Td2' align='center'><select name='$nomvar' disabled>";
-	  while($rowdes=mysql_fetch_array($consultades)){
-	    echo "<option value='$rowdes[valo_des]'>$rowdes[valo_des] ".substr($rowdes[nomb_des],0,40);
-	  }
-	echo "</select>";
-	echo "</td>";
-	?>
-	<script language='javascript'>activasel('<?echo $nomvar;?>','<?echo $rowcon[condiciondestinoegreso];?>');</script>
-	<?php
+    while($rowdes=mysql_fetch_array($consultades)){
+      echo "<option value='$rowdes[valo_des]'>$rowdes[valo_des] ".substr($rowdes[nomb_des],0,40);
+    }
+    echo "</select>";
+    echo "</td>";
+    ?>
+    <script language='javascript'>activasel('<?echo $nomvar;?>','<?echo $rowcon[condiciondestinoegreso];?>');</script>
+    <?php
 
     $nomvar="fechaegreso".$cont;
     echo "<td class='Td2' align='center'><input type='text' name='$nomvar' size='16' maxlength='16' value='$rowcon[fechaegreso]' disabled></td>";
 
     echo "</tr>";
-	$cont++;
+	  $cont++;
   }
 mysql_free_result($consulta);
 mysql_free_result($consultacon);
