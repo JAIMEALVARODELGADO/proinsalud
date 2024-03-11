@@ -211,6 +211,8 @@ include('php/funciones.php');
 <area shape="rect" coords="655,0,800,30" href="fac_3muestraripshosp.php" alt="Est. Hospitalizaci�n" />
 <!--<area shape="rect" coords="800,0,910,30" href="fac_4hemuestrarnac.php" alt="Reci�n Nacidos" />-->
 </map>
+
+<br><a class ='Btn' href='fac_3muestraripsusua'>Usuarios</a>
 <table class="Tbl0" border='0'>
   <th class="Th1" width='10%'><b>Factura Nro:</td>
   <th class="Th1" width='15%'><b>Tp. Identificación:</td>
