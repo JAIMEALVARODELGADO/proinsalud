@@ -156,7 +156,7 @@ ventana= window.open(URL,titulo,"left="+x+",top="+y+",width="+ancho+",height="+a
                       else{
                         echo "<td class='Td2'><a href='#' title='Asignar Relacion'><img src='icons/feed_link.png' border='0' alt='Asignar Relacion'></a></td>";}                        
                       
-                      echo "<td class='Td2' align='center' bgcolor='$color'><a href='fac_3muestraripscons.php?factura=$row[nume_fac]&iden_fac=$row[iden_fac]' title='Editar RIPS 2275'><img src='icons/feed_go.png' alt='Editar RIPS 2275'></a></td>";
+                      echo "<td class='Td2' align='center' bgcolor='$color'><a href='fac_3muestraripsusua.php?factura=$row[nume_fac]&iden_fac=$row[iden_fac]' title='Editar RIPS 2275'><img src='icons/feed_go.png' alt='Editar RIPS 2275'></a></td>";
 
                       echo "<td class='Td2'>$row[pref_fac] $row[nume_fac]</td>";
                       echo "<td class='Td2'>$row[rela_fac]</td>";

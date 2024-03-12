@@ -103,22 +103,26 @@ function eliminar(tipo_,reg_){
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 </head>
 <body>
+<div>
+  <ul class="menu">
+    <li><a href="fac_3muestraripsusua.php">Usuario</a></li>
+    <li><a href="fac_3muestraripscons.php">Consultas</a></li>
+    <li><a href="fac_3muestraripsproc.php">Procedimientos</a></li>
+    <li><a href="fac_3muestraripsmedi.php">Medicamentos</a></li>
+    <li><a href="fac_3muestraripsotro.php" class="activo">Otros Servicios</a></li>
+    <li><a href="fac_3muestraripsurge.php">Urgencias</a></li>    
+    <li><a href="fac_3muestraripshosp.php">Hospitalización</a></li>
+    <li><a href="fac_3muestraripsrnac.php">R. Nacidos</a></li>
+    <li><a href="fac_3generaripsjson.php">Generar Json</a></li>
+  </ul>
+</div>  
 <form name='form1' method="POST" action='fac_3guardaripsotr.php' target='fr02'>
-<table class="Tbl0"><tr><td class="Td0" align='center'>R I P S de la factura <?echo $gfactura;?></td></tr></table>
-<?
+<table class="Tbl0"><tr><td class="Td0" align='center'><h2>R I P S(2275) de Otros Servicios</h2></td></tr></table>
+<?php
 include('php/conexion.php');
 include('php/funciones.php');
 ?>
-<img src='icons/barra4.png' width='910' height='30' usemap="#actividades" border='0'/>
-<map name="actividades">
-<area shape="rect" coords="0,0,125,30" href="fac_3muestraripscons.php" alt="Consultas" />
-<area shape="rect" coords="130,0,260,30" href="fac_3muestraripsproc.php" alt="Procedimientos" />
-<area shape="rect" coords="265,0,380,30" href="fac_3muestraripsmedi.php" alt="Medicamentos" />
-<!--<area shape="rect" coords="390,0,515,30" href="fac_4hemuestraotro.php" alt="Otros Servicios" />-->
-<area shape="rect" coords="520,0,645,30" href="fac_3muestraripsurge.php" alt="Est. Urgencias" />
-<area shape="rect" coords="655,0,800,30" href="fac_3muestraripshosp.php" alt="Est. Hospitalización" />
-<area shape="rect" coords="800,0,910,30" href="fac_3muestraripsrnac.php" alt="Recién Nacidos" />
-</map>
+
 <table class="Tbl0" border='0'>
   <th class="Th1" width='10%'><b>Factura Nro:</td>
   <th class="Th1" width='15%'><b>Tp. Identificación:</td>

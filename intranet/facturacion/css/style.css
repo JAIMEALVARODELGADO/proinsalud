@@ -278,3 +278,35 @@ textarea {
 .color {
     color: #1D669E;
 }
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #02859a;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    display: block;
+    border-radius: 10px;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;    
+}
+
+.menu li a:hover{
+    background: #BED1DB;
+    color: black;
+}
+
+.activo{
+    background: #015562;
+}
