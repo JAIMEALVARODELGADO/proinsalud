@@ -113,7 +113,7 @@ a:link {
 }
 
 a:visited {
-    color: #1D669E;
+    color: white;
 }
 
 a:active {
@@ -310,3 +310,14 @@ textarea {
 .activo{
     background: #015562;
 }
+
+.BtnGuardar{
+    background: #015562;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+    height: 8%;
+    width: 10%;    
+}
+
+
