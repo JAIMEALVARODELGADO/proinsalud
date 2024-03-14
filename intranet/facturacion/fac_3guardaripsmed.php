@@ -11,9 +11,7 @@ function regresar(){
 <?
 include('php/conexion.php');
 //include('php/funciones.php');
-?>
-<img src='icons/barra3.png' width='910' height='30' usemap="#actividades" border='0'/>
-<?
+
 for($i=0;$i<$cont;$i++){
 	$nomvar="chk".$i;
 	if($$nomvar=='on'){	

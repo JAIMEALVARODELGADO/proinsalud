@@ -226,13 +226,13 @@ include('php/funciones.php');
     echo "<td class='Td2' align='left'><a href='#' onclick=eliminar('C','$rowcon[id_consulta]') title='Eliminar Registro'><img src='icons/feed_delete.png' width='15' height='15'></a></td>";
     
     $nomvar="fechainicioatencion".$cont;
-    echo "<td class='Td2' align='center'><input type='text' name='$nomvar' size='10' maxlength='10' value='$rowcon[fechainicioatencion]' disabled></td>";
+    echo "<td class='Td2' align='center'><input type='text' name='$nomvar' size='16' maxlength='16' value='$rowcon[fechainicioatencion]' disabled></td>";
     
     $nomvar="numautorizacion".$cont;
-    echo "<td class='Td2' align='center'><input type='text' name='$nomvar' size='15' maxlength='15' value='$rowcon[numautorizacion]' disabled></td>";
+    echo "<td class='Td2' align='center'><input type='text' name='$nomvar' size='30' maxlength='30' value='$rowcon[numautorizacion]' disabled></td>";
     
     $nomvar="codconsulta".$cont;
-    echo "<td class='Td2' align='center'><input type='text' name='$nomvar' size='8' maxlength='8' value='$rowcon[codconsulta]' disabled><a href='#'  onclick='ayuda(\"P\",\"$rowcon[codconsulta]\")'><img src='icons/feed_magnify.png' width='15' height='15'></a></td>";
+    echo "<td class='Td2' align='center'><input type='text' name='$nomvar' size='6' maxlength='6' value='$rowcon[codconsulta]' disabled><a href='#'  onclick='ayuda(\"P\",\"$rowcon[codconsulta]\")'><img src='icons/feed_magnify.png' width='15' height='15'></a></td>";
 
     $consultades=mysql_query("SELECT valo_des,nomb_des FROM destipos WHERE codt_des='G4'");
     $nomvar="modalidadgruposervicio".$cont;
@@ -295,13 +295,13 @@ include('php/funciones.php');
     <?php
 
     $nomvar="coddiagnosticoprincipal".$cont;
-    echo "<td class='Td2' align='center'><b>Principal <input type='text' name='$nomvar' size='4' maxlength='4' value='$rowcon[coddiagnosticoprincipal]' disabled><a href='#'  onclick='ayuda(\"D\",\"$rowcon[coddiagnosticoprincipal]\")'><img src='icons/feed_magnify.png' width='15' height='15'></a>";
+    echo "<td class='Td2' align='center'><b>Principal <input type='text' name='$nomvar' size='25' maxlength='25' value='$rowcon[coddiagnosticoprincipal]' disabled><a href='#'  onclick='ayuda(\"D\",\"$rowcon[coddiagnosticoprincipal]\")'><img src='icons/feed_magnify.png' width='15' height='15'></a>";
     $nomvar="coddiagnosticorelacinado1".$cont;
-    echo "<br>Rel.1<input type='text' name='$nomvar' size='4' maxlength='4' value='$rowcon[coddiagnosticorelacinado1]' disabled>";
+    echo "<br>Relacionado 1<input type='text' name='$nomvar' size='25' maxlength='25' value='$rowcon[coddiagnosticorelacinado1]' disabled>";
     $nomvar="coddiagnosticorelacinado2".$cont;
-    echo "<br>Rel.2<input type='text' name='$nomvar' size='4' maxlength='4' value='$rowcon[coddiagnosticorelacinado2]' disabled>";
+    echo "<br>Relacionado 2<input type='text' name='$nomvar' size='25' maxlength='25' value='$rowcon[coddiagnosticorelacinado2]' disabled>";
     $nomvar="coddiagnosticorelacinado3".$cont;
-    echo "<br>Rel.3<input type='text' name='$nomvar' size='4' maxlength='4' value='$rowcon[coddiagnosticorelacinado3]' disabled>";
+    echo "<br>Relacionado 3<input type='text' name='$nomvar' size='25' maxlength='25' value='$rowcon[coddiagnosticorelacinado3]' disabled>";
     echo"</td>";
 
     $consultades=mysql_query("SELECT valo_des,nomb_des FROM destipos WHERE codt_des='G9'");
@@ -332,7 +332,7 @@ include('php/funciones.php');
     <?php
 
     $nomvar="valorpagomoderador".$cont;
-    echo "<td class='Td2' align='right'><input type='text' name='$nomvar' size='7' maxlength='7' value='".number_format($rowcon[valorpagomoderador])."' disabled></td>";
+    echo "<td class='Td2' align='right'><input type='text' name='$nomvar' size='10' maxlength='10' value='".number_format($rowcon[valorpagomoderador])."' disabled></td>";
 
     $nomvar="numfevpagomoderador".$cont;
     echo "<td class='Td2' align='center'><input type='text' name='$nomvar' size='15' maxlength='15' value='$rowcon[numfevpagomoderador]' disabled></td>";
@@ -353,7 +353,10 @@ mysql_close();
 ?>    
 </table>
 <br><br>
-<center><a href='#' onclick='validar(<?echo $cont;?>)'><img src='icons/feed_disk.png' width='20' height='20'>Guardar</a></center>
+<div class='Td6'>
+  <center><a href='#' onclick='validar(<?php echo $cont;?>)'><img src='icons/feed_disk.png' width='20' height='20'>Guardar</a></center>
+</div>
+
 <input type='hidden' name='cont' value='<?echo $cont;?>'>
 </form>
 </body>

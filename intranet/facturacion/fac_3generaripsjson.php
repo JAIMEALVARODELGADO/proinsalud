@@ -58,18 +58,22 @@ function destroyClickedElement(event) {
 include('php/conexion.php');
 include('php/funciones.php');
 
+
+$errores="";
+
 $consultaent = "SELECT e.nite_emp,e.codp_emp FROM empresa e";
 $consultaent = mysql_query($consultaent);
 $row = mysql_fetch_array($consultaent);
 $nit = $row[nite_emp];
 $codigoPrestador=$row[codp_emp];
 
-$consultafac = "SELECT CONCAT(pref_fac,nume_fac) AS numerofac FROM encabezado_factura ef 
+$consultafac = "SELECT CONCAT(pref_fac,nume_fac) AS numerofac,vtot_fac FROM encabezado_factura ef 
     WHERE ef.iden_fac ='$giden_fac'";
 //echo "<br>".$consultafac;
 $consultafac = mysql_query($consultafac);
 $rowfac = mysql_fetch_array($consultafac);
 $numFactura = $rowfac[numerofac];
+$totalFacturado = $rowfac[vtot_fac];
 
 $consultas=array();
 //aqui se generan las consultas
@@ -434,8 +438,10 @@ $usuario->consecutivo = 1;
 $usuario->codPaisOrigen = $rowusu[codpaisorigen];
 $usuario->servicios = $servicios;
 
+$errores.=$usuario->validar();
+
 $usuarios=array();
-//$usuarios[] = new Usuario($usuario);
+
 $usuarios[] = $usuario;
 
 
@@ -477,6 +483,11 @@ mysql_close();
 
 $nombreArchivo="ripsJson".$numFactura.".json";
 ?>
+<table class="Tbl0">
+    <tr><td>Lista de errores</td></tr>
+    <?php echo $errores;?>
+</table>
+
 
 <br>
 <textarea name="json" id="json" hidden="true">
@@ -509,6 +520,48 @@ class Usuario{
     public $consecutivo;
     public $codPaisOrigen;
     public $servicios;
+
+    public function validar(){
+        $errores="";
+        if(isset($this->tipoDocumento)){
+            $errores.="<tr><td>Usuario - Tipo de documento de identificación </td><tr>";
+        }
+        if(!isset($this->$numDocumentoIdentificacion)){
+            $errores.="<tr><td>Usuario - Número de documento de identificación </td><tr>";
+        }
+        if(!isset($this->$tipoUsuario)){
+            $errores.="<tr><td>Usuario - Tipo de usuario </td><tr>";
+        }
+        /*if(this->$fechaNacimiento){
+            $errores="";
+        }
+        if(this->$codSexo){
+            $errores="";
+        }
+        if(this->$codPaisResidencia){
+            $errores="";
+        }
+        if(this->$codMunicipioResidencia){
+            $errores="";
+        }
+        if(this->$codZonaTerritorialResidencia){
+            $errores="";
+        }
+        if(this->$incapacidad){
+            $errores="";
+        }
+        if(this->$consecutivo){
+            $errores="";
+        }
+        if(this->$codPaisOrigen){
+            $errores="";
+        }
+        if(this->$servicios){
+            $errores="";
+        }*/
+        
+        return($errores);
+    }
 }
 
 class Servicio{

@@ -14,9 +14,7 @@ function regresar(){
 <?
 include('php/conexion.php');
 //include('php/funciones.php');
-?>
-<img src='icons/barra7.png' width='910' height='30' usemap="#actividades" border='0'/>
-<?
+
 if($borra=='S'){
 	mysql_query("DELETE FROM fnacidos WHERE regi_fna=$regi_fna");
 }

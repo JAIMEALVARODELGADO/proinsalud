@@ -188,22 +188,22 @@ include('php/funciones.php');
 	<?php
     
       $nomvar="coddiagnosticoprincipal".$cont;
-      echo "<td class='Td2' align='center'><b>Ingreso<input type='text' name='$nomvar' size='4' maxlength='4' value='$rowcon[coddiagnosticoprincipal]' disabled><a href='#' onclick='ayuda(\"D\",\"$rowcon[coddiagnosticoprincipal]\",\"$cont\")'><img src='icons/feed_magnify.png' width='15' height='15'></a>";
+      echo "<td class='Td2' align='center'><b>Ingreso<input type='text' name='$nomvar' size='25' maxlength='25' value='$rowcon[coddiagnosticoprincipal]' disabled><a href='#' onclick='ayuda(\"D\",\"$rowcon[coddiagnosticoprincipal]\",\"$cont\")'><img src='icons/feed_magnify.png' width='15' height='15'></a>";
 
       $nomvar="coddiagnosticoprincipale".$cont;
-      echo "<br>Egreso<input type='text' name='$nomvar' size='4' maxlength='4' value='$rowcon[coddiagnosticoprincipale]' disabled>";
+      echo "<br>Egreso<input type='text' name='$nomvar' size='25' maxlength='25' value='$rowcon[coddiagnosticoprincipale]' disabled>";
 
       $nomvar="coddiagnosticorelacionadoe1".$cont;
-      echo "<br>Eg.Rel 1<input type='text' name='$nomvar' size='4' maxlength='4' value='$rowcon[coddiagnosticorelacionadoe1]' disabled>";
+      echo "<br>Eg.Rel 1<input type='text' name='$nomvar' size='25' maxlength='25' value='$rowcon[coddiagnosticorelacionadoe1]' disabled>";
 
       $nomvar="coddiagnosticorelacionadoe2".$cont;
-      echo "<br>Eg.Rel 2<input type='text' name='$nomvar' size='4' maxlength='4' value='$rowcon[coddiagnosticorelacionadoe2]' disabled>";
+      echo "<br>Eg.Rel 2<input type='text' name='$nomvar' size='25' maxlength='25' value='$rowcon[coddiagnosticorelacionadoe2]' disabled>";
 
       $nomvar="coddiagnosticorelacionadoe3".$cont;
-      echo "<br>Eg.Rel 3<input type='text' name='$nomvar' size='4' maxlength='4' value='$rowcon[coddiagnosticorelacionadoe3]' disabled>";
+      echo "<br>Eg.Rel 3<input type='text' name='$nomvar' size='25' maxlength='25' value='$rowcon[coddiagnosticorelacionadoe3]' disabled>";
 
       $nomvar="coddiagnosticocausamuerte".$cont;
-      echo "<br>Muerte<input type='text' name='$nomvar' size='4' maxlength='4' value='$rowcon[coddiagnosticocausamuerte]' disabled>";
+      echo "<br>Muerte<input type='text' name='$nomvar' size='25' maxlength='25' value='$rowcon[coddiagnosticocausamuerte]' disabled>";
       echo "</td>";
 
       $consultades=mysql_query("SELECT valo_des,nomb_des FROM destipos WHERE codt_des='H3'");
@@ -229,7 +229,9 @@ mysql_close();
 ?>    
 </table>
 <br><br>
-<center><a href='#' onclick='validar(<?echo $cont;?>)'><img src='icons/feed_disk.png' width='20' height='20'>Guardar</a></center>
+<div class='Td6'>
+  <center><a href='#' onclick='validar(<?echo $cont;?>)'><img src='icons/feed_disk.png' width='20' height='20'>Guardar</a></center>
+</div>
 <input type='hidden' name='cont' value='<?echo $cont;?>'>
 </form>
 </body>

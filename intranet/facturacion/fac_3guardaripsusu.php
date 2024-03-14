@@ -15,9 +15,7 @@ function regresar(){
 <?php
 include('php/conexion.php');
 //include('php/funciones.php');
-?>
-<img src='icons/barra6.png' width='910' height='30' usemap="#actividades" border='0'/>
-<?php
+
 
 $consultausu="SELECT usu.tipodocumento ,usu.numdocumento FROM nrusuario usu
 WHERE id_usuario='$id_usuario'";

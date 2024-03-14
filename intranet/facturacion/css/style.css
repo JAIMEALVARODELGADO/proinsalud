@@ -188,7 +188,7 @@ textarea {
     margin: 10px 10px 0px 10px;
     border-width: 0;
     text-align: left;
-    vertical-align: center;
+    vertical-align: center;    
 }
 
 .Tbl0 tr:hover {
@@ -224,7 +224,7 @@ textarea {
 .Td1 {
     text-align: center;
     background-color: #BED1DB;
-    color: #FFF;
+    color: #000;
     font-weight: bold;
     vertical-align: middle;
 }
@@ -246,9 +246,14 @@ textarea {
     padding-right: 10px;
 }
 
+.Td6{
+    text-align: center;
+    background-color: #02859a;
+}
+
 .Th0 {
     text-align: center;
-    background-color: #0D47A1;
+    background-color: #006699;
     color: #ffffff;
 }
 

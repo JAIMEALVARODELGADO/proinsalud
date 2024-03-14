@@ -220,7 +220,7 @@ include('php/funciones.php');
         <tr>
             <td class="Td2" align='right' width='50%'><b>Fecha de nacimiento:</td>
             <td class="Td2" align='left' width='50%'>
-                <input type='text' name='fechanacimiento' size='16' maxlength='16' value='<?php echo $rowcon[fechanacimiento];?>' disabled>
+                <input type='text' name='fechanacimiento' size='10' maxlength='10' value='<?php echo $rowcon[fechanacimiento];?>' disabled>
             </td>
         </tr>
         <tr>
@@ -305,10 +305,10 @@ include('php/funciones.php');
             </td>        
         </tr>
         <tr>
-            <td class="Td1" align='right' width='50%'>
+            <td class="Td6" align='right' width='50%'>
                 <center><a href='#' onclick='activar()' title="Editar"><img src='icons/feed_edit.png' width='20' height='20'>Editar</a></center>
             </td>
-            <td class="Td1" align='left' width='50%'>
+            <td class="Td6" align='left' width='50%'>
                 <center><a href='#' onclick='validar()' title="Guardar"><img src='icons/feed_disk.png' width='20' height='20'>Guardar</a></center>
             </td>
         </tr>

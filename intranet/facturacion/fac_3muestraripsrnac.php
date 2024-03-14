@@ -272,7 +272,7 @@ include('php/funciones.php');
 	</td>";
 
     $consultades=mysql_query("SELECT valo_des,nomb_des FROM destipos WHERE codt_des='E3'");
-	$nomvar="tipodocumentoidentificacion".$cont;
+	  $nomvar="tipodocumentoidentificacion".$cont;
     echo "<td class='Td2' align='center'><select name='$nomvar' disabled>";
 	  while($rowdes=mysql_fetch_array($consultades)){
 	    echo "<option value='$rowdes[valo_des]'>$rowdes[valo_des] ".substr($rowdes[nomb_des],0,20);
@@ -296,7 +296,7 @@ include('php/funciones.php');
     echo "<td class='Td2' align='center'><input type='text' name='$nomvar' size='2' maxlength='2' value='$rowcon[numeroconsultascprenatal]' disabled></td>";
 
     $consultades=mysql_query("SELECT valo_des,nomb_des FROM destipos WHERE codt_des='H9'");
-	$nomvar="codsexobiologico".$cont;
+	  $nomvar="codsexobiologico".$cont;
     echo "<td class='Td2' align='center'><select name='$nomvar' disabled>";
 	  while($rowdes=mysql_fetch_array($consultades)){
 	    echo "<option value='$rowdes[valo_des]'>$rowdes[valo_des] ".substr($rowdes[nomb_des],0,20);
@@ -310,12 +310,12 @@ include('php/funciones.php');
     $nomvar="peso".$cont;
     echo "<td class='Td2' align='center'><input type='text' name='$nomvar' size='4' maxlength='4' value='$rowcon[peso]' disabled>Gr</td>";
 
-	$nomvar="coddiagnosticoprincipal".$cont;
-	echo "<td class='Td2' align='center'>Principal<input type='text' name='$nomvar' size='4' maxlength='4' value='$rowcon[coddiagnosticoprincipal]' disabled><a href='#' onclick='ayuda(\"D\",\"$rowcon[coddiagnosticoprincipal]\")'><img src='icons/feed_magnify.png' width='15' height='15'></a>";
+	  $nomvar="coddiagnosticoprincipal".$cont;
+	  echo "<td class='Td2' align='center'>Principal<input type='text' name='$nomvar' size='25' maxlength='25' value='$rowcon[coddiagnosticoprincipal]' disabled><a href='#' onclick='ayuda(\"D\",\"$rowcon[coddiagnosticoprincipal]\")'><img src='icons/feed_magnify.png' width='15' height='15'></a>";
 
     $nomvar="coddiagnosticocausamuerte".$cont;
-	echo "<br>Muerte<input type='text' name='$nomvar' size='4' maxlength='4' value='$rowcon[coddiagnosticocausamuerte]' disabled>";
-	echo "</td>";
+	  echo "<br>Muerte<input type='text' name='$nomvar' size='25' maxlength='25' value='$rowcon[coddiagnosticocausamuerte]' disabled>";
+	  echo "</td>";
 
     $consultades=mysql_query("SELECT valo_des,nomb_des FROM destipos WHERE codt_des='H3'");
     $nomvar="condiciondestinoegreso".$cont;
@@ -330,7 +330,7 @@ include('php/funciones.php');
     <?php    
 
     $nomvar="fechaegreso".$cont;
-    echo "<td class='Td2' align='center'><input type='text' name='$nomvar' size='10' maxlength='10' value='$rowcon[fechaegreso]' disabled></td>";
+    echo "<td class='Td2' align='center'><input type='text' name='$nomvar' size='16' maxlength='16' value='$rowcon[fechaegreso]' disabled></td>";
 
     echo "</tr>";
 	$cont++;
@@ -393,7 +393,9 @@ mysql_close();
 ?>    
 </table>
 <br><br>
-<center><a href='#' onclick='validar(<?echo $cont;?>)'><img src='icons/feed_disk.png' width='20' height='20'>Guardar</a></center>
+<div class='Td6'>
+  <center><a href='#' onclick='validar(<?echo $cont;?>)'><img src='icons/feed_disk.png' width='20' height='20'>Guardar</a></center>
+</div>
 <input type='hidden' name='cont' value='<?echo $cont;?>'>
 </form>
 </body>
