@@ -42,12 +42,12 @@ for($i=0;$i<$cont;$i++){
         
 
 		//Aqui valido que exista el dx principal
-		$nomvar="coddiagnositicoprincipal".$i;		
+		$nomvar="coddiagnosticoprincipal".$i;		
 		/*$consulta="SELECT cod_cie10 FROM cie_10 WHERE cod_cie10='".$$nomvar."'";
 		$consulta=mysql_query($consulta);
 		if(mysql_num_rows($consulta)<>0){
 			$actualiza=$actualiza."dxpr_fpr='".$$nomvar."',";}*/
-        $actualiza=$actualiza."coddiagnositicoprincipal='".$$nomvar."',";
+        $actualiza=$actualiza."coddiagnosticoprincipal='".$$nomvar."',";
 		//Aqui valido que exista el dx relacionado
 		$nomvar="coddiagnosticorelacionado".$i;
 		/*$consulta="SELECT cod_cie10 FROM cie_10 WHERE cod_cie10='".$$nomvar."'";

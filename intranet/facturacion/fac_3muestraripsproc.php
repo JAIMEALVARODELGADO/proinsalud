@@ -29,7 +29,7 @@ var comando='';
     eval(comando);
     comando="form1.finalidadtecnologia"+reg_+".disabled=false";
     eval(comando);
-    comando="form1.coddiagnositicoprincipal"+reg_+".disabled=false";
+    comando="form1.coddiagnosticoprincipal"+reg_+".disabled=false";
     eval(comando);
     comando="form1.coddiagnosticorelacionado"+reg_+".disabled=false";
     eval(comando);
@@ -61,7 +61,7 @@ var comando='';
     eval(comando);
     comando="form1.finalidadtecnologia"+reg_+".disabled=true";
     eval(comando);
-    comando="form1.coddiagnositicoprincipal"+reg_+".disabled=true";
+    comando="form1.coddiagnosticoprincipal"+reg_+".disabled=true";
     eval(comando);
     comando="form1.coddiagnosticorelacionado"+reg_+".disabled=true";
     eval(comando);
@@ -110,7 +110,7 @@ var i=0,comando='',error='';
     comando="form1.finalidadtecnologia"+i+".value"
     if(eval(comando)==''){error=error+"Finalidad "+i+"\n"}
 
-    comando="form1.coddiagnositicoprincipal"+i+".value"
+    comando="form1.coddiagnosticoprincipal"+i+".value"
     if(eval(comando)==''){error=error+"Diagnóstico principal "+i+"\n"}
 
     comando="form1.conceptorecaudo"+i+".value"
@@ -201,7 +201,7 @@ include('php/funciones.php');
 <?
   $cont=0;
   $total=0;  
-  $consultacon="SELECT pro.id_procedimiento,pro.fechainicioatencion,pro.idmipres,pro.numautorizacion,pro.codprocedimiento,pro.viaingresoservicio,pro.modalidadgruposervicio,pro.gruposervicios,pro.codservicio,pro.finalidadtecnologia,pro.tipodocumentoidentificacion,pro.numdocumentoidentificacion,pro.coddiagnositicoprincipal,pro.coddiagnosticorelacionado,pro.codcomplicacion,pro.vrservicio,pro.conceptorecaudo,pro.valorpagomoderador,pro.numfevpagomoderador,pro.consecutivo,pro.iden_fac,pro.iden_dfa
+  $consultacon="SELECT pro.id_procedimiento,pro.fechainicioatencion,pro.idmipres,pro.numautorizacion,pro.codprocedimiento,pro.viaingresoservicio,pro.modalidadgruposervicio,pro.gruposervicios,pro.codservicio,pro.finalidadtecnologia,pro.tipodocumentoidentificacion,pro.numdocumentoidentificacion,pro.coddiagnosticoprincipal,pro.coddiagnosticorelacionado,pro.codcomplicacion,pro.vrservicio,pro.conceptorecaudo,pro.valorpagomoderador,pro.numfevpagomoderador,pro.consecutivo,pro.iden_fac,pro.iden_dfa
   FROM nrprocedimiento AS pro
   WHERE iden_fac='$giden_fac'";
   //echo "<br><br>".$consultacon;
@@ -287,8 +287,8 @@ include('php/funciones.php');
         <script language='javascript'>activasel('<?echo $nomvar;?>','<?echo $rowcon[finalidadtecnologia];?>');</script>
     <?php
 
-    $nomvar="coddiagnositicoprincipal".$cont;
-    echo "<td class='Td2' align='center'><b>Principal <input type='text' name='$nomvar' size='25' maxlength='25' value='$rowcon[coddiagnositicoprincipal]' disabled><a href='#'  onclick='ayuda(\"D\",\"$rowcon[coddiagnositicoprincipal]\")'><img src='icons/feed_magnify.png' width='15' height='15'></a>";	
+    $nomvar="coddiagnosticoprincipal".$cont;
+    echo "<td class='Td2' align='center'><b>Principal <input type='text' name='$nomvar' size='25' maxlength='25' value='$rowcon[coddiagnosticoprincipal]' disabled><a href='#'  onclick='ayuda(\"D\",\"$rowcon[coddiagnosticoprincipal]\")'><img src='icons/feed_magnify.png' width='15' height='15'></a>";	
 
     $nomvar="coddiagnosticorelacionado".$cont;
     echo "<br>Relacionado <input type='text' name='$nomvar' size='25' maxlength='25' value='$rowcon[coddiagnosticorelacionado]' disabled>";

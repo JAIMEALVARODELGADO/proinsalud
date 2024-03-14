@@ -118,7 +118,9 @@ if(mysql_num_rows($consultacon)<>0){
         }    
         $consulta->consecutivo = $consecutivo;    
         $consecutivo++;
-        $consultas[] = $consulta;        
+        $consultas[] = $consulta;
+
+        $errores.=$consulta->validar();
     }
     //echo"<br>".json_encode($consultas);
 }
@@ -129,7 +131,7 @@ $servicios->consultas = $consultas;
 
 $procedimientos=array();
 //aqui se generan los procedimientos
-$consultapro="SELECT pro.id_procedimiento,pro.fechainicioatencion,pro.idmipres,pro.numautorizacion,pro.codprocedimiento,pro.viaingresoservicio,pro.modalidadgruposervicio,pro.gruposervicios,pro.codservicio,pro.finalidadtecnologia,pro.tipodocumentoidentificacion,pro.numdocumentoidentificacion,pro.coddiagnositicoprincipal,pro.coddiagnosticorelacionado,pro.codcomplicacion,pro.vrservicio,pro.conceptorecaudo,pro.valorpagomoderador,pro.numfevpagomoderador,pro.consecutivo,pro.iden_fac,pro.iden_dfa
+$consultapro="SELECT pro.id_procedimiento,pro.fechainicioatencion,pro.idmipres,pro.numautorizacion,pro.codprocedimiento,pro.viaingresoservicio,pro.modalidadgruposervicio,pro.gruposervicios,pro.codservicio,pro.finalidadtecnologia,pro.tipodocumentoidentificacion,pro.numdocumentoidentificacion,pro.coddiagnosticoprincipal,pro.coddiagnosticorelacionado,pro.codcomplicacion,pro.vrservicio,pro.conceptorecaudo,pro.valorpagomoderador,pro.numfevpagomoderador,pro.consecutivo,pro.iden_fac,pro.iden_dfa
   FROM nrprocedimiento AS pro
   WHERE iden_fac='$giden_fac'";
 //echo $consultapro;
@@ -154,7 +156,7 @@ if(mysql_num_rows($consultapro)<>0){
         $procedimiento->finalidadTecnologiaSalud = $rowpro[finalidadtecnologia];
         $procedimiento->tipoDocumentoIdentificacion = $rowpro[tipodocumentoidentificacion];
         $procedimiento->numDocumentoIdentificacion = $rowpro[numdocumentoidentificacion];
-        $procedimiento->codDiagnositicoPrincipal = $rowpro[coddiagnositicoprincipal];
+        $procedimiento->codDiagnosticoPrincipal = $rowpro[coddiagnosticoprincipal];
         if(!empty($rowpro[coddiagnosticorelacionado])){
             $procedimiento->codDiagnosticoRelacionado = $rowpro[coddiagnosticorelacionado];
         }
@@ -173,6 +175,8 @@ if(mysql_num_rows($consultapro)<>0){
 
         $consecutivo++;
         $procedimientos[] = $procedimiento;
+
+        $errores.=$procedimiento->validar();
     }
     //echo"<br>".json_encode($procedimientos);
 }
@@ -231,6 +235,8 @@ if(mysql_num_rows($consultamed)<>0){
 
         $consecutivo++;
         $medicamentos[] = $medicamento;
+
+        $errores.=$medicamento->validar();
     }
     //echo"<br>".json_encode($medicamentos);
 }
@@ -275,6 +281,8 @@ if(mysql_num_rows($consultaotr)<>0){
 
         $consecutivo++;
         $otrosServicios[] = $otroServicio;
+
+        $errores.=$otroServicio->validar();
     }
     //echo"<br>".json_encode($otrosServicios);
 }
@@ -315,6 +323,8 @@ if(mysql_num_rows($consultaurg)<>0){
 
         $consecutivo++;
         $urgencias[] = $urgencia;
+
+        $errores.=$urgencia->validar();
     }
     //echo"<br>".json_encode($urgencias);
 }
@@ -362,6 +372,8 @@ if(mysql_num_rows($consultahos)<>0){
 
         $consecutivo++;
         $hospitals[] = $hospital;
+
+        $errores.=$hospital->validar();
     }
     //echo"<br>".json_encode($hospitals);
 }
@@ -397,6 +409,8 @@ if(mysql_num_rows($consultarna)<>0){
 
         $consecutivo++;
         $recienNacidos[] = $recienNacido;
+
+        $errores.=$recienNacido->validar();
     }
     //echo"<br>".json_encode($recienNacidos);
 }
@@ -484,7 +498,7 @@ mysql_close();
 $nombreArchivo="ripsJson".$numFactura.".json";
 ?>
 <table class="Tbl0">
-    <tr><td>Lista de errores</td></tr>
+    <tr><td class='Td1'>Lista de errores</td></tr>
     <?php echo $errores;?>
 </table>
 
@@ -493,8 +507,12 @@ $nombreArchivo="ripsJson".$numFactura.".json";
 <textarea name="json" id="json" hidden="true">
 <?php echo $ripsJson;?>
 </textarea>
-<div align="center">
+<!--<div align="center">
     <input type="button" class='BtnGuardar' id="guardaArchivo" value="Guardar Json" onclick="saveTextAsFile('<?php echo $nombreArchivo;?>')" />
+</div>-->
+<br><br>
+<div class='Td6'>
+  <center><a href='#' onclick="saveTextAsFile('<?php echo $nombreArchivo;?>')"><img src='icons/feed_disk.png' width='20' height='20'>Descargar Rips</a></center>
 </div>
 
 <?php
@@ -522,44 +540,38 @@ class Usuario{
     public $servicios;
 
     public function validar(){
-        $errores="";
-        if(isset($this->tipoDocumento)){
-            $errores.="<tr><td>Usuario - Tipo de documento de identificación </td><tr>";
-        }
-        if(!isset($this->$numDocumentoIdentificacion)){
-            $errores.="<tr><td>Usuario - Número de documento de identificación </td><tr>";
-        }
-        if(!isset($this->$tipoUsuario)){
+        $errores="";        
+        if(isset($this->tipoDocumento) and !existeTipo($this->tipoDocumento,'E3')){
+            $errores.="<tr><td>Usuario - Tipo de documento de identificación </td><tr>";            
+        }        
+        if(isset($this->numDocumentoIdentificacion) and strlen($this->numDocumentoIdentificacion) < 4){
+            $errores.="<tr><td>Usuario - El número de documento de identificación no debe ser inferior a 4 caracteres </td><tr>";
+        }        
+        if(isset($this->tipoUsuario) and !existeTipo($this->tipoUsuario,'G3')){
             $errores.="<tr><td>Usuario - Tipo de usuario </td><tr>";
+        }        
+        if(isset($this->fechaNacimiento) and strlen($this->fechaNacimiento) < 10 ){
+            $errores.="<tr><td>Usuario - Fecha de nacimiento </td><tr>";
+        }        
+        if(isset($this->codSexo) and !existeTipo($this->codSexo,'H9')){
+            $errores.="<tr><td>Usuario - Sexo </td><tr>";
+        }        
+        if(isset($this->codPaisResidencia) and !existePais($this->codPaisResidencia)){
+            $errores.="<tr><td>Usuario - País de residencia </td><tr>";
+        }        
+        if(isset($this->codMunicipioResidencia) and !existeMunicipio($this->codMunicipioResidencia)){
+            $errores.="<tr><td>Usuario - Municipio de residencia </td><tr>";
+        }        
+        if(isset($this->codZonaTerritorialResidencia) and !existeTipo($this->codZonaTerritorialResidencia,'H0')){
+            $errores.="<tr><td>Usuario - Zona de residencia </td><tr>";
         }
-        /*if(this->$fechaNacimiento){
-            $errores="";
+        if(isset($this->incapacidad) and empty($this->incapacidad)){
+            $errores.="<tr><td>Usuario - Incapacidad </td><tr>";
+        }        
+        if(isset($this->codPaisOrigen) and !existePais($this->codPaisOrigen)){
+            $errores.="<tr><td>Usuario - País de origen </td><tr>";
         }
-        if(this->$codSexo){
-            $errores="";
-        }
-        if(this->$codPaisResidencia){
-            $errores="";
-        }
-        if(this->$codMunicipioResidencia){
-            $errores="";
-        }
-        if(this->$codZonaTerritorialResidencia){
-            $errores="";
-        }
-        if(this->$incapacidad){
-            $errores="";
-        }
-        if(this->$consecutivo){
-            $errores="";
-        }
-        if(this->$codPaisOrigen){
-            $errores="";
-        }
-        if(this->$servicios){
-            $errores="";
-        }*/
-        
+
         return($errores);
     }
 }
@@ -596,6 +608,51 @@ class Consulta{
     public $valorPagoModerador;
     public $numFEVPagoModerador;
     public $consecutivo;
+
+    public function validar(){
+        $errores="";        
+        if(isset($this->fechaInicioAtencion) and strlen($this->fechaInicioAtencion) < 16){
+            $errores.="<tr><td>Consultas - Fecha y hora de inicio de atención - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->codConsulta) and strlen($this->codConsulta) < 6){
+            $errores.="<tr><td>Consultas - El código no debe ser menor a 6 caracteres - Registro ".$this->consecutivo." </td><tr>";
+        }        
+        if(isset($this->modalidadGrupoServicioTecSal) and !existeTipo($this->modalidadGrupoServicioTecSal,'G4')){
+            $errores.="<tr><td>Consultas - Modalidad de atención - Registro ".$this->consecutivo."</td><tr>";
+        }        
+        if(isset($this->grupoServicios) and !existeTipo($this->grupoServicios,'G5')){
+            $errores.="<tr><td>Consultas - Grupo de servicios - Registro ".$this->consecutivo."</td><tr>";
+        }
+        if(isset($this->codServicio) and !existeTipo($this->codServicio,'G6')){
+            $errores.="<tr><td>Consultas - Servicio - Registro ".$this->consecutivo."</td><tr>";
+        }
+        if(isset($this->finalidadTecnologiaSalud) and !existeTipo($this->finalidadTecnologiaSalud,'G7')){
+            $errores.="<tr><td>Consultas - Finalidad - Registro ".$this->consecutivo."</td><tr>";
+        }        
+        if(isset($this->causaMotivoAtencion) and !existeTipo($this->causaMotivoAtencion,'G8')){
+            $errores.="<tr><td>Consultas - Causa motivo de atención - Registro ".$this->consecutivo."</td><tr>";
+        }        
+        if(isset($this->codDiagnosticoPrincipal) and strlen($this->codDiagnosticoPrincipal) < 4){
+            $errores.="<tr><td>Consultas - El diagnóstico principal no puede ser menor a 4 caracteres - Registro ".$this->consecutivo." </td><tr>";
+        }        
+        if(isset($this->codDiagnosticoRelacinado1) and strlen($this->codDiagnosticoRelacinado1) < 4){
+            $errores.="<tr><td>Consultas - El diagnóstico relacionado 1 no puede ser menor a 4 caracteres - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->codDiagnosticoRelacinado2) and strlen($this->codDiagnosticoRelacinado2) < 4){
+            $errores.="<tr><td>Consultas - El diagnóstico relacionado 2 no puede ser menor a 4 caracteres - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->codDiagnosticoRelacinado3) and strlen($this->codDiagnosticoRelacinado3) < 4){
+            $errores.="<tr><td>Consultas - El diagnóstico relacionado 3 no puede ser menor a 4 caracteres - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->tipoDiagnosticoPrincipal) and !existeTipo($this->tipoDiagnosticoPrincipal,'G9')){
+            $errores.="<tr><td>Consultas - Tipo de diagnóstico - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->conceptoRecaudo) and !existeTipo($this->conceptoRecaudo,'H1')){
+            $errores.="<tr><td>Consultas - Concepto del recaudo - Registro ".$this->consecutivo." </td><tr>";
+        }        
+
+        return($errores);
+    }
 }
 
 class Procedimiento{
@@ -611,7 +668,7 @@ class Procedimiento{
     public $finalidadTecnologiaSalud;
     public $tipoDocumentoIdentificacion;
     public $numDocumentoIdentificacion;
-    public $codDiagnositicoPrincipal;
+    public $codDiagnosticoPrincipal;
     public $codDiagnosticoRelacionado;
     public $codComplicacion;
     public $vrServicio;
@@ -619,6 +676,45 @@ class Procedimiento{
     public $valorPagoModerador;
     public $numFEVPagoModerador;
     public $consecutivo;
+
+    public function validar(){
+        $errores="";
+        if(isset($this->fechaInicioAtencion) and strlen($this->fechaInicioAtencion) < 16){
+            $errores.="<tr><td>Procedimientos - Fecha  y hora de inicio de atención - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->codProcedimiento) and strlen($this->codProcedimiento) < 6){
+            $errores.="<tr><td>Procedimientos - El código del procedimiento no puede ser menor a 6 caracteres - Registro ".$this->consecutivo." </td><tr>";
+        }        
+        if(isset($this->viaIngresoServicioSalud) and !existeTipo($this->viaIngresoServicioSalud,'H2')){
+            $errores.="<tr><td>Procedimientos - Vía de ingreso - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->modalidadGrupoServicioTecSal) and !existeTipo($this->modalidadGrupoServicioTecSal,'G4')){
+            $errores.="<tr><td>Procedimientos - Modalidad de atención - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->grupoServicios) and !existeTipo($this->grupoServicios,'G5')){
+            $errores.="<tr><td>Procedimientos - Grupo de servicios - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->codServicio) and !existeTipo($this->codServicio,'G6')){
+            $errores.="<tr><td>Procedimientos - Servicio - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->finalidadTecnologiaSalud) and !existeTipo($this->finalidadTecnologiaSalud,'G7')){
+            $errores.="<tr><td>Procedimientos - Finalidad - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->codDiagnosticoPrincipal) and strlen($this->codDiagnosticoPrincipal) < 4){
+            $errores.="<tr><td>Procedimientos - El diagnóstico principal no puede ser menor a 4 caracteres - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->codDiagnosticoRelacionado) and strlen($this->codDiagnosticoRelacionado) < 4){
+            $errores.="<tr><td>Procedimientos - El diagnóstico relacionado no puede ser menor a 4 caracteres - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->codComplicacion) and strlen($this->codComplicacion) < 4){
+            $errores.="<tr><td>Procedimientos - El código de la complicación no puede ser menor a 4 caracteres - Registro ".$this->consecutivo." </td><tr>";
+        }        
+        if(isset($this->conceptoRecaudo) and !existeTipo($this->conceptoRecaudo,'H1')){
+            $errores.="<tr><td>Procedimientos - Concepto del recaudo - Registro ".$this->consecutivo." </td><tr>";
+        }          
+
+        return($errores);
+    }
 }
 
 class Medicamento{
@@ -645,6 +741,42 @@ class Medicamento{
     public $valorPagoModerador;
     public $numFEVPagoModerador;
     public $consecutivo;
+
+    public function validar(){
+        $errores="";
+        if(isset($this->fechaDispensAdmon) and strlen($this->fechaDispensAdmon) < 16){
+            $errores.="<tr><td>Medicamentos - Fecha y hora de dispensación - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->codDiagnosticoPrincipal) and strlen($this->codDiagnosticoPrincipal) < 4){
+            $errores.="<tr><td>Medicamentos - El diagnóstico principal no debe ser menor a 4 caracteres - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->codDiagnosticoRelacionado) and strlen($this->codDiagnosticoRelacionado) < 4){
+            $errores.="<tr><td>Medicamentos - El diagnóstico relacionado no debe ser menor a 4 caracteres - Registro ".$this->consecutivo." </td><tr>";
+        }        
+        if(isset($this->tipoMedicamento) and !existeTipo($this->tipoMedicamento,'H4')){
+            $errores.="<tr><td>Medicamentos - Tipo de medicamento - Registro ".$this->consecutivo." </td><tr>";
+        }        
+        if(isset($this->codTecnologiaSalud) and empty($this->codTecnologiaSalud)){
+            $errores.="<tr><td>Medicamentos - Código de medicamento - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->unidadMedida) and !existeTipo($this->unidadMedida,'H5')){
+            $errores.="<tr><td>Medicamentos - Unidad de medida de medicamento - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->formaFarmaceutica) and !existeTipo($this->formaFarmaceutica,'H6')){
+            $errores.="<tr><td>Medicamentos - Forma farmacéutica - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->unidadMinDispensa) and !existeTipo($this->unidadMinDispensa,'H7')){
+            $errores.="<tr><td>Medicamentos - Unidad de dispensación - Registro ".$this->consecutivo." </td><tr>";
+        }        
+        if(isset($this->diasTratamiento) and intval($this->diasTratamiento) < 1){
+            $errores.="<tr><td>Medicamentos - Los días de tratamiento deben ser mayores a 0 - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->conceptoRecaudo) and !existeTipo($this->conceptoRecaudo,'H1')){
+            $errores.="<tr><td>Medicamentos - Concepto de recaudo - Registro ".$this->consecutivo." </td><tr>";
+        }
+
+        return($errores);
+    }
 }
 
 class otrosServicios{
@@ -664,6 +796,24 @@ class otrosServicios{
     public $valorPagoModerador;
     public $numFEVPagoModerador;
     public $consecutivo;
+
+    public function validar(){
+        $errores="";
+        if(isset($this->fechaSuministroTecnologia) and strlen($this->fechaSuministroTecnologia) < 16){
+            $errores.="<tr><td>Otros Servicios - Fecha y hora de suministro - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->tipoOS) and !existeTipo($this->tipoOS,'H8')){
+            $errores.="<tr><td>Otros Servicios - Tipo de servicio - Registro ".$this->consecutivo." </td><tr>";
+        }        
+        if(isset($this->codTecnologiaSalud) and empty($this->codTecnologiaSalud)){
+            $errores.="<tr><td>Otros Servicios - Código de la tecnología - Registro ".$this->consecutivo." </td><tr>";
+        }        
+        if(isset($this->conceptoRecaudo) and !existeTipo($this->conceptoRecaudo,'H1')){
+            $errores.="<tr><td>Otros Servicios - Concepto de recaudo - Registro ".$this->consecutivo." </td><tr>";
+        }        
+
+        return($errores);
+    }
 }
 
 class Urgencia{
@@ -679,6 +829,43 @@ class Urgencia{
     public $codDiagnosticoCausaMuerte;
     public $fechaEgreso;
     public $consecutivo;
+
+    public function validar(){
+        $errores="";
+        if(isset($this->fechaInicioAtencion) and strlen($this->fechaInicioAtencion) < 16){
+            $errores.="<tr><td>Urgencias - Fecha y hora de inicio de atención - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->causaMotivoAtencion) and !existeTipo($this->causaMotivoAtencion,'G8')){
+            $errores.="<tr><td>Urgencias - Causa motivo de atención - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->codDiagnosticoPrincipal) and strlen($this->codDiagnosticoPrincipal) < 4){
+            $errores.="<tr><td>Urgencias - El diagnóstico principal no puede ser menor a 4 caracteres - Registro ".$this->consecutivo." </td><tr>";            
+        }
+        if(isset($this->codDiagnosticoPrincipalE) and strlen($this->codDiagnosticoPrincipalE) < 4){
+            $errores.="<tr><td>Urgencias - El diagnóstico principal de egreso no puede ser menor a 4 caracteres - Registro ".$this->consecutivo." </td><tr>";            
+        }
+        //$this->codDiagnosticoRelacionadoE1='66';
+        if(isset($this->codDiagnosticoRelacionadoE1) and strlen($this->codDiagnosticoRelacionadoE1) < 4){
+            $errores.="<tr><td>Urgencias - El diagnóstico relacionado 1 de egreso no puede ser menor a 4 caracteres - Registro ".$this->consecutivo." </td><tr>";            
+        }
+        if(isset($this->codDiagnosticoRelacionadoE2) and strlen($this->codDiagnosticoRelacionadoE2) < 4){
+            $errores.="<tr><td>Urgencias - El diagnóstico relacionado 2 de egreso no puede ser menor a 4 caracteres - Registro ".$this->consecutivo." </td><tr>";            
+        }        
+        if(isset($this->codDiagnosticoRelacionadoE3) and strlen($this->codDiagnosticoRelacionadoE3) < 4){
+            $errores.="<tr><td>Urgencias - El diagnóstico relacionado 3 de egreso no puede ser menor a 4 caracteres - Registro ".$this->consecutivo." </td><tr>";            
+        }
+        if(isset($this->condicionDestinoUsuarioEgreso) and !existeTipo($this->condicionDestinoUsuarioEgreso,'H3')){
+            $errores.="<tr><td>Urgencias - Condicion y destino del usuario - Registro ".$this->consecutivo." </td><tr>";            
+        }
+        if(isset($this->codDiagnosticoCausaMuerte) and strlen($this->codDiagnosticoCausaMuerte) < 4){
+            $errores.="<tr><td>Urgencias - El diagnóstico de la causa de muerte no puede ser menor a 4 caracteres - Registro ".$this->consecutivo." </td><tr>";            
+        }
+        if(isset($this->fechaEgreso) and strlen($this->fechaEgreso) < 16){
+            $errores.="<tr><td>Urgencias - Fecha y hora de egreso - Registro ".$this->consecutivo." </td><tr>";            
+        }
+
+        return($errores);
+    }
 }
 
 class Hospital{
@@ -697,6 +884,48 @@ class Hospital{
     public $codDiagnosticoCausaMuerte;
     public $fechaEgreso;
     public $consecutivo;
+
+    public function validar(){
+        $errores="";        
+        if(isset($this->viaIngresoServicioSalud) and !existeTipo($this->viaIngresoServicioSalud,'H2')){
+            $errores.="<tr><td>Hospitalización - Via de ingreso al servicio - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->fechaInicioAtencion) and strlen($this->fechaInicioAtencion) < 16){
+            $errores.="<tr><td>Hospitalización - Fecha y hora de inicio de atención - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->causaMotivoAtencion) and !existeTipo($this->causaMotivoAtencion,'G8')){
+            $errores.="<tr><td>Hospitalización - Causa motivo de atención - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->codDiagnosticoPrincipal) and strlen($this->codDiagnosticoPrincipal) < 4){
+            $errores.="<tr><td>Hospitalización - El diagnóstico principal no puede ser menor a 4 caracteres - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->codDiagnosticoPrincipalE) and strlen($this->codDiagnosticoPrincipalE) < 4){
+            $errores.="<tr><td>Hospitalización - El diagnóstico principal de egreso no puede ser menor a 4 caracteres - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->codDiagnosticoRelacionadoE1) and strlen($this->codDiagnosticoRelacionadoE1) < 4){
+            $errores.="<tr><td>Hospitalización - El diagnóstico relacionado 1 de egreso no puede ser menor a 4 caracteres - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->codDiagnosticoRelacionadoE2) and strlen($this->codDiagnosticoRelacionadoE2) < 4){
+            $errores.="<tr><td>Hospitalización - El diagnóstico relacionado 2 de egreso no puede ser menor a 4 caracteres - Registro ".$this->consecutivo." </td><tr>";
+        }        
+        if(isset($this->codDiagnosticoRelacionadoE3) and strlen($this->codDiagnosticoRelacionadoE3) < 4){
+            $errores.="<tr><td>Hospitalización - El diagnóstico relacionado 3 de egreso no puede ser menor a 4 caracteres - Registro ".$this->consecutivo." </td><tr>";
+        }        
+        if(isset($this->codComplicacion) and strlen($this->codComplicacion) < 4){
+            $errores.="<tr><td>Hospitalización - El diagnóstico de la complicación no puede ser menor a 4 caracteres - Registro ".$this->consecutivo." </td><tr>";
+        }        
+        if(isset($this->condicionDestinoUsuarioEgreso) and !existeTipo($this->condicionDestinoUsuarioEgreso,'H3')){
+            $errores.="<tr><td>Hospitalización - Condicion y destino del usuario - Registro ".$this->consecutivo." </td><tr>";            
+        }
+        if(isset($this->codDiagnosticoCausaMuerte) and strlen($this->codDiagnosticoCausaMuerte) < 4){
+            $errores.="<tr><td>Hospitalización - El diagnóstico de la causa de muerte no puede ser menor a 4 caracteres - Registro ".$this->consecutivo." </td><tr>";            
+        }
+        if(isset($this->fechaEgreso) and strlen($this->fechaEgreso) < 16){
+            $errores.="<tr><td>Hospitalización - Fecha y hora de egreso - Registro ".$this->consecutivo." </td><tr>";            
+        }
+        
+        return($errores);
+    }
 }
 
 class recienNacido{
@@ -713,6 +942,72 @@ class recienNacido{
     public $codDiagnosticoCausaMuerte;
     public $fechaEgreso;
     public $consecutivo;
+
+    public function validar(){
+        $errores="";        
+        if(isset($this->tipoDocumentoIdentificacion) and !existeTipo($this->tipoDocumentoIdentificacion,'E3')){
+            $errores.="<tr><td>Recien Nacidos - Tipo de documento de identificación - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->numDocumentoIdentificacion) and strlen($this->numDocumentoIdentificacion) < 4){
+            $errores.="<tr><td>Recien Nacidos - El número de identificación no puede ser menor a 4 caracteres - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->fechaNacimiento) and strlen($this->fechaNacimiento) < 16){
+            $errores.="<tr><td>Recien Nacidos - Fecha y hora de nacimiento - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->edadGestacional) and (intval($this->edadGestacional) < 20 or intval($this->edadGestacional) > 40)){
+            $errores.="<tr><td>Recien Nacidos - La edad gestacional debe estar entre 20 y 40 - Registro ".$this->consecutivo." </td><tr>";
+        }
+        if(isset($this->codSexoBiologico) and !existeTipo($this->codSexoBiologico,'H9')){
+            $errores.="<tr><td>Recien Nacidos - Sexo - Registro ".$this->consecutivo." </td><tr>";
+        }        
+        if(isset($this->peso) and (intval($this->peso) < 500 or intval($this->peso) > 5000)){        
+            $errores.="<tr><td>Recien Nacidos - El peso debe estar entre 500 y 5000 gramos - Registro ".$this->consecutivo." </td><tr>";
+        }        
+        if(isset($this->codDiagnosticoPrincipal) and strlen($this->codDiagnosticoPrincipal) < 4){
+            $errores.="<tr><td>Recien Nacidos - El diagnóstico principal no debe ser menor a 4 caracteres - Registro ".$this->consecutivo." </td><tr>";
+        }        
+        if(isset($this->condicionDestinoUsuarioEgreso) and !existeTipo($this->condicionDestinoUsuarioEgreso,'H3')){
+            $errores.="<tr><td>Reien Nacidos - Condicion y destino del usuario - Registro ".$this->consecutivo." </td><tr>";            
+        }
+        if(isset($this->codDiagnosticoCausaMuerte) and strlen($this->codDiagnosticoCausaMuerte) < 4){
+            $errores.="<tr><td>Recien Nacidos - El diagnóstico de la causa de muerte no puede ser menor a 4 caracteres - Registro ".$this->consecutivo." </td><tr>";            
+        }
+        if(isset($this->fechaEgreso) and strlen($this->fechaEgreso) < 16){
+            $errores.="<tr><td>Recien Nacidos - Fecha y hora de egreso - Registro ".$this->consecutivo." </td><tr>";            
+        }
+
+        return($errores);
+    }
+}
+
+function existeTipo($valor_,$grupo_){
+    $existe = false;
+    $consultatipo = "SELECT valo_des FROM destipos WHERE codt_des='$grupo_' AND valo_des='$valor_'";
+    $consultatipo = mysql_query($consultatipo);
+    if(mysql_num_rows($consultatipo) <> 0){
+        $existe = true;
+    }
+    return ($existe);
+}
+
+function existePais($valor_){
+    $existe = false;
+    $consultapais = "SELECT codigo FROM pais WHERE codigo='$valor_'";    
+    $consultapais = mysql_query($consultapais);
+    if(mysql_num_rows($consultapais) <> 0){
+        $existe = true;
+    }
+    return ($existe);
+}
+
+function existeMunicipio($valor_){
+    $existe = false;
+    $consultamun = "SELECT CODI_MUN FROM municipio WHERE CODI_MUN='$valor_'";
+    $consultamun = mysql_query($consultamun);
+    if(mysql_num_rows($consultamun) <> 0){
+        $existe = true;
+    }
+    return ($existe);
 }
 
 ?>    

@@ -327,7 +327,7 @@ class Detalle{
       $consecutivo=$rowconsecutivo[consecutivo];
       $consecutivo++;
 
-      $sql="INSERT INTO nrprocedimiento(fechainicioatencion,idmipres,numautorizacion,codprocedimiento,viaingresoservicio,modalidadgruposervicio,gruposervicios,codservicio,finalidadtecnologia,tipodocumentoidentificacion,numdocumentoidentificacion,coddiagnositicoprincipal,coddiagnosticorelacionado,codcomplicacion,vrservicio,conceptorecaudo,valorpagomoderador,numfevpagomoderador,consecutivo,
+      $sql="INSERT INTO nrprocedimiento(fechainicioatencion,idmipres,numautorizacion,codprocedimiento,viaingresoservicio,modalidadgruposervicio,gruposervicios,codservicio,finalidadtecnologia,tipodocumentoidentificacion,numdocumentoidentificacion,coddiagnosticoprincipal,coddiagnosticorelacionado,codcomplicacion,vrservicio,conceptorecaudo,valorpagomoderador,numfevpagomoderador,consecutivo,
       iden_fac,iden_dfa)
       VALUES('$this->fechainicioatencion'      
       ,''
