@@ -1,10 +1,9 @@
-
-<meta http-equiv="Context-Type" content="text/html; charset=UTF-8">
-<?
-//session_start();
+<?php
+session_start();
 $datos[0]='desc_';
 $datos[1]='iden_';
 ?>
+<meta http-equiv="Context-Type" content="text/html; charset=UTF-8">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
