@@ -109,11 +109,11 @@ a img {
 }
 
 a:link {
-    color: #1D669E;
+    color: #fff;
 }
 
 a:visited {
-    color: #1D669E;
+    color: white;
 }
 
 a:active {
@@ -127,6 +127,7 @@ a:hover {
 
 a {
     text-decoration: None;
+    color: white;
 }
 
 
@@ -187,7 +188,7 @@ textarea {
     margin: 10px 10px 0px 10px;
     border-width: 0;
     text-align: left;
-    vertical-align: center;
+    vertical-align: center;    
 }
 
 .Tbl0 tr:hover {
@@ -223,7 +224,7 @@ textarea {
 .Td1 {
     text-align: center;
     background-color: #BED1DB;
-    color: #FFF;
+    color: #000;
     font-weight: bold;
     vertical-align: middle;
 }
@@ -245,10 +246,15 @@ textarea {
     padding-right: 10px;
 }
 
+.Td6{
+    text-align: center;
+    background-color: #02859a;
+}
+
 .Th0 {
     text-align: center;
-    background-color: #BED1DB;
-    color: #FFF;
+    background-color: #006699;
+    color: #ffffff;
 }
 
 .Th1 {
@@ -277,3 +283,47 @@ textarea {
 .color {
     color: #1D669E;
 }
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #02859a;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    display: block;
+    border-radius: 10px;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;    
+}
+
+.menu li a:hover{
+    background: #BED1DB;
+    color: black;
+}
+
+.activo{
+    background: #015562;
+}
+
+.BtnGuardar{
+    background: #015562;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+    height: 8%;
+    width: 10%;    
+}
+
+

@@ -4,7 +4,7 @@ session_start();
 ?>
 <html>
 <head>
-<title>PROGRAMA DE FACTURACIÓN</title>
+<title>PROGRAMA DE FACTURACIï¿½N</title>
 </head>
 <?
 	//echo "<br>".$subtotal;
@@ -28,6 +28,7 @@ session_start();
           $nume_fac=str_pad($nume_fac,strlen($rowemp[nume_fac]),"0",STR_PAD_LEFT);
           mysql_query("UPDATE empresa SET nume_fac='$nume_fac' WHERE codi_emp=$rowemp[codi_emp]");
           mysql_free_result($consulta);
+		  //echo "aqui estoy...";
 	}
 	//echo "<br>afec: ".mysql_affected_rows();
 	//echo "<body onload='location.href=\"fac_2finalfactu.php\" target=\"fr02\"'>";		

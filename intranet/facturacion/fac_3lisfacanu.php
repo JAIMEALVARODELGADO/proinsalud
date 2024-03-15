@@ -119,7 +119,7 @@ ventana= window.open(URL,titulo,"left="+x+",top="+y+",width="+ancho+",height="+a
 
 		echo "<table class='Tbl0'>";
     echo "<tr>
-      <th class='Th0' colspan='5'>OPCIONES</th>
+      <th class='Th0' colspan='6'>OPCIONES</th>
       <th class='Th0'><a href='#' onclick=abrir('nume_fac')>FACTURA</a></th>
       <th class='Th0'><a href='#' onclick=abrir('rela_fac')>RELACION</a></th>
       <th class='Th0'><a href='#' onclick=abrir('id_ing')>INGRESO</a></th>
@@ -133,7 +133,7 @@ ventana= window.open(URL,titulo,"left="+x+",top="+y+",width="+ancho+",height="+a
       <th class='Th0'>ESTADO</th>";
 		 while($row=mysql_fetch_array($_pagi_sql)){      
                      $fecf_fac=cambiafechadmy($row[fecf_fac]);                     
-                     echo "<tr>";                     
+                     echo "<tr>";
                      if(empty($row[nume_fac])){                         
                        echo "<td class='Td2'><a href='fac_3editenca.php?iden=$row[NROD_USU]&enti=$row[CODI_CON]&idefac=$row[iden_fac]&cotr=$row[iden_ctr]' title='Editar Factura'><img src='icons/feed_edit.png' border='0' alt='Editar'></a></td>";}
                      else{
@@ -155,6 +155,9 @@ ventana= window.open(URL,titulo,"left="+x+",top="+y+",width="+ancho+",height="+a
                         echo "<td class='Td2'><a href='#' onclick=\"asigna_relacion('$row[iden_fac]','$row[nume_fac]')\" title='Asignar Relacion'><img src='icons/feed_link.png' border='0' alt='Asignar Relacion'></a></td>";}
                       else{
                         echo "<td class='Td2'><a href='#' title='Asignar Relacion'><img src='icons/feed_link.png' border='0' alt='Asignar Relacion'></a></td>";}                        
+                      
+                      echo "<td class='Td2' align='center' bgcolor='$color'><a href='fac_3muestraripsusua.php?factura=$row[nume_fac]&iden_fac=$row[iden_fac]' title='Editar RIPS 2275'><img src='icons/feed_go.png' alt='Editar RIPS 2275'></a></td>";
+
                       echo "<td class='Td2'>$row[pref_fac] $row[nume_fac]</td>";
                       echo "<td class='Td2'>$row[rela_fac]</td>";
                       echo "<td class='Td2'>$row[id_ing]</td>";

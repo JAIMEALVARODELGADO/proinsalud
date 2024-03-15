@@ -4,7 +4,7 @@
 <SCRIPT LANGUAGE='JavaScript'>
 function validar(){
 if(form1.codi_.value=="" && form1.nombre_.value==""){
-  alert("Debe digitar almenos un parametro de busqueda");}
+  alert("Debe digitar al menos un parametro de busqueda");}
 else{
   form1.submit();}
 }
@@ -72,8 +72,7 @@ switch ($tipo_){
     $condicion='';
     if(!empty($codi_)){$condicion=$condicion."ncsi_medi='$codi_' AND ";}
     if(!empty($nombre_)){$condicion=$condicion."nomb_mdi LIKE '%$nombre_%' AND ";}
-    if(!empty($condicion)){$condicion=substr($condicion,0,strlen($condicion)-5);}
-    //$consulta="SELECT ncsi_medi AS codigo,nomb_mdi AS nombre FROM medicamentos2 WHERE $condicion ORDER BY nombre";
+    if(!empty($condicion)){$condicion=substr($condicion,0,strlen($condicion)-5);}    
     $consulta="SELECT cum_med AS codigo,nomb_mdi AS nombre FROM medicamentos2 WHERE $condicion ORDER BY nombre";
     break;
   case 'I':
