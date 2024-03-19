@@ -286,7 +286,7 @@ include('php/funciones.php');
     $nomvar="causamotivoatencion".$cont;
     echo "<td class='Td2' align='center'><select name='$nomvar' disabled>";
     while($rowdes=mysql_fetch_array($consultades)){
-        echo "<option value='$rowdes[valo_des]'>$rowdes[valo_des] ".substr($rowdes[nomb_des],0,20);
+        echo "<option value='$rowdes[valo_des]'>$rowdes[valo_des] ".substr($rowdes[nomb_des],0,40);
     }
     echo "</select>";
     echo "</td>";
@@ -323,7 +323,7 @@ include('php/funciones.php');
     $nomvar="conceptorecaudo".$cont;
     echo "<td class='Td2' align='center'><select name='$nomvar' disabled>";
     while($rowdes=mysql_fetch_array($consultades)){
-        echo "<option value='$rowdes[valo_des]'>$rowdes[valo_des] ".substr($rowdes[nomb_des],0,20);
+        echo "<option value='$rowdes[valo_des]'>$rowdes[valo_des] ".substr($rowdes[nomb_des],0,40);
     }
     echo "</select>";
     echo "</td>";
