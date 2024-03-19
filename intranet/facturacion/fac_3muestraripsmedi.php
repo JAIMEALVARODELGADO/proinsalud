@@ -182,7 +182,7 @@ include('php/funciones.php');
   <th class="Th0" colspan='2'><b>Sel</td>
   <th class="Th0"><b>Autorización</td>
   <th class="Th0"><b>MIPRES</td>
-  <th class="Th0"><b>Fecha disensación</td>
+  <th class="Th0"><b>Fecha dispensación</td>
   <th class="Th0"><b>Diagnósticos</td>
   <th class="Th0"><b>Tipo de medicamento</td>
   <th class="Th0"><b>Código IUM</td>  
@@ -233,7 +233,7 @@ include('php/funciones.php');
     $nomvar="tipomedicamento".$cont;
     echo "<td class='Td2' align='center'><select name='$nomvar' disabled>";
     while($rowdes=mysql_fetch_array($consultades)){
-        echo "<option value='$rowdes[valo_des]'>$rowdes[valo_des] ".substr($rowdes[nomb_des],0,40);
+        echo "<option value='$rowdes[valo_des]'>$rowdes[valo_des] ".substr($rowdes[nomb_des],0,70);
     }
     echo "</select>";
     echo "</td>";
@@ -254,7 +254,7 @@ include('php/funciones.php');
     $nomvar="unidadmedida".$cont;
     echo "<td class='Td2' align='center'><select name='$nomvar' disabled>";
     while($rowdes=mysql_fetch_array($consultades)){
-        echo "<option value='$rowdes[valo_des]'>$rowdes[valo_des] ".substr($rowdes[nomb_des],0,40);
+        echo "<option value='$rowdes[valo_des]'>$rowdes[valo_des] ".substr($rowdes[nomb_des],0,50);
     }
     echo "</select>";
     echo "</td>";

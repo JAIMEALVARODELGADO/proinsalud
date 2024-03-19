@@ -123,8 +123,7 @@ function activasel(var_,val_){
     <li><a href="fac_3muestraripsproc.php">Procedimientos</a></li>
     <li><a href="fac_3muestraripsmedi.php">Medicamentos</a></li>
     <li><a href="fac_3muestraripsotro.php">Otros Servicios</a></li>
-    <li><a href="fac_3muestraripsurge.php">Urgencias</a></li>
-    <li><a href="fac_3muestraripscons.php">Consultas</a></li>
+    <li><a href="fac_3muestraripsurge.php">Urgencias</a></li>    
     <li><a href="fac_3muestraripshosp.php">Hospitalización</a></li>
     <li><a href="fac_3muestraripsrnac.php">R. Nacidos</a></li>
     <li><a href="fac_3generaripsjson.php">Generar Json</a></li>
