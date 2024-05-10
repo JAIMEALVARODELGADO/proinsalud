@@ -39,6 +39,9 @@ else{
   }elseif($pref_fac=="PGP"){
 	  $consulta="SELECT codi_emp,pref3_emp AS pref_emp,num3_fac AS nume_fac FROM empresa";
   }
+  elseif($pref_fac=="PYM"){
+	  $consulta="SELECT codi_emp,pref4_emp AS pref_emp,num4_fac AS nume_fac FROM empresa";
+  }
   else{//Tipo Interna
       $consulta="SELECT codi_emp,pref2_emp AS pref_emp,num2_fac AS nume_fac FROM empresa";
   }
