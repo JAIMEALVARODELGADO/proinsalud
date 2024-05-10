@@ -1,0 +1,11 @@
+2|person|medicos: hipertension, obesidad, colon irritable, IHIPERTROFIA PROSTATICA BENIGNA   quirurgicos: niega, alergicos: niega OCUPACION DOCENTE  FARMACOLOGICOS Irbesartan + hidroclorotiazida 150/12.5 mg cada 12 horas, amlodipino5 mg cada 24 horas. TAMSULOSINA 0,4MG DIA  ANTIGENO TIENE CONTROL CON UROLOGIA -	No consumo de cigarrillo, no exposición a humos.NIEGA ALERGIA A MEDICAMENTOS 
+2|familia|madre hipertension.-NO REFIERE ANTECEDENTES FAMILIARES DE CEGUERA O HIPOACUSIA
+2|metodo|
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

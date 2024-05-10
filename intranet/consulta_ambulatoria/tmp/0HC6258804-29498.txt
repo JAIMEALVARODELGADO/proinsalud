@@ -1,0 +1,5 @@
+0|horaini|09:38:27
+0|numhisto|11022948240319093827
+0|fechaini|2024-03-19
+0|mediconsulta|11022948
+0|numcita|6258804

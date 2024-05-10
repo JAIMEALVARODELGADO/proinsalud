@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|NISSEN, CESAREA
+2|neofarmacos|LEVOTIROXINA, LOSARTAN, HCTZ, 
+2|nuetoxico|PENICILINA, DICLOFENAC, HIOSICNA
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO
+2|gineco|MENARQUIA  A LOS 13 AÑOS  CILOS  IREGULRES POR 5 DIAS  CITOLOGIA VAGINAL: 9/09/15 INFLALACION Y ATROFIA NEGATIVA PAR ANEOPLASIA  MAMOGRAFAI DEL 21/06/2018 BIRADS 2 NORMAL  MAMOGRAFIA DEL 15/02/22 BIRADS O 
+2|gestan|2
+2|partos|0
+2|cesareas|2
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

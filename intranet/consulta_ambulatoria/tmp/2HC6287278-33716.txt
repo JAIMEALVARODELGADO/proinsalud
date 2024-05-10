@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA, SALPINGECTOMÍA.  HISTERECTOMÍA
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA A LOS  14 AÑOS DE CICLOS REGULARES POR 4 DÍAS; CITOLOGÍA VAGINAL hace 3 MESES negativa para malignidad; 
+2|gestan|5
+2|partos|3
+2|cesareas|1
+2|abortos|1
+2|vivos|4
+2|mortinatos|0
+2|feulme|

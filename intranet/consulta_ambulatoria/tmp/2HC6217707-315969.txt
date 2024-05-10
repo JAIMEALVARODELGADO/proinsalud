@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA, COLECISTECTOMIA, LIPOSUCCION
+2|neofarmacos|PREGABALINA 150 MG DIA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|FIBFROMIALGIA, DISCOPATIA LUMBAR
+2|gineco|MENARCA: 15 AÑOS -- SEXARCA : 19 AÑOS, PAREJAS SEXUALES # 5, CITOLOGIA VAGINAL: NOVIEMBRE DE 2020 NORMAL. -- MPF:NIEGA . 24-11-23 ACUDE A PYM PROGRAMA , PLANIFICACION CON CICLOFEM
+2|gestan|3
+2|partos|0
+2|cesareas|1
+2|abortos|2
+2|vivos|1
+2|mortinatos|0
+2|feulme|2024-02-13

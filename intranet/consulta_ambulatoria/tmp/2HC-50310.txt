@@ -1,0 +1,11 @@
+2|person|patologicos: hipotiroidismo, DISLIPIDEMIA, acne, hipoacusia derecha -- quirúrgicos: pomeroy, abdominoplastia -- traumaticos: luxofractura mano derecha -- toxicos: bebedora social, niega exposicion a toxicos, niega consumo de spa -- alérgicos: negativos,  farmacologicos levotiroxina 75 mcg dia, vitamina E 400 UI dia -- ocupacion: docente, estado civil: soltera abril 15 2021 -- niega ser victima de violencia, fisica, sexual, emocional, psicologica, de genero, niega ser desplazado por la violencia o conflicto armado, no pertenece a etnias o grupos poblacionales especiales, habitos nutricionales saludables, actividad fisica moderada, patron de sueño regular, Niega fobias, sociales o personales,  no perdidas familiares actuales, factores no vulnerabilidad no  -- vacunacion covid: 2 dosis pfizer 11/07/2021.
+2|familia|tio materno  lecucemia, abuela materna demencia tipo alzhaimer, madre hipertension arterial niega antecedentes familiares,  de trastornos mentales, en lo interrogado niega consumo de spa, en familiares cercanos, niega comportamientos suicidas, o suicidios en la familia, eventos cercanos al examen actual 
+2|metodo|
+2|gineco|menarca 16 años, sexarca 22 años, citologia: > 1 año, ya tiene orden, planificacion pomeroy
+2|gestan|4
+2|partos|3
+2|cesareas|0
+2|abortos|1
+2|vivos|3
+2|mortinatos|0
+2|feulme|

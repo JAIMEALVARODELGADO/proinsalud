@@ -1,0 +1,11 @@
+2|person|PATLOGICOS:  NIEGA      enferemedad cardiovascular NO , cardiovasculares  infartos : NO  , Enfermedad  cerebrovasculares): NO  : , pulmonares (EPOC):  NO  , tuberculosis : NO  , cáncer:  NO  , alteraciones sensoriales (auditivas, vestibulares y visuales) .  NO  , defectos refractivos : NO  , glaucoma,: NO   estrabismo: NO  , enfermedades neurológicas: NO  , musculo eDsqueléticas: NO , mentales o del comportamiento: NO  , enfermedades trasmisibles: NO  , infecciones de trasmisión sexual: NO REFIERE  , urológicas: NO REIFERE ,  incontinencia urinaria: no ,    infecciones genitourinarias:  NIEGA  , delirio o estados confusionales :  NIEGA  , tratamientos farmacológicos: NO REIFERE   , alérgicos: NO REIFERE  , traumatismos:  NO  REIFERE  , transfusiones:  NO REIFERE  , QUIURGICOS       NIEGA      ALERgicos   NIEGA    hospitalizaciones:  NO REIFERE   vacunación : COMPLETA   , discapacidad: NO  REIFERE  , riesgo para osteoporosis:  NO  , enfermedades o accidentes laborales: NO REIFERE  ,riesgo de caidas  : NO  ,   toxicológicos : NO REFIERE EXPOSICION  NI   CONSUMO DE SUSTANCIAS  PSICOACTIVAS , NIEGA EXPOSICION  A   HUMO DE LLEÑA O BIOMASA    , NIEGA TABAQUISMO  ,  NI CONSUMO DE LICOR  .NUTRICIONALES :  DIETA RICA EN CARBOHIDRATOS  , BAJA E GRASA, ALTO CONSUMO DE PROTEINAS DE ORIGNE ANIMAL  ,  MEDICAENTOS, , DOSIS  ,   INTERACIONES MEDICAMENTOSAS O SIGNOS DE IATROGENIA :  NO PRESENTA   . Æ
+2|familia|hipertensión arterial: NO , diabetes mellitus : NO , dislipidemias NO  , enfermedad coronaria NO  , cáncer:NO , enfermedades cerebrovasculares: NO  , alergias :NO  , asma: NO  , tuberculosis: NO  , enfermedades degenerativa :NO  , genéticas: NO  , gota: NO , hemofilia: NO  , glaucoma: NO , trastornos o problemas mentales: NO , conducta suicida: NO  , consumo de alcohol y otras sustancias psicoactivas: NO , diversas formas de violencia:  NO  .Æ
+2|metodo|
+2|gineco|MENARQUIA A LOS 12 AÑOS, CITOLOGIA  2018 NORMAL   MAMOGRAFIA  BILATERAL  07/07/23  BITADS 1  NORMAL   VPH  23/06/23  NEGATIVO  ( 27/06/23  SANGRE OCULTA EN HECES NEGATIVO  ,  VIH  NEGATIVO  HEPATITIS C NEGATIVO  )
+2|gestan|02
+2|partos|02
+2|cesareas|00
+2|abortos|00
+2|vivos|02
+2|mortinatos|00
+2|feulme|

@@ -1,0 +1,11 @@
+2|person|Patologicos: hipertnesion arteiral, sindrome de intenstina irritablle, osteoporosis, artroiss. Farmacologicos: valsartan 80 mg cada dia, esomeprazol 20 mg cada dia, algiato de sodio a necesidad.   .   Quriurgicos: por rinitis. Alergicos: dipirona. Toxicos: niega. - vacunas covid 19: 3 dosis - transfusionales: no refiere -ocupacion: docente //
+2|familia|HTA, DM en hermanos.  Cancer de seno en hermana NIEGA IDEAS DE  SUICIDIO  NIEGA ANTECEDENTE  DE EPILPESIAS EN LA  
+2|metodo|
+2|gineco|MENARQUIA: 15 AÑOS               citologia07/02/2020 normal   --   //  --- mamografia  10/11/21 CATEGORIA 0 , Nodulo mamario seno izquierdo. Amerita ultrasonido complementario para su caracterización .  19.11.21 Ecografia de mama BIRADS 2. 
+2|gestan|5
+2|partos|3
+2|cesareas|0
+2|abortos|2
+2|vivos|3
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CISTOPEXIA
+2|neofarmacos|CALCITRIOL, LOSARTAN
+2|nuetoxico|NO SABE A QUE
+2|neotransfin|Negativo
+2|neootros|ARTRITIS
+2|gineco|MENARQUIA 12 AÑOS ÆMENOPAUSIA  50 AÑOSÆSEXARQUIA 	20 AÑOS 		ÆÆPROMOCION Y MANTENIMIENTO DE SALUDÆCITOLOGIA hasta 69 añosÆMAMOGRAFIA hasta 69 añosÆTAMIZAJE DE COLON  SE REMITEÆTAMIZAJE DE ITS SE REMITE   AGUDEZA VISUAL SE RENMITEÆPACIENTE INSCRITO EN PROGRAMA DE ENFERMEDADES CRONICASÆÆ
+2|gestan|4
+2|partos|3
+2|cesareas|0
+2|abortos|1
+2|vivos|3
+2|mortinatos|0
+2|feulme|

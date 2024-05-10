@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|PÓMEROY, HEMORROIDECTOMIA 
+2|neofarmacos|EUTIROX 100 MCG CADA DIA RADIOTERAPIA QUIMUIOTERAPIA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO CA DE MAMA OPERADO, AHORA BAJO QUIMIOTERAPIA RADIOTERAPIA
+2|gineco|MENARU¿QUI ALOS 14 AÑOS DE CICLOSD  REGUELRES POR  4 DOS . FUR: GACE 15 AÑOS 
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

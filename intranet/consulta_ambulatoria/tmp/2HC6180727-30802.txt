@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA 1, RESECCION DE LIPOMA CUIERO CABELLUDO,  LIBERACION DE TUNEL DE CARPO DERECHO 
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARCA   13 AÑOS ,  SEXARCA 18  AÑOS , ULTIMA  CITOLOGIA   +  VPH   DEL  28  DE   OCTUBRE   NO DETECTADO  ,   ULTIMA  REGLA   A LOS   45  AÑOS , MAMOGRAFIA   DEL  30N DE  OCTUBRE DEL 2023    RESULTADO NORMAL CATEGORIA   BI-RADAS 1 
+2|gestan|02
+2|partos|01
+2|cesareas|01
+2|abortos|0
+2|vivos|01
+2|mortinatos|0
+2|feulme|

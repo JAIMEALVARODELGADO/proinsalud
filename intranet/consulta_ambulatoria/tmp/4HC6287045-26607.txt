@@ -1,0 +1,22 @@
+4|conti|1301
+4|causa|1213
+4|final|10
+4|sintorespi|N
+4|sintopiel|N
+4|causatrab|
+4|tipodiag|1
+4|patolocronicas|N
+4|map|SINDROME DEL COLON IRRITABLE SIN DIARREA
+4|cod|K589
+4|obse|
+4|map1|CONSTIPACION
+4|cod1|K590
+4|obse1|
+4|map2|
+4|cod2|
+4|obse2|
+4|map3|
+4|cod3|
+4|obse3|
+4|analpv|PACIENTE DE 20 AÑOS CON SII TIPO ESTREÑIMIENTO, CON ESTUDIOS DENTRO DE NORMALIDAD, 
+4|vicviolencia|NO

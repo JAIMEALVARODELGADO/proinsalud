@@ -1,0 +1,11 @@
+2|person|antecedente icc , cateterismo cardiaco hace 4 años , medicamentos  antihipertensivos  carvedilol 12.5 mg 1 cada 12 horas , furosemda 40 mg cada dia, espironolactona una diaria enalapril 20 mg 1 cada 12 horas atorvastatina cada dia 20 mg, b-metil digoxina
+2|familia|no
+2|metodo|
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

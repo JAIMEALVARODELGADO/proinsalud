@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS PERSONALES:   -- QUIRURGICOS: NO REFIERE -- ALERGICOS: NO REFIERE -- TOXICOS: FUMADOR 5 CICARRILLOS/DIA DESDE HACE 6 AÑOS -- TRAUMATICOS: NO REFIERE -- FARMACOLOGICOS: NO REFIERE – OCUPACION: ESTUDIANTE NUTRICION -- VACUNACION COVID-19: 3 DOSIS. ----- NO ATENCION RIAS. SE REMITE----
+2|familia|diabetes mellitus ABUELO, niega antecedentes familiares,  de trastornos mentales, en lo interrogado niega consumo de spa, en familiares cercanos, niega comportamientos suicidas, o suicidos en la familia, eventos cercanos al examen actual 
+2|metodo|
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

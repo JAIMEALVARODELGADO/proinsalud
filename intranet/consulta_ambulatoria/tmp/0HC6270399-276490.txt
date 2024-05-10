@@ -1,0 +1,5 @@
+0|horaini|11:06:01
+0|numhisto|11021769240401110601
+0|fechaini|2024-04-01
+0|mediconsulta|11021769
+0|numcita|6270399

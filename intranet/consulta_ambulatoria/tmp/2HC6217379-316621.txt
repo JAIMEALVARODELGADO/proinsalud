@@ -1,0 +1,11 @@
+2|person|Producto del segundo embarazo G2P2C0V2A0, madre de 35 años, embarazo planeado luego deseado, durante embarazo sin complicaciones, niega amenaza de aborto o parto pretermino, niega infección de vías urinarias o cervicovaginitis, ingesta de micronutrientes, nace a termino de 39 SDG por parto, peso 3000gr Talla 51cms Apgar 8/9,m hospitalziacio a los 4 meses por bronquiolitis medicamentos: sin medicacion, alergico: NO REFIERE no toxico: no vacunas: pendiente vacunacion para covid-19 -- patologicos: niegan -- hospitalizaciones: por bronquiolitis -- quirurgicos: niegan -- alergicos: niega -- toxicos: niegan --farmacologicos: niegan.  VACUNACION ESQUEMA COMPLETO ****** ----27-12-2021 ATENCION RIAS. SE REMITE -----
+2|familia|HTA, CA GASTRICO EN TIOS, ABUELA Y BISABUELA: HTA , PRIMO: DIABETES
+2|metodo|
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

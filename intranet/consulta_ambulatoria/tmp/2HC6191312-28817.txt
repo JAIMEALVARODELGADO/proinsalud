@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|Negativo
+2|neofarmacos|LOSARTAN, , LEVOTIROXINA, HCTZ
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO 
+2|gineco|MENOPAUSIA: 45 AÑOS -- CITOLOGIA: 11 AGOSTO DE 2021  NEGATIVA PARA MALIGNIDAD ATROFIA --  MAMOGRAFIA:6/08/21 BIRADS 0, ECOGRAFIA MAMARIA BI-RADS 1 NOVIEMBRE DE 2022. 27-12-22 ACUDE A PYM PROGRAMA VEJEZ, PACIENTE HACE PARTE DE CRONICOS
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

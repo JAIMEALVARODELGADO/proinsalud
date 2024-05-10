@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLECISTECTOMIA, REPARACION MANGUITO ROTADOR DERECHO
+2|neofarmacos|DIOSMINA
+2|nuetoxico|DIPIRONA
+2|neotransfin|Negativo
+2|neootros|GASTRITIS
+2|gineco|MENARQUIA. 14 AÑOS  MENOPAUSIA: 48 AÑOS - ULTIMA CITOLOGIA VPH 17/07/23 16 DETECTADO, MAMOGRAFIA 2022 BI-RADS 0
+2|gestan|2
+2|partos|1
+2|cesareas|1
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

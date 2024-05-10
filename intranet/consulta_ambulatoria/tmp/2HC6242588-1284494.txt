@@ -1,0 +1,15 @@
+2|nuecardiovasculares|TROMBOSIS VENOSA MIEMBRO SUPERIOR DERECHO, HTA, EPOC
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLOSTOMIA, HISTERECTOMIA, COLECISTECTOMIA
+2|neofarmacos|LOSARTAN, AMLODIPINO, ESOMEPRAZOL, TRIMEBUTINA CIMETICONA ONDANSETRON
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|TUMOR COLON
+2|gineco|MENARQUIA: 15 AÑOS.   citología tomada el 3/07/2018: muestra satisfactoria negativa para lesión intraepitelial  bacilo de doderlein (flora normal) dra Sandra becerra citologa,
+2|gestan|4
+2|partos|4
+2|cesareas|0
+2|abortos|0
+2|vivos|4
+2|mortinatos|0
+2|feulme|

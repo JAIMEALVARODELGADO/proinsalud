@@ -1,0 +1,22 @@
+4|conti|1301
+4|causa|1213
+4|final|10
+4|sintorespi|N
+4|sintopiel|N
+4|causatrab|
+4|tipodiag|1
+4|patolocronicas|N
+4|map|
+4|cod|Z000
+4|obse|
+4|map1|
+4|cod1|
+4|obse1|
+4|map2|
+4|cod2|
+4|obse2|
+4|map3|
+4|cod3|
+4|obse3|
+4|analpv|SE EXPLICA A PACIENTE CONDICION CLINICA ACTUAL.  SE EXPLICA QUE LAS ENFERMEDADES SON DINAMICAS Y SU CURSO PUEDE VARIAR EN CUALQUIER MOMENTO. SE DAN RECOMENDACIONES Y SIGNOS DE ALERTA. REFIERE ENTENDER Y ACEPTA
+4|vicviolencia|NO

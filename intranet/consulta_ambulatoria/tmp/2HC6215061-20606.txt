@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|POMEROY CESAREA 1
+2|neofarmacos|ALENDRONATO SODICO 75 MG  CADA SEMANA
+2|nuetoxico|PIROXICAM 
+2|neotransfin|Negativo
+2|neootros|OISTEOARTRITIS 
+2|gineco|MENARQUEA 13 AÑOS,  FUM 2017, MENOPAUSIA 50 AÑOS, CITOLOGIA HACE 2 AÑOS NORMAL, MAMOGRAFIA HACE 6 MESES NORMAL
+2|gestan|3
+2|partos|2
+2|cesareas|1
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

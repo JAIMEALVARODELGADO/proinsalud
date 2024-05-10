@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS: sindrome de tunel carpiano derecho, Hipotirodismo secundario, Ca papilar de tiroides -- quirurgicos histerectomia (atonia uterina), cesarea, tiroidectomia total #1 -- traumaticos: negativos -- toxicos: fue fumadora hace 8 años, niega consumo de spa -- alergicos: negativos -- farmacologicos: levotioxina  -- ocupacion: docente --estado civil casada -- transfusiones: hace 7 años, sin reacciones -- hospitalizaciones recientes: niega -- antecedentes psiquiatricos: niega -- Niega ser victima de violencia, fisica, sexual, emocional, psicologica, de genero, niega ser desplazado por la violencia o conflicto armado, no pertenece a etnias o grupos poblacionales especiales. FACTORES DE VULNERABILIDAD INDIVIDUAL Y SOCIAL: NO, ANTECEDENTES OCUPACIONALES: NO. REMISION A P Y M
+2|familia|abuelos hipertension arterial, ......
+2|metodo|HISTERECTOMIA 
+2|gineco|menarca: 13 años, sexarca: 20 años menopausia quirurgica: 31 años, -- ULTIMA CITOLOGIA: HACE 4 AÑOS NEGATIVA PARA MALIGNIDAD -- planificacion: HISTERECTOMIA POR HEMORRAGIA UTERINA EN EL PARTO -- FUM: A LOS 29 AÑOS. 
+2|gestan|1
+2|partos|0
+2|cesareas|1
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

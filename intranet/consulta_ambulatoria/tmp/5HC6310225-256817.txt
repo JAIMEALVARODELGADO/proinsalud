@@ -1,0 +1,8 @@
+5|claseorden|1
+5|codorden|931001
+5|desorden|931001 - TERAPIA FISICA INTEGRAL (S) 
+5|nivel|REFERENCIA
+5|obseorden|8 SESIONES
+5|diagorden|M678
+5|cantorden|8
+5|cama|

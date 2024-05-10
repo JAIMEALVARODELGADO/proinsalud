@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A701
+1|direccion|CRA 6 N 21D-09 MERCEDARIO
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|*Paciente acude a control*
+1|enfeac|.
+1|revisi|Apariencia personal: usuario en quien se identificó una adecuada presentación e higiene personal, vestimenta acorde, higiene corporal adecuada, posturas y mirada acordes, ingresa por sus propios medios, su tono de voz es normal, motivación estable, estado de ánimo sin alteración aparente, usuario mostro una actitud receptiva y de colaboración, durante la consulta, no se observa preocupación excesiva, preocupación acorde a la realidad. ÆFunciones cognitivas:  atención: sin alteraciones euprosexica, responde a la estimulación visual y auditiva conciencia:  se encuentra en estado de alerta responde a estímulos externos visuales, auditivos y táctiles; orientación autosiquica y alopsiquica: sin alteraciones, conservada en tiempo, espacio y persona; memoria: inmediata, reciente y remota conservadas; pensamiento: forma y curso de pensamiento: coherente sin neologismos; sin fuga de ideas; no presenta discurso superficial o lleno de divagaciones evasivas o detalles sin importancia, logra comunicar lo que desea; inteligencia: impresiona dentro de lo normal; juicio: la paciente no ha presentado alucinaciones o ideas delirantes por lo que no indica perdida del juicio de la realidad.     ÆEstado emocional: estado anímico moduladoÆMotricidad: sin alteraciones ÆLenguaje: la paciente demuestra capacidad articulatoria; fluidez adecuada; buena comprensión del habla; vocabulario adecuado; se muestra colaborativo; es coherente con su discurso; muestra coherencia; comprende las oraciones. ÆIntegridad comportamental: la paciente no demuestra descuido en su autocuidado; no ruptura de normas sociales; no refiere desconfianza exagerada; no demuestra autoagresión. Ni disminución de la sociabilidad.Æ
+1|informe|n/a
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

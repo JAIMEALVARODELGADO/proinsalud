@@ -1,0 +1,22 @@
+4|conti|1301
+4|causa|1213
+4|final|10
+4|sintorespi|N
+4|sintopiel|N
+4|causatrab|
+4|tipodiag|1
+4|patolocronicas|N
+4|map|OTROS VERTIGOS PERIFERICOS
+4|cod|H813
+4|obse|
+4|map1|CEFALEA DEBIDA A TENSION
+4|cod1|G442
+4|obse1|
+4|map2|
+4|cod2|
+4|obse2|
+4|map3|
+4|cod3|
+4|obse3|
+4|analpv|Paciente femenina de 40 años, con antecedentes mencionados previamente, en el momento estable sin signos de alarma, en contexto de vertigo posible origen periferico y cefalea posible origen tensional, en el momento sin signos de focalizacion neruologica, indico aines, miorelajantes, ibp, medios fisicos, estilos de vida salduable, cita de control en 20 dias. 
+4|vicviolencia|NO

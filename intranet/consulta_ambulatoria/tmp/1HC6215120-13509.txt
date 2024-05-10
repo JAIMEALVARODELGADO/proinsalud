@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A702
+1|direccion|MZ A CS 5 CIUDAD JARDIN
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|RMITIDA DE CRONICOS
+1|enfeac|PACIENTE DE 65 AÑOS DE EDAD CON TRATAMIENTO PARA HIPOTIROIDISMO, ACTUALMENTE CON LT4 50 MCG DIA.
+1|revisi|EA
+1|informe|EXAMENES DEL 13-02-24: HB: 47.9, HTO: 15, UROANALISIS NORMAL, TSH: 5.76, GLICEMIA: 103, COLESTEROL: 185, HDL: 47.9, LDL: 104, TG: 166, TGO: 17.9, TGP: 14.1, AC URICO: 4.7, CREATININA: 0.9, TFG: 67.1
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

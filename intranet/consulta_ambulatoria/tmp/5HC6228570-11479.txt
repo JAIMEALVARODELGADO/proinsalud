@@ -1,0 +1,40 @@
+5|claseorden|4
+5|codorden|0625
+5|desorden|
+5|nivel|
+5|obseorden|1 mes
+5|diagorden|K219
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|452301
+5|desorden|452301 - COLONOSCOPIA TOTAL (S) 
+5|nivel|REFERENCIA
+5|obseorden|BAJO SEDACION 
+5|diagorden|K219
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903895
+5|desorden|903895 - CREATININA EN SUERO U OTROS FLUIDOS () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|K219
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|879420
+5|desorden|879420 - TOMOGRAFIA COMPUTADA DE ABDOMEN Y PELVIS (ABDOMEN TOTAL) () 
+5|nivel|REFERENCIA
+5|obseorden|SIMPLE Y CONTRASTADA
+5|diagorden|K219
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|893901
+5|desorden|893901 - MONITOREO DE PH ESOFAGICO EN 24 HORAS [PHMETRIA] SIN IMPEDANCIOMETRIA (N) 
+5|nivel|REFERENCIA
+5|obseorden|
+5|diagorden|K219
+5|cantorden|1
+5|cama|

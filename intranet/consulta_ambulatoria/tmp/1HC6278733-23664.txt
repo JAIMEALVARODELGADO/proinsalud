@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A702
+1|direccion|CR. 6 N. 14-92 2DO PISO B/ Asvide Casa 1 manzana 1
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|ÆVALORACION  POR EL SERVICIO DE NUTRICIÓN REMITIDO DEL PROGRAMA  DE: CRONICOSÆ
+1|enfeac|ATENCION NUTRICIONAL A PACIENTE CON ANTECEDENTES DE: OBESIDAD, HIPERLIPIDEMIAÆ
+1|revisi|NO REPORTA OTRO SINTOMATOLOGIA ADICIONAL AL MOTIVO DE CONSULTA
+1|informe|.
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

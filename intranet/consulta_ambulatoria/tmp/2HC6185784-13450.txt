@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RESECCION MAMA SUPERNUMERARIA DERECHA
+2|neofarmacos|Negativo
+2|nuetoxico|SULFAS
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|menarca: 12 años, sexarca: 15 años, parejas sexuales # 4, citologia:  dic 2020, negativa para malignidad, planificacion barrera. SE REMITE A PYM PROGRAMA ADULTEZ
+2|gestan|2
+2|partos|1
+2|cesareas|0
+2|abortos|1
+2|vivos|1
+2|mortinatos|0
+2|feulme|2024-02-03

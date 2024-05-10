@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|POMEROY 
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|GINECO-OBSTÉTRICOS: MENARQUIA: 12 AÑOS SEXARQUIA:  15 AÑOS MENOPAUSIA:  NO FUM: DICIEMBRE 2023 CICLOS MENSTRUALES: IRREGULARES ABUNDATES  – FECHA DE LA ÚLTIMA CITOLOGÍA: 2023? NORMAL  FECHA DE ÚLTIMA MAMOGRAFÍA:      
+2|gestan|3
+2|partos|1
+2|cesareas|0
+2|abortos|1
+2|vivos|2
+2|mortinatos|0
+2|feulme|

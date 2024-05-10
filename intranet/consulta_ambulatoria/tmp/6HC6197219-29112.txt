@@ -1,0 +1,14 @@
+6|clasemedi|1
+6|codmedi|061666
+6|desmedi|ACETATO DE ALUMINIO 0,059%/100ml*120ml LOCION
+6|dosis|4
+6|unid|CC
+6|frecu|12
+6|unidfrecu|Horas
+6|via|2205
+6|tiempo|120
+6|obsemed|MANTENER HIDRATADA LA PIEL
+6|canti|4
+6|diagmedi|L853
+6|justifi|N
+6|pos|N

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA
+2|neofarmacos|VALSARTAN, 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MANARQUIA: 12 AÑOS. PALINIFICACION DEFINITIVA CON POMEROY 25-08-2020 CITOLOGIA CERVIX NEGATIVA PARA LIE Y MALIGNIDAD
+2|gestan|3
+2|partos|0
+2|cesareas|3
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,25 @@
+1|etnia|7505
+1|ocupacion|6153
+1|escolaridad|7609
+1|estadocivil|A704
+1|direccion|tumaco
+1|tidoacu|CC
+1|nudoacu|00
+1|pnomacu|000
+1|snomacu|00
+1|papeacu|
+1|sapeacu|
+1|parenacu|acude solo
+1|direacu|tumaco
+1|teleacu|00000
+1|muniacu|52835
+1|nommuniacu|TUMACO (NARI&#65533;O)
+1|primera|1
+1|codciru|
+1|motivo|.
+1|enfeac|Paciente acude por cuadro clínico de +-  de evolución caracterizado por:  niega otros síntomas , niega automedicación, al momento consiente y estable, se atiende a paciente con todas las normas de bioseguridad básicas universales.
+1|revisi|Resto de sistemas sin alteraciones, niega otros síntomas, paciente niega ser víctima de violencia física, sexual, psicológica, niega ser víctima de desplazamiento forzado por conflicto armado.Æno refiere exposición ni consumo de sustancias psicoactivas , niega exposición a humo de leña , niega tabaquismo , ni consumo de licor , patrón de sueño 6 a 8 horas , habito intestinal diario, alimentación refiere dieta rica en carbohidratos frutas verduras lácteos . no consume fibra , no realiza actividad física niega infecciones de trasmisión sexual , compañeros sexuales en el ultimo año 1 no refiere uso de preservativo, niega ser víctima de abandono, niega ser trabajar (ra) sexual.Æ
+1|informe|
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

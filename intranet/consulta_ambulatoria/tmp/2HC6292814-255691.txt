@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|POMEROY 
+2|neofarmacos|LOSARTAN 50 MG CADA 12 HORAS, METIMAZOL 5 MG 2  CADA 12 HORAS 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPÓTIROIDISMO 
+2|gineco|MENARCA: 14 AÑOS SEXARCA: 18 AÑOS ULTIMA CITOLOGIA: HACE MAS DE 3 AÑOS AL PARECER NORMAL ULTIMA MAMOGRAFIA:  06/06/2022: birads 0 nodulo en mama derecha  MENOPAUSIA: HACE 8 MESES
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

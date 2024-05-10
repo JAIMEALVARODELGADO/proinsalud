@@ -1,0 +1,29 @@
+6|clasemedi|1
+6|codmedi|485008
+6|desmedi|CETIRIZINA 10mg TABLETA
+6|dosis|1
+6|unid|UND
+6|frecu|1
+6|unidfrecu|Dias
+6|via|2203
+6|tiempo|30
+6|obsemed|Tomar 1 diaria
+6|canti|30
+6|diagmedi|L500
+6|justifi|N
+6|pos|S
+6|clasemedi|1
+6|codmedi|003300
+6|desmedi|CARBOXIMETILCELULOSA 0.5% + GLICERINA 9% 5MG/ML  *15 ml SOLUCION OFTALMICA
+6|dosis|1
+6|unid|GOTAS
+6|frecu|6
+6|unidfrecu|Horas
+6|via|2211
+6|tiempo|30
+6|obsemed|Aplicar 1 gota cada 6 horas en cada ojo
+
+6|canti|2
+6|diagmedi|M350
+6|justifi|N
+6|pos|N

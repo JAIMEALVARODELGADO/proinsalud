@@ -1,0 +1,8 @@
+5|claseorden|1
+5|codorden|873335
+5|desorden|873335 - RADIOGRAFIA DE CALCANEO (AXIAL Y LATERAL) () 
+5|nivel|CITAS
+5|obseorden|derecho 
+5|diagorden|M773
+5|cantorden|1
+5|cama|

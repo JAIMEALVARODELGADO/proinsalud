@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS: NO , TRASTORNOS MENTALES: NO, QUIRÚRGICOS: NO , EXPOSICION AL HUMO DE TABACO: NO, ALÉRGICOS: NO, MEDICAMENTOS: NO . HABITOS NUTRICIONALES SALUDABLES (REFIERE INGESTA DE FRUTAS, VERDURAS EN POCA CANTIDAD CEREALES, HÁBITOS NUTRICIONALES CONSERVADOS 3 COMIDAS EN EL DÍA) ACTIVIDAD FISICA NO REFIERE PATRON DE SUEÑO CONSERVADO 8 HORAS AL DÍA TOXICOALERGICOS NIEGA EXPOSICION A HUMO DE TABACO NIEGA FUMADOR NIEGA ALCOHOLISMO NIEGA CONSUMO DE SPA NIEGA VIOLENCIA INTRAFAMILAIR NIEGA RIESGO SUICIDA NIEGA VACUNACION ESQUEMA COVID 19 (2 DOSIS) NO REFIERE DEMAS VACUNAS SE REMITE
+2|familia|METABÓLICAS: NO, ASMA: NO, TBC: NO, HTA: ABUELA PATERNA , DIABETES: NO, PREECLAMSIA: NO, ARTRITIS REUMATOIDE: NO, TRASTORNOS MENTALES: NO, USO DE PSA: NO, NEOPLASIAS: NO EPILEPSIA: NO, ETS: NO.
+2|metodo|
+2|gineco|ginecologicos: fum 06/09/23 ciclos mestruales  regulares planificacion familiar  no citología  nunca  menarquia 12 años  sexarquia  16 años compañeros sexuales 3 Æmultivitamínicos no  hospitalizaciones durante embarazo: niega  hiv-sida: 21/10/23 negativo   hepatitis b: 21/10/23 negativo     prueba rápida treponemica: 21/10/23 negativo      ecografías previas: 13/10/23 embarazo de 6 semanas   clap: no  numero de controles prenatales: no ha realizado aun    fecha de ultimo parto o cesárea:  no aplica  complicación de anterior embarazo: no aplica     periodo intergenesico: no aplica   hemoclasificacion materna: O + escolaridad: secudnaria  domicilio: carrea 12 d numero 23 a 37 la carolina  estado civil: soltera edad del padre: 21 escolaridad del padre: secundaria IVES anteriores noÆ
+2|gestan|1
+2|partos|0
+2|cesareas|0
+2|abortos|0
+2|vivos|0
+2|mortinatos|0
+2|feulme|

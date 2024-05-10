@@ -1,0 +1,15 @@
+2|nuecardiovasculares|DISLIPIDEMIA 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLECISTECTOMIA ABIERTA, SEPTOPLASTIA FUNCIONAL 
+2|neofarmacos|LIRAGLUTIDA 1.8 MG CADA DIA,  EMPAGLIFOZINA  MAS METFORMINA  12.5 MG CADA 12 HORAS, ATORVASTATINA 20 MG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|OBESIDAD, DMT II 
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

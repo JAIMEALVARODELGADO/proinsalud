@@ -1,0 +1,8 @@
+1|etnia|7506
+1|ocupacion|9998
+1|escolaridad|7603
+1|estadocivil|A701
+1|direccion|MOCOA PUTUMAYO
+1|subjetivo|Control
+1|objetivo|Paciente  en seguimiento  por cuadro de  adenomegalias  , llega  a control con reporte de paraclinicos 
+1|analisis|

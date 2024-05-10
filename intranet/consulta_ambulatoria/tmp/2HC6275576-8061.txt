@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA 1, POMEROY 
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|menarquia 12 años. ULTIMA CITOLOGIA: EN EL 2020, REFIERE RESULTADO NORMAL. MENOPAUSIA: 52 AÑOS. RELACIONES SEXUALES: CON PAREJA UNICA SIN PRESERVATIVO. 
+2|gestan|7
+2|partos|5
+2|cesareas|1
+2|abortos|1
+2|vivos|6
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,11 @@
+2|person|patológicos: DISLIPIDEMIA  HIPOTIROIDISMO, COLON IRRITABLE, GASTRITIS - ERGE, OSTEOPOROSIS, quirúrgicos: legrado obstetrico, SANEFENCTOVARICECTOMIA IZQUIERDA, colecistectomia, traumaticos: negativos, tóxicos: bebedora social, niega consumo de spa, alergicos: no refiere a medicamentos alimentos opicadura de insectos,  FARMACOLOGICOS: levotiroxina 25 mgc c/dia,  ESOMEPRAZOL acetaminofen, ocasiona, lansoprazol 30 mg c/dia, ocupación: pensionada de magisterio, vacunacion sars cov 2 3 dosis 
+2|familia|hermanas cáncer de seno, cáncer gástrico, cáncer de piel, 
+2|metodo|
+2|gineco|menarca: 15 AÑOS, sexarca: 27 años,  MENOPAUSIA: 48 años, CITILOGIA:  HACE 3 AÑOS: NORMALES MAMOAGRAFIA09/08/2018 BIRADS 1 NORMAL 
+2|gestan|2
+2|partos|1
+2|cesareas|0
+2|abortos|1
+2|vivos|1
+2|mortinatos|0
+2|feulme|

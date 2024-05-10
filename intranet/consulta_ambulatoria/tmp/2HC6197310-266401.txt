@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|REMPLATO TOTAL DE CADERECHA DERECHA , APENDICECTOMIA SIN COMPLICACIONES
+2|neofarmacos|NAPROXENO ACETAMINOFEN CODEINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA: 13 AÑOS, SEXARCA: 19 AÑOS, NUMERO DE COMPAÑEROS SEXUALES: 2, NIEGA ENFERMEDADES DE TRANSMISIÓN SEXUAL, CITOLOGIA: 21/10/2020 NEGATIVA PARA MALIGNIDAD  - CITOLOGIA 12-2021: NORMAL SEGUN PACIENTE  fum  septiembre      primero días   esta irregular  ./// citologías  ultima hace  tres años  //
+2|gestan|4
+2|partos|0
+2|cesareas|0
+2|abortos|4
+2|vivos|0
+2|mortinatos|0
+2|feulme|

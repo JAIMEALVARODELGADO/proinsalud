@@ -1,0 +1,24 @@
+5|claseorden|1
+5|codorden|954107
+5|desorden|954107 - AUDIOMETRIA DE TONOS PUROS AEREOS Y OSEOS CON ENMASCARAMIENTO [AUDIOMETRIA TONAL] (S) 
+5|nivel|REFERENCIA
+5|obseorden|
+5|diagorden|H919
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|954301
+5|desorden|954301 - LOGOAUDIOMETRIA (S) 
+5|nivel|REFERENCIA
+5|obseorden|
+5|diagorden|H919
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|954302
+5|desorden|954302 - INMITANCIA ACUSTICA (IMPEDANCIOMETRIA) (S) 
+5|nivel|REFERENCIA
+5|obseorden|
+5|diagorden|H919
+5|cantorden|1
+5|cama|

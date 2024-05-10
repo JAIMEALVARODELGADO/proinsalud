@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HISTERECTOMIA ABDOMINAL TOTAL 
+2|neofarmacos|Negativo
+2|nuetoxico|SALBUTAMOL 
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARCA:11 AÑOS SEXARCA: 15  AÑOS FUM: NO RECUERDA, ULTIMA CITOLOGIA: HACE UN AÑO: NORMAL TOMADA DE MANERA PARTICULAR
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,11 @@
+2|person|App-  alergias niega qx hsiterectomia, cesarea, COLECISTECTOMIA LAPAROSCOPICA,  patologiocos  niega 
+2|familia|no
+2|metodo|NA
+2|gineco|NO
+2|gestan|1
+2|partos|01
+2|cesareas|1
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

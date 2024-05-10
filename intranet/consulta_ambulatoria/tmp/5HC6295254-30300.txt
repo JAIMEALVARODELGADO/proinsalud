@@ -1,0 +1,24 @@
+5|claseorden|1
+5|codorden|907002
+5|desorden|907002 - COPROLOGICO () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|R104
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|907106
+5|desorden|907106 - UROANALISIS () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|R104
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|902210
+5|desorden|902210 - HEMOGRAMA IV (HEMOGLOBINA HEMATOCRITO RECUENTO DE ERITROCITOS INDICES ERITROCITARIOS LEUCOGRAMA RECUENTO DE PLAQUETAS INDICES PLAQUETARIOS Y MORFOLOGIA ELECTRONICA E HISTOGRAMA) AUTOMATIZADO () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|R104
+5|cantorden|1
+5|cama|

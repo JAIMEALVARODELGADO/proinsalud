@@ -1,0 +1,11 @@
+2|person|Antecedentes medicos ca de mama en remision ,  epilepsia, ojo seco, hipotiroidismo, obesidad  Quirurgicos  mastectomia  izquierda,  pomeroy  histerectomia  , Alergicos: no refiere, Farmacos: Levotiroixna 100 mcg cad aia, acido valvoprico 500 mg cada 12 horas. Æ ---05-05-2021 ATENCION RIAS AL DIA---
+2|familia|MADRE: HIPOTIROIDISMO -- NIEGA ANTECEDENTES DE TRASTORNOS MENTALES EN LA FAMILIA, CONSUMO DE SPA, SUICIDIO, ANSIEDAD Y DEPRESION
+2|metodo|
+2|gineco|citologia  vaginal  REFIERE 2019 NEGATIVA PARA MALIGNIDAD, MAMOGRAFIA FEBRERO DE 2021 BIRADS 1 NORMAL, MENOPAUSIA 49 AÑOS, YA TIENE PROGRAMADA NUEVA CITOLOGIA PARA 26 DE MAYO DE 2021 negativa
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

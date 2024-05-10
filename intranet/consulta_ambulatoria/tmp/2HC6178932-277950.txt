@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA, AVC LEVE HIPOESTESIA IZQUIERDA, FORAMEN OVAL PERMEABLE?
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA
+2|neofarmacos|LOSARTAN 50 MG CADA 12 HORAS, AMLODIPINO 5 MG, ASA, ATORVASTATINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|CITOLOGIA VPH 10/10/2022 NO DETECTADO PARA TODOS LOS GENOTIPOS VPH. MAMOGRAFIA 27/08/2022 BIRADS 0
+2|gestan|1
+2|partos|0
+2|cesareas|1
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

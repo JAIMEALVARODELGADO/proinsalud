@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS: GASTRITIS. QUIRURGICOS:POMEROY; FARMACOS: ESOMEPRAZOL 40 MG DIA, fractura de tibia y perone izquierdo con cirugia y colocacion de material de osteosintesis,  NIEGA TABAQUISMO, ALCOHOLISMO  OCASIONAL, NIEGA CONSUMO DE SPA, DIETA COMUN, ACTIVIDAD FISICA OCASIONAL, PROFESION : DOCENTE  
+2|familia|CA DE MAAM  , CA  COLON  
+2|metodo|POMEROY
+2|gineco|14 AÑOS, ULTIMA CITOLOGIA FEBRERO  2022 NORMAL   ,  MAMOGRAFIA  JULIO  2022  BIRADS 1  NORMAL  . FUM   50 AÑOS  
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

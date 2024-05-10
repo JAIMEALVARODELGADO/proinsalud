@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|IMPLANTE COCLEAR DERECHO, APENDICECTOMIA, CESAREA
+2|neofarmacos|LOSARTAN
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOACUSIA SEVERA
+2|gineco|CITOLOGIA HACE 1 AÑO NORMAL  NO APLICA POR EDAD. PACIENTE HACE PARTE DE CRONICOS
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

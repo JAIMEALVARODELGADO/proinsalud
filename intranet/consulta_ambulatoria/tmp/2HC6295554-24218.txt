@@ -1,0 +1,11 @@
+2|person|patologicos: sindrome de colon irritable, gastritis, glaucoma, quiste aracnoideo quirurgicos: apendicectomia, histerectomia, traumaticos: negativos, toxicos: negativos, niega exposicion a toxicos, niega consumo de spa, alergicos: negativos**, farmacologicos: esomeprazol ocasional, ocupacion: docente, estado civil casada, mayo 30 2019, habitos nutricionales saludables, actividad fisica escas, patron de sueño regular Niega fobias, sociales o personales, no perdidas familiares actuales Niega ser victima de violencia, fisica, sexual, emocional, psicologica, de genero, niega ser desplazado por la violencia o conflicto armado, no pertenece a etnias o grupos poblacionales especiales. FACTORES DE VULNERABILIDAD SOCIAL: NO PY  M NOV  2022 ****   vacuna covid 19 3 dosis***
+2|familia|madre hipertension arterial, hipertiroidismo, padre hipertension arterial, niega antecedentes familiares, de trastornos mentales, en lo interrogado niega consumo de spa, en familiares cercanos, niega comportamientos suicidas, o suicidos en la familia, eventos cercanos al examen actual
+2|metodo|
+2|gineco|menarca: 14 años, sexarca: 25 años, menopausia: 42 años, citologia: junio 2019 negativa para malignidad, mamografia:  julio 2021, bi rads 1 negativo para malignidad, 3-4-23 ACUDE A PYM PROGRAMA ADULTEZ
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

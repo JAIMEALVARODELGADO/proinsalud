@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLECISTECTOMIA, SAFENOVARICECTOMIA DERECHA
+2|neofarmacos|ENALAPRIL
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA: 11 AÑOS, SEXARCA: NO RECUERDA , NUMERO DE COMPAÑEROS SEXUALES: 1, NIEGA ENFERMEDADES DE TRANSMISIÓN SEXUAL. ,  menstruación: 50 AÑOS, citologia: > 1 año NO APLICA CITOLOGIA NI MAMOGRAFIA EDAD 78 AÑOS 
+2|gestan|4
+2|partos|4
+2|cesareas|0
+2|abortos|0
+2|vivos|4
+2|mortinatos|0
+2|feulme|

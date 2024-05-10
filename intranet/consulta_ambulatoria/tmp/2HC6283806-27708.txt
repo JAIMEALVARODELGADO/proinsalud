@@ -1,0 +1,11 @@
+2|person|Antecedentes medicos No,  Quirurgicos  No,   alegias No  Traumas TCE HACE 8 MESES, Farmacos No,  Toxicos ALCOHOL SOCIAL, Estado  civil  soltero. ocupacion  Estudiante de  medicina  Niega  trastornos mentales,  consumo  de spa  e intentos de  suicidio ,   ESTUDIANTE DE MEDICINA , VIVE CON FAMILIAR , TIENE BUENA RELACION CON SUS PADRES Y HERMANOS ,   AECUADO RENDIMIENTO ESCOLAR 
+2|familia|No  refiere  antecedentes patologicos  familiares, niega  tratornos  mentales,  consumo  de spa e intentos de  suicidio  en  la familai
+2|metodo|
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

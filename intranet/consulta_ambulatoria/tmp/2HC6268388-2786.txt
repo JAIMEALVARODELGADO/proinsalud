@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLECISTECTOMIA ABIERTA, CESAREA 2, POMEROY 
+2|neofarmacos|FENOFIBRATO 200 MG CADA DIA, VIT E 400 U CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|DISLIPIDEMIA 
+2|gineco|menarca. 13 años. sexarca. 24 años, FUM: 08/09/2023, CITOLOGIA 2016 NORMAL CITOLOGIA DEL DIA  22 DE ENERO DEL 2019 CON NEGATIVA PARA LESIONES MALIGNAS O PREMALIGNAS NORMAL PARA LA EDAD PENDIENTE RESULTADOS DE CITOLOGIA TOMADA EN OCTUBRE 2021
+2|gestan|2
+2|partos|0
+2|cesareas|2
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

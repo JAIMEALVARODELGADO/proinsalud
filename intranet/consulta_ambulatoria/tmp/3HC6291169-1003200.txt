@@ -1,0 +1,55 @@
+3|fin|13
+3|tenar1|125
+3|tenar2|66
+3|freres|19
+3|fc|68
+3|tempe|36.2
+3|peso|60
+3|talla|160
+3|imc|23.437
+3|cintura|
+3|cadera|
+3|icc|
+3|dimc|Peso Normal
+3|pc|
+3|otros|NO-
+3|saox_tri|
+3|codiexa0|1001
+3|item0|1
+3|obseexa0|BUENAS CONDICIONES GENERALES-
+3|codiexa1|1002
+3|item1|1
+3|obseexa1|NORMAL
+3|codiexa2|1003
+3|item2|1
+3|obseexa2|NORMOCEFALA-
+3|codiexa3|1004
+3|item3|1
+3|obseexa3|NO  SECRECIONES-
+3|codiexa4|1005
+3|item4|1
+3|obseexa4|OTOSCOPIA NORMAL-
+3|codiexa5|1006
+3|item5|1
+3|obseexa5|NO INGURIGTACI´PON YUGULAR-
+3|codiexa6|1007
+3|item6|1
+3|obseexa6|NO  RUIDOS PATOLOGIOCOS  PO2 =  95%
+3|codiexa7|1008
+3|item7|1
+3|obseexa7|NA.-
+3|codiexa8|1009
+3|item8|1
+3|obseexa8|NO MASAS,NO SOPLOS-
+3|codiexa9|1010
+3|item9|1
+3|obseexa9|DIURESIS NORMAL-
+3|codiexa10|1011
+3|item10|1
+3|obseexa10|NA-
+3|codiexa11|1012
+3|item11|1
+3|obseexa11|MEMORIAS NORMALES-
+3|codiexa12|1013
+3|item12|1
+3|obseexa12|NO EDEMAS, PULSOS  SIMETRICOS- 

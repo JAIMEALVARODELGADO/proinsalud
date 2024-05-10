@@ -1,0 +1,11 @@
+2|person|patologicos: migraña, quirurgicos: negativos, traumaticos. negativos, toxicos: bebedora social, fumadora pasiva, niega consumo de spa, alergicos. negativoas, farmacologicos. negativos, ocupacion. docente, estado civil soltera, esquema de vacunacion covid 3, marzo 18 2022, Hábitos nutricionales saludables, actividad física escasa, patrón de sueño irregular, niega fobias, sociales o personales, no perdidas familiares actuales, niega ser víctima de violencia, física, sexual, emocional, psicológica, de género, niega ser desplazado por la violencia o conflicto armado, no pertenece a etnias o grupos poblacionales especiales
+2|familia|Abuela paterna tio patrrno diabetes mellitus, Niega antecedentes familiares,  de trastornos mentales, en lo interrogado niega consumo de spa, en familiares cercanos, niega antecedentes familiares de ceguera o hipoacusia, niega comportamientos suicidas, o suicidios en la familia, eventos cercanos al examen actual
+2|metodo|
+2|gineco|menarca 17 años, sexarca. 19 años, parejas sexuales #3, citologia: 2020, planificacion: AL MOMENTO NO PLANIFICA   FUM  17/01/24
+2|gestan|0
+2|partos|0
+2|cesareas|0
+2|abortos|0
+2|vivos|0
+2|mortinatos|0
+2|feulme|

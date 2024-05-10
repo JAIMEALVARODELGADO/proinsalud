@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|POMEROY, HISTERECTOMIA, RESECCION NODULO MAMARIO, COLECISTECTOMIA
+2|neofarmacos|LEVOTIROXINA, METFORMINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|DM TIPO 2, HIPOTIROIDISMO
+2|gineco|,MENARCA. 12 AÑOS   MENOPAUISIA. HACE 8 AÑOS     G.2 P.2 V.2 A.0
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|0
+2|mortinatos|0
+2|feulme|

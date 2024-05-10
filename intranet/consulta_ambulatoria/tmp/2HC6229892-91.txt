@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLECISTECTOMIA, POMEROY, CORRECCION DE HALLUX VALGUS
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|ARTROSIS
+2|gineco|menarca 12 años,sexarca 18 años, parejas sexuales #1.   menopausia: 54 años, feb 2019, inflamacion, atrofia, flora sugestiva, de vaginosis bacteriana mamografia nov 2017 bi rads, 0, eco mamaria nodulo solido en mama izquierda, bi rads 3, se entrega orden, CITOLOGIA 05-2021: NEGATIVA PARA MALIGNIDAD, INFLAMACION. *** VALORADA EN PROGRAMA DE P. Y M. POR VEJEZ EN AGOSTO/21 (63 AÑOS) *** 
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CISTOURETROPEXIA
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA A LOS 12 AÑOS, CITOLOGIA  2018 NORMAL   MAMOGRAFIA  BILATERAL  07/07/23  BITADS 1  NORMAL   VPH  23/06/23  NEGATIVO  ( 27/06/23  SANGRE OCULTA EN HECES NEGATIVO  ,  VIH  NEGATIVO  HEPATITIS C NEGATIVO  )
+2|gestan|02
+2|partos|02
+2|cesareas|00
+2|abortos|00
+2|vivos|02
+2|mortinatos|00
+2|feulme|

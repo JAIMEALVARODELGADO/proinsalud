@@ -1,0 +1,15 @@
+2|nuecardiovasculares|REMPLAZO VALVULA AORTICA HACE 18 AÑOS 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|REMPLAZO DE VALVULA AORTICA, PROSTATECTOMIA TRANSURETRAL , HERNIORRAFIA INGUINAL BILATERAL 
+2|neofarmacos|WARFARINA  5 MG INTERDIARIO  Y 2.5 MG INERDIARIO, METOPROLOL 50 MG CADA DIA.
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

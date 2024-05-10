@@ -1,0 +1,11 @@
+2|person|Patológicos: parto por cesárea por sufrimiento fetal agudo, retraso en el desarrollo psicomotor, pubertad precoz, rinitis ÆQuirúrgicos: niegaÆFarmacológicos: niegaÆTóxicos: niegaÆAlérgicos: niega
+2|familia|Se desconoce antecedentes paternos. Madre con ansiedad
+2|metodo|
+2|gineco|MENARCA: 8 AÑOS -- SEXARCA: NIEGA 
+2|gestan|0
+2|partos|0
+2|cesareas|0
+2|abortos|0
+2|vivos|0
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,11 @@
+2|person|PAT: HTA, FARMACO: ENALAPRIL. QX: HISTERECTOMIA, ALERGIA  NIEGA
+2|familia|no REFIERE
+2|metodo|
+2|gineco|MENOPAUSIA , CITOLOGIA 1 AÑO 
+2|gestan|5
+2|partos|5
+2|cesareas|0
+2|abortos|0
+2|vivos|5
+2|mortinatos|0
+2|feulme|

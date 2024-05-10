@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|ABDOMINOPLASTIA CESAREA LAPAROTOMIA HISTERECTOMIA SIN COMOLICACONES ANESTESICAS
+2|neofarmacos|Negativo
+2|nuetoxico|METRONIDAZOL
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARCA: 13 AÑOS -- CICLOS MENRTUALES: REGULARES -- CITOLOGIA 23/03/2021 NEGATIVA PARA MALIGNIDAD. - HISTERECTOMIZADA. 
+2|gestan|3
+2|partos|0
+2|cesareas|2
+2|abortos|1
+2|vivos|2
+2|mortinatos|1
+2|feulme|

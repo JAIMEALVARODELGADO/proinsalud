@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA 2, 
+2|neofarmacos|LOSARTAN, HCTZ
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA: 11 AÑOS. ÆÆMENOPAUSIA: 55 AÑOS. ÆÆPROMOCION Y MANTENIMIENTO DE SALUDÆÆCITOLOGIA : NOVIEMBRE 2015. NORMAL.13-01-2017 :  NORMAL.. ÆÆMAMOGRAFIA  01/2017  CITOLOGIA  09/2018 NEGATIVA PARA MALIGNIDAD  , citologia del 2021 negativa para malignidad ÆÆTAMIZAJE DE COLON PENDIENTE ÆÆPACIENTE INSCRITO EN PROGRAMA DE ENFERMEDADES CRONICAS
+2|gestan|3
+2|partos|1
+2|cesareas|2
+2|abortos|0
+2|vivos|3
+2|mortinatos|.
+2|feulme|

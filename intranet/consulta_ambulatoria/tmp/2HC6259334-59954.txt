@@ -1,0 +1,15 @@
+2|nuecardiovasculares|ANGIOPLASTIA CON IMPLANTE DE STENT MEDICADO  SOBRE LA ARTERIA CORONARIA DERECHA  HACE 2 AÑOS SECUNDARIO A  ENFERMEDAD CORONARIA SEVERA  DE ARTERIA CORONARIA DERECHA , HTA. 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREAS 2, APENDICECTOMIA, HERNIORRAFIA INSICIONAL,  HISTERECTOMIA ABDOMINAL, RTC DERECHA,  REPARACION DE MANGUITO ROTADOR DERECHO, CATETERISMO MAS COLOCACION DE STENT 
+2|neofarmacos|ASPROMIO INHALADOR 2 PUFF CADA 12 HORAS,  CARVEDILOL  6.25 MG CADA  12 HORAS,  LOSARTAN 50 MG CADA DIA,  ROSUVASTINA 20 MG CADA DIA, ASA 100 MG CADA DIA,  ESCITALOPRAM 20 MG CADA 12 HORAS,  PREGABALINA 75 MG CADA DIA , MELATONINA  1 CADA DIA,   FENOFIBRATO 200 MG CADA DIA. 
+2|nuetoxico|COMNPLEJO B 
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO, APNEA DEL SUEÑO 
+2|gineco|ginecologicos: menarquia 12 años  sexarquia  18 años menopausia: histerectomía 2005Æ07/07/2021 mamografia:   nodulos mamarios bilaterales estables ,   categoria 2  de la clasdificacion birads - ecografia de mama 02-08-2022:  quiste simple aislado en mama izquierdo (hallazgo benigno) clasificación: bi-rads categoría 2 por ultrasonografía.Æ
+2|gestan|2
+2|partos|0
+2|cesareas|2
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|LITOTRIPSIA LASER URETER
+2|neofarmacos|ASA, 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|MIGRAÑA, UROLITIASIS, TROMBOCITOSIS EN MANEJO CON HEMATOLOGIA
+2|gineco|MENARCA. 15 AÑOS FUM: 30/09/2017 DURASION: 5 DIAS. CITOLOGIA. HACE 2 AÑOS.  G3P3A0V3
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

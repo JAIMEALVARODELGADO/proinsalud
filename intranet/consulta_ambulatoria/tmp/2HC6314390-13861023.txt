@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA 2, POMEROY
+2|neofarmacos|LEVOTIROXINA 25 MCG
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO
+2|gineco|- MENARCA: 12 AÑOS CITOLOGIA Y VPH NEGATIVO SEGUN REFIERE LA APCIENTE 
+2|gestan|2
+2|partos|0
+2|cesareas|2
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|2024-04-12

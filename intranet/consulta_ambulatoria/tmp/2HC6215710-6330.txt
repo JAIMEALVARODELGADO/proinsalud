@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|POMEROY, COLECISTECTOMIA
+2|neofarmacos|METFORMINA, SITAGLIPTINA
+2|nuetoxico|PENICILINA
+2|neotransfin|Negativo
+2|neootros|DM TIPO 2, GASTRITIS
+2|gineco|G3P3 MEANRQUIA 16 AÑOS MENOPAUSEA 51 AÑOS CITOLOGIA AGOSTO 2014 REFIERE NORMAL // MAMOGRAFIA HACE 6 AÑOS E ENVIA A TAMIZAEJ MAMARIO 
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

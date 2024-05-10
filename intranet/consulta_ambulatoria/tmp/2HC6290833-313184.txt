@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|Negativo
+2|neofarmacos|IBERSARTAN, AMLODIPINO, LIRAGLUTIDE
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|PREDIABETES, OBESIDAD
+2|gineco|MENARCA  11  AÑOS ,    SEXARCA   17    AÑOS , CITOLOGIA  +  VPH  1  DE DICIEMBRE  DEL  2022  RESULTADO NORMAL ,  FECHA  DE  ULTIMA REGLA OCTUBRE  DEL 2020  , MENOPAUSIA , A LOS  49   AÑOS , MAMOGRAFIA  24  DE   NOVIMEBRE  DEL  2022   CON BI-RADS  1 
+2|gestan|3
+2|partos|1
+2|cesareas|1
+2|abortos|1
+2|vivos|2
+2|mortinatos|0
+2|feulme|

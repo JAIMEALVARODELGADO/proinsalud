@@ -1,0 +1,11 @@
+2|person|niega antecedentes patologico,  ALERGICA  AL  CAMARON  , niega toxicos, pomeroy -cesarea 1,  NIEGA TABAQUISMO, ALCOHOLISMO  OCASIONAL, NIEGA CONSUMO DE SPA, DIETA COMUN, ACTIVIDAD FISICA OCASIONAL
+2|familia|MADRE  HTA 
+2|metodo|menopausia
+2|gineco|menarquia: 12 añso,   FUC  JUNIO  2018    RESULTADO    VAGINOSIS  BACTERIANA  
+2|gestan|3
+2|partos|2
+2|cesareas|1
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|000

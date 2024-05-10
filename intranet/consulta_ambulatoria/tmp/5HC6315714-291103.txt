@@ -1,0 +1,88 @@
+5|claseorden|1
+5|codorden|903815
+5|desorden|903815 - COLESTEROL DE ALTA DENSIDAD () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|Z000
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903817
+5|desorden|903817 - COLESTEROL DE BAJA DENSIDAD [LDL] AUTOMATIZADO () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|Z000
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903818
+5|desorden|903818 - COLESTEROL TOTAL () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|Z000
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903868
+5|desorden|903868 - TRIGLICERIDOS () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|Z000
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903841
+5|desorden|903841 - GLUCOSA EN SUERO U OTRO FLUIDO DIFERENTE A ORINA () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|Z000
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903895
+5|desorden|903895 - CREATININA EN SUERO U OTROS FLUIDOS () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|Z000
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|907106
+5|desorden|907106 - UROANALISIS () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|Z000
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|906263
+5|desorden|906263 - HEPATITIS C ANTICUERPOS MANUAL (S) 
+5|nivel|REFERENCIA
+5|obseorden|
+5|diagorden|Z000
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|907008
+5|desorden|907008 - SANGRE OCULTA EN MATERIA FECAL [GUAYACO O EQUIVALENTE] () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|Z000
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|876802
+5|desorden|876802 - MAMOGRAFIA BILATERAL (S) 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|Z123
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|908890
+5|desorden|908890 - DETECCION VIRUS DEL PAPILOMA HUMANO POR PRUEBAS MOLECULARES (ESPECIFICO) (S) 
+5|nivel|REFERENCIA
+5|obseorden|
+5|diagorden|Z124
+5|cantorden|1
+5|cama|

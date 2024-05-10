@@ -1,0 +1,14 @@
+6|clasemedi|1
+6|codmedi|426455
+6|desmedi|DEXAMETASONA FOSFATO 1mg/ml + NEOMICINA SULFATO 3.5mg/ml + POLIMIXINA SULFATO 6000 UI/ml*5ml SOLUCION OFTALMICA
+6|dosis|1
+6|unid|GOTAS
+6|frecu|3
+6|unidfrecu|Horas
+6|via|2211
+6|tiempo|5
+6|obsemed|Aplicar 1 gota cada 8 horas
+6|canti|1
+6|diagmedi|H105
+6|justifi|N
+6|pos|S

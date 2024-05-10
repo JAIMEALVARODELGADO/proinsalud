@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA, ANTECEDENTE DE IAM HACE 7 AÑOS 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|APENDICECTOMIA, LAPAROTOMIA POR PERITONITIS, HERNIORRAFIA INGUINAL DERECHA,  CATETERISMO CARDIACO HACE 7 HORAS. 
+2|neofarmacos|LEVOPTIROXINA 75 CMG CADA DIA, ROSUVASTATINA 40 MG CADA DIA, CLOPIDROGEL 75 MG CADA DIA, METFORMINA 850 MG CADA DIA, ENALAPRIL 20 MG CADA  DIA  
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO, DMT II 
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

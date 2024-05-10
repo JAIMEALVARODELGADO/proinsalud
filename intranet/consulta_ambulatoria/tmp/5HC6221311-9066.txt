@@ -1,0 +1,56 @@
+5|claseorden|1
+5|codorden|903815
+5|desorden|903815 - COLESTEROL DE ALTA DENSIDAD () 
+5|nivel|CITAS
+5|obseorden|CONTROL  YA. 
+5|diagorden|E039
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903817
+5|desorden|903817 - COLESTEROL DE BAJA DENSIDAD [LDL] AUTOMATIZADO () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|E785
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903818
+5|desorden|903818 - COLESTEROL TOTAL () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|E785
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903868
+5|desorden|903868 - TRIGLICERIDOS () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|E785
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903841
+5|desorden|903841 - GLUCOSA EN SUERO U OTRO FLUIDO DIFERENTE A ORINA () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|E785
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|904902
+5|desorden|904902 - HORMONA ESTIMULANTE DEL TIROIDES (S) 
+5|nivel|REFERENCIA
+5|obseorden|
+5|diagorden|E039
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903895
+5|desorden|903895 - CREATININA EN SUERO U OTROS FLUIDOS () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|E785
+5|cantorden|1
+5|cama|

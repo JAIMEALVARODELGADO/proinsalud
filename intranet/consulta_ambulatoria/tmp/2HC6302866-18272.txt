@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA,
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLECISTECTOMIA, COLOSTOMIA
+2|neofarmacos|LEVOTIROXINA, VALSARTA, GALVUS
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|DIABETES MELLITUS 2, HIPOTIROIDISMO
+2|gineco|menarca 14 AÑOS, sexarca. 19 años, menopausia: 50 años ULTIMA CITOLOGIA HACE 1 AÑO NORMAL SEGUN REFIERE, MAMOGRAFIA HACE 1 AÑO NORMAL SEGUN REFIERE 
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

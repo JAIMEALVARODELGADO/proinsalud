@@ -1,0 +1,11 @@
+2|person|patologicos: hemorroides internas,  bocio multinodular difuso, hipotiroidismo, tiroiditis pos covid-19 // quirurgicos: salpinguectomia izquierda por embarazo ectopico roto, traumaticos. negativos, toxicos: negativos, niega exposicion a toxicos, niega consumo de spa, alergicos: negativos, farmacologicos: LEVOTIROXINA 75 MCG CADA DIA , ocupacion docente, estaod civil soltera, enero 20 2021, habitos nutricionales saludables, actividad fisica escasa, patron de sueño regular, Niega fobias, sociales o personales, no perdidas familiares actuales, Niega ser victima de violencia, fisica, sexual, emocional, psicologica, de genero, niega ser desplazado por la violencia o conflicto armado, no pertenece a etnias o grupos poblacionales especiales  ocupacion  docente  --------- NO ATENCION RIAS. SE REMITE----
+2|familia|sin antecedentes familiares de importancia, niega antecedentes familiares,  de trastornos mentales, niega antecedentes de hipoacusia o ceguera en familia, en lo interrogado niega consumo de spa, en familiares cercanos, niega comportamientos suicidas, o suicidios en la familia, eventos cercanos al examen actual 
+2|metodo|
+2|gineco|menarca: 17 años, sexarca: 18 años, parejas sexuales #3, citologia: >1 año, se entrega orden, planificacion ninguna, (no desea planificacion) 
+2|gestan|2
+2|partos|1
+2|cesareas|0
+2|abortos|1
+2|vivos|1
+2|mortinatos|0
+2|feulme|

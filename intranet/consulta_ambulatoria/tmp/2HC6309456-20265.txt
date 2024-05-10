@@ -1,0 +1,11 @@
+2|person|NIEGA// ALERGIAS_ 
+2|familia|NO  SABE- 
+2|metodo|NA-
+2|gineco|NA-
+2|gestan|4
+2|partos|3
+2|cesareas|0
+2|abortos|1
+2|vivos|1
+2|mortinatos|0
+2|feulme|

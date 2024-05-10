@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|EPOC
+2|nuequirurgicos|POMEROY
+2|neofarmacos|Negativo
+2|nuetoxico|AINES
+2|neotransfin|Negativo
+2|neootros|INSUFICIENCIA VENOSA
+2|gineco|menarca. 13 años,  menop: 55 años, citol. nov: normal
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|TIROIDECTOMIA, RESECCION NODULO MAMARIA, COLECISTECTOMIA, CEPRE, CISTOPEXIA
+2|neofarmacos|LEVOTIROXINA, LOSARTAN, HCTZ, METOPROLOL
+2|nuetoxico|CORTICOIDES
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO
+2|gineco|G5P4C1V3, MENARCA 17 AÑOS  MENOPAUSIA: 54 AÑOS -- mamografia21/05/18  birads 2 quistes simples mama izquirda 2.4 MM --   CITOLOGIA HACE 2 AÑOS NORMAL MAMOGRAFIA 26/03/21 BIRADS 2 , 
+2|gestan|5
+2|partos|4
+2|cesareas|1
+2|abortos|0
+2|vivos|3
+2|mortinatos|2
+2|feulme|

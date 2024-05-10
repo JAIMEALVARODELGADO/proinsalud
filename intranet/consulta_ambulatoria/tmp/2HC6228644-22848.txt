@@ -1,0 +1,11 @@
+2|person|PATOLOGICO: NO REFIEREÆQUIRUGICOS: NO REFIEREÆALERGAS: NO REFIEREÆTRAUMATICOS: NO REFIEREÆFARMACOLOGICO: NO REFIEREÆTOXICOS: NO REFIERE---27-06-2023 ATENCION RIAS AL DIA----
+2|familia|NO
+2|metodo|NINGUNO 
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

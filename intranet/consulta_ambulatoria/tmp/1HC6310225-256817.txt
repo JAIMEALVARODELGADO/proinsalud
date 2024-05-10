@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|3310
+1|escolaridad|7611
+1|estadocivil|A701
+1|direccion|TORRES DEL CIELO BLOQUE 4 APTO 1303
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|VENGO POR LOS RESULTADOS 
+1|enfeac|PACIENTE ACUDE A CONTROL CON RESULTADOS DE IMAGENOLOGIA SOLICITADOS POR DOLOR, LIMITACION E INFLAMACION DE 3ER DEDO DE MANO DERECHO POS TRAUMA CONTUNDENTE, SINTOMAS QUE HASTA AHORA PERMANECEN. 
+1|revisi|.
+1|informe|
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

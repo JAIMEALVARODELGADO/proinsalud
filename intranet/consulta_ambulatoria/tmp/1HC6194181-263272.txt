@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9998
+1|escolaridad|7613
+1|estadocivil|A701
+1|direccion|MZ D CS 22 VILLA DEL SOL
+1|tidoacu|
+1|nudoacu|NO
+1|pnomacu|MARIA
+1|snomacu|NO
+1|papeacu|PANTOJA
+1|sapeacu|NO
+1|parenacu|MADRE
+1|direacu|NO
+1|teleacu|NO
+1|muniacu|
+1|nommuniacu|NO
+1|primera|1
+1|codciru|
+1|motivo|POR 
+1|enfeac|PACIENTE 
+1|revisi|NO REFIERE OTRA SINTOMATOLOGIA
+1|informe|NO
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

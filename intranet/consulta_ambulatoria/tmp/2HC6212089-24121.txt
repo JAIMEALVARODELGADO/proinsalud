@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CASAREA 1, POMEROY 
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA:  12 AÑOS,  SEXARQUIA 17 AÑOS,  NUMERO DE COMPAÑEROS SEXUALES EN TODA LA VIDA. 1. POMEROY, CITOLOGIA VPH: 22/11/2022: GENOTIPO 16 DETECTADO, RESTO DE GENOTIPOS NO DETECTADOS
+2|gestan|3
+2|partos|2
+2|cesareas|1
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

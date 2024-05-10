@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HISTERECTOMIA, SAFENOVARICECTOMIA
+2|neofarmacos|ENALAPRIL, LEVOTIROXINA, CAFEINA ACETAMINOFEN
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO, CEFALEAS
+2|gineco|embarazo gemelar 1. MENOPAUSIA. HISTERECTOMIA HACE 12 AÑOS CITOLOGIA 12/11/2019 NEGATIVA PARA MALIGNIDAD . Mamografia 28/06/2019 categoria bi rads I MAMOGRAFIA DEL 27/07/21 BIRADS 1 NORMAL  MAMOGRAFIA 3/02/22 BIRADS 1 . PACIENTE HACE PARTE DE CRONICOS
+2|gestan|4
+2|partos|2
+2|cesareas|1
+2|abortos|1
+2|vivos|3
+2|mortinatos|0
+2|feulme|

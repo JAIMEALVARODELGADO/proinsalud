@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|OSTEOSINTESIS DE FEMUR DERECHO
+2|neofarmacos|LOSARTAN, OMEPRAZOL, HCTZ, PREGABALINA,
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|DISCOPAITA LUMBAR, FRACTURA VERTEBRAL
+2|gineco|G4P4
+2|gestan|1
+2|partos|1
+2|cesareas|0
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

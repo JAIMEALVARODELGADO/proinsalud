@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CIRUGIA DE COLUMNA 
+2|neofarmacos|LEVOTIROXINA 50 MCG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO
+2|gineco|menarca 16 años, sexarca: 19 años, parejas sexuales #3, menopausia: 2008,-- CITOLOGIA: 8/9/21 NEGATIVA PARA MALIGNIDAD -- MAMOGRAFIA: 31/3/21 BI-RADS 1
+2|gestan|4
+2|partos|4
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

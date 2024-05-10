@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A702
+1|direccion|Cra 6 Norte # 11-53 B/ Seminario B/ 
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|.
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|.
+1|enfeac|.
+1|revisi|.
+1|informe|FISICO QUIMICOÆ Color AMARILLOÆ Aspecto LIG.TURBIOÆ Glucosa NORMALÆ Proteinas NEGATIVOÆ Bilirrubinas NEGATIVOÆ Urobilinogeno NORMALÆ P.H. 6.0Æ Densidad 1.010Æ Sangre NEGATIVOÆ Cetonas NEGATIVOÆ Nitritos NEGATIVOÆ Estearasa Leucocitaria NEGATIVOÆMICROSCOPICOÆ Leucocitos 0-2 XCÆ Hematíes 1-5 XCÆ Células Epiteliales 6-10 XCÆBacteriasÆ+ XCÆ Moco ++Æ LevadurasÆ+
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

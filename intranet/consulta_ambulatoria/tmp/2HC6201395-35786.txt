@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HISTERECTOMIA ABDOMINAL, OSTEOSINTESIS DE TIBIA DERECHA 
+2|neofarmacos|LEVOTIROXINA 50 MCG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|OBESIDAD, HIPOTIROIDISMO 
+2|gineco|MENARCA   12 AÑOS ,  SEXARCA   18 AÑOS ,  ULTIMA  CITOLOGIA VAGINAL 2018 ,  SE ENVIA  ORDEN  , MAMOGRAFIA BILATERAL 2018 ,    SE ENVIA  ORDEN ,   FUR A LOS 48  AÑOS , 
+2|gestan|2
+2|partos|0
+2|cesareas|0
+2|abortos|2
+2|vivos|0
+2|mortinatos|0
+2|feulme|

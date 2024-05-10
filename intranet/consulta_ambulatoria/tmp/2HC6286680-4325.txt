@@ -1,0 +1,11 @@
+2|person|COLECISTECTOMIA otros antecedentes ya tomados en consultas previas----03-08-2022 ATENCION RIAS AL DIA----
+2|familia|NO
+2|metodo|NINGUNO 
+2|gineco|menarca 14 años, sexarca 17 años, citologia feb 2019, polipo endocervical. negativa para malignidad,  menopausia 51 años, mamografia oct 2019, nodulo mamario en mama izquierdo bi rads 2, eco mamaria: nov 2019, bi rads 1. 3-8-22 ACUDE A PYM PROGRAMA VEJEZ
+2|gestan|1
+2|partos|1
+2|cesareas|0
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

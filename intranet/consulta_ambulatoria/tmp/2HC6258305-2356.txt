@@ -1,0 +1,11 @@
+2|person|patologicos carcinoma de basal en la nariz, hipertension en manejo con coardiologia  gastritis, artrosis, venas varicosas, infarto hace  2 AÑOS quirurgicios colecistectomia, niega alergia a medicamentos medicamentosos FUROSEMIDA 40 mg UNA DIA ESPIRONOLACTONA 25 mg UNA DIA CARVEDILOL 25 mg CADA 12 HORAS IRBESARTAN 300 mg COMPRIMIDOCADA 24 HORAS, REMISION A P Y M
+2|familia|MADRE HIPERTENSION ARTERIAL 
+2|metodo|
+2|gineco|MENARQUIA 13 AÑOS  CITOLOGIA SEPTIEMBRE DE 2017: NORMAL. 
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

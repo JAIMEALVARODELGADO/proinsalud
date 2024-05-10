@@ -1,0 +1,11 @@
+2|person|HIPOTIROIDISMO, COLECISTECTOMIA,  ALERGICOS: ****DIPIRONA*******----26-12-2019 ATENCION RIAS. SE REMITE-----
+2|familia|madre: cardiopatia hipertension arterial, hermano infarot agudo de miocardio hermanas#2  cancer gastriconiega antecedentes familiares,  de trastornos mentales, niega antecedentes de hipoacusia o ceguera en familia, en lo interrogado niega consumo de spa, en familiares cercanos, niega comportamientos suicidas, o suicidios en la familia, eventos cercanos al examen actual 
+2|metodo|NINGUNO 
+2|gineco|menaca 12 años, sexarca: 20 años, parejas sexuales #1, menopausia49 años, citologia mayo 2020 inflamacion flora sugestiva de vaginosis bacterinaa negativa para malignidad, mamografia agosto 2019, bi rads 2 
+2|gestan|6
+2|partos|4
+2|cesareas|0
+2|abortos|2
+2|vivos|4
+2|mortinatos|0
+2|feulme|

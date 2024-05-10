@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS: IAM CON COLOCACION DE STENT - 2 CATETERISMO CARDIACO, CRANEOTOMIA POR H SUBDURAL, DISOCOPIA qcos:   cx  de columna   lumbAR  y  cervical, apendicectomia, CRANEOTOMIA FARMACO:  EZETIMIBA CADA 8 HORAS,  ROSUVASTATINA 40 MGCADA 24 HORAS  ,  ASA///NO CIRUGIAS OFTALMOLOGICAS , homeopáticos o medicina ancestral:no  riesgo psicosocial: no  sociales o personales: no  hospitalarios: no refiere psiquiatricos: no antecedente de intento de suicidio: no  vacunacion: completas nutricionales: no refiere actividad fisica: ninguna
+2|familia|no refiere
+2|metodo|
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

@@ -1,0 +1,28 @@
+6|clasemedi|1
+6|codmedi|602155
+6|desmedi|LEVOTIROXINA 88MCG TABLETA
+6|dosis|1
+6|unid|UND
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|80
+6|obsemed|TOMAR  1  TAB DE  LUNES  A  VIERNES  
+6|canti|80
+6|diagmedi|E039
+6|justifi|N
+6|pos|N
+6|clasemedi|1
+6|codmedi|602150
+6|desmedi|LEVOTIROXINA  100 mcg TABLETA
+6|dosis|1
+6|unid|UND
+6|frecu|3
+6|unidfrecu|Dias
+6|via|2203
+6|tiempo|90
+6|obsemed|TOMAR  1  TAB  SABADO  Y DOMINGO 
+6|canti|30
+6|diagmedi|E039
+6|justifi|N
+6|pos|S

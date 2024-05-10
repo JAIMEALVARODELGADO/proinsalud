@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLECISTECTOMIA, RESECCION LESION PIEL CARA
+2|neofarmacos|VALSARTAN, HCTZ
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|menarca 16 años, sexarca: 23 años, parejas sexuales #1, menopausia: 48 años, citologia: 2012, se entrega orden, mamografia: marzo 2012, se entrega orden, 
+2|gestan|4
+2|partos|3
+2|cesareas|0
+2|abortos|1
+2|vivos|3
+2|mortinatos|0
+2|feulme|

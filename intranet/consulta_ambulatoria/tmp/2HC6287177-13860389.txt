@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESÁREA SIN COMPLICACIONES ANESTÉSICAS
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARCA 15 AÑOS FUR_   CITOLOGIA_ NO TIENE
+2|gestan|2
+2|partos|0
+2|cesareas|1
+2|abortos|1
+2|vivos|1
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|Negativo
+2|neofarmacos|HGIDROCLOROTIAZIDA 25 MG CADA DIA, ROSUVASTINA 20 MG CADA DIA, LOSARTAN 50 MG CADA 12 HORAS 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA 12 AÑOS - MENOPAUSIA 47 AÑOS ** CITOLOGIA FEBRERO DE 2022 NEGATIVA PARA MALIGNIDAD ** Mamografía 06.2022: BIRADS-0 ECOGRAFIA DE MAMA : 2023-03-30 OPINION: ESTUDIO DENTRO DE LÍMITES NORMALES CLASIFICACIÓN: BI-RADS Categoría 1 por ultrasonografía
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|00
+2|mortinatos|0
+2|feulme|

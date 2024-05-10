@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS  NIEGA  , ALERGIAS NIEGA, AQX CESAREA 1, LIPOESCULTURA Y LIPOTRANSFERENCIA GLUTEA HACE 7 AÑOS
+2|familia|NIEGA
+2|metodo|
+2|gineco|MENARQUIA    12 AÑOS  
+2|gestan|1
+2|partos|0
+2|cesareas|1
+2|abortos|0
+2|vivos|1
+2|mortinatos|1
+2|feulme|02/03/2024

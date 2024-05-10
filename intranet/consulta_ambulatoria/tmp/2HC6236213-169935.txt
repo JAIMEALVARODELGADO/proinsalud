@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|POMEROY, CESAREA 2, APENDICECTOMIA, ABDOMINOPLASTIA 
+2|neofarmacos|Negativo
+2|nuetoxico|DIPIRONA 
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA A LOS  14 AÑOS ULTIMA CITOLOGIA TOMADA HACE 3 DIAS PENDIENTE REPORTE FUM 10/02/23 G2 P0 C2 V2 
+2|gestan|2
+2|partos|0
+2|cesareas|2
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

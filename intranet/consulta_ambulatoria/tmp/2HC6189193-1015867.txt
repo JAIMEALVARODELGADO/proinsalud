@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA 1 , HISTERECTOMIA ABDOMINAL TOTAL 
+2|neofarmacos|LEVOTIROXINA 50 MCG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPIOTIROIDISMO 
+2|gineco|Menarca: 12 años, sexarca: 21 años, NUMERO DE COMPAÑEROS SEXUALES: 2, NIEGA ENFERMEDADES DE TRANSMISIÓN SEXUAL..  Menopausia: 32 años POR HISTERECTOMIA, citologia vaginal  Junio/2021 Negativa para malignidad con atrofia--   . Mamografia 02/20: Birads 2  PENDIENTE REPORTE DE MAMOGRAFIA 
+2|gestan|3
+2|partos|1
+2|cesareas|1
+2|abortos|1
+2|vivos|2
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS: HIPOTIROIDISMO, RINITIS ALERGICA , HIPERPLASIA PROSTATICA-- QUIRURGICOS: SAFECECTOMIA IZQIOERDA Æ HACE 3 AÑOS-- ALERGICOS: NO REFIERE --FARMACOS: LEVOTIROXINA 75 MCG DIA. PSA FEBRERO 1 DE 2021 1.19 **-- NIEGA SER VICTIMA DE VIOLENCIA FISICA, SEXUAL, PSICOLOGICA, EMOCIONAL, INTRAFAMILIAR O DE GENEROÆINMUNIZACION COVID 2DA DOSIS APLICADA CON PFIZER, homeopáticos o medicina ancestral:no  riesgo psicosocial: no  sociales o personales: no  hospitalarios: no refiere psiquiatricos: no antecedente de intento de suicidio: no  vacunacion: completas nutricionales: no refiere actividad fisica: ninguna
+2|familia|MADRE: DIABETES MELLITUS  PADRE: HIPERTENSION ARTERIAL HERMANO: LEUCEMIA **-- NIEGA ANTECEDENTE FAMILIAR DE TRASTORNOS MENTALES, CONSUMO DE SPA, CONDUCTA SUICIDA.Æ
+2|metodo|
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

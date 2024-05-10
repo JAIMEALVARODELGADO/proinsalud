@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS   IVU A REPETICION HIPOTIROIDISMO DISLIPIDEMIA FARMACOLOGICOS LEVOTIROXINA 75MCG VO DIA ATORVASTATINA 20MG VO DIA NIEGA CONSUMO DE MEDICAMENTO HOMEOPATICOS, ANCESTRALES NO REFIERE QUIRURGICOS  CESAREAS OSTEOSINTESIS DE HUMERO DERECHO TRAUMATICOSFRACTURA DE HUMERO DERECHO TOXICOS NIEGA CONSUMO DE ALCOHOL, NIEGA CONSUMO DE CIGARRILLO, NIEGA CONSUMO DE SPA, ALERGICOS NIEGA A MEDICAMENTOS O ALIMENTOS TRANSFUSIONALES NO REFIERE, ONCOLOGICOS NO REFIERE, ENFERMEDADES MENTALES NO REFIERE, NIEGA ANTECEDENTES DE INTENSO DE SUICIDIO OCUPACIONALE DOCENTE HOSPITALIZACIONES PREVIAS NO REFIERE EN EL ULTIMO AÑO,  VACUNACION PARA SARS COV 2  TRED DOSIS       -----30-10-2020 ATENCION RIAS AL DIA -----                                                     
+2|familia|madre hipertension arterial, hipotiroidismo, hermanos hipotiroidismo, Niega antecedentes familiares,  de trastornos mentales, en lo interrogado niega consumo de spa, en familiares cercanos, niega antecedentes familiares de ceguera o hipoacusia, niega comportamientos suicidas, o suicidios en la familia,
+2|metodo|NINGUNO
+2|gineco|menarca: 15 años, sexarca: 26 años, parejas sexuales #2, menopausia: 45 años, ULTIMA CITOLOGIA HACE 1 AÑO NORMAL SEGUN REFIERE 
+2|gestan|2
+2|partos|0
+2|cesareas|2
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

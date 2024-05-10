@@ -1,0 +1,11 @@
+2|person|MEDICOS:GASTRITIS CRONICA,  CERVICALGIA ;UROLITAIASIS  //    QUIRURGICOS:COLECISTECTOMIA ,  APENDICECTOMIA ;  
+2|familia|MAMA LEUCEMIA
+2|metodo|NA-
+2|gineco|MENARQUIA : 14 AÑOS           citologia 29 de junio de 2016 normal       MAMOGRAFIA 08/03/2022 NEGATIVA PARA PROCESO MALIGNO , CATEGORIA BIRADS I,       fum 51 años 
+2|gestan|3
+2|partos|2
+2|cesareas|0
+2|abortos|1
+2|vivos|2
+2|mortinatos|0
+2|feulme|

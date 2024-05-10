@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLECISTECTOMÍA LAPAROSCÓPICA  SIN COMPLICACIONES
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|G3P1A10V1 MENARCA: 14 AÑOS CITOLOGIA DEL 15/12/2023  INFLAMACION LEVE. NEGATIVA PARA MALIGNIDAD. 
+2|gestan|3
+2|partos|1
+2|cesareas|1
+2|abortos|1
+2|vivos|2
+2|mortinatos|0
+2|feulme|

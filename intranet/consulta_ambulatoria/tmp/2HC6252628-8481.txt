@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|POMEROY, LIBERACION DE TUNEL DEL CARPO, MENISECTOMIA RODILLA DERECHA
+2|neofarmacos|LOSARTAN 50 MG CADA 12 HORAS 
+2|nuetoxico|DIPIRONA 
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA 12 AÑOS SEXARQUIA 18 AÑOS   FUM: A LOS  51 AÑOS. 12/03/2024 CITOLOGIA   NORMAL MENOS DE 1 AÑO . MAMOGRAFIA DEL  14 JUNIO 2022   REPORTE BIRADS 1 . NO INFECCIÓN DE TRASMISIÓN SEXUAL.
+2|gestan|8
+2|partos|8
+2|cesareas|0
+2|abortos|0
+2|vivos|8
+2|mortinatos|0
+2|feulme|

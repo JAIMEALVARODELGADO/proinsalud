@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS  NIEGA  
+2|familia|NIEGA
+2|metodo|niega.
+2|gineco|MENARQUIA    12 AÑOS  
+2|gestan|1
+2|partos|1
+2|cesareas|0
+2|abortos|0
+2|vivos|1
+2|mortinatos|1
+2|feulme|10-12-2023

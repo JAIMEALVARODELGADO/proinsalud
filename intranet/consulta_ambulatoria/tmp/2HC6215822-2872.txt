@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|APENDICECTOMIA
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENOPAUSA. MAMOGRAFIA 27/01/18 CATEGORIA BI RADS CERO, ECOGRAFIA MAMARIA COMPMENTARIOA CATEGORIA  BI-RADS 2 HALLAZGOS BENIGNOS 2022 MAMAOGRAFIA BI-RADS 2  08/02/2024 MAMOGRAFIA BI-RADS 0 /// ECOGRAFIA MAMARIA BI-RADS 2Æ          -CITOLOGIA 19/11/2018 NEGATIVA PARA MALIGNIDAD // CITOLOGIA 28/02/23  ADN VPH NO DETECTADO  
+2|gestan|4
+2|partos|3
+2|cesareas|1
+2|abortos|0
+2|vivos|4
+2|mortinatos|0
+2|feulme|

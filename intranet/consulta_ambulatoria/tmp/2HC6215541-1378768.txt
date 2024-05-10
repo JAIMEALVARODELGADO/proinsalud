@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|Negativo
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA 12 AÑOS ÆSEXARQUIA 17 AÑOS ÆFUM  PUERPERIO FISIOLOGICOÆPLANIFICACION FAMILIAR  DIU INSERTADO 20/10/2021 DIU ÆCITOLOGIA 29/01/2021 NEGATIVA PARA MALIGNIDAD CAMBIOS CELULARES REACTIVOS ASOCIADOS A INFLAMACION ÆCICLO DE VIDA JUVENTUD SE REALIZA 03/11/2021. CITOLOGIA CERVICO VAGINAL : 16-02-2023 : NEGATIVO  PARA  LESION INTRA EPITELIAL  O MALIGNIDAD, NORMAL. 
+2|gestan|1
+2|partos|1
+2|cesareas|0
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

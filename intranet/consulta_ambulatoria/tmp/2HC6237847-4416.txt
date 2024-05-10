@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|POMEROY, CISTOPEXIA
+2|neofarmacos|LIRAGLUTIDE
+2|nuetoxico|PENICILINA
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENOPAUSIA,  CITOLOGIA 08-09-2020 NORMAL , CITOLOGIA 30-09-2021: NEGATIVA PARA MALIGNIDAD, MAMOGRAFIA 16-09-2021: NODULO MAMARIO DERECHO, BI-RADS 0, SE RECOMIENDA ECOGRAFIA, ECOGRAFIA DE MAMA 24-09-2021: QUISTE SIMPLE EN AMMA DERECHA, BI-RADS 2
+2|gestan|5
+2|partos|3
+2|cesareas|1
+2|abortos|1
+2|vivos|3
+2|mortinatos|0
+2|feulme|

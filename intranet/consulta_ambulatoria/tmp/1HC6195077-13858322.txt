@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A701
+1|direccion|CRA 25 NO 5 SUR 59 SANTA ISABEL
+1|tidoacu|CC
+1|nudoacu|1085285200
+1|pnomacu|JOHANA
+1|snomacu|
+1|papeacu|MUÑOZ
+1|sapeacu|
+1|parenacu|MADRE
+1|direacu|PASTO, MZ 20 CASA 15 LA ESMERALDA 
+1|teleacu|3007499676
+1|muniacu|52001
+1|nommuniacu|PASTO (NARI&#65533;O)
+1|primera|1
+1|codciru|
+1|motivo|VALORACION PREANESTESICA PARA CIRCUNCISION MAS RESECCION DE QUISTE EPIDIDIMO IZQUEIDO
+1|enfeac|FIMOSIS, QUISTE EPIDIDIMO
+1|revisi|NIEGA
+1|informe|
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

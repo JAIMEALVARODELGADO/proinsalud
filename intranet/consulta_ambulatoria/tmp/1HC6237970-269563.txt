@@ -1,0 +1,25 @@
+1|etnia|7501
+1|ocupacion|9996
+1|escolaridad|7603
+1|estadocivil|A701
+1|direccion|VEREDA EL DIVISO - PREDIO EL VERDE BARBACOAS.
+1|tidoacu|CC
+1|nudoacu|.
+1|pnomacu|ISABEL
+1|snomacu|
+1|papeacu|BISBICUS
+1|sapeacu|
+1|parenacu|MADRE
+1|direacu|VEREDA EL DIVISO 
+1|teleacu|.
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|.
+1|enfeac|.
+1|revisi|.
+1|informe|.
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

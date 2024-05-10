@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9998
+1|escolaridad|7603
+1|estadocivil|A701
+1|direccion|CAICEDO ALTOCARE 15 4 11
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|VENGO POR UN CONTROL CON EL GINECOLOGO 
+1|enfeac|REFIERE CUADRO CLINICO DE DOS MESES DE EVOLUCION, REFIERE POSTERIOR A IVE CURSA CON IRREGULARIDAD EN PERIODO MENSTRUAL, CON POLIMENORREA, DISMENORREA Y LEUCORREA VAGINAL DE MAL OLOR, 
+1|revisi|.
+1|informe|
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

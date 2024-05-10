@@ -1,0 +1,11 @@
+2|person|Patologicos: HTA, DM tipo 2 , . Farmacologicos:hidroclorotiazida 25 mg cada ida, vildagliptian 50 mg cada dia. omega 3-6-9, vitamina E, vitamian D ocasional. Quriurgicos: hallux valgus, safenectomia izquierda, colecistectomia . Alergicos: niega. Toxicos: exposicion a humo de leña en la infancia. 
+2|familia|Cardiopatia, HTA, DM en madre. 
+2|metodo|NA-
+2|gineco|MENARQUIA A LOS 16 AÑOS. FUM: 48 AÑOS, MAMOGRAFIA  CADA 2 AÑOS  NORMAL , CITOLOGIA  ANUAL NEGATIVA PARA MALIGNIDAD
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

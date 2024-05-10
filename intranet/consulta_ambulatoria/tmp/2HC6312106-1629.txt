@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA 1, COLELAP 
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MANARQUIA  LOS 12 ÑOS DE CICLOES REGUÑRES POR 3 DIAs c.v. 6 mese normales CITOLOGIA HACE 1AÑO NEG  FUM 23/08/18 
+2|gestan|2
+2|partos|1
+2|cesareas|1
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|OSTEOSINTESIS DE TOBILLO DERECHA, RTC DERECHA, ARTROSCOPIA RODILLA IZUQIERDA, HISTERECTOMIA
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARCA: 14 AÑOS -- MENOPAUSIA: 51 AÑOS-- ULTIMA CITOLOGIA VAGINAL: NO RECUERDA -- MAMOGRAFIA: REFIERE HACE 8 MESES (AGOSTO/21) NORMAL 
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

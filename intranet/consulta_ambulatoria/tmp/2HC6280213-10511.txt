@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLELAP, CESAREA 1
+2|neofarmacos|Negativo
+2|nuetoxico|CEVEDOL 
+2|neotransfin|Negativo
+2|neootros|PREDIABETES 
+2|gineco|MENARQUIA: 12 AÑOS, SEXARCA: 18 AÑOS, NUMERO DE COMPAÑEROS SEXUALES:2 , NIEGA ENFERMEDADES DE TRANSMISIÓN SEXUAL. MENOPAUSIA: 49 AÑOS,  FECHA DE ÙLTIMA CITOLOGÌA: 05 2017 G5P2C1A2,  DICIEMBRE 2020 CITOLOGIA NORMAL MAMOGRAFIA FEBRERO DEL 2021 ,Opinión: Hallazgos benignos. Mamografía negativa para proceso evolutivo maligno Categoría 1 de la clasificación BI-RADS  
+2|gestan|5
+2|partos|2
+2|cesareas|1
+2|abortos|2
+2|vivos|3
+2|mortinatos|0
+2|feulme|

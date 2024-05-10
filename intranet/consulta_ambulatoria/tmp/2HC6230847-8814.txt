@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA, BLOQUEO RAMA DERECHA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|REPARACION MANGUIOTO ROTADOR
+2|neofarmacos|LOSARTAN, LEVODOPA, BIPERIDENO
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|PARKINSON, ARTROSIS, VERTIGO
+2|gineco|MENARQUIA 14 AÑOS, MENOPAUSIA 55 AÑOS. CITOLOGIA HACE 8 AÑOS, MAMOGRAFIA 14/05/2019 CATEGORIA BI RADS 2 
+2|gestan|5
+2|partos|5
+2|cesareas|0
+2|abortos|0
+2|vivos|5
+2|mortinatos|0
+2|feulme|

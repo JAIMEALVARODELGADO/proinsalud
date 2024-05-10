@@ -1,0 +1,11 @@
+2|person|patologicos: gastritis cronica, sindrome de colon irritable, hipoacusia, quirurgicos: cesarea #2, reseccion de pterigio ojo derecho, legrado ginecologico, traumaticos: negativos, toxicos: bebedora social, fue fumadora pasiva, niega consumo de spa, alergicos. negativos, farmacologicos: esomeprazol, trimebutina, ocupacion: docente, religion cristiana, estado civil u. libre, esquema de vacunacion covid #2, feb 20, 2023, Hábitos nutricionales saludables, actividad física escasa, patrón de sueño regular, niega fobias, sociales o personales, exámenes de protocolo mental, debido a su estado no pertinentes, al momento del examen, no perdidas familiares actuales, niega ser víctima de violencia, física, sexual, emocional, psicológica, de género, niega ser desplazado por la violencia o conflicto armado, no pertenece a etnias o grupos poblacionales especiales (migrante, carcelario, gestante), 
+2|familia|tia materna hipertension arterial, tiomaterno cancer de origeno no clara, Niega antecedentes familiares,  de trastornos mentales, en lo interrogado niega consumo de spa, en familiares cercanos, niega antecedentes familiares de ceguera o hipoacusia, niega comportamientos suicidas, o suicidios en la familia, eventos cercanos al examen actual.
+2|metodo|
+2|gineco|menarca: 14 años, sexarca: 15 años, parejas sexuales: #3, menopausia 52 años, citologia: 2022, refiere normal, mamografia: 2022 refiere normal, niega antecedente de depresion post parto, planificacion menopausia
+2|gestan|5
+2|partos|0
+2|cesareas|2
+2|abortos|3
+2|vivos|2
+2|mortinatos|3
+2|feulme|

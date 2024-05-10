@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|Negativo
+2|neofarmacos|LEVOTIROXINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO, GASTRITIS, COLON IRRITABLE
+2|gineco|menarca: 11 años sexarca; 24 años, parejas sexuales #2, menopausia: 48 años citologia dic 2019, negativa para malignidad, mamografia, dic 2019, bi rads 0, eco mamaria feb 2020, bi rads 2, , 
+2|gestan|3
+2|partos|2
+2|cesareas|0
+2|abortos|1
+2|vivos|2
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,11 @@
+2|person|Patologicos: Infarto renal documentado en marzo de 2023.  Farmacologicos: niega. Quriurgicos: cesarea, pomeroy , mangito rotador derecho. Alergicos: tramadol. Toxicos: niega.   
+2|familia|HTA , DM, enfermedad coronaria  documentada a los 68 años,  Cancer de colon a los 50 años  en madre.   Cancr de seno en tia.  
+2|metodo|
+2|gineco|MENARCA: 11 AÑOS - CITOLOGIA: HACE MAS DE UN AÑO ((SE ENTREGA ORDEN)).  ya tomada no hay reporte FUM 6/02/19 planificaicon pomeroy
+2|gestan|3
+2|partos|2
+2|cesareas|1
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

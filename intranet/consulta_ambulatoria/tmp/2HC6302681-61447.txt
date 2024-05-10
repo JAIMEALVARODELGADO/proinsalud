@@ -1,0 +1,11 @@
+2|person|patologicos: negativos, quirurgicos: negativos, traumaticos: negativos, toxicos: negativos, niega exposicion a toxico, niega consumo de spa, alergicos: negativos,farmacologicos: negativos, ocupacion estudiante de ing electrica, estado civil soltero, junio 12 2021, habitos nutricionales saludables, actividad fisica moderada, patron de sueño regular, Niega fobias, sociales o personales, no perdidas familiares actuales, Niega ser victima de violencia, fisica, sexual, emocional, psicologica, de genero, niega ser desplazado por la violencia o conflicto armado, no pertenece a etnias o grupos poblacionales especiales inmunizacion para sars cov - 2 no refiere escolaridad estudiante de biologia
+2|familia|abuela paterna hipotiroidismo, bisabuelo paterno cancer en garganta, niega antecedentes familiares,  de trastornos mentales, en lo interrogado niega consumo de spa, en familiares cercanos, niega antecedentes familiares de ceguera o hipoacusia, niega comportamientos suicidas, o suicidios en la familia, eventos cercanos al examen actual 
+2|metodo|BARRERA . SE REMITE A PYM PROGRAMA JUVENTUD
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

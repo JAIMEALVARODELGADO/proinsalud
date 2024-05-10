@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|LEGRADO
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARCA:  16 AÑOS   SEXARCA:  18 AÑOS,  ULTIMA CITOLOGIA:  HACE 1 AÑO, NORMAL PARTICULAR,  FUM: 19/02/2023 CICLOS MENSTRUALES REGULARES DURAN 8 DIAS.  EXAMEN MEDICO SENO:  NUNCA SE HA REALIZADO  AUTO EXAMEN DE SENO:  HACE 8 DIAS CON SENSACIÓN DE MASA EN SENO DERECHO ALGO DOLOROSA. 
+2|gestan|1
+2|partos|0
+2|cesareas|0
+2|abortos|1
+2|vivos|0
+2|mortinatos|0
+2|feulme|2024-02-06

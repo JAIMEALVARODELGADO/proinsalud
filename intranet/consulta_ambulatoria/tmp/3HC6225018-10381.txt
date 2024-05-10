@@ -1,0 +1,16 @@
+3|fin|
+3|tenar1|
+3|tenar2|
+3|freres|
+3|fc|
+3|tempe|
+3|peso|
+3|talla|
+3|imc|
+3|cintura|
+3|cadera|
+3|icc|
+3|dimc|
+3|pc|
+3|otros|sv estables cp normal abdomen normal  gu normal no masas. 
+3|saox_tri|

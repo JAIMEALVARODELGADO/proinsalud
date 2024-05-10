@@ -1,0 +1,22 @@
+4|conti|1301
+4|causa|1213
+4|final|10
+4|sintorespi|N
+4|sintopiel|N
+4|causatrab|
+4|tipodiag|3
+4|patolocronicas|S
+4|map|HIPERCOLESTEROLEMIA PURA
+4|cod|E780
+4|obse|
+4|map1|ESTADO MIGRANOSO
+4|cod1|G432
+4|obse1|
+4|map2|ENFERMEDAD TOXICA DEL HIGADO CON COLESTASIS
+4|cod2|K710
+4|obse2|
+4|map3|
+4|cod3|
+4|obse3|
+4|analpv|Paciente con hiperclolesterolemia, se sigue con dieta y tto x 3 meses
+4|vicviolencia|NO

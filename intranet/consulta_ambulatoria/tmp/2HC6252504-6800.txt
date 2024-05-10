@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|VARICOSAFENECTOMIA MII BILATERAL, POMEROY  CESAREA 3
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA: 15 AÑOS, FECHA DE ULTIMA CITOLOGIA: EN EL 2019  REFIERE RESULTADO NORMAL. MENOPAUSIA: A LOS 51 AÑOS. MAMOGRAFIAS: NO SE HA REALIZADO. ÆÆÆÆÆÆ
+2|gestan|3
+2|partos|0
+2|cesareas|3
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

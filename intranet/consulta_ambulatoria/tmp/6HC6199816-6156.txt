@@ -1,0 +1,28 @@
+6|clasemedi|1
+6|codmedi|483150
+6|desmedi|PREGABALINA 75 mg CAPSULA
+6|dosis|1
+6|unid|UND
+6|frecu|12
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|60
+6|obsemed|TOMAR  1  TABL�ETA VIA  ORAL CADA  12  HORAS  POR  2  MESES. 
+6|canti|120
+6|diagmedi|M792
+6|justifi|N
+6|pos|S
+6|clasemedi|1
+6|codmedi|485668
+6|desmedi|VITAMINA E 400 UI CAPSULA
+6|dosis|1
+6|unid|UND
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|60
+6|obsemed|TOMAR  1  TABLETA VIA ORAL CADA DIA POR  2  MESES. 
+6|canti|60
+6|diagmedi|M792
+6|justifi|N
+6|pos|N

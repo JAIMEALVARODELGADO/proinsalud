@@ -1,0 +1,24 @@
+5|claseorden|1
+5|codorden|902210
+5|desorden|902210 - HEMOGRAMA IV (HEMOGLOBINA HEMATOCRITO RECUENTO DE ERITROCITOS INDICES ERITROCITARIOS LEUCOGRAMA RECUENTO DE PLAQUETAS INDICES PLAQUETARIOS Y MORFOLOGIA ELECTRONICA E HISTOGRAMA) AUTOMATIZADO () 
+5|nivel|CITAS
+5|obseorden|kjnksndkjfnalnsdlkfnas
+5|diagorden|j342
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|873204
+5|desorden|873204 - RADIOGRAFIA DE HOMBRO () 
+5|nivel|CITAS
+5|obseorden|dsfsdfs
+5|diagorden|j342
+5|cantorden|1
+5|cama|
+5|claseorden|4
+5|codorden|0664
+5|desorden|
+5|nivel|
+5|obseorden|1 mes con resultods de laboratorio
+5|diagorden|j342
+5|cantorden|1
+5|cama|

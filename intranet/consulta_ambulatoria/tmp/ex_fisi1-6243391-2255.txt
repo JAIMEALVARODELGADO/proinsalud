@@ -1,0 +1,31 @@
+6|peso_exf|54
+6|talla_exf|146
+6|imc_exf|25.333
+6|dimc_exf|Sobre Peso
+6|tempera_exf|36.5
+6|saturo2_exf|91
+6|presions_exf|120
+6|presiond_exf|70
+6|frecard_exf|71
+6|freresp_exf|14
+6|estado_exf|NORMAL 
+6|snc_exf|GLASGOW 15/15
+6|dentsuperior_exf|S
+6|dentinferior_exf|
+6|dentfija_exf|
+6|dentmovil_exf|S
+6|dentparcial_exf|S
+6|denttotal_exf|
+6|apertur_exf|4
+6|estadodien_exf|PROTESIS SUP. PARCIAL MOVIL 
+6|imallam_exf|2
+6|dmentoh_exf|6
+6|movilid_exf|N
+6|anormali_exf|Normal
+6|torax_exf|Normal
+6|pulmones_exf|Normal
+6|corazon_exf|Normal
+6|abdomen_exf|Normal
+6|genitouri_exf|Normal
+6|extremi_exf|Normal
+6|otros_exf|Ninguno

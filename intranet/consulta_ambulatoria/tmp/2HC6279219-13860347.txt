@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|POMEROY, RESECCION DE LIPOMA REGION DORSAL 
+2|neofarmacos|Negativo
+2|nuetoxico|DIPIRONA 
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|G3P3A0 FUR: NOV 2023 MENARCA: 13 AÑOS CITOLOGIA : SEP/2023 CON TIPIFICACION DE VPH NEGATIVA 
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

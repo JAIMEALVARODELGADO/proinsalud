@@ -1,0 +1,11 @@
+2|person|PRSONALES  MIOPIA HIPOTIROIDISMO SIN SIN TRATATAMIENTO  artrosis de rodilla DERECHA ,GASTRTIIS , alérgico niega quirúrgicos septorinoplastia. FARMACOLOGICOS OMEPRAZOL 
+2|familia|NIEGA
+2|metodo|
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

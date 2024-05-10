@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA EXTRSISTOLES VENRICULARES OCASIONALES
+2|nuepulmonar|Negativo
+2|nuequirurgicos|PTERIGION POMEROY SIN COMPLICAICONES
+2|neofarmacos|IRBERSARTAN REFLUFIN 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|OSTEOPENIA
+2|gineco|menarca: 12 años, sexarca: 25 años, parejas sexuales #1, menopausia: 45 años, no se realizan pruebas de tamizaje por edad,
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,16 @@
+3|fin|
+3|tenar1|140
+3|tenar2|90
+3|freres|18
+3|fc|76
+3|tempe|37
+3|peso|65
+3|talla|153
+3|imc|27.767
+3|cintura|91
+3|cadera|107
+3|icc|0,850
+3|dimc|Sobre Peso
+3|pc|
+3|otros|LIGERA congestion nasal, escurrimiento posterior escaso, murmullo vesicular normal sin sobreagregados, hiperemia de conjuntivas, leve dolor en epigastrio
+3|saox_tri|

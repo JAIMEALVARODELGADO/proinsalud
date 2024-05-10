@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HISTERECTOMIA ABDOMINAL TOTAL, MAMOPLASTIA DE REDUCCION, RESECCION DE QUISTE DE CUERDAS  BUCALES 
+2|neofarmacos|ATORVASTATINA 20 MG CADA DIA, OMEPRAZOL 20 MG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|DISLIPIDEMIA 
+2|gineco|MENARQUIA 14 AÑOS, ÚLTIMA CITOLOGÍA HACE 8 MESES, NEGATIVA PARA MALIGNIDAD. HISTERECTOMÍA HACE 5 AÑOS.
+2|gestan|3
+2|partos|2
+2|cesareas|0
+2|abortos|1
+2|vivos|2
+2|mortinatos|0
+2|feulme|

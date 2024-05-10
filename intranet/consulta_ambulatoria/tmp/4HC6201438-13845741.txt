@@ -1,0 +1,22 @@
+4|conti|1301
+4|causa|1213
+4|final|10
+4|sintorespi|N
+4|sintopiel|S
+4|causatrab|
+4|tipodiag|1
+4|patolocronicas|S
+4|map|URTICARIA ALERGICA
+4|cod|L500
+4|obse|
+4|map1|ENFERMEDAD TOXICA DEL HIGADO CON COLESTASIS
+4|cod1|K710
+4|obse1|
+4|map2|SINDROME SECO [SJOGREN]
+4|cod2|M350
+4|obse2|
+4|map3|
+4|cod3|
+4|obse3|
+4|analpv|Antecedente de urticaria anterior por colestasis hepatica, por lo cual se solicitan paraclinicos de funcion hepatica
+4|vicviolencia|NO

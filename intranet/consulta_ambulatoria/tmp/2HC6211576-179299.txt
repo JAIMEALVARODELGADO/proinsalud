@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA 
+2|nuepulmonar|EPOC 
+2|nuequirurgicos|HISTERECTOMIA ABDOMINAL TOTAL 
+2|neofarmacos|APIXABAN 2.5 MG CADA DIA, LOSARTAN 50 MG CADA 12 HORAS,  ATORVASTINA 20 MG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|G5P5  
+2|gestan|5
+2|partos|5
+2|cesareas|0
+2|abortos|0
+2|vivos|5
+2|mortinatos|0
+2|feulme|

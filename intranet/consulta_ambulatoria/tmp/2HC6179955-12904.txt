@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|ASMA HACE 6 AÑOS ULTIMA CRISIS
+2|nuequirurgicos|POLIPECTOMIA NASAL
+2|neofarmacos|Negativo
+2|nuetoxico|ASA
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RESECCION MENINGIOMA
+2|neofarmacos|AZATIOPRINA, DEFALZACORT, ENALAPRIL
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|CEFALEA TENSIONAL MAS MIGRAÑA, 
+2|gineco|menarca: 11 años, sexarca: 24 años, parejas sexuales #3, menopausia 46 años, citologia, nov 2023, NEGATIVA PARA MALIGNIDAD, flora sugestiva de vaginosis bacteriana, mamografia marzo 2020, bi rads 1
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

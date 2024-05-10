@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|AMIGDALECTOMIA, POMEROY, REPARACION TENDON AQUILES, COLPORRAFIA ANTERIOR Y POSTERIOR 
+2|neofarmacos|LOSARTAN 50 MG CADA DIA , HCTZ 25 MG CAD DIA , TRAZODONA OCASIONAL
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|ANSIEDAD
+2|gineco|MENARQUIA, A LOS  12 AÑOS, FUM: 48 AÑOS, FECHA ULTIMA CITOLOGIA 15/06/2022 NORMAL, ORDEN YA SOLICITADA , MAMOGRAFIA HACE 2 MESES NORMAL NO TRAE REPORTE
+2|gestan|4
+2|partos|3
+2|cesareas|0
+2|abortos|1
+2|vivos|3
+2|mortinatos|0
+2|feulme|

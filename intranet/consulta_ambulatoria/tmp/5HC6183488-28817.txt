@@ -1,0 +1,48 @@
+5|claseorden|1
+5|codorden|512104
+5|desorden|512104 - COLECISTECTOMIA VIA LAPAROSCOPICA (S) 
+5|nivel|REFERENCIA
+5|obseorden|
+5|diagorden|K802
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|902210
+5|desorden|902210 - HEMOGRAMA IV (HEMOGLOBINA HEMATOCRITO RECUENTO DE ERITROCITOS INDICES ERITROCITARIOS LEUCOGRAMA RECUENTO DE PLAQUETAS INDICES PLAQUETARIOS Y MORFOLOGIA ELECTRONICA E HISTOGRAMA) AUTOMATIZADO () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|K802
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|902049
+5|desorden|902049 - TIEMPO DE TROMBOPLASTINA PARCIAL [TTP] () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|K802
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|902045
+5|desorden|902045 - TIEMPO DE PROTROMBINA [TP] () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|K802
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|895100
+5|desorden|895100 - ELECTROCARDIOGRAMA DE RITMO O DE SUPERFICIE SOD () 
+5|nivel|REFERENCIA
+5|obseorden|
+5|diagorden|K802
+5|cantorden|1
+5|cama|
+5|claseorden|2
+5|codorden|0660
+5|desorden|
+5|nivel|
+5|obseorden|
+5|diagorden|0647
+5|cantorden|
+5|cama|

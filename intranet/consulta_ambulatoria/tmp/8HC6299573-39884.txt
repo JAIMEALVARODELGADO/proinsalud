@@ -1,0 +1,14 @@
+8|tiproxi|
+8|proxima|
+8|recom|estilo de vida saludable.
+adherencia a tratamientos.
+dieta baja en sal, grasas, harinas.
+hacer ejercicio mínimo 30 minutos diarios.
+consumir agua hervida.
+lavado de manos antes de comer, después de salir del baño
+acudir a servicio de urgencias si presente cefalea intensa, vómitos, diarreas, fiebre.
+
+8|incapacidad|
+8|incadias|
+8|incaini|
+8|recom|estilo de vida saludable.Æadherencia a tratamientos.Ædieta baja en sal, grasas, harinas.Æhacer ejercicio mínimo 30 minutos diarios.Æconsumir agua hervida.Ælavado de manos antes de comer, después de salir del bañoÆacudir a servicio de urgencias si presente cefalea intensa, vómitos, diarreas, fiebre.Æ

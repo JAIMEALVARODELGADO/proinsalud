@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CIRUGIA DE COLUMNA LUMBAR, HERNIORRAFIA UMBILICAL, COLECISTECTOMIA
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|GASTRITIS, DISLIPIDEMIA
+2|gineco|MENARCA: 12 AÑOS   SEXARCA: 24 AÑOS MENOPAUSIA: 46 AÑOS, ULTIMA CITOLOGIA: 22/09/2023: ADN PARA VPH: NO SE DETECTA NINGUN GENOTIPO  MAMOGRAFIA: 22/09/2023: BIRADS 1.
+2|gestan|2
+2|partos|1
+2|cesareas|1
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

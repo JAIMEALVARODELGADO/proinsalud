@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A702
+1|direccion|CLL 17 No 34 - 28 B/MARIDIAZ APTO 301
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|\\\"Teng estreñimiento hace muco tiempo\\\"
+1|enfeac|Painte de 67 años con cuadro de estreñimiento cronico, refiere adherencia a dieta y a consumo de fibra  apear de lo cual no logra controlarlo, refiere adherenci a consumo de fruta, sin mejoria del cuadro 
+1|revisi|Niega 
+1|informe|02.04.24  Microalbuminuria negativa, HbA1c: 6.6%, HDL: 49, LDL: 104, CT: 188, Glucosa pre: 108, Glucosa post prandial: 120, Trigliceridos: 172, creatinina. 0.7. 
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

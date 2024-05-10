@@ -1,0 +1,11 @@
+2|person|patologicos: cancer de cuello uterino, quirurgicos. HIDRONEFROSIS SECINDACIA,  MASA EN VEGIGA. ERC,  cesarea #1, traumaticos. negativos, toxicos: fue bebedora social, niega exposicion a humo de leña, niega consumo de spa, niega exposicion a toxicos, alergicos, negativos, farmacologicos: braquiterapia, (4 sesiones - nov 2009) radioterapia (30 sesiones nov 2009) quimioterapia (3 sesiones nov 2009), hematura,hidronefrosis  
+2|familia|MADRE cancer de cuello uterino,  HERMANA Diabetes mellitus, sobrina anemia de celulas falciformes, hipertension arterial, sobrino, tuberculosis (detectada mayo 2019) paciente convive con sobrino, niega antecedentes familiares,  de trastornos mentales, en lo interrogado niega consumo de spa, en familiares cercanos, niega comportamientos suicidas, o suicidos en la familia, eventos cercanos al examen actual 
+2|metodo|
+2|gineco|menarca: 13 años, sexarca: 17 años, menopausia 2009, citologia: mayo 2019, atrofia negativa para maligidad, planificaicon menopausia
+2|gestan|3
+2|partos|2
+2|cesareas|1
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

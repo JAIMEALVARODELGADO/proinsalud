@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|VARICOCASAFENETOMIA  DERECHA, COLELAP, CORRECCION DE PTERIGION CONJUNTIVAL IZQUIERDO, POMEROY 
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|POMEROY, CITOLOGIA: 20/05/2021 NEGATIVO PARA MALIGNIDAD, CITOLOGIA ADN VPH: 26/09/2022 NEGATIVO.  MAMOGRAFIA 10/10/2023 BIRADS 1. FUR A LOS 50 AÑOS
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

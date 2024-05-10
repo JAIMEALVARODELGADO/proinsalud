@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|TIROIDECTOMIA , MASTECTOMIA DE REDUCCION, LIPECTOMIA, COLECISTECTOMIA, HEMORROIDECTOMIA, POMEROY
+2|neofarmacos|LEVOTIROXINA, CALCIO, CALCITRIOL, ORLITAD
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|TUMOR MALIGNO DE TIROIDES, 
+2|gineco|G2C2V2,  CITOLOGIA   ENERO  2021  RESULTADO  VAGINOSIS BACTERIANA CON TRATAMIENTO , 
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RTC BILATERAL, POMEROY, COLECISTECTOMIA ABIERTA 
+2|neofarmacos|ENALAPRIL 5 MG CADA DIA
+2|nuetoxico|RANITIDINA 
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA: 15 AÑOS.     citologia 04/03/2021 NEGATIVA PARA MALIGNIDAD, VAGINOSIS BACTERIANA,      02/06/2022 MAMOGRAFIA NEGATIVA PARA PROCESOS EVOLUTIVO MALIGNO BIRADS 1
+2|gestan|8
+2|partos|8
+2|cesareas|0
+2|abortos|0
+2|vivos|7
+2|mortinatos|1
+2|feulme|

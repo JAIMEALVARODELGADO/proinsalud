@@ -1,0 +1,88 @@
+5|claseorden|1
+5|codorden|902210
+5|desorden|902210 - HEMOGRAMA IV (HEMOGLOBINA HEMATOCRITO RECUENTO DE ERITROCITOS INDICES ERITROCITARIOS LEUCOGRAMA RECUENTO DE PLAQUETAS INDICES PLAQUETARIOS Y MORFOLOGIA ELECTRONICA E HISTOGRAMA) AUTOMATIZADO () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|R104
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|906913
+5|desorden|906913 - PROTEINA C REACTIVA ALTA PRECISION AUTOMATIZADO () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|R104
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|906841
+5|desorden|906841 - PROCALCITONINA SEMIAUTOMATIZADO O AUTOMATIZADO () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|R104
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903605
+5|desorden|903605 - IONOGRAMA [CLORO SODIO POTASIO Y BICARBONATO O CALCIO] (S) 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|R104
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|907106
+5|desorden|907106 - UROANALISIS () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|R104
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903867
+5|desorden|903867 - TRANSAMINASA GLUTAMICO OXALACETICA [ASPARTATO AMINO TRANSFERASA] () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|R104
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903866
+5|desorden|903866 - TRANSAMINASA GLUTAMICO-PIRUVICA [ALANINO AMINO TRANSFERASA] () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|R104
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903809
+5|desorden|903809 - BILIRRUBINAS TOTAL Y DIRECTA () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|R104
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903833
+5|desorden|903833 - FOSFATASA ALCALINA () 
+5|nivel|REFERENCIA
+5|obseorden|
+5|diagorden|R104
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903805
+5|desorden|903805 - AMILASA EN SUERO U OTROS FLUIDOS () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|R104
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|872002
+5|desorden|872002 - RADIOGRAFIA DE ABDOMEN SIMPLE () 
+5|nivel|CITAS
+5|obseorden|BIDEPESTACION
+5|diagorden|R104
+5|cantorden|1
+5|cama|

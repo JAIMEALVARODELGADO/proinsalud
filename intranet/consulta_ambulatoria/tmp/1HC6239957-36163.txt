@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|2320
+1|escolaridad|7609
+1|estadocivil|A702
+1|direccion|UNION VICTORIA
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|TENGO TOS Y MALESTAR DEL CUERPO
+1|enfeac|PACIENTE FEMENINO DE 48 AÑOS ACUDE POR CUADRO DE APROXIMADAMENTE 24 HORAS CONSISTENTE EN TOS CON FLEMA Y MALESTAR GENERAL, NIEGA FIEBRE U OTRO SINTOMA ACOMPAÑANTE, AL MOMENTO PACIENTE AFEBRIL, ESTABLE.
+1|revisi|TOS, SIN OTRAS ALTERACIONESÆ
+1|informe|
+1|grupo_poblacional|F102
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

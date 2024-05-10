@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLECISTECTOIMA
+2|neofarmacos|LEVOTIROXINA, METFORMINA, 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO, DM TIPO 2
+2|gineco|MENARCA: 12 AÑOS CITOLOGIA A LOS 61 NEGATIVA SEGUN REFIERE LA APCIENTE 
+2|gestan|7
+2|partos|5
+2|cesareas|0
+2|abortos|2
+2|vivos|5
+2|mortinatos|0
+2|feulme|

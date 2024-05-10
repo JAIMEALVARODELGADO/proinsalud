@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HISTERECTOMIA, COLECISTECTOMIA, TENORRAFIA 54TO DEDO MANO IZQQUIERDA
+2|neofarmacos|LEVOTIROXINA, LOSARTAN
+2|nuetoxico|METOCLOPRAMIDA
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO
+2|gineco|menarquia: 14 años   menopausia: 46 años  citología: 2017  sin alteacion - MAMOGRAFIA: 2022 REFIERE CON REPORTE NORMAL NORMAL.G3P3C0A0 FUM: 21 años. PACIENTE YA NO TIENE RANGO DE EDAD PARA CONTINUAR TAMIZAJE CA DE CUELLO UTERINO
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

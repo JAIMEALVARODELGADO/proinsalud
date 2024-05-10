@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|LITOTRIPSIA RENAL 6, COLECISTECTOMIA, POMEROY, SAFENOVARICECTOMIA, TIROIDECTOMIA, CESEREA, 
+2|neofarmacos|ORLISTAT, LOSARTAN
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|OBESIDAD,
+2|gineco|POMEROY,  MENARQUIA: 13 AÑOS, CITOLOGIA  07/02/2022 NEGATIVO PARA MALIGNIDAD, MAMOGRAFIA  10/12/2021 BIRADS 0.  31/03/2023 CITOLOGIA VPH NO DETECTADO PARA TODOS LOS GENOTIPOS.
+2|gestan|2
+2|partos|1
+2|cesareas|1
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

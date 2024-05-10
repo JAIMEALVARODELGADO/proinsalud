@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA UCQN  hemorragia subaracgnoidea embolizacion mas angioplastia con balon de aneurisma de ACI segmento comunicante izquierdo roto de cuello ancho, se reliza segundo tiempo (28 MAYO .23) embolizacion aneurima cerebral ACI izquierdo roto , oclusion de lesion de vasos intragraeos, angiopasi de vasos intracrnaeales con stent , 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|angioplastia con balon de aneurisma de ACI segmento comunicante izquierdo roto de cuello ancho, se reliza segundo tiempo embolizacion aneurima cerebral ACI izquierdo roto , oclusion de lesion de vasos intragraeos, angiopasi de vasos intracrnaeales con stent, CONIZACION CERVIX
+2|neofarmacos|LOSARTAN 50 x 2, INSULINA GLARGINA, VIDAGLIPTINA METFORMNIA, LEVOTIROXINA, ASA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|DM TIPO 2, HIPOTIROIDISMO, 
+2|gineco|g6a3p3v3 , MENARQUIA 14 AÑOS, SEXARQUIA 18 AÑO, ULTIMA CITOLOGIA 26/09/23 ANORMALIDAD DE CELULAS EPITELIALES , LESION ESCAMOSA INTRAEPITELIAL, VPH: POSITIVO 51, 56, 59, 66,  ULTIMA MAMOGRAFIA 26/09/23 BI-RADS 2, ECOGRAFIA MAMARIA 01/11/23 BI-RADS 1
+2|gestan|6
+2|partos|3
+2|cesareas|0
+2|abortos|3
+2|vivos|3
+2|mortinatos|0
+2|feulme|

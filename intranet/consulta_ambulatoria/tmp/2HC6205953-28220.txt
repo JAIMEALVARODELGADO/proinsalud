@@ -1,0 +1,11 @@
+2|person|NO REFIERE
+2|familia|ASma en madre 
+2|metodo|
+2|gineco|menarca  12 AÑOS  FUM: 02/07/2023 CICLOS IRREGULARES QUE DURAN 5 DIAS,  CITOLOGIA: NO SE HA REALIZADO A PESAR DE HABERLE DADO VARIAS ORDENES - REFIERE QUE NO DESEA REALIZARLA
+2|gestan|0
+2|partos|0
+2|cesareas|0
+2|abortos|0
+2|vivos|0
+2|mortinatos|0
+2|feulme|

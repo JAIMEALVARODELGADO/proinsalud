@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA 2, POMEROY 
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARCA. 13 AÑOS  CITLOGIA. FEBRERO/2020 NEGATIVA PARA MALIGNIDAD CON VAGINOSIS BACTERIANA. 3-9-2021. 
+2|gestan|03
+2|partos|0
+2|cesareas|02
+2|abortos|01
+2|vivos|02
+2|mortinatos|0
+2|feulme|

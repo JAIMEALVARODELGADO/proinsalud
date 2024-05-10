@@ -1,0 +1,11 @@
+2|person|Patologicos: Secuelas de trauma craneoencefalico,Hemianopsia homonima izquierda, Estenosis de canal cervical , ARTROSIS DE COLUMNA L5-S1, artrosis manos/pies //  Farmacologicos:Tegretol, Losartan 50mg, HIDROCODONA + ACETAMINOFEN Pregabalina.TOXICOLÓGICOS: NO, COVID 9 VACUNACION 3 DOSIS. PSA 0.49 NG/ML AGOSTO DE 2022 NORMAL. 
+2|familia|HIPERTENSIÓN ARTERIAL: PADRE. NIEGA ANTECEDENTES FAMILIARES DE TRASTORNOS MENTALES, CONSUMO DE SPA, ANSIEDAD, DEPRESION. CONDUCTA SUICIDA. *** PACIENTE FUE VALORADO EN PROGRAMA DE P. Y M. POR VEJEZ EN NOV/22 (66 AÑOS) ***
+2|metodo|
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

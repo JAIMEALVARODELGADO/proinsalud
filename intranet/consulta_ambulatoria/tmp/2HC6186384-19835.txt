@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLECISTECTOMIA
+2|neofarmacos|LEVOTIROXINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO
+2|gineco|menoapausia, CITOLOGIA HACE UN AÑOS NORMALE SEGUN REFIERE - maomgrafia 03/08/17 birads 0 se recomienda ultrasonido 29/07/2017  QUISTE SIMPLE MAMA IZQUIERDA EN COORDENADAS 3.5 DE ASPECTO BENIGNO. CLASIFICACIÓN: BI-RADS Categoría 2 por ultrasonografía. citologia 07/11/2019 NORMAL. MAMOGRAFIA 12/11/2019 CATEGORIA BI RADS 2 HALLAZGOS BENIGNOS. PACIENTE HACE PARTE DEL PROGRAMA DE CRONICOS
+2|gestan|.4
+2|partos|.4
+2|cesareas|0
+2|abortos|0
+2|vivos|.4
+2|mortinatos|0
+2|feulme|

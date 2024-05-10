@@ -1,0 +1,15 @@
+2|nuecardiovasculares|FA PORTADORA DE MARCAPASOS PORBLOQUE AV DE 3ER GRADO
+2|nuepulmonar|Negativo
+2|nuequirurgicos|OSTESINTESIS DE RADIO SIN COMPLICACIONES
+2|neofarmacos|APIXABAN CARVEDILOL LOSARTAN LEVOTIROXINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|menarca: 13 años, sexarca 32 años, parejas sexuales #1, menopausia: 55 años,  
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

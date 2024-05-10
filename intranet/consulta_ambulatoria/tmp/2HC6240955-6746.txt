@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|OSTEOSINTESIS DE TOBILLO IZQUIERDO
+2|neofarmacos|Negativo
+2|nuetoxico|PIÑA
+2|neotransfin|Negativo
+2|neootros|ARTROSIS
+2|gineco|MENARQUIA: 15 AÑOS, FECHA DE ULTIMA CITOLOGIA VAGINAL: EN EL 2020 REFIRE RESULTADO NORMAL,    menopasia a los 50 años. MAMOGRAFIA: EN ENERO DEL 2023 NEGATIVA. 
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

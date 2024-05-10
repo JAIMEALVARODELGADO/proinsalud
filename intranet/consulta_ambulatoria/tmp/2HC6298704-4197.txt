@@ -1,0 +1,11 @@
+2|person|QUIRURGICOS:CIRCUNCISION//PATOLOGICOS: OSTEOARTROSIS GENERALIZADA//CEFALEA VASCULAR//TRAUMATICOS:ESGUINCE DE DEDO INDICE MANO DERECHA/ESGUINCE DE RODILLA DERECHA//ALERGICOS:NINGUNO//no se ha podido realizar instrumentos de medicina familiar pues el paciente esta privado de la libertad fuera del domicilio(enero 20 de 2016), DICLOFENAC MAS TRAMADOL----02-09-2022 ATENCION RIAS AL DIA ----
+2|familia|PADRE:CARDIOPATIA HIPERTENSIVA
+2|metodo|NINGUNO 
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

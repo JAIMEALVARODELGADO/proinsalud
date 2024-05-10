@@ -1,0 +1,8 @@
+5|claseorden|1
+5|codorden|895100
+5|desorden|895100 - ELECTROCARDIOGRAMA DE RITMO O DE SUPERFICIE SOD () 
+5|nivel|REFERENCIA
+5|obseorden|
+5|diagorden|I10X
+5|cantorden|1
+5|cama|

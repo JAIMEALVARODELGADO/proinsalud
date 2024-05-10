@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLECISTECTOMIA, HISTERECTOMIA, RESECCION NODULO MAMARIO
+2|neofarmacos|Negativo
+2|nuetoxico|DIPIRONA, METOCLOPRAMIDA, TRAMADOL 
+2|neotransfin|Negativo
+2|neootros|MIALGIAS
+2|gineco|MENARCA: 13 AÑOS, MENOP: 40 AÑOS, CITOLOGIA : OCTUBRE/2020 NEGATIVA PARA MALIGNIDAD -  MAMOGRAFIA 29/03/2019 CATEGORIA BI RADS 2 . 11-11-2020 ACUDE A PYM PROGRAMA VEJEZ. PACIENTE HACE PARTE DE CRONICOS
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

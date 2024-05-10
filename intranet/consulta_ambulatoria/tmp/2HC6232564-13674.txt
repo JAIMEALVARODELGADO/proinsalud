@@ -1,0 +1,11 @@
+2|person|Patologicos: DM tipo 2, hipotiroidismo, HTA dislidiemia, osteoporis. Farmacologicos: insulina vildagliptina 50/850  mg cada 12 horas, losartan 50 mg cda dia, empaglifozina 10 mg cada dia, levotiroxina 125 mcg cada dia, atorvastatina 20 mg cada dia.  Quirurgicos: Bypas gastrico (2014) , cesarea, colecistectomia. No cirugias oculares.
+2|familia|DM en padre y tios paternos. 
+2|metodo|
+2|gineco|CITOLOGIA: REFIERE EN ENERO DE 2020, NORMAL -- MAMOGRAFIA: 17/03/2020 HALLAZGOS BENIGNOS. CATEGORÍA 2 DE LA CLASIFICACIÓN BI-RADS. DENSITOMETRIA DEL DÍA 16 DE NOVIEMBRE DEL 2017 CON OSTEOPOROSIS YA  CUDI  PROGRAMJADE ADULTO MAYOR  31/01/2023 MAMOGRAFIA  CATEGORIA 2  DE LA CLASIFICACION BIRADS , HALLAZGOS BENIGNOS 
+2|gestan|3
+2|partos|2
+2|cesareas|1
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

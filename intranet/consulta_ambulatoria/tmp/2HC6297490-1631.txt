@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CIRUGIA A CORAZON ABIERTO HACE 20 AÑOS CORRECION COMUNICACION INTERAURICULAR COLCISTECTOMIA SIN COMPIICACIONES
+2|neofarmacos|ASA 100 MG CADA DIA ,  VALSARTAN  80 MG CADA  12 HORAS, HIDROCLOROTIAZIDA 25 MG CADA DIA, ATORVASTINA 20 MG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|menarca 15 años, sexarca: 22 años, menopausia: 45 años, CITOLOGIA ENERO 2020 NORMAL, atrofia e inflamacion negativo para malignidad, se entrega orden  mamografia NOVIEMBRE 2019 NORMAL BI-RADS 1 NORMAL  CITOLOGIA 26/04/21 NEGATIVA PARA MALIGNIDAD , MAMOGRAFÍA 12-12-2022: NEGATIVA PARA PROCESO EVOLUTIVO MALIGNO CATEGORÍA 1 DE LA CLASIFICACIÓN BI-RADS
+2|gestan|1
+2|partos|1
+2|cesareas|0
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

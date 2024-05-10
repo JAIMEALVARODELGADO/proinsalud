@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|POMEROY 
+2|neofarmacos|ROSUVASTATINA 40 MG CADA DIA 
+2|nuetoxico|TIAMINA 
+2|neotransfin|Negativo
+2|neootros|DISLIPIDEMIA 
+2|gineco|MENARCA: 15 AÑOS  CITOLOGIA: 2024 NEGATIVA SEGUN REFIERE LA PACIENTE 
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

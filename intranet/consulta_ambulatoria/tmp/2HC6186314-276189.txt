@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RESECCION DE NODULO MAMARIO
+2|neofarmacos|LOSARTAN
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|COLON IRRITABLE
+2|gineco|menarca: 15 años, sexarca: 19 años, parejas sexuales #2, citologia: >2 años, menopausia 40 años, MAMOGRAFIA 24-05-2021: MAMAS DENSAS, BI-RADS 0, SE RECOMIENDA ECOGRAFIA COMPLEMENTARIA. – ECOGRAFIA DE MAMA 12-07-2021: STUDIO DENTRO DE LÍMITES NORMALES, BI-RADS 1. CITOLOGIA 03-08-2021: NEGATIVA PARA MALIGNIDAD 
+2|gestan|3
+2|partos|2
+2|cesareas|0
+2|abortos|1
+2|vivos|2
+2|mortinatos|0
+2|feulme|

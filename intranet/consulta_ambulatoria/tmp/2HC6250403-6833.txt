@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|POMEROY 
+2|neofarmacos|ESCITALOPRAM 50 MG CADA DIA, ESZOPICLONA 3 MG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|TRANSTORNO DEPRESIVO 
+2|gineco|MENARCA. 13 AÑOS  SEXARCA: 18 AÑOS , ULTIMA CITOLOGIA: JULIO DEL 2022 ,NORMAL.  EXAMEN DE SENO MARZO DEL 2022, NORMAL  FUM: 31/12/2023 CICLOS IRREGULARES, SANGRADO NORMAL 
+2|gestan|5
+2|partos|3
+2|cesareas|0
+2|abortos|2
+2|vivos|3
+2|mortinatos|0
+2|feulme|

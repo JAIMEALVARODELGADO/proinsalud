@@ -1,0 +1,11 @@
+2|person|diabetes:NO;hta:NO;etir:NO;epilepsia:NO;asma:NO;patologicos:NO;quirurgicos:NO;tromboembolicos:NO;traumaticos:NO;toxicos:NO;habitos:LECTURA EJERCICIO ESTUDIO;otros:ADECUADO CONSUMO DE FUTAS Y EVRDURAS; ALERGICO: PENICILINA INYECTABLE *******  VACUNA COVID 19  3 DOSIS*** YA VLA PYM 11/2022***
+2|familia|Hta:NO;Diabetes:NO;Cardiopatias:NO;Infecciosas:NO;Congenitas:NO;Turbeculosis:NO;Transt:NO;Neoplasias:NO;otros:NIEG A;ÆÆPROMOCION Y MANTENIMIENTO DE SALUDÆCICLO DE VIDA ADOLESCENCIA 11/08/2021 PROXIMO CONTROL ALOS 17 AÑOS DE EDAD CON ENFERMERIA 10/11/2021Æ
+2|metodo|
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

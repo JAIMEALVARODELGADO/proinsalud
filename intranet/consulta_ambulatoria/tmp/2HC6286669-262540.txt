@@ -1,0 +1,11 @@
+2|person|Patológicos: epilepsia refractaria, dislipidemia, DM?, hiperuricemiaÆQuirúrgicos: hidrocele, colecistectomíaÆFarmacológicos: levetiracetam, lamotrigina, ácido valproico, clonazepam, gemfibrozilÆTóxicos: historia de consumo de alcohol y tabaco, niega en la actualidadÆAlérgicos: tramadol
+2|familia|Padre epilepsia y aneurisma cerebral, hermanos epilepsia.
+2|metodo|
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|DERMOLIPECTOMIA 
+2|neofarmacos|LOSARTAN 50 MG CADA DIA , ATORVASTATINA  40 MG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|COLON IRRITABLE
+2|gineco|MENARQUIA A LOS 12 AÑOS  -- MENOPAUSIA: 56 AÑOS  -- FECHA DE LA ULTIMA CITOLOGIA:HACE MAS DE 5 AÑOS, NORMAL (SE SOLICITA AHORA) -- FECHA DE LA ULTIMA MAMOGRAFIA: HACE MAS DE 5 AÑOS, NORMAL (SE ENVIA ORDEN)CITOLOGIA :  06/03/2023  GENOTIPO DETECTADO 16  Y 45 .  NEGATIVA PARA MALIGNIDAD . 
+2|gestan|4
+2|partos|2
+2|cesareas|0
+2|abortos|2
+2|vivos|2
+2|mortinatos|2
+2|feulme|

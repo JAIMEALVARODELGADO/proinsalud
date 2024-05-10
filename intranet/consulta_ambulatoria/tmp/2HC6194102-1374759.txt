@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA, IMA HACE 3 AÑOS, FALLA CARDIACA, ASINTOMATICO
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CATETERISMO CARDIACO CON 2 STENT, HERNIORRFIA INGUINAL DERECHA 2, LITOTRIPSIA RENAL
+2|neofarmacos|ATORVASTATINA, CARVEDILOL, HCTZ, ASA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

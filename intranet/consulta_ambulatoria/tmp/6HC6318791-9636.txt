@@ -1,0 +1,112 @@
+6|clasemedi|1
+6|codmedi|003502
+6|desmedi|BUPRENORFINA 35 UG/H PARCHE TRANSDERMICO
+6|dosis|1
+6|unid|APLICACION
+6|frecu|1
+6|unidfrecu|Dias
+6|via|2205
+6|tiempo|30
+6|obsemed|colocar 1 pasando un dia 
+6|canti|16
+6|diagmedi|r521
+6|justifi|N
+6|pos|N
+6|clasemedi|1
+6|codmedi|064603
+6|desmedi|CARBAMAZEPINA 400 mg TABLETA
+6|dosis|1
+6|unid|UND
+6|frecu|12
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|30
+6|obsemed|1 tableta cada 12 horas 
+6|canti|60
+6|diagmedi|g952
+6|justifi|N
+6|pos|N
+6|clasemedi|1
+6|codmedi|153181
+6|desmedi|FUROSEMIDA 40 mg TABLETA
+6|dosis|1
+6|unid|UND
+6|frecu|1
+6|unidfrecu|Dias
+6|via|2203
+6|tiempo|30
+6|obsemed|1 tableta dia 
+6|canti|30
+6|diagmedi|g952
+6|justifi|N
+6|pos|S
+6|clasemedi|1
+6|codmedi|216020
+6|desmedi|SALMETEROL 50mcg+FLUTICASONA 250mcg/dosis- *60 dosis SOLUCION PARA INHALACION
+6|dosis|1
+6|unid|PUFF
+6|frecu|12
+6|unidfrecu|Horas
+6|via|2210
+6|tiempo|30
+6|obsemed|1 puff cada 12 horas 
+6|canti|1
+6|diagmedi|z760
+6|justifi|N
+6|pos|N
+6|clasemedi|1
+6|codmedi|217021
+6|desmedi|LIDOCAINA 5% PARCHES
+6|dosis|1
+6|unid|UND
+6|frecu|1
+6|unidfrecu|Dias
+6|via|2205
+6|tiempo|30
+6|obsemed|aplicarse un parche cada dia 
+6|canti|30
+6|diagmedi|r521
+6|justifi|N
+6|pos|N
+6|clasemedi|1
+6|codmedi|483151
+6|desmedi|PREGABALINA 150 mg CAPSULA
+6|dosis|1
+6|unid|UND
+6|frecu|12
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|30
+6|obsemed|1 capsula cada 12 horas 
+6|canti|60
+6|diagmedi|g952
+6|justifi|N
+6|pos|N
+6|clasemedi|1
+6|codmedi|568006
+6|desmedi|ESOMEPRAZOL 40 mg TABLETA
+6|dosis|1
+6|unid|UND
+6|frecu|1
+6|unidfrecu|Dias
+6|via|2203
+6|tiempo|30
+6|obsemed|1 tableta dia 
+6|canti|30
+6|diagmedi|z760
+6|justifi|N
+6|pos|S
+6|clasemedi|1
+6|codmedi|582691
+6|desmedi|ACETAMINOFEN 325mg + CODEINA 8mg TABLETA
+6|dosis|1
+6|unid|UND
+6|frecu|12
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|30
+6|obsemed|1 tableta cada 12 horas 
+6|canti|60
+6|diagmedi|r521
+6|justifi|N
+6|pos|S

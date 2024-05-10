@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|ESFINTEROTOMIA PERIANAL, SAFENOVARICECTOMIA DERECHA, 
+2|neofarmacos|LEVOTIROXINA, LEFLUNOMIDA, DEFLAZACORT, METROTEXATE, 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO, ARTRITIS REUMATICA
+2|gineco|Menarca: 14 años, sexarca: 25 años, CITOLOGIA 03-2022: CELULAS ENDOCERVICALES AUSENTES, MAMOGRAFIA 09-11-2022: NODULO MAMARIO EN SENO IZQUIERDO, AMERITA ULTRASONIDO COMPLEMENTARIO, CATEGORÍA 0 DE LA CLASIFICACIÓN BI-RADS. 
+2|gestan|3
+2|partos|2
+2|cesareas|1
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

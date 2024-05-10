@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A701
+1|direccion|IPIALES
+1|tidoacu|CC
+1|nudoacu|1004549128
+1|pnomacu|DAYANA
+1|snomacu|
+1|papeacu|CABRERA
+1|sapeacu|
+1|parenacu|MADRE
+1|direacu|IPIALES
+1|teleacu|3183071352
+1|muniacu|52356
+1|nommuniacu|IPIALES (NARI&#65533;O)
+1|primera|1
+1|codciru|
+1|motivo|VALORACION PREANESTESICA PARA ADENOAMIGDALECTOMIA MAS TURBINOPLASTIA
+1|enfeac|HIPERTROFIA ADENOAMIGDALINA
+1|revisi|NIEGA
+1|informe|
+1|grupo_poblacional|F111
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

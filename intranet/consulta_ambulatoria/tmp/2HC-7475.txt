@@ -1,0 +1,11 @@
+2|person|HIPOTIROIDISMO, MIOPIA
+2|familia|NO REPORTA 
+2|metodo|
+2|gineco|G6P6V6, citologia vaginal 2015 normal
+2|gestan|6
+2|partos|6
+2|cesareas|0
+2|abortos|0
+2|vivos|6
+2|mortinatos|0
+2|feulme|

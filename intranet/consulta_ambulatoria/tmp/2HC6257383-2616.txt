@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLONOSCOPIA HEMORROIDECTROMIA SIN COMPLICACIONES ANESTESICAS
+2|neofarmacos|LEVOTIROXINA ATORVASTATINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDIMO
+2|gineco|MENARQUIA: 14 AÑOS, SEXARCA: 30 AÑOS, NUMERO DE COMPAÑEROS SEXUALES: 1, NIEGA ENFERMEDADES DE TRANSMISIÓN SEXUAL, MENOPAUSIA: 48 AÑOS, 
+2|gestan|03
+2|partos|02
+2|cesareas|0
+2|abortos|01
+2|vivos|02
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HISTERECTOMIA, COLPORRAFIA ANTERIOR Y POSTERIOR 
+2|neofarmacos|LOSARTAN 50 MG CADA 12 HORAS, AMLODIPINO 10 MG CADA DIA, HIDROCLOROTIAZIDA 25 MG CADA DIA . LEVOTIROXINA 50 MCG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO
+2|gineco|citología vaginal MAS  DE 1 AÑo citologia vaginal del  21 de junio del 2017 negativa para lesion intraepitelial o  maligna atrofia  MAMOGRAFIA DEL 1/07/2017 BIRADA 1 NORMAL  MAMOGRAFIA   DEL 2 DE MARZO DEL 2019 BIRADS 2 NORMAL 
+2|gestan|4
+2|partos|3
+2|cesareas|0
+2|abortos|1
+2|vivos|3
+2|mortinatos|0
+2|feulme|

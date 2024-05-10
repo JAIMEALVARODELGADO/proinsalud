@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA, CARDIOMEGALIA
+2|nuepulmonar|EPOC
+2|nuequirurgicos|COLECISTECTOMIA, EVENTRORRAFIA
+2|neofarmacos|LOSARTAN
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA 15 AÑOS.  30/11/2023 CITOLOGIA  Y MAMOGRAFIA   ULTIMA A LA  EDAD DE 69 AÑOS NORMAL. NO INFECCIÓN DE TRASMISION SEXUAL.
+2|gestan|7
+2|partos|7
+2|cesareas|0
+2|abortos|0
+2|vivos|6
+2|mortinatos|1
+2|feulme|

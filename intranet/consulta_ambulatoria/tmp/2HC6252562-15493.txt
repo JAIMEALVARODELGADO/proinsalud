@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLECISTECTOMIA ABIERTA, COLPORRAFIA ANTERIOR POSTERIOR 
+2|neofarmacos|CAPTOPRIL 25 MG CADA 12 HORAS, AMLODIPINO 5 MG CADA DIA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|menarca 12 años, sexarca: 28 años, citologia SEP DEL 2017,  normal MENOPASUIA: 54 años, mamografi AGOSTO DEL 2017 BIRADS 2 NORMAL   CITOLOGIA 27/09/2018 ATROFIA  ,E COGRAFI 6 DE ENERO DEL 2021 BIRADS 2 NORMAL , CITOLOGIA 19 DE NOVIEMBRE DEL 2020 ATROFIA E INFLAMACION ,ASCUS , YA SE REALIZO COLPOSCOPIA 
+2|gestan|1
+2|partos|1
+2|cesareas|0
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

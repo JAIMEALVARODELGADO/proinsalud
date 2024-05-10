@@ -1,0 +1,11 @@
+2|person|Patologicos: niega. Farmacologicos: trazodone cda noche. Quriurgicos: osteosintsis tobillo deecho. Alergicos: niega. Toxicos: Fumador activo desde los 20 años 2 paquetes año. 
+2|familia|Cancer de pancreas en hermano a los 35 años , cancer de estomago en abuelo a los 63 años
+2|metodo|NA-
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

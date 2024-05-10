@@ -1,0 +1,16 @@
+3|fin|
+3|tenar1|0
+3|tenar2|0
+3|freres|20
+3|fc|78
+3|tempe|36.5
+3|peso|53
+3|talla|145
+3|imc|25.208
+3|cintura|82
+3|cadera|92
+3|icc|0,891
+3|dimc|Sobre Peso
+3|pc|
+3|otros|p cintura:82cm,p cadera:92cm, saox:96%
+3|saox_tri|

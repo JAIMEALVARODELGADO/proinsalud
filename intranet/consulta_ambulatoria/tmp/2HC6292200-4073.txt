@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|VARICOSAFENECTOMIA DE MII, RTC IZQUIERDA 
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|GINECO-OBSTÉTRICOS: MENARQUIA: 10 SEXARQUIA:  20 MENOPAUSIA:  50 FUM: HACE 21 AÑOS CICLOS MENSTRUALES: NO APLICA – FECHA DE LA ÚLTIMA CITOLOGÍA: 5 AÑOS NORMAL MAMOGRAFIA: 10 AÑOS NORMAL  FECHA DE ÚLTIMA MAMOGRAFÍA:      
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|MASTECTOMIA IZQUIERDA MAS VACIAMIENTO AXILAR IZQUIERDO,  CESAREA 1 
+2|neofarmacos|LOSARTAN 50 MG CADA DIA,  LETROZOL 2.5 MG CADA DIA, PANTOPRAZOL 20 MG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|G3P3C1V3. MAMOGRAFIA:  FEBRERO DE 2023 BI-RADS 2  CITOLOGIA: JULIO DE 2021 NEGATIVA PARA MALIGNIDAD
+2|gestan|3
+2|partos|2
+2|cesareas|1
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

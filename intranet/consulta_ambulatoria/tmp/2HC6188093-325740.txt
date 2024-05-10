@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HISTERECTOMIA ABDOMINAL TOTAL 
+2|neofarmacos|DIFENHIDRAMINA 50 MG CADA DIA, ATORVASTATINA 20 MG CADA DIA,  ESCINA 15 MG  CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|DMT II EN MANEJO CON DIETA 
+2|gineco|MENARQUIA 13A AÑOS  MAMOGAFIA DE FEBEREO DEL 2022 BIRADS 1 NORMAL , CITOLOGIA PENDEINTE REPORTE 
+2|gestan|5
+2|partos|5
+2|cesareas|0
+2|abortos|0
+2|vivos|5
+2|mortinatos|0
+2|feulme|

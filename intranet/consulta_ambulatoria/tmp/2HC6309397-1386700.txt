@@ -1,0 +1,11 @@
+2|person|patologicos: gastritis  farmacologicos: no traumaticos: no toxicos: no quirurgicos: cesaresa rinoplastia alergicos: codeina sociales o personales. no refiere hospitalarios: no refiere psiquiatricos: no refiere vacunacion: completas nutricionales: no refiere actividad fisica: ningunaÆhabitos alimentacion balanceada,  frutas verduras, lacteos ,carbohidratos, carnes, pollo, lacteos, ensaladas, pescado, no fuma , no licor, no uso de sustancias psicoactivas, patron de sueño 8 horas diarias reparador, refiere tener buenas relaciones interpersonales y familiares, orientacion sexual: heterosexual---29-04-2024 ATENCION RIAS AL DIA ----
+2|familia|Padre HTA, tía cáncer colon, abuelo DM
+2|metodo|
+2|gineco|G2A1P1C1V1   . planificación: YasminQ, PF ACO, MENSTRUACION IRREGULAR, CITOLOGIA 19/3/23 PENDIENTE RESULTADO
+2|gestan|2
+2|partos|0
+2|cesareas|1
+2|abortos|1
+2|vivos|1
+2|mortinatos|0
+2|feulme|

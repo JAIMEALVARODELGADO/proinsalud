@@ -1,0 +1,11 @@
+2|person|patológicos: hipertension arterial, dislipidemia, osteopenia, colon irritable. quirurgicos: reseccion de nodulo mamario retroareolar, RESECCION DE LIPOMA A NIVEL DE HOMBRO DERECHO HACE 3 AÑOS  con células atípicas histerectomía, farmacológicos: Losartán 100 mg cada día. Hctz 25 mg día, amlodipino 5 mg noche, rosuvastatina 20mg cada noche, -----21-03-2023 ATENCION RIAS AL DIA -----
+2|familia|---
+2|metodo|NINGUNO 
+2|gineco|menarca: 15 años. menop: 49 años. citologia: 12/10/2015 negativa para lesion intraepitelial  cuello con histerectomia mamografia14/11/17 bi-rads 0 ecografia mamaria dic 2018 bi rads 3
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

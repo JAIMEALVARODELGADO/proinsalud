@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|POMEROY
+2|neofarmacos|Negativo
+2|nuetoxico|FRUTOS SECOS
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|POMEROY, CITOLOGIA  MAYO/21 NEGATIVA (SEGUN PACIENTE). CICLOS REGULARES 3*28. PF: POMEROY
+2|gestan|3
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|2024-02-13

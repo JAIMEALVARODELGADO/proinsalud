@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|Negativo
+2|neofarmacos|LEVOTIROXINA 50 MCG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO 
+2|gineco|CITOLOGIA: 23/04/15: NEGATIVO PARA MALIGNIDAD. MAMOGRAFIA NO APLICA POR EDAD
+2|gestan|9
+2|partos|9
+2|cesareas|0
+2|abortos|0
+2|vivos|9
+2|mortinatos|0
+2|feulme|

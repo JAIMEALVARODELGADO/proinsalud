@@ -1,0 +1,11 @@
+2|person|patologicos: gastritis cronica, colelitiasis, hipotiroidismo, pancreatitis, dislipidemia, hta -- quirurgicos: histerectomia abdominal por miomatosis, cpre -- traumaticos: negativos -- toxicos: negativos, niega exposicion a toxicos, niega consumo de spa -- alergicos: negativos -- farmacologicos: levotiroxina 50 mcg vo de lunes a sabado, losartan 50 mg vo cada 12 horas, esomeprazol 20 mg vo dia, rosuvastatina ezetimiba 20/10 mg 1 tab vo dia -- vacunacion: covid-19 2 dosis sinovac, 3 dosis pfizer 09/11/2021.
+2|familia|padre hipertension arterial, niega antecedentes familiares,  de trastornos mentales, niega antecedentes de hipoacusia o ceguera en familia, en lo interrogado niega consumo de spa, en familiares cercanos, niega comportamientos suicidas, o suicidios en la familia, eventos cercanos al examen actual 
+2|metodo|
+2|gineco|menarca: 16 años, sexarca: 18 años, parejas sexuales #1, menopausia: 36 años no se realizan pruebas de tamizaje por edad de paciente 
+2|gestan|3
+2|partos|2
+2|cesareas|0
+2|abortos|1
+2|vivos|2
+2|mortinatos|0
+2|feulme|

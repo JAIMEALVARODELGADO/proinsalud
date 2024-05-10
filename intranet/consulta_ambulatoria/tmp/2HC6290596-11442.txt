@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|ARTROSCOPIA RODILLA BILATERAL
+2|neofarmacos|Negativo
+2|nuetoxico|CODEINA
+2|neotransfin|Negativo
+2|neootros|GASTRITIS
+2|gineco|MENARQUIA: 13 AÑOS, SEXARCA: 25 AÑOS, NUMERO DE COMPAÑEROS SEXUALES: 1, NIEGA ENFERMEDADES DE TRANSMISIÓN SEXUAL, SE OFERTA PRUEBA VOLUNTARIA PARA VIH PACIENTE NO ACEPTA , menopausia: 45 años, citologia: >1 año, se entrega orden,  MAMOGRAFÍA 07-03-2023: HALLAZGOS BENIGNOS, BI-RADS 2. CITOLOGIA 22-04-2023: NO DETECTADO NINGUN GENOTIPO DE VPH
+2|gestan|2
+2|partos|0
+2|cesareas|2
+2|abortos|0
+2|vivos|1
+2|mortinatos|1
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA, COLPORRAFIA ANTERIOR, 
+2|neofarmacos|Negativo
+2|nuetoxico|METRONIDAZOL
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|menarca 12 años, sexarca: 25 años, menopusia 50 años, citología oct/18 NEGATIVO PARA MALIGNIDAD. mamografia feb 2018, bi rads 1 - MAMOGRAFIA 11-02-2022: NEGATIVA PARA MALIGNIDAD, BI-RADS 1, CITOLOGIA 11-02-2022: NEGATIVA PARA MALIGNIDAD . 4-3-22 ACUDE A PYM PROGRAMA ADULTEZ. 
+2|gestan|4
+2|partos|2
+2|cesareas|1
+2|abortos|1
+2|vivos|3
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|BLOQUEO COMPLERO RAMA IZQUIERDA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|MASTECTOMIA IZQUIERDA
+2|neofarmacos|ATORVASTATIVA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|CA MAMA, OSTEOPOROSIS, FRACTURA VERTEBRAL 
+2|gineco|CITOLOGIA : MAS DE 10 AÑOS NORMAL. MAMOGRAFIA NO APLICA POR CANCER DE SENO EN TRATAMIENTO
+2|gestan|4
+2|partos|0
+2|cesareas|2
+2|abortos|2
+2|vivos|2
+2|mortinatos|0
+2|feulme|

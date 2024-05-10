@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RESECCIÓN DE MASA EN CUELLO RESECCIÓN DE MASA EN MIEMBRO SUPERIOR 
+2|neofarmacos|LEVOTIROXINA ESOMEPRRAZOL
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO GASTRITIS
+2|gineco|MENARQUIA 12 AÑOS
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

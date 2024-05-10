@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLECISTECTOMIA, FAQUECTOMIA, REPATACION MANGUITO ROTADOR, CEPRE 2
+2|neofarmacos|AMLODIPINO, CARVEDILOL, LEVOTIROXINA, LOSRATAN, TERIPARATIDE
+2|nuetoxico|CAPTOPRIL DIPIRONA, 
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO
+2|gineco|menarca. 11 años, sexarca 21 años, menopausia 45 años, CITOLOGIA mamografia no se toman por edad
+2|gestan|8
+2|partos|6
+2|cesareas|0
+2|abortos|1
+2|vivos|6
+2|mortinatos|1
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|OSTEOSINTESIS DE FEMUR IZUEIRDO, ARTROSCOPIA RODILLA IZUIERDA, POMEROY
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|PREDIABETES CON DIETA, OBESISDAD
+2|gineco|MENARCA: 13 AÑOS // SEXARCA: 14 AÑOS // CITOLOGIA: se solicita orden 07/07/2020, FUM 05/12/2019
+2|gestan|5
+2|partos|3
+2|cesareas|1
+2|abortos|1
+2|vivos|4
+2|mortinatos|1
+2|feulme|

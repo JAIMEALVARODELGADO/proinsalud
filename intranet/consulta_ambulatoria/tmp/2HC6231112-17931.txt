@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|POMEROY, CESAREA 2, COLECISTECTOMIAS
+2|neofarmacos|Negativo
+2|nuetoxico|RANITIDINA HIOSCINA
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|.NO RECUERDA CUANDO SE HIZO CITOLOGIA
+2|gestan|2
+2|partos|0
+2|cesareas|2
+2|abortos|.
+2|vivos|.
+2|mortinatos|.
+2|feulme|

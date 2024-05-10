@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|REPARACION TENDON AQUILES IZQUIERDO, POMEROY
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|POMEROY --  CITOLOGIA (MARZO.2021): negativa para lesión intraepitelial, MAMOGRAFIA (03.MARZO.2021): BIRADS-0, ECOGRAFIA DE MAMA (15.MARZO.2021) PACIENTE HACE PARTE DE CRONICOS
+2|gestan|4
+2|partos|4
+2|cesareas|0
+2|abortos|0
+2|vivos|4
+2|mortinatos|0
+2|feulme|

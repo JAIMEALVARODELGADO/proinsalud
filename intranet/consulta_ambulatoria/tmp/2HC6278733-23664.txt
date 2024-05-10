@@ -1,0 +1,11 @@
+2|person|COLECISTECTOMIA, APENDICECTOMIA DIVERTICULOS DEL COLON Y POLIPOS ::
+2|familia|Cancer de estomago en madre a los 63 años, cancer de colon en hermana a los 62 años, cancer de pulmon a los 52 años ÆÆÆÆÆÆPROMOCION Y MANTENIMIENTO DE SALUDÆÆÆTAMIZAJE DE COLON  PACIENTE CON POLIPOS EN COLON EN MANEJO CON GASTROENTEROLOGIAÆÆÆTAMIZAJE DE PROSTATA NO APLICA PACIETNE EN MANEJO CON UROLOGIAÆÆÆAGUDEZA VISUALÆÆÆPACIENTE INSCRITO EN PROGRAMA DE ENFERMEDADES CRONICAS POR OEBSIDAD Y DISLIPIDEMIA
+2|metodo|
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

@@ -1,0 +1,140 @@
+6|clasemedi|1
+6|codmedi|044453
+6|desmedi|OMEPrazol 40 mg POLVO PARA INYECCION
+6|dosis|40
+6|unid|GR
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2202
+6|tiempo|1
+6|obsemed|APLICAR 1 AMPOLLA IV AHIORA, DOSIS UNICA 
+6|canti|1
+6|diagmedi|R104
+6|justifi|N
+6|pos|S
+6|clasemedi|1
+6|codmedi|834791
+6|desmedi|ONDANSETRON 8 mg/4ml *4ml SOLO PARA QUIMIOTERAPIA antineoplasica SOLUCION INYECTABLE
+6|dosis|8
+6|unid|MG
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2202
+6|tiempo|1
+6|obsemed|APLUICAR 1 AMPOLLA IV AHORA, DOSIS UNICA
+6|canti|1
+6|diagmedi|R104
+6|justifi|N
+6|pos|S
+6|clasemedi|1
+6|codmedi|041037
+6|desmedi|N-BUTIL BROMURO DE HIOSCINA + DIPIRONA 20MG+2.5G/5ML SOLUCION INYECTABLE
+6|dosis|2.5
+6|unid|GR
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2202
+6|tiempo|1
+6|obsemed|APLICAR 1 AMPOLLA IV AHORA, DOSIS UNICA
+6|canti|1
+6|diagmedi|R104
+6|justifi|N
+6|pos|S
+6|clasemedi|2
+6|codmedi|3000005000166
+6|desmedi|CATHETER INTRAVENOSO No.20G x 1-1/4    
+6|dosis|
+6|unid|
+6|frecu|
+6|unidfrecu|
+6|via|
+6|tiempo|
+6|obsemed|
+6|canti|1
+6|diagmedi|R104
+6|justifi|
+6|pos|
+6|clasemedi|2
+6|codmedi|0010001000370
+6|desmedi|CLORURO DE NA - SUERO FISIOLOGICO-100 ML
+6|dosis|
+6|unid|
+6|frecu|
+6|unidfrecu|
+6|via|
+6|tiempo|
+6|obsemed|
+6|canti|4
+6|diagmedi|R104
+6|justifi|
+6|pos|
+6|clasemedi|2
+6|codmedi|3000005000325
+6|desmedi|JERINGA DESECHABLE 10ml  21G x 1 1/2 
+6|dosis|
+6|unid|
+6|frecu|
+6|unidfrecu|
+6|via|
+6|tiempo|
+6|obsemed|
+6|canti|4
+6|diagmedi|R104
+6|justifi|
+6|pos|
+6|clasemedi|2
+6|codmedi|0010001000236
+6|desmedi|SOLUCION LACTATO DE RINGER X 500 ML-
+6|dosis|
+6|unid|
+6|frecu|
+6|unidfrecu|
+6|via|
+6|tiempo|
+6|obsemed|
+6|canti|2
+6|diagmedi|R104
+6|justifi|
+6|pos|
+6|clasemedi|1
+6|codmedi|398004
+6|desmedi|DICLOfenaco 75 mg/3 ml*3 ml SOLUCION INYECTABLE
+6|dosis|75
+6|unid|MG
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2202
+6|tiempo|1
+6|obsemed|APLIACR 1 AMPOLLA IV AHORA, DOSIS UNICA
+6|canti|1
+6|diagmedi|R104
+6|justifi|N
+6|pos|S
+6|clasemedi|1
+6|codmedi|834302
+6|desmedi|MOSAPRIDA CITRATO DIHIDRATO 5mg TABLETA
+6|dosis|1
+6|unid|UND
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|1
+6|obsemed|ADMINISTRAR 1 TABLETA VIA ORAL AHORA DOSIS UNICA
+6|canti|1
+6|diagmedi|R104
+6|justifi|N
+6|pos|S
+6|clasemedi|2
+6|codmedi|3000005000213
+6|desmedi|EQUIPO DE MACROGOTEO SIN AGUJA VENOCLISIS 
+6|dosis|
+6|unid|
+6|frecu|
+6|unidfrecu|
+6|via|
+6|tiempo|
+6|obsemed|
+6|canti|1
+6|diagmedi|R104
+6|justifi|
+6|pos|

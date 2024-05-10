@@ -1,0 +1,42 @@
+8|tiproxi|
+8|proxima|
+8|recom|NO ADICIONAR SAL A LAS COMIDAS
+NO CONSUMIR BEBIDAS CON CAFEÍNA
+FRACCIONAR LA DIETA EN 5 O 6 TIEMPOS 
+CONSUMIR UNA HARINA POR PLATO Y MASTICAR LENTAMENTE (ARROZ O PAPA O YUCA O AREPA O PLÁTANO) 
+PREFIERA PRODUCTOS INTEGRALES 
+CONSUMIR EN MAYOR CANTIDAD LAS FRUTAS CON ALTO APORTE DE LÍQUIDO Y FIBRA (MANDARINA, NARANJA, SANDÍA, MELÓN, PAPAYA, PIÑA)
+ELIMINE GRASAS VISIBLES EN EL PLATO COMO, LA GRASA DE LA CARNE Y LA PIEL DE POLLO. 
+EVITAR BEBIDAS CARBONATADAS Y JUGOS INDUSTRIALIZADOS. 
+EVITAR EMBUTIDOS COMO SALCHICHAS, SALCHICHONES, CARNES EN CONSERVA. 
+EVITAR EL USO DE AZÚCAR Y SAL EN LA MESA. 
+EVITAR ADEREZOS COMO SALSAS Y GRASAS 
+EVITAR LAS FRITURAS, CONSUMIR ALIMENTOS ASADOS, COCINADOS, AL VAPOR, AL HORNO SIN EL USO DE ADEREZOS (SALSAS) NI GRASAS 
+EJERCITAR AL MENOS 30 MINUTOS 4 VECES POR SEMANA 
+CONSUMIR AL MENOS 6 VASOS DE AGUA AL DÍA. 
+PREFERIR LA FRUTA ENTERA SOBRE EL JUGO. CONSUMIENDO 3 PORCIONES AL DÍA.
+
+MENU EJEMPLO
+
+DESAYUNO	CANTIDAD
+Bebida caliente sin azúcar 	1 pocillo 
+proteína: huevo o cuajada o queso	(descremado)1 porción/unidad
+cereal:  galleta o tostadas o arepa	(integrales)1 porción 
+REFRIGERIO 	
+Fruta:  	1 porción
+ALMUERZO 	
+Agua y fruta entera 	1 vaso
+Proteína de alto valor biológico: carne o pollo sin piel o pescado o viseras O Leguminosa frijol o arveja o lenteja o garbanzo (pasando un día).	1 porción
+verduras y hortalizas: ensaladas crudas	1 porción
+Cereal: arroz o pasta papa o yuca o plátano o arracacha	1 porción
+REFRIGERIO 	
+Fruta:  	1 porción
+CENA 	
+Agua y fruta entera 	1 vaso
+Proteína de alto valor biológico: carne o pollo sin piel o pescado  o viseras.	1 porción
+Verduras: ensaladas crudas o cocidas	1 porción
+Cereal: arroz o pasta papa o yuca o plátano o arracacha	1 porción
+8|incapacidad|
+8|incadias|
+8|incaini|
+8|recom|NO ADICIONAR SAL A LAS COMIDASÆNO CONSUMIR BEBIDAS CON CAFEÍNAÆFRACCIONAR LA DIETA EN 5 O 6 TIEMPOS ÆCONSUMIR UNA HARINA POR PLATO Y MASTICAR LENTAMENTE (ARROZ O PAPA O YUCA O AREPA O PLÁTANO) ÆPREFIERA PRODUCTOS INTEGRALES ÆCONSUMIR EN MAYOR CANTIDAD LAS FRUTAS CON ALTO APORTE DE LÍQUIDO Y FIBRA (MANDARINA, NARANJA, SANDÍA, MELÓN, PAPAYA, PIÑA)ÆELIMINE GRASAS VISIBLES EN EL PLATO COMO, LA GRASA DE LA CARNE Y LA PIEL DE POLLO. ÆEVITAR BEBIDAS CARBONATADAS Y JUGOS INDUSTRIALIZADOS. ÆEVITAR EMBUTIDOS COMO SALCHICHAS, SALCHICHONES, CARNES EN CONSERVA. ÆEVITAR EL USO DE AZÚCAR Y SAL EN LA MESA. ÆEVITAR ADEREZOS COMO SALSAS Y GRASAS ÆEVITAR LAS FRITURAS, CONSUMIR ALIMENTOS ASADOS, COCINADOS, AL VAPOR, AL HORNO SIN EL USO DE ADEREZOS (SALSAS) NI GRASAS ÆEJERCITAR AL MENOS 30 MINUTOS 4 VECES POR SEMANA ÆCONSUMIR AL MENOS 6 VASOS DE AGUA AL DÍA. ÆPREFERIR LA FRUTA ENTERA SOBRE EL JUGO. CONSUMIENDO 3 PORCIONES AL DÍA.ÆÆMENU EJEMPLOÆÆDESAYUNO	CANTIDADÆBebida caliente sin azúcar 	1 pocillo Æproteína: huevo o cuajada o queso	(descremado)1 porción/unidadÆcereal:  galleta o tostadas o arepa	(integrales)1 porción ÆREFRIGERIO 	ÆFruta:  	1 porciónÆALMUERZO 	ÆAgua y fruta entera 	1 vasoÆProteína de alto valor biológico: carne o pollo sin piel o pescado o viseras O Leguminosa frijol o arveja o lenteja o garbanzo (pasando un día).	1 porciónÆverduras y hortalizas: ensaladas crudas	1 porciónÆCereal: arroz o pasta papa o yuca o plátano o arracacha	1 porciónÆREFRIGERIO 	ÆFruta:  	1 porciónÆCENA 	ÆAgua y fruta entera 	1 vasoÆProteína de alto valor biológico: carne o pollo sin piel o pescado  o viseras.	1 porciónÆVerduras: ensaladas crudas o cocidas	1 porciónÆCereal: arroz o pasta papa o yuca o plátano o arracacha	1 porción

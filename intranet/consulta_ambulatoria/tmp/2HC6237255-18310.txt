@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|POMEROY, FISTULA AV, HEMORROIDECTOMIA, POLIPECTOMIA ENDOSCOPICA COLON, PAROTIROIDECTOMIA
+2|neofarmacos|HEMODIALISIS 3 VECES EN SEMANA, CALCIO, CALCITRIOL, ACIDO FOLICO, TIAMINA, LOSARTAN, ERITROPOYETINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|FALLA RENAL CRONICA EN HEMODIALISIS, ARTROSIS
+2|gineco|menarca: 12 años, sexarca: 23 años, parejas sexuales #1, menopausia: 47 años, ULTIMA CITOLOGIA Y MAMOGRAFIA NO RECUERDA
+2|gestan|4
+2|partos|4
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|1
+2|feulme|

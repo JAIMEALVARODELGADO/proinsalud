@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|LIGADURA DE VARICES ESOFAGICAS, LEGRADO
+2|neofarmacos|CARVEDILOL, PREPNISOLONA, CICLOSPORINA, HIDROXICLOROQUINA, PILOCARPINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|LES, CIRROSIS HEPATICA, VARICES ESOFAGICAS, TROMBOCITOPENIA
+2|gineco|MENOPAUSIA 50 años - CITOLOGIA: 15/3/19 zona de transformacion AUSENTE negativa para lesion intraepitelial, pendiente repetir examen -- MAMOGRAFIA: HACE MAS DE 2 AÑOS ((SE ENVIA ORDEN))
+2|gestan|02
+2|partos|02
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

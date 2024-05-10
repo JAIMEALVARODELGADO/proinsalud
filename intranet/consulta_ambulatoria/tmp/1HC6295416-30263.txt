@@ -1,0 +1,25 @@
+1|etnia|7505
+1|ocupacion|3310
+1|escolaridad|7609
+1|estadocivil|A701
+1|direccion|ANZOATEGUI
+1|tidoacu|CC
+1|nudoacu|00
+1|pnomacu|SOLA
+1|snomacu|00
+1|papeacu|00
+1|sapeacu|00
+1|parenacu|SOLA
+1|direacu|00
+1|teleacu|00
+1|muniacu|
+1|nommuniacu|00
+1|primera|1
+1|codciru|
+1|motivo|REPORTE DE   EXAMEN  
+1|enfeac|PACIENTE CON  REPORTE DE   RADIOGRAFIA DE 
+1|revisi|NO SINTOMAS, NO VICTIMA DE VIOLENCIA INTRAFAMILIAR FISICA, SEXUAL NI PSICOLOGICA, NO VICTIMA DE DESPLAZAMIENTO FORZADO POR CONFLICTO ARMADO, NIEGA NEXOS CON PERSONAS CON COVID 19, NO TRABAJO SEXUAL, NO VICTIMA DE ABANDONO
+1|informe|REPORTE DE   RADIOGRAFIA DE 
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

@@ -1,0 +1,16 @@
+5|claseorden|1
+5|codorden|902207
+5|desorden|902207 - HEMOGRAMA I (HEMOGLOBINA HEMATOCRITO Y LEUCOGRAMA) MANUAL (S) 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|I10X
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|907106
+5|desorden|907106 - UROANALISIS () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|I10X
+5|cantorden|1
+5|cama|

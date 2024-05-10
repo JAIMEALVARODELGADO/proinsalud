@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|APENDICECTOMIA, HISTERECTOMIA ABDOMINAL TOTAL 
+2|neofarmacos|TRAZADONA 50 MG CADA DIA, DIFENHIDRAMINA 50 MG   CADA DIA. ESCITALOPRAM  20 MG CADA DIA 
+2|nuetoxico|SULFAS 
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARCA 13 AÑOS  CITOLOGIA 2019 NEGATIVA PARA PRCESO MALIGNO (NO APORTA REPORTE)    FUM 50 AÑOS     .2022-07-01 MAMOGRAFIA  HACE 1 AÑOS  NORMAL  HEMOCLASIFICACION  B+  
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

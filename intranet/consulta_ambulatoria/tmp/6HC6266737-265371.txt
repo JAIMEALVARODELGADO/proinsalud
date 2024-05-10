@@ -1,0 +1,28 @@
+6|clasemedi|1
+6|codmedi|044036
+6|desmedi|VENLAFAXINA 75MG TABLETA
+6|dosis|1
+6|unid|UND
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|90
+6|obsemed|TOMAR 1 TABLETA EN LA MA�ANA
+6|canti|90
+6|diagmedi|F412
+6|justifi|N
+6|pos|N
+6|clasemedi|1
+6|codmedi|482032
+6|desmedi|DIFENHIDRAMINA 50 mg CAPSULA
+6|dosis|1
+6|unid|UND
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|90
+6|obsemed|TOMAR 1 CAPSULA EN LA NOCHE
+6|canti|90
+6|diagmedi|F412
+6|justifi|N
+6|pos|S

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|SEPTOPLASTIA FUNCIONAL 
+2|neofarmacos|METFORMINA 850 MG CADA DIA,  LOSARTAN  50 MG CADA DIA, AMLODIPINO 5 MG CADA DIA,  HIDROCLOROTIAZIDA 25 MG CADA DIA, ATORVASTINA 40 MG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|DMT II 
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

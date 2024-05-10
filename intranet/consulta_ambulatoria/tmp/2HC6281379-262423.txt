@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS: HEPATITIS A, INFECCION POR COVID 08-2020, Estrabismo, miopia, calculo renal izquierdo. GASTRITIS, RGE, TRASTORNO DE ANSIEDAD Y DEPRESION, quirurgicos : NO REFIERE, ALERGICOS NO REFIERE // FARMACOLOGICOS: ESOMEPRAZOL fluoxetina 1 tab dia. sertralina 1 tab dia. // ocupación docente. toxicos 3 cigarrillo a la semana, allcoholo casional, se interroga y niega ser vicitima de violencia intrafamiliar, fisica y psicologica o conflicto armado. VACUNA COVID  DOSIS PFIZER, ULTIMA 6 JULIO ALERGICO A DROGAS -----05-10-2021ATECION RIAS ALD IA ----. 
+2|familia|PADRE HIPERTENSION ARTERIAL, ARTRITIS *** ASISTIO A PROGRAMA DE P. Y M. ADULTEZ EN OCTUBRE/21 *** 
+2|metodo|NINGUNO 
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

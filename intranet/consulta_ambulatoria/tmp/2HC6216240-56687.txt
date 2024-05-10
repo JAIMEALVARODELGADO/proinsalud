@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RESECCION DE QUISTE MAMARIO BILATERAL, COLELAP
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|OBESIDAD , SX ANEMICO 
+2|gineco|MENARQUIA 12 AÑOS , PRUEBA  VPH   16/09/23  NEGATIVA   ,  ULTIMA REGLA  18  ENERO DEL 2024  CICLOS  REGULARES 
+2|gestan|1
+2|partos|1
+2|cesareas|0
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

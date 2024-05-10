@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS: Diabetes mellitus tipo 2, Dislipidemia, Polineuropatia diaetico, TAB   -- FARMACOLOGICOS: insulia aspart  4-5-5 (lo ucal varia a glucometria)  insulina Degludec+liraglutide 42 UI, e levomeporomazina 8 gotas cada noche, fluoxetina 20 mg cada dia mpaglifozina 25 mg cada horas, ácido tioctico 600 mg cada 24 horas, rosuvastatina 40 mg cada 24 horas, ASA 100 mg cada 24 horas, pregabalina 150 mg cada 24 horas, Bromuro de otilonio cada dia  -- Quriurgicos: Manga gastricaa, osteosintesis pro fractura de femur izquierdo  TRAUMATICOS: NIEGA -- TOXICOS: Fumador activo desde los 15 años , 24 paquetes años, consumo de alcohol frecuente -- OCUPACION: DOCENTE ACTIVO -- **-- NIEGA SER VICTIMA DE VIOLENCIA FISICA, SEXUAL, PSICOLOGICA, EMOCIONAL, INTRAFAMILIAR O DE GENERO niega  ser  viitma de  violencia    o depslazamiernto PSA 1.4 JUNIO DE 2021 NORMAL. -----no atencion rias. se remite-----
+2|familia|NIEGA -- **-- NIEGA ANTECEDENTE FAMILIAR DE TRASTORNOS MENTALES, CONSUMO DE SPA, CONDUCTA SUICIDA.
+2|metodo|NINGUNO 
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

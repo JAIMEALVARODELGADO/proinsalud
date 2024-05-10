@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|POMEROY SIN COMPLICAIONES
+2|neofarmacos|LEVOTIROXINA 75 MCG CADA DIA, ATORVASTINA 20 MG CADA DIA,  TRIMEBUTINA ESCITALOPRAM 10 MG CADA DIA, FENCAFE GINKO BILOBA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|MIGRAÑA HIPOTORIODISMO COLON IRRITABLE PREDIABETES OSTEOPOROSIS TASTORNO DE ANSIEDAD
+2|gineco|menarca: 15 años, sexarca: 22 años, menopausia 56 años, ULTIMA CITOLOGIA HACE 1 AÑO NORMAL SEGUN REFIERE . PACIENTE HACE PARTE DEL PROGRAMA DE CRONICOS 
+2|gestan|5
+2|partos|4
+2|cesareas|1
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

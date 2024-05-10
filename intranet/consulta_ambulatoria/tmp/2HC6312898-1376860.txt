@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA, MAMOPLASTIA  DE AUMENTO, CESAREA, POMEROY 
+2|neofarmacos|VITAMINA E - A - D, ACIDO FOLICO, SULFATO FERROSO
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA: 13 AÑOS, SEXARCA: 17 AÑOS. CICLOS REGULARES.  CITOLOGIA: DICIEMBRE DE 2020 NEGATIVA PARA MALIGNIDAD . 9-12-2020 ACUDE A PYM PROGRAMA ADULTEZ
+2|gestan|2
+2|partos|1
+2|cesareas|1
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

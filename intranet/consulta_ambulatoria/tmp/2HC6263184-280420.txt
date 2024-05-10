@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|LAPAROSCOPIA 2, RTR IZQUIERDA, OSTEOSINTESIS RADIO IZQUIERDO
+2|neofarmacos|ESOMEPRAZOL, METFORMINA
+2|nuetoxico|SULFAS
+2|neotransfin|Negativo
+2|neootros|DM TIPO 2
+2|gineco|menarca 13 años, sexarca 25 años, parejas sexuales #1, menopausia. 45 años, no se toman pruebas de tamizaje por edad de paciente
+2|gestan|1
+2|partos|1
+2|cesareas|0
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

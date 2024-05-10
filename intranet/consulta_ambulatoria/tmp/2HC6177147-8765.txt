@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLELAP SIN COMPLICACIONES ANESTESCIAS
+2|neofarmacos|LOSARTAN
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|G:1 P:1 V1  MENARCA: 12 AÑOS, MENOPAUSIA A LOS 49 AÑOS, ULTIMA CITOLOGIA HACE UN AÑO DE ADN PARA VPH PARTICULAR: NORMAL, MAMOGRAFIA : 22/01/2024:  BIRADS O, TEJIDOMAMARIO DENSO QUE PUEDE OCULTAR PEQUEÑOS NODULOS.
+2|gestan|1
+2|partos|1
+2|cesareas|0
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

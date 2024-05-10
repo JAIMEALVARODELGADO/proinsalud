@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|Negativo
+2|neofarmacos|LOSARTAN, SEMAGLUTIDE, 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|DM TIPO 2 CONTROLADA
+2|gineco|CITOLOGIA: 25/11/2020 NEGATIVO PARA MALIGNIDAD,  MAMOGRAFIA  21/06/2023 BIRADS 2
+2|gestan|5
+2|partos|3
+2|cesareas|0
+2|abortos|2
+2|vivos|3
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,2 @@
+13|tipo_ref|R
+13|resumen|MEDICO GENERAL .

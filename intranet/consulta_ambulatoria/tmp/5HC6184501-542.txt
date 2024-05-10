@@ -1,0 +1,8 @@
+5|claseorden|4
+5|codorden|0611
+5|desorden|
+5|nivel|
+5|obseorden|10 meses
+5|diagorden|H024
+5|cantorden|10
+5|cama|

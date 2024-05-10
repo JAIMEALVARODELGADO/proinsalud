@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HISTERECTOMIA ABDOMINAL TOTAL, APENDICECTOMIA 
+2|neofarmacos|GALVUS CADA 12 HORAS , LEVOTIROXINA  88 MCG CADA DIA, INSULINA GLARGINA 28 CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|DMT II 
+2|gineco|MANARQUIA   13 AÑOS  , CITOLOGIA   2020   NORMAL ,   MAMOGRAFIA  HACE  7 AÑOS NORMAL . ,  FECHA   ULTIMA  REGLA  A  LOS  40  AÑOS 
+2|gestan|4
+2|partos|3
+2|cesareas|1
+2|abortos|0
+2|vivos|4
+2|mortinatos|0
+2|feulme|

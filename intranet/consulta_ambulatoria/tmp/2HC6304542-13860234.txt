@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|POMEROY 
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|PACIENTE QUIEN PRESENTO SIFILIS HACE 7 MESES CON TTO 
+2|gineco|MENARCA: 12 AÑOS CITOLOGIA : NEGATIVA SEGUN REFIERE PAICENTE 
+2|gestan|4
+2|partos|2
+2|cesareas|0
+2|abortos|2
+2|vivos|2
+2|mortinatos|0
+2|feulme|

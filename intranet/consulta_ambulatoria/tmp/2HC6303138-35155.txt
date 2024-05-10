@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS HTA, DM   , ALERGICOS NIEGA, QX POMEROY,  FARMACOLOGIA METFOMINA 1 TAB DIA, HCTZ 25 MG DIA, AMLODIPINO 5 MG CADA 12 H, LOSARTAN 50 MG CADA 1 2H
+2|familia|tia y primos diabetes mellitus, HTA MADRE  Y ACV FALLECIO
+2|metodo|
+2|gineco|hace 8 meses 
+2|gestan|10
+2|partos|10
+2|cesareas|0
+2|abortos|0
+2|vivos|10
+2|mortinatos|0
+2|feulme|

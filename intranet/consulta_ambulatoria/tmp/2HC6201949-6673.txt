@@ -1,0 +1,11 @@
+2|person|patologicos:  RGE, HIPOTIROIDISMO, ,  GONARTROSIS, --------quirurgicos pomeroy , CORRECCION DE PTERIIGION CONJUNTIVAL DERECHO    ------------  alergicos negativos   ----      traumaticos fractura de dedo de mano derecha tec leve hace 3 meses   -------    no fuma    ------------no ingesta de licor------------- FARMACOLOGICO LEVOTIROXINA 75 DIA, 
+2|familia|no refiere
+2|metodo|NA-
+2|gineco|menarquia 12 años    -       citologia 01/04/2014 negativa para lie       ///    mamografia 12 de abril de 2014 normal  // fum 43 años
+2|gestan|4
+2|partos|4
+2|cesareas|0
+2|abortos|0
+2|vivos|4
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|POMEROY, LIPOSUCCION
+2|neofarmacos|PREGABALINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARCA   13 AÑOS ,  SEXARCA  18 AÑOS , ULTIMA MENSTRUACION  A LOS  45  AÑOS ,  FECHA DE  ULTIMA CITOLOGIA  MARZO  DEL   2023   PENDIENTE  RESULTADO , MAMOGRAFIA DICIEMBRE  2021 NORMAL  BIRADS 1     RESULTADO NORMAL  
+2|gestan|7
+2|partos|6
+2|cesareas|0
+2|abortos|2
+2|vivos|5
+2|mortinatos|5
+2|feulme|

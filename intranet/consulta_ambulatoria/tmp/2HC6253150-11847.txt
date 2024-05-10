@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|MANGA GASTRICA 
+2|neofarmacos|ASA 100 MG CADA DIA,  EMPAGLIFOZINA 25 MG CADA DIA, INSULINA GLARGINA 42 U CADA DIA, INSULINA ASPARTATO 4 U CADA 8 HORAS, ENALAPRIL 5 MG CAD DIA  ROSUVASTINA 40 MG CADA DIA, PREGABALINA 150 MG CADA DIA  
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|DMT II 
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

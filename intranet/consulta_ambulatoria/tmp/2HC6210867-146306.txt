@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|POMEROY, LEGRADO, COLECISTECTOMIA
+2|neofarmacos|Negativo
+2|nuetoxico|PENICILINA
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|.MENARQUIA A LOS 12 AÑOS DE CICLOS  REGULARES  POR  5-7 DIAS  CITOLOGIA:  OCTUBRE DE 2022 NEGATIVA PARA MALIGNIDAD. PF: POMEROY. 22-2-22 ACUDE A PYM PROGRAMA ADULTEZ. 
+2|gestan|4
+2|partos|3
+2|cesareas|0
+2|abortos|1
+2|vivos|3
+2|mortinatos|0
+2|feulme|2024-02-27

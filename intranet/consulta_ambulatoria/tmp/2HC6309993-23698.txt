@@ -1,0 +1,11 @@
+2|person|Patológicos: meningioma; Farmacológicos: Acetazolamida 250 mg c / 12 horas - tiamina - acetaminofen 500 c / 4 horas ; Quirúrgicos: Derivación ventriculoperitoneal hace 6 años - colecistectomia - herniorrafia umbilical; Alérgicos: dipirona ; Vacunas: Esquema completo contra COVID 19médicos trastorno depresivo, QUIRÚRGICOS: colecistectomía, herniorrafia umbilical, antecedentes de derivacion ventriculoperitoneal y tumor de fosa posterior (MENINGIOMA), ALÉRGICOS: DIPIRONA, TRAUMÁTICOS: NIEGA, OCUPACIÓN: AMA DE CASA-- vacunacion influenza: se remite 09/11/2021
+2|familia|HIJO CÁNCER DE TIROIDES
+2|metodo|----
+2|gineco|menarca: 12 años, menop: 50 años.
+2|gestan|8
+2|partos|6
+2|cesareas|00
+2|abortos|02
+2|vivos|06
+2|mortinatos|0
+2|feulme|

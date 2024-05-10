@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HISTERECTOMIA ABDOMINAL, HERNIORRAFIA INGUINAL DERECHO, COLPORRAFIA ANTERIOR 
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|histerectomia abdominal el 18 de diciembre de 2013 G2P2A0V2 parejas sexuales: 1. CITOLOGIA FEBRERO DEL 2023 NEGATIVA.   MAMOGRAFIA EN OCTUBRE DEL 2022 RFIERE RESULTADO NORMAL. 
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

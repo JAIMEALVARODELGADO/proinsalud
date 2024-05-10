@@ -1,0 +1,14 @@
+6|clasemedi|2
+6|codmedi|0020001002943
+6|desmedi|PRESERVATIVO CONDON
+6|dosis|
+6|unid|
+6|frecu|
+6|unidfrecu|
+6|via|
+6|tiempo|
+6|obsemed|
+6|canti|15
+6|diagmedi|Z000
+6|justifi|
+6|pos|

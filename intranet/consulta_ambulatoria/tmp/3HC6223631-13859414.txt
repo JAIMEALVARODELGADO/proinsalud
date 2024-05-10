@@ -1,0 +1,16 @@
+3|fin|
+3|tenar1|120
+3|tenar2|80
+3|freres|20
+3|fc|80
+3|tempe|37
+3|peso|80
+3|talla|37
+3|imc|584.368
+3|cintura|80
+3|cadera|80
+3|icc|1,000
+3|dimc|Obesidad
+3|pc|
+3|otros|MPaciente asiste solo por sus propios medios con buen actitud y afecto modulado,con buen seguimiento visual relacionado  al contexto, alerta orientado en tiempo, persona y espacio,  lenguaje bien articulado, nomina, repite con buena fluidez,  memoria de fijación y evocación conservada, juicio raciocinio, y abstracción conservada,campimetría de confrontación sin aleraciones, fundoscopia y oculmotilidad normales,simetría facial,no compromiso de pares cranealea bajos fuerza conservada en las 4 extremidades, rot normales, rmp flexor bilateral, signos meníngeos no, p.cerebelosas pie y marcha normales, sensibilidad superficial y profunda conservadaÆÆ
+3|saox_tri|

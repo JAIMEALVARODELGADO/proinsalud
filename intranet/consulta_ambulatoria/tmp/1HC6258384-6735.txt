@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A702
+1|direccion|CRA 6 N 4-43 MOROCHILLO B/ 
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|VALORACION PREANESTESICA
+1|enfeac|PACIENTE QUIEN ASISTE A VALORACION PREANESTESICA PARA REALIZACION DE  ESOFAGOGASTRODUODENOSCOPIA MAS COLONOSCOPIA TOTAL SECUNDARIO A   GASTRITITS CRONICA MAS SX DE COLON IRRITABLE 
+1|revisi|.
+1|informe|.
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

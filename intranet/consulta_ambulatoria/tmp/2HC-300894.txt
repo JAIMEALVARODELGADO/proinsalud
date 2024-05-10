@@ -1,0 +1,11 @@
+2|person|patologicos: insuficiencia venosa, quirurgicos: negativos, traumaticos: negativos, toxicos: negativos, niega consumo de spa, niega exposicion a toxicos,  alergicos: negativos, farmacologicos: ginkgo biloba ocasional, ocupacion: docente, estado civil soltera, sep 27 2019 habitos nutricionales saludables, actividad fisica moderada, patron de sueño regular, Niega fobias, sociales o personales,  no perdidas familiares actuales Niega ser victima de violencia, fisica, sexual, emocional, psicologica, de genero, niega ser desplazado por la violencia o conflicto armado, no pertenece a etnias o grupos poblacionales especiales 
+2|familia|hipertension arterial : madre y hermana, patologia renal padre, niega antecedentes familiares,  de trastornos mentales, en lo interrogado niega consumo de spa, en familiares cercanos, niega comportamientos suicidas, o suicidios en la familia, eventos cercanos al examen actual 
+2|metodo|
+2|gineco|menarca 13 años, sexarca: 20 años, citologia: julio 2019, celulas esscamosas atipicas, // CONIZACION CERVICAL NIC III /// CITOLOGIA VAGINAL  18/09/2023 NEGATIVA PARA MALIGNIDAD
+2|gestan|1
+2|partos|1
+2|cesareas|0
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

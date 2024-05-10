@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9998
+1|escolaridad|7613
+1|estadocivil|A701
+1|direccion|CRA 4 N 14-40 BARRIO EL SOCORRO 
+1|tidoacu|CC
+1|nudoacu|27142857
+1|pnomacu|SONIA
+1|snomacu|
+1|papeacu|ESTRELLA
+1|sapeacu|
+1|parenacu|MADRE
+1|direacu|PASTO
+1|teleacu|3113570044
+1|muniacu|52001
+1|nommuniacu|PASTO (NARI&#65533;O)
+1|primera|1
+1|codciru|
+1|motivo|VALORACION PREANESTESICA PARA MASTECTOMIA SIMPLE
+1|enfeac|GINECOMASTIA BIALTERAL
+1|revisi|NIEGA
+1|informe|
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

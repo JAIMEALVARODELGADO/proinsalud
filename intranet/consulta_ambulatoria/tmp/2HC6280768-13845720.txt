@@ -1,0 +1,11 @@
+2|person|PATOLOGICO: NIEGA, QUIRURGICO: NIEGA. ALERGICA: NIEGA 
+2|familia|DIABETES MELLITUS TIOS MATERNOS 
+2|metodo|
+2|gineco|G3P2A1, NO PLANIFIACION FAMILIAR, FUM 14/04/2023
+2|gestan|3
+2|partos|2
+2|cesareas|0
+2|abortos|1
+2|vivos|2
+2|mortinatos|1
+2|feulme|

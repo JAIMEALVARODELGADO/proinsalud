@@ -1,0 +1,140 @@
+6|clasemedi|2
+6|codmedi|3000005000213
+6|desmedi|EQUIPO DE MACROGOTEO SIN AGUJA VENOCLISIS 
+6|dosis|
+6|unid|
+6|frecu|
+6|unidfrecu|
+6|via|
+6|tiempo|
+6|obsemed|
+6|canti|1
+6|diagmedi|K580
+6|justifi|
+6|pos|
+6|clasemedi|2
+6|codmedi|3000005000166
+6|desmedi|CATHETER INTRAVENOSO No.20G x 1-1/4    
+6|dosis|
+6|unid|
+6|frecu|
+6|unidfrecu|
+6|via|
+6|tiempo|
+6|obsemed|
+6|canti|1
+6|diagmedi|K580
+6|justifi|
+6|pos|
+6|clasemedi|2
+6|codmedi|3000005000328
+6|desmedi|JERINGA DESECHABLE 5ml  21G x 1 1/2 
+6|dosis|
+6|unid|
+6|frecu|
+6|unidfrecu|
+6|via|
+6|tiempo|
+6|obsemed|
+6|canti|2
+6|diagmedi|K580
+6|justifi|
+6|pos|
+6|clasemedi|2
+6|codmedi|0010001000370
+6|desmedi|CLORURO DE NA - SUERO FISIOLOGICO-100 ML
+6|dosis|
+6|unid|
+6|frecu|
+6|unidfrecu|
+6|via|
+6|tiempo|
+6|obsemed|
+6|canti|2
+6|diagmedi|K580
+6|justifi|
+6|pos|
+6|clasemedi|2
+6|codmedi|3000005000328
+6|desmedi|JERINGA DESECHABLE 5ml  21G x 1 1/2 
+6|dosis|
+6|unid|
+6|frecu|
+6|unidfrecu|
+6|via|
+6|tiempo|
+6|obsemed|
+6|canti|1
+6|diagmedi|K580
+6|justifi|
+6|pos|
+6|clasemedi|2
+6|codmedi|0010001000370
+6|desmedi|CLORURO DE NA - SUERO FISIOLOGICO-100 ML
+6|dosis|
+6|unid|
+6|frecu|
+6|unidfrecu|
+6|via|
+6|tiempo|
+6|obsemed|
+6|canti|1
+6|diagmedi|K580
+6|justifi|
+6|pos|
+6|clasemedi|1
+6|codmedi|041036
+6|desmedi|HIOSCINA N-BUTIL BROMURO 20mg/ml*1 ml SOLUCION INYECTABLE
+6|dosis|1
+6|unid|GR
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2202
+6|tiempo|1
+6|obsemed|pasar lento en 100cc
+6|canti|1
+6|diagmedi|K580
+6|justifi|N
+6|pos|S
+6|clasemedi|1
+6|codmedi|044453
+6|desmedi|OMEPrazol 40 mg POLVO PARA INYECCION
+6|dosis|1
+6|unid|MG
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2202
+6|tiempo|1
+6|obsemed|pasar lento en 100 cc
+6|canti|1
+6|diagmedi|K580
+6|justifi|N
+6|pos|S
+6|clasemedi|1
+6|codmedi|398004
+6|desmedi|DICLOfenaco 75 mg/3 ml*3 ml SOLUCION INYECTABLE
+6|dosis|1
+6|unid|MG
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2202
+6|tiempo|1
+6|obsemed|pasar lento en1 00cc
+6|canti|1
+6|diagmedi|K580
+6|justifi|N
+6|pos|S
+6|clasemedi|2
+6|codmedi|0010001000369
+6|desmedi|CLORURO DE NA-SUERO FISIOLOGICO X 1000 M
+6|dosis|
+6|unid|
+6|frecu|
+6|unidfrecu|
+6|via|
+6|tiempo|
+6|obsemed|
+6|canti|1
+6|diagmedi|K580
+6|justifi|
+6|pos|

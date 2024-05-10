@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA, ACV HEMORRAGICO SIN SECUELAS HACE 4 AÑOS
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HISTERECTOMIA, COLECISTECTOMIA, CRANEOTOMIA PARA DRENAJE HEMATOMA
+2|neofarmacos|LSOARTAN, AMLODIPINO, METFORMINA, EMPAGLIFOZINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|DM TIPO 2 
+2|gineco|.
+2|gestan|6
+2|partos|6
+2|cesareas|0
+2|abortos|0
+2|vivos|6
+2|mortinatos|0
+2|feulme|

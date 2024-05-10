@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|ARTROSCOPIA DE RODILLA IZQUIERDA, HERNIORRAFIA UMBILICAL 
+2|neofarmacos|LEVOTIROXINA 100 MCG CADA DIA 
+2|nuetoxico|HIOSCINA MAS DIPIRONA 
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO, ARTROSIS DEGENERATIVA 
+2|gineco|CITOLOGIA :14/10/2021 NEGATIVO PARA MALIGNIDAD,  MAMOGRAFIA 12/05/2022  BIRADS 2. FUR 2019   CITOLOGIA VPH: 16/12/2022  NEGATIVO PARA TODOS LOS GENOTIPOS.
+2|gestan|4
+2|partos|2
+2|cesareas|0
+2|abortos|2
+2|vivos|2
+2|mortinatos|0
+2|feulme|

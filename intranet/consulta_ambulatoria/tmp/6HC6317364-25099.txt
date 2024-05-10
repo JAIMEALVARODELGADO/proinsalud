@@ -1,0 +1,28 @@
+6|clasemedi|1
+6|codmedi|395123
+6|desmedi|DESONIDA (0,05%)*15g CREMA TOPICA
+6|dosis|1
+6|unid|APLICACION
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2205
+6|tiempo|7
+6|obsemed|
+6|canti|1
+6|diagmedi|L309
+6|justifi|N
+6|pos|N
+6|clasemedi|1
+6|codmedi|782481
+6|desmedi|POLIMIXINA B+LIDOCAINA+NEOMICINA+BETAMETASONA 8 ml SOLUCION OTICA
+6|dosis|2
+6|unid|GOTAS
+6|frecu|8
+6|unidfrecu|Horas
+6|via|2212
+6|tiempo|5
+6|obsemed|
+6|canti|1
+6|diagmedi|H919
+6|justifi|N
+6|pos|N

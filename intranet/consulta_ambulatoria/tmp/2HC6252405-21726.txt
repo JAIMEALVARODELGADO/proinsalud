@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA 2, EVENTRORRAFIA, COLECISTECTOMIA
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|menarquia 15 años Æmenopausia: 49 años ÆÆPROMOCION Y MANTENIMIENTO DE SALUDÆCITOLOGIA 10/05/2022 negativo para malignidad proximo control 2025Æmamografia 03/2023 BIRADS 2ÆTAMIZAJE DE COLONse remite  ÆPACIENTE INSCRITO EN PROGRAMA DE ENFERMEDADES CRONICAS
+2|gestan|3
+2|partos|0
+2|cesareas|2
+2|abortos|1
+2|vivos|2
+2|mortinatos|0
+2|feulme|
