@@ -29,61 +29,83 @@ while($rowtarifa = mysql_fetch_array($resconsulta)){
 	$tarifa->descrip = $rowtarifa['descrip'];	
 	$tarifas[] = $tarifa;	
 }
-
-/*if ($tarifas === null || empty($tarifas) ){
-	echo "es null";
-}*/
-/*foreach ($tarifas as $objetoTarifa) {
-    echo " desde el arreglo iden_tco: " . $objetoTarifa->iden_tco . ", 
-	codi_cup: " . $objetoTarifa->codi_cup . ",
-	descrip: " . $objetoTarifa->descrip . ",
-	valo_tco: " . $objetoTarifa->valo_tco . "<br>";
-	
-}*/
-//echo "<br>iden_tco--- ".$tarifas[0].iden_tco;
-//$json = json_encode($tarifas);
-//echo $json;
 ?>
 
 <html>
 <head>
 <title>PROGRAMA DE FACTURACIÓN</title>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 <script>
 
-function facturar(){
-	alert("Si");
-	document.form1.submit();
+
+function facturar(iden_cpl,iden_tco){	
+	document.getElementById("iden_cpl").value = iden_cpl;
+	document.getElementById("iden_tco").value = iden_tco;
+	//document.form1.submit();
+	
+	$.ajax({			
+            url: 'fac_2facturarconsulta.php', // Ruta al script PHP
+            type: 'POST', // Método de envío de datos
+			data:{
+				iden_cpl:$('#iden_cpl').val(),
+				iden_tco:$('#iden_tco').val(),
+				iden_ctr:$('#iden_ctr').val()
+			},
+			beforeSend: function() {
+        		// Este código se ejecuta antes de enviar la petición
+        		// Puedes generar tu mensaje aquí
+        		$('#mensaje').text('Facturando...');
+    		},
+            success: function(response) { // Función que se ejecuta si la solicitud es exitosa
+                console.log(response); // Imprime la respuesta del servidor en la consola
+				alert(response);
+				$('#mensaje').text('');
+				recargar();
+            },
+            error: function(jqXHR, textStatus, errorThrown) { // Función que se ejecuta si hay un error
+                console.error(textStatus, errorThrown); // Imprime el error en la consola
+            }
+        });
+
+}
+
+function recargar(){
+	// Almacenar los datos en localStorage
+	localStorage.setItem('postdata', JSON.stringify(postdata));
+
+	// Recargar la página
+	location.reload();
+
+	// Después de la recarga, recuperar los datos
+	var postdata = JSON.parse(localStorage.getItem('postdata'));
+
+	// Limpiar los datos de localStorage
+	localStorage.removeItem('postdata');
 }
 </script>
 
 <link rel="stylesheet" href="css/style.css" type="text/css" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 </head>
 
-<form name="form1" method="POST" action="fac_2facturarconsulta.php" target='fr02'>
+<form id="form1" name="form1" method="POST" action="fac_2facturarconsulta.php" target='fr02'>
 <body lang=ES  style='tab-interval:35.4pt'  >
 <table class="Tbl0"><tr><td class="Td0" align='center'>INFORMACION DE CONSULTAS </td></tr></table><br>
-
+<div id="mensaje"></div>
 <center><table class="Tbl0" border=1>
 	<tr>
 	  <?php
 
-        /*echo"<br>fecha ".$fecha;
-        echo"<br>identificacion ".$nrod_usu;
-        echo"<br>servicio ".$servicio;
-		echo"<br>tarifario ".$tarifario;*/
-
-	  	$condicion='';
+	  	$condicion='c.iden_dfa = 0 AND ';
         if(!empty($fecha)){$condicion=$condicion."c.feca_cpl = '$fecha' AND ";}
         if(!empty($nrod_usu)){$condicion=$condicion."u.NROD_USU='$nrod_usu' AND ";}
 		if(!empty($servicio)){$condicion=$condicion."c.area_cpl='$servicio' AND ";}		
 		if(!empty($contrato)){$condicion=$condicion."e.cont_ehi='$contrato' AND ";}		
 
 		$condicion=SUBSTR($condicion,0,-5);
-        //echo "<br>Condicion ".$condicion;
-
-        //if(!empty($orden)){$condicion=$condicion." ORDER BY $orden";}
 
 		$_pagi_sql="SELECT e.cous_ehi,c.iden_cpl,e.cont_ehi,c.feca_cpl,c.area_cpl,
         u.NROD_USU, CONCAT(U.PNOM_USU,' ',U.SNOM_USU,' ',U.PAPE_USU,' ',U.SAPE_USU) nombre,
@@ -93,7 +115,7 @@ function facturar(){
         INNER JOIN usuario u ON u.CODI_USU = e.cous_ehi
         INNER JOIN contrato ct on ct.CODI_CON = e.cont_ehi 
         WHERE ".$condicion;
-        //echo "<br><br>".$_pagi_sql;
+        echo "<br><br>".$_pagi_sql;
 		
         $_pagi_result=mysql_query($_pagi_sql);
 		if(mysql_num_rows($_pagi_result)!=0){
@@ -107,17 +129,13 @@ function facturar(){
 				<th class='Th0' width='7%'>Valor</th>";
 			while($row = mysql_fetch_array($_pagi_result)){
 				echo "<tr>";
-				//$valor = traevalor($codigoconsulta,$resconsulta);
-				//$consultatarifario="SELECT * FROM tarco t WHERE iden_ctr = $tarifario";
-				//echo "<br>".$consultatarifario;
-				//echo "<td><label><input name=codichk type=checkbox onclick=\"location.href='fac_2encab.php?id_ing=$row[id_ing]'\"></label></td>";
-				//echo "<td><label><a href='#' onclick='envio()' ><img src='icons/feed_magnify.png' border='0' alt='Continuar' width=20 height=20 title='Buscar'></a></label></td>";
-				$tarifaFiltro = filtrarTarco($tarifas,$codigoconsulta);
-				//echo "<br>".$tarifa->iden_tco;
-				//echo "<br>Tarifa reusltante...".$tarifa->valo_tco;
-
-				//echo $tarifa->valo_tco;
-				echo "<td><a href='#' onclick='facturar()'><img src='icons/feed_go.png' border='0' alt='Facturar' width=20 height=20 title='Facturar'></a></td>";
+				$tarifaFiltro = filtrarTarco($tarifas,$codigoconsulta);				
+				if (is_null($tarifaFiltro->iden_tco)){					
+					echo "<td></td>";
+				}
+				else{
+					echo "<td><a href='#' onclick='facturar($row[iden_cpl],$tarifaFiltro->iden_tco)'><img src='icons/feed_go.png' border='0' alt='Facturar' width=20 height=20 title='Facturar'></a></td>";
+				}				
 				echo "<td class='Td2'>".$row['NROD_USU']."</td>";
 				echo "<td class='Td2'>".$row['nombre']."</td>";
 				echo "<td class='Td2'>".$row['NEPS_CON']."</td>";
@@ -144,6 +162,10 @@ function facturar(){
 		echo"<input name=orden type=hidden>";
 	  ?>
 	</tr>
+	</table>
+	<input type="text" id="iden_cpl" name='iden_cpl'>
+	<input type="text" id="iden_tco" name='iden_tco'>
+	<input type="text" id="iden_ctr" name='iden_ctr' value='<?php echo $tarifario;?>'>
 </form>
 </body>
 </html>
@@ -159,18 +181,12 @@ class Tarco {
 }
 
 function filtrarTarco($tarifas_,$codigo_){
-	//echo "<br>cod...".$cod;
-	//echo "<br>cantidad ".count($arr);
 	$tarifaEncontrada = new Tarco();
 	foreach ($tarifas_ as $objetoTarifa){
-		//echo "<br>obj... ".$objetoTarifa->codi_cup." == var--- ".$codigo_;
-		//echo "<br>Son iguales? ".$objetoTarifa->codi_cup == $codigo_;
 		if($objetoTarifa->codi_cup == $codigo_){
-			//echo "<br>Si son iguales---";
 			$tarifaEncontrada = $objetoTarifa;
 		}
 	}
-	//echo "<br>En la funcion---".$tarifaEncontrada->valo_tco;
 	return $tarifaEncontrada;
 }
 ?>
