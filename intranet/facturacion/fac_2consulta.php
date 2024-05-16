@@ -56,12 +56,14 @@ function facturar(iden_cpl,iden_tco){
 			beforeSend: function() {
         		// Este código se ejecuta antes de enviar la petición
         		// Puedes generar tu mensaje aquí
+				document.getElementById("mensaje").style.display = "block";
         		$('#mensaje').text('Facturando...');
     		},
             success: function(response) { // Función que se ejecuta si la solicitud es exitosa
                 console.log(response); // Imprime la respuesta del servidor en la consola
-				alert(response);
-				$('#mensaje').text('');
+				//alert(response);				
+				$('#mensaje').text(response);
+				//document.getElementById("mensaje").style.display = "none";
 				recargar();
             },
             error: function(jqXHR, textStatus, errorThrown) { // Función que se ejecuta si hay un error
@@ -94,7 +96,7 @@ function recargar(){
 <form id="form1" name="form1" method="POST" action="fac_2facturarconsulta.php" target='fr02'>
 <body lang=ES  style='tab-interval:35.4pt'  >
 <table class="Tbl0"><tr><td class="Td0" align='center'>INFORMACION DE CONSULTAS </td></tr></table><br>
-<div id="mensaje"></div>
+<div id="mensaje" class="Caja1" style="display: none;"></div>
 <center><table class="Tbl0" border=1>
 	<tr>
 	  <?php
@@ -115,7 +117,7 @@ function recargar(){
         INNER JOIN usuario u ON u.CODI_USU = e.cous_ehi
         INNER JOIN contrato ct on ct.CODI_CON = e.cont_ehi 
         WHERE ".$condicion;
-        echo "<br><br>".$_pagi_sql;
+        //echo "<br><br>".$_pagi_sql;
 		
         $_pagi_result=mysql_query($_pagi_sql);
 		if(mysql_num_rows($_pagi_result)!=0){
@@ -163,9 +165,9 @@ function recargar(){
 	  ?>
 	</tr>
 	</table>
-	<input type="text" id="iden_cpl" name='iden_cpl'>
-	<input type="text" id="iden_tco" name='iden_tco'>
-	<input type="text" id="iden_ctr" name='iden_ctr' value='<?php echo $tarifario;?>'>
+	<input type="hidden" id="iden_cpl" name='iden_cpl'>
+	<input type="hidden" id="iden_tco" name='iden_tco'>
+	<input type="hidden" id="iden_ctr" name='iden_ctr' value='<?php echo $tarifario;?>'>
 </form>
 </body>
 </html>

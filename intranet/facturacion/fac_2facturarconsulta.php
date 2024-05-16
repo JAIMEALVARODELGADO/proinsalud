@@ -38,8 +38,8 @@ $consulta_tarifa = mysql_query($consulta_tarifa);
 $rowtarifa = mysql_fetch_array($consulta_tarifa);
 
 //Aqui se crea el registro de la factura
-$sql="INSERT INTO encabezado_factura (tipo_fac,feci_fac,fecf_fac,codi_usu,codi_con,iden_ctr,cod_cie10,area_fac,vtot_fac,pcop_fac,vcop_fac,pdes_fac,cmod_fac,vnet_fac,esta_fac,enti_fac,anul_fac,usua_fac)
-VALUES('2','$rowcon[feca_cpl]','$rowcon[feca_cpl]','$rowcon[cous_ehi]','$rowcon[cont_ehi]','$_POST[iden_ctr]','$rowcon[cod1_cpl]','$rowarea[codi_des]','$rowtarifa[valo_tco]','0','0','0','0','$rowtarifa[valo_tco]','1','$rowcon[NIT_CON]','N','$Gidusufac')";
+$sql="INSERT INTO encabezado_factura (nume_fac,tipo_fac,feci_fac,fecf_fac,codi_usu,codi_con,iden_ctr,cod_cie10,area_fac,vtot_fac,pcop_fac,vcop_fac,pdes_fac,cmod_fac,vnet_fac,esta_fac,enti_fac,anul_fac,usua_fac)
+VALUES('','2','$rowcon[feca_cpl]','$rowcon[feca_cpl]','$rowcon[cous_ehi]','$rowcon[cont_ehi]','$_POST[iden_ctr]','$rowcon[cod1_cpl]','$rowarea[codi_des]','$rowtarifa[valo_tco]','0','0','0','0','$rowtarifa[valo_tco]','1','$rowcon[NIT_CON]','N','$Gidusufac')";
 //echo "<br>".$sql;
 
 mysql_query($sql);
