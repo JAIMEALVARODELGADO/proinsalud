@@ -328,7 +328,6 @@ textarea {
 
 
 .Caja1 {    
-    /*margin: 10px 25% 10px 25%;*/
     padding: 60px 10px 10px 10px;
     position: fixed; 
     top: 50px; 
@@ -340,7 +339,7 @@ textarea {
     height: 100px;
     text-align: center;
     vertical-align: center;
-    background: #006699d2; 
+    background: #006699de; 
     font-size: 18;
-    color: rgb(255, 254, 254);
+    color: rgb(255, 255, 255);
 }
