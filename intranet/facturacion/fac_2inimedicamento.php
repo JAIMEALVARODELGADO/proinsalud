@@ -18,9 +18,14 @@ session_start();
 	
 	function envio()
 	{
-	    form1.action='fac_2medicamento.php';
-		form1.target='fr02';
-		form1.submit();
+		if(form1.fecha.value==""){
+			alert("Debe elegir la fecha");
+		}
+		else{
+			form1.action='fac_2medicamento.php';
+			form1.target='fr02';
+			form1.submit();
+		}
 	}
 
 	function mostrarTarifario()
@@ -90,6 +95,15 @@ session_start();
 		<td class="Td2" align='left' width='10%'>
 	  	<select id='tarifario' name='tarifario'><option value=''></option>
 	  	 
+	  	</select>
+		</td>
+
+		<td class="Td2" align='right' width='10%'><b>Tipo</td>
+		<td class="Td2" align='left' width='10%'>
+	  	<select id='tipo' name='tipo'>
+			<option value=''></option>
+			<option value='M'>Medicamento</option>
+			<option value='I'>Insumo</option>	  	 
 	  	</select>
 		</td>
 	</tr>
