@@ -36,12 +36,25 @@ foreach($listaItems as $item) {
 
 
         //Aqui se crea el registro de la factura
-        $sql="INSERT INTO encabezado_factura (id_ing,nume_fac,tipo_fac,feci_fac,fecf_fac,codi_usu,codi_con,iden_ctr,cod_cie10,area_fac,vtot_fac,pcop_fac,vcop_fac,pdes_fac,cmod_fac,vnet_fac,esta_fac,enti_fac,anul_fac,usua_fac)
-        VALUES('$rowapli[id_ing]','','2','$rowapli[fech_adi]','$rowapli[fech_adi]','$rowapli[codius_ing]','$rowapli[contra_ing]','$item[iden_ctr]','$rowevo[cod_cie10]','$rowapli[ubica_ing]','0','0','0','0','0','0','1','$rowapli[NIT_CON]','N','$Gidusufac')";
-        //echo "<br>".$sql;
+        
+        $consultafac="SELECT ef.iden_fac FROM encabezado_factura ef 
+        WHERE ef.esta_fac ='1' AND ef.id_ing = '$rowapli[id_ing]'";
+        //echo "<br>".$consultafac;
 
-        mysql_query($sql);
-        $iden_fac=mysql_insert_id();
+        $consultafac=mysql_query($consultafac);
+        if(mysql_num_rows($consultafac) == 0){
+            $sql="INSERT INTO encabezado_factura (id_ing,nume_fac,tipo_fac,feci_fac,fecf_fac,codi_usu,codi_con,iden_ctr,cod_cie10,area_fac,vtot_fac,pcop_fac,vcop_fac,pdes_fac,cmod_fac,vnet_fac,esta_fac,enti_fac,anul_fac,usua_fac)
+            VALUES('$rowapli[id_ing]','','2','$rowapli[fech_adi]','$rowapli[fech_adi]','$rowapli[codius_ing]','$rowapli[contra_ing]','$item[iden_ctr]','$rowevo[cod_cie10]','$rowapli[ubica_ing]','0','0','0','0','0','0','1','$rowapli[NIT_CON]','N','$Gidusufac')";
+            //echo "<br>".$sql;
+
+            mysql_query($sql);
+            $iden_fac=mysql_insert_id();
+        }
+        else{
+            $rowfac = mysql_fetch_array($consultafac);
+            $iden_fac = $rowfac['iden_fac'];
+        }
+        
     }
 
     //Aqui se consulta los medicamentos o insumos
@@ -72,7 +85,7 @@ foreach($listaItems as $item) {
     //Aqui se valida si ya existe un detalle creado para aumentar la cantidad
     $consultadet="SELECT df.iden_dfa  FROM detalle_factura df 
     WHERE iden_fac ='$iden_fac' AND iden_tco = '$item[iden_tco]'";
-    echo "<br>".$consultadet;
+    //echo "<br>".$consultadet;
     $consultadet=mysql_query($consultadet);
     if(mysql_num_rows($consultadet) == 0){
         $sqldetalle="INSERT INTO detalle_factura(tipo_dfa,iden_fac,iden_tco,desc_dfa,cant_dfa,valu_dfa,esta_dfa,nauto_dfa,cod_medi,servi_dfa,fecservi_dfa)

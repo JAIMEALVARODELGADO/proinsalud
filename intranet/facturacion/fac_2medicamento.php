@@ -167,15 +167,7 @@ function recargar(){
 <body lang=ES  style='tab-interval:35.4pt'  >
 <table class="Tbl0"><tr><td class="Td0" align='center'>INFORMACION DE APLICACIONES </td></tr></table><br>
 <div id="mensaje" class="Caja1" style="display: none;"></div>
-<br>Soicitar fecha obligatoria en los parametros
-<br>Ordenar por paciente y colocar diferente color a cada paciente
-<br>Quitar la fecha del listado
-<br>Colocar tipo(insumo o medicamento) en los parámetros
-<br>Soicitar fecha obligatoria en los parametros
-<br>Acumular los medicamentos en insumos en la facturar
-<br>Colocar un checkbox para activar todos los demás
-<br>Colocar la cantidad en el listado
-<br>Colocar formato de numeros a los valores
+<!--<br>Colocar un checkbox para activar todos los demás-->
 
 <center><table class="Tbl0" border=1>
 	<tr>
@@ -202,7 +194,7 @@ function recargar(){
         INNER JOIN usuario u ON u.CODI_USU = ih.codius_ing 
         INNER JOIN contrato c ON c.CODI_CON = ih.contra_ing         
         WHERE ".$condicion." ORDER BY u.NROD_USU";
-        echo "<br><br>".$_pagi_sql;
+        //echo "<br><br>".$_pagi_sql;
 		
         $_pagi_result=mysql_query($_pagi_sql);
 		if(mysql_num_rows($_pagi_result)!=0){
