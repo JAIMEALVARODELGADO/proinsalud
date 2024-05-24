@@ -69,11 +69,26 @@ foreach($listaItems as $item) {
         
     }
 
-    $sqldetalle="INSERT INTO detalle_factura(tipo_dfa,iden_fac,iden_tco,desc_dfa,cant_dfa,valu_dfa,esta_dfa,nauto_dfa,cod_medi,servi_dfa,fecservi_dfa)
-    VALUES('$rowapli[tpin_adi]' ,'$iden_fac','$item[iden_tco]','$descripcion','$rowapli[cant_adi]','$valor' ,'1','','$rowapli[resp_adi]','$rowapli[ubica_ing]','$rowapli[fech_adi]')";
-    //echo "<br>".$sqldetalle;
-    mysql_query($sqldetalle);
-    $iden_dfa=mysql_insert_id();
+    //Aqui se valida si ya existe un detalle creado para aumentar la cantidad
+    $consultadet="SELECT df.iden_dfa  FROM detalle_factura df 
+    WHERE iden_fac ='$iden_fac' AND iden_tco = '$item[iden_tco]'";
+    echo "<br>".$consultadet;
+    $consultadet=mysql_query($consultadet);
+    if(mysql_num_rows($consultadet) == 0){
+        $sqldetalle="INSERT INTO detalle_factura(tipo_dfa,iden_fac,iden_tco,desc_dfa,cant_dfa,valu_dfa,esta_dfa,nauto_dfa,cod_medi,servi_dfa,fecservi_dfa)
+        VALUES('$rowapli[tpin_adi]' ,'$iden_fac','$item[iden_tco]','$descripcion','$rowapli[cant_adi]','$valor' ,'1','','$rowapli[resp_adi]','$rowapli[ubica_ing]','$rowapli[fech_adi]')";
+        //echo "<br>".$sqldetalle;
+        mysql_query($sqldetalle);
+        $iden_dfa=mysql_insert_id();
+    }
+    else{
+        $rowdet = mysql_fetch_array($consultadet);
+        $iden_dfa=$rowdet['iden_dfa'];
+        $sqldetalle="UPDATE detalle_factura SET cant_dfa = cant_dfa + $rowapli[cant_adi] 
+        WHERE iden_dfa='$iden_dfa'";
+        //echo "<br>".$sqldetalle;
+        mysql_query($sqldetalle);        
+    }    
 
     $sqlactfac="
     UPDATE encabezado_factura SET vtot_fac =

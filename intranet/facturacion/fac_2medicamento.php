@@ -189,10 +189,11 @@ function recargar(){
         if(!empty($nrod_usu)){$condicion=$condicion."u.NROD_USU='$nrod_usu' AND ";}
 		if(!empty($servicio)){$condicion=$condicion."ih.ubica_ing='$servicio' AND ";}		
 		if(!empty($contrato)){$condicion=$condicion."ih.contra_ing='$contrato' AND ";}		
+		if(!empty($tipo)){$condicion=$condicion."ai.tpin_adi='$tipo' AND ";}		
 
 		$condicion=SUBSTR($condicion,0,-5);
 		//echo $condicion;
-		$_pagi_sql="SELECT ai.iden_adi,ai.tpin_adi,ai.idin_adi , CONCAT(ai.fech_adi,' ',ai.hora_adi) AS fecha,		
+		$_pagi_sql="SELECT ai.iden_adi,ai.tpin_adi,ai.idin_adi , CONCAT(ai.fech_adi,' ',ai.hora_adi) AS fecha, ai.cant_adi,
 		c.CODI_CON ,c.NEPS_CON ,u.NROD_USU , CONCAT(u.PNOM_USU,' ',u.SNOM_USU,' ',u.PAPE_USU,' ',u.SAPE_USU) as nombre,ih.ubica_ing	
 		,d.nomb_des AS servicio
 		FROM administra_insumo ai 
@@ -200,7 +201,7 @@ function recargar(){
 		LEFT JOIN destipos d ON d.codi_des = ih.ubica_ing
         INNER JOIN usuario u ON u.CODI_USU = ih.codius_ing 
         INNER JOIN contrato c ON c.CODI_CON = ih.contra_ing         
-        WHERE ".$condicion;
+        WHERE ".$condicion." ORDER BY u.NROD_USU";
         echo "<br><br>".$_pagi_sql;
 		
         $_pagi_result=mysql_query($_pagi_sql);
@@ -210,13 +211,25 @@ function recargar(){
                 <th class='Th0' width='10%'>Identificación</th>
                 <th class='Th0' width='15%'>Nombre</th>
 				<th class='Th0' width='10%'>Servicio</th>
-			    <th class='Th0' width='15%'>Contrato</th>
-			    <th class='Th0' width='10%'>Fecha</th>
+			    <th class='Th0' width='15%'>Contrato</th>			    
 				<th class='Th0' width='5%'>Tipo</th>
 				<th class='Th0' width='25%'>Medicamento/Insumo</th>
+				<th class='Th0' width='5%'>Cantidad</th>
 				<th class='Th0' width='7%'>Valor</th>";
+			$color="style='background-color: #8b8b8b67'";
+			$nrod_usu="";
 			while($row = mysql_fetch_array($_pagi_result)){
-				echo "<tr>";
+				if($nrod_usu <> $row['NROD_USU']){					
+					$nrod_usu = $row['NROD_USU'];
+					if(empty($color)){
+						$color="style='background-color: #8b8b8b67'";
+					}
+					else{
+						$color="";
+					}
+					
+				}
+				echo "<tr $color>";
 
 				$servicio=$row['servicio'];
 				if(is_null($row['servicio'])){
@@ -235,8 +248,6 @@ function recargar(){
 				echo "<td class='Td2'>".$row['nombre']."</td>";
 				echo "<td class='Td2'>".$servicio."</td>";
 				echo "<td class='Td2'>".$row['NEPS_CON']."</td>";
-				echo "<td class='Td2'>".SUBSTR($row['fecha'],0,16)."</td>";
-				
 				echo "<td class='Td2'>".$row[tpin_adi]."</td>";
 
 				if($row[tpin_adi] == 'M'){
@@ -247,12 +258,12 @@ function recargar(){
 				}				
 
 				echo "<td class='Td2'>".$row['idin_adi']." ".$descripcion."</td>";
-								
+				echo "<td class='Td2'>".$row['cant_adi']."</td>";
 				if (is_null($tarifaFiltro->iden_tco)){						
 					echo "<td class='Td2'>Sin tarifario</td>";
 				}
 				else{						
-					echo "<td class='Td2'>".$tarifaFiltro->valo_tco."</td>";					
+					echo "<td class='Td5'>".number_format($tarifaFiltro->valo_tco,0, '.', ',')."</td>";					
 				}					
 				
 				echo "</tr>";
