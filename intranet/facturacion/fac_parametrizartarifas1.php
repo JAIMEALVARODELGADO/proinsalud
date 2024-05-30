@@ -118,19 +118,14 @@ include('php/conexion.php');
 $iden_ctr = $_GET['iden_ctr'];
 $codi_con = $_GET['codi_con'];
 
-echo "<br>".$iden_ctr;
-echo "<br>".$codi_con;
-
 //Aqui se consula el nombre del contrato
 $consultacontrato = "SELECT c.neps_con, cc.nume_ctr 
 FROM contrato c 
 INNER JOIN contratacion cc ON cc.codi_con = c.CODI_CON  
 WHERE cc.iden_ctr = '$iden_ctr'";
-echo "<br>".$consultacontrato;
+//echo "<br>".$consultacontrato;
 $consultacontrato = mysql_query($consultacontrato);
 $rowcont = mysql_fetch_array($consultacontrato);
-
-
 
 ?>
 <body lang=ES  style='tab-interval:35.4pt'  >
@@ -163,9 +158,11 @@ $rowcont = mysql_fetch_array($consultacontrato);
     </tr>
 </table>
 
-<input type="text" id='iden_ctr' value='<?php echo $iden_ctr;?>'>
+<input type="hidden" id='iden_ctr' value='<?php echo $iden_ctr;?>'>
 
-<div id="estado" class="Caja2"></div>
+<div id="estado" class="Caja2">
+    <p>Resultado de la parametrización
+</div>
 
 <?php
 mysql_close();

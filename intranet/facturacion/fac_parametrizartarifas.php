@@ -3,29 +3,15 @@ set_time_limit(0);
 
 include('php/conexion.php');
 
-//$conexion = mysqli_connect("localhost","root","","proinsalud");
-$conexion = mysqli_connect("192.168.4.12","root","","proinsalud");
+
+$conexionI = conectarBd();
 
 $msj="";
-//echo $_POST['contenido'];
 $listaItems = $_POST['contenido'];
 $iden_ctr = $_POST['iden_ctr'];
-//echo $iden_ctr;
+
 $linea = 1;
 foreach ($listaItems as $item) {        
-    /*echo "Código: " . $item['Codigo'] . "<br>";
-    echo "Tipo: " . $item['Tipo']. "<br>";
-    echo "Grupo: " . $item['Grupo']. "<br>";
-    echo "Clase: " . $item['Clase']. "<br>";
-    echo "Valor: " . $item['Valor']. "<br>";*/
-    
-    /*if($item['Clase']<>'P' and $item['Clase']<>'M' and $item['Clase']<>'I'){
-        $msj = $msj."Linea: ".$linea." Clase ".$item['Clase']." no válido \n";
-    }*/
-    //$val_=validarCodigo($item['Clase'],$item['Codigo']);
-    //$msj= $msj.$val_;
-
-    //$clase = strtoupper($item['Clase']);
 
     $tarco = new Tarco();
     $tarco->codigo_cups = $item['Codigo'];
@@ -35,28 +21,25 @@ foreach ($listaItems as $item) {
     $tarco->valo_tco= $item['Valor'];
     $tarco->iden_ctr = $iden_ctr;
 
-    /*echo "<br>Tarco".$tarco->codigo_cups;
-    echo "<br>".$tarco->tser_tco;
-    echo "<br>".$tarco->grqx_tco;
-    echo "<br>".$tarco->clas_tco;
-    echo "<br>".$tarco->valo_tco;
-    echo "<br>".$tarco->iden_ctr;*/
-
-    //$tarco->actualizar();
-
     $resp = "";
     switch($tarco->clas_tco){
         case 'P':
-            $resp = $tarco->actualizar($conexion);
+            $resp = $tarco->actualizar($conexionI);
             if(!empty($resp)){
                 $msj = $msj."Linea: ".$linea." ".$resp." \\n";
             }
             break;
         case 'M':
-            //echo "M";
+            $resp = $tarco->actualizarMedicamentos($conexionI);
+            if(!empty($resp)){
+                $msj = $msj."Linea: ".$linea." ".$resp." \\n";
+            }
             break;
         case 'I':
-            //echo "I";
+            $resp = $tarco->actualizarDispositivos($conexionI);
+            if(!empty($resp)){
+                $msj = $msj."Linea: ".$linea." ".$resp." \\n";
+            }
             break;
         default:
             $msj = $msj."Linea: ".$linea." Clase ".$item['Clase']." no válido \\n";
@@ -66,7 +49,7 @@ foreach ($listaItems as $item) {
 
 }
 
-mysqli_close($conexion);
+mysqli_close($conexionI);
 
 echo $msj;
     
@@ -88,7 +71,7 @@ class Tarco {
         FROM destipos d  
         WHERE d.codt_des='01' AND codi_des ='$this->tser_tco'";
         //echo "<br>".$consultatipo;
-        $consultatipo=mysqli_query($conexion_,$consultatipo);
+        $consultatipo=mysqli_query($conexion_,$consultatipo);        
         if(mysqli_num_rows($consultatipo)==0){
             $error = true;
             $respuesta_=$respuesta_."Tipo de servicio ".$this->tser_tco." no encontrado";
@@ -116,61 +99,97 @@ class Tarco {
             $consultatar = mysqli_query($conexion_,$consultatar);
             if(mysqli_num_rows($consultatar) == 0 ){
                 $query="INSERT INTO tarco(iden_tco,iden_map,iden_ctr,tser_tco,clas_tco,valo_tco,grqx_tco,esta_tco)
-                VALUES(0,$iden_map,$this->iden_ctr,'$this->tser_tco','$this->clas_tco',$this->valo_tco,'$this->grqx_tco','AC')";
+                VALUES(0,'$iden_map','$this->iden_ctr','$this->tser_tco','$this->clas_tco',$this->valo_tco,'$this->grqx_tco','AC')";
                 //echo "<br>".$query;
                 $res=mysqli_query($conexion_,$query);
                 //echo "<br>".mysqli_affected_rows($conexion_);
             }
-        }            
+        }
         return $respuesta_;
     }
 
-    public function actualizarDispositivos() {
-        /*echo "<br><br>COD ".$this->codigo_cups;
-        echo "<br>TS ".$this->tser_tco;
-        echo "<br>GR ".$this->grqx_tco;
-        echo "<br>CLAS ".$this->clas_tco;
-        echo "<br>VAL ".$this->valo_tco;*/
+    public function actualizarDispositivos($conexion_) {
+        $error = false;
+        $respuesta_="";
 
-        $conexion = mysqli_connect("192.168.4.12","root","","proinsalud");
-        $consultacups="SELECT codnue FROM insu_med WHERE codnue = '$this->codigo_cups'";
-        //echo "<br>".$consultacups;
-        $respuestacups=mysqli_query($conexion,$consultacups);
-        if(mysqli_num_rows($respuestacups) <> 0){
+        $consultatipo="SELECT d.codi_des 
+        FROM destipos d  
+        WHERE d.codt_des='01' AND codi_des ='$this->tser_tco'";
+        //echo "<br>".$consultatipo;
+        $consultatipo = mysqli_query($conexion_,$consultatipo);        
+        if(mysqli_num_rows($consultatipo)==0){
+            $error = true;
+            $respuesta_=$respuesta_."Tipo de servicio ".$this->tser_tco." no encontrado";
+        }
+        
+        $consultains="SELECT codnue FROM insu_med WHERE codnue = '$this->codigo_cups'";
+        //echo "<br>".$consultains;
+        $respuestains = mysqli_query($conexion_,$consultains);
+        if(mysqli_num_rows($respuestains) == 0){        
+            $respuesta_=$respuesta_." Código del dispositivo  ".$this->codigo_cups." no encontrado";
+            $error = true;
+        }
+
+        if(!$error){   
             //$rowcups = mysqli_fetch_array($respuestacups);
             $iden_map=$this->codigo_cups;
             
-            $query="INSERT INTO tarco(iden_tco,iden_map,iden_ctr,tser_tco,clas_tco,valo_tco,grqx_tco,esta_tco)
-            VALUES(0,$iden_map,$this->iden_ctr,'$this->tser_tco','$this->clas_tco',$this->valo_tco,'$this->grqx_tco','AC')";
-            //echo "<br>".$query;
-            $res=mysqli_query($conexion,$query);
-            //echo "<br>".mysqli_affected_rows($conexion);
-        }        
-        mysqli_close($conexion);
+            //Aqui se verifica si el medicamento ya está parametrizado
+            $consultatar="SELECT t.iden_tco,t.iden_map FROM tarco t
+            WHERE t.iden_map = '$iden_map' and t.iden_ctr = '$this->iden_ctr'";
+            //echo "<br>".$consultatar;
+            $consultatar = mysqli_query($conexion_,$consultatar);
+            if(mysqli_num_rows($consultatar) == 0 ){
+                $query="INSERT INTO tarco(iden_tco,iden_map,iden_ctr,tser_tco,clas_tco,valo_tco,grqx_tco,esta_tco)
+                VALUES(0,$iden_map,$this->iden_ctr,'$this->tser_tco','$this->clas_tco',$this->valo_tco,'$this->grqx_tco','AC')";
+                //echo "<br>".$query;
+                $res=mysqli_query($conexion_,$query);                
+            }            
+        }
+        return $respuesta_;
     }
 
-    public function actualizarMedicamentos() {
-        /*echo "<br><br>COD ".$this->codigo_cups;
-        echo "<br>TS ".$this->tser_tco;
-        echo "<br>GR ".$this->grqx_tco;
-        echo "<br>CLAS ".$this->clas_tco;
-        echo "<br>VAL ".$this->valo_tco;*/
+    public function actualizarMedicamentos($conexion_) {
+        $error = false;
+        $respuesta_="";
 
-        $conexion = mysqli_connect("192.168.4.12","root","","proinsalud");
-        $consultacups="SELECT codi_mdi,ncsi_medi FROM medicamentos2 WHERE ncsi_medi = '$this->codigo_cups'";
-        //echo "<br>".$consultacups;
-        $respuestacups=mysqli_query($conexion,$consultacups);
-        if(mysqli_num_rows($respuestacups) <> 0){
-            $rowcups = mysqli_fetch_array($respuestacups);
-            $iden_map=$rowcups['codi_mdi'];
+        $consultatipo="SELECT d.codi_des 
+        FROM destipos d  
+        WHERE d.codt_des='01' AND codi_des ='$this->tser_tco'";
+        //echo "<br>".$consultatipo;
+        $consultatipo=mysqli_query($conexion_,$consultatipo);        
+        if(mysqli_num_rows($consultatipo)==0){
+            $error = true;
+            $respuesta_=$respuesta_."Tipo de servicio ".$this->tser_tco." no encontrado";
+        }
+
+        $consultamedicam="SELECT codi_mdi,ncsi_medi FROM medicamentos2 WHERE ncsi_medi = '$this->codigo_cups'";
+        //echo "<br>".$consultamedicam;
+        
+        $respuestamedicam=mysqli_query($conexion_,$consultamedicam);
+        if(mysqli_num_rows($respuestamedicam) == 0){            
+            $respuesta_=$respuesta_." Código del medicamento  ".$this->codigo_cups." no encontrado";
+            $error = true;
+        }
+
+        if(!$error){   
+           $rowmed = mysqli_fetch_array($respuestamedicam);
+            $iden_map=$rowmed['codi_mdi'];
+            //echo "<br>".$iden_map;
             
-            $query="INSERT INTO tarco(iden_tco,iden_map,iden_ctr,tser_tco,clas_tco,valo_tco,grqx_tco,esta_tco)
-            VALUES(0,$iden_map,$this->iden_ctr,'$this->tser_tco','$this->clas_tco',$this->valo_tco,'$this->grqx_tco','AC')";
-            //echo "<br>".$query;
-            $res=mysqli_query($conexion,$query);
-            //echo "<br>".mysqli_affected_rows($conexion);
-        }        
-        mysqli_close($conexion);
+            //Aqui se verifica si el medicamento ya está parametrizado
+            $consultatar="SELECT t.iden_tco,t.iden_map FROM tarco t
+            WHERE t.iden_map = '$iden_map' and t.iden_ctr = '$this->iden_ctr'";
+            //echo "<br>".$consultatar;
+            $consultatar = mysqli_query($conexion_,$consultatar);
+            if(mysqli_num_rows($consultatar) == 0 ){
+                $query="INSERT INTO tarco(iden_tco,iden_map,iden_ctr,tser_tco,clas_tco,valo_tco,grqx_tco,esta_tco)
+                VALUES(0,'$iden_map','$this->iden_ctr','$this->tser_tco','$this->clas_tco',$this->valo_tco,'$this->grqx_tco','AC')";
+                //echo "<br>".$query;
+                $res=mysqli_query($conexion_,$query);
+            }
+        }
+        return $respuesta_;
     }
 }
 
