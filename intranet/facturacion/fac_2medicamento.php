@@ -208,13 +208,13 @@ function recargar(){
 				<th class='Th0' width='25%'>Medicamento/Insumo</th>
 				<th class='Th0' width='5%'>Cantidad</th>
 				<th class='Th0' width='7%'>Valor</th>";
-			$color="style='background-color: #8b8b8b67'";
+			$color="style='background-color: #8a9ca333'";
 			$nrod_usu="";
 			while($row = mysql_fetch_array($_pagi_result)){
 				if($nrod_usu <> $row['NROD_USU']){					
 					$nrod_usu = $row['NROD_USU'];
 					if(empty($color)){
-						$color="style='background-color: #8b8b8b67'";
+						$color="style='background-color: #8a9ca333'";
 					}
 					else{
 						$color="";

@@ -26,27 +26,25 @@ foreach ($listaItems as $item) {
         case 'P':
             $resp = $tarco->actualizar($conexionI);
             if(!empty($resp)){
-                $msj = $msj."Linea: ".$linea." ".$resp." \\n";
+                $msj = $msj."<br>Linea: ".$linea." ".$resp;
             }
             break;
         case 'M':
             $resp = $tarco->actualizarMedicamentos($conexionI);
             if(!empty($resp)){
-                $msj = $msj."Linea: ".$linea." ".$resp." \\n";
+                $msj = $msj."<br>Linea: ".$linea." ".$resp;
             }
             break;
         case 'I':
             $resp = $tarco->actualizarDispositivos($conexionI);
             if(!empty($resp)){
-                $msj = $msj."Linea: ".$linea." ".$resp." \\n";
+                $msj = $msj."<br>Linea: ".$linea." ".$resp;
             }
             break;
         default:
-            $msj = $msj."Linea: ".$linea." Clase ".$item['Clase']." no válido \\n";
+            $msj = $msj."<br>Linea: ".$linea." Clase ".$item['Clase']." no válido";
     }
-
     $linea++;
-
 }
 
 mysqli_close($conexionI);

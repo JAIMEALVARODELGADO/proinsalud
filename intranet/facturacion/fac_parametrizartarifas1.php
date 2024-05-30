@@ -2,6 +2,8 @@
 <head>
 <title>PROGRAMA DE FACTURACIÓN</title>
 
+<meta charset="utf-8">
+
 <!--Hoja de estilos del calendario --> 
 <link rel="stylesheet" type="text/css" media="all" href="java/calendar/calendar-green.css" title="win2k-cold-1" /> 
 
@@ -80,10 +82,6 @@ function processData(fileContent) {
 
 
 function parametrizar(dataArray){
-	//alert();
-	//console.log(listaItems);
-    //var archivo = document.getElementById("archivo").value;    
-    //console.log(dataArray);
 
     $.ajax({			
             url: 'fac_parametrizartarifas.php', // Ruta al script PHP
@@ -100,7 +98,7 @@ function parametrizar(dataArray){
                 //console.log(response); // Imprime la respuesta del servidor en la consola				
                 $('#mensaje').text(response);
                 document.getElementById("mensaje").style.display = "none";
-                $('#estado').text(response);
+                $('#estado').html(response);
                 //recargar();
             },
             error: function(jqXHR, textStatus, errorThrown) { // Función que se ejecuta si hay un error
@@ -136,27 +134,28 @@ $rowcont = mysql_fetch_array($consultacontrato);
   <tr><td class="Td0" align='center'>PARAMETRIZACION DE TARIFAS</td></tr>
 </table>
 <br>
+<div class="Caja2">
+    <br><b>Entidad: </b> <?php echo $rowcont['neps_con'];?>
+    <br><b>Nro de contrato: </b> <?php echo $rowcont['nume_ctr'];?>
+    <table class="Tbl4" border='0'>
+        <tr>
+        <td class="Td2" align='right' width='20%'><b>Seleccione el archivo</b></td>
+        <td class="Td2" align='left' width='15%'><input type="file" id="archivo" name="archivo" accept=".txt"></td>
+        </tr>
+        <tr>
+        <td class="Td2" align='right' width='20%'><b></td>
+        <td class="Td2" align='left' width='15%'></td>
+        </tr>
+    </table>
 
-<br><b>Entidad: </b> <?php echo $rowcont['neps_con'];?>
-<br><b>Nro de contrato: </b> <?php echo $rowcont['nume_ctr'];?>
-<table class="Tbl4" border='0'>
-    <tr>
-    <td class="Td2" align='right' width='20%'><b>Seleccione el archivo</b></td>
-    <td class="Td2" align='left' width='15%'><input type="file" id="archivo" name="archivo" accept=".txt"></td>
-    </tr>
-    <tr>
-    <td class="Td2" align='right' width='20%'><b></td>
-    <td class="Td2" align='left' width='15%'></td>
-    </tr>
-</table>
-
-<table class='Tbl2'>
-    <tr>
-        <td class='Td1'>
-            <input type='button' value='Leer Archivo'  class='BtnGuardar' onclick='leerArchivo()'>
-        </td>
-    </tr>
-</table>
+    <table class='Tbl2'>
+        <tr>
+            <td class='Td1'>
+                <input type='button' value='Leer Archivo'  class='BtnGuardar' onclick='leerArchivo()'>
+            </td>
+        </tr>
+    </table>
+</div>
 
 <input type="hidden" id='iden_ctr' value='<?php echo $iden_ctr;?>'>
 
