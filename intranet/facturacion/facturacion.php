@@ -158,9 +158,11 @@ echo "<input type='hidden' name='band' value=''>";
         }
         $condicion=SUBSTR($condicion,0,STRLEN($condicion)-5);
     
-	$sql = "SELECT iden_fac, nume_fac, fcie_fac, codi_con, rela_fac, enti_fac, anul_fac, esta_fac, feci_fac, fecf_fac, NEPS_CON,RESPONSABLE_PAGO, cod_cie10, NROD_USU, PNOM_USU, SNOM_USU, PAPE_USU, SAPE_USU, FNAC_USU, desc_dfa, cant_dfa, iden_tco, valu_dfa, vcop_fac, pdes_fac, cmod_fac, usua_fac, SERVICIO, cod_medi,tipo_dfa, nom_medi,FLOOR( DATEDIFF( fcie_fac , FNAC_USU ) / 365.25 ) AS edad,servicio_det,pref_fac
+	$sql = "SELECT iden_dfa,iden_fac, nume_fac, fcie_fac, codi_con, rela_fac, enti_fac, anul_fac, esta_fac, feci_fac, fecf_fac, NEPS_CON,RESPONSABLE_PAGO, cod_cie10, NROD_USU, PNOM_USU, SNOM_USU, PAPE_USU, SAPE_USU, FNAC_USU, desc_dfa, cant_dfa, iden_tco, valu_dfa, vcop_fac, pdes_fac, cmod_fac, usua_fac, SERVICIO, cod_medi,tipo_dfa, nom_medi,FLOOR( DATEDIFF( fcie_fac , FNAC_USU ) / 365.25 ) AS edad,servicio_det,pref_fac
 		FROM  vista_detalle_factura
 		WHERE $condicion";
+	
+	//echo "<br>".$sql;
 	echo "<br>";
 	//$res = mysql_query($sql,$link);	
 	$res = mysql_query($sql);	
@@ -199,6 +201,7 @@ echo "<input type='hidden' name='band' value=''>";
 		echo "<th>FACTURA ANULADA</th>"; 		
 		echo "<th>CLASE</th>";  
 		echo "<th>FACTURADOR</th>";  
+		echo "<th>IDEN_DFA</th>";  
 		echo "</tr>";  
 		$excel=$excel."FAC,ESTADO,MES,CUENTA DE COBRO,FEC. CIERRE,FEC. INIC,FEC. FINAL,NIT,CONTRATO,ENTIDAD PAGADORA,IDENTIFICACION,FNACIMIENTO,EDAD,Dx,CODIGO,DESC. PROC,CANTIDAD,VLR UNIT,TOTAL,AREA,COPAGO,DESCUENTO,CUOTA MODERADORA,FACTURA ANULADA,SERVICIO,CLASE,FACTURADOR,CUENTA,COD_MEDIC,NOMB_MEDICL\n";
 		while($rs = mysql_fetch_array($res)){
@@ -251,6 +254,7 @@ echo "<input type='hidden' name='band' value=''>";
                     echo "<td>" . $clase . " </td>"; 
                     //facturador			
                     echo "<td>" . $factu . "</td>"; 
+					echo "<td>" . $rs['iden_dfa'] . "</td>"; 
                     echo "</tr>";
                     
                     

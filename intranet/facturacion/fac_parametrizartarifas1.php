@@ -137,13 +137,15 @@ $rowcont = mysql_fetch_array($consultacontrato);
 <div class="Caja2">
     <br><b>Entidad: </b> <?php echo $rowcont['neps_con'];?>
     <br><b>Nro de contrato: </b> <?php echo $rowcont['nume_ctr'];?>
+    <br><br><a href="javascript:void(0)" onclick="window.open('ManualParametrizacionDesdeArchivoPlano.PDF', 'nombre', 'width=1200,height=400')" class="BtnGuardar">Manual de Usuario</a>
+    <br>
     <table class="Tbl4" border='0'>
         <tr>
         <td class="Td2" align='right' width='20%'><b>Seleccione el archivo</b></td>
         <td class="Td2" align='left' width='15%'><input type="file" id="archivo" name="archivo" accept=".txt"></td>
         </tr>
         <tr>
-        <td class="Td2" align='right' width='20%'><b></td>
+        <td class="Td2" align='right' width='20%'></td>                
         <td class="Td2" align='left' width='15%'></td>
         </tr>
     </table>
@@ -154,7 +156,7 @@ $rowcont = mysql_fetch_array($consultacontrato);
                 <input type='button' value='Leer Archivo'  class='BtnGuardar' onclick='leerArchivo()'>
             </td>
         </tr>
-    </table>
+    </table>        
 </div>
 
 <input type="hidden" id='iden_ctr' value='<?php echo $iden_ctr;?>'>
