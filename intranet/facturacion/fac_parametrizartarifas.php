@@ -3,8 +3,7 @@ set_time_limit(0);
 
 include('php/conexion.php');
 
-
-$conexionI = conectarBd();
+//$conexionI = conectarBd();
 
 $msj="";
 $listaItems = $_POST['contenido'];
@@ -24,19 +23,19 @@ foreach ($listaItems as $item) {
     $resp = "";
     switch($tarco->clas_tco){
         case 'P':
-            $resp = $tarco->actualizar($conexionI);
+            $resp = $tarco->actualizar();
             if(!empty($resp)){
                 $msj = $msj."<br>Linea: ".$linea." ".$resp;
             }
             break;
         case 'M':
-            $resp = $tarco->actualizarMedicamentos($conexionI);
+            $resp = $tarco->actualizarMedicamentos();
             if(!empty($resp)){
                 $msj = $msj."<br>Linea: ".$linea." ".$resp;
             }
             break;
         case 'I':
-            $resp = $tarco->actualizarDispositivos($conexionI);
+            $resp = $tarco->actualizarDispositivos();
             if(!empty($resp)){
                 $msj = $msj."<br>Linea: ".$linea." ".$resp;
             }
@@ -47,7 +46,7 @@ foreach ($listaItems as $item) {
     $linea++;
 }
 
-mysqli_close($conexionI);
+mysql_close($conexion);
 
 echo $msj;
     
@@ -61,7 +60,7 @@ class Tarco {
     public $grqx_tco;
 
     // Método
-    public function actualizar($conexion_) {
+    public function actualizar() {
         $error = false;
         $respuesta_="";
 
@@ -69,8 +68,8 @@ class Tarco {
         FROM destipos d  
         WHERE d.codt_des='01' AND codi_des ='$this->tser_tco'";
         //echo "<br>".$consultatipo;
-        $consultatipo=mysqli_query($conexion_,$consultatipo);        
-        if(mysqli_num_rows($consultatipo)==0){
+        $consultatipo=mysql_query($consultatipo);        
+        if(mysql_num_rows($consultatipo)==0){
             $error = true;
             $respuesta_=$respuesta_."Tipo de servicio ".$this->tser_tco." no encontrado";
         }
@@ -81,32 +80,31 @@ class Tarco {
         WHERE esta_cup ='AC' AND c.codi_cup = '$this->codigo_cups'";
         //echo "<br>".$consultacups;
 
-        $respuestacups=mysqli_query($conexion_,$consultacups);            
-        if(mysqli_num_rows($respuestacups) == 0){
+        $respuestacups=mysql_query($consultacups);
+        if(mysql_num_rows($respuestacups) == 0){
             $respuesta_=$respuesta_." Código CUPS ".$this->codigo_cups." no encontrado o no está en MAPII";
             $error = true;
         }
 
         if(!$error){                
-            $rowcups = mysqli_fetch_array($respuestacups);
+            $rowcups = mysql_fetch_array($respuestacups);
             $iden_map=$rowcups['iden_map'];
 
             $consultatar="SELECT t.iden_tco,t.iden_map FROM tarco t
             WHERE t.iden_map = '$iden_map' and t.iden_ctr = '$this->iden_ctr'";
             //echo "<br>".$consultatar;
-            $consultatar = mysqli_query($conexion_,$consultatar);
-            if(mysqli_num_rows($consultatar) == 0 ){
+            $consultatar = mysql_query($consultatar);
+            if(mysql_num_rows($consultatar) == 0 ){
                 $query="INSERT INTO tarco(iden_tco,iden_map,iden_ctr,tser_tco,clas_tco,valo_tco,grqx_tco,esta_tco)
                 VALUES(0,'$iden_map','$this->iden_ctr','$this->tser_tco','$this->clas_tco',$this->valo_tco,'$this->grqx_tco','AC')";
                 //echo "<br>".$query;
-                $res=mysqli_query($conexion_,$query);
-                //echo "<br>".mysqli_affected_rows($conexion_);
+                $res=mysql_query($query);
             }
         }
         return $respuesta_;
     }
 
-    public function actualizarDispositivos($conexion_) {
+    public function actualizarDispositivos() {
         $error = false;
         $respuesta_="";
 
@@ -114,40 +112,39 @@ class Tarco {
         FROM destipos d  
         WHERE d.codt_des='01' AND codi_des ='$this->tser_tco'";
         //echo "<br>".$consultatipo;
-        $consultatipo = mysqli_query($conexion_,$consultatipo);        
-        if(mysqli_num_rows($consultatipo)==0){
+        $consultatipo = mysql_query($consultatipo);        
+        if(mysql_num_rows($consultatipo)==0){
             $error = true;
             $respuesta_=$respuesta_."Tipo de servicio ".$this->tser_tco." no encontrado";
         }
         
         $consultains="SELECT codnue FROM insu_med WHERE codnue = '$this->codigo_cups'";
         //echo "<br>".$consultains;
-        $respuestains = mysqli_query($conexion_,$consultains);
-        if(mysqli_num_rows($respuestains) == 0){        
+        $respuestains = mysql_query($consultains);
+        if(mysql_num_rows($respuestains) == 0){        
             $respuesta_=$respuesta_." Código del dispositivo  ".$this->codigo_cups." no encontrado";
             $error = true;
         }
 
         if(!$error){   
-            //$rowcups = mysqli_fetch_array($respuestacups);
             $iden_map=$this->codigo_cups;
             
             //Aqui se verifica si el medicamento ya está parametrizado
             $consultatar="SELECT t.iden_tco,t.iden_map FROM tarco t
             WHERE t.iden_map = '$iden_map' and t.iden_ctr = '$this->iden_ctr'";
             //echo "<br>".$consultatar;
-            $consultatar = mysqli_query($conexion_,$consultatar);
-            if(mysqli_num_rows($consultatar) == 0 ){
+            $consultatar = mysql_query($consultatar);
+            if(mysql_num_rows($consultatar) == 0 ){
                 $query="INSERT INTO tarco(iden_tco,iden_map,iden_ctr,tser_tco,clas_tco,valo_tco,grqx_tco,esta_tco)
                 VALUES(0,$iden_map,$this->iden_ctr,'$this->tser_tco','$this->clas_tco',$this->valo_tco,'$this->grqx_tco','AC')";
                 //echo "<br>".$query;
-                $res=mysqli_query($conexion_,$query);                
+                $res=mysql_query($query);                
             }            
         }
         return $respuesta_;
     }
 
-    public function actualizarMedicamentos($conexion_) {
+    public function actualizarMedicamentos() {
         $error = false;
         $respuesta_="";
 
@@ -155,8 +152,8 @@ class Tarco {
         FROM destipos d  
         WHERE d.codt_des='01' AND codi_des ='$this->tser_tco'";
         //echo "<br>".$consultatipo;
-        $consultatipo=mysqli_query($conexion_,$consultatipo);        
-        if(mysqli_num_rows($consultatipo)==0){
+        $consultatipo=mysql_query($consultatipo);        
+        if(mysql_num_rows($consultatipo)==0){
             $error = true;
             $respuesta_=$respuesta_."Tipo de servicio ".$this->tser_tco." no encontrado";
         }
@@ -164,14 +161,14 @@ class Tarco {
         $consultamedicam="SELECT codi_mdi,ncsi_medi FROM medicamentos2 WHERE ncsi_medi = '$this->codigo_cups'";
         //echo "<br>".$consultamedicam;
         
-        $respuestamedicam=mysqli_query($conexion_,$consultamedicam);
-        if(mysqli_num_rows($respuestamedicam) == 0){            
+        $respuestamedicam=mysql_query($consultamedicam);
+        if(mysql_num_rows($respuestamedicam) == 0){            
             $respuesta_=$respuesta_." Código del medicamento  ".$this->codigo_cups." no encontrado";
             $error = true;
         }
 
         if(!$error){   
-           $rowmed = mysqli_fetch_array($respuestamedicam);
+           $rowmed = mysql_fetch_array($respuestamedicam);
             $iden_map=$rowmed['codi_mdi'];
             //echo "<br>".$iden_map;
             
@@ -179,12 +176,12 @@ class Tarco {
             $consultatar="SELECT t.iden_tco,t.iden_map FROM tarco t
             WHERE t.iden_map = '$iden_map' and t.iden_ctr = '$this->iden_ctr'";
             //echo "<br>".$consultatar;
-            $consultatar = mysqli_query($conexion_,$consultatar);
-            if(mysqli_num_rows($consultatar) == 0 ){
+            $consultatar = mysql_query($consultatar);
+            if(mysql_num_rows($consultatar) == 0 ){
                 $query="INSERT INTO tarco(iden_tco,iden_map,iden_ctr,tser_tco,clas_tco,valo_tco,grqx_tco,esta_tco)
                 VALUES(0,'$iden_map','$this->iden_ctr','$this->tser_tco','$this->clas_tco',$this->valo_tco,'$this->grqx_tco','AC')";
                 //echo "<br>".$query;
-                $res=mysqli_query($conexion_,$query);
+                $res=mysql_query($query);
             }
         }
         return $respuesta_;

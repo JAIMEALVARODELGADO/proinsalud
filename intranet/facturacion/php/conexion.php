@@ -9,12 +9,6 @@
 	  }
 	  //mysql_set_charset('utf8',$conexion);
 	 mysql_set_charset('latin1',$conexion);
-	 mysql_select_db("proinsalud",$conexion);
-
-	 function conectarBd(){
-		//$con_ = mysqli_connect("localhost","root","","proinsalud");
-	 	$con_ = mysqli_connect("192.168.4.12","root","","proinsalud");    
-		return $con_;
-	 }
+	 mysql_select_db("proinsalud",$conexion);	 
 	 
 ?>
