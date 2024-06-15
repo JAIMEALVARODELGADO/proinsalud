@@ -5,6 +5,22 @@ session_start();
 <head>
 <title>PROGRAMA DE FACTURACIÓN</title>
 <SCRIPT LANGUAGE=JavaScript>
+	var origen="";
+
+	function activar(){
+		origen=document.getElementById('origen').value;
+		//alert(origen);
+		if(origen==='DI'){
+			document.getElementById('servicio').disabled=true;
+			document.getElementById('tipo').disabled=true;			
+			document.getElementById('numero').disabled=false;			
+		}
+		if(origen==='AP'){
+			document.getElementById('servicio').disabled=false;
+			document.getElementById('tipo').disabled=false;
+			document.getElementById('numero').disabled=true;
+		}
+	}
 
     function capturafecha(){
         var hoy = new Date();
@@ -18,13 +34,33 @@ session_start();
 	
 	function envio()
 	{
-		if(form1.fecha.value==""){
-			alert("Debe elegir la fecha");
+		error="";
+		if(document.getElementById("fecha").value===""){			
+			error="Debe elegir la fecha";
+		}		
+		origen = document.getElementById('origen').value;
+		if(origen==='AP'){
+			if(error!=""){
+				alert(error);
+			}
+			else{
+				form1.action='fac_2medicamento.php';
+				form1.target='fr02';
+				form1.submit();
+			}			
 		}
 		else{
-			form1.action='fac_2medicamento.php';
-			form1.target='fr02';
-			form1.submit();
+			if(form1.contrato.value==""){
+				error=error+"\n Debe seleccionar el contrato";
+			}
+			if(error!=""){
+				alert(error);
+			}
+			else{
+				form1.action='fac_2medicamdispensados.php';
+				form1.target='fr02';
+				form1.submit();
+			}
 		}
 	}
 
@@ -61,13 +97,23 @@ session_start();
 ?>
 <center><table class="Tbl0">
 	<tr>
+      <td class="Td2" align='right' width='10%'><b>Origen:</td>
+	  <td class="Td2" align='left' width='10%'>
+	  <select id='origen' name='origen' onchange="activar()">
+		<option value='AP'>Aplicaión-Hospitalización</option>
+		<option value='DI'>Dispensación-Servicio Farmacéutico</option>
+	  </select></td>
+	  <td class="Td2" align='right' width='10%'><b>Número de dispensación:</td>
+	  <td class="Td2" align='left' width='10%'><input type='text' name='numero' id='numero' size='14' maxlength='20' disabled=false></td>
+	</tr>
+	<tr>
       <td class="Td2" align='right' width='10%'><b>Fecha:</td>
 	  <td class="Td2" align='left' width='10%'><input type='date' id='fecha' name='fecha' size='10' maxlength='10'></td>
 	  <td class="Td2" align='right' width='10%'><b>Identificación:</td>
 	  <td class="Td2" align='left' width='10%'><input type='text' name='nrod_usu' size='14' maxlength='20'></td>
 	  <td class="Td2" align='right' width='10%'><b>Servicio:</td>
 	  <td class="Td2" align='left' width='10%'>
-	  <select name='servicio'><option value=''>
+	  <select name='servicio' id='servicio'><option value=''>
 	  <?php
 		  	$consulta=mysql_query("SELECT codi_des,nomb_des FROM destipos WHERE codt_des='06' and homo2_des='F' order by nomb_des ");            
 		    while($row=mysql_fetch_array($consulta)){
