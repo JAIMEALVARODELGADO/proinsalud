@@ -124,6 +124,39 @@ function facturar(){
 				}
 			});
 	}
+}*/
+function facturar(nume_for,tarifario){	
+	//alert(nume_for);
+	//alert(tarifario);
+	/*document.getElementById("iden_cpl").value = iden_cpl;
+	document.getElementById("iden_tco").value = iden_tco;*/
+	//document.form1.submit();
+	
+	$.ajax({			
+            url: 'fac_2facturarmedicamentosdispensados.php', // Ruta al script PHP
+            type: 'POST', // Método de envío de datos
+			data:{
+				nume_for:nume_for,
+				iden_ctr:tarifario				
+			},
+			beforeSend: function() {
+        		// Este código se ejecuta antes de enviar la petición
+        		// Puedes generar tu mensaje aquí
+				document.getElementById("mensaje").style.display = "block";
+        		$('#mensaje').text('Facturando...');
+    		},
+            success: function(response) { // Función que se ejecuta si la solicitud es exitosa
+                //console.log(response); // Imprime la respuesta del servidor en la consola
+				//alert(response);				
+				$('#mensaje').text(response);
+				//document.getElementById("mensaje").style.display = "none";
+				recargar();
+            },
+            error: function(jqXHR, textStatus, errorThrown) { // Función que se ejecuta si hay un error
+                console.error(textStatus, errorThrown); // Imprime el error en la consola
+            }
+        });
+
 }
 
 function recargar(){
@@ -138,7 +171,7 @@ function recargar(){
 
 	// Limpiar los datos de localStorage
 	localStorage.removeItem('postdata');
-}*/
+}
 </script>
 
 <link rel="stylesheet" href="css/style.css" type="text/css" />
@@ -186,7 +219,7 @@ function recargar(){
 
 
                 //echo "<td><input type='checkbox' id='chkitem' name='chkitem' onclick='adicionarItem($row[NROD_USU],$row[iden_adi],$tarifaFiltro->iden_tco,$tarifario)'></td>";
-                echo "<td><a href='#' onclick='facturar($row[iden_cpl],$tarifaFiltro->iden_tco)'><img src='icons/feed_go.png' border='0' alt='Facturar' width=20 height=20 title='Facturar'></a></td>";
+                echo "<td><a href='#' onclick='facturar($row[nume_for],$tarifario)'><img src='icons/feed_go.png' border='0' alt='Facturar' width=20 height=20 title='Facturar'></a></td>";
                 echo "<td class='Td2'>".$row['nume_for']."</td>";
 				echo "<td class='Td2'>".$row['NROD_USU']."</td>";
 				echo "<td class='Td2'>".$row['nombre']."</td>";				
@@ -195,7 +228,7 @@ function recargar(){
                 		
 				echo "</tr>";
                 $consultadet="SELECT f.codi_pro,f.cdis_for  FROM formedica.formuladet f 
-                WHERE f.nume_for ='$row[nume_for]'";
+                WHERE LENGTH(f.codi_pro)=6 AND f.nume_for ='$row[nume_for]'";
                 //echo "<br>".$consultadet;
                 $consultadet=mysql_query($consultadet);
 		        if(mysql_num_rows($consultadet)!=0){
