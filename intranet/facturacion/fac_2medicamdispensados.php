@@ -20,7 +20,7 @@ FROM tarco t
 INNER JOIN insu_med im  ON im.codi_ins = t.iden_map 
 WHERE t.esta_tco = 'AC' AND t.iden_ctr = '$tarifario'*/
 
-echo "<br>".$consultatarifa;
+//echo "<br>".$consultatarifa;
 $restarifario = mysql_query($consultatarifa);
 while($rowtarifa = mysql_fetch_array($restarifario)){
 	$tarifa = new Tarco();
@@ -62,75 +62,7 @@ while($rowmedicamento = mysql_fetch_array($resconsultamedicamentos)){
 
 <script>
 
-/*let listaItems = [];
-
-function adicionarItem(nrodusu_,idenadi_,identco_,idenctr_){	
-	//alert(idenctr_);
-	let indice = listaItems.findIndex(item => item.iden_adi === idenadi_);
-	if (indice !== -1) {
-    	listaItems.splice(indice, 1);
-	}
-	else{
-		listaItems.push(crearItem(nrodusu_,idenadi_,identco_,idenctr_));
-	}
-	//console.log(listaItems);
-}
-
-function crearItem(doc_,idadi_,idtco_,idctr_) {
-    return {
-        nrod_usu: doc_,
-        iden_adi: idadi_,
-		iden_tco: idtco_,
-		iden_ctr: idctr_
-    };
-}
-
-function facturar(){
-	//alert();
-	if (listaItems.length === 0) {
-    	alert("No hay elementos seleccionados");
-	} else {
-		//Aqui se ordena el listado antes de enviar a facturar
-		listaItems.sort(function(a, b) {
-			if (a.nrod_usu < b.nrod_usu) {
-				return -1;
-			}
-			if (a.nrod_usu > b.nrod_usu) {
-				return 1;
-			}
-			// a debe ser igual a b
-			return 0;
-		});
-		//console.log(listaItems);
-
-		$.ajax({			
-				url: 'fac_2facturarmedicamento.php', // Ruta al script PHP
-				type: 'POST', // Método de envío de datos			
-				data: { 'listaItems': listaItems },
-				beforeSend: function() {
-					// Este código se ejecuta antes de enviar la petición
-					// Puedes generar tu mensaje aquí
-					document.getElementById("mensaje").style.display = "block";
-					$('#mensaje').text('Facturando...');
-				},
-				success: function(response) { // Función que se ejecuta si la solicitud es exitosa
-					console.log(response); // Imprime la respuesta del servidor en la consola				
-					$('#mensaje').text(response);
-					//document.getElementById("mensaje").style.display = "none";
-					recargar();
-				},
-				error: function(jqXHR, textStatus, errorThrown) { // Función que se ejecuta si hay un error
-					console.error(textStatus, errorThrown); // Imprime el error en la consola
-				}
-			});
-	}
-}*/
 function facturar(nume_for,tarifario){	
-	//alert(nume_for);
-	//alert(tarifario);
-	/*document.getElementById("iden_cpl").value = iden_cpl;
-	document.getElementById("iden_tco").value = iden_tco;*/
-	//document.form1.submit();
 	
 	$.ajax({			
             url: 'fac_2facturarmedicamentosdispensados.php', // Ruta al script PHP
@@ -196,14 +128,25 @@ function recargar(){
 		
 		$condicion=SUBSTR($condicion,0,-5);
 		//echo $condicion;    
-        $_pagi_sql="SELECT f.nume_for,
+        /*$_pagi_sql="SELECT f.nume_for,
         u.NROD_USU, CONCAT(u.PNOM_USU,' ',u.SNOM_USU,' ',u.PAPE_USU,' ',u.SAPE_USU) as nombre,
         c.NEPS_CON        
         FROM formedica.formulamae f 
         INNER JOIN usuario u ON u.NROD_USU = f.codi_usu
         INNER JOIN contrato c ON c.CSII_CON =f.ccos_for
-        WHERE ".$condicion." ORDER BY f.nume_for";
-        //echo "<br><br>".$_pagi_sql;        
+        WHERE ".$condicion." ORDER BY f.nume_for";*/
+        
+		$_pagi_sql="SELECT f.nume_for, u.NROD_USU, CONCAT(u.PNOM_USU,' ',u.SNOM_USU,' ',u.PAPE_USU,' ',u.SAPE_USU) as nombre, c.NEPS_CON
+		,(SELECT COUNT(*) FROM formedica.formuladet fd
+		WHERE fd.factu_for <> 'S' AND LENGTH(fd.codi_pro)=6 AND fd.nume_for =f.nume_for) cantidadRegistros
+		FROM formedica.formulamae f 
+		INNER JOIN usuario u ON u.NROD_USU = f.codi_usu 
+		INNER JOIN contrato c ON c.CSII_CON =f.ccos_for 
+		WHERE ".$condicion."
+		AND (SELECT COUNT(*) FROM formedica.formuladet fd
+		WHERE fd.factu_for <> 'S' AND LENGTH(fd.codi_pro)=6 AND fd.nume_for =f.nume_for) > 0
+		ORDER BY f.nume_for";
+		//echo "<br><br>".$_pagi_sql;        
 		
         $_pagi_result=mysql_query($_pagi_sql);
 		if(mysql_num_rows($_pagi_result)!=0){
@@ -216,9 +159,7 @@ function recargar(){
                 <th class='Th0' width='15%'>Nombre</th>				
 			    <th class='Th0' width='15%'>Contrato</th>";
                 echo "<tr>";
-
-
-                //echo "<td><input type='checkbox' id='chkitem' name='chkitem' onclick='adicionarItem($row[NROD_USU],$row[iden_adi],$tarifaFiltro->iden_tco,$tarifario)'></td>";
+                
                 echo "<td><a href='#' onclick='facturar($row[nume_for],$tarifario)'><img src='icons/feed_go.png' border='0' alt='Facturar' width=20 height=20 title='Facturar'></a></td>";
                 echo "<td class='Td2'>".$row['nume_for']."</td>";
 				echo "<td class='Td2'>".$row['NROD_USU']."</td>";
@@ -228,9 +169,9 @@ function recargar(){
                 		
 				echo "</tr>";
                 $consultadet="SELECT f.codi_pro,f.cdis_for  FROM formedica.formuladet f 
-                WHERE LENGTH(f.codi_pro)=6 AND f.nume_for ='$row[nume_for]'";
+                WHERE LENGTH(f.codi_pro)=6 AND f.factu_for<>'S' AND f.nume_for ='$row[nume_for]'";
                 //echo "<br>".$consultadet;
-                $consultadet=mysql_query($consultadet);
+                $consultadet=mysql_query($consultadet);				
 		        if(mysql_num_rows($consultadet)!=0){
                     
         		    echo "<th class='Th1'></th>
@@ -257,12 +198,6 @@ function recargar(){
 			        }                                        
                 }                
             }
-			/*echo"</table></center>";
-			echo "<table class='Tbl2'>";
-			echo "<tr>";
-			echo "<td class='Td1'>
-			<input type='button' value='Facturar'  class='BtnGuardar' onclick='facturar()'>			
-			</td>";*/
 			
 		}		
 	  ?>
