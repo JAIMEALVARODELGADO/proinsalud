@@ -34,7 +34,7 @@ m.nomb_mdi
 FROM formedica.formuladet f 
 INNER JOIN tarco t ON t.iden_map = f.codi_pro 
 INNER JOIN medicamentos2 m ON m.codi_mdi = t.iden_map
-WHERE LENGTH(f.codi_pro)=6 AND f.factu_for<>'S' AND t.iden_ctr ='$_POST[iden_ctr]' AND f.nume_for ='$_POST[nume_for]'";
+WHERE LENGTH(f.codi_pro)=6 AND (ISNULL(f.factu_for) OR f.factu_for<>'S') AND t.iden_ctr ='$_POST[iden_ctr]' AND f.nume_for ='$_POST[nume_for]'";
 //echo "<br>".$consulta_dis;
 
 $total=0;

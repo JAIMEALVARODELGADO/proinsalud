@@ -12,7 +12,7 @@ $consultatarifa="
 SELECT t.iden_tco,t.clas_tco , t.valo_tco,m.codi_mdi, m.nomb_mdi
 FROM tarco t
 INNER JOIN medicamentos2 m ON m.codi_mdi = t.iden_map 
-WHERE t.esta_tco = 'AC' AND t.iden_ctr = '$tarifario'";
+WHERE t.iden_ctr = '$tarifario'";
 
 /*UNION
 SELECT t.iden_tco,t.clas_tco , t.valo_tco, im.codi_ins AS codi_mdi, im.desc_ins AS nomb_mdi
@@ -143,8 +143,8 @@ function recargar(){
 		INNER JOIN usuario u ON u.NROD_USU = f.codi_usu 
 		INNER JOIN contrato c ON c.CSII_CON =f.ccos_for 
 		WHERE ".$condicion."
-		AND (SELECT COUNT(*) FROM formedica.formuladet fd
-		WHERE fd.factu_for <> 'S' AND LENGTH(fd.codi_pro)=6 AND fd.nume_for =f.nume_for) > 0
+		AND (SELECT COUNT(*) FROM formedica.formuladet fd		
+		WHERE (ISNULL(fd.factu_for) OR fd.factu_for<>'S') AND LENGTH(fd.codi_pro)=6 AND fd.nume_for =f.nume_for) > 0
 		ORDER BY f.nume_for";
 		//echo "<br><br>".$_pagi_sql;        
 		
@@ -169,7 +169,7 @@ function recargar(){
                 		
 				echo "</tr>";
                 $consultadet="SELECT f.codi_pro,f.cdis_for  FROM formedica.formuladet f 
-                WHERE LENGTH(f.codi_pro)=6 AND f.factu_for<>'S' AND f.nume_for ='$row[nume_for]'";
+                WHERE LENGTH(f.codi_pro)=6 AND (ISNULL(f.factu_for) OR f.factu_for<>'S') AND f.nume_for ='$row[nume_for]'";
                 //echo "<br>".$consultadet;
                 $consultadet=mysql_query($consultadet);				
 		        if(mysql_num_rows($consultadet)!=0){
