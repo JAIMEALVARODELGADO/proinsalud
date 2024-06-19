@@ -14,17 +14,19 @@ $tarifas = array();
 
 //Aqui cargo el tarifario
 
-/*$consultatarifa="
+$consultatarifa="
 SELECT t.iden_tco,t.clas_tco , t.valo_tco,m.codi_mdi, m.nomb_mdi
 FROM tarco t
 INNER JOIN medicamentos2 m ON m.codi_mdi = t.iden_map 
-UNION
+WHERE t.iden_ctr = '$tarifario'";
+
+/*UNION
 SELECT t.iden_tco,t.clas_tco , t.valo_tco, im.codi_ins AS codi_mdi, im.desc_ins AS nomb_mdi
 FROM tarco t
 INNER JOIN insu_med im  ON im.codi_ins = t.iden_map 
-WHERE t.iden_ctr = '$tarifario'";
+WHERE t.esta_tco = 'AC' AND t.iden_ctr = '$tarifario'*/
 
-echo "<br>".$consultatarifa;
+//echo "<br>".$consultatarifa;
 $restarifario = mysql_query($consultatarifa);
 while($rowtarifa = mysql_fetch_array($restarifario)){
 	$tarifa = new Tarco();
@@ -36,7 +38,7 @@ while($rowtarifa = mysql_fetch_array($restarifario)){
 	$tarifa->nomb_mdi = $rowtarifa['nomb_mdi'];	
 
 	$tarifas[] = $tarifa;	
-}*/
+}
 
 //Aqui cargo los medicamentos
 $medicamentos = array();
@@ -53,33 +55,8 @@ while($rowmedicamento = mysql_fetch_array($resconsultamedicamentos)){
 	$medicamentos[] = $medicamento;	
 }
 
-//Aqui cargo los insumos
-$insumos = array();
-$consultainsumos="SELECT im.codi_ins, im.desc_ins FROM insu_med im";
 
-//echo "<br>".$consultainsumos;
-$resconsultainsumos = mysql_query($consultainsumos);
-while($rowinsumo = mysql_fetch_array($resconsultainsumos)){
-	$insumo = new Insumo();
-	$insumo->codi_ins = $rowinsumo['codi_ins'];
-	$insumo->desc_ins = $rowinsumo['desc_ins'];
-	$insumos[] = $insumo;	
-}
 
-//Aqui cargo los convenios
-$contrataciones = array();
-$consultacontratacion="SELECT c.iden_ctr,c.nume_ctr  
-FROM contratacion c 
-WHERE c.esta_ctr  = 'A' AND c.codi_con ='$contrato'";
-
-//echo "<br>".$consultacontratacion;
-$rescontra = mysql_query($consultacontratacion);
-while($rowcontra = mysql_fetch_array($rescontra)){
-	$contratacion = new Contratacion();
-	$contratacion->iden_ctr = $rowcontra['iden_ctr'];
-	$contratacion->nume_ctr = $rowcontra['nume_ctr'];
-	$contrataciones[] = $contratacion;	
-}
 
 ?>
 
@@ -90,29 +67,6 @@ while($rowcontra = mysql_fetch_array($rescontra)){
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <script>
-
-let listaItems = [];
-
-function adicionarItem(regifor_){	
-	//alert(regifor_);
-	let indice = listaItems.findIndex(item => item.regi_for === regifor_);
-	if (indice !== -1) {
-    	listaItems.splice(indice, 1);
-	}
-	else{
-		listaItems.push(crearItem(regifor_));
-	}
-	//console.log(listaItems);
-}
-
-function crearItem(regifor_) {
-    return {
-        regi_for: regifor_,
-        iden_adi: '',
-		iden_tco: '',
-		iden_ctr: ''
-    };
-}
 
 function facturar(nume_for,tarifario){	
 	
@@ -175,24 +129,19 @@ function recargar(){
         $condicion="";
         if(!empty($fecha)){$condicion=$condicion."f.fdis_for = '$fecha' AND ";}
         if(!empty($nrod_usu)){$condicion=$condicion."u.NROD_USU='$nrod_usu' AND ";}
-        //if(!empty($contrato)){$condicion=$condicion."c.codi_con='$contrato' AND ";}		
+        if(!empty($contrato)){$condicion=$condicion."c.codi_con='$contrato' AND ";}		
 		if(!empty($numero)){$condicion=$condicion."f.nume_for='$numero' AND ";}		
 		
 		$condicion=SUBSTR($condicion,0,-5);
-		//echo $condicion;         
+		//echo $condicion;    
+        /*$_pagi_sql="SELECT f.nume_for,
+        u.NROD_USU, CONCAT(u.PNOM_USU,' ',u.SNOM_USU,' ',u.PAPE_USU,' ',u.SAPE_USU) as nombre,
+        c.NEPS_CON        
+        FROM formedica.formulamae f 
+        INNER JOIN usuario u ON u.NROD_USU = f.codi_usu
+        INNER JOIN contrato c ON c.CSII_CON =f.ccos_for
+        WHERE ".$condicion." ORDER BY f.nume_for";*/
         
-		/*$_pagi_sql="SELECT f.nume_for, u.NROD_USU, CONCAT(u.PNOM_USU,' ',u.SNOM_USU,' ',u.PAPE_USU,' ',u.SAPE_USU) as nombre, c.NEPS_CON
-		,(SELECT COUNT(*) FROM formedica.formuladet fd
-		WHERE fd.factu_for <> 'S' AND LENGTH(fd.codi_pro)=6 AND fd.nume_for =f.nume_for) cantidadRegistros
-		FROM formedica.formulamae f 
-		INNER JOIN usuario u ON u.NROD_USU = f.codi_usu 
-		INNER JOIN contrato c ON c.CSII_CON =f.ccos_for 
-		WHERE ".$condicion."
-		AND (SELECT COUNT(*) FROM formedica.formuladet fd		
-		WHERE (ISNULL(fd.factu_for) OR fd.factu_for<>'S') AND LENGTH(fd.codi_pro)=6 AND fd.nume_for =f.nume_for) > 0
-		ORDER BY f.nume_for";*/
-
-
 		$_pagi_sql="SELECT f.nume_for, u.NROD_USU, CONCAT(u.PNOM_USU,' ',u.SNOM_USU,' ',u.PAPE_USU,' ',u.SAPE_USU) as nombre, c.NEPS_CON
 		,(SELECT COUNT(*) FROM formedica.formuladet fd
 		WHERE fd.factu_for <> 'S' AND LENGTH(fd.codi_pro)=6 AND fd.nume_for =f.nume_for) cantidadRegistros
@@ -201,16 +150,15 @@ function recargar(){
 		INNER JOIN contrato c ON c.CSII_CON =f.ccos_for 
 		WHERE ".$condicion."
 		AND (SELECT COUNT(*) FROM formedica.formuladet fd		
-		WHERE (ISNULL(fd.factu_for) OR fd.factu_for<>'S') AND fd.nume_for =f.nume_for) > 0
+		WHERE (ISNULL(fd.factu_for) OR fd.factu_for<>'S') AND LENGTH(fd.codi_pro)=6 AND fd.nume_for =f.nume_for) > 0
 		ORDER BY f.nume_for";
-		echo "<br><br>".$_pagi_sql;        
+		//echo "<br><br>".$_pagi_sql;        
 		
         $_pagi_result=mysql_query($_pagi_sql);
 		if(mysql_num_rows($_pagi_result)!=0){
-			
+			echo "<table class='Tbl0'>";
 			
 			while($row = mysql_fetch_array($_pagi_result)){
-				echo "<table class='Tbl0'>";
                 echo "<th class='Th0' width='3%'>OPC</th>
                 <th class='Th0' width='10%'>Número</th>
                 <th class='Th0' width='10%'>Identificación</th>
@@ -226,59 +174,41 @@ function recargar(){
 				
                 		
 				echo "</tr>";
-                $consultadet="SELECT f.regi_for,f.codi_pro,f.cdis_for  FROM formedica.formuladet f 
-                WHERE (ISNULL(f.factu_for) OR f.factu_for<>'S') AND f.nume_for ='$row[nume_for]'";
-                echo "<br>".$consultadet;
-                $consultadet=mysql_query($consultadet);
-				echo"</table>";
-		        if(mysql_num_rows($consultadet)!=0){                    
-					echo "<table class='Tbl0'>";
-        		    echo "
-						<th class='Th1'>Sel</th>
-						<th class='Th1'>Número Contrato</th>
+                $consultadet="SELECT f.codi_pro,f.cdis_for  FROM formedica.formuladet f 
+                WHERE LENGTH(f.codi_pro)=6 AND (ISNULL(f.factu_for) OR f.factu_for<>'S') AND f.nume_for ='$row[nume_for]'";
+                //echo "<br>".$consultadet;
+                $consultadet=mysql_query($consultadet);				
+		        if(mysql_num_rows($consultadet)!=0){
+                    
+        		    echo "<th class='Th1'></th>
                         <th class='Th1'>Código</th>
-                        <th class='Th1'>Medicamento/Insumo</th>
+                        <th class='Th1'>Medicamento</th>
 				        <th class='Th1'>Cantidad</th>
 				        <th class='Th1'>Valor</th>";
 			        while($rowdet = mysql_fetch_array($consultadet)){
                         echo "<tr>";
-						//echo "<td><input type='checkbox' id='chkitem' name='chkitem' onclick='adicionarItem($row[NROD_USU],$row[iden_adi],$tarifaFiltro->iden_tco,$tarifario)'></td>";
-						echo "<td><input type='checkbox' id='chkitem' name='chkitem' onclick='adicionarItem($rowdet[regi_for])'></td>";						
-						
-						echo "<td><select>";							
-							foreach ($contrataciones as $objetoContratacion){
-								echo "<option value='$objetoContratacion->iden_ctr'>$objetoContratacion->nume_ctr</option>";
-							}
-							echo "</select>";
-						echo "</td>";
-
-						if(strlen($rowdet['codi_pro']) == 6){
-							$descripcion = buscarMedicamento($medicamentos,$rowdet['codi_pro']);
-						}
-						else{
-							$descripcion = buscarInsumo($insumos,$rowdet['codi_pro']);
-						}
-						//$descripcion = buscarInsumo($insumos,'3000005000794');
-
+                        $descripcion = buscarMedicamento($medicamentos,$rowdet['codi_pro']);
+                        echo "<td></td>";
 				        echo "<td class='Td2'>".$rowdet['codi_pro']."</td>";
                         echo "<td class='Td2'>".$descripcion."</td>";
 				        echo "<td class='Td2' align='center'>".$rowdet['cdis_for']."</td>";
                         
-                        /*$tarifaFiltro = filtrarTarco($tarifas,$rowdet['codi_pro']);				
+                        $tarifaFiltro = filtrarTarco($tarifas,$rowdet['codi_pro']);				
 				        if (is_null($tarifaFiltro->iden_tco)){						
 					        echo "<td class='Td5'>Sin tarifario</td>";
 				        }
 				        else{						
 					        echo "<td class='Td5'>".number_format($tarifaFiltro->valo_tco,0, '.', ',')."</td>";					
-				        }*/
+				        }
                         echo "</tr>";
 			        }                                        
-					echo "</table>";
                 }                
-            }			
+            }
+			
 		}		
 	  ?>
-
+	</tr>
+	</table>	
 
 </form>
 </body>
@@ -300,15 +230,6 @@ class Medicamento {
 	public $nomb_mdi;
 }
 
-class Insumo {
-	public $codi_ins;
-	public $desc_ins;
-}
-
-class Contratacion {
-	public $iden_ctr;
-	public $nume_ct;
-}
 
 function filtrarTarco($tarifas_,$codigo_){
 	$tarifaEncontrada = new Tarco();
@@ -326,16 +247,6 @@ function buscarMedicamento($medicamentos_,$codigo_){
 		if($objetoMedicamento->codi_mdi == $codigo_){            
 			$desc_ = $objetoMedicamento->nomb_mdi;
 
-		}
-	}
-	return $desc_;
-}
-
-function buscarInsumo($insumos_,$codigo_){
-	$desc_="";
-	foreach ($insumos_ as $objetoInsumo){
-		if($objetoInsumo->codi_ins == $codigo_){
-			$desc_ = $objetoInsumo->desc_ins;
 		}
 	}
 	return $desc_;

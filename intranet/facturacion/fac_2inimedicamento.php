@@ -34,12 +34,12 @@ session_start();
 	
 	function envio()
 	{
-		error="";
-		if(document.getElementById("fecha").value===""){			
-			error="Debe elegir la fecha";
-		}		
+		error="";				
 		origen = document.getElementById('origen').value;
 		if(origen==='AP'){
+			if(document.getElementById("fecha").value===""){			
+				error="Debe elegir la fecha";
+			}
 			if(error!=""){
 				alert(error);
 			}
