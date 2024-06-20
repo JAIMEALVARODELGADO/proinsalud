@@ -3,40 +3,11 @@ session_start();
 
 include('php/conexion.php');
 
-//Aqui creo la lista de tarco
-$tarifas = array();
 
 //1.Permitir seleccionar el tarifario al cual van los medicamentos
 //2.Permitir seleccionar el contrato al cual va el cobro
 //3.Adicionar los insumos
 //4.Crear un chequeo para seleccionar cual medicamento se va a facturar
-
-
-//Aqui cargo el tarifario
-
-/*$consultatarifa="
-SELECT t.iden_tco,t.clas_tco , t.valo_tco,m.codi_mdi, m.nomb_mdi
-FROM tarco t
-INNER JOIN medicamentos2 m ON m.codi_mdi = t.iden_map 
-UNION
-SELECT t.iden_tco,t.clas_tco , t.valo_tco, im.codi_ins AS codi_mdi, im.desc_ins AS nomb_mdi
-FROM tarco t
-INNER JOIN insu_med im  ON im.codi_ins = t.iden_map 
-WHERE t.iden_ctr = '$tarifario'";
-
-echo "<br>".$consultatarifa;
-$restarifario = mysql_query($consultatarifa);
-while($rowtarifa = mysql_fetch_array($restarifario)){
-	$tarifa = new Tarco();
-
-	$tarifa->iden_tco = $rowtarifa['iden_tco'];
-	$tarifa->clas_tco = $rowtarifa['clas_tco'];
-	$tarifa->valo_tco = $rowtarifa['valo_tco'];
-	$tarifa->codi_mdi = $rowtarifa['codi_mdi'];
-	$tarifa->nomb_mdi = $rowtarifa['nomb_mdi'];	
-
-	$tarifas[] = $tarifa;	
-}*/
 
 //Aqui cargo los medicamentos
 $medicamentos = array();
@@ -74,12 +45,50 @@ WHERE c.esta_ctr  = 'A' AND c.codi_con ='$contrato'";
 
 //echo "<br>".$consultacontratacion;
 $rescontra = mysql_query($consultacontratacion);
+$idenctr_def="";
+$tarifarios="";
 while($rowcontra = mysql_fetch_array($rescontra)){
 	$contratacion = new Contratacion();
 	$contratacion->iden_ctr = $rowcontra['iden_ctr'];
 	$contratacion->nume_ctr = $rowcontra['nume_ctr'];
-	$contrataciones[] = $contratacion;	
+	$contrataciones[] = $contratacion;
+	if(empty($idenctr_def)){
+		$idenctr_def=$rowcontra['iden_ctr'];
+	}
+	$tarifarios=$tarifarios.$rowcontra['iden_ctr'].",";
 }
+
+//Aqui creo la lista de tarco
+$tarifas = array();
+
+//Aqui cargo el tarifario
+$tarifarios = substr_replace($tarifarios, '', -1);
+$consultatarifa="
+SELECT t.iden_tco,t.iden_ctr,t.clas_tco , t.valo_tco,m.codi_mdi, m.nomb_mdi
+FROM tarco t
+INNER JOIN medicamentos2 m ON m.codi_mdi = t.iden_map
+WHERE t.iden_ctr IN ($tarifarios)
+UNION
+SELECT t.iden_tco,t.iden_ctr,t.clas_tco , t.valo_tco, im.codi_ins AS codi_mdi, im.desc_ins AS nomb_mdi
+FROM tarco t
+INNER JOIN insu_med im  ON im.codi_ins = t.iden_map 
+WHERE t.iden_ctr IN ($tarifarios)";
+
+//echo "<br>".$consultatarifa;
+//echo "<br>".$contrato;
+$restarifario = mysql_query($consultatarifa);
+while($rowtarifa = mysql_fetch_array($restarifario)){
+	$tarifa = new Tarco();
+	$tarifa->iden_tco = $rowtarifa['iden_tco'];
+	$tarifa->iden_ctr = $rowtarifa['iden_ctr'];
+	$tarifa->clas_tco = $rowtarifa['clas_tco'];
+	$tarifa->valo_tco = $rowtarifa['valo_tco'];
+	$tarifa->codi_mdi = $rowtarifa['codi_mdi'];
+	$tarifa->nomb_mdi = $rowtarifa['nomb_mdi'];	
+
+	$tarifas[] = $tarifa;	
+}
+$tarifasJSON = json_encode($tarifas);
 
 ?>
 
@@ -93,8 +102,34 @@ while($rowcontra = mysql_fetch_array($rescontra)){
 
 let listaItems = [];
 
+
+var tarifasJS = <?php echo $tarifasJSON; ?>;
+
+function actualizarTarifa(codi_pro,regi_for){
+	var nombreVariable = "selecTarifario_"+regi_for;
+	var iden_ctr = document.getElementById(nombreVariable).value;	
+	codigo_=String(codi_pro);
+	const tarifaEncontrada = tarifasJS.find(tarifa => buscarTarifa(tarifa, iden_ctr, codigo_));	
+	//console.log(tarifaEncontrada);
+	var nombreVariable='#valor_'+regi_for;
+
+	var valor = new Intl.NumberFormat().format(tarifaEncontrada.valo_tco);
+	$(nombreVariable).text(valor);
+
+}
+
+function buscarTarifa(tarifa, idenctr_, codigo_) {	
+	return tarifa.iden_ctr === idenctr_ && tarifa.codi_mdi === codigo_;
+}
+
+
+
 function adicionarItem(regifor_){	
 	//alert(regifor_);
+	var nombreVariable = "selecTarifario_"+regifor_;
+	alert(nombreVariable);
+	var iden_ctr = document.getElementById(nombreVariable).value;
+	alert(iden_ctr);
 	let indice = listaItems.findIndex(item => item.regi_for === regifor_);
 	if (indice !== -1) {
     	listaItems.splice(indice, 1);
@@ -203,12 +238,11 @@ function recargar(){
 		AND (SELECT COUNT(*) FROM formedica.formuladet fd		
 		WHERE (ISNULL(fd.factu_for) OR fd.factu_for<>'S') AND fd.nume_for =f.nume_for) > 0
 		ORDER BY f.nume_for";
-		echo "<br><br>".$_pagi_sql;        
+		//echo "<br><br>".$_pagi_sql;
 		
         $_pagi_result=mysql_query($_pagi_sql);
 		if(mysql_num_rows($_pagi_result)!=0){
-			
-			
+						
 			while($row = mysql_fetch_array($_pagi_result)){
 				echo "<table class='Tbl0'>";
                 echo "<th class='Th0' width='3%'>OPC</th>
@@ -228,7 +262,7 @@ function recargar(){
 				echo "</tr>";
                 $consultadet="SELECT f.regi_for,f.codi_pro,f.cdis_for  FROM formedica.formuladet f 
                 WHERE (ISNULL(f.factu_for) OR f.factu_for<>'S') AND f.nume_for ='$row[nume_for]'";
-                echo "<br>".$consultadet;
+                //echo "<br>".$consultadet;
                 $consultadet=mysql_query($consultadet);
 				echo"</table>";
 		        if(mysql_num_rows($consultadet)!=0){                    
@@ -241,11 +275,11 @@ function recargar(){
 				        <th class='Th1'>Cantidad</th>
 				        <th class='Th1'>Valor</th>";
 			        while($rowdet = mysql_fetch_array($consultadet)){
-                        echo "<tr>";
-						//echo "<td><input type='checkbox' id='chkitem' name='chkitem' onclick='adicionarItem($row[NROD_USU],$row[iden_adi],$tarifaFiltro->iden_tco,$tarifario)'></td>";
+                        echo "<tr>";						
 						echo "<td><input type='checkbox' id='chkitem' name='chkitem' onclick='adicionarItem($rowdet[regi_for])'></td>";						
 						
-						echo "<td><select>";							
+						$nomvar = "selecTarifario_".$rowdet['regi_for'];
+						echo "<td><select name='$nomvar' id='$nomvar' onchange='actualizarTarifa($rowdet[codi_pro],$rowdet[regi_for])'>";
 							foreach ($contrataciones as $objetoContratacion){
 								echo "<option value='$objetoContratacion->iden_ctr'>$objetoContratacion->nume_ctr</option>";
 							}
@@ -264,13 +298,16 @@ function recargar(){
                         echo "<td class='Td2'>".$descripcion."</td>";
 				        echo "<td class='Td2' align='center'>".$rowdet['cdis_for']."</td>";
                         
-                        /*$tarifaFiltro = filtrarTarco($tarifas,$rowdet['codi_pro']);				
+                        $tarifaFiltro = filtrarTarco($tarifas,$rowdet['codi_pro'],$idenctr_def);						
 				        if (is_null($tarifaFiltro->iden_tco)){						
 					        echo "<td class='Td5'>Sin tarifario</td>";
 				        }
-				        else{						
-					        echo "<td class='Td5'>".number_format($tarifaFiltro->valo_tco,0, '.', ',')."</td>";					
-				        }*/
+				        else{											        
+							//echo "<td class='Td5'>".number_format($tarifaFiltro->valo_tco,0, '.', ',')."</td>";
+							$nomvar="valor_".$rowdet['regi_for'];
+							//echo "<br>".$nomvar;
+							echo "<td class='Td5'><label for='$nomvar' id='$nomvar'>".number_format($tarifaFiltro->valo_tco,0, '.', ',')."</label></td>";
+				        }
                         echo "</tr>";
 			        }                                        
 					echo "</table>";
@@ -279,7 +316,6 @@ function recargar(){
 		}		
 	  ?>
 
-
 </form>
 </body>
 </html>
@@ -287,6 +323,7 @@ function recargar(){
 <?php 
 class Tarco {
 	public $iden_tco;
+	public $iden_ctr;
 	public $clas_tco;
 	public $valo_tco;
 	public $codi_mdi;
@@ -310,11 +347,11 @@ class Contratacion {
 	public $nume_ct;
 }
 
-function filtrarTarco($tarifas_,$codigo_){
+function filtrarTarco($tarifas_,$codigo_,$idenctr_){	
 	$tarifaEncontrada = new Tarco();
 	foreach ($tarifas_ as $objetoTarifa){
-		if($objetoTarifa->codi_mdi == $codigo_){
-			$tarifaEncontrada = $objetoTarifa;
+		if($objetoTarifa->codi_mdi == $codigo_ and $objetoTarifa->iden_ctr == $idenctr_){
+			$tarifaEncontrada = $objetoTarifa;			
 		}
 	}
 	return $tarifaEncontrada;
