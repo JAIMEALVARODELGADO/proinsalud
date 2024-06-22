@@ -9,16 +9,24 @@ session_start();
 
 	function activar(){
 		origen=document.getElementById('origen').value;
-		//alert(origen);
+		//alert(origen);		
 		if(origen==='DI'){
 			document.getElementById('servicio').disabled=true;
 			document.getElementById('tipo').disabled=true;			
-			document.getElementById('numero').disabled=false;			
+			document.getElementById('numero').disabled=false;
+			document.getElementById('tarifario').disabled=true;
+								
+			const id_contrato = document.getElementById('id_contrato');
+			id_contrato.innerHTML = '<b>Facturar al Contrato</b>';		
 		}
 		if(origen==='AP'){
 			document.getElementById('servicio').disabled=false;
 			document.getElementById('tipo').disabled=false;
 			document.getElementById('numero').disabled=true;
+			document.getElementById('tarifario').disabled=false;
+			
+			const id_contrato = document.getElementById('id_contrato');
+			id_contrato.innerHTML = '<b>Contrato</b>';		
 		}
 	}
 
@@ -125,7 +133,9 @@ session_start();
 	  <td class="Td2" align='left' width='10%'><a href='#' onclick='envio()' ><img src='icons/feed_magnify.png' border='0' alt='Continuar' width=20 height=20 title='Buscar'></a></td>
 	</tr>
 	<tr>
-		<td class="Td2" align='right' width='10%'><b>Contrato</td>
+		<td class="Td2" align='right' width='10%'>
+			<label for="id_contrato" id='id_contrato'><b>Contrato</b></label>			
+		</td>
 		<td class="Td2" align='left' width='10%'>
 	  	<select id='contrato' name='contrato' onchange='mostrarTarifario()'><option value=''></option>
 	  	<?php			
