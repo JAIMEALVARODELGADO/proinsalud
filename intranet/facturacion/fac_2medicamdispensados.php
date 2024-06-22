@@ -11,7 +11,8 @@ include('php/conexion.php');
 
 //Aqui cargo los medicamentos
 $medicamentos = array();
-$consultamedicamentos="SELECT m.codi_mdi, m.ncsi_medi , m.csii_mdi ,m.nomb_mdi  FROM medicamentos2 m";
+$consultamedicamentos="SELECT m.codi_mdi, m.ncsi_medi , m.csii_mdi ,m.nomb_mdi 
+FROM medicamentos2 m";
 //echo "<br>".$consultamedicamentos;
 $resconsultamedicamentos = mysql_query($consultamedicamentos);
 while($rowmedicamento = mysql_fetch_array($resconsultamedicamentos)){
@@ -112,51 +113,58 @@ function actualizarTarifa(codi_pro,regi_for){
 	const tarifaEncontrada = tarifasJS.find(tarifa => buscarTarifa(tarifa, iden_ctr, codigo_));	
 	//console.log(tarifaEncontrada);
 	var nombreVariable='#valor_'+regi_for;
-
 	var valor = new Intl.NumberFormat().format(tarifaEncontrada.valo_tco);
 	$(nombreVariable).text(valor);
-
+	var nombreVariable='identco_'+regi_for;
+	document.getElementById(nombreVariable).value=tarifaEncontrada.iden_tco;
+	modificarItem(regi_for,tarifaEncontrada.iden_tco,iden_ctr);
 }
 
 function buscarTarifa(tarifa, idenctr_, codigo_) {	
 	return tarifa.iden_ctr === idenctr_ && tarifa.codi_mdi === codigo_;
 }
 
+function modificarItem(regifor_,identco_,idenctr_){
+	let indice = listaItems.findIndex(item => item.regi_for === regifor_);
+	if (indice !== -1) {
+    	listaItems[indice].iden_tco=identco_;
+		listaItems[indice].iden_ctr=idenctr_;
+	}	
+}
 
 
 function adicionarItem(regifor_){	
 	//alert(regifor_);
 	var nombreVariable = "selecTarifario_"+regifor_;
-	alert(nombreVariable);
 	var iden_ctr = document.getElementById(nombreVariable).value;
-	alert(iden_ctr);
 	let indice = listaItems.findIndex(item => item.regi_for === regifor_);
+	var nombreVariable = "identco_"+regifor_;
+	var iden_tco = document.getElementById(nombreVariable).value;
 	if (indice !== -1) {
     	listaItems.splice(indice, 1);
 	}
 	else{
-		listaItems.push(crearItem(regifor_));
-	}
-	//console.log(listaItems);
+		listaItems.push(crearItem(regifor_,iden_ctr,iden_tco));
+	}	
 }
 
-function crearItem(regifor_) {
+function crearItem(regifor_,idenctr_,identco_) {
     return {
         regi_for: regifor_,
-        iden_adi: '',
-		iden_tco: '',
-		iden_ctr: ''
+		iden_tco: identco_,
+		iden_ctr: idenctr_
     };
 }
 
-function facturar(nume_for,tarifario){	
-	
+function facturar(nume_for,codi_con){
+	console.log(listaItems);
 	$.ajax({			
             url: 'fac_2facturarmedicamentosdispensados.php', // Ruta al script PHP
             type: 'POST', // Método de envío de datos
 			data:{
 				nume_for:nume_for,
-				iden_ctr:tarifario				
+				codi_con:codi_con,
+				listaItems: listaItems
 			},
 			beforeSend: function() {
         		// Este código se ejecuta antes de enviar la petición
@@ -252,7 +260,8 @@ function recargar(){
 			    <th class='Th0' width='15%'>Contrato</th>";
                 echo "<tr>";
                 
-                echo "<td><a href='#' onclick='facturar($row[nume_for],$tarifario)'><img src='icons/feed_go.png' border='0' alt='Facturar' width=20 height=20 title='Facturar'></a></td>";
+                //echo "<td><a href='#' onclick='facturar($row[nume_for],$tarifario)'><img src='icons/feed_go.png' border='0' alt='Facturar' width=20 height=20 title='Facturar'></a></td>";
+				echo "<td><a href='#' onclick='facturar($row[nume_for],$contrato)'><img src='icons/feed_go.png' border='0' alt='Facturar' width=20 height=20 title='Facturar'></a></td>";
                 echo "<td class='Td2'>".$row['nume_for']."</td>";
 				echo "<td class='Td2'>".$row['NROD_USU']."</td>";
 				echo "<td class='Td2'>".$row['nombre']."</td>";				
@@ -297,17 +306,20 @@ function recargar(){
 				        echo "<td class='Td2'>".$rowdet['codi_pro']."</td>";
                         echo "<td class='Td2'>".$descripcion."</td>";
 				        echo "<td class='Td2' align='center'>".$rowdet['cdis_for']."</td>";
-                        
+                        $identco_='';
                         $tarifaFiltro = filtrarTarco($tarifas,$rowdet['codi_pro'],$idenctr_def);						
 				        if (is_null($tarifaFiltro->iden_tco)){						
 					        echo "<td class='Td5'>Sin tarifario</td>";
 				        }
-				        else{											        
+				        else{
 							//echo "<td class='Td5'>".number_format($tarifaFiltro->valo_tco,0, '.', ',')."</td>";
 							$nomvar="valor_".$rowdet['regi_for'];
 							//echo "<br>".$nomvar;
 							echo "<td class='Td5'><label for='$nomvar' id='$nomvar'>".number_format($tarifaFiltro->valo_tco,0, '.', ',')."</label></td>";
+							$identco_=$tarifaFiltro->iden_tco;
 				        }
+						$nomvar = "identco_".$rowdet['regi_for'];
+						echo "<input type='hidden' name='$nomvar' id='$nomvar' value='$identco_'>";
                         echo "</tr>";
 			        }                                        
 					echo "</table>";
