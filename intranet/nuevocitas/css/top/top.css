@@ -1,0 +1,49 @@
+
+/******************************************************************************/
+/* ENCABEZADO */
+
+
+.encabezado {
+	height: 570px;
+	background: url("img/fondo.jpg") no-repeat top left;
+}
+
+.encabezadoLinks {
+	position: absolute;
+	top: 60px;
+	right: 30px;
+	font-size: 10pt;
+	text-align: right;
+	padding: 20px 20px 0 0;
+	color: #aaa;
+}
+
+.encabezadoLinks strong {
+	color: #ff7f00;
+}
+
+.encabezadoLinks a {
+	font-weight: normal;
+	color: #dcdcddc;
+	text-decoration: none;
+}
+
+.encabezadoLinks a:hover {
+	text-decoration: underline;
+}
+
+.encabezadoMarca {
+
+	top: 0px;
+	left: 0px;
+	width: 550px;
+	height: 78px;
+	color: #ffffff;
+	background:  url("img/fondo.jpg") no-repeat top left ;
+}
+
+.encabezadoMarca span {
+	display: none;
+}
+
+

@@ -3,12 +3,6 @@ session_start();
 
 include('php/conexion.php');
 
-
-//1.Permitir seleccionar el tarifario al cual van los medicamentos
-//2.Permitir seleccionar el contrato al cual va el cobro
-//3.Adicionar los insumos
-//4.Crear un chequeo para seleccionar cual medicamento se va a facturar
-
 //Aqui cargo los medicamentos
 $medicamentos = array();
 $consultamedicamentos="SELECT m.codi_mdi, m.ncsi_medi , m.csii_mdi ,m.nomb_mdi 
@@ -108,7 +102,7 @@ var tarifasJS = <?php echo $tarifasJSON; ?>;
 function actualizarTarifa(codi_pro,regi_for){
 	var nombreVariable = "selecTarifario_"+regi_for;
 	var iden_ctr = document.getElementById(nombreVariable).value;	
-	console.log(codi_pro);
+	//console.log(codi_pro);
 	codigo_=String(codi_pro);
 	const tarifaEncontrada = tarifasJS.find(tarifa => buscarTarifa(tarifa, iden_ctr, codigo_));	
 	
