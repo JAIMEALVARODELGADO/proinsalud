@@ -108,13 +108,14 @@ var tarifasJS = <?php echo $tarifasJSON; ?>;
 function actualizarTarifa(codi_pro,regi_for){
 	var nombreVariable = "selecTarifario_"+regi_for;
 	var iden_ctr = document.getElementById(nombreVariable).value;	
+	console.log(codi_pro);
 	codigo_=String(codi_pro);
 	const tarifaEncontrada = tarifasJS.find(tarifa => buscarTarifa(tarifa, iden_ctr, codigo_));	
 	
 	var nombreVariable='#valor_'+regi_for;	
 	var iden_tco=0;
 	if (tarifaEncontrada === undefined) {
-		$(nombreVariable).text("Registro NO parametrizado");		
+		$(nombreVariable).text("Sin tarifario");		
 	} else {
 		var valor = new Intl.NumberFormat().format(tarifaEncontrada.valo_tco);
 		$(nombreVariable).text(valor);
@@ -300,10 +301,11 @@ function recargar(){
                         $identco_='';
                         $tarifaFiltro = filtrarTarco($tarifas,$rowdet['codi_pro'],$idenctr_def);						
 				        if (is_null($tarifaFiltro->iden_tco)){						
-					        echo "<td class='Td5'>Sin tarifario</td>";
+							$nomvar="valor_".$rowdet['regi_for'];
+							echo "<td class='Td5'><label for='$nomvar' id='$nomvar'>Sin tarifario</label></td>";
 				        }
 				        else{
-							$nomvar="valor_".$rowdet['regi_for'];							
+							$nomvar="valor_".$rowdet['regi_for'];
 							echo "<td class='Td5'><label for='$nomvar' id='$nomvar'>".number_format($tarifaFiltro->valo_tco,0, '.', ',')."</label></td>";
 							$identco_=$tarifaFiltro->iden_tco;
 				        }
