@@ -10,6 +10,11 @@ foreach($_POST as $nombre_campo => $valor)
    $asignacion = "\$" . $nombre_campo . "='" . $valor . "';"; 
    eval($asignacion); 
 }
+
+
+$tarifasJSON = $_POST['tarifas'];
+$tarifasJSON = str_replace('\"', "'", $tarifasJSON);
+
 ?>
 <html>
 <head>
@@ -20,6 +25,29 @@ foreach($_POST as $nombre_campo => $valor)
 <script type="text/javascript" src="java/calendar/calendar-setup.js"></script> 
 <link rel="stylesheet" href="style.css" type="text/css"/>
 <script language="javascript">
+	
+	var tarifasJSON = <?php echo ($tarifasJSON); ?>;
+	console.log(tarifasJSON);
+	
+	function activarFactura(idcita_,contrato_,codmedico_){
+		var prueba=tarifasJSON;
+		//alert("cita: "+idcita_);
+		//alert("Contrato: "+contrato_);
+		alert("Medico: "+codmedico_);
+		//alert(prueba);
+		
+		document.getElementById("factura").style.display = "block";
+
+		var iden_ctr="745";
+		var codigo_="890201";
+		const tarifaEncontrada = tarifasJSON.find(tarifa => buscarTarifa(tarifa, iden_ctr, codigo_));	
+
+	}
+
+	function buscarTarifa(tarifa, idenctr_, codigo_) {	
+		return tarifa.iden_ctr === idenctr_ && tarifa.codi_cup === codigo_;
+	}
+
     function salto2()
     {	
 		//if(uno.usucita.value=='12991944')alert(uno.areas.value);
@@ -445,11 +473,7 @@ foreach($_POST as $nombre_campo => $valor)
 		uno.target='';	
 		uno.action='eli_refer.php';
 		uno.submit();
-	}
-
-	function activarFactura(){
-		alert();
-	}
+	}	
 	
 	
 	
@@ -617,9 +641,15 @@ echo"<table align=center valign=top><tr><td>";
 				$nomauto='tipocon'.$cn;
 				$tipoconsu=$$nomauto;
 				echo"<input type=hidden name=$nomauto value='$tipoconsu'>";
-				
-				
-				
+								
+				$nomauto='id_cita'.$cn;
+				$id_cita=$$nomauto;
+				$nomauto='cotra_citas'.$cn;
+				$cotra_citas=$$nomauto;
+				$nomauto='cmed_horario'.$cn;
+				$cmed_horario=$$nomauto;				
+				//echo "<br>id_cita:".$id_cita;
+				//echo "<br>cotra_citas:".$cotra_citas;
                 echo"<tr>
                 <td align=center width=13%>$Fhorario</td>
                 <td align=center width=8%>$Hhorario</td>
@@ -627,7 +657,7 @@ echo"<table align=center valign=top><tr><td>";
                 <td width=33%>$nareas</td>	
 				<td width=33%>$desesta</td>	
 				<td width=33% align=center>$tipoconsu</td>				
-				<td width=5% align=center><a href='#' onclick=activarFactura()><img src='img/feed_add.png' alt='Facturar' title='Facturar' width='10'></a></td>
+				<td width=5% align=center><a href='#' onclick=activarFactura($id_cita,$cotra_citas,$cmed_horario)><img src='img/feed_add.png' alt='Facturar' title='Facturar' width='10'></a></td>
                 </tr>";			
             }		
             echo"</table><br>";            
@@ -1860,5 +1890,59 @@ if($proxi==1)
 		return $dias_diferencia;         //1=justificado; 2=No justificado
 	}	
 ?>
+
+<section id='factura' class="CajaFactura">
+<!--style="display: none;"-->
+	<h1 align="center">Datos para la factura</h1>
+	<label for="">Tarifario</label>
+	<br><select id='tarifario' name='tarifario'>
+		<?php
+			$consultatarifa=mysql_query("SELECT iden_ctr,nume_ctr,codi_con FROM contratacion c 
+			WHERE esta_ctr ='A' and codi_con='$cotra_citas'");
+			while($rowtarifa = mysql_fetch_assoc($consultatarifa)){
+				//$tarifario[] = $rowtarifa;
+				echo "<option value=$rowtarifa[iden_ctr]>$rowtarifa[nume_ctr]</option>";
+			}
+		?>	  	 
+	  	</select>
+	<br><br><label for="Valor">Valor :</label>
+	<label id="valor">00000</label>
+
+	<?php
+	
+	/*$tarifas = array();
+
+	//Aqui cargo el tarifario
+	$tarifarios = substr_replace($tarifarios, '', -1);
+	$consultatarifa="SELECT t.iden_tco,t.iden_ctr,t.clas_tco , t.valo_tco 
+	,c.nume_ctr 
+	,m.codi_map ,m.desc_map,m.esta_map 
+	,cups.codigo,cups.codi_cup,cups.descrip 
+	FROM tarco t 
+	INNER JOIN contratacion c ON c.iden_ctr = t.iden_ctr 
+	INNER JOIN mapii m ON m.iden_map = t.iden_map 
+	INNER JOIN cups ON cups.codigo = m.codi_map 
+	WHERE m.esta_map = 'AC' AND t.clas_tco ='P' 
+	AND cups.descrip LIKE 'CONSULTA%'";
+	//AND t.iden_ctr ='135' 
+	//echo "<br>".$consultatarifa;
+	$restarifario = mysql_query($consultatarifa);
+	while($rowtarifa = mysql_fetch_array($restarifario)){
+		$tarifa = new Tarco();
+		$tarifa->iden_tco = $rowtarifa['iden_tco'];
+		$tarifa->iden_ctr = $rowtarifa['iden_ctr'];
+		$tarifa->clas_tco = $rowtarifa['clas_tco'];
+		$tarifa->valo_tco = $rowtarifa['valo_tco'];
+		$tarifa->codi_mdi = $rowtarifa['codi_mdi'];
+		$tarifa->nomb_mdi = $rowtarifa['nomb_mdi'];	
+	
+		$tarifas[] = $tarifa;	
+	}
+	$tarifasJSON = json_encode($tarifas);
+	*/
+	?>
+</section>
+
+
 </body>
 </html>

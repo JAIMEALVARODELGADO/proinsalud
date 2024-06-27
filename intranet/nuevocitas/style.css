@@ -3,8 +3,7 @@
 	border: 1px solid #bbbbff;
 	border-collapse: collapse;
 	empty-cells: show;
-	background: #FFFFFF;
-	
+	background: #FFFFFF;	
 
 }
 .tbl td 
@@ -335,4 +334,22 @@
 	border: 3px double #000080;
 }
 
+.CajaFactura {    
+    padding: 10px 20px 10px 20px;
+    position: fixed; 
+    top: 50px; 
+    left:25%;
+    right: 25%;
+    /*border: 1px solid #000000;*/
+    border-radius: 15px;
+    width: 50%;
+    height: 200px;
+    /*text-align: center;*/
+    vertical-align: center;
+    /*background: #006699de;*/
+	background: #b8b8c6de;
+	
+    font-size: 14;
+    color: rgb(3, 3, 93);
+}
 

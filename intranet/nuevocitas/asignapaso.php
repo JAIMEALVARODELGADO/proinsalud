@@ -124,12 +124,15 @@ foreach($_GET as $nombre_campo => $valor)
     //$fech='2020-12-01';
 	if($codusu=='13335' || $codusu=='8571' || $codusu=='135' || $codusu=='2455' || $codusu=='5789' || $codusu=='9004' || $codusu=='272085' || $codusu=='3342' || $codusu=='272085' || $codusu=='270399')$fech=date("Y-m-d",strtotime($fecha."- 90 days"));
 	
+	$contratos="";
+	$medicos="";
     $cn=0;
     $bcitant=mysql_query("SELECT citas.Idusu_citas, horarios.Fecha_horario, horarios.Hora_horario, medicos.nom_medi, areas.nom_areas, 
-	citas.Clase_citas, citas.esta_cita, citas.tipo_consulta,citas.id_cita,citas.Cotra_citas 
+	citas.Clase_citas, citas.esta_cita, citas.tipo_consulta,citas.id_cita,citas.Cotra_citas,horarios.Cmed_horario 
 	FROM ((citas INNER JOIN horarios ON citas.ID_horario = horarios.ID_horario) INNER JOIN medicos ON horarios.Cmed_horario = medicos.cod_medi) INNER JOIN areas ON horarios.Cserv_horario = areas.cod_areas
 	WHERE (((citas.Idusu_citas)='$codusu') AND ((horarios.Fecha_horario)>'$fech') AND ((citas.Clase_citas)<'6'))
 	ORDER BY horarios.Fecha_horario DESC , horarios.Hora_horario DESC");
+	
     while($rcitant=mysql_fetch_array($bcitant))
     {        
 		$Fhorario=$rcitant['Fecha_horario'];
@@ -141,6 +144,8 @@ foreach($_GET as $nombre_campo => $valor)
 
 		$id_cita=$rcitant['id_cita'];
 		$cotra_citas=$rcitant['Cotra_citas'];
+		$cmed_horario=$rcitant['Cmed_horario'];
+		
 		
 		$bec=mysql_query("SELECT * FROM esta_cita where cod_estaci='$estaci'");
 		$rec=mysql_fetch_array($bec);
@@ -162,11 +167,19 @@ foreach($_GET as $nombre_campo => $valor)
 
 		$nomauto='id_cita'.$cn;
         echo"<input type=hidden name=$nomauto value='$id_cita'>";
-		$nomauto='Cotra_citas'.$cn;
+		$nomauto='cotra_citas'.$cn;
         echo"<input type=hidden name=$nomauto value='$cotra_citas'>";
+		$nomauto='cmed_horario'.$cn;
+        echo"<input type=hidden name=$nomauto value='$cmed_horario'>";
+
+		$contratos=$contratos.$cotra_citas.',';
+		$medicos=$medicos.$cmed_horario.',';	
 
         $cn++;
-    }	
+    }
+	
+
+
     echo"<input type=hidden name=fincit value=$cn>";  
     $cn=0;      
     
@@ -374,6 +387,54 @@ foreach($_GET as $nombre_campo => $valor)
 	}
     echo"<input type=hidden name=finrefs value=$cs>";
     echo"<input type=hidden name=finrefn value=$cn>";
+
+	//Aqui se crea el tarifario
+	$contratos = substr_replace($contratos, '', -1);
+	$medicos = substr_replace($medicos, '', -1);
+
+	$tarifas = array();
+
+	$cups="";
+	$consultacups="SELECT cupmp_medi 
+	FROM medicos
+	WHERE cod_medi IN ($medicos)";
+	//echo "<br>".$consultacups;
+	$consultacups=mysql_query($consultacups);
+	while($rowcups = mysql_fetch_array($consultacups)){
+		$cups=$cups.$rowcups['cupmp_medi'].',';
+	}
+	$cups = substr_replace($cups, '', -1);
+
+	//Aqui se carga el tarifario
+	$tarifarios = substr_replace($tarifarios, '', -1);
+	$consultatarifa="SELECT t.iden_tco,t.iden_ctr,t.clas_tco , t.valo_tco ,c.nume_ctr 
+	,cups.codi_cup,cups.descrip 
+	FROM tarco t 
+	INNER JOIN contratacion c ON c.iden_ctr = t.iden_ctr 
+	INNER JOIN mapii m ON m.iden_map = t.iden_map 
+	INNER JOIN cups ON cups.codigo = m.codi_map 
+	WHERE c.esta_ctr='A' AND m.esta_map = 'AC' AND t.clas_tco ='P' 
+	AND c.codi_con IN ($contratos) 
+	AND cups.codi_cup IN ($cups)";	
+	//echo "<br>".$consultatarifa;
+	$restarifario = mysql_query($consultatarifa);
+	while($rowtarifa = mysql_fetch_array($restarifario)){
+		$tarifa = new Tarco();
+		$tarifa->iden_tco = $rowtarifa['iden_tco'];
+		$tarifa->iden_ctr = $rowtarifa['iden_ctr'];
+		$tarifa->clas_tco = $rowtarifa['clas_tco'];
+		$tarifa->valo_tco = $rowtarifa['valo_tco'];
+		$tarifa->codi_cup = $rowtarifa['codi_cup'];
+		$tarifa->descrip = $rowtarifa['descrip'];	
+	
+		$tarifas[] = $tarifa;	
+	}
+	$tarifasJSON = json_encode($tarifas);
+	//echo $tarifasJSON;
+
+	echo"<input type=hidden name=tarifas value='$tarifasJSON'>";
+
+
     echo"</form>";
 
 	function verifica($fecjus)
@@ -400,7 +461,18 @@ foreach($_GET as $nombre_campo => $valor)
 		$dias_diferencia = floor($dias_diferencia); 
 		return $dias_diferencia;         //1=justificado; 2=No justificado
 	}	
-       
+
+	
+
+
+	class Tarco {
+		public $iden_tco;
+		public $iden_ctr;
+		public $clas_tco;
+		public $valo_tco;
+		public $codi_cup;
+		public $descrip;
+	}
 ?>
 </body>
 </html>
