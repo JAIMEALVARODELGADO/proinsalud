@@ -22,7 +22,7 @@
 	border: 1px solid #bbbbff;
 	padding:.6em .8em;
 	font=-family: tahoma;
-	color: #0240A3;
+	color: #0240A3;	
 	font-size: 8pt;
 	text-decoration: none;
 	font-weight: 700;
@@ -347,9 +347,45 @@
     /*text-align: center;*/
     vertical-align: center;
     /*background: #006699de;*/
-	background: #b8b8c6de;
-	
+	background: #E3E3EDde;	
+	/*b8b8c6*/
+
     font-size: 14;
     color: rgb(3, 3, 93);
+}
+
+.contenedor {
+	display: flex;
+	width: 100%;
+}
+.col1 {
+	
+	width: 50%;
+}
+
+.BtnGuardar{
+    background: #015562;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+    height: 30px;
+    /*width: 60px;*/
+}
+
+.CajaEspera {    
+    padding: 60px 10px 10px 10px;
+    position: fixed; 
+    top: 50px; 
+    left:25%;
+    right: 25%;
+    /*border: 1px solid #000000;*/
+    border-radius: 15px;
+    width: 50%;
+    height: 100px;
+    text-align: center;
+    vertical-align: center;
+    background: #006699de; 
+    font-size: 18;
+    color: rgb(255, 255, 255);
 }
 

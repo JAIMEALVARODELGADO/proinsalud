@@ -1,4 +1,4 @@
-<?
+<?php
 session_start();
 $usucitas=$_SESSION['usucitas'];
 $areatra=$_SESSION['areatra'];
@@ -18,35 +18,101 @@ $tarifasJSON = str_replace('\"', "'", $tarifasJSON);
 ?>
 <html>
 <head>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" media="all" href="java/calendar/calendar-blue.css" title="win2k-cold-1" />
 <script type="text/javascript" src="java/calendar/calendar.js"></script> 
 <script type="text/javascript" src="java/calendar/lang/calendar-es.js"></script> 
 <script type="text/javascript" src="java/calendar/calendar-setup.js"></script> 
 <link rel="stylesheet" href="style.css" type="text/css"/>
 <script language="javascript">
-	
+
+	//Desde aqui se crean las funciones para la facturación
+	var id_cita=0;
+	var iden_ctr=0;
+	var codigo='';
+	var iden_tco=0;
+
 	var tarifasJSON = <?php echo ($tarifasJSON); ?>;
-	console.log(tarifasJSON);
+	//console.log(tarifasJSON);
 	
-	function activarFactura(idcita_,contrato_,codmedico_){
-		var prueba=tarifasJSON;
-		//alert("cita: "+idcita_);
-		//alert("Contrato: "+contrato_);
-		alert("Medico: "+codmedico_);
-		//alert(prueba);
-		
+	function activarFactura(idcita_,codigo_){
+		id_cita=idcita_;
+		codigo=codigo_.toString();		
 		document.getElementById("factura").style.display = "block";
+	}
 
-		var iden_ctr="745";
-		var codigo_="890201";
-		const tarifaEncontrada = tarifasJSON.find(tarifa => buscarTarifa(tarifa, iden_ctr, codigo_));	
+	function elegirTarifa(){
+		var idenctr_=document.getElementById("tarifario").value;
+		iden_ctr=idenctr_.toString();
+		const tarifaEncontrada = tarifasJSON.find(tarifa => buscarTarifa(tarifa, iden_ctr, codigo));
 
+		if (tarifaEncontrada === undefined) {
+			document.getElementById("descrip").textContent="Sin tarifario o el profesional no tiene codigo CUPS asignado";
+			document.getElementById("valor").textContent="00000";
+			iden_tco=0;
+		} else {
+			var valor = new Intl.NumberFormat().format(tarifaEncontrada.valo_tco);
+			document.getElementById("descrip").textContent=tarifaEncontrada.descrip;
+			document.getElementById("valor").textContent=valor;
+			iden_tco=tarifaEncontrada.iden_tco;
+		}
 	}
 
 	function buscarTarifa(tarifa, idenctr_, codigo_) {	
 		return tarifa.iden_ctr === idenctr_ && tarifa.codi_cup === codigo_;
 	}
+
+	function cancelar(){
+		document.getElementById("tarifario").value="";
+		document.getElementById("descrip").textContent="";
+		document.getElementById("valor").textContent="00000";
+		id_cita=0;
+		codigo='';
+		iden_tco=0;
+		iden_ctr=0;		
+		document.getElementById("factura").style.display = "none";
+	}
+
+	function facturar(){
+		if(id_cita === 0 || iden_tco === 0 || iden_ctr ===0){
+			document.getElementById("descrip").textContent="Sin tarifario o el profesional no tiene codigo CUPS asignado";
+		}
+		else{
+			$.ajax({			
+				url: 'facturarcita.php', // Ruta al script PHP
+				type: 'POST', // Método de envío de datos
+				data:{
+					id_cita:id_cita,
+					iden_tco:iden_tco,
+					iden_ctr:iden_ctr
+				},
+				beforeSend: function() {
+					document.getElementById("mensaje").style.display = "block";
+					$('#mensaje').text('Facturando...');
+				},
+				success: function(response) { 
+					//console.log(response); // Imprime la respuesta del servidor en la consola
+					$('#mensaje').text(response);
+					setTimeout(() => {
+						console.log("Retardo de 5 segundo");
+					}, 5000);
+					document.getElementById("mensaje").style.display = "none";
+					//document.getElementById("factura").style.display = "none";
+					cancelar()
+					
+				},
+				error: function(jqXHR, textStatus, errorThrown) {
+					console.error(textStatus, errorThrown); // Imprime el error en la consola
+				}
+			});
+		}
+		
+	}
+
+	function mensajeFacturado(){
+		alert("El registro ya fué facturado");
+	}
+	//aqui finalizan las funciones para la facturación
 
     function salto2()
     {	
@@ -527,7 +593,7 @@ margin-left:10px;
 } 
 a{text-decoration:none}
 </style> 
-<?
+<?php
    set_time_limit(300);
    
    
@@ -646,19 +712,26 @@ echo"<table align=center valign=top><tr><td>";
 				$id_cita=$$nomauto;
 				$nomauto='cotra_citas'.$cn;
 				$cotra_citas=$$nomauto;
-				$nomauto='cmed_horario'.$cn;
-				$cmed_horario=$$nomauto;				
-				//echo "<br>id_cita:".$id_cita;
-				//echo "<br>cotra_citas:".$cotra_citas;
+				$nomauto='cupmp_medi'.$cn;
+				$cupmp_medi=$$nomauto;
+				$nomauto='iden_dfa'.$cn;
+				$iden_dfa=$$nomauto;
+				
                 echo"<tr>
                 <td align=center width=13%>$Fhorario</td>
                 <td align=center width=8%>$Hhorario</td>
                 <td width=36%>$nmedi</td>
                 <td width=33%>$nareas</td>	
 				<td width=33%>$desesta</td>	
-				<td width=33% align=center>$tipoconsu</td>				
-				<td width=5% align=center><a href='#' onclick=activarFactura($id_cita,$cotra_citas,$cmed_horario)><img src='img/feed_add.png' alt='Facturar' title='Facturar' width='10'></a></td>
-                </tr>";			
+				<td width=33% align=center>$tipoconsu</td>";
+				if($iden_dfa == 0){
+					echo "<td width=5% align=center><a href='#' onclick=activarFactura($id_cita,$cupmp_medi)><img src='img/feed_add.png' alt='Facturar' title='Facturar' width='15'></a></td>";
+				}
+				else{
+					echo "<td width=5% align=center><a href='#' onclick=mensajeFacturado()><img src='img/feed_add.png' alt='Facturar' title='Facturar' width='15'></a></td>";
+				}
+				
+                echo "</tr>";			
             }		
             echo"</table><br>";            
         }		
@@ -1891,58 +1964,40 @@ if($proxi==1)
 	}	
 ?>
 
-<section id='factura' class="CajaFactura">
-<!--style="display: none;"-->
+<!--Esta seccion es para los datos de la facturacion-->
+<section id='factura' class="CajaFactura" style="display: none;">	
 	<h1 align="center">Datos para la factura</h1>
-	<label for="">Tarifario</label>
-	<br><select id='tarifario' name='tarifario'>
-		<?php
-			$consultatarifa=mysql_query("SELECT iden_ctr,nume_ctr,codi_con FROM contratacion c 
-			WHERE esta_ctr ='A' and codi_con='$cotra_citas'");
-			while($rowtarifa = mysql_fetch_assoc($consultatarifa)){
-				//$tarifario[] = $rowtarifa;
-				echo "<option value=$rowtarifa[iden_ctr]>$rowtarifa[nume_ctr]</option>";
-			}
-		?>	  	 
-	  	</select>
-	<br><br><label for="Valor">Valor :</label>
-	<label id="valor">00000</label>
-
-	<?php
-	
-	/*$tarifas = array();
-
-	//Aqui cargo el tarifario
-	$tarifarios = substr_replace($tarifarios, '', -1);
-	$consultatarifa="SELECT t.iden_tco,t.iden_ctr,t.clas_tco , t.valo_tco 
-	,c.nume_ctr 
-	,m.codi_map ,m.desc_map,m.esta_map 
-	,cups.codigo,cups.codi_cup,cups.descrip 
-	FROM tarco t 
-	INNER JOIN contratacion c ON c.iden_ctr = t.iden_ctr 
-	INNER JOIN mapii m ON m.iden_map = t.iden_map 
-	INNER JOIN cups ON cups.codigo = m.codi_map 
-	WHERE m.esta_map = 'AC' AND t.clas_tco ='P' 
-	AND cups.descrip LIKE 'CONSULTA%'";
-	//AND t.iden_ctr ='135' 
-	//echo "<br>".$consultatarifa;
-	$restarifario = mysql_query($consultatarifa);
-	while($rowtarifa = mysql_fetch_array($restarifario)){
-		$tarifa = new Tarco();
-		$tarifa->iden_tco = $rowtarifa['iden_tco'];
-		$tarifa->iden_ctr = $rowtarifa['iden_ctr'];
-		$tarifa->clas_tco = $rowtarifa['clas_tco'];
-		$tarifa->valo_tco = $rowtarifa['valo_tco'];
-		$tarifa->codi_mdi = $rowtarifa['codi_mdi'];
-		$tarifa->nomb_mdi = $rowtarifa['nomb_mdi'];	
-	
-		$tarifas[] = $tarifa;	
-	}
-	$tarifasJSON = json_encode($tarifas);
-	*/
-	?>
+	<div class="contenedor">
+		<div class="col1">
+			<label for="">Tarifario</label>
+			<br><select id='tarifario' name='tarifario' onchange="elegirTarifa()">			                                            
+				<option value=""></option>
+			<?php
+				$consultatarifa=mysql_query("SELECT iden_ctr,nume_ctr,codi_con FROM contratacion c 
+				WHERE esta_ctr ='A' and codi_con='$cotra_citas'");
+				while($rowtarifa = mysql_fetch_assoc($consultatarifa)){					
+					echo "<option value=$rowtarifa[iden_ctr]>$rowtarifa[nume_ctr]</option>";
+				}
+			?>	  	 
+	  		</select>
+		</div>
+		<div class="col1">
+			<label id="descrip"></label>
+			<br><br><label for="valor">Valor :</label>
+			<label id="valor">00000</label>
+		</div>
+	</div>
+	<br><br><br>
+	<div class="contenedor">
+		<div class="col1" align='center'>
+			<input type='button' value='Facturar'  class='BtnGuardar' onclick='facturar()'>
+		</div>
+		<div class="col1" align='center'>
+			<input type='button' value='Cancelar'  class='BtnGuardar' onclick='cancelar()'>
+		</div>
+	</div>
 </section>
-
+<div id="mensaje" class="CajaEspera" style="display: none;"></div>
 
 </body>
 </html>

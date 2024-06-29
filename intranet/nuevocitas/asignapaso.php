@@ -127,8 +127,8 @@ foreach($_GET as $nombre_campo => $valor)
 	$contratos="";
 	$medicos="";
     $cn=0;
-    $bcitant=mysql_query("SELECT citas.Idusu_citas, horarios.Fecha_horario, horarios.Hora_horario, medicos.nom_medi, areas.nom_areas, 
-	citas.Clase_citas, citas.esta_cita, citas.tipo_consulta,citas.id_cita,citas.Cotra_citas,horarios.Cmed_horario 
+    $bcitant=mysql_query("SELECT citas.Idusu_citas, horarios.Fecha_horario, horarios.Hora_horario, medicos.nom_medi,medicos.cupmp_medi, areas.nom_areas, 
+	citas.Clase_citas, citas.esta_cita, citas.tipo_consulta,citas.id_cita,citas.Cotra_citas,citas.iden_dfa,horarios.Cmed_horario 
 	FROM ((citas INNER JOIN horarios ON citas.ID_horario = horarios.ID_horario) INNER JOIN medicos ON horarios.Cmed_horario = medicos.cod_medi) INNER JOIN areas ON horarios.Cserv_horario = areas.cod_areas
 	WHERE (((citas.Idusu_citas)='$codusu') AND ((horarios.Fecha_horario)>'$fech') AND ((citas.Clase_citas)<'6'))
 	ORDER BY horarios.Fecha_horario DESC , horarios.Hora_horario DESC");
@@ -145,7 +145,8 @@ foreach($_GET as $nombre_campo => $valor)
 		$id_cita=$rcitant['id_cita'];
 		$cotra_citas=$rcitant['Cotra_citas'];
 		$cmed_horario=$rcitant['Cmed_horario'];
-		
+		$cupmp_medi=$rcitant['cupmp_medi'];
+		$iden_dfa=$rcitant['iden_dfa'];		
 		
 		$bec=mysql_query("SELECT * FROM esta_cita where cod_estaci='$estaci'");
 		$rec=mysql_fetch_array($bec);
@@ -171,6 +172,11 @@ foreach($_GET as $nombre_campo => $valor)
         echo"<input type=hidden name=$nomauto value='$cotra_citas'>";
 		$nomauto='cmed_horario'.$cn;
         echo"<input type=hidden name=$nomauto value='$cmed_horario'>";
+		$nomauto='cupmp_medi'.$cn;
+        echo"<input type=hidden name=$nomauto value='$cupmp_medi'>";
+		$nomauto='iden_dfa'.$cn;
+        echo"<input type=hidden name=$nomauto value='$iden_dfa'>";
+		
 
 		$contratos=$contratos.$cotra_citas.',';
 		$medicos=$medicos.$cmed_horario.',';	
