@@ -182,8 +182,7 @@ foreach($_GET as $nombre_campo => $valor)
 		$medicos=$medicos.$cmed_horario.',';	
 
         $cn++;
-    }
-	
+    }	
 
 
     echo"<input type=hidden name=fincit value=$cn>";  
@@ -403,11 +402,12 @@ foreach($_GET as $nombre_campo => $valor)
 	$cups="";
 	$consultacups="SELECT cupmp_medi 
 	FROM medicos
-	WHERE cod_medi IN ($medicos)";
-	//echo "<br>".$consultacups;
+	WHERE cod_medi IN ($medicos)";	
 	$consultacups=mysql_query($consultacups);
 	while($rowcups = mysql_fetch_array($consultacups)){
-		$cups=$cups.$rowcups['cupmp_medi'].',';
+		if($rowcups['cupmp_medi'] <> ''){
+			$cups=$cups.$rowcups['cupmp_medi'].',';
+		}		
 	}
 	$cups = substr_replace($cups, '', -1);
 

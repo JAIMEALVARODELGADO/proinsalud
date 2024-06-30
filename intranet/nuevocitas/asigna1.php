@@ -14,7 +14,7 @@ foreach($_POST as $nombre_campo => $valor)
 
 $tarifasJSON = $_POST['tarifas'];
 $tarifasJSON = str_replace('\"', "'", $tarifasJSON);
-
+$cotra_citas="";
 ?>
 <html>
 <head>
@@ -711,7 +711,7 @@ echo"<table align=center valign=top><tr><td>";
 				$nomauto='id_cita'.$cn;
 				$id_cita=$$nomauto;
 				$nomauto='cotra_citas'.$cn;
-				$cotra_citas=$$nomauto;
+				$cotra_citas=$cotra_citas.$$nomauto.',';
 				$nomauto='cupmp_medi'.$cn;
 				$cupmp_medi=$$nomauto;
 				$nomauto='iden_dfa'.$cn;
@@ -1965,6 +1965,9 @@ if($proxi==1)
 ?>
 
 <!--Esta seccion es para los datos de la facturacion-->
+<?php
+$cotra_citas = substr_replace($cotra_citas, '', -1);
+?>
 <section id='factura' class="CajaFactura" style="display: none;">	
 	<h1 align="center">Datos para la factura</h1>
 	<div class="contenedor">
@@ -1973,8 +1976,10 @@ if($proxi==1)
 			<br><select id='tarifario' name='tarifario' onchange="elegirTarifa()">			                                            
 				<option value=""></option>
 			<?php
-				$consultatarifa=mysql_query("SELECT iden_ctr,nume_ctr,codi_con FROM contratacion c 
-				WHERE esta_ctr ='A' and codi_con='$cotra_citas'");
+				
+				$consultatarifa="SELECT iden_ctr,nume_ctr,codi_con FROM contratacion c 
+				WHERE esta_ctr ='A' and codi_con IN ($cotra_citas) ORDER BY 1 DESC";
+				$consultatarifa=mysql_query($consultatarifa);
 				while($rowtarifa = mysql_fetch_assoc($consultatarifa)){					
 					echo "<option value=$rowtarifa[iden_ctr]>$rowtarifa[nume_ctr]</option>";
 				}
