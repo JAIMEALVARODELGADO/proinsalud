@@ -1,6 +1,6 @@
 <HTML>
 <head>
-<title>Regresa a la página anterior</title>
+<title>Regresa a la pï¿½gina anterior</title>
 </head>
 
 <Script Language="JavaScript">
@@ -13,7 +13,7 @@ function cargar(){
 include ('php/conexion.php');
 //echo $cod_medi;
 $nom_medi=$pnom_medi.' '.$snom_medi.' '.$pape_medi.' '.$sape_medi;
-$sql_="UPDATE medicos SET nom_medi='$nom_medi',dir__medi='$dir_medi',telf_medi='$telf_medi',are_medi='$are_medi',ced_medi='$ced_medi',reg_medi='$reg_medi',csii_med='$csii_med',espe_med='$espe_med',tido_medi='$tido_medi',pnom_medi='$pnom_medi',snom_medi='$snom_medi',pape_medi='$pape_medi',sape_medi='$sape_medi'
+$sql_="UPDATE medicos SET nom_medi='$nom_medi',dir__medi='$dir_medi',telf_medi='$telf_medi',are_medi='$are_medi',ced_medi='$ced_medi',reg_medi='$reg_medi',csii_med='$csii_med',espe_med='$espe_med',tido_medi='$tido_medi',pnom_medi='$pnom_medi',snom_medi='$snom_medi',pape_medi='$pape_medi',sape_medi='$sape_medi',cupmp_medi='$cupmp_medi',cupmc_medi='$cupmc_medi'
 WHERE cod_medi='$cod_medi'";
 //echo $sql_;
 mysql_query($sql_);

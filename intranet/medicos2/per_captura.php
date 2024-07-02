@@ -33,7 +33,7 @@
       <td><input type=text name="are_medi" size=35 maxlength=40></td>
   </tr>
   <tr>
-  <td align="right">Reg Médico:</td>
+  <td align="right">Reg Mï¿½dico:</td>
   <td><input type=text name="reg_medi" size=20 maxlength=20></td>
   <td align="right">Estado:</td>
   <td><select name="esta_medi">
@@ -63,7 +63,13 @@
         ?>
 	  </select>
 	</td>
-    <td align="right">Cód SIIGO:</td>
+    <td align="right">CÃ³d SIIGO:</td>
     <td><input type="text" name="csii_med" size=4 maxlength=4></td>
+  </tr>
+  <tr>
+    <td align="right">CÃ³d CUPS Primera vez:</td>
+    <td><input type="text" name="cupmp_medi" size=6 maxlength=6></td>
+    <td align="right">CÃ³d CUPS Control:</td>
+    <td><input type="text" name="cupmc_medi" size=6 maxlength=6></td>
   </tr>
  </table> 

@@ -1,5 +1,7 @@
 <html>
-<head><title>Modifica Persona</title>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Modifica Persona</title>
 
 <!-- Funcion que valida que no queden en blanco los campos obligatorios -->
 <script languaje="javascript">
@@ -7,7 +9,7 @@ function validar(form){
     var error = "Por favor, para continuar,\ncomplete los siguientes campos:\n\n";
     var a = ""
     if (form.tido_medi.value == "") { a += "Tipo de Identificacion\n"; }
-    if (form.ced_medi.value == "") { a += "Cédula\n"; }
+    if (form.ced_medi.value == "") { a += "Cï¿½dula\n"; }
     if (form.pnom_medi.value == "") { a += "Primer Nombre\n"; }
     if (form.pape_medi.value == "") { a += "Primer Apellido\n"; }
     if (form.reg_medi.value == "") { a += "Registro\n"; }
@@ -29,7 +31,7 @@ function atras(){
 include ('php/conexion.php');
 include ('php/funciones.php');
 
-$consultamed="SELECT cod_medi,nom_medi,dir__medi,telf_medi,are_medi,esta_medi,ced_medi,reg_medi,csii_med,espe_med,tido_medi,pnom_medi,snom_medi,pape_medi,sape_medi
+$consultamed="SELECT cod_medi,nom_medi,dir__medi,telf_medi,are_medi,esta_medi,ced_medi,reg_medi,csii_med,espe_med,tido_medi,pnom_medi,snom_medi,pape_medi,sape_medi,cupmp_medi,cupmc_medi
 FROM medicos WHERE cod_medi='$cod_medi'";
 //echo $consultamed;
 $consultamed=mysql_query($consultamed);
@@ -59,6 +61,8 @@ require('per_captura.php');
     document.form1.reg_medi.value='<?echo $rowmed[reg_medi];?>';    
     document.form1.espe_med.value='<?echo $rowmed[espe_med];?>';
     document.form1.csii_med.value='<?echo $rowmed[csii_med];?>';    
+    document.form1.cupmp_medi.value='<?echo $rowmed[cupmp_medi];?>';
+    document.form1.cupmc_medi.value='<?echo $rowmed[cupmc_medi];?>';
 </script>
 <center><b><?echo $mensaje?></center>
 <br>

@@ -399,42 +399,51 @@ foreach($_GET as $nombre_campo => $valor)
 
 	$tarifas = array();
 
-	$cups="";
-	$consultacups="SELECT cupmp_medi 
-	FROM medicos
-	WHERE cod_medi IN ($medicos)";	
-	$consultacups=mysql_query($consultacups);
-	while($rowcups = mysql_fetch_array($consultacups)){
-		if($rowcups['cupmp_medi'] <> ''){
-			$cups=$cups.$rowcups['cupmp_medi'].',';
-		}		
+	$cups="";	
+	if(!empty($medicos)){
+		$consultacups="SELECT cupmp_medi 
+		FROM medicos
+		WHERE cod_medi IN ($medicos)";	
+		echo "<br>".$consultacups;
+		$consultacups=mysql_query($consultacups);
+		if(mysql_num_rows($consultacups) <> 0){
+			while($rowcups = mysql_fetch_array($consultacups)){
+				if($rowcups['cupmp_medi'] <> ''){
+					$cups=$cups.$rowcups['cupmp_medi'].',';
+				}		
+			}
+			$cups = substr_replace($cups, '', -1);
+		}
 	}
-	$cups = substr_replace($cups, '', -1);
+	
 
 	//Aqui se carga el tarifario
-	$tarifarios = substr_replace($tarifarios, '', -1);
-	$consultatarifa="SELECT t.iden_tco,t.iden_ctr,t.clas_tco , t.valo_tco ,c.nume_ctr 
-	,cups.codi_cup,cups.descrip 
-	FROM tarco t 
-	INNER JOIN contratacion c ON c.iden_ctr = t.iden_ctr 
-	INNER JOIN mapii m ON m.iden_map = t.iden_map 
-	INNER JOIN cups ON cups.codigo = m.codi_map 
-	WHERE c.esta_ctr='A' AND m.esta_map = 'AC' AND t.clas_tco ='P' 
-	AND c.codi_con IN ($contratos) 
-	AND cups.codi_cup IN ($cups)";	
-	//echo "<br>".$consultatarifa;
-	$restarifario = mysql_query($consultatarifa);
-	while($rowtarifa = mysql_fetch_array($restarifario)){
-		$tarifa = new Tarco();
-		$tarifa->iden_tco = $rowtarifa['iden_tco'];
-		$tarifa->iden_ctr = $rowtarifa['iden_ctr'];
-		$tarifa->clas_tco = $rowtarifa['clas_tco'];
-		$tarifa->valo_tco = $rowtarifa['valo_tco'];
-		$tarifa->codi_cup = $rowtarifa['codi_cup'];
-		$tarifa->descrip = $rowtarifa['descrip'];	
-	
-		$tarifas[] = $tarifa;	
+	if(!empty($contratos) && !empty($cups)){
+		$tarifarios = substr_replace($tarifarios, '', -1);
+		$consultatarifa="SELECT t.iden_tco,t.iden_ctr,t.clas_tco , t.valo_tco ,c.nume_ctr 
+		,cups.codi_cup,cups.descrip 
+		FROM tarco t 
+		INNER JOIN contratacion c ON c.iden_ctr = t.iden_ctr 
+		INNER JOIN mapii m ON m.iden_map = t.iden_map 
+		INNER JOIN cups ON cups.codigo = m.codi_map 
+		WHERE c.esta_ctr='A' AND m.esta_map = 'AC' AND t.clas_tco ='P' 
+		AND c.codi_con IN ($contratos) 
+		AND cups.codi_cup IN ($cups)";	
+		//echo "<br>".$consultatarifa;
+		$restarifario = mysql_query($consultatarifa);
+		while($rowtarifa = mysql_fetch_array($restarifario)){
+			$tarifa = new Tarco();
+			$tarifa->iden_tco = $rowtarifa['iden_tco'];
+			$tarifa->iden_ctr = $rowtarifa['iden_ctr'];
+			$tarifa->clas_tco = $rowtarifa['clas_tco'];
+			$tarifa->valo_tco = $rowtarifa['valo_tco'];
+			$tarifa->codi_cup = $rowtarifa['codi_cup'];
+			$tarifa->descrip = $rowtarifa['descrip'];	
+		
+			$tarifas[] = $tarifa;	
+		}
 	}
+	
 	$tarifasJSON = json_encode($tarifas);
 	//echo $tarifasJSON;
 
