@@ -7,9 +7,9 @@ function validar(form)
 {
 var error = "Por favor, para continuar,\ncomplete los siguientes campos:\n\n";
 var a = ""
-    if (form.cod_medi.value == "") { a += "Código\n"; }
+    if (form.cod_medi.value == "") { a += "Cï¿½digo\n"; }
     if (form.tido_medi.value == "") { a += "Tipo de Identificacion\n"; }
-    if (form.ced_medi.value == "") { a += "Cédula\n"; }
+    if (form.ced_medi.value == "") { a += "Cï¿½dula\n"; }
     if (form.pnom_medi.value == "") { a += "Primer Nombre\n"; }
     if (form.pape_medi.value == "") { a += "Primer Apellido\n"; }
     if (form.reg_medi.value == "") { a += "Registro\n"; }
@@ -115,7 +115,7 @@ include ('php/conexion.php');
       <td><input type=text name="are_medi" size=35 maxlength=40></td>
   </tr>
   <tr>
-  <td align="right">Reg Médico:</td>
+  <td align="right">Reg Mï¿½dico:</td>
   <td><input type=text name="reg_medi" size=20 maxlength=20></td>
   <td align="right">Estado:</td>
   <td><select name="esta_medi">
@@ -145,9 +145,15 @@ include ('php/conexion.php');
         ?>
 	  </select>
 	</td>
-    <td align="right">Cód SIIGO:</td>
+    <td align="right">Cï¿½d SIIGO:</td>
     <td><?echo $csii_med?></td>
 	<input type="hidden" name="csii_med" value='<?echo $csii_med?>'>
+  </tr>
+  <tr>
+    <td align="right">CÃ³d CUPS Primera vez:</td>
+    <td><input type="text" name="cupmp_medi" size=6 maxlength=6></td>
+    <td align="right">CÃ³d CUPS Control:</td>
+    <td><input type="text" name="cupmc_medi" size=6 maxlength=6></td>
   </tr>
  </table>
 

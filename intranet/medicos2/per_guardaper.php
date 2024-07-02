@@ -2,8 +2,8 @@
 include("php/conexion.php");
 //Aqui controlo la accion a tomar
 $nom_medi=$pnom_medi.' '.$snom_medi.' '.$pape_medi.' '.$sape_medi;
-$sql_="INSERT INTO medicos (cod_medi,nom_medi,dir__medi,telf_medi,are_medi,esta_medi,ced_medi,reg_medi,csii_med,espe_med,tido_medi,pnom_medi,snom_medi,pape_medi,sape_medi) 
-VALUES ('$cod_medi','$nom_medi','$dir_medi','$telf_medi','$are_medi','A','$ced_medi','$reg_medi',$csii_med,'$espe_med','$tido_medi','$pnom_medi','$snom_medi','$pape_medi','$sape_medi')";
+$sql_="INSERT INTO medicos (cod_medi,nom_medi,dir__medi,telf_medi,are_medi,esta_medi,ced_medi,reg_medi,csii_med,espe_med,tido_medi,pnom_medi,snom_medi,pape_medi,sape_medi,cupmp_medi,cupmc_medi) 
+VALUES ('$cod_medi','$nom_medi','$dir_medi','$telf_medi','$are_medi','A','$ced_medi','$reg_medi',$csii_med,'$espe_med','$tido_medi','$pnom_medi','$snom_medi','$pape_medi','$sape_medi','$cupmp_medi','$cupmc_medi')";
 //echo $sql_;
 mysql_query($sql_);
 
