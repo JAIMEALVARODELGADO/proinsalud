@@ -404,7 +404,7 @@ foreach($_GET as $nombre_campo => $valor)
 		$consultacups="SELECT cupmp_medi 
 		FROM medicos
 		WHERE cod_medi IN ($medicos)";	
-		echo "<br>".$consultacups;
+		//echo "<br>".$consultacups;
 		$consultacups=mysql_query($consultacups);
 		if(mysql_num_rows($consultacups) <> 0){
 			while($rowcups = mysql_fetch_array($consultacups)){
