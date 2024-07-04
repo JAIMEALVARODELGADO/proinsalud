@@ -13,7 +13,10 @@ foreach($_POST as $nombre_campo => $valor)
 
 
 $tarifasJSON = $_POST['tarifas'];
+//echo "<br>tarifas".$tarifasJSON;
 $tarifasJSON = str_replace('\"', "'", $tarifasJSON);
+$tarifasJSON = str_replace("\'", "'", $tarifasJSON);
+//echo "<br>tarifas".$tarifasJSON;
 $cotra_citas="";
 ?>
 <html>
@@ -32,7 +35,7 @@ $cotra_citas="";
 	var codigo='';
 	var iden_tco=0;
 
-	var tarifasJSON = <?php echo ($tarifasJSON); ?>;
+	var tarifasJSON = <?php echo ($tarifasJSON);?>;
 	//console.log(tarifasJSON);
 	
 	function activarFactura(idcita_,codigo_){
@@ -115,7 +118,7 @@ $cotra_citas="";
 	//aqui finalizan las funciones para la facturación
 
     function salto2()
-    {	
+    {
 		//if(uno.usucita.value=='12991944')alert(uno.areas.value);
 		uno.target='';
         uno.action='asigna1.php';
@@ -644,8 +647,11 @@ a{text-decoration:none}
     <input type=hidden name=fincit value=$fincit>
     <input type=hidden name=finrefs value=$finrefs>
     <input type=hidden name=finrefn value=$finrefn>
-    <input type=hidden name=valvar value=$valvar>	
-    <table align=center class='tbl'>
+    <input type=hidden name=valvar value=$valvar>"
+	?>	
+	<input type='hidden' id='tarifas' name='tarifas' value="<?php echo $tarifasJSON;?>">
+	<?php
+    echo "<table align=center class='tbl'>
     <tr><th colspan=2>ASIGNACION DE CITA</th></tr>
     <tr>
     ";
@@ -725,7 +731,7 @@ echo"<table align=center valign=top><tr><td>";
 				<td width=33%>$desesta</td>	
 				<td width=33% align=center>$tipoconsu</td>";
 				if($iden_dfa == 0){
-					echo "<td width=5% align=center><a href='#' onclick=activarFactura($id_cita,$cupmp_medi)><img src='img/feed_add.png' alt='Facturar' title='Facturar' width='15'></a></td>";
+					echo "<td width=5% align=center><a href='#' onclick=activarFactura('$id_cita','$cupmp_medi')><img src='img/feed_add.png' alt='Facturar' title='Facturar' width='15'></a></td>";
 				}
 				else{
 					echo "<td width=5% align=center><a href='#' onclick=mensajeFacturado()><img src='img/feed_add.png' alt='Facturar' title='Facturar' width='15'></a></td>";
@@ -1447,7 +1453,9 @@ echo"<table align=center valign=top><tr><td>";
                 else
                 {					
                     if($k<10)$di=$ano.'-'.$mes.'-0'.$k;
-                    else $di=$ano.'-'.$mes.'-'.$k;						
+                    else $di=$ano.'-'.$mes.'-'.$k;
+					/*echo "<br>"."SELECT Count(horarios.Cmed_horario) AS cuentadis
+                    FROM horarios WHERE (((horarios.Fecha_horario)='$di') AND ((horarios.Usado_horario)>0) AND ((horarios.Cmed_horario)='$medico') AND ((horarios.Cserv_horario)='$areas'))";*/
                     $bdi=mysql_query("SELECT Count(horarios.Cmed_horario) AS cuentadis
                     FROM horarios WHERE (((horarios.Fecha_horario)='$di') AND ((horarios.Usado_horario)>0) AND ((horarios.Cmed_horario)='$medico') AND ((horarios.Cserv_horario)='$areas'))");
                     while($ndispo=mysql_fetch_array($bdi))
@@ -1843,9 +1851,53 @@ if($proxi==1)
 	}
 	echo "</table>";
 }
-	
+?>	
+<!--Esta seccion es para los datos de la facturacion-->
+<?php
+$cotra_citas = substr_replace($cotra_citas, '', -1);
+?>
+<section id='factura' class="CajaFactura" style="display: none;">	
+	<h1 align="center">Datos para la factura</h1>
+	<div class="contenedor">
+		<div class="col1">
+			<label for="">Tarifario</label>
+			<br><select id='tarifario' name='tarifario' onchange="elegirTarifa()">			                                            
+				<option value=""></option>
+			<?php
+				
+				$consultatarifa="SELECT iden_ctr,nume_ctr,codi_con FROM contratacion c 
+				WHERE esta_ctr ='A' and codi_con IN ($cotra_citas) ORDER BY 1 DESC";
+				$consultatarifa=mysql_query($consultatarifa);
+				while($rowtarifa = mysql_fetch_assoc($consultatarifa)){					
+					echo "<option value=$rowtarifa[iden_ctr]>$rowtarifa[nume_ctr]</option>";
+				}
+			?>	  	 
+	  		</select>
+		</div>
+		<div class="col1">
+			<label id="descrip"></label>
+			<br><br><label for="valor">Valor :</label>
+			<label id="valor">00000</label>
+		</div>
+	</div>
+	<br><br><br>
+	<div class="contenedor">
+		<div class="col1" align='center'>
+			<input type='button' value='Facturar'  class='BtnGuardar' onclick='facturar()'>
+		</div>
+		<div class="col1" align='center'>
+			<input type='button' value='Cancelar'  class='BtnGuardar' onclick='cancelar()'>
+		</div>
+	</div>
+</section>
+<div id="mensaje" class="CajaEspera" style="display: none;"></div>
+<!--<script type="text/javascript">
+	//console.log(<?php echo $tarifasJSON;?>);
+	document.getElementById("tarifas").value = <?php echo $tarifasJSON;?>;
+</script>-->
 
-	
+
+<?php	
          
     echo "</form>";
 	function calculaedad($fecha_)
@@ -1964,45 +2016,7 @@ if($proxi==1)
 	}	
 ?>
 
-<!--Esta seccion es para los datos de la facturacion-->
-<?php
-$cotra_citas = substr_replace($cotra_citas, '', -1);
-?>
-<section id='factura' class="CajaFactura" style="display: none;">	
-	<h1 align="center">Datos para la factura</h1>
-	<div class="contenedor">
-		<div class="col1">
-			<label for="">Tarifario</label>
-			<br><select id='tarifario' name='tarifario' onchange="elegirTarifa()">			                                            
-				<option value=""></option>
-			<?php
-				
-				$consultatarifa="SELECT iden_ctr,nume_ctr,codi_con FROM contratacion c 
-				WHERE esta_ctr ='A' and codi_con IN ($cotra_citas) ORDER BY 1 DESC";
-				$consultatarifa=mysql_query($consultatarifa);
-				while($rowtarifa = mysql_fetch_assoc($consultatarifa)){					
-					echo "<option value=$rowtarifa[iden_ctr]>$rowtarifa[nume_ctr]</option>";
-				}
-			?>	  	 
-	  		</select>
-		</div>
-		<div class="col1">
-			<label id="descrip"></label>
-			<br><br><label for="valor">Valor :</label>
-			<label id="valor">00000</label>
-		</div>
-	</div>
-	<br><br><br>
-	<div class="contenedor">
-		<div class="col1" align='center'>
-			<input type='button' value='Facturar'  class='BtnGuardar' onclick='facturar()'>
-		</div>
-		<div class="col1" align='center'>
-			<input type='button' value='Cancelar'  class='BtnGuardar' onclick='cancelar()'>
-		</div>
-	</div>
-</section>
-<div id="mensaje" class="CajaEspera" style="display: none;"></div>
+
 
 </body>
 </html>
