@@ -16,17 +16,17 @@ $gcotr=$cotr;
 ?>
 <html>
 <head>
-<title>PROGRAMA DE FACTURACIÓN - PROFACTU</title>
+<title>PROGRAMA DE FACTURACIï¿½N - PROFACTU</title>
 <!--Hoja de estilos del calendario --> 
 <link rel="stylesheet" type="text/css" media="all" href="java/calendar/calendar-blue.css" title="win2k-cold-1" /> 
 
-<!-- librería principal del calendario --> 
+<!-- librerï¿½a principal del calendario --> 
 <script type="text/javascript" src="java/calendar/calendar.js"></script> 
 
-<!-- librería para cargar el lenguaje deseado --> 
+<!-- librerï¿½a para cargar el lenguaje deseado --> 
 <script type="text/javascript" src="java/calendar/lang/calendar-es.js"></script> 
 
-<!-- librería que declara la función Calendar.setup, que ayuda a generar un calendario en unas pocas líneas de código --> 
+<!-- librerï¿½a que declara la funciï¿½n Calendar.setup, que ayuda a generar un calendario en unas pocas lï¿½neas de cï¿½digo --> 
 <script type="text/javascript" src="java/calendar/calendar-setup.js"></script> 
 
 <link rel="stylesheet" href="css/style.css" type="text/css" />
@@ -42,10 +42,10 @@ function validag(){
 var error="";
   if(form1.tipo_fac.value==""){error=error+"Tipo De Factura\n";}
   /*if(validafecha(form1.feci_fac.value)==false){
-    error+="Fecha de inicio del servicio inválida\n";
+    error+="Fecha de inicio del servicio invï¿½lida\n";
   }
   if(validafecha(form1.fecf_fac.value)==false){
-    error+="Fecha final del servicio inválida\n";
+    error+="Fecha final del servicio invï¿½lida\n";
   }
   if(validahoy(form1.feci_fac.value)==false){
     error+="La fecha inicial del servicio no puede ser mayor a la de hoy\n";
@@ -55,11 +55,11 @@ var error="";
   }
   if(error==""){
       if(validafechamen(form1.fecf_fac.value,form1.feci_fac.value)==true){
-        error+="La fecha de inicio del servicio debe ser menor o igual a la de finalización\n";
+        error+="La fecha de inicio del servicio debe ser menor o igual a la de finalizaciï¿½n\n";
       }
   }*/
   if(error!=""){
-    alert("Para continuar debe corregir la siguiente información:\n"+error);}
+    alert("Para continuar debe corregir la siguiente informaciï¿½n:\n"+error);}
   else{
     form1.action="fac_3guardedit.php";
     form1.submit();
@@ -68,14 +68,14 @@ var error="";
 </script>
 
 <script language='vBscript'>
-//Funcion que retorna true si la fecha es válida y false si la fecha no es válida
-//Parámetros: fecha_ : Es la fecha que se va a validar, debe llegar en formato dd/mm/aaaa
+//Funcion que retorna true si la fecha es vï¿½lida y false si la fecha no es vï¿½lida
+//Parï¿½metros: fecha_ : Es la fecha que se va a validar, debe llegar en formato dd/mm/aaaa
 function validafecha(fecha_)
   validafecha=IsDate(fecha_)
 end function
 
 //Funcion que retorna true si la fecha1 es mayor a fecha2
-//Parámetros: fecha_ : Es la fecha que se va a validar, debe llegar en formato dd/mm/aaaa
+//Parï¿½metros: fecha_ : Es la fecha que se va a validar, debe llegar en formato dd/mm/aaaa
 function validafechamen(fecha1_,fecha2_)
   diferencia=(DateDiff("d",fecha2_,fecha1_))  
   if(diferencia>=0) then
@@ -86,7 +86,7 @@ function validafechamen(fecha1_,fecha2_)
 end function
 
 //Funcion que retorna true si la fecha es menor a la fecha actual
-//Parámetros: fecha_ : Es la fecha que se va a validar, debe llegar en formato dd/mm/aaaa
+//Parï¿½metros: fecha_ : Es la fecha que se va a validar, debe llegar en formato dd/mm/aaaa
 function validahoy(fecha_)
   hoy=now
   hoy=mid(hoy,1,10)
@@ -186,7 +186,7 @@ $consulta5=mysql_query($_pagi_sql5);
   
 	  echo "<table class='Tbl0'>";
 	  echo "<tr>";
-	  echo "<td class='Td2' align='right'><b>Identificación:</td>";
+	  echo "<td class='Td2' align='right'><b>Identificaciï¿½n:</td>";
 	  echo "<td class='Td2'><input type=hidden name=codi_usu value=$row[CODI_USU]>$row[TDoc_usu] $row[NROD_USU]</td>";
 	  echo "<td class='Td2' align='right'><b>Nombre:</td>";
 	  echo "<td class='Td2'><input type=hidden name=nom_usu value='$row[DNom]'>$row[DNom]</td>";
@@ -195,15 +195,15 @@ $consulta5=mysql_query($_pagi_sql5);
 	  echo "<td class='Td2'><input type=hidden name=edad value=".calculaedad($row[FNAC_USU]).">".calculaedad($row[FNAC_USU])."</td>";
 	  echo "<td class='Td2' align='right'><b>Sexo:</td>";
 	  echo "<td class='Td2'>$row[SEXO_USU]</td>";
-	  echo "<td class='Td2' align='right'><b>Dirección:</td>";
+	  echo "<td class='Td2' align='right'><b>Direcciï¿½n:</td>";
 	  echo "<td class='Td2'>$row[DIRE_USU]</td>";
 	  echo "</tr>";
 	  echo "</tr>";
 	  echo "<td class='Td2' align='right'><b>Tipo Afiliado:</td>";
 	  echo "<td class='Td2'>$row[TPAF_USU]</td>";
-	  echo "<td class='Td2' align='right'><b>Mun Atención:</td>";
+	  echo "<td class='Td2' align='right'><b>Mun Atenciï¿½n:</td>";
 	  echo "<td class='Td2'>$nomb_mun</td>";
-	  echo "<td class='Td2' align='right'><b>Teléfono:</td>";
+	  echo "<td class='Td2' align='right'><b>Telï¿½fono:</td>";
 	  echo "<td class='Td2'>$row[TRES_USU]</td>";
 	  echo "</tr>";
 	  echo "<tr>";
@@ -226,9 +226,9 @@ $consulta5=mysql_query($_pagi_sql5);
 		  <td class='Td2' align='right'><b>Tipo de factura:</td>
 		  <td class='Td2'><select name='tipo_fac'><option value='<?echo $tipo_fac;?>'>
 	        <option value='1'>Contado
-			<option value='2'>Crédito
+			<option value='2'>Crï¿½dito
 		  </td><script language="javaScript">form1.tipo_fac.value='<?echo $gtipo_fac;?>';</script>
-		  <td class='Td2' align='right'><b>Relación Nro:</td>
+		  <td class='Td2' align='right'><b>Relaciï¿½n Nro:</td>
 		  <td class='Td2'><input type='text' name='rela_fac' size='8' maxlength='8' value=<?echo $grela_fac;?>></td>
 		</tr>
 		<tr>
@@ -240,7 +240,7 @@ $consulta5=mysql_query($_pagi_sql5);
 				Calendar.setup({ 
 				inputField   :    "frec",     // id del campo de texto 
 				ifFormat     :    "%d/%m/%Y",     // formato de la fecha que se escriba en el campo de texto 
-				button       :    "lanzador0"     // el id del botón que lanzará el calendario 
+				button       :    "lanzador0"     // el id del botï¿½n que lanzarï¿½ el calendario 
 				});
 			</script></button> </td>
 			<td class='Td2' align='right'><b>F. final del servicio:</td>
@@ -251,15 +251,15 @@ $consulta5=mysql_query($_pagi_sql5);
 				Calendar.setup({ 
 				inputField   :    "ffin",     // id del campo de texto 
 				ifFormat     :    "%d/%m/%Y",     // formato de la fecha que se escriba en el campo de texto 
-				button       :    "lanzador3"     // el id del botón que lanzará el calendario 
+				button       :    "lanzador3"     // el id del botï¿½n que lanzarï¿½ el calendario 
 				});
 			</script></button></td>
-			<td class='Td2' align='right'><b>Nro Autorización:</td>
+			<td class='Td2' align='right'><b>Nro Autorizaciï¿½n:</td>
 			<td class="Td2" align='left'><input type='text' name='nauto_fac' size='15' maxlength='15' value=<?echo $nauto_fac;?>></td>
 		</tr>
 		<tr>
-			    <td class='Td2' align='right'><b>Diagnóstico:</td>
-			    <td class='Td2'><input type="text" name="cod_cie10" size="4" maxlength="4"   value=<?echo $cod_cie10;?> disabled>
+			    <td class='Td2' align='right'><b>Diagnï¿½stico:</td>
+			    <td class='Td2'><input type="text" name="cod_cie10" size="4" maxlength="4"   value=<?echo $cod_cie10;?> >
 				<!--<a href='#' onclick="busqueda()"> <img hspace='0' width='20' height='20' src='icons\feed_magnify.png' alt='Buscar' border='0' align='center' ></a>--></td>
 				<td class='Td2' colspan='3' ><?echo $nom_cie10;?></td>
 				<td></td></tr></table>
