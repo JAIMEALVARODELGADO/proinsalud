@@ -1,6 +1,8 @@
 <?php
 session_start();
 
+ini_set("memory_limit", "256M");
+
 include('php/conexion.php');
 
 //Aqui cargo los medicamentos
@@ -79,8 +81,8 @@ while($rowtarifa = mysql_fetch_array($restarifario)){
 	$tarifa->valo_tco = $rowtarifa['valo_tco'];
 	$tarifa->codi_mdi = $rowtarifa['codi_mdi'];
 	$tarifa->nomb_mdi = $rowtarifa['nomb_mdi'];	
-
-	$tarifas[] = $tarifa;	
+	//echo "<br>".$tarifa->iden_tco;
+	$tarifas[] = $tarifa;
 }
 $tarifasJSON = json_encode($tarifas);
 
