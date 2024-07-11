@@ -12,7 +12,7 @@ $msj="";
 
 
 //Aqui se consulta la cita del paciente
-$consulta_cita="SELECT h.Fecha_horario,c.Idusu_citas,c.Cotra_citas,c.iden_dfa, h.Cserv_horario,h.Cmed_horario,c2.NIT_CON
+$consulta_cita="SELECT h.Fecha_horario,c.Idusu_citas,c.Cotra_citas,c.iden_dfa,c.numc_adx  , h.Cserv_horario,h.Cmed_horario,c2.NIT_CON
 FROM citas c 
 INNER JOIN horarios h ON h.ID_horario = c.ID_horario 
 INNER JOIN contrato c2 ON c2.CODI_CON = c.Cotra_citas
@@ -28,6 +28,17 @@ if($rowcita['iden_dfa'] == 0){
     $consulta_area = mysql_query($consulta_area);
     $rowarea = mysql_fetch_array($consulta_area);
 
+    //Aqui se consulta el diagnóstico
+    $cod_cie10='';
+    if(!empty($rowcita['numc_adx']) OR !is_null($rowcita['numc_adx'])){
+        $consulta_dx="SELECT cod1_cpl FROM consultaprincipal c WHERE numc_cpl ='$rowcita[numc_adx]'";
+        $consulta_dx=mysql_query($consulta_dx);
+        if(mysql_num_rows($consulta_dx) <> 0){
+            $rowdx=mysql_fetch_array($consulta_dx);
+            $cod_cie10=$rowdx['cod1_cpl'];            
+        }
+    }
+
     //Aqui se consulta la tarifa
     $consulta_tarifa="SELECT t.iden_tco, t.valo_tco, m.desc_map 
     FROM tarco t 
@@ -40,7 +51,7 @@ if($rowcita['iden_dfa'] == 0){
 
     //Aqui se crea el registro de la factura
     $sql="INSERT INTO encabezado_factura (nume_fac,tipo_fac,feci_fac,fecf_fac,codi_usu,codi_con,iden_ctr,cod_cie10,area_fac,vtot_fac,pcop_fac,vcop_fac,pdes_fac,cmod_fac,vnet_fac,esta_fac,enti_fac,anul_fac,usua_fac)
-    VALUES('','2','$rowcita[Fecha_horario]','$rowcita[Fecha_horario]','$rowcita[Idusu_citas]','$rowcita[Cotra_citas]','$_POST[iden_ctr]','','$rowarea[codi_des]','$rowtarifa[valo_tco]','0','0','0','0','$rowtarifa[valo_tco]','1','$rowcita[NIT_CON]','N','$usucitas')";
+    VALUES('','2','$rowcita[Fecha_horario]','$rowcita[Fecha_horario]','$rowcita[Idusu_citas]','$rowcita[Cotra_citas]','$_POST[iden_ctr]','$cod_cie10','$rowarea[codi_des]','$rowtarifa[valo_tco]','0','0','0','0','$rowtarifa[valo_tco]','1','$rowcita[NIT_CON]','N','$usucitas')";
     //echo "<br>".$sql;
 
     mysql_query($sql);

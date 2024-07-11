@@ -127,6 +127,7 @@ foreach($_GET as $nombre_campo => $valor)
 	$contratos="";
 	$medicos="";
     $cn=0;
+	
     $bcitant=mysql_query("SELECT citas.Idusu_citas, horarios.Fecha_horario, horarios.Hora_horario, medicos.nom_medi,medicos.cupmp_medi, areas.nom_areas, 
 	citas.Clase_citas, citas.esta_cita, citas.tipo_consulta,citas.id_cita,citas.Cotra_citas,citas.iden_dfa,horarios.Cmed_horario 
 	FROM ((citas INNER JOIN horarios ON citas.ID_horario = horarios.ID_horario) INNER JOIN medicos ON horarios.Cmed_horario = medicos.cod_medi) INNER JOIN areas ON horarios.Cserv_horario = areas.cod_areas
