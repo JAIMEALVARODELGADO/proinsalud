@@ -68,11 +68,14 @@ include('php/conexion.php');
 <tr>
     <td class="Td2" align='right'><b>Prefijo:</td>
     <td class="Td2" align='left'><select name='pref_fac' >
-        <option value="FE">FE</option>
-        <option value="I">I</option>
-		<option value="R">R</option>
-		<option value="PGP">PGP</option>
-        </select>
+    <?php
+      $consultaconsec="select c.prefijo from consecutivo c WHERE c.estado ='A' ORDER BY prefijo";
+      $consultaconsec=mysql_query($consultaconsec);
+      while($row=mysql_fetch_array($consultaconsec)){
+          echo "<option value='$row[prefijo]'>$row[prefijo]</option>";
+      }
+    ?> 
+    </select>
     </td>
     <td class='Td2' align='left'><input type='checkbox' name='cums'><b>Generar Medicamentos con Código CUMS</td>
 </tr>

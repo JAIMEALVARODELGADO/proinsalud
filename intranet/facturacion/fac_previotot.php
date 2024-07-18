@@ -19,7 +19,7 @@ $razo_emp=$rowenca[razo_emp];
 $nite_emp=$rowenca[nite_emp];
 $dire_emp=$rowenca[dire_emp];
 $tele_emp=$rowenca[tele_emp];
-$enca_emp=$rowenca[enca_emp];
+//$enca_emp=$rowenca[enca_emp];
 
 //$num_fac='';
 
