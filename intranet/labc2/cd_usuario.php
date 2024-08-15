@@ -1,4 +1,4 @@
-<!-- Captura la identificación del usuario a buscar -->
+<!-- Captura la identificaciï¿½n del usuario a buscar -->
 <html>
 <head><title>Buscar Usuario</title>
 <style type="text/css">
@@ -13,7 +13,7 @@
 function validar(form)
 {
     if (form.cod_usu.value =="") 
-    { alert("Por favor ingrese la identificación"); return true; }
+    { alert("Por favor ingrese la identificaciï¿½n"); return true; }
 	 if (form.contrato.value =="") 
     { alert("Por favor ingrese el Contrato"); return true; }
 	
@@ -31,7 +31,7 @@ function validar(form)
    </table><br><br>
   <Table width="50%" border="0" align="center"><tr bgcolor=#FEE9BC>
   <td  class='Td1'><input name="imageField" type="image" src="icons/48px-User-info_svg.png" align="left" width="25" height="25" border="0"></td>
-  <td class='Td1'><font bgcolor='#FEE9BC'><b>Identificación:</font></td>
+  <td class='Td1'><font bgcolor='#FEE9BC'><b>Identificaciï¿½n:</font></td>
   <input type=hidden name=fat value=3>
   <input type=hidden name=format value='3'>
   <td  class='Td1'><input type=text name="cod_usu" size=12 maxlength=20></td>
@@ -44,7 +44,8 @@ function validar(form)
   <!-- Aqui se captura el contrato -->
   <?
   
-	$link=Mysql_connect("localhost","root","");
+	//$link=Mysql_connect("localhost","root","");
+  $link=Mysql_connect("192.168.4.12","root","");
 	if(!$link)echo"no hay conexion";
 	Mysql_select_db('proinsalud',$link);
 	

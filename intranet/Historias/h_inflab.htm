@@ -1,0 +1,29 @@
+<!-- Captura la identificación del usuario a buscar -->
+<html>
+<head><title>Buscar Usuario</title>
+
+<script languaje="javascript">
+function validar(form)
+{
+    if (form.usu.value == "") 
+    { alert("Por favor ingrese la identificación"); return true; }
+
+form.submit()
+}
+</script>
+
+</head>
+<body bgcolor="#E6E8FA">
+  <p>&nbsp;</p>
+<form name="cd_usuario" method="POST" action="ver_ordlabc.php" target="Fr04">
+<Table width="40%" border="1" align="center" cellpadding=0 Cellspacing=1 BorderColor="#fffff" BgColor="D0D0F0">
+ <tr> 
+ <h5><strong><div align=center><font  face="arial" size=2 >HISTORICO DE LABORATORIO CLINICO</font></DIV>
+ <td width="15%" align="right"><b><font size=2 face="arial">Identificación:</font></td>
+  <td width="15%"><input type=text name="usu" size=20 maxlength=20>*</td>
+    <td width="25%" align="left"><input type="button" name="btn1" value="Buscar" onclick="validar(this.form)"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>

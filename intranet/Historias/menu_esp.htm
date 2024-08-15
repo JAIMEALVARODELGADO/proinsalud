@@ -1,0 +1,181 @@
+<?php
+session_register('contador'); 
+?>
+<html>
+<head>              
+
+
+
+
+<SCRIPT LANGUAGE=JavaScript>
+function cerrarse(){
+	parent.close() 
+}
+
+function abrir(){
+	window.open("http://cosistemas/derechos/cd_principal.html","","fullscreen,scrollbars" )
+}
+
+</script>
+
+
+<!-- Colocar dentro de la etiqueta <HEAD> -->
+
+<script language="JavaScript1.2">
+
+/*
+Static menu script II (By maXimus, maximus@nsimail.com, http://absolutegb.com/maximus/)
+Modified slightly/ permission granted to Dynamic Drive to feature script in archive
+For full source, usage terms, and 100's more DHTML scripts, visit http://dynamicdrive.com
+
+Traducido y adaptado al español por http://www.losrecursosgratis.com
+*/
+
+function move(x) {
+if (document.all) {
+object1.style.pixelLeft += x;
+object1.style.visibility = "visible"}
+else if (document.layers) {
+document.object1.left += x;
+document.object1.visibility = "show"}};
+
+function makeStatic() {
+if (document.all) {object1.style.pixelTop=document.body.scrollTop+110}
+else {eval(document.object1.top=eval(window.pageYOffset+20));}
+setTimeout("makeStatic()",0);}
+</script>
+
+<style>
+<!--
+
+.hl	{
+		Background-Color : coral;
+		Cursor:hand;
+	}
+.n	{
+		Cursor:hand;
+	}
+-->
+
+
+</style>
+</head>
+
+<body Background="img/Fondo.jpg">
+
+<!--Step 2: Add the below SCRIPT to the body of your page where you want it to appear:-->
+
+
+<!-- Colocar dentro de la etiqueta <BODY> -->
+
+<LAYER visibility="hide" top="20" name="object1"  bgcolor="" left="0" pagey="20" onmouseover="move(132)" onmouseout="move(-132)">
+
+<script language="JavaScript1.2">
+
+
+function positionmenu(){
+move(-132)
+}
+
+if (document.all) {document.write('<DIV ID="object1" style="visibility:hidden;cursor:hand; position : absolute ;Left : 0px ;Top : 20px; pagey:20 ;Z-Index : 20" onmouseover="move(132)" onmouseout="move(-132)">')}
+</script>
+
+<table border="0" cellpadding="0" cellspacing="1" width="150" bgcolor="#000000" >
+<tr><td bgcolor="#42426F" bordercolor="#FFCC66" > <font size="3" face="Arial" color="#FFFFFF"><b>Historias.</b></font></td>
+
+<script language="JavaScript1.2">
+document.write('<td align="center" rowspan="100" width="16" bgcolor="#42426F" ><span style="font-size:13px"><p align="center"><font face="Arial Black" color="#FFFFFF">M<br>E<br>N<BR>U</font></p></span></TD>')
+</script>
+
+</tr>
+
+<script language="JavaScript1.2"><!--
+if (document.all||document.layers) {
+makeStatic();}
+
+var text=new Array();
+var thelink=new Array();
+
+//configura aqui los enlaces - en los text los textos, en thelink su correspondiente link
+
+
+text[0]="Mirar listados";
+text[1]="Mirar Historico";
+text[2]="Usuario";
+text[3]="Grupo Familiar";
+text[4]="LIstado de Usuarios";
+text[5]="Inicio";
+
+thelink[0]="frm_gehor.php";
+thelink[1]="cd_frabuscar.html";
+thelink[2]="http://cosistemas/derechos/cd_frabuscar.html";
+thelink[3]="http://cosistemas/derechos/cd_frabuscagrupo.html";
+thelink[4]="http://cosistemas/derechos/cd_frabuslistado.html";
+thelink[5]="blanco1.html";
+
+//Aqui se configura el target, pero solo son validos '' (el mismo marco), 'new' (nueva ventana), or 'framename' (el mismo frame)
+var linktarget='fr2'
+///A PARTIR DE AQUI NO TOCAR NADA////////////////
+
+function navigateie(which){
+if (linktarget=='')
+window.location=thelink[which]
+else if (linktarget=='new')
+window.open(thelink[which])
+else{
+temp_var=eval("window.parent."+linktarget)
+temp_var.location=thelink[which]
+}
+}
+
+for (i=0;i<=text.length-1;i++)
+if (document.all) {document.write('<TR><TD height=20 bgcolor=white onclick="navigateie('+i+')" onmouseover="className=\'hl\'" onmouseout="className=\'n\'"><FONT SIZE=2 FACE=ARIAL>&nbsp;'+text[i]+'</FONT></TD></TR>')}
+else {document.write('<TR><TD bgcolor="white"><ILAYER><LAYER HEIGHT="18" onmouseover="this.bgColor=\'yellow\'" onmouseout="this.bgColor=\'white\'" width=131><FONT SIZE=2 FACE=ARIAL>&nbsp;<A HREF="'+thelink[i]+'" target="'+linktarget+'" id="nounderline">'+text[i]+'</A></FONT></LAYER></ILAYER></TD></TR>')}
+
+//-->
+</script>
+<tr>
+<td bgcolor="#0099FF"><font size="1" face="Arial"> </font></td>
+</TR>
+</table>
+
+<script language="JavaScript1.2">
+if (document.all) {document.write('</DIV>')}
+window.onload=positionmenu
+</script>
+</LAYER>
+
+
+
+</font><br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<td><input type=button value=" Cerrar Aplicación  " onclick="cerrarse()"><td>
+<br>
+<br>
+<b> Los Campos marcados con "*" Son Obligatorios</b>
+
+
+</body>
+
+</html>

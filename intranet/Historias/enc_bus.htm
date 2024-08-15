@@ -1,0 +1,61 @@
+<html>
+<head><title>V</title>
+<SCRIPT LANGUAGE=JavaScript>
+  function carga(page2) {
+    parent.Frm2.location.href=page2;
+  }
+</SCRIPT>
+
+<SCRIPT LANGUAGE=JavaScript>
+  function carga1(page2) {
+    parent.Frm3.location.href=page2;
+  }
+</SCRIPT>
+
+<SCRIPT LANGUAGE=JavaScript>
+function cerrarse(){
+	parent.close() 
+}
+</script>
+
+
+
+
+</head>
+
+<body  bgcolor="#E6E8FA">
+
+<br>
+<br>
+<br>
+<table border="1" width="80%" align="center" BorderColor=#FFFFFF bgcolor="#8F8FBD" cellpadding=0 Cellspacing=1>
+  
+  
+  <td width="8%" align="right"><b><font size=2 face="arial">Cedula:</font></td>
+  <td width="10%"><b><input type=text name="V10" size=12 maxlength=12 VALUE="98396211"></td>
+
+    
+  </td>
+  <td width="8%" align="right"><b><font size=2 face="arial">Contratos:</font></td> 
+  <td width="10%" align="center">  <select name="V11">
+  <option values="CO">Magisterio
+  <option value="BE">Humana Vivir
+  <option value="BE">Salud Vida
+  <option value="BE">Colsanitas
+
+ </td>
+
+</table>
+
+<center>
+<table>
+<td   rowspan=2><a onclick="carga('dat_usua.html')"><input type=submit value=" Validar Usuario   "> </td>
+<td  ><a onclick="carga1('histo_ci.html')"> <input type=submit value=" Generar Historial   ">  </td>
+<td><input type=button value="  Capturar  " onclick="cerrarse()"><td>
+</table>
+</center>
+
+
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+<head>
+
+
+<title>PROGRAMA PARA EL MANEJO DE CITAS MEDICAS</title>
+
+<!-Hoja de estilos del calendario --> 
+  <link rel="stylesheet" type="text/css" media="all" href="java/calendar/calendar-green.css" title="win2k-cold-1" /> 
+
+  <!-- librería principal del calendario --> 
+ <script type="text/javascript" src="java/calendar/calendar.js"></script> 
+
+ <!-- librería para cargar el lenguaje deseado --> 
+  <script type="text/javascript" src="java/calendar/lang/calendar-es.js"></script> 
+
+  <!-- librería que declara la función Calendar.setup, que ayuda a generar un calendario en unas pocas líneas de código --> 
+  <script type="text/javascript" src="java/calendar/calendar-setup.js"></script> 
+
+<SCRIPT LANGUAGE=JavaScript>
+ 
+function abrir2Ventanas() 
+{ 
+window.open("Bus_usua.htm","prueba1", "width=1000,height=500b,top=0,left=0',status,toolbar=0,scrollbars,location"); 
+
+} 
+</script> 
+
+<SCRIPT LANGUAGE=JavaScript>
+  function carga(page2) {
+    parent.Frm5.location.href=page2;
+  }
+</SCRIPT>
+
+<SCRIPT LANGUAGE=JavaScript>
+  function carga1(page2) {
+    parent.Frm5.location.href=page2;
+  }
+</SCRIPT>
+
+
+
+
+
+</head>
+
+<body lang=ES style='tab-interval:35.4pt' bgcolor="#E6E8FA">
+
+
+<h3 align=center style='text-align:center'>ELIMINAR HORARIOS</h3>
+
+<p>
+
+<table width =90% >
+<tr>
+<td width=50% align="right">
+<b>Medico:</b>
+</td>
+<td width=50% align="left"><SELECT NAME="Medicos">
+<OPTION>Juan carlos Rosas
+<OPTION>Carlos Riascos
+<OPTION SELECTED>Sandra liz calvo
+<OPTION>Hernesto Moreno
+<OPTION>Oscar Guerrero
+<OPTION VALUE="11021075">Ricardo Burgos
+</SELECT> 
+</td>
+</tr>
+<tr>
+<td width=50% align="right">
+<b>Area:</b>
+</td>
+<td>
+<SELECT NAME="Areas">
+<OPTION SELECTED>Consulta General
+<OPTION>Consulta Especializada
+<OPTION>Urgencias
+<OPTION>Rayos X
+<OPTION>Laboratorios
+<OPTION VALUE="11021075">Promocion y Prevencion
+</SELECT>
+</td>
+</tr>
+
+<tr>
+<td width=50% align="right" ><b>Fecha Inicio:</b></td>
+<!-- formulario con el campo de texto y el botón para lanzar el calendario--> 
+<form action="#" method="get"> 
+<td><input type="text" name="date" id="campo_fecha11" /> 
+<input type="button" id="lanzador12" value="..." /> 
+</td>
+</form> 
+
+<!-- script que define y configura el calendario--> 
+<script type="text/javascript"> 
+   Calendar.setup({ 
+    inputField     :    "campo_fecha11",     // id del campo de texto 
+     ifFormat     :     "%d/%m/%Y",     // formato de la fecha que se escriba en el campo de texto 
+     button     :    "lanzador12"     // el id del botón que lanzará el calendario 
+}); 
+</script> 
+
+</tr>
+<tr>
+<td width=50% align="right"><b>Fecha Final:</b></td>  
+
+<!-- formulario con el campo de texto y el botón para lanzar el calendario--> 
+<form action="#" method="get"> 
+<td><input type="text" name="date" id="campo_fecha22" /> 
+<input type="button" id="lanzador22" value="..." /> 
+</td>
+</form> 
+
+<!-- script que define y configura el calendario--> 
+<script type="text/javascript"> 
+   Calendar.setup({ 
+    inputField     :    "campo_fecha22",     // id del campo de texto 
+     ifFormat     :     "%d/%m/%Y",     // formato de la fecha que se escriba en el campo de texto 
+     button     :    "lanzador22"     // el id del botón que lanzará el calendario 
+}); 
+</script> 
+
+</tr>
+
+<p>
+<p>
+<P>
+</table>
+<p>
+<p>
+
+<table>
+<td width="8%" align="right" rowspan=2><a onclick="carga1('dat_usua.html')"><input type=submit value=" Validar Usuario   "> </td>
+<td width="8%" align="right" rowspan=2><a onclick="carga('dat_usua.html')" ><input type=submit value=" Validar Usuario   "> </td>
+</table>
+
+</body>
+
+</html>

@@ -2,7 +2,8 @@
 session_start();
 session_register('datos');	
 
-$link=Mysql_connect("localhost","root","");
+//$link=Mysql_connect("localhost","root","");
+$link=Mysql_connect("192.168.4.12","root","");
 if(!$link)echo"no hay conexion";
 Mysql_select_db('proinsalud',$link);
 

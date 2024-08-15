@@ -1,0 +1,379 @@
+<?
+session_register('Gsexo');
+session_register('Gbanderaref');
+session_register('Gcontme');
+//echo "d:$areac";
+?>
+<html><head><title>Antecedentes</title>
+
+<script language="JavaScript1.2" src="style1.js"></script>
+		<script language=JavaScript>
+		function buscaring(ing)
+		{
+			form21.ingreso.value=ing;
+			form21.action='historico2.php';
+			form21.submit();
+		}
+		
+		function cambio()
+		{
+			
+			form21.target='';
+			form21.action='historico2.php';
+			form21.submit();		
+		}
+		function cambio1(k)
+		{
+			form21.ubica.value=k;			
+			form21.target='';
+			form21.action='historico2.php';
+			form21.submit();		
+		}
+		function imprelab(k)
+		{
+			form21.fecdia.value=k;
+			form21.target='TOP';
+			form21.action='impr_ayudas0.php';
+			form21.submit();			
+		}
+		function impreayu(k)
+		{
+			form21.fecdia.value=k;
+			form21.target='TOP';
+			form21.action='impr_ayudas2.php';
+			form21.submit();			
+		}
+		function impre(evo)
+		{
+			//alert(evo);
+			//form21.iden_evo.value=evo;			
+			//form21.target='TOP';
+			//form21.action='imprehis.php';
+			//form21.submit();
+			url='imprehis.php?iden_evo='+evo;
+			window.open(url,'nuevo');
+			//alert(url);
+		}
+		function foco()
+		{			
+			j=form21.ubica.value;					
+			if(j!=form21.fin.value)
+			{
+				j=form21.ubica.value;	
+			}
+			else
+			{
+				j=form21.ubica.value;
+			}			
+			
+		}
+		</script>
+</head>
+<body>
+<form name="form21" method="POST" action="pasoserie.php">
+
+<?php
+echo"<input type=hidden name=ingreso value=$ingreso>";
+ECHO"<input type=hidden name=areac value=$areac>";
+ECHO"<input type=hidden name=cedula value=$cedula>";
+
+$Gcontme="verdadero";
+$Gbanderaref="false";
+include ('../Libreria/Php/conexiones_g.php');
+include ('../Libreria/Php/sql.php');
+base_proinsalud(); 
+$busu=mysql_query("select * from usuario where NROD_USU='$cedula'");
+while($row16=mysql_fetch_array($busu))
+{
+	$Gideusu=$row16['CODI_USU'];
+}
+//echo 'usuario '.$Gideusu;
+if ($areac==01 )
+{	
+	$bcon=mysql_query("Select nom_areas, numc_ehi, feca_cpl, nom_medi from areas, consultaprincipal, encabesadohistoria, medicos 
+	where cod_areas=area_cpl and numc_ehi=numc_cpl and come_cpl=cod_medi and cous_ehi='$Gideusu' order by feca_cpl desc");
+	
+	if (mysql_num_rows($bcon)==0 || empty($Gideusu))
+	{
+		 echo "<center><h3>No hay Historico de Este usuario</h3></center>";
+	}
+	  else
+	{	
+		echo"	
+		<center>
+		<table border='0' cellspacing='10'>		
+		<tr height='16'>
+		<td align='center' ><font face='Arial' size='2'><b>Elegir</b></font></td>
+		<td align='center'><font size='2' face='Arial'><b>Fecha</b></font></td>
+		<td><font size='2' face='Arial'><b>Medico</b></font></td>
+		<td><font size='2' face='Arial'><b>Area</b></font></td>
+		</tr>
+		<tr>
+		<td colspan=4><HR width=100%></td>
+		</tr>";	
+		
+		while ($row=mysql_fetch_array($bcon))
+		{
+			$numcon=trim($row['numc_ehi']);
+			$fecha=$row['feca_cpl'];
+			$medico=$row['nom_medi'];
+			$area=$row['nom_areas'];
+			$histo1='on';
+			echo"<tr>
+			<td><a href='impre_consul.php?serie=$numcon&histo1=$histo1' target='TOP'><img src='img/feed_go.png' border='0'></a></td>
+			<td>$fecha</td>
+			<td>$medico</td>	
+			<td>$area</td>
+			</tr>";			
+		}
+		echo"</table>";
+	}	
+}
+else
+{
+		$entra=0;
+		$busing=mysql_query("SELECT ingreso_hospitalario.id_ing, ingreso_hospitalario.fecin_ing
+		FROM ingreso_hospitalario
+		WHERE (((ingreso_hospitalario.codius_ing)='$Gideusu'))");
+		
+		if(mysql_num_rows($busing)>0)
+		{
+			echo"<table align=center CELLSPACING=15>
+			<tr>
+			<td align=center colspan='7'>SELECCION</td>
+			<td align=center>NUMERO DE INGRESO</td>
+			<td align=center>FECHA DE INGRESO</td>
+			</tr>";		
+		
+			while($row18=mysql_fetch_array($busing))
+			{
+				$ingre=$row18['id_ing'];
+				$fechain=substr($row18['fecin_ing'],0,10);		
+				echo "
+				<tr>
+				<td align=center><a href='#' onclick='buscaring($ingre)'><b><img src='img/feed_go.png' border=0 alt='Ingresar'></a></td>
+				<td align=center><a href='imprehis.php?ingreso=$ingre' target='nuevo'><img src='img/490350572448179138.png' border=0 alt='Mirar todas las evoluciones' width='30' hight='30'></a></td>
+				<td align=center><a href='imprimir2_.php?codusu=$Gideusu&ingreso=$ingre' target='nuevo'><img src='img/682273389326331766.png' border=0 alt='Laboratorios' width='30' hight='30'></a></td>
+				<td align=center><a href='terapia_impre1.php?ingreso=$ingre' target='nuevo'><img src='img/1292362969.png' border=0 alt='Terapias' width='30' hight='30'></a></td>
+				<td align=center><a href='imagen311.php?ingreso=$ingre' target='nuevo'><img src='img/755178201993025257.png' border=0 alt='Imagenologia' width='30' hight='30'></a></td>
+				<td align=center><a href='notas_enf.php?ingreso=$ingre&selec=O' target='nuevo'><img src='img/16555969002088794786.png' border=0 alt='Notas de Enfermeria' width='30' hight='30'></a></td>
+				<td align=center><a href='notas_enf.php?ingreso=$ingre&selec=S' target='nuevo'><img src='img/1435164290367675234.png' border=0 alt='Signos vitales' width='30' hight='30'></a></td>
+				<td align=center>$ingre</td>
+				<td align=center>$fechain</td>
+				</tr>";			
+			}
+			echo "</table>";
+			if(!empty($ingreso))
+			{
+				
+				$link=Mysql_connect("localhost","root","");
+				if(!$link)echo"no hay conexion";
+				Mysql_select_db('proinsalud',$link);		
+				$usu=mysql_query("SELECT ingreso_hospitalario.id_ing, usuario.NROD_USU
+				FROM ingreso_hospitalario INNER JOIN usuario ON ingreso_hospitalario.codius_ing = usuario.CODI_USU
+				WHERE (((ingreso_hospitalario.id_ing)='$ingreso'))");	
+				$rowusu=mysql_fetch_array($usu);
+				$usuar=$rowusu[NROD_USU];	
+				$medi=mysql_query("SELECT medicos.nom_medi, Max(hist_evo.cod_medi) AS MxDecod_medi
+				FROM hist_evo INNER JOIN medicos ON hist_evo.cod_medi = medicos.cod_medi
+				WHERE (((hist_evo.id_ing)='$ingreso'))
+				GROUP BY medicos.nom_medi
+				ORDER BY medicos.nom_medi");	
+				echo "		
+				<table width=90%>	  
+				  <tr>         
+					 <td align=center>MEDICO <select name=medico onchange='cambio()'>
+					 <option value=0>Todos</option>";
+					 while($rowmed=mysql_fetch_array($medi))
+					 {
+						$codmed=$rowmed[MxDecod_medi];
+						$nommed=$rowmed[nom_medi];
+						echo"<option value=$codmed>$nommed</option>";
+					 }
+					 echo"</select>		 
+					 </th>		 	  
+				  </tr>
+					</table>";
+					?>
+						<script languaje=havascript>			
+						form21.medico.value="<?echo $medico;?>";
+						</script>
+					<?
+					echo "
+					<br><br>
+				<table width=90% align=center >	  
+				  <tr>         
+					 <td width=10% align=center><B></B></td>
+					 <td width=10% align=center><B></B></td>   
+					 <td width=20% align=center><B></B></td>
+					 <td width=20% align=center></td>
+					 <td width=40% align=center></td>
+				  </tr>
+				";
+				if($medico==0)
+				{
+					$cad="SELECT Max(hist_evo.fech_evo) AS MxDefech_evo, hist_evo.id_ing
+					FROM hist_evo
+					GROUP BY hist_evo.fech_evo, hist_evo.id_ing
+					HAVING (((hist_evo.id_ing)='$ingreso'))
+					ORDER BY Max(hist_evo.fech_evo) DESC , hist_evo.fech_evo DESC;";
+				}
+				else
+				{
+					$cad="SELECT Max(hist_evo.fech_evo) AS MxDefech_evo, hist_evo.id_ing
+					FROM hist_evo
+					where (((hist_evo.cod_medi)='$medico'))
+					GROUP BY hist_evo.fech_evo, hist_evo.id_ing
+					HAVING (((hist_evo.id_ing)='$ingreso')) 
+					ORDER BY Max(hist_evo.fech_evo) DESC , hist_evo.fech_evo DESC;";		
+				}	
+				$resul=Mysql_query($cad,$link);
+				if(!$resul)echo 'no hay consulta';
+				$num=Mysql_num_rows($resul);	
+				$n=0;
+				while($row = mysql_fetch_array($resul))
+				{		
+					$fech_evo=trim($row['MxDefech_evo']);
+					//$hora_evo=$row['hora_evo'];	
+					//$nom_medi=$row['nom_medi'];
+					//$iden_evo=$row['iden_evo'];
+					
+					ECHO"
+					<tr><td colspan=5><hr align='tr' noshade color='#D0D0D0'></td></tr>
+					<tr><td align=center height=25>";
+					$nomvar='selec'.$n;
+					$selec=$$nomvar;
+					if($n==$ubica and $selec==1)
+					{
+						echo"<input type=checkbox name='$nomvar' value=1 checked onclick='cambio1($n)'>";
+					}
+					else		
+					{
+						echo"<input type=checkbox name='$nomvar' value=1 onclick='cambio1($n)'>";
+					}	
+					$fecev=substr($fech_evo,0,4).'/'.substr($fech_evo,5,2).'/'.substr($fech_evo,8,2);
+					
+					$fact2="SELECT factura.num_fac, factura.fec_ent, factura.cod_usu
+					FROM factura WHERE (((factura.fec_ent)='$fecev') AND ((factura.cod_usu)='$usuar'))";
+					$fact=mysql_query($fact2,$link);
+					$numresfac=Mysql_num_rows($fact);
+					
+					
+					$imag2="SELECT lectura_imagen.codi_usu, lectura_imagen.fech_lec, lectura_imagen.lect_lec, cups.descrip
+					FROM lectura_imagen INNER JOIN cups ON lectura_imagen.copr_lec = cups.codigo
+					WHERE (((lectura_imagen.codi_usu)='$Gideusu') AND ((lectura_imagen.fech_lec)='$fech_evo') AND ((lectura_imagen.esta_lec)='CU'))";
+					$imag=mysql_query($imag2);
+					$numresima=Mysql_num_rows($imag);
+					
+					
+					echo"</td>		
+					<td bgcolor=#FFFFFF><b>$fech_evo</td>";		
+					if($numresfac==0 and $numresima==0)
+					{
+						echo"<td bgcolor='#FFFFFF' colspan=3></td>";
+					}		
+					if($numresfac>0 and $numresima==0)
+					{
+						echo"<td colspan=1 bgcolor=#FFFFFF>	<a href='#' onclick='imprelab(\"$fech_evo\")'><b>Resultados Laboratorio</b></a></td>";
+						echo"<td bgcolor='#FFFFFF' colspan=2></td>";
+					}			
+					if($numresfac==0 and $numresima>0)
+					{
+						echo"<td bgcolor='#FFFFFF' colspan=1></td>";
+						echo"<td colspan=2 bgcolor=#FFFFFF>	<a href='#' onclick='impreayu(\"$fech_evo\")'><b>Resultados Imageneologia</b></a></td>";
+						echo"<td bgcolor='#FFFFFF' colspan=1></td>";
+					}
+					if($numresfac>0 and $numresima>0)
+					{
+						
+						echo"<td colspan=1 bgcolor=#FFFFFF>	<a href='#' onclick='imprelab(\"$fech_evo\")'><b>Resultados Laboratorio</b></a></td>";
+						echo"<td colspan=2 bgcolor=#FFFFFF>	<a href='#' onclick='impreayu(\"$fech_evo\")'><b>Resultados Imageneologia</b></a></td>";
+						echo"<td bgcolor='#FFFFFF' colspan=1></td>";
+					}		
+					echo"</tr>";
+					//echo"<tr><td colspan=5><hr align='tr' noshade></td></tr>";
+					
+					if($n==$ubica and $selec==1)
+					{
+						if($medico==0)
+						{
+							$resu=mysql_query("SELECT hist_evo.iden_evo,hist_evo.cama_evo, hist_evo.subj_evo, hist_evo.obje_evo, hist_evo.anal_evo, hist_evo.plan_evo, hist_evo.fech_evo, hist_evo.id_ing, hist_evo.hora_evo, medicos.nom_medi
+							FROM hist_evo INNER JOIN medicos ON hist_evo.cod_medi = medicos.cod_medi
+							WHERE (((hist_evo.fech_evo)='$fech_evo') AND ((hist_evo.id_ing)='$ingreso'))");
+							
+						}
+						else
+						{
+							$resu=mysql_query("SELECT hist_evo.iden_evo,hist_evo.cama_evo, hist_evo.subj_evo, hist_evo.obje_evo, hist_evo.anal_evo, hist_evo.plan_evo, hist_evo.fech_evo, hist_evo.id_ing, hist_evo.hora_evo, medicos.nom_medi
+							FROM hist_evo INNER JOIN medicos ON hist_evo.cod_medi = medicos.cod_medi
+							WHERE (((hist_evo.fech_evo)='$fech_evo') AND ((hist_evo.id_ing)='$ingreso')) and (((hist_evo.cod_medi)='$medico'))");
+						}			
+						while($rowresu=mysql_fetch_array($resu))
+						{				
+							$hora=$rowresu[hora_evo];
+							$medi=$rowresu[nom_medi];				
+							$sub=$rowresu[subj_evo];
+							$obj=$rowresu[obje_evo];
+							$ana=$rowresu[anal_evo];
+							$pla=$rowresu[plan_evo];
+							$cama=$rowresu['cama_evo'];
+							$iden_evo=$rowresu[iden_evo];
+							$bare=mysql_query("SELECT destipos.codi_des, destipos_1.nomb_des
+							FROM destipos INNER JOIN destipos AS destipos_1 ON destipos.val2_des = destipos_1.codi_des
+							WHERE (((destipos.codi_des)='$cama'))");
+							$areaus='';
+							while($rare=mysql_fetch_array($bare))
+							{
+								$areaus=$rare['nomb_des'];				
+							}
+							echo "	
+							<tr><td height=20></td></tr>				
+							<tr><td></td><td  colspan=4><hr align='tr' noshade></td></tr>				
+							<tr><td></td><td><b>$hora</b></td><td colspan=2><b>Dr. $medi</b></td><td colspan=2><b>$areaus</b></td></tr>				
+							<tr><td></td><td colspan=4><hr align='tr' noshade></td></tr>
+							<td height=20></td></tr>				
+							<tr><td></td><td valign='TOP'>SUBJETIVO</td><td colspan=3><b>$sub</b></td></tr>
+							<tr><td height=10></td></tr>
+							<tr><td><td valign='TOP'>OBJETIVO</td></td><td colspan=3><b>$obj</b></td></tr>
+							<tr><td height=10></td></tr>
+							<tr><td><td valign='TOP'>ANALISIS</td></td><td colspan=3><b>$ana</b></td></tr>
+							<tr><td height=10></td></tr>
+							<tr><td><td valign='TOP'>PLAN</td></td><td colspan=3><b>$pla</b></td></tr>
+							<tr><td height=10></td></tr>
+							<tr><td><td></td></td><td colspan=2><a href='#' onclick='impre($iden_evo)'><b>Ver evolcin completa</b></a></td></tr>
+							<tr><td height=20></td></tr>";
+						}
+					}
+					$n=$n+1;
+				}
+				echo"
+				 <input type=hidden name=ubica value=$ubica>
+				 <input type=hidden name=fin value=$fin>
+				 <input type=hidden name=fecdia value=$fecdia>
+				 <input type=hidden name=usuar value=$usuar>
+				 <input type=hidden name=iden_evo>
+				 
+				</td></tr></table>";
+			}
+		}	
+		else
+		{
+			echo "<center><h3>No hay Historico de Este usuario</h3></center>";
+		}
+
+}
+function convertir($str)
+{
+	$legalChars = "%[^0-9\-\. ]%";
+	$str=preg_replace($legalChars,"",$str);
+	return $str;
+}	
+?>
+</table>
+
+
+</form>
+</center>
+</center>
+</body>
+</html>

@@ -1,0 +1,169 @@
+body{
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color:#000;
+	font-size:11px;
+	margin:10px;
+}
+
+td, input, select, textarea, file, text, button {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	vertical-align: middle;
+}
+
+img{
+	border:0;
+}
+
+hr{
+	width:50%;
+}
+
+table{
+  margin: 10px 0 10px 0;
+  spacing:5px;
+  border-collapse: collapse;
+}
+
+.tbl0{
+	width: 280px;
+	border: 1px solid #A4A4A4;
+	text-align: justify;
+}
+
+.tbl1{
+  width:80%;
+  border:1px solid #000;
+}
+
+.tbl2{
+	width: 90%;
+	border: none;
+	text-align: justify;
+}
+
+.tbl3{
+	border: 1px solid #A4A4A4;
+	background-color:#FFFFFF;
+}
+
+.tbl4{
+	width:90%;
+	border: 1px solid #A4A4A4;
+	background-color:#E0E0F8;
+}
+
+.tbl5{
+	width:70%;
+	border: 1px solid #A4A4A4;
+	background-color:#E0E0F8;
+}
+
+thead td{
+	font-weight:bold;
+	color:#000;
+	background-color:#E0E0F8;
+	text-align: center;
+}
+
+td{
+	padding:0px 1px 0 2px;
+	text-align: middle;
+}
+
+.td0{
+	border:1px solid #A4A4A4;
+	color:#000;
+	font-weight:normal;
+}
+
+.td1{
+	padding:0px 5px 0 5px;
+	border: 1px solid #A4A4A4;
+	}
+
+.td2{
+	padding:0px 5px 0 5px;
+	background-color:#E0E0F8;
+	color:#000;
+	font-weight: bold;
+}
+
+.td3{
+	padding-left: 10px;
+}
+
+/*color amarillo*/
+.td4{ 
+	color:#FF8000;
+	font-weight: bold;
+	border:1px solid #A4A4A4;
+}
+
+/*color rojo*/
+.td5{ 
+	color:#FF0000;
+	font-weight: bold;
+	border:1px solid #A4A4A4;
+}
+
+.tableRollOverEffect{
+  /*Efecto cuando el mouse pasa por encima*/
+  background-color:#F7BE81;
+  color:#FFF;
+}
+
+.tableRowClickEffect{
+  /*Efecto cuando se ha realizado clic*/
+  background-color:#F7BE81;
+  color:#FFF;
+}
+
+.tit1{
+  color:#2E2EFE;
+  font-size:18px;
+}
+
+.tit2{
+  color:#2E2EFE;
+  font-size:12px;
+}
+
+.tit3{
+	color:#0174DF;
+	font-size:11px;
+}
+
+.tit4{
+	color:#0174DF;
+	font-size:14px;
+}
+
+.tit5{
+	color:#FFFFFF;
+	font-size:20px;
+}
+
+a:link{
+	color: #2E2EFE;
+}
+
+a:visited{
+	color: #2E2EFE;
+}
+
+a:active{
+	color: #FF8000;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #FF8000;
+}
+
+a{
+	text-decoration: None;
+	font-weight:bold;
+}
+
+

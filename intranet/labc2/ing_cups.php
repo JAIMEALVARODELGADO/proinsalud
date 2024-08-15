@@ -437,7 +437,8 @@ function envio21(ord,p,q)
     $datos_med[1]='cod_medi';
 	//echo $cod_usu;
 	include('php/funciones.php');
-	$link=Mysql_connect("localhost","root","");
+	//$link=Mysql_connect("localhost","root","");
+	$link=Mysql_connect("192.168.4.12","root","");
 	if(!$link)echo"no hay conexion";
 	Mysql_select_db('proinsalud',$link);
 	
