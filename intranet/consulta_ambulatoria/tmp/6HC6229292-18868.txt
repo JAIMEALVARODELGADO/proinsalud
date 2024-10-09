@@ -1,0 +1,14 @@
+6|clasemedi|1
+6|codmedi|511008
+6|desmedi|POLIETILENGLICOL 3350/160G POLVO PARA SUSPENSION
+6|dosis|17
+6|unid|GR
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|30
+6|obsemed|DILUIR 1 MEDIDA EN 1/2 VASO DE AGUA Y TOMAR EN LA NOCHE 
+6|canti|1
+6|diagmedi|K590
+6|justifi|N
+6|pos|N

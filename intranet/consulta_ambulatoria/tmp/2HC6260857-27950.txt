@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESEREA 2, HERNIA VENTRAL, SAFENOVARICECTOMIA, POMEROY
+2|neofarmacos|LEVOTIROXINA, ORLISTAD
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO, ANSIEDAD
+2|gineco|menarca: 13 años, sexarca 18 años, parejas #2, citologia: 2020, se entrega orden, planificacion pomeroy, antecedente no claro de depresion post parto
+2|gestan|3
+2|partos|0
+2|cesareas|2
+2|abortos|1
+2|vivos|2
+2|mortinatos|0
+2|feulme|2024-03-24

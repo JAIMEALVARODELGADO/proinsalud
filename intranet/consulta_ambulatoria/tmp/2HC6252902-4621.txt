@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|LEGRADO
+2|neofarmacos|METOCARBAMIL, PREGABALINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|RINITIS, SINDROME MIOFACIAL, LUMBAGO
+2|gineco|MENARQUIA 13 AÑOS, SEXARQUIA 18 AÑOS, FECHA DE ULTIMA CITOLOGIA 2021 NEGATIVO PARA LESION INTRAEPITELIAL
+2|gestan|4
+2|partos|3
+2|cesareas|0
+2|abortos|1
+2|vivos|3
+2|mortinatos|0
+2|feulme|2024-01-05

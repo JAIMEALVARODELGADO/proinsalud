@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|ASMA BRONQUIAL HACE 2 AÑOS 
+2|nuequirurgicos|POMEROY COLELAP RESECCIÓN DE QUISTE DE OVARIO ARTROSCOPIA DE RODILLA SAFENECTOMÍA PTERIGION
+2|neofarmacos|SALBUTAMOL SPRAY  ESOMEPRAZOL PREGABALINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|menarca 12 años, sexarca. 22 años, parejas sexuales #1, menopausia: 50 años citologia: feb 2021 atrofia negativa para malignidad  mamografia, feb 2021, bi rads 0 mamas densas, eco de mama abril 2021, bi rads 1,  // MAMOGRAFIA 2023 BI-RADS 1
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|1
+2|feulme|

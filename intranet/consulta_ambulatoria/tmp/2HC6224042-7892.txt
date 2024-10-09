@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS:  Hipertnsion arterial. INSUFICIENCIA VENOSA CRONICA PERIFERICA CON ULCERA VARICOSA. OBESIDAD. Farmacologicos: Valsartan 160 mg cada 12 horas, hidroclorotiazida 50 mg cada dia, diosmina . Quriurgicos: Safenectomia izquierda Y DERECHA, por fractura de clavicula. Alergicos: niega. Reseccion de lesion de parpado superior en ojo derecho 2022--usa gafas para vision lejana ultimo cambio 2 años.no aplica colirios.
+2|familia|MADRE HIPERTENSA, HERMANA CON DISLIPIDEMIA.
+2|metodo|NA-
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

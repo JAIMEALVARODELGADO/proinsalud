@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|APENDICECTOMIA, COLECISTECTOMIA, HISTERECTOMIA
+2|neofarmacos|VALSARTAN 80 MG CADA 12 HORAS, INSULINA DEGLUDEC 20 U, GALVUS MET, CARVEDILOL 6.25 MG CADA DIA, NIFEDIPINO. HCTZ, ACIDO URSODESOXICOLICO
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|CIRROSIS HEPATICA, DM TIPO 2
+2|gineco|MENARCA 14 AÑOS MENOPAUSIA 56 AÑOS  CITOLOGIA 07 2021 PARTICULAR REFIERE NORMAL 
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

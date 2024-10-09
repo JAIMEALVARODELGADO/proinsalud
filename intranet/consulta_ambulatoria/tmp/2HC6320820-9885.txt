@@ -1,0 +1,11 @@
+2|person|Patologics:Trastorno de ansiedad, hipertension arteiral, gastritis.  armacologicos: sertralina 50 mg cada ida, enalapril 02 mg cada 12 horas, ezopiclona 3 mg cada nocehe.  Quirurgicos: apendicectomia. Alergicos: niega. Toxicos: niega 
+2|familia|HIPERTENSIÓN ARTERIAL: PADRES, HERMANOS, DIABETES MELLITUS: MADRE, HERMANO, 
+2|metodo|
+2|gineco|menarca: 15 años, sexarca: 17 años, parejas sexuales: #2,  menopausia: 52 años, MAMOGRAFIA 28-04-2022: BI-RADS 2
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

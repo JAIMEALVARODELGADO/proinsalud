@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HISTERECTOMIA
+2|neofarmacos|LEVOTIROXINA
+2|nuetoxico|DIPIRONA
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO, GASTRITIS ANSIEDAD
+2|gineco|MENARCA 11 MENOPAUSIA 38 AÑOS HISTERECTOMIA, ULTIMA CITOLOGIA HACE UN AÑO NORMAL 
+2|gestan|3
+2|partos|2
+2|cesareas|0
+2|abortos|1
+2|vivos|2
+2|mortinatos|0
+2|feulme|

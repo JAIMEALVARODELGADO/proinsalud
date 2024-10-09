@@ -1,0 +1,11 @@
+2|person|Antecedentes: patologicos: no farmacologicos: no traumaticos: no toxicos: no Quirurgicos: colecistectomia  Alergicos: no ginecologicos: FUM menopasia 54 años,  citologia mamografia  2019 normal---- NO ATENCION RIAS. SE REMITE -----
+2|familia|no
+2|metodo|NO REFERIDOS. 
+2|gineco|hemocalsificaion O+
+2|gestan|1
+2|partos|0
+2|cesareas|1
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

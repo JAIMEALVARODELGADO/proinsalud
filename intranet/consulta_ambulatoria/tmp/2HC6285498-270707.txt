@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|ARTROSCOPIA RODILLA IZQUIERDA
+2|neofarmacos|VALSARTAN, LEVOTIROXINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO
+2|gineco|menarca: 12 años, sexarca: 19 años, citologia:  07/02/2019 :  flora sugestiva de vaginosis bacteriana, menopausia 2015, mamografia: dic 2017, bi rads 1 ,MAMOGRAFIA DEL 23 DE FEBRERO DLE 2021 BIRADS 2 NORMAL, CITOLOGIA DEL 19 DE FEBRERO 2021 NEGATIVA PARA MALIGNIDAD . PACIENTE HACE PARTE DE CRONICOS. 16-2-23 acue a pym programa  20/02/2023 MAMOGRAFIA  BIRADS 2  HALLAZGOS BENIGNOS 
+2|gestan|3
+2|partos|2
+2|cesareas|0
+2|abortos|1
+2|vivos|2
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,11 @@
+2|person|Patologicos hipertension arterial -cervicalgia-  hipotiroidismo -     GASTRITIS  //           alergicos negativos      traumaticos luxacion                   quirurgicos apendicectomia prostatectomia hernias  -----------   no fuma  no ingesta de licor   no refiere planificacion                                          FARMACOLOGICOS: LOSARTAN 100 MG EN LA MAÑANA, 50 MG EN LA NOCHE , HCTZ 25MG CADA DIA ,  ASA 100 MG CADA DIA  LEVOTIROXINA  100 MG CADA DIA,  EOSMEPRAZOL 20*1, 
+2|familia|papa infarto agudo de miocardio
+2|metodo|NA-
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|SEPTOPLASTIA
+2|neofarmacos|Negativo
+2|nuetoxico|PENICILINA, MEDIO DE CONTRASTE
+2|neotransfin|Negativo
+2|neootros|DISCOPAITA LUMBAR, COLON IRRITABLE, GASTRITIS
+2|gineco|MENRAQUI A11ULTIMA CITOLOGIA 2019 NORMAL SEGUN PACIENTE FUM 10/08/21 
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

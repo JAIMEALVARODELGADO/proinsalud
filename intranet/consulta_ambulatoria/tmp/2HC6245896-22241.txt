@@ -1,0 +1,11 @@
+2|person|patologicos: insomenio dislipidemia hipotiroidismo hipertension hiperplasoia prostatica  sobrepeso farmacologicos: pregabalina asa losartan atorvastatina fenofibrato levotiroxina duodart oxcarbamazepina traumaticos: no toxicos: no quirurgicos: cateterismo carrdiaco  alergicos:  norfloxacina sociales o personales. no refiere hospitalarios: no refiere psiquiatricos: no refiere vacunacion: completas nutricionales: no refiere actividad fisica: ninguna, ocasional, regular
+2|familia|HIPERTENSIÓN ARTERIAL: MADRE, DIABETES MELLITUS. NIEGA ANTECEDENTES FAMILIARES DE TRASTORNOS MENTALES, CONSUMO DE SPA, ANSIEDAD, DEPRESION. CONDUCTA SUICIDA. *** PACIENTE HACE PARTE DE PROGRAMA DE CRONICOS, YA VALORADO EN PROGRAMA DE P. Y M. POR VEJEZ ABRIL/23 (70 AÑOS) *** 
+2|metodo|
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

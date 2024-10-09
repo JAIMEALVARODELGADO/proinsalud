@@ -1,0 +1,11 @@
+2|person|QUIRUGICOS RESECCION DE QUISTE OVARICO POMEROY , ALERGIAS: NIEGA
+2|familia|NO
+2|metodo|
+2|gineco|G3P3V3 CITOLOGIA VAGINAL JULIO 201/8 
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

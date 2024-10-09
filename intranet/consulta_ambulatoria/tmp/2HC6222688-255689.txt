@@ -1,0 +1,11 @@
+2|person|PAT:  GASTRITIS QX:  QUISTE DE MAMA DERCHA, RINPLASTIA,  ALERGICOS: NIEGA 
+2|familia|NIEGA 
+2|metodo|
+2|gineco|CICLOS IRREGULARES, FUM 25/01/2019
+2|gestan|3
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

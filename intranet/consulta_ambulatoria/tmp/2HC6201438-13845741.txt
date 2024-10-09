@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS: HIPOTIROIDISMO , MIOPÇIA QUIRURGICOS: COLECISTECTOMIA, AMIGDALECTOMIA, 2 CIRUGIAS REFRACTIVAS 
+2|familia|Padres  hipertensos
+2|metodo|
+2|gineco|....Menarquia 13, FUM A LOS 46 AÑOS, Ultima citologia hace 3 meses
+2|gestan|3
+2|partos|2
+2|cesareas|1
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|Menopausia

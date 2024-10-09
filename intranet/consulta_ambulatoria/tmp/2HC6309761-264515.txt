@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RESECCION DE LIPOA POMEROY LEGRADO
+2|neofarmacos|ACIDO VALPROICO LEVOTIROXINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO TRATRNO AFECTIVO BIPOLAR EPILEPSIA
+2|gineco|MENARQUIA: 15 AÑOS CICLOS IRREGULARES HACE UN MES FUM SEGUN REFIERE - CITOLOGIA 2021 NORMAL . MAMOGRAFIA 2019 NORMAL. 
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

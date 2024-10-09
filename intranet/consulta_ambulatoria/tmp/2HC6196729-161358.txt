@@ -1,0 +1,11 @@
+2|person|Patologicos: hipertension arterial, obesidad. Farmacologicos: losartan 50 mg cada 12 horas, esomeprazol 20 mg cada ida, hidroclorotiazida 25 mg cada dia, betahistina, amitriptilina 25 mg cada noche. Quirurgicos: cesarea. Alergicos: niega. Toxicos: Consumo de alcohol ocasional. 
+2|familia|DM e HTA en hermanas, 
+2|metodo|
+2|gineco|MENARQUIA A LOS 12 AÑOS, ÚLTIMA CITOLOGÍA HACE 1 AÑO, NEGATIVO PARA MALIGNIDAD 
+2|gestan|1
+2|partos|1
+2|cesareas|1
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

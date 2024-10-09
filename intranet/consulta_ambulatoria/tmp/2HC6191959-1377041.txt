@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|Negativo
+2|neofarmacos|LOSARTAN, ESOMEPRAZOL, PREGABALINA, QUIMIOTERAPIA
+2|nuetoxico|DIPIRONA
+2|neotransfin|Negativo
+2|neootros|MIELOMA MULTIPLE CON COMPROMISO COLUMNA UTILIZA CORSET FRACTURA PATOLOGICA VETEBRAL
+2|gineco|MENARUIA 12 AÑOS, MENOPAUSIA 50AÑOS, CITOLOGIA  2019   RESULTADO NORMAL  ,  YA  CON  REMISION ,  MAMOGRAFA   22/12/22   BIRADS 0  , ECOGRAFIA DE SENO   BIRADS 3 
+2|gestan|7
+2|partos|6
+2|cesareas|1
+2|abortos|0
+2|vivos|7
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,11 @@
+2|person|antecedente  patologicos  Esquizofrenia,  Quirurgicos  No. Alergias  No  Traumas  No  Farmacos  Olanzapina 20 mg  di,  clonazepam 0.5 mg  2  tabletas  dia. Toxicos  No. Estado  civil  soltero Ocupacion  interdicto  
+2|familia|antecedentes  patologicos  familiares  hermano  con  trastorno  bipolar  afectivo  
+2|metodo|
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RESECCION NODULO SENO IZUIQERDO
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA: 15 AÑOS, SEXARCA: 18 AÑOS, NUMERO DE COMPAÑEROS SEXUALES: 3, NIEGA ENFERMEDADES DE TRANSMISIÓN SEXUAL, CITOLOGIA 2021: NORMAL SEGUN PACIENTE  CCV 20/11/23  REPORTE ANORMAL. OTROS GENOTIPOS VPH DETECTADOS GENOTIPO 16 Y 18 NO DETECTADOS 
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

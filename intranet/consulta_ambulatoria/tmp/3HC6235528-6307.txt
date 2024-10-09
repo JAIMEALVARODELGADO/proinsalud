@@ -1,0 +1,16 @@
+3|fin|
+3|tenar1|163
+3|tenar2|88
+3|freres|18
+3|fc|86
+3|tempe|36
+3|peso|76
+3|talla|149
+3|imc|34.233
+3|cintura|
+3|cadera|
+3|icc|
+3|dimc|Obesidad
+3|pc|
+3|otros|RUIDOS CARDIACOS RITMICOS 
+3|saox_tri|

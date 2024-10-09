@@ -1,0 +1,11 @@
+2|person|PAT HIPOTIROIDISMO, FARMACOS LEVOTIROXINA TAB 50MCG, QX: NIEGA, ALERGIA NIEGA
+2|familia|NO
+2|metodo|
+2|gineco|FUM. NO REFIERE
+2|gestan|2
+2|partos|1
+2|cesareas|1
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

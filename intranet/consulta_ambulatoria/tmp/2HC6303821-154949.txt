@@ -1,0 +1,11 @@
+2|person|NNO FUMA, NO  ALERGICAS, NO CIRUGIAS, NO PATOLOGAS  CRÓNCIAS- BBIDAS ALCOHOLICS, OCASIONALES- 
+2|familia|MADRE  HIPERTENSA,  PADRE FALLLECIO, CA DE  PANCREAS, 
+2|metodo|NA-
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

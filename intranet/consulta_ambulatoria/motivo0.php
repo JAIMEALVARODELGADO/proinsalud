@@ -1,0 +1,856 @@
+<?php
+	session_register('paciente');
+	session_register('numcita');
+	session_register('tiespe');
+	session_register('concontrol');
+	
+	if(empty($paciente))
+	{
+		echo"<br><br><table align=center class='tbl'>
+		<tr><th>POR SEGURIDAD SU SESI?N SE CERR?. EIERRE E INGRESE NUEVAMENTE AL PROGRAMA</th></tr>
+		</table>";
+		exit;
+	}
+	
+?>
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css"/>
+<link rel="stylesheet" type="text/css" href="css/jquery.autocomplete.css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type='text/javascript' src='js/jquery.autocomplete.js'></script>
+<script type="text/javascript">
+$().ready(function() {	
+	$("#course").autocomplete("automuni.php", {
+		width: 260,
+		minChars: 1,
+        autoFill: false,
+        mustMatch: false,
+        matchContains: false,
+        scroll: true,
+        scrollHeight: 220	
+	});	
+	$("#course").result(function(event, data, formatted) {
+		$("#course_val").val(data[1]);
+	});
+});
+
+$().ready(function() {	
+	$("#course_ocu").autocomplete("autoocupa.php", {
+		width: 260,
+		minChars: 1,
+        autoFill: false,
+        mustMatch: false,
+        matchContains: false,
+        scroll: true,
+        scrollHeight: 220	
+	});	
+	$("#course_ocu").result(function(event, data, formatted) {
+		$("#course_valocu").val(data[1]);
+	});
+});
+</script>
+<script language="JavaScript">
+	function valida()
+	{
+		if(uno.etnia.value=='')
+		{
+			alert("Seleccione la pertenencia etnica del paciente");
+			uno.etnia.focus();
+			return;
+		}
+		if(uno.grupo_poblacional.value=='')
+		{
+			alert("Seleccione el grupo ocupacional del paciente");
+			uno.grupo_poblacional.focus();
+			return;
+		}
+		
+		if(uno.orientacion_sexual.value=='')
+		{
+			alert("Seleccione la orientacion sexual del paciente");
+			uno.orientacion_sexual.focus();
+			return;
+		}
+		
+		if(uno.ocupacion.value=='')
+		{
+			alert("Seleccione la ocupacion del paciente");
+			uno.ocupacion.focus();
+			return;
+		}
+		
+		if(uno.escolaridad.value=='')
+		{
+			alert("Seleccione la escolaridad del paciente");
+			uno.escolaridad.focus();
+			return;
+		}
+		if(uno.estadocivil.value=='')
+		{
+			alert("Seleccione el estado civil del paciente");
+			uno.estadocivil.focus();
+			return;
+		}
+		if(uno.direccion.value=='')
+		{
+			alert("Digite la direccion de residencia del paciente");
+			uno.direccion.focus();
+			return;
+		}
+		
+		
+		if(uno.edadpac.value<18)
+		{
+			if(uno.pnomacu.value=='')
+			{
+				alert("Digite el primer nombre del acudiente");
+				uno.pnomacu.focus();
+				return;
+			}
+			
+			if(uno.papeacu.value=='')
+			{
+				alert("Digite el primer apellido del acudiente");
+				uno.papeacu.focus();
+				return;
+			}
+			if(uno.nudoacu.value=='')
+			{
+				alert("Digite el numero de identificaci?n del acudiente");
+				uno.nudoacu.focus();
+				return;
+			}
+			if(uno.parenacu.value=='')
+			{
+				alert("Digite el parentesco del acudiente");
+				uno.parenacu.focus();
+				return;
+			}
+			if(uno.direacu.value=='')
+			{
+				alert("Digite la direcci?n del acudiente");
+				uno.direacu.focus();
+				return;
+			}
+			if(uno.teleacu.value=='')
+			{
+				alert("Digite el telefono del acudiente");
+				uno.teleacu.focus();
+				return;
+			}
+			if(uno.muniacu.value=='')
+			{
+				//alert("Seleccione el municipio del acudiente");
+				//uno.muniacu.focus();
+				//return;
+			}
+		
+		}
+		
+		f=uno.fincov.value;
+		var anu=0;		
+		for(i=0;i<f;i++)
+		{
+			val="valor"+i;			
+			opcion = document.getElementsByName(val);				
+			if(opcion[0].checked)
+			{				
+				anu++;
+			}
+			if(opcion[1].checked)
+			{				 
+				anu++;
+			}		
+		}
+		if(anu<f)
+		{
+			alert("Hay sintomas de covid 19 sin seleccionar");
+			return;
+		}
+			
+			
+		if(uno.motivo.value=='')
+		{
+			alert("Digite el motivo de consulta");
+			uno.motivo.focus();
+			return;
+		}
+		if(uno.enfeac.value=='')
+		{
+			alert("Digite la enfermedad actual");
+			uno.motivo.focus();
+			return;
+		}
+		if(uno.revisi.value=='')
+		{
+			alert("Digite la revision por sistema");
+			uno.motivo.focus();
+			return;
+		}
+		/*
+		if(uno.informe.value=='')
+		{
+			alert("digite el informe paraclnicos");
+			uno.motivo.focus();
+			return;
+		}
+		*/
+		uno.action='almacena.php';
+		uno.target='';
+		uno.submit();
+	
+	}
+	function valtecla()
+	{
+		if(window.event.keyCode == 86)
+		{
+			document.myForm.myText.value = ""
+		}
+		if (window.event.ctrlKey)
+		{
+			if (window.event.keyCode == 86) 
+			{
+				document.myForm.myText.value = ""
+			}
+		}
+	}
+	
+	function valtecla()
+	{
+		if(event.keyCode == 13)
+		{
+			event.returnValue = false
+		}
+		if (event.ctrlKey)
+		{
+			if (event.keyCode == 86) 
+			{
+				event.returnValue = false
+			}
+		}
+	}
+	//JAVASCRIPT PROMOCION Y PREVENCION
+	function enviar_pyp(actividad)
+	{
+		
+		var miForm = document.forms[0];
+                var medico = miForm.medico.value;
+                var cod_pac= miForm.paciente.value;
+		var cod_act= actividad;
+                var cod_cita= miForm.cita.value; 
+                var area   = "01";
+                var pagina = '../pyp/inicio_ce.php?codact='+cod_act+'&codusu='+cod_pac+'&medi='+medico+'&area='+area+'&cita='+cod_cita;	
+                var ancho = screen.width; 
+                var alto  = screen.height;
+                window.open(pagina,"PYP","width="+ancho+",height="+alto+",left=340,top=150");
+		//alert(alto);
+	}
+	function seletodo()
+	{	
+		f=uno.fincov.value;
+		for(i=2;i<f;i++)
+		{
+			val="valor"+i;
+			if(uno.selno.checked==true)
+			{							
+				document.getElementsByName(val)[0].checked=false;	
+				document.getElementsByName(val)[1].checked=true;
+			}
+			if(uno.selno.checked==false)
+			{							
+				document.getElementsByName(val)[0].checked=false;	
+				document.getElementsByName(val)[1].checked=false;
+			}
+		}
+	}
+		
+</script>
+</head>	
+<body oncontextmenu="return false;">
+<?php	
+	include ('php/conexion1.php');
+	$archivo='tmp/1HC'.$numcita.'-'.$paciente.'.txt';	
+	if(file_exists($archivo))
+	{
+		$fp = fopen ($archivo, "r" );
+		$reg=0;
+		while (( $data = fgetcsv ( $fp ,0,"|" )) !== FALSE ) 
+		{ 
+			$reg++;
+			$i = 0;
+			foreach($data as $dato)
+			{
+				$campo[$i]=$dato;
+				$i++;
+			}
+			$$campo[1]=$campo[2];
+		}
+	}
+	
+	
+	
+	$bfnac=mysql_query("select * from usuario where CODI_USU='$paciente'");
+	while($rfnac=mysql_fetch_array($bfnac))
+	{
+		$fechanac=$rfnac['FNAC_USU'];
+		$etnia1=$rfnac['ETNI_USU']; 
+		$escola1=$rfnac['NEDU_USU'];
+		$ocupa1=$rfnac['OCUP_USU']; 
+		$ecivil1=$rfnac['ECIV_USU']; 
+		$direc1=$rfnac['DIRE_USU']; 
+		$grupo_poblacional1=$rfnac['GPOBL_USU']; 
+		$orientacion_sexual1=$rfnac['OSEXUAL_USU'];
+
+			
+	}
+	
+	if(empty($etnia))$etnia=$etnia1;
+	if(empty($ocupacion))$ocupacion=$ocupa1;
+	if(empty($escolaridad))$escolaridad=$escola1;
+	if(empty($estadocivil))$estadocivil=$ecivil1;
+	if(empty($direccion))$direccion=$direc1;
+	
+	if(empty($grupo_poblacional))$grupo_poblacional=$grupo_poblacional1;
+	if(empty($orientacion_sexual))$orientacion_sexual=$orientacion_sexual1;
+	$edad=calcula_edad($fechanac);
+	
+	
+	
+	if(empty($motivo))
+	{		
+		$bmot=mysql_query("select * from triage_urgencias where iden_cita ='$numcita'");
+		
+		
+		while($rmot=mysql_fetch_array($bmot))
+		{
+			$motivo=$rmot['moco_tri'];	
+		}
+	}
+	echo"  
+	<form name=uno method=post>
+	<input type=hidden name=edadpac value='$edad'>
+	<input type=hidden name=codiprg value='1'>
+	
+	<CENTER><table align=center width=90%>
+	<tr><td>";
+	
+	/*
+	<table align=center class='tbl' width=100%>
+	<tr><th colspan=10 align=center valign=top height=30>INFORMACION DEL ACUDIENTE</td></th>	
+	<tr>
+	
+	<th>TIPO DOCUMENTO</td>
+	<th>NUMERO DOCUMENTO</td>
+	<th>PRIMER NOMBRE</td>
+	<th>SEGUNDO NOMBRE</td>
+	<th>PRIMER APELLIDO</td>
+	<th>SEGUNDO APELLIDO</td>
+	<th>PARENTESCO</td>
+	<th>DIRECCION</td>
+	<th>TELEFONO</td>
+	<th>MUNICIPIO RESIDENCIA</td>
+	</tr>
+	<tr>
+	<td>
+	<select name=tidoacu>
+	<option value=''></option>
+	<option value='CC'>CEDULA DE CIUDADANIA</option>
+	<option value='CE'>CEDULA DE EXTRANJERIA</option>
+	<option value='PA'>PASAPORTE</option>
+	<option value='TI'>TARJETA DE IDENTIFICACION</option>
+	<option value='RC'>REGISTRO CIVIL</option>
+	<option value='AS'>ADULTO SIN IDENTIFICACION</option>
+	<option value='MS'>MENOR SIN IDENTIFICACION</option>
+	</select>
+	</td>
+	<td><input type=text onPaste='return false' name=nudoacu value=$nudoacu></td>
+	<td><input type=text onPaste='return false' name=pnomacu value=$pnomacu></td>	
+	<td><input type=text onPaste='return false' name=snomacu value=$snomacu></td>
+	<td><input type=text onPaste='return false' name=papeacu value=$papeacu></td>
+	<td><input type=text onPaste='return false' name=sapeacu value=$sapeacu></td>	
+	<td><input type=text onPaste='return false' name=parenacu value=$parenacu></td>
+	<td><input type=text onPaste='return false' name=direacu value=$direacu></td>
+	<td><input type=text onPaste='return false' name=teleacu value=$teleacu></td>
+	<td><input type=text onPaste='return false' id='course' name=nommuniacu value=$nommuniacu></td>
+	<input type=hidden id='course_val' name=muniacu value=$muniacu>
+	</tr>
+	</table><br>
+	<input type=hidden name=primera value='1'>";
+	*/
+	
+	echo"
+	<br>
+	<table align=center class='tbl' width=100%>
+	<tr><th colspan=10 align=center valign=top height=30>INFORMACION DEL PACIENTE</td></th>	
+	<tr>	
+	<th>PERTENENCIA ETNICA</td>
+		<td><select class='caja' name=etnia>
+		<option value=''></option>";
+		$betnia=mysql_query("select * from destipos where codt_des='75'");
+		while($retnia=mysql_fetch_array($betnia))
+		{
+			$cod=$retnia['codi_des'];
+			$nom=$retnia['nomb_des'];
+			if($cod==$etnia) echo"<option selected value=$cod>$nom</option>";
+			else echo"<option value=$cod>$nom</option>";
+			
+		}
+		echo"</select>
+		</td>		
+	<th>OCUPACION</td>
+		<td>";
+		$bocupa=mysql_query("select codigo_ciuo, descri_ciuo from ciuo WHERE codigo_ciuo = '$ocupacion'");
+		while($rocupa=mysql_fetch_array($bocupa))
+		{
+			$nomocupa=$rocupa['descri_ciuo'];
+		}
+		echo"
+		<textarea name=nomocupa class='caja' onPaste='return false' id='course_ocu' cols=25 rows=2>$nomocupa</textarea>		
+		<input type=hidden id='course_valocu' name=ocupacion value=$ocupacion>
+		</td>
+		
+	<th>GRUPO POBLACIONAL</td>
+		<td><select class='caja' name=grupo_poblacional>
+		<option value=''></option>";
+		$bgrupo=mysql_query("select * from destipos where codt_des='F1'");
+		while($rgrupo=mysql_fetch_array($bgrupo))
+		{
+			$cod=$rgrupo['codi_des'];
+			$nom=$rgrupo['nomb_des'];
+			if($cod==$grupo_poblacional) echo"<option selected value='$cod'>$nom</option>";
+			else echo"<option value='$cod'>$nom</option>";			
+		}
+		echo"</select>
+		</td>
+		
+	<th>ORIENTACION SEXUAL</td>
+		<td><select class='caja' name='orientacion_sexual'>
+		<option value=''></option>";
+		$borien=mysql_query("select * from destipos where codt_des='F2'");
+		while($rorien=mysql_fetch_array($borien))
+		{
+			$cod=$rorien['codi_des'];
+			$nom=$rorien['nomb_des'];
+			if($cod==$orientacion_sexual) echo"<option selected value='$cod'>$nom</option>";
+			else echo"<option value='$cod'>$nom</option>";			
+		}
+		echo"</select>
+		</td>
+		
+		
+		</tr>
+		<tr>
+	<th>ESCOLARIDAD</td>
+		<td>$escola 
+		<select class='caja' name=escolaridad>
+		<option value=''></option>";
+		$besco=mysql_query("select * from destipos where codt_des='76'");
+		while($resco=mysql_fetch_array($besco))
+		{
+			$cod=$resco['codi_des'];
+			$nom=$resco['nomb_des'];
+			if($cod==$escolaridad) echo"<option selected value=$cod>$nom</option>";
+			else echo"<option value=$cod>$nom</option>";			
+		}
+		echo"</select>
+		</td>
+	<th>ESTADO CIVIL</td> 
+		<td>
+		<select class='caja' name=estadocivil>
+		<option value=''></option>";
+		$beciv=mysql_query("select * from destipos where codt_des='A7'");
+		while($reciv=mysql_fetch_array($beciv))
+		{
+			$cod=$reciv['codi_des'];
+			$nom=$reciv['nomb_des'];
+			if($cod==$estadocivil) echo"<option selected value=$cod>$nom</option>";
+			else echo"<option value=$cod>$nom</option>";			
+		}
+		echo"</select>
+		</td>
+	<th>DIRECCION</th>
+		<td>
+		<input class='caja' type=text NAME=direccion size=50 value='$direccion'>
+		</td>
+	<tr>
+	</table>
+	<br>
+	<table align=center class='tbl' width=100%>
+	<tr><th colspan=10 align=center valign=top height=30>INFORMACION DEL ACUDIENTE</td></th>	
+	<tr>	
+	<th>TIPO DOCUMENTO</td>
+	<td>
+	<select class='caja' name=tidoacu>
+	<option value=''></option>
+	<option value='CC'>CEDULA DE CIUDADANIA</option>
+	<option value='CE'>CEDULA DE EXTRANJERIA</option>
+	<option value='PA'>PASAPORTE</option>
+	<option value='TI'>TARJETA DE IDENTIFICACION</option>
+	<option value='RC'>REGISTRO CIVIL</option>
+	<option value='AS'>ADULTO SIN IDENTIFICACION</option>
+	<option value='MS'>MENOR SIN IDENTIFICACION</option>
+	</select>
+	</td>	
+	<th>PRIMER NOMBRE</td>
+	<td><input type=text class='caja' onPaste='return false' name=pnomacu value=$pnomacu></td>	
+	<th>SEGUNDO NOMBRE</td>
+	<td><input type=text class='caja' onPaste='return false' name=snomacu value=$snomacu></td>	
+	<th>PRIMER APELLIDO</td>
+	<td><input type=text class='caja' onPaste='return false' name=papeacu value=$papeacu></td>	
+	<th>SEGUNDO APELLIDO</td>
+	<td><input type=text class='caja' onPaste='return false' name=sapeacu value=$sapeacu></td>	
+	</tr>
+	<tr>
+	<th>NUMERO DOCUMENTO</td>
+	<td><input type=text class='caja' onPaste='return false' name=nudoacu value=$nudoacu></td>
+	
+	<th>PARENTESCO</td>
+	<td><input type=text class='caja' onPaste='return false' name=parenacu value=$parenacu></td>	
+	<th>DIRECCION</td>
+	<td><input type=text class='caja' onPaste='return false' name=direacu value=$direacu></td>	
+	<th>TELEFONO</td>
+	<td><input type=text class='caja' onPaste='return false' name=teleacu value=$teleacu></td>	
+	<th>MUNICIPIO RESIDENCIA</td>
+	<td><input type=text class='caja' onPaste='return false' id='course' name=nommuniacu value=$nommuniacu></td>
+	<input type=hidden id='course_val' name=muniacu value=$muniacu>
+	</tr>
+	
+	
+	</table><br><br>
+	<input type=hidden name=primera value='1'>
+	
+	<table align=center class='tbl' width=100%>
+	<tr><th>ANAMNESIS</th></tr>
+	</table>
+	<br>";
+	
+	
+	?>
+			<script language="javascript">
+			uno.tidoacu.value="<?php echo $tidoacu;?>";
+			</script>
+	<?php
+	/*
+	if($Gareanh!='04' && $tiespe!='2')
+	{
+		echo"<table align=center class='tbl'>	
+		<tr><th>CONSULTA DE PRIMERA VEZ</td><td><input type=radio name=primera value='1'></td>
+		<th>CONSULTA DE CONTROL</td><td><input type=radio name=primera value='2'></td></tr>
+		<table>";	
+	}
+	*/
+	//ALT+146= ?
+	
+	$archivo='tmp/cov-HC'.$numcita.'-'.$paciente.'.txt';	
+	if(file_exists($archivo))
+	{
+		$fp = fopen ($archivo, "r" );
+		$reg=0;
+		while (( $data = fgetcsv ( $fp ,0,"|" )) !== FALSE ) 
+		{ 
+			$reg++;
+			$i = 0;
+			foreach($data as $dato)
+			{
+				$campo[$i]=$dato;
+				$i++ ;
+			}
+			$$campo[1]=$campo[2];		
+		}
+	}
+	
+	
+	//INICIO CUESTIONARIO COVID
+	/*
+	$bcit=mysql_query("SELECT * FROM citas WHERE id_cita='$numcita'");
+	$rcit=mysql_fetch_array($bcit);
+	$virtual=$rcit['tipo_consulta'];
+	if($virtual=='V')
+	{
+		ECHO"<table align=center width=100% class='tbl4'>
+		<tr>
+		<tH>APLICA EL CUESTIONARIO SOBRE RIESGO, LAVADO DE MANOS,USO CORRECTO DE ELEMENTOS DE PROTECCIÓN Y TAMIZAJE COVID?</tH>
+		<td>SI <input type='radio' name='aplica' value='S'> </td>
+		<td>NO <input type='radio'  checked name='aplica' value='N'> </td>
+		</tr>
+		</table>";		
+	}
+	*/
+	echo"	
+	<table align=center width=100% class='tbl4'><tr>";
+	$bfnac=mysql_query("SELECT * FROM destipos WHERE codi_des='E001'");
+	$n=0;
+	while($rfnac=mysql_fetch_array($bfnac))
+	{
+		$codi_des=$rfnac['codi_des'];
+		$nomb_des=$rfnac['nomb_des'];
+		
+		$nomvar='codi'.$n;
+		echo"<input type=hidden name=$nomvar value=$codi_des>";
+		$nomvar='valor'.$n;
+		$valor=$$nomvar;			
+		if(empty($valor))
+		{
+			$bvir=mysql_query("SELECT * FROM sintomas_covid WHERE iden_cita='$numcita' AND cod_sintoma='$codi_des' and tipo_historia='C'");
+			$rvir=mysql_fetch_array($bvir);
+			$valor=$rvir['valor_sintoma'];			
+		}
+		$ch1='';$ch2='';
+		if($valor=='S')$ch1='checked';
+		if($valor=='N')$ch2='checked';
+		echo"<td>$nomb_des</td>
+		<td align=center> SI <input type=radio $ch1 name=$nomvar value='S'> </td>
+		<td align=center> NO <input type=radio $ch2 name=$nomvar value='N'> </td>";
+	}
+	echo" 
+	<tr></table>
+	<br>
+	<table align=center width=100% class='tbl4'><tr>";
+	$bfnac=mysql_query("SELECT * FROM destipos WHERE codi_des='E002'");
+	$n=1;
+	while($rfnac=mysql_fetch_array($bfnac))
+	{
+		$codi_des=$rfnac['codi_des'];
+		$nomb_des=$rfnac['nomb_des'];
+		
+		$nomvar='codi'.$n;
+		echo"<input type=hidden name=$nomvar value=$codi_des>";
+		$nomvar='valor'.$n;
+		$valor=$$nomvar;			
+		if(empty($valor))
+		{
+			$bvir=mysql_query("SELECT * FROM sintomas_covid WHERE iden_cita='$numcita' AND cod_sintoma='$codi_des' and tipo_historia='C'");
+			$rvir=mysql_fetch_array($bvir);
+			$valor=$rvir['valor_sintoma'];			
+		}
+		$ch1='';$ch2='';
+		if($valor=='S')$ch1='checked';
+		if($valor=='N')$ch2='checked';
+		echo"<td>$nomb_des</td>
+		<td align=center> SI <input type=radio $ch1 name=$nomvar value='S'> </td>
+		<td align=center> NO <input type=radio $ch2 name=$nomvar value='N'> </td>";
+	}
+	
+	echo" 
+	</tr></table>
+	<br>
+	<table align=center width=100% class='tbl4'>
+	<tr><th colspan=20 align=center>Sintomas de COVID-19</th></tr>
+	<tr>
+	<th>ITEM</th>
+	<th> SI </th>
+	<th> NO </th>
+	<th>ITEM</th>
+	<th> SI </th>
+	<th> NO </th>
+	<tr>";
+	$bfnac=mysql_query("SELECT * FROM destipos WHERE codt_des='E0' AND codi_des<>'E001' AND codi_des<>'E002'");
+	$n=2;
+	while($rfnac=mysql_fetch_array($bfnac))
+	{
+		$codi_des=$rfnac['codi_des'];
+		$nomb_des=$rfnac['nomb_des'];
+		
+		$nomvar='codi'.$n;
+		echo"<input type=hidden name=$nomvar value=$codi_des>";		
+		$nomvar='valor'.$n;
+		$valor=$$nomvar;		
+		if(empty($valor))
+		{
+			$bvir=mysql_query("SELECT * FROM sintomas_covid WHERE iden_cita='$numcita' AND cod_sintoma='$codi_des' and tipo_historia='C'");
+			$rvir=mysql_fetch_array($bvir);
+			$valor=$rvir['valor_sintoma'];			
+		}
+		$ch1='';$ch2='';
+		if($valor=='S')$ch1='checked';
+		if($valor=='N')$ch2='checked';
+		
+		if(($n) % 2==0)echo"<tr>";
+		echo"<td>$nomb_des</td>
+		<td align=center> <input type=radio $ch1 name=$nomvar value='S'> </td>
+		<td align=center> <input type=radio $ch2 name=$nomvar value='N'> </td>";
+		
+		$n++;
+	}
+	
+	echo"<td></td>
+	<td align=center></td>
+	<td align=center> NO A TODO <input type=checkbox $selt name=selno onclick='seletodo()' value='1'> </td>";	
+	ECHO"<TR>
+	</table>
+	<br><br>";
+	echo"<input type=hidden name=fincov value=$n>";
+	
+	//FIN CUESTIONARIO COVID
+	
+	$motivo=str_replace( "?",chr(10),$motivo);
+	$enfeac=str_replace( "?",chr(10),$enfeac);
+	$revisi=str_replace( "?",chr(10),$revisi);
+	$informe=str_replace( "?",chr(10),$informe);
+	
+	echo"<br>	
+	<table align=center class='tbl' width=100%>	
+	<tr><th>MOTIVO DE CONSULTA</td><td><textarea onPaste='return false' class='caja' name=motivo cols=120 rows=4 onKeypress='if (event.keyCode == 13) event.returnValue = false'>$motivo</textarea></td></tr>
+	<tr><th>ENFERMEDAD ACTUAL</td><td><textarea onPaste='return false' class='caja' name=enfeac cols=120 rows=4 onKeypress='if (event.keyCode == 13) event.returnValue = false'>$enfeac</textarea></td></tr>
+	<tr><th>REVISION POR SISTEMA</td><td><textarea onPaste='return false' class='caja' name=revisi cols=120 rows=4>$revisi</textarea></td></tr>
+	<tr><th>INFORME PARACLINICOS</td><td><textarea onPaste='return false' class='caja' name=informe cols=120 rows=4 >$informe</textarea></td></tr>
+	<table>
+	<br>
+	<table align=center class='tbl' width=100%>
+	<tr><th colspan=2 align=center valign=top height=30><a ><INPUT type=button class='boton' value=Guardar registro onClick='valida();'></th></tr>	
+	<table>
+	</td></tr></table>
+	";
+	/*************************************PROMOCION Y PREVENCION****************************************************************/
+	
+	//ECHO ' --- '.$tiespe.' ---';
+	
+	if($tiespe=='1')
+	{
+	
+	
+		include 'php/funciones_pyp.php';
+		$nid_usu = $paciente; //CODIGO DEL USUARIO	
+		$cadcon=mysql_query("SELECT contrato.CODI_CON
+		FROM citas INNER JOIN contrato ON citas.Cotra_citas = contrato.CODI_CON
+		WHERE (((citas.id_cita)='$numcita'))");
+		while($rcon=mysql_fetch_array($cadcon))
+		{
+			$cod_contrato=$rcon['CODI_CON'];		
+		}
+		$codi_con =$cod_contrato;//CODIGO DEL CONTRATO	
+		$usuario = array();
+		$usuario = CabeceraUsuario($nid_usu, $codi_con);
+		//CODI_USU, NROD_USU, PNOM_USU, SNOM_USU, PAPE_USU, SAPE_USU, FNAC_USU, SEXO_USU ,DIRE_USU, TRES_USU, NEPS_CON,EDAD_ANO,EDAD_MES,EDAD_DIA	
+		
+		$edaa_pac = explode(" ", $usuario['EDAD_ANO']);
+		$edaa_pac=$edaa_pac[0];	
+		$edam_pac = explode(" ", $usuario['EDAD_MES']);
+		$edam_pac=$edam_pac[0];	
+		$consulta = consultas_adultomayor($usuario['NROD_USU']);
+		$pac_cron = verificar_pacienteCronico($usuario['NROD_USU']);
+		
+		//SI CONSULTA IGUAL A 0 NO TIENE CONSULTAS. 1 FALTA HACER EL CONTROL. 2 PAQUETE COMPLETO
+		$tiempofecha= TiempoEntreFechas($consulta[2]);
+		
+		if($consulta[1] == "1")
+		{		
+			//if($fec_ultcons
+			$cod_adu = "23";
+			$adu_may = "<span style='font-size:9px;font-weight:bold'>FECHA DE CONSULTA PRIMERA VEZ POR EL PROGRAMA DEL ADULTO MAYOR:". $consulta[2] . "</span>";
+			/*******************************/
+			if(empty($pac_cron))
+			{
+				$enviarpag = "enviar_pyp(\"$cod_adu\")";
+			}
+			else
+			{
+				$enviarpag = "alert(\"Paciente Cr?nico\")";
+			}
+			/*********************************/
+			if($tiempofecha['tm']<7)
+			{			
+				$adu_may .= "
+				<div style='background:yellow'>$pac_cron</div>			
+				<a href='javascript:void(0);' onclick='$enviarpag'>DILIGENCIAR CONSULTA DE CONTROL </a>";
+			}
+		}
+		else if($consulta[1] == "2")
+		{
+			$adu_may = "CONSULTA DEL ADULTO COMPLETA";			
+		}
+		else
+		{
+			if($edaa_pac == "45" || $edaa_pac == "50" || $edaa_pac == "55" || $edaa_pac == "60" || $edaa_pac == "65" ||	$edaa_pac == "70" || $edaa_pac == "75" || $edaa_pac == "70" || $edaa_pac == "75" ||	$edaa_pac == "80" || $edaa_pac == "85")
+			{
+				
+				if($edam_pac<"11")
+				{
+					$cod_adu = "22";
+					/*******************************/
+					if(empty($pac_cron))
+					{
+						$enviarpag = "enviar_pyp(\"$cod_adu\")";
+					}
+					else
+					{
+						$enviarpag = "alert(\"Paciente Cr?nico\")";
+					}
+					/*********************************/
+					$adu_may = "<div style='background:yellow'>$pac_cron</div>
+					<a href='javascript:void(0);' onclick='$enviarpag'>DILIGENCIAR CONSULTA DE INICIAL DEL ADULTO MAYOR</a>";					
+				}
+			}
+		
+		}
+		
+		$pla_fam="&nbsp;";
+		if($usuario['SEXO_USU'] == "F")
+		{
+			if($edaa_pac<50)
+			{
+				$cod_pla = "18";
+				$pla_fam = "<a href='javascript:void(0);' onclick='enviar_pyp(\"$cod_pla\");'>DILIGENCIAR CONSULTA DE PLANIFICACIN FAMILIAR 1ERA VEZ MUJERES</a>";
+			}
+		}
+		else
+		{
+			$cod_pla = "20";
+			$pla_fam = "<a href='javascript:void(0);' onclick='enviar_pyp(\"$cod_pla\");'>DILIGENCIAR CONSULTA DE PLANIFICACIN FAMILIAR 1ERA VEZ HOMBRES</a>";
+		}
+		echo "<hr>";
+		echo "<table align='center' border='1' width='100%' class='tbl'>";
+		echo "<tr>";
+		echo "<th colspan='2'>ACTIVIDADES DE PROMOCI?N Y PREVENCI?N</th>";
+		echo "</tr>";		
+		echo "<tr>";
+		echo "<td width='50%'>ADULTO MAYOR</td>";
+		echo "<td>&nbsp;$adu_may</td>";
+		echo "</tr>";	
+		echo "<tr>";
+		echo "<td>PLANIFICACI?N FAMILIAR</td>";
+		echo "<td>$pla_fam</td>";
+		echo "</tr>";	
+		echo "</table>";
+		echo "<input type='hidden' name='medico' value='$Gcod_mediconh'><br/>";
+		echo "<input type='hidden' name='paciente' value='$paciente'><br/>";
+		echo "<input type='hidden' name='cita' value='$numcita'><br/>";
+		echo "<input type='hidden' name='actividad' value=''><br/>";
+		
+	}
+	ECHO"<BR><BR><BR>";
+	
+	/*********************************************************************FIN PYP******************************************************************************************/
+	function calcula_edad($fecha_nac)
+    {
+        //Esta funcion toma una fecha de nacimiento
+        //desde una base de datos mysql
+        //en formato aaaa/mm/dd y calcula la edad en nmeros enteros
+        $dia=date("d");
+        $mes=date("m");
+        $anno=date("Y");
+        //descomponer fecha de nacimiento
+        $dia_nac=substr($fecha_nac, 8, 2);
+        $mes_nac=substr($fecha_nac, 5, 2);
+        $anno_nac=substr($fecha_nac, 0, 4);
+        if($mes_nac>$mes)
+        {
+            $calc_edad= $anno-$anno_nac-1;
+        }
+        else
+        {
+            if($mes==$mes_nac AND $dia_nac>$dia)
+            {
+                $calc_edad= $anno-$anno_nac-1;
+            }
+            else
+            {
+                $calc_edad= $anno-$anno_nac;
+            }
+        }
+        return $calc_edad;
+    }
+?>
+</body>
+</html>

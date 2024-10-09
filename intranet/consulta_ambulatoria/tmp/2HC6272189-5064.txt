@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|POMEROY, AMIGDALECTOMIA, ABDOMINOPLASTIA, MMOPLASTIA DE AUMENTO, EVENTRORRAFIA, CESAREA 2 
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA: 13 AÑOS. CITOLOGIA VAGINAL: EN EL 2019 .REFIER QUE NO ENTREGARON RESULTADO.  FUM: AGOSTO DEL 2023ÆÆÆÆÆÆÆÆÆÆÆÆ
+2|gestan|3
+2|partos|1
+2|cesareas|2
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

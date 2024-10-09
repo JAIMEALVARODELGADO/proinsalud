@@ -1,0 +1,15 @@
+2|nuecardiovasculares|SOPLO CARDIACO A ESTUDIO 
+2|nuepulmonar|ASMA BRONQUIAL CON ULTIMA CRISIS  EN ENERO 2024
+2|nuequirurgicos|CESAREA
+2|neofarmacos|FLUOXETINA 20 MG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|TRANSTORNO DE ANSIEDAD 
+2|gineco|MENOPAUSIA HACE 2 AÑOS // MENARQUIA 14 AÑOS // SEXARQUIA 17 AÑOS
+2|gestan|3
+2|partos|2
+2|cesareas|1
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

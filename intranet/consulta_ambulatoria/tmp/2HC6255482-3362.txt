@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HISTERECTOMIA ABDOMINAL  TOTAL
+2|neofarmacos|LEVOTIROXINA 88 MCG CADA DIA, LOSARTAN 50 MG CADA DIA , HCTZ 25 MG CADA DIA 
+2|nuetoxico|Negativo 
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMNO
+2|gineco|menarca: 12 años, sexarca: 20 años, parejas sexuales: #2, menopausia: 323 años, citologia: feb 2020, REFIERE NORMAL, PACIENTE YA NO TIENE RANGO DE EDAD PARA CONTINUAR TAMIZAJE CA DE CUELLO UTERINO,   mamografia nov 2018 bi rads 1.  MAMOGRAFIA DEL MAYO DEL 2022 NORMAL . PACIENTE HACE PARTE DE CRONICOS
+2|gestan|2
+2|partos|1
+2|cesareas|0
+2|abortos|1
+2|vivos|1
+2|mortinatos|0
+2|feulme|

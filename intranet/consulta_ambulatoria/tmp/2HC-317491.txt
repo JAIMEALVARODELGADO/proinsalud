@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS: GASTRITIS, OSTEARTROSIS, BRONQUITIS -- QUIRURGICOS: COLECISTECTOMIA -- ALERGICOS: NEUROBION  -- TRAUMATICOS: NIEGA -- TOXICOS: EXFUMADORA 10 CIGARRILLOS DIARIOS DURANTE 10 AÑOS SUSPENDE HACE 30 AÑOS  -- OCUPACION: HOGAR VCUNA COVID 3 DOSIS -  PSICOLOGIA, 24 DE JUNIO, EPISODIO DEPRESIVO MODERADO, ALTERACION EMOCIONAL, NIEGA OTROS , TERAPIA TRANSFUSIONAL POSITIVA  PÓR CX  HEPATICA 1917., homeopáticos o medicina ancestral:no  riesgo psicosocial: no  sociales o personales: no  hospitalarios: no refiere psiquiatricos: no antecedente de intento de suicidio: no  vacunacion: completas nutricionales: no refiere actividad fisica: ninguna  FARMACOLOGICOS ALENDRONATO SODICO 70mg evento uso exclusivo post menopausia como prevencion secundaria de fracturas TABLETA 1 UND 6 DiasÆ2203 20
+2|familia|HEMANA CAncer MAMA, NIEGA INTENTO DE SUICIDIO CONSUMO DE SPA
+2|metodo|
+2|gineco|MENARQUIA: 17 AÑOS -- MENOPAUSIA: 50 AÑOS. 15-2-23 ACUDE A PYM PROGRAMA VEJEZ
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

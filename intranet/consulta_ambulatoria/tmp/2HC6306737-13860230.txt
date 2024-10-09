@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HISTERECTOMIA, POMEROY
+2|neofarmacos|LEVOTRIOXINA 50 MCG, HCTZ 25 MG
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROXINA
+2|gineco|MENARCA: 13 AÑOS CITOLOGIA : NIEGA 
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

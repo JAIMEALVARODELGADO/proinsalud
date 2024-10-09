@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESERAA, HISTERCTOMIA
+2|neofarmacos|Negativo
+2|nuetoxico|PIÑA
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA: 9 AÑOS. //// ULTIMA CITOLOGIA: HACE MAS DE 3 AÑOS. MAMOGRAFIA: HACE MAS DE  2 AÑOS. 
+2|gestan|1
+2|partos|0
+2|cesareas|1
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>Autentificación SI</title>
+<!--Step 1: Add the below SCRIPT to the head of your page:-->
+<script type="text/javascript" src="spinmenu.js"></script>
+</head>
+<!-- inicia -->
+<script language="JavaScript">
+
+var specifyimage=new Array() //Your images
+
+specifyimage[0]="img/proinsalud.gif"
+specifyimage[1]="img/icontec.gif"
+specifyimage[2]="img/iqnet.gif"
+var delay=3000 //3 seconds
+
+//Counter for array 
+var count =1;
+var cubeimage=new Array()
+for (i=0;i<specifyimage.length;i++){
+cubeimage[i]=new Image()
+cubeimage[i].src=specifyimage[i]
+}
+function movecube(){
+if (window.createPopup)
+cube.filters[0].apply()
+document.images.cube.src=cubeimage[count].src;
+if (window.createPopup)
+cube.filters[0].play()
+count++;
+if (count==cubeimage.length)
+count=0;
+setTimeout("movecube()",delay)
+}
+window.onload=new Function("setTimeout('movecube()',delay)")
+</script>
+<br>
+<br>
+<p align="center"><img src="img/proinsalud.gif" name="cube"  border=0 style="filter:progid:DXImageTransform.Microsoft.Stretch(stretchStyle='PUSH')"></p>
+
+<!-- termina -->
+
+<body bgcolor=#8F8FBD>
+<center><h1><FONT COLOR=#FFFFFF  >Autentificación Historias Clinicas </FONT></h1></center>
+<!--Step 2: Add the below SCRIPT to the body of your page where you want it to appear:-->
+
+<form action="autentificar.php" method="POST">
+<table align="center" width="225" cellspacing="2" cellpadding="2" border="1">
+<tr>
+<td colspan="2" align="center" bgcolor=#8F8FBD ><FONT FACE=ARIAL COLOR=#FFFFFF ><b>Introduce tus Datos de Acceso</FONT>
+</td>
+</tr>
+</table>
+
+<br>
+
+<center><table border=1>
+<tr>
+<td align="right"><FONT FACE=ARIAL><b>USUARIO:</b></FONT></td>
+<td><input type="Text" name="usuario" size="10" maxlength="10"></td>
+</tr>
+<tr>
+<td align="right"><FONT FACE=ARIAL><b>CLAVE:</b></FONT></td>
+<td><input type="password" name="clave" size="10" maxlength="5"></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><FONT FACE=ARIAL><input type="Submit" value="ENTRAR"></FONT></td>
+</tr>
+</table>
+</center>
+</form>
+<br>
+<br>
+</body>
+</html>

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESEREA, ANOPLASTIA
+2|neofarmacos|LEVOTIROXINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO
+2|gineco|G2P1C1V2, CITOLOGÍA 10-2021: NORMAL  - POMEROY - FUM: 05/05/2023
+2|gestan|2
+2|partos|1
+2|cesareas|1
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

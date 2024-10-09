@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA, CX ORTOGNATICA 
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|PF DIU 
+2|gineco|MENARCA: 12 AÑOS -- SEXARCA: 16 AÑOS -- CICLOS MENSTRUALES REGULAERS 28*6 . CITOLOGIA 9-5-22 NEGATIVA PARA LESION INTRAEPITELIAL 
+2|gestan|1
+2|partos|0
+2|cesareas|1
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

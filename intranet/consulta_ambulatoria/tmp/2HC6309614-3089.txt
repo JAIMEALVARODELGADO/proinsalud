@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA 2, POMEROY 
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|menarca 14 años, sexarca 25 años, parejas sexuales #1, citologia feb 2023, negativa para malignidad, ,  mamografia nunca, se entrega ordenes, planificacion pomeroy   MAMOGRAFIA 29/01/2020 CATEGORIA BI -RADS I MAMOGRAFIA BIRADS O 
+2|gestan|3
+2|partos|0
+2|cesareas|2
+2|abortos|1
+2|vivos|2
+2|mortinatos|0
+2|feulme|

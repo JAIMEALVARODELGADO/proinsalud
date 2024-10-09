@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|POMEROY, APENDICECTOMIA 
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA: 13 AÑOS, SEXARCA: 21 AÑOS, NUMERO DE COMPAÑEROS SEXUALES: 2, DIFICULTADES DURANTE LAS RELACIONES SEXUALES : NO,  NIEGA ENFERMEDADES DE TRANSMISIÓN SEXUAL. menopausia: 52 años, citologia: dic 2021, refiere normal, mamografia enero 2021, refiere normal , ECOGRAFIA DE MAMA ABRIL DE 2023 BI-RADS 2, CITOLOGIA 22-03-2023: NO DETECTADO NINGUN GENOTIPO DE VPH 
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

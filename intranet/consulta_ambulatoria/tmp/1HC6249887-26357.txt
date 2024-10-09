@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9998
+1|escolaridad|7609
+1|estadocivil|A702
+1|direccion|CR. 3 No. 3-60
+1|tidoacu|
+1|nudoacu|X
+1|pnomacu|SOLA-
+1|snomacu|X
+1|papeacu|X
+1|sapeacu|X
+1|parenacu|X
+1|direacu|X
+1|teleacu|X
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|TENGO RAQUIÑA EN  LOS PIES  HACE VARIOS   MESES- 
+1|enfeac|CUADRO CLINICO  HACE  UNSO 3  MESES, CON PRURITO , EN LOS PEIS , CON  RAS, EN   PIES- POR EL RASCADO  - CON PIEL SECA , LESIOENS  - DE RASCADO- CICATRIZADAS. 
+1|revisi|NEGATIVO.-
+1|informe|NOP-
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

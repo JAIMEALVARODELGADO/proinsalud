@@ -1,0 +1,56 @@
+6|clasemedi|1
+6|codmedi|277008
+6|desmedi|POLIETILENGLICOL * 110.1 gr NULYTELY POLVO PARA SUSPENSION
+6|dosis|4
+6|unid|SOBRES
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|1
+6|obsemed|PROTOCOLO RPEAPRAICON COLONSOCAPIT OTAL 
+6|canti|4
+6|diagmedi|K219
+6|justifi|N
+6|pos|N
+6|clasemedi|1
+6|codmedi|568003
+6|desmedi|ESOMEPRAZOL 20mg TABLETA
+6|dosis|1
+6|unid|UND
+6|frecu|12
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|60
+6|obsemed|1 TAB UNA HOR ANTES DEL DYEAUNO CYE NA
+6|canti|120
+6|diagmedi|K219
+6|justifi|N
+6|pos|S
+6|clasemedi|1
+6|codmedi|215123
+6|desmedi|TRIMEBUTINA 200 mg TABLETA
+6|dosis|1
+6|unid|UND
+6|frecu|8
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|60
+6|obsemed|1 TAB ANTES DEL DEYAUNO ALMUERZOY CNEA
+6|canti|180
+6|diagmedi|K219
+6|justifi|N
+6|pos|N
+6|clasemedi|1
+6|codmedi|979021
+6|desmedi|LEVOSULPIRIDE+SIMETICONA+PANCREATINA 25MG/80MG/150MG GRAGEA
+6|dosis|1
+6|unid|UND
+6|frecu|12
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|60
+6|obsemed|1 TAB ANTE SDLE ALMERUO Y CENA
+6|canti|120
+6|diagmedi|K589
+6|justifi|N
+6|pos|N

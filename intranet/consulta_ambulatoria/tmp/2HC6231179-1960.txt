@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLECISTECTOIA, APENDICECTOMA, POMEROY, OSTEOTOMIA PELVIS
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|CA ENDOMETRIAL,
+2|gineco|MENARQUIA 14 AÑOS NUMERO DE COMPAÑEROS SEXUALES EN TODA LA VIDA 1. HISTERECTOMIA, CITOLOGIA AGOSTO 2014 NORMAL, MAMOGRAFIA  10/03/2023  BIRADS 1.
+2|gestan|3
+2|partos|2
+2|cesareas|0
+2|abortos|1
+2|vivos|2
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLECISTECTOMIA, RTC IZUIERDA, POMEROY
+2|neofarmacos|CAFEINA ACETAMINOFEN
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|MIGRAÑA
+2|gineco|MENARcA: 18 AÑOS sexarca: 20 años, citologia nov 2016, vaginosis bacteriana, menop: 52 año Citologia vaginal  del  20 de  Abril  del  2022  Negativa para lesion intraepitelial o malignidad  Atrofia, EN SEGUIMIENTO POR P Y M
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

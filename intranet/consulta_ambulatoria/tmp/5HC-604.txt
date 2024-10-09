@@ -1,0 +1,16 @@
+5|claseorden|1
+5|codorden|937202
+5|desorden|937202 - TERAPIA FONOAUDIOLOGICA DE LA VOZ (S) 
+5|nivel|REFERENCIA
+5|obseorden|3 semanales a domicilio
+5|diagorden|G360
+5|cantorden|72
+5|cama|
+5|claseorden|1
+5|codorden|931001
+5|desorden|931001 - TERAPIA FISICA INTEGRAL (S) 
+5|nivel|REFERENCIA
+5|obseorden|tres semanales a domicilio
+5|diagorden|G360
+5|cantorden|72
+5|cama|

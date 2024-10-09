@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|EPOC
+2|nuequirurgicos|Negativo
+2|neofarmacos|RISPERIDONA, ESCITALOPRAM
+2|nuetoxico|NO SABE A QUE
+2|neotransfin|Negativo
+2|neootros|DEMENCIA SENIL, ARTRITIS 
+2|gineco|G3P3 
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

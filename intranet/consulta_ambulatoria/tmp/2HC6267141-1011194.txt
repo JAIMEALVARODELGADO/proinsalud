@@ -1,0 +1,11 @@
+2|person|PAT NIEGA, FARMACOS NIEGA, ALERGIA NIEGA, QX: HISTERECTOMIA POR NIC I
+2|familia|NO
+2|metodo|
+2|gineco|POMEROY 
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

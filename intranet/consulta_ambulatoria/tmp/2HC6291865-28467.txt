@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HISTEROSCOPIA, POMEROY, LEGRADOS, CESAREA 1
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA: 14 AÑOS -- CICLOS REGULARES -- CITOLOGIA: AGOSTO DE 2021 NEGATIVA PARA MALIGNIDAD. POMEROY - 
+2|gestan|4
+2|partos|0
+2|cesareas|1
+2|abortos|2
+2|vivos|2
+2|mortinatos|0
+2|feulme|

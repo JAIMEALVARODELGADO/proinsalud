@@ -1,0 +1,11 @@
+2|person|PAT ANEMIA BAY PASS, FARMACOS: BEDOLLETA MENSUAL, ACIDO FOLICO, SULFATO FERROSO TAB DIA  QUIRURGICOS  : Histerectomia abdominal, cirugia bariatrica, ALERGIA ACETAMINOFEN +CODEINA
+2|familia|hta madre 
+2|metodo|
+2|gineco|G3A1P3V3 CITOLOGIA VAGINAL HACE 4 AÑOS 
+2|gestan|4
+2|partos|3
+2|cesareas|0
+2|abortos|1
+2|vivos|3
+2|mortinatos|0
+2|feulme|

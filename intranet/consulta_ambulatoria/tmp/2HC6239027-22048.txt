@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|REEMPLAZO VALVULA MITRAL MECANICA, REPARACION DE TRICUSPIDE, APENDICECTOMIA
+2|neofarmacos|WARFARINA, LEVOTIROXINA, ESPIRONOLACTONA, ENALARPIL, CARVEDILOL
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA: 12 AÑOS. CITOLOGIA VAGINAL: 07/09/2018: INFLAMACION MAS ATROFIA. MENOPAUSIA: 46 AÑOS. Mamografia BILATERAL: 04/05/2016 birads 2. MENOPAUSIA A LOS  51 AÑOS, ULTIMA CITOLOGIA HACE MENOS DE  UN AÑO. NO REFIERE ANTECDENTES  NUEVOS. 
+2|gestan|5
+2|partos|3
+2|cesareas|1
+2|abortos|1
+2|vivos|4
+2|mortinatos|0
+2|feulme|

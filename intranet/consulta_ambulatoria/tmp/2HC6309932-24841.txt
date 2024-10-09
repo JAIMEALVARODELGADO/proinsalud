@@ -1,0 +1,11 @@
+2|person|Patológicos: hipotiroidismo en tratamiento medico con levotiroxina tab 50 ug de lunes a viernes y 100 ug sábado y domingo enfermedad acido péptica y reflujo gastroesofágico en manejo por gastroenterología. traumaticos:NO;hipertension:NO;quirurgicos:NO;neumopatias:NO;cir_pelvica:NO;cardiopatias:NO;neuropatias:NO;tbc:NO;diabetes:NO;vih:NO;preclamsia:NO;ets_sifilis:NO;hepatitis_b:NO;infertilidad:NO;nefropatias:NO;laborales:NO;otros:NO; Niega violencia o desplazamiento por conflictos armados; Niega violencia o abuso sexual, físico, psicológico o familiar; Niega consumo de licor , tabaco o sustancias psicoactivas.
+2|familia|Hta:NO;Diabetes:NO;Cardiopatias:NO;Infecciosas:NO;Congenitas:NO;Turbeculosis:NO;Transt:NO;Neoplasias:NO;otros:CANCER GASTRICO  ABUELA  PATERNA;
+2|metodo|NA-
+2|gineco|MENARQUIA: 13 AÑOS, SEXARCA : NO INICIO DE RELACIONES SEXUALES. FUM : 18/06/2022 PLANIFIACION INYECTABLE MENSUAL
+2|gestan|0
+2|partos|0
+2|cesareas|0
+2|abortos|0
+2|vivos|0
+2|mortinatos|0
+2|feulme|

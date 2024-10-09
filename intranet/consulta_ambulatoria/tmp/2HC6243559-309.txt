@@ -1,0 +1,11 @@
+2|person|Patológicos: hipotirodismo, HTA--Quirúrgicos: apendicectomía, pomeroy, histerectomía, colecistectomía--Farmacológicos: venlafaxina, pregabalina, losartán, levotiroxina--no cirugias oculares
+2|familia|Padre HTA, madre HTA y cáncer colon, hermana cáncer colon
+2|metodo|
+2|gineco|G4P4V4
+2|gestan|4
+2|partos|4
+2|cesareas|0
+2|abortos|0
+2|vivos|4
+2|mortinatos|0
+2|feulme|

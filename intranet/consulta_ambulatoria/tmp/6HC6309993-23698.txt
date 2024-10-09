@@ -1,0 +1,70 @@
+6|clasemedi|1
+6|codmedi|366121
+6|desmedi|ACETAzolamida 250 mg TABLETA
+6|dosis|1
+6|unid|UND
+6|frecu|12
+6|unidfrecu|Horas
+6|via|
+6|tiempo|90
+6|obsemed|TOMAR UNA CADA 12 HORAS 
+6|canti|180
+6|diagmedi|D420
+6|justifi|N
+6|pos|S
+6|clasemedi|1
+6|codmedi|031421
+6|desmedi|NIMOdipina 30 mg TABLETA
+6|dosis|1
+6|unid|UND
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|90
+6|obsemed|TOMA RUNA EN LA NOCHE
+6|canti|90
+6|diagmedi|D420
+6|justifi|N
+6|pos|S
+6|clasemedi|1
+6|codmedi|215004
+6|desmedi|ACETAMINOFEN 500 mg TABLETA
+6|dosis|1
+6|unid|UND
+6|frecu|12
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|90
+6|obsemed|TOMAR UNA CADA 12 HORAS 
+6|canti|180
+6|diagmedi|D420
+6|justifi|N
+6|pos|S
+6|clasemedi|1
+6|codmedi|332421
+6|desmedi|NAPROXENO 250 mg TABLETA
+6|dosis|1
+6|unid|UND
+6|frecu|12
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|60
+6|obsemed|TOMAR UNA CADA 12 HORAS
+6|canti|120
+6|diagmedi|D420
+6|justifi|N
+6|pos|S
+6|clasemedi|1
+6|codmedi|367451
+6|desmedi|OMEPRAZOL  20 MG CAPSULA
+6|dosis|1
+6|unid|UND
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|90
+6|obsemed|TOMAR UNA EN AYUNAS 
+6|canti|90
+6|diagmedi|D420
+6|justifi|N
+6|pos|S

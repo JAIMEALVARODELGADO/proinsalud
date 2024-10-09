@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA 1 POMEROY, VARICOSAFENECTOMIA MII 
+2|neofarmacos|ATORVASTINA 10 MG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|DISLIPIDEMIA
+2|gineco|MENARQUIA: 12 AÑOS --   MAMOGRAFIA DICIEMBRE/21: BIRADS 1  NORMAL --  CITOLOGIA DEL 29 DE SEPTIEMBRE DEL 2020 NORMAL 
+2|gestan|2
+2|partos|1
+2|cesareas|1
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS PERSONALES: SOBREPESO, TROMBOSIS GEMELAR Y SAFENA MENOR DERECHA EN 2016 -- ALERGICOS: METOCLOPRAMIDA -- QUIRURGICOS: CESAREA #1, SALPINGECTOMIA POR EMBARAZO ECTOPICO, COLECISTECTOMIA ABIERTA -- TOXICOS: NO REFIERE -- TRAUMATICOS:NIEGA, FARMACOLOGICOS: NO REFIERE -- OCUPACION: DOCENTE ACTIVA -- VACUNACION COVID-19: 2 DOSIS PFIZER, PENDIENTE REFUERZO. NIEGA SER VICTIMA DE VIOLENCIA SEXUAL, INTRAFAMILIAR, FISICA O PSICOLOGICA. FACTORES DE VULNERABILIDAD INDIVIDUAL Y SOCIAL: NO, ANTECEDENTES OCUPACIONALES: NO
+2|familia|tio cancer de colon, tio cancer de prostata, tia cancer de tiroides, prima: cancer uterino, primo cancer prostata. hermano con oligoartritis seronegativa.niega antecedentes familiares,  de trastornos mentales, en lo interrogado niega consumo de spa, en familiares cercanos, niega comportamientos suicidas, o suicidios en la familia, eventos cercanos al examen actual 
+2|metodo|
+2|gineco|menarca: 13 años, sexarca: 18 años, parejas sexuales#1, citologia: JUNIO 2019 normal -- fum: 12/2021 -- mpf: ninguno -- g2p0c1a0e1v1. SE REMITE A PYM PROGRAMA ADULTEZ, SE SOLICITA MAMOGRAFIA.
+2|gestan|2
+2|partos|0
+2|cesareas|1
+2|abortos|1
+2|vivos|1
+2|mortinatos|0
+2|feulme|

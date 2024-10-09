@@ -1,0 +1,24 @@
+5|claseorden|2
+5|codorden|0664
+5|desorden|
+5|nivel|
+5|obseorden|
+5|diagorden|0647
+5|cantorden|
+5|cama|
+5|claseorden|1
+5|codorden|881305
+5|desorden|881305 - ECOGRAFIA DE ABDOMEN SUPERIOR (S) 
+5|nivel|CITAS
+5|obseorden|HIPOCONDRIO DERECHO
+5|diagorden|R104
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|907106
+5|desorden|907106 - UROANALISIS () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|R104
+5|cantorden|1
+5|cama|

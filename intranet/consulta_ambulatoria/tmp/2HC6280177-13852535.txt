@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RESECCION DE GANGLION MANO DERECHA  IZQUIERDA 
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENOARQUIA  13 AÑOS-
+2|gestan|1
+2|partos|1
+2|cesareas|0
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

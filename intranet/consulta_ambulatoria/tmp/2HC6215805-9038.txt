@@ -1,0 +1,11 @@
+2|person|Patologicos: hipotiroidsimo, dislipidemia. Famracologicos: Eutirox 25 mcg cada dia. Quriurgicos: colecistectomia. Alergicos: intolernacia a dipironla. Toxicos: Niega 
+2|familia|Cirrosis hepatica en padre. 
+2|metodo|
+2|gineco|MENARQUIA:13 AÑOS. MENOPAUSIA: 50 AÑOS. CITOLOGIA 15-01-17 NORMAL.  MAMOGRAFIA  10 05 2019  BIRAS 1 , CONTROL  05 2021 . CITOLOGIA CERVICO  VAGINAL  NO RECUERDA LA FECHA. 
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

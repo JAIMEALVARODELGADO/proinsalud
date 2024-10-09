@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|LAPAROTOMIA POR APENDICECTOMIA, POMEROY, CESAREA
+2|neofarmacos|Negativo
+2|nuetoxico|DIPIRONA
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|FUM CON CICLOS  IRREGULARES    ULTIMA CITOLOGIA  EN DICIEMBNRE  DEL  2023  REPORTE  DE  BIOPSIA  REPORTA   SIN ATIPIAS  SOLO  INFLAMACION  DE  LAMINA PROPIA  
+2|gestan|3
+2|partos|2
+2|cesareas|1
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,11 @@
+2|person|patologicos reflujo gastroesofagico, sindrome de colon irritable  quiste en vulva// alergicos  no conocidos a mediamentos //traumaticos negativos //quirurgicos:apendicectomia (NEGATIVO PARA DESPLAZADO,CONFLITO ARMADO,VIOLENCIA INTRAFAMILIAR-)
+2|familia|mama cancer de mama 
+2|metodo|NA-
+2|gineco|MENARQUIA 15 AÑOS Y MEDIO         ---      CITOLOGIA 28/09/2021//             mamografia 01/09/2022 MMAOGRAFIA NEGATIVA PARA PROCESO EVOLUTIVO, BIRADS 1      FUM julio de 2015
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

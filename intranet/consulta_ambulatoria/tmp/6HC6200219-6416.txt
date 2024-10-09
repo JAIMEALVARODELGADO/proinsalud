@@ -1,0 +1,14 @@
+6|clasemedi|1
+6|codmedi|839251
+6|desmedi|ROSUVASTATINA 20 MG TABLETA
+6|dosis|1
+6|unid|UND
+6|frecu|1
+6|unidfrecu|Dias
+6|via|2203
+6|tiempo|90
+6|obsemed|tomar 1 en ayunas
+6|canti|90
+6|diagmedi|E780
+6|justifi|N
+6|pos|S

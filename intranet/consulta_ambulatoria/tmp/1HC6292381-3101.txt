@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A702
+1|direccion|CRA 6 N 21-83
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|REMITIDO DE CRONICOS
+1|enfeac|PACIENTE DE 75 AÑOS DE EDAD CON TRATAMIENTO PARA DM2. MEDICACION ACTUAL: EMPAGLIFLOZINA 25 X 1 Y VILDAGLIPTINA + METFORMINA 50/1000 X 2.
+1|revisi|EN CONTROL POR NEUROLOGIA Y MANEJO PARA EPILEPSIA, INSOMNIO Y TRASTORNO COGNITIVO.
+1|informe|EXAMENES DEL 19-12-23: GLICEMIA: 167, POS: 191, HBA1C: 6.9, CREATININA: 1, MICROALBUMINURIA: 16.4. EXAMENES DEL 10-04-24; HBA1C: 6.7, COLESTEROL LDL: 108, TG: 145.
+1|grupo_poblacional|F111
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

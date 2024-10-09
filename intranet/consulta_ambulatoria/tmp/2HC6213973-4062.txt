@@ -1,0 +1,11 @@
+2|person|patologicos dislipidemia               //        alergicos negativos    // QRG: VARICOCELECTOMIA.        //       traumaticos trauma de tobillo hace 7 años     //            FARMACOLOGICO: NIEGA         
+2|familia|papa hipertenso                      hemana diabetica TIOS  CA DE  ESTOMAGO- 
+2|metodo|NA-
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

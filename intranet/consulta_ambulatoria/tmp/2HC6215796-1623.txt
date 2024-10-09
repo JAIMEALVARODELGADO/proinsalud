@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS: NO REFIERE  FARMACOLOGICOS: NO REFIERE QX: OSTEOSINTESIS EN AMBOS PIES, HISTERECTOMIA, TRASNPLANTE DE CORNEA,  CIRUGIA MAXILAR, QUERATOPLASTIA PENETRANTE EN OJO DERECHO POR QUERATOCONO.  VACUNA COVID 19, REFIERE TENER ESQUEMA**FARMCOLOGICOS NINGUNO 
+2|familia|NO REFIERE OCULARES. YA VALORADA PYM 08/2022****
+2|metodo|NINGUNO 
+2|gineco|menarca: 12 años, sexarca: niega, menopausia quirúrgica: 32 años, citología: enero 2019, atrofia, negativa para malignidad,  mamografía: dic 2018 bi rads 0, eco mamaria mayo 2019, bi rads 2, MAMOGRAFIA 07/07/2022 BIRADS 0 ECOGRAFIA  07/07/2022 BIRADS 2  HALLAZGOS NORMAL. 
+2|gestan|0
+2|partos|0
+2|cesareas|0
+2|abortos|0
+2|vivos|0
+2|mortinatos|0
+2|feulme|

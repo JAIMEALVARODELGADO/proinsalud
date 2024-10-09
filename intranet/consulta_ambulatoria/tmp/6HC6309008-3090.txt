@@ -1,0 +1,42 @@
+6|clasemedi|1
+6|codmedi|830005
+6|desmedi|ALPRAZOLAM 0.25 MG TABLETA
+6|dosis|1
+6|unid|UND
+6|frecu|8
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|30
+6|obsemed|
+6|canti|90
+6|diagmedi|F419
+6|justifi|N
+6|pos|N
+6|clasemedi|1
+6|codmedi|001113
+6|desmedi|FLUVOXAMINA 100MG TBS TABLETA
+6|dosis|1
+6|unid|UND
+6|frecu|12
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|60
+6|obsemed|
+6|canti|120
+6|diagmedi|F419
+6|justifi|N
+6|pos|N
+6|clasemedi|1
+6|codmedi|216181
+6|desmedi|DUTASTERIDA 0.5MG + TAMSULOSINA CLORHIDRATO 0.4MG CAPSULA
+6|dosis|1
+6|unid|UND
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|60
+6|obsemed|
+6|canti|60
+6|diagmedi|N40X
+6|justifi|N
+6|pos|N

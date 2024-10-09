@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|PLASTIA VULVAR, TUTOR EXTERNO PIERNA IZAUIERDA, POMEROY
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA: 13 AÑOS, SEXARQUIA: 16 AÑOS,  FUM: NO RECUERDA, ULTIMA CITOLOGIA:  NUNCA SE HA REALIZADO,  PARTO VAGINAL EL DIA 16/10/2023. 
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|2024-03-06

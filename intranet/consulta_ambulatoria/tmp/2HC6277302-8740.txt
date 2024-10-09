@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|POMEROY, LEGRADO
+2|neofarmacos|LOSARTAN, LEVOTIROXINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO
+2|gineco|MENARCA: 14 AÑOS SEXARCA: 18 AÑOS MENOPAUSIA: 50 AÑOS,  ULTIMA CITOLOGIA: 2022 NORMAL ULTIMA MAMOGRAFIA:  17/03/2022: BIRADS 1. 
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

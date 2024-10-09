@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|POMEROY, CORRECCION HALLUX VALGUS
+2|neofarmacos|LEVOTIROXINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|GASTRITIS, HIPOTIROIDISMO, PREDIABETES
+2|gineco|POMEROY . 9-12-2021 acude a valoracion por pym programa vejez. CITOLOGIA PACIENTE YA NO TIENE RANGO DE EDAD PARA TOMA DE TAMIZAJE CA DE CUELLO UTERINO. MAMOGRAFIA FEBRERO DE 2022 BI-RADS 1
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

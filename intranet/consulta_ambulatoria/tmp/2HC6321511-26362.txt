@@ -1,0 +1,11 @@
+2|person|Patologicos: osteartrosis, hipertension arterial, hipotiroidismo, antecedent de isquemia cerebral transitoria en el 2018, Quirurgicos: histerectomia, colporrafia, reseccion de qlesion mamaria, cistopexia, reseccion de ganglion en hombro derecho, turbinoplastia- traumaticos: negativos, toxicos:  niega consumo de spa, niega exposicion a toxicos Alergicos: CIPROFLOXACINA*******, Farmacologicos: levotiroxina 50 mcg c/dia, asa 100 mg c/dia, hctz 25 mg c/dia, losartan 50 mg c/12 horas, ROSUVASTATINA  meloxicam, aciudo folico, tiamina. estado civil viuda, ocupacion: hogar, julio 12 2018 Niega ser victima de violencia, fisica, sexual, emocional, psicologica, de genero, niega ser desplazado por la violencia o conflicto armado, no pertenece a etnias o grupos poblacionales especiales habitos nutricionales, saludables, actividad fisica moderada, patron de sueño regular, Niega fobias, sociales o personales, COVID 19 VACUNACION  2 DOSIS PENDIENTE REFUERZO INFLUENZA EN EL 2021
+2|familia|hipertension arterial hermanas cancer de mama madre, cancer linfatico padre hermana: diabetes niega antecedentes familiares, de trastornos mentales, en lo interrogado niega consumo de spa, en familiares cercanos, niega comportamientos suicidas, o suicidos en la familia, eventos cercanos al examen actual
+2|metodo|NO R EFIERE 
+2|gineco|menarca: 18 años sexarca: 20 años menopausia 34 años, citologia julio 2018, vaginosis bacteriana negativa para malignidad, mamografia julio 2018 birads 2 negativa para malignidad
+2|gestan|5
+2|partos|5
+2|cesareas|0
+2|abortos|0
+2|vivos|5
+2|mortinatos|0
+2|feulme|

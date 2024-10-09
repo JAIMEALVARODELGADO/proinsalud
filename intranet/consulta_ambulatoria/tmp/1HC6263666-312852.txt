@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9998
+1|escolaridad|7613
+1|estadocivil|A701
+1|direccion|BARBACOAS
+1|tidoacu|CC
+1|nudoacu|98350532
+1|pnomacu|CRISTIAN
+1|snomacu|
+1|papeacu|QUIÑONEZ
+1|sapeacu|
+1|parenacu|PADRE
+1|direacu|BARBACOAS
+1|teleacu|3218102809
+1|muniacu|52079
+1|nommuniacu|BARBACOAS (NARI&#65533;O)
+1|primera|1
+1|codciru|
+1|motivo|VALORACION PREANESTESICA PARA HERNIORRAFIA UMBILICAL
+1|enfeac|HERNIA UMBILICAL
+1|revisi|NIEGA
+1|informe|
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

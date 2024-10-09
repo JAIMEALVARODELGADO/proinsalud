@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7609
+1|estadocivil|A702
+1|direccion|Guachucal, Barrio Libardo Benavides
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|Tengo alergia en todo el cuerpo
+1|enfeac|Desde hace 15 dias tiene plurito en todo el cuerpo, mas acentuada en la cara y en el cuero cabelludo, no cede con ceterizina
+1|revisi|Resequead ocular
+1|informe|
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

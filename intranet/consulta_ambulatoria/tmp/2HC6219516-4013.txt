@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|APENDICECTOMIA, CESAREA 3
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA: 13 AÑOS, SEXARCA: 29 AÑOS, NUMERO DE COMPAÑEROS SEXUALES: 2, NIEGA ENFERMEDADES DE TRANSMISIÓN SEXUAL, MENOPAUSIA: 50 AÑOS,  SE OFERTA PRUEBA VOLUNTARIA PARA VIH PACIENTE NO ACEPTA  - CITOLOGIA HACE 3 MESES JUNIO 2021 NEGATIVA PARA LESION, MAMOGRAFIA JUNIO 2021,  CON HALLAZGOS BENIGNOS.
+2|gestan|4
+2|partos|1
+2|cesareas|3
+2|abortos|0
+2|vivos|3
+2|mortinatos|1
+2|feulme|

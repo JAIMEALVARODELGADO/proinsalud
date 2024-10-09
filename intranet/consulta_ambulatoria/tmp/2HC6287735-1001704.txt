@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|ASMA ULTIMA CRISIS HACE 3 AÑOS
+2|nuequirurgicos|CESAREA
+2|neofarmacos|LEVOTIROXINA, EMPAGLIFOZINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO, DIABETES MELLITUS 2
+2|gineco|14 AÑOS, CITOLOGIA   JUNIO  2021 NORMAL  CITOLOGIA ADN VPH  29/12/22 NEGATIVA 
+2|gestan|3
+2|partos|1
+2|cesareas|1
+2|abortos|1
+2|vivos|2
+2|mortinatos|0
+2|feulme|2024-04-25

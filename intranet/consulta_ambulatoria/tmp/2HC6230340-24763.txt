@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RINOSEPTOPLASTIA
+2|neofarmacos|LEVOTIROXINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO
+2|gineco|menarquia: 12 años, ciclos: 30 x 7,  sexarquia: 14 años,  COMPAÑEROS SEXUALES -  3 ...  02-10-2023 PENDIENTE CITOLOGIA, PF: ANTICONCEPTIVOS ORALES
+2|gestan|0
+2|partos|0
+2|cesareas|0
+2|abortos|0
+2|vivos|0
+2|mortinatos|0
+2|feulme|2024-02-24

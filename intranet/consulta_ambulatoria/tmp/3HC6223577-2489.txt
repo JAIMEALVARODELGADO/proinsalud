@@ -1,0 +1,16 @@
+3|fin|
+3|tenar1|125
+3|tenar2|70
+3|freres|17
+3|fc|74
+3|tempe|36
+3|peso|84
+3|talla|164
+3|imc|31.231
+3|cintura|
+3|cadera|
+3|icc|
+3|dimc|Obesidad
+3|pc|
+3|otros|.
+3|saox_tri|

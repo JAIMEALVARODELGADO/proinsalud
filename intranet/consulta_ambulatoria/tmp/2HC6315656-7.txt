@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA 
+2|nuepulmonar|Negativo
+2|nuequirurgicos| HEMICOLCTOMIA DERECHA, COLECISTECTOMIA ABIERTA, CESAREA 1, TIROIDECTOMIA TOTAL 
+2|neofarmacos|LEVOTIROXINA 88 MCG CADA DIA, LOSARTAN 50 MG CADA 12 HORAS 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO 
+2|gineco|menarca:; 15 años , menop: 45 años, citologia: 15 Enero 2019, atrofia, negativa para lesion intraepitelial o malignidad, mamografia: mayo 2017, bi rads 1. YA NO TIENE EDAD PARA TAMIZAJES
+2|gestan|3
+2|partos|2
+2|cesareas|1
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

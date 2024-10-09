@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|Negativo
+2|neofarmacos|CAFEINA ACETAMINOFEN
+2|nuetoxico|PENICILINA
+2|neotransfin|Negativo
+2|neootros|MIGRAÑA
+2|gineco|g3p2a1c0, menopausia 50años, citologia octubre 2018 pendiente reporte
+2|gestan|3
+2|partos|2
+2|cesareas|0
+2|abortos|1
+2|vivos|2
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,11 @@
+2|person|Antecedentes Patológicos: TAB - trastorno depresivo; Farmacológicos: Litio - quetiapina; Quirúrgicos: Niega; Alérgicos: Niega; Vacunas: 1 dosis contra COVID 19; Transfusionales: Niega; Se atiende siguiendo protocolo de bioseguridad.
+2|familia|Hta:NO;Diabetes:SI;Cardiopatias:NO;Infecciosas:NO;Congenitas:NO;Turbeculosis:NO;Transt:NO;Neoplasias:SI;otros:ABUELA PATERNA: CA DE COLON, ABUELA PATERNA: DIABETICA;
+2|metodo|NO
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

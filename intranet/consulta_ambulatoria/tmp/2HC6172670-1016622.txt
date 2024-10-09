@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA 3, POMEROY 
+2|neofarmacos|Negativo
+2|nuetoxico|AINES, LORATADINA 
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUI ALOS 16AÑOS DECILCO REGUERES  PPOT 5 DIAS  CITOLOGIA VAGINAL: HACE 1 AÑO S NORMALES. PACIENTE HACE PARTE DE CRONICOS. 7-7-22 ACUDE A PYM PROGRAMA VEJEZ
+2|gestan|4
+2|partos|0
+2|cesareas|3
+2|abortos|1
+2|vivos|3
+2|mortinatos|0
+2|feulme|

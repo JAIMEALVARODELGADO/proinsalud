@@ -109,10 +109,14 @@ include('php/conexion.php');
     <td class="Td2" align='right'><b>Prefijo:</td>
     <td class="Td2" align='left'><select name='pref_fac' >
 		<option value=""></option>
-        <option value="FE">FE</option>
-        <option value="I">I</option>
-		<option value="R">R</option>
-        </select>        
+    <?php
+      $consultaconsec="select c.prefijo from consecutivo c WHERE c.estado ='A' ORDER BY prefijo";
+      $consultaconsec=mysql_query($consultaconsec);
+      while($row=mysql_fetch_array($consultaconsec)){
+          echo "<option value='$row[prefijo]'>$row[prefijo]</option>";
+      }
+    ?>    
+    </select>        
     </td>
     <td class="Td2" align='right'><b>Contrato:</td>
     <td class="Td2" align='left'><select name='contrato'><option value=''>Todos

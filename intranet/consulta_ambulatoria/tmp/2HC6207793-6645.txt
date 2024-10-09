@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|SAFENOVARICECTOMIA
+2|neofarmacos|LEVOTIROXINA, PRAMIPEXOL, 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|PARKISON, HIPOTIROIDISMO
+2|gineco|MENARQUIA  11 AÑOS. MENOPAUSIA  49 AÑOS. CITOLOGIA  NO  RECUERDA.  NO REFIERE ANTECDENTES  NUEVOS
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

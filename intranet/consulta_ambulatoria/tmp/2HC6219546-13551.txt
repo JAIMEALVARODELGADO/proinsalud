@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RTC BILATERAL, OSTEOSINTESIS DE RODILLA DERECHA, OSTEOSINTESIS DE TIBIA BILATERAL 
+2|neofarmacos|ORLISTAT 1 CADA 8 HORAS, VITAMINA D CADA  SEMANA. 
+2|nuetoxico|TRAMADOL 
+2|neotransfin|Negativo
+2|neootros|ACONDROPLASIA, HIPERPROLACTOINEMIA, DEFICIT DE VIT E 
+2|gineco|menarca 11 años, sexarca: 21 años, normal, no hay reporte,  CITOLOGIA EN 20129 CON RESULTADO DENTRO D LA NORMALIDA SEGUN MANIFIESTA PACINTE 
+2|gestan|0
+2|partos|0
+2|cesareas|0
+2|abortos|0
+2|vivos|0
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,11 @@
+2|person|traumaticos:NO;hipertension:NO;quirurgicos:NO;neumopatias:NO;cir_pelvica:NO;cardiopatias:NO;neuropatias:NO;tbc:NO;diabetes:NO;vih:NO;preclamsia:NO;ets_sifilis:NO;hepatitis_b:NO;infertilidad:NO;nefropatias:NO;laborales:NO;otros:NINGUNO; ingesta de licor ocasional, no consumo de tabaco no consumo de sustancias psicoactivas, niega violencia o abuso sexual, físico, psicológico o familiar, niega violenciaO+desplazamiento por conflictos armados.RhO+
+2|familia|Hta:NO;Diabetes:NO;Cardiopatias:NO;Infecciosas:NO;Congenitas:NO;Turbeculosis:NO;Transt:NO;Neoplasias:NO;otros:NINGUNO;
+2|metodo|NA-  USO  DE PRESERVATIVOS- 
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

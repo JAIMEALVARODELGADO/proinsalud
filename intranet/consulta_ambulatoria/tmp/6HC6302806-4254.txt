@@ -1,0 +1,42 @@
+6|clasemedi|1
+6|codmedi|032022
+6|desmedi|ESCITALOPRAM 20 MG TABLETA
+6|dosis|1
+6|unid|UND
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|90
+6|obsemed|TOMAR 1 TABLETA EN LA MA�ANA
+6|canti|90
+6|diagmedi|F429
+6|justifi|N
+6|pos|N
+6|clasemedi|1
+6|codmedi|839603
+6|desmedi|TRAZODONA CLORHIDRATO 50 mg COMPRIMIDO
+6|dosis|1
+6|unid|UND
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|90
+6|obsemed|TOMAR 1 TABLETA EN LA NOCHE
+6|canti|90
+6|diagmedi|F429
+6|justifi|N
+6|pos|S
+6|clasemedi|1
+6|codmedi|162102
+6|desmedi|MEMANTINA  HCL 20 MG TABLETA
+6|dosis|1
+6|unid|UND
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|90
+6|obsemed|TOMAR 1 TABLETA EN LA NOCHE
+6|canti|90
+6|diagmedi|F429
+6|justifi|N
+6|pos|S

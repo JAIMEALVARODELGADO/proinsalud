@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS: NO REFIER FARMACOLOGICOS NO REFIERE QUIRURGICOS: HERNIORRAFIA INGUINAL POMEROY ****COLPORRAFIA. ---08-01-2019 ATENCION RIAS ADULTEZ AL DIA --------- ALERGICOS NO REFIERE A AMEDICACION O ALIMENTOS****   VACUNA COVID 19   4 DOSIS****
+2|familia|NO ANTECEDENTES DE GLAUCOMA CONOCIDOS 
+2|metodo|MENOPAUSIA
+2|gineco|MENARQUIA 12 AÑOS  citología vaginal del 5 de Agosto del 2019  negativa para lesion intraepitelial o maligna,  CICLOS IRREGULARES. 
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

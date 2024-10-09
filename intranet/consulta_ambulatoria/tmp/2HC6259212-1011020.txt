@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS   DM    ,  HTA     TTO  NO RECUERDA  ,QX.  NIEGA  ,  ALERGICOS  NIEGA  ,  TOXICOS  NIEGA 
+2|familia|NIEGA 
+2|metodo|
+2|gineco|ULTIMA CITOLOGIA   VAGINAL  JULIO DEL 2018   RESULTADO  NORMAL   FUR A LOS   50   AÑOS  
+2|gestan|08
+2|partos|06
+2|cesareas|00
+2|abortos|02
+2|vivos|06
+2|mortinatos|00
+2|feulme|

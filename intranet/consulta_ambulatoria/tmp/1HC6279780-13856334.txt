@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7601
+1|estadocivil|A701
+1|direccion|BARRIO CIUDADELA
+1|tidoacu|CC
+1|nudoacu|1087120670
+1|pnomacu|KATY
+1|snomacu|
+1|papeacu|REQUENE
+1|sapeacu|
+1|parenacu|MADRE
+1|direacu|CIUDADELA
+1|teleacu|3117779772
+1|muniacu|52835
+1|nommuniacu|TUMACO (NARI&#65533;O)
+1|primera|1
+1|codciru|
+1|motivo|EL NIÑO TIENE UNOS GRANITOS
+1|enfeac|PACIENTE CON CUADRO CLINICO DE 3 MESES APARICION DE LESIONES PAPULARES EN MIEMBROS SUPERIORES REGION POSTERIOR CON RUGOSIDAD Y ESCAMAS NO MEJORIA CON TRATAMIENTO 
+1|revisi|PAPULAS 
+1|informe|NO TRAE
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

@@ -1,0 +1,11 @@
+2|person|Patologicos:  EPOC, Dislpidemia. con manejo nutricional, gatritisa cronica. con hernia hiatal. Farmacologicos:  FORMOTEROL / BUDESONIDA 2 PUFF CADA 12 HORAS, omeprazol 20 mg cada dia. Quirugicos:Colecistectomia , cIstopexia.  . Alergicos: Dipirona, metronidazol. Toxicos: niega.     / NIEGA VIOLENCIA O DESPLAZAMIENTO POR CONFLICTOS ARMADOS, NIEGA VIOLENCIA  O ABUSO SEXUAL, FISICO, MENTAL O INTRAFAMILIAR, ///////// NIEGA CONSUMO DE BEBIDAS ALCOHOLICAS, TABACO O SUSTANCIAS PSICOACTIVAS.
+2|familia|NO REPORTA 
+2|metodo|NA.-
+2|gineco|MENARQUIA: 14 AÑOS, FUM: 52 AÑOS, CITOLOGIA 2020 NEGATIVA PARA MALIGNIDAD, MAMOGRAFIA 2020 SIN MALIGNIDAD. MENOPAUSIA A LOS 52 AÑOS.
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,11 @@
+2|person|traumaticos:NO;hipertension:NO;quirurgicos:NO;neumopatias:NO;cir_pelvica:NO;cardiopatias:NO;neuropatias:NO;tbc:NO;diabetes:NO;vih:NO;preclamsia:NO;ets_sifilis:NO;hepatitis_b:NO;infertilidad:NO;nefropatias:NO;laborales:SI;otros:PACIENTE QUIEN NIEGA SER VICTIMA DE VIOLENCIA SEXUAL, FISICA, PSICOLOGICA, INTRAFAMILIAR, PACIENTE REFIRE PATRON DE SUEÑO ADECUADO DE 8 HORAS DIARIAS, REFIERE ACTIVIDAD FISICA REGULAR  CAMINAR DIARIO, NIEGA COMSUMO DE TABACO, ALCOHOL Y DROGAS, REFIERE ALIMENTACION BALANCEADA CON FRUTAS Y  VERDURAS, ESPERMARCA NEGADOS    SEXARCA  NIEGA ESTUDIANTE----25-04-2022 ATENCION RIAS. SE RMEITE----
+2|familia|hta:SI;Hta:NO;Diabetes:NO;Cardiopatias:NO;Infecciosas:NO;Congenitas:NO;Turbeculosis:NO;Transt:NO;Neoplasias:SI;otros:MADRE CANCER LINFATICO ABUELOS PATERNOS HTA;
+2|metodo|
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

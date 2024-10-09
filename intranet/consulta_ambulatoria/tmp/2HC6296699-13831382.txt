@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|APENDICECTOMIA 
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA : 12 AÑOS , SEXARCA 21 AÑOS ,  N COMPAÑEROS 5 ,   FUM : 03/10/21 ,  CUITOLOGIAS : AHCE  6 MESESNORMAL  ,  MAMOGRAFIAS  : HACE 2 AÑOS , NORMAL . G3P3V3
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

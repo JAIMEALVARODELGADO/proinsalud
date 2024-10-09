@@ -4,7 +4,7 @@ session_register('iden_fac');
 ?>
 <html>
 <head>
-<title>PROGRAMA DE FACTURACIÓN</title>
+<title>PROGRAMA DE FACTURACIï¿½N</title>
 </head>
 <body>
 <form name="form1" method="POST" action="fac_2factupre.php" target='fr02'>
@@ -18,7 +18,7 @@ $fecf_fac=cambiafecha($fecf_fac);
 //echo "<br>$idefac";
 //echo "<br>$tipo_fac";
 //echo "<br>$rela_fac";
-mysql_query("UPDATE encabezado_factura SET tipo_fac= '$tipo_fac',rela_fac= '$rela_fac',feci_fac='$feci_fac',fecf_fac='$fecf_fac',nauto_fac='$nauto_fac' WHERE iden_fac='$idefac'");
+mysql_query("UPDATE encabezado_factura SET tipo_fac= '$tipo_fac',rela_fac= '$rela_fac',feci_fac='$feci_fac',fecf_fac='$fecf_fac',nauto_fac='$nauto_fac',cod_cie10='$cod_cie10' WHERE iden_fac='$idefac'");
 
 //mysql_query("UPDATE detalle_factara SET nauto_dfa='$nauto_fac' WHERE iden_fac='$idefac'");
 //$iden_fac=mysql_insert_id();

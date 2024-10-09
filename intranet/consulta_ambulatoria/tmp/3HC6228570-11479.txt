@@ -1,0 +1,16 @@
+3|fin|
+3|tenar1|110
+3|tenar2|70
+3|freres|72
+3|fc|16
+3|tempe|36.5
+3|peso|
+3|talla|
+3|imc|
+3|cintura|
+3|cadera|
+3|icc|
+3|dimc|
+3|pc|
+3|otros|ABDOME BNALDO
+3|saox_tri|

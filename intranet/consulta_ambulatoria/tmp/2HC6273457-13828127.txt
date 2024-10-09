@@ -1,0 +1,11 @@
+2|person|PAT: NIEGA, QX NIEGA, ALERGICOS NIEGA 
+2|familia|HTA 
+2|metodo|
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

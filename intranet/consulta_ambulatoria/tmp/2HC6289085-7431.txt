@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CUADRANTECTOMIA MAMARIO DERECHO, COLECISTECTOMIA ABIERTA, POMEROY 
+2|neofarmacos|LEVOTIROXINA 50 MCG CADA DIA , TAMOXIFENO
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO
+2|gineco|MENARQUIA: 14 AÑOS, MENOPAUSIA: 49 AÑOS.  FECHA DE ULTIMA CITOLOGIA: EN EL 2017 REFIERE RSULTADO NORMAL. 
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

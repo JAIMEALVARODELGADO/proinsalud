@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9998
+1|escolaridad|7613
+1|estadocivil|A703
+1|direccion|CALLE 12 BIS NO. 5-31 B/EL PILAR
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|CONTROL
+1|enfeac|PACIENTE REMITIDA DE CRONICOS, EN SEGUIMIENTO DE PREDIABETES E HIPOTIROIDISMO SUBCLINICO. EN CONTROL POR NEUMOLOGIA POR NEUMOPAIA CRONICA, BRONQUITIS CRONICA. 
+1|revisi|EA
+1|informe|EXAENES DEL 16-03-24: GLICEMIA: 113, POS DESAYUNO: 12O, HBA1C: 7.4, TSH: 6.03. COLESTEROL:207, HDL: 46, LDL: 143, TG: 88. HEMOGRAMA NORMAL, HB: 17.3.
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

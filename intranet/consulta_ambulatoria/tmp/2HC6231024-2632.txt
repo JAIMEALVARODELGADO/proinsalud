@@ -1,0 +1,11 @@
+2|person|patologicos: trastorno de depresion, tinnitus farmacologicos: fluoxetina, propranolol 40mg, ginkgo biloba  traumaticos: no toxicos: no quirurgicos: histerectomia pterigio cesaresa alergicos: no sociales o personales. no refiere hospitalarios: no refiere psiquiatricos: no refiere vacunacion: completas nutricionales: no refiere actividad fisica: ninguna habitos alimentacion balanceada,  frutas verduras, lacteos ,carbohidratos, carnes, pollo, lacteos, ensaladas, pescado, no fuma , no licor, no uso de sustancias psicoactivas, patron de sueño 8 horas diarias reparador, niega infeccion de transmision sexual, no refiere uso de preservativo, refiere tener buenas relaciones interpersonales y familiares, orientacion sexual: heterosexual inmunizacion para sars cov - 2 4 dosis pfizer ocupacion docente de apoyo hospital infantil, escolaridad profesional -----10-11-2020 ATENCION RIAS AL DIA ----
+2|familia|hipertensión arterial madre, madre cáncer de mama, cáncer de próstata.padre, evento cerebro vascular hermana, niega antecedentes familiares, de trastornos mentales, en lo interrogado niega consumo de spa, en familiares cercanos, niega comportamientos suicidas, o suicidios en la familia, eventos cercanos al examen actual
+2|metodo|NINGUNO 
+2|gineco|ginecológicos:  citología 2021 normal mamografía 2021 normal  menarquia 13 años sexarquia 27 años HISTERECTOMIA 35 AÑOS Æ
+2|gestan|1
+2|partos|0
+2|cesareas|1
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

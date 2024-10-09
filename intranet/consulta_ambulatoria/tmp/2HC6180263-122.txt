@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|LAPAROTOMIA, CX CATARATA OJO DERECHO, TRANSPLANTE DE CORNEA DERECHO 
+2|neofarmacos|LEVOTIROXINA 50 MCG CADA DIA, LOSARTAN 100 MG CADA DIA , AMILODIPINO 10 MG CADA DIA 
+2|nuetoxico|HIDROCLOROTIAZIDA 
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO
+2|gineco|menarca: 15 años, sexarca: 30 años, menop: 55 años, citologia: 2 años mamografia 27/09/16 bi- rads 2 . PACIENTE SE NIEGA TOMA DE CITOLOIGIA Y MAMOGRAFIA 09/10/2019 categoria bi rads 1 normal. PACIENTE HACE PARTE DE CRONICOS SE REMITE A PYM PROGRAMA VEJEZ
+2|gestan|4
+2|partos|3
+2|cesareas|0
+2|abortos|1
+2|vivos|3
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CIRUGIA REFRACTIVA OCULAR
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|ARTROSIS, MIOPIA
+2|gineco|citologia hace 3 años normal. mamografia 24 de abril de 2016 normal. CITOLOGIA 5-5-22 NEGATIVA PARA LESION INTRAEPITELIAL INFLAMACON ATROFIA. MAMOGRAFIA 3-11-21 ASIMETRIA CUADRANTE SUPERIOR EXTERNO SENO IZQUIERDO  BIRADS 0  ECOGRAFIA MAMA 13-6-22 BIRADS 1. PACIENTE ACUDE A PYM PROGRAMA ADULTEZ SEPTIEMBRE 2021.
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

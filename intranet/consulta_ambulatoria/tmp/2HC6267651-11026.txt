@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREAS
+2|neofarmacos|ESOMEPRAZOL TRAZODONA ACIDO VALPROICO SULFATO FERROSO PANCREATINA LEVOMEPROMAZINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|TRASTORNO DE ANSIEDAD Y DEPRESION MIOMATOSIS
+2|gineco|MENARQUIA: 12 AÑOS -- FECHA DE LA ULTIMA CITOLOGIA: 07/2021 REFIERE NEGATIVA PARA MALIGNIDAD -- -G2P0C2V2 -- MPF: POMEROY -- CICLOS MENSTRUALES: IRRULARES. PF: POMEROY
+2|gestan|2
+2|partos|0
+2|cesareas|2
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

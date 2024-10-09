@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA MANEJO DIETA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLECISTECOTMNIA, APENDICECTOMIA, CIRUGIA GLAUCOMA BIALTERAL, AMIGDALECTOMIA
+2|neofarmacos|ATORVASTATIVO, EMPAGLIFOZINA, DULOXETINA, PREGABALINA, ACIDO TIOCTICO, INSULINA GLARGINA , GLUGLICINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|DM TIPO 2, MIRA BULTOS OJO DERECHO CEGUERA OJO IZUQIRDO
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

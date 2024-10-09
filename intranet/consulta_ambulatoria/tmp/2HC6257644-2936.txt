@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|EPOC
+2|nuequirurgicos|NISSEN, TIROIDECTOMIA TOTAL, HISTERECTOMIA, 
+2|neofarmacos|LEVOTIROXINA, 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|CA TIROIDES
+2|gineco|menarca: 12 años, sexarca 22 años, parejas sexual #1, menopausia: 32 años, citologia: sep 2018, refiere normal, se entrega orden, mamografia, enero 2020, nodulo mamario derecho bi rads 2, eco mamaria, eneor 2020, nodulo retroarelar derecho bi rads, 3, densitometria 2019 no hay reporte, ECOGRAFIA DE MAMA 20-10-2022: Nodulo hipoecoico en mama derecha ya conocido, sin cambios significativos con respecto a estudio previo. Evaluación ecográfica: BI RADS 3 - YA EN CONTROL CON CIRUGIA ONCOLOGICA
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

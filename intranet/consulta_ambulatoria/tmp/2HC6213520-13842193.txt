@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESERAA, COLELAP, RESECCION NODULO MAMARIO
+2|neofarmacos|LEVOTIROXINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO
+2|gineco|MENARQUIA 13, CICLOS IRREGULAR. NO PLANIFICA, SEXARQUIA 22.  NUMERO DE COMPAÑEROS SEXUALES EN TODA LA VIDA 3. CITOLOGIA:  5 AÑOS.  CITOLOGIA VPH: 208/02/2023 NEGATIVO PARA TODOS LOS GENOTIPOS
+2|gestan|1
+2|partos|0
+2|cesareas|1
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|2024-02-10

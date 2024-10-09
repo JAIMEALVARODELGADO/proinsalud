@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|OSTEOSINTESIS DE HUMERO DERECHO Y CX MAXILOFACIAL
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARCA: 13 AÑOS SEXARCA: 18 AÑOS MENOPAUSIA: HACE UN AÑO ULTIMA CITOLOGIA: PARTICULAR NO RECUERDA ULTIMA MAMOGRAFIA: NUNCA  EXAMEN DE SENO: NUNCA. 
+2|gestan|0
+2|partos|0
+2|cesareas|0
+2|abortos|0
+2|vivos|0
+2|mortinatos|0
+2|feulme|

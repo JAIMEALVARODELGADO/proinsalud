@@ -1,0 +1,32 @@
+5|claseorden|4
+5|codorden|0605
+5|desorden|
+5|nivel|
+5|obseorden|3 meses
+5|diagorden|I500
+5|cantorden|3
+5|cama|
+5|claseorden|1
+5|codorden|904904
+5|desorden|904904 - HORMONA ESTIMULANTE DEL TIROIDES ULTRASENSIBLE () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|I500
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|904924
+5|desorden|904924 - TRIYODOTIRONINA LIBRE () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|E039
+5|cantorden|1
+5|cama|
+5|claseorden|2
+5|codorden|0625
+5|desorden|
+5|nivel|
+5|obseorden|
+5|diagorden|K294
+5|cantorden|
+5|cama|

@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A702
+1|direccion|CALLE 5 # 03-80 SANDONA
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|Se realiza seguimiento telefónico de paciente por domicilio lejano, residente en el municipio de sandona, atiende llamado hija de paciente quien refiere ha estado estable sin cambios en su estado general. 
+1|enfeac|Paciente masculino de 90 años de edad con antecedente de demencia en la enfermedad de Alzheimer, ca gástrico con antecedente de gastrectomía, ca de piel con resección de lesión, HPB y Glaucoma, se realiza llamado para seguimiento atiende hija de paciente quien refiere se encuentra estable con movilidad limitada, por dolor a nivel de cadera izquierda por aflojamiento de prótesis de cadera, sin cambios en su estado general, refiere adecuada tolerancia a la vía oral, buen patrón de sueño. 
+1|revisi|Niega contacto estrecho y síntomas asociados a infección por SARS-CoV-2
+1|informe|-
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

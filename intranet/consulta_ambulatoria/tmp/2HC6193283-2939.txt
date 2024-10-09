@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|MASTECTOMIA RADICAL DERECHA MAS VACIAMIENTO AXILAR DERECHO, CESAREA 1, CORRECCION DE PTERIGION CONJUNTIVAL BILATERAL, CORRECION DE HALUX VALGUS IZQUIERDO 
+2|neofarmacos|LEVOTIROXINA 88 MCG CADA DIA, GLUCONATO DE CALCIO  CADA DIA, ATORVASTATINA 10 MG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|CA DE MAMA 
+2|gineco|Menarca 13 años, Menopausia 55 años 16/02/2024   NO INFECCIÓN DE TRASMISIÓN SEXUAL,   CITOLOGIA Y MAMOGRAFIA MENOS DE 1 AÑO NO   TRAE RESULTADO.
+2|gestan|6
+2|partos|3
+2|cesareas|1
+2|abortos|2
+2|vivos|4
+2|mortinatos|0
+2|feulme|

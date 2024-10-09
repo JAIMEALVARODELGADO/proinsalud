@@ -1,0 +1,11 @@
+2|person|PATOLÓGICOS: HPB, GASTRITIS // QUIRÚRGICOS: NO REFIERE // ALERGIAS: NO REFIERE // TRAUMÁTICOS: NO REFIERE // TÓXICOS: NO REFIERE // FARMACOLÓGICOS: TAMSULOSINA 0.4MG/DIA // OCUPACIÓN: DOCENTE EN IEM SANTA BARBARA . NIEGA VIOLENCIA INTRAFAMILIAR, SEXUAL, PSICOLOGICA Y FISICA. FOBIAS: NIEGA. PERDIDAS DE FAMILIARES RECIENTES: NO. Æ
+2|familia|No refiere  antecedente   antecedentes patológicos familiares  niega consumo  de spa,  trastornos mentales ni  intentos de  suicidio  en la  familia 
+2|metodo|
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

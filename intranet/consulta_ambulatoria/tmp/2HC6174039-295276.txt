@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|POLIPECTOMIA RECTALES, CISTOPEXIA, HERNIORRAFIA UMBILICAL, RESECCION DE TUMOR PIEL CARA
+2|neofarmacos|Negativo
+2|nuetoxico|DIPIRONA 
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA: 11 AÑOS.  MENOPAUSIA: 42 AÑOS.  MAMOGRAFIA BILATERAL 07/12/2015: NEGATIVA. BI RADS I CITOLOGIA VAGINAL:  NEGATIVA MALIGNIDAD. CITOLOGIA  C-V  ;  TOAMADA  EL   DIA :   21-06-2019  :   NEGATIVA  PARA  LESION  INTRAEPITELIAL.  ULTIMA CITOLOGIA CERVICO  VAGINAL  TOMADA HACE DOS  MESES PACIENTE REFIERE  LE SALIO  NORMAL.   se solcita  citllogia el el 21-07-2022  resultado d citlogia  del 8-08-2022 reporta  anormalidad en celulas e´piteliales,  de sgnificancia indeterminada , ( ASC- US) 
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

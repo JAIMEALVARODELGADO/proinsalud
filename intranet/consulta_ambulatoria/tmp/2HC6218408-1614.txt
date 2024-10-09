@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RESECCION NODULO MAMARIO DERECHO SIN COMPLICIONES
+2|neofarmacos|PANCREATINA TRIMEBUTINA
+2|nuetoxico|DIPIRONA
+2|neotransfin|Negativo
+2|neootros|GASTRITIS ARTRITIS EN ESTUDIO
+2|gineco|MENARQUIA A LOS 13 AÑOS, CITOLOGIA: 22/09/2020. INFLAMACION MODERADA.  ////  MAMOGRAFIA: NO RECUERDA,  MENOPAUSIA: 50 AÑOS. 
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

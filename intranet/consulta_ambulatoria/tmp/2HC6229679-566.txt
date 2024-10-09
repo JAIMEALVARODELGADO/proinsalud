@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLELAP, HISTERECTOMIA, NISSEN 
+2|neofarmacos|VALSARTAN / HIDROCLOROTIAZIDA 160 MG /12.5 MG CADA DIA, LEVOTIROXINA 100 MCG CADA DIA,  GLUCOPAG 750 MG CADA DIA 
+2|nuetoxico|DIPIRONA 
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO, DMT II 
+2|gineco|.G4P4C0A0V4MO.citologia JULIO  2015 con atrofia por edaD
+2|gestan|4
+2|partos|4
+2|cesareas|0
+2|abortos|0
+2|vivos|4
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,25 @@
+1|etnia|7505
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A701
+1|direccion|BARRIO URIBE
+1|tidoacu|CC
+1|nudoacu|27126957
+1|pnomacu|ALI 
+1|snomacu|MILENA 
+1|papeacu|LANDAZURI
+1|sapeacu|ANGULO 
+1|parenacu|MADRE
+1|direacu|BARBACOAS
+1|teleacu|3146926864
+1|muniacu|52079
+1|nommuniacu|BARBACOAS (NARI&#65533;O)
+1|primera|1
+1|codciru|
+1|motivo|VALORACION PREANESTESICA
+1|enfeac|PACIENTE QUIEN ASISTE A VALORACION PREANESTESICA PARA REALIZACION DE HERNIORRAFIA UMBILICAL SECUNDARIO A  HERNIA UMBILICAL 
+1|revisi|.
+1|informe|.
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

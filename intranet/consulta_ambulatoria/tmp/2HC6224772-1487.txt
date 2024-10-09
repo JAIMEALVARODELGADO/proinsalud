@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|DISCECTOMIA LUMBAR, ARTROSOCPIA RODILLA IZAUIERDA, POLIPECTOMIA GASTRICA Y COLON, CESAREA
+2|neofarmacos|METFORMINA, 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|DM TIPO 2, COLON IRRITABLE
+2|gineco|CITOLOGIA SEPT DEL 2019 NORMAL , MAMORGAFIA  8/08/2018 BIRADS 1 ORMAL , 25 DE NOVIEMBRE DEL 2020 MAMOGRAFIA BRIADS 0 , CITOLOGIA 13 DE NOVIEMBRE NEGATIVA PARA MALIGNIDAD 
+2|gestan|3
+2|partos|1
+2|cesareas|1
+2|abortos|1
+2|vivos|2
+2|mortinatos|0
+2|feulme|

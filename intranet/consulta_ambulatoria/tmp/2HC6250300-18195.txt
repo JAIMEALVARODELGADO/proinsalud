@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA, IAM HACE 7 AÑOS 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CATETERISMO CARDIACO HACE 7 AÑOS 
+2|neofarmacos|LOSARTAN 50 MG  CADA 12 HORAS, ATORVASTATINA 40 MG CADA DIA, ASA 100 MG CADA DIA,  METFROMINA + DAPAGLIFOZINA 5MG/1000 MG CADA 12 HORAS, METOPROLOL  50 MG CADA 12 HORAS 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|DMT II 
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

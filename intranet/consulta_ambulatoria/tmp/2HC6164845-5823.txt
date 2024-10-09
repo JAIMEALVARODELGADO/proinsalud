@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RTR DERECHA, CESAREA, HISTERECTOMIA, APENDICECTOMIA
+2|neofarmacos|LOSARTAN
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|OBESIDAD
+2|gineco|MENARQUIA 16 AÑOS, FUM 38 AÑOS, MENOPAUSIA 38 AÑOS,  MAMOGRAFIA julio 2017 bi-rads 2, CITOLOGIA NO APLICA POR EDAD
+2|gestan|4
+2|partos|2
+2|cesareas|1
+2|abortos|1
+2|vivos|2
+2|mortinatos|1
+2|feulme|

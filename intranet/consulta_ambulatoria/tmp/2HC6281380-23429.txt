@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|Negativo
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|menarca: 11 años, SEXARCA: 19 AÑOS ; CITOLOGIA: NO SE HA REALIZADO (SE SOLICITA)  FUM 15/09/2022. 149-22 ACUDE A PYM PROGRAMA JUVENTUD
+2|gestan|1
+2|partos|0
+2|cesareas|0
+2|abortos|1
+2|vivos|0
+2|mortinatos|0
+2|feulme|

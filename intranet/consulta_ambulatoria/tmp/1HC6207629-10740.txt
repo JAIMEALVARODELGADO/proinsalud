@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A701
+1|direccion|CS 15  BARRIO LA MERCED ETAPA II 
+1|tidoacu|CC
+1|nudoacu|,
+1|pnomacu|fabiola
+1|snomacu|,
+1|papeacu|patiño
+1|sapeacu|,
+1|parenacu|MADRE
+1|direacu|cordoba
+1|teleacu|3122176283
+1|muniacu|52356
+1|nommuniacu|IPIALES
+1|primera|1
+1|codciru|
+1|motivo|por los dolores articualres , 
+1|enfeac|.
+1|revisi|NO REFIERE SINTOMOLOGIA ASOCIADA A LA DESCRITA EN ENFERMEDAD ACTUAL
+1|informe|..
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

@@ -1,0 +1,70 @@
+6|clasemedi|1
+6|codmedi|215004
+6|desmedi|ACETAMINOFEN 500 mg TABLETA
+6|dosis|1
+6|unid|UND
+6|frecu|6
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|5
+6|obsemed|
+6|canti|20
+6|diagmedi|G442
+6|justifi|N
+6|pos|S
+6|clasemedi|1
+6|codmedi|991606
+6|desmedi|BETAHISTINA 16 mg TABLETA
+6|dosis|1
+6|unid|UND
+6|frecu|12
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|5
+6|obsemed|
+6|canti|10
+6|diagmedi|H813
+6|justifi|N
+6|pos|S
+6|clasemedi|1
+6|codmedi|061583
+6|desmedi|TIZANIDINA 2 MG TABLETA
+6|dosis|1
+6|unid|UND
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|5
+6|obsemed|tomar en la noche antes de dormir. 
+6|canti|5
+6|diagmedi|G442
+6|justifi|N
+6|pos|N
+6|clasemedi|1
+6|codmedi|367451
+6|desmedi|OMEPRAZOL  20 MG CAPSULA
+6|dosis|1
+6|unid|UND
+6|frecu|12
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|5
+6|obsemed|
+6|canti|10
+6|diagmedi|G442
+6|justifi|N
+6|pos|S
+6|clasemedi|1
+6|codmedi|041366
+6|desmedi|MELOXICAM 15mg TABLETA
+6|dosis|1
+6|unid|UND
+6|frecu|12
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|4
+6|obsemed|
+6|canti|8
+6|diagmedi|G442
+6|justifi|N
+6|pos|N

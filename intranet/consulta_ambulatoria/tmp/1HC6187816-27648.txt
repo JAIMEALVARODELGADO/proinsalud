@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9998
+1|escolaridad|7613
+1|estadocivil|A701
+1|direccion|BARRIO ALIANZA 
+1|tidoacu|CC
+1|nudoacu|27097262
+1|pnomacu|MARIA
+1|snomacu|YOLANDA
+1|papeacu|LATORRE 
+1|sapeacu|ADARME 
+1|parenacu|MADRE
+1|direacu|SAN JOSE DE ALBAN 
+1|teleacu|31173704287
+1|muniacu|52019
+1|nommuniacu|ALBAN (NARI&#65533;O)
+1|primera|1
+1|codciru|
+1|motivo|VALORACION PREANESTESICA
+1|enfeac|PACIENTE QUIEN ASISTE EN COMPAÑIA DE SU MADRE PARA VALORACION PREANESTESICA PARA REALIZACION DE  POMEROY SECUNDARIO A ESTERUILIZACION  PACIENTE EN DISCAPACIDAD  
+1|revisi|.
+1|informe|.
+1|grupo_poblacional|F101
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

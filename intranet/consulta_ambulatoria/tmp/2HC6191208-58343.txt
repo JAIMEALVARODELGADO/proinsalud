@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RESECCION DE LESION ESCAMOCELULAR EN DORSO NASAL 
+2|neofarmacos|LEVOTIROXINA 88 MCG CADA DIA, VALSARTAN 80 MG CADA DIA, 
+2|nuetoxico|METRONIDAZOL , TRIMETROPINSULFA
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO 
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

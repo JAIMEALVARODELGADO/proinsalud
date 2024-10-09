@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RESECCION DE PTERIGIO
+2|neofarmacos|BIPERIDENO, LEVODOPA CARVIDOPA
+2|nuetoxico|AINES
+2|neotransfin|Negativo
+2|neootros|PARKINSON
+2|gineco|menarca: 13 años, sexarca: 17 años, 12/12/2023  citologia: con  vaginosis  tomada hace 6 meses ya recibio manejo. FUM 18/10/2022  PLANIFICA CON DISPOSITIVO INTRAUTERINO.  NO  INFECCIÓN DE  TRASMISIÓN SEXUAL.
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

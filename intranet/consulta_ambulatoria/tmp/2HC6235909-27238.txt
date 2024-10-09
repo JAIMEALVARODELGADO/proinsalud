@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HISTERECTOMIA ABOMINAL TOTAL, COLPORRAFIA ANTERIOR Y POSTERIOR 
+2|neofarmacos|LOSARTAN 100 MG CADA DIA, LEVOTIROXINA 50 MCG CADA DIA, L, GLAPAGLIFOSINA 5 MG + METFORMINA 1000 MG  CADA 12 HORAS. ATORVASTATINA 40 MG CADA DIA 
+2|nuetoxico|TRAMADOL, OXICODONA 
+2|neotransfin|Negativo
+2|neootros|DMT II, HIPOTIROIDISMO,
+2|gineco|MENARQUIA : 13AÑ{OS , MENOPAUSEAS : 65 AÑOS ,  G5P5V5 , CITOLOGIAS : HACE 2 AÑOS NORMAL  
+2|gestan|5
+2|partos|5
+2|cesareas|0
+2|abortos|0
+2|vivos|5
+2|mortinatos|0
+2|feulme|

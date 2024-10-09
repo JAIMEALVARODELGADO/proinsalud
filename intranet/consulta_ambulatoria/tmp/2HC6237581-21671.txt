@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RESECCION MENINGIOMA, MAMOPLASTIA DE REDUCCION
+2|neofarmacos|GABAPENTINA, LOSARTAN
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|NEURALGIA DEL TRIGEMINO
+2|gineco|ULTIMA CITOLOGIA 08.08.2014, NEGATIVA , VAGINOSIS BACTERIANA. CITOLOGIA 16/017/2017 NEGATIVA //////// CITOLOGIA 2020 LESION DE MALIGNIDAD INTRAEPITELIAL 
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

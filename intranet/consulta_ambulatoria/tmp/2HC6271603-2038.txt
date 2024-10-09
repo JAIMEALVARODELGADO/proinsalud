@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS: HIPERTENSION ARTERIAL  HIPOTIROIDISMO, OSTEOPOROSIS,TRASTORNO NEUROCOGNITIVO MAYOR  FARMACOLOGICOS: quetiapina 25 mg cad aia, escitalopram 20 mg cda dia, eutirox50 mcg cada dia.  QUIRURGICOS: REEMPLAZOS DE CADERAS HISTERECTOMIA  TRAUMATICOS  FRACTURA DE CADERA DERECHA E IZQUIERDA  ALERGICOS NO REIFERE A MEDICAMENTOS O ALIMENTOS,  TOXICOS NIEGA CONSUMO DE BEBIDAS ALCOHOLICAS NIEGA CNSUMO DE CIGARRILLO NIEGA CONSUMO DE SPA TRANSFUSIONALES NO SABE, ONCOLOGICOS NO REFIERE, ENFERMEDADES MENTALES DEFICIT NEUROCOGNITIVO MAYOR, VACUNACION SARS COV 2 2 DOSIS ,  homeopáticos o medicina ancestral:no  riesgo psicosocial: no  sociales o personales: no  hospitalarios: no refiere psiquiatricos: no antecedente de intento de suicidio: no  vacunacion: completas nutricionales: no refiere actividad fisica: ningunaÆÆhabitos alimentacion balanceada,  frutas verduras, lacteos ,carbohidratos, carnes, pollo, lacteos, ensaladas, pescado, no fuma , no licor, no uso de sustancias psicoactivas, patron de sueño 8 horas diarias reparador, refiere tener buenas relaciones interpersonales y familiares, orientacion sexual: heterosexual
+2|familia|NO SABE
+2|metodo|
+2|gineco|MENARQUIA: 13 AÑOS, MENOPAUSIA POR HISTECTOMIA NO RECUERDA LA EDAD 
+2|gestan|5
+2|partos|5
+2|cesareas|0
+2|abortos|0
+2|vivos|5
+2|mortinatos|5
+2|feulme|

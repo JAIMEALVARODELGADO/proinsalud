@@ -322,8 +322,65 @@ textarea {
     color: white;
     font-size: 12px;
     border-radius: 5px;
-    height: 8%;
-    width: 10%;    
+    height: 40px;
+    width: 80px;    
 }
 
 
+.Caja1 {    
+    padding: 60px 10px 10px 10px;
+    position: fixed; 
+    top: 50px; 
+    left:25%;
+    right: 25%;
+    /*border: 1px solid #000000;*/
+    border-radius: 15px;
+    width: 50%;
+    height: 100px;
+    text-align: center;
+    vertical-align: center;
+    background: #006699de; 
+    font-size: 18;
+    color: rgb(255, 255, 255);
+}
+
+.Caja2 {        
+    margin: 10px;
+    padding: 20px 50px 20px 20px;
+    /*border: 1px solid #000000;*/
+    border-radius: 15px;        
+    background: #8a9ca32a; 
+    font-size: 12;
+    /*color: rgb(255, 255, 255);*/
+}
+
+.Tr1{
+    background-color: #d4b6b6;
+}
+
+.Formulario {    
+    padding: 20px 40px 20px 40px;
+    position: fixed;
+    top: 60px; 
+    left: 100px;
+    right: 100px;
+    /*border: 1px solid #446a73;*/
+    border-radius: 15px;
+    /*width: 60%;*/
+    /*height: 100px;*/
+    /*text-align: center;*/
+    /*vertical-align: center;*/
+    background: #b8d2e0; 
+    font-size: 13;
+    color: rgb(6, 6, 6);
+}
+
+.contenedor {
+	display: flex;
+	width: 100%;
+}
+
+.col1 {
+	
+	width: 50%;
+}

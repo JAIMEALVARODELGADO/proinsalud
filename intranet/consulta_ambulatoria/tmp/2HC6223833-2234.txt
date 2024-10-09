@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|HIPERTENSION PULMONAR
+2|nuequirurgicos|CIRUGIA DE ACALASIA ESOFAGICA, COLECISTECTOMIA, CESAREA 2, CX OIDOS BIALTERAL, OSTEOSINTESIS DE RADIOI DERECHO
+2|neofarmacos|NIFEDIPINO, SILDENAFILO, 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|menarca: 12 años, sexarca: 20 años, parejas sexuales #2, menopuaisa 50 años, citologia agosto 2018, negativa para malignidad,   mamografia REFIERE EN 2020 bi rads 2  . MAMOGRAFIA 14/04/23 NÓDULO SENO IZQUIERDO BI-RADS 0 
+2|gestan|2
+2|partos|0
+2|cesareas|2
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

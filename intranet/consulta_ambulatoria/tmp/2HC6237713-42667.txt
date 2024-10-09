@@ -1,0 +1,11 @@
+2|person|NO REFIERE 
+2|familia|NO REFIERE 
+2|metodo|
+2|gineco|NO REFIERE 
+2|gestan|8
+2|partos|7
+2|cesareas|1
+2|abortos|0
+2|vivos|8
+2|mortinatos|0
+2|feulme|

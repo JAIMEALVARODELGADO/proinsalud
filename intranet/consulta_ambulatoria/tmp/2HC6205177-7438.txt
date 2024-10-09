@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|LEGRADO SIN COMPLICCIONES
+2|neofarmacos|LEVOTIRONA 5O MCG   
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO DISLIPEMIA
+2|gineco|MENARQUIA 12 AÑOS -  MENOPAUSIA: 52 AÑOS - FECHA DE LA ULTIMA CITOLOGIA: 2019 NEGATIVA PARA MALIGNIDAD --MAMOGRAFIA  2021: NORMAL. PACIENTE HACE PARTE DEL PROGRAMA DE CRONICOS. SE REMITE A PYM PROGRAMA VEJEZ
+2|gestan|2
+2|partos|1
+2|cesareas|0
+2|abortos|1
+2|vivos|0
+2|mortinatos|0
+2|feulme|

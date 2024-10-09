@@ -1,0 +1,11 @@
+2|person|NR
+2|familia|DM EN MADRE
+2|metodo|
+2|gineco|NR
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

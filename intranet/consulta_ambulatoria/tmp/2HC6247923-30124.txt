@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|TURBINECTOMA, HISTERECTOMIA
+2|neofarmacos|LOSARTAN, AMLODIPINO, ASA OCASIONAL, METOPROLOL
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|GASTRITIS
+2|gineco|NENARCA: 14 años,   FUC    HACE  MAS DE   2  AÑOS  RESULTADO  NORMAL ,  YA  CON ORDEN DE REMISION , MAMOGRAFIA   HACE  MAS DE  2 AÑOS   NORMAL   YA  CON ORDEN  DE  REMISION ,   FUR  A LOS  48  AÑOS 
+2|gestan|4
+2|partos|3
+2|cesareas|1
+2|abortos|0
+2|vivos|3
+2|mortinatos|2
+2|feulme|

@@ -1,0 +1,2 @@
+13|tipo_ref|R
+13|resumen|Diligencie en el orden indicado: El resumen de anamnesis y examen físico, fecha y resultado de examenes auxiliares de diagnóstico, resumen de la evolucion, diagnóstico, complicaciones, tratamientos aplicados y motivos de remisión.

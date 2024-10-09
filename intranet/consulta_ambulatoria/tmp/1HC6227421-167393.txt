@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A701
+1|direccion|CALLE 4 SUR N 23-05
+1|tidoacu|CC
+1|nudoacu|.
+1|pnomacu|ANA
+1|snomacu|
+1|papeacu|CASTRO
+1|sapeacu|
+1|parenacu|MADRE
+1|direacu|BR.BOLIVAR
+1|teleacu|.
+1|muniacu|52227
+1|nommuniacu|CUMBAL (NARI&#65533;O)
+1|primera|1
+1|codciru|
+1|motivo|.
+1|enfeac|PREVIO PROTOCOLO INSTITUCIONAL E HIGIENIZACION DE MANOS INGRESA PACIENTE QUIEN SE CONSIDERA HETEROSEXUAL CENSADO COMO INDIGENA PASTO, SIN DISCAPACIDADES, CON AISLAMIENTO POR GOTAS (USO DE TAPABOCAS), A CONSULTA Y REFIERE 
+1|revisi|.
+1|informe|.
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

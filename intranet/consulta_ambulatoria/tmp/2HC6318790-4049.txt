@@ -1,0 +1,11 @@
+2|person|Patologicos: hipertension arterial. Farmacologicos: Losartan 50 mg cada 12 horas, omeprazol 20 mg cada dia, Quriurgicos: niega. Alergicos: niega.
+2|familia|IAM en padre y hermano a los 50 años
+2|metodo|NA_
+2|gineco|MENARQUIA 16 AÑOS     citologia 2020 NEGATIVA PARA LIE  //       MAMOGRAFIA 25/11/2021 ASIMETRIA FOCAL EN EL CUADRANTE SUPEROEXTERNO DEL SENO DERECHO POR MAYOR CANTIDAD DE TEJIDO GLANDULAR AMMARIO, CATEGORIA 2 BIRADS
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

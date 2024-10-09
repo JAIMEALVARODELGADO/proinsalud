@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|Negativo
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA 12 AÑOS ÆMENOPAUSIA  50 AÑOS ÆÆPROMOCION Y MANTENIMIENTO DE SALUD ÆCITOLOGIA VPH 27/09/2023 NEGATIVO PROXIMO CONTROL EN 5 AÑOSÆMAMOGRAFIA 23/09/2021 BIRADS 1 CONTROL RUTINARIO EN 2 AÑOS ÆTAMIZAJE DE COLON  02/09/2021 NEGATIVO PROXIMO CONTROL EN 5 AÑOS ÆAGUDEZA VISUAL 27/08/2021 Æ PACINETE INSCRITO EN PROGRAMA DE ENFERMEDADES CROCNIAS POR DISLIPIDEMIA.
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

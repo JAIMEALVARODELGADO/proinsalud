@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|POMEROY, RESECCION NODULO SENO IZQUEIRDO
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA: 12 AÑOS, SEXARCA: 19 AÑOS, NUMERO DE COMPAÑEROS SEXUALES: 2, NIEGA ENFERMEDADES DE TRANSMISIÓN SEXUAL, SE OFERTA PRUEBA VOLUNTARIA PARA VIH PACIENTE NO ACEPTA , CCV Marzo de 2022 Refiere noarmal. Mamografia a los 42 años refiere normal, YA TIENE ORDENA PARA REALIZARSE MAMOGRAFIA
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

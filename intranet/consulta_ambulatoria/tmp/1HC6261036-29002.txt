@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9998
+1|escolaridad|7613
+1|estadocivil|A701
+1|direccion|CALLE 13 NO 4-89 SAN MARTIN
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|control 
+1|enfeac|Paciente  con Policitemia  secundaia  lega  a control con reporte  de  paraclinicos  en los  cuales  reporta: 
+1|revisi|.
+1|informe|.Recuento de Leucocitos 6.04 x10e3/uL 3.70 -Æ% Neutrofilos 55.7 % 39.3 -Æ% Linfocitos 34.4 % 18.0 -Æ% Monocitos 8.3 % 4.40 -Æ% Eosinofilos 1.3 % 0.600 -Æ% Basofilos 0.3 % 0.00 -Æ# Neutrofilos 3.36 x10e3/uL 1.63 -Æ# Linfocitos 2.08 x10e3/uL 1.09 -Æ# Monocitos 0.5 x10e3/uL 0.240 -Æ# Eosinofilos 0.0 x10e3/uL 0.030 -Æ# Basofilos 0.0 x10e3/uL 0.00 -ÆRecuento de Eritrocitos 5.73 x10e3/uL 4.06 -ÆHemoglobina 17.9 g/dL 12.9 -ÆHematocrito 54.8 % 37.7 -ÆVolumen Corpuscular Medio 95.7 fL 81.1 -ÆHB Corspuscular Media 31.3 pg 27.0 -ÆConcentración HB Corpucular Media 32.7 g/dL 31.8 -ÆAncho Distribución Eritrocitaria 12.1 % 11.5 -ÆRecuento de Plaquetas 255 x10e3/uL 150 -ÆVolumen Plaquetario Medio 12.1 fL 6.90 -ÆAncho de Distribución Plaquetas 15.9 10(GSD) 0.00 -ÆPlaquetocrito 0.309 % 0.00 -ÆBilirrubina Total: 0.6 mg/dl Hasta 1.1ÆBilirrubina Directa: 0.1 mg/dl Hasta 0.25ÆBilirrubina Indirecta: 0.50 mg/dl Hasta 0.85ÆTransaminasa Glutamico Piruvica-ALT 16.9 U/LÆTransaminasa Glutamico Oxalacetica 25.2 U/LÆ
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

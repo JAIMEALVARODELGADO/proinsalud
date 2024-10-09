@@ -1,0 +1,15 @@
+2|nuecardiovasculares|hta
+2|nuepulmonar|Negativo
+2|nuequirurgicos|cx ocular
+2|neofarmacos|llosartan esomprazol
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|gasatritis
+2|gineco|MENARCA: 16 AÑOS SEXARCA: 21 AÑOS  MANEOPAUSIA: 48 AÑOS, ULTIMA CITOLOGIA:  MENOS DE UN AÑO, NO RECUERDA FECHA, NORMAL.  ULTIMA MAMOGRAFIA :  JULIO DEL 2022 NORMAL 
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

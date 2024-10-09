@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CIRUGIA DE EPILEPSIA, COLECISTECTOMIA, OSTEOSINTESIS DE TOBILLO DERECHO. 
+2|neofarmacos|CLONAZEPAM CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|EPILEPSIA
+2|gineco|MENARQUIA: 13 AÑOS -- MENOPAUSIA: 47 AÑOS (FUM 15/10/19)  15/03/2024 CITOLOGIA  VAGINAL : HACE 2 AÑOS  NORMAL  NO TRAE REPORTE. NO INFECCIÓN DE  TRASMISIÓN SEXUAL
+2|gestan|1
+2|partos|0
+2|cesareas|1
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HISTERECTOMIA 
+2|neofarmacos|LOSARTAN HCTZDA ATORVASTATINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA 15 AÑOS     06/03/2014MAMOGRAFIA  NODULO SENO IZQUIERDO. CATEGORÍA 0 DE LA CLASIFICACIÓN BI-RADS. SE RECOMIENDA ECOGRAFIA COMPLEMENTARIA    //   31/03/2014 ECOGRAFÍA MAMARIA DENTRO DE LÍMITES NORMALES. CATEGORIA I DE LA CLASIFICACION BI-RADS //  FUM 07/2002Æ
+2|gestan|4
+2|partos|4
+2|cesareas|0
+2|abortos|0
+2|vivos|4
+2|mortinatos|0
+2|feulme|

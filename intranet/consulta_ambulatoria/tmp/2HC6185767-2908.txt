@@ -1,0 +1,15 @@
+2|nuecardiovasculares|TROMBOSIS DE VENA PORTA DIAGNOTICADA HACE 6MESES TTO ANTOCIAOGULANTE CON APIXABAN
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CPRE COLELAP APENDIECETMIOA SIN COMPLICACIONES ANESTESICAS
+2|neofarmacos|TAMSULOSINA APIXABAN QUIMIOTERAPIA ULTIMA HOY
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HPB, TUMOR DE VIA BILIAR
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

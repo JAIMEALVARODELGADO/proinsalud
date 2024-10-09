@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|Negativo
+2|neofarmacos|VIDAGLIPTINA, LOSARTAN, MERFORMINAL DAPAGLIFOZINA, 
+2|nuetoxico|FOTODERMATITIS
+2|neotransfin|Negativo
+2|neootros|DM TIPO 2
+2|gineco|.
+2|gestan|1
+2|partos|0
+2|cesareas|0
+2|abortos|1
+2|vivos|0
+2|mortinatos|0
+2|feulme|

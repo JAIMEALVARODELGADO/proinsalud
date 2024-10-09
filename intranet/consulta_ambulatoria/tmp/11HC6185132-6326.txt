@@ -1,0 +1,8 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A702
+1|direccion|CRA 3A No14-28 B/ Estadio 1
+1|subjetivo|valorcion por hiperglucemia manifiesta estar estable niega sintomas asociados
+1|objetivo|aporta glucosa 158,g/dl posprandial 
+1|analisis|

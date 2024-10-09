@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA 3
+2|neofarmacos|LEVOTIROXINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO, GASTRITIS
+2|gineco|MENARCA  13 AÑOS , SEXARCA  17  AÑOS ,  FECHA DE ULTIMA REGLA    50 AÑOS ,  MAMOGRAFIA  05/08/21  BIRADS 1  NORMAL   VIH   19/05/23 negativo , HEPATITIS C 19/05/23 NEGATIVO , SANGRE OCULTA EN HECES  01/06/23 NEGATIVO Æ CITOLOGIA ADN VPH DEL  19/05/23  VPH  DETECTADO CITOLOGIA EN BASE LIQUIDA   NEGATIVA  ( CONTROL  NOVIEMBRE  2024 )
+2|gestan|4
+2|partos|0
+2|cesareas|3
+2|abortos|1
+2|vivos|3
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|Negativo
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|.
+2|neootros|Ninguno
+2|gineco|MENARQUIA: 14 AÑOS, SEXARCA: 20 AÑOS, NUMERO DE COMPAÑEROS SEXUALES: 2, NIEGA ENFERMEDADES DE TRANSMISIÓN SEXUAL, SE OFERTA PRUEBA VOLUNTARIA PARA VIH PACIENTE NO ACEPTA, PERIODO MENSTRUAL REGULAR , CITOLOGIA 08-08-2023: VPH NO DETECTADO
+2|gestan|2
+2|partos|1
+2|cesareas|1
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

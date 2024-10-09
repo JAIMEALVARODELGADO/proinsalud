@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RESECCCION DE LINFOMA HODKIN CERVICAL
+2|neofarmacos|MEMANTINA 10 MG CADA DIA,  SERTRALINA 50 MG CADA DIA M INSULINA GLARGINA  26 U CADA DIA, INSULINA GLULISINA  8 U- 6 U PM  CADA DIA,  ATORVASTATINA 20 MG CADA DIA,  AMLODIPINO  5 MG CADA DIA, ERITROPOYETINA  2000 CADA LUNES 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|DMT II, ALZAHIMER, INSUFICIENCIA RENAL CRONICA , LINFOMA NO HODKIN
+2|gineco|no
+2|gestan|0
+2|partos|0
+2|cesareas|0
+2|abortos|0
+2|vivos|0
+2|mortinatos|0
+2|feulme|

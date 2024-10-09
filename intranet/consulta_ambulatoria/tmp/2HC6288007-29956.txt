@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HISTERECTOMIA ABDOMINAL 
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA  12 AÑOS  ,SEXARCA   18  AÑOS ,  CITOLOGIA JUNIO DEL 2021  NORMAL  ,  MAMOGRAFIA JULIO 2021 BIRADS  SE ENVIA  ORDEN ,    FECHA DE ULTIMA REGLA  A LOS  45 AÑOS  
+2|gestan|5
+2|partos|3
+2|cesareas|0
+2|abortos|2
+2|vivos|3
+2|mortinatos|0
+2|feulme|

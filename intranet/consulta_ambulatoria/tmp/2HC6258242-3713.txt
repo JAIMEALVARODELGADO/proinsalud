@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|APENDICECTOMIA , HERNIORRAFIA UMBILICAL
+2|neofarmacos|ENALAPRIL 20 MG CADA DIA, EMPAGLIFOZINA 10 MG CADA DIA, ASA 100 MG CADA DIA, ATORVASTTINA 10 MG CADA DIA, ALOPURINOL 100 MG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|DMT II 
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

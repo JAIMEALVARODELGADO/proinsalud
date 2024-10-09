@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A702
+1|direccion|CALLE 19 N 7-31 B CHILE
+1|tidoacu|CC
+1|nudoacu|.
+1|pnomacu|.
+1|snomacu|.
+1|papeacu|.
+1|sapeacu|.
+1|parenacu|.
+1|direacu|.
+1|teleacu|.
+1|muniacu|
+1|nommuniacu|.
+1|primera|1
+1|codciru|
+1|motivo|CONTROL
+1|enfeac|PACIENTE FEMENINO DE 76 AÑOS, CON CUADRO CLINICO DE LARGA EVOLUCION CON DOLOR A NIVEL DE REIGON LUMBAR, REFIERE QUE DOLOR ES CONTINUO INTENSO Y NO MEJORA CON ANALGESICOS, REFIERE ANTECEDETNE DE ARTROPLASTIA DE CADERA HACE 1 AÑO
+1|revisi|NIEGA 
+1|informe|NO PUEDO VE RX DEL SISTEMA. 
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

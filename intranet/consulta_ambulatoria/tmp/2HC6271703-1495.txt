@@ -1,0 +1,11 @@
+2|person|Patologicos: hipertension arterial, insuficiencia venosa en miembro inferiro, SAHOS diagnitoc hace 1 mes  sin uso de CPAP . Farmacologicos: Valsartan 160/hidroclorotizia 12.5 mg cada dia. Quriugicos: varicoclee, hemorroidectomia, Alergco: niega. Tocisoa: niega  
+2|familia|hipotiroidismo madre , hermanas, cancer de tiroides hermana, abuelo cancer hepatico, cancer de piel madre
+2|metodo|
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

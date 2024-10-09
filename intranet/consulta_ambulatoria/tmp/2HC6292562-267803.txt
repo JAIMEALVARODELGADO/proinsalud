@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|FISTUELCTOMIA  PERIANAL, CESAREA 1. SEPTORRINOPLASTIA FUNCIONAL 
+2|neofarmacos|DULOXETINA 30 MG CADA DIA 
+2|nuetoxico|TRAMADOL, PENICILINA 
+2|neotransfin|Negativo
+2|neootros|DISCOPATIA LUMBAR, FIBROMIALGIA 
+2|gineco|MENARQUIA: 12 AÑOS, SEXARCA: 15 AÑOS, NUMERO DE COMPAÑEROS SEXUALES: 5, NIEGA ENFERMEDADES DE TRANSMISIÓN SEXUAL, CITOLOGIA nov 2023: NORMAL SEGUN PACIENTE  FUM NO REFIERE.18-11-22 acude a pym programa adultez
+2|gestan|1
+2|partos|0
+2|cesareas|1
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

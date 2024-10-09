@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9998
+1|escolaridad|7613
+1|estadocivil|A701
+1|direccion|LAS MESAS
+1|tidoacu|CC
+1|nudoacu|30745736
+1|pnomacu|ADRIANA
+1|snomacu|
+1|papeacu|ORDOÑEZ
+1|sapeacu|
+1|parenacu|MADRE
+1|direacu|TABLON DE GOMEZ
+1|teleacu|3104334870
+1|muniacu|52258
+1|nommuniacu|EL TABLON (NARI&#65533;O)
+1|primera|1
+1|codciru|
+1|motivo|VALORACION PREANESTESICA PARA RESECCION DE TUMOR FRONTAL IZQUIERDO
+1|enfeac|TUMOR FRONTAL IZQUIEORDO
+1|revisi|NIEGA
+1|informe|
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

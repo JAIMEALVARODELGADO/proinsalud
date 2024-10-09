@@ -1,0 +1,11 @@
+2|person|Patologicos: Fibromialgia, antecedente de LES. Farmacologicos: SII, Farmacologicos:  Pregabalina ocasional, acetaminofen a necesidad Æ  Qurirugicos: colecistecotmia, pomeroym histerectomia, cesareas, turbinoplastia, procedimineto rodilla derecha por fractura . Alergicos:  penicilina. Toxicos: niega. Farmacológicos: pregabalina, acetaminofen + codeina  - vacunas covid 19: 2 dosis.- transfusionales: no reifere
+2|familia|TIA PATERNA CAncer  DE SENO . 
+2|metodo|
+2|gineco|MENARQUIA. 13 AÑOS MENOPAUSIA. 45 AÑOS, ULTIMA CITOLOGIA HACE 6 MESES NORMAL
+2|gestan|3
+2|partos|0
+2|cesareas|3
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

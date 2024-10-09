@@ -1,0 +1,8 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A701
+1|direccion|PUCALPA 3 BLQ 13B APTO 302
+1|subjetivo|Ptosis palpebral secuela de parálisis facial, se descarta cuadro miastenico, test de estimulo repeptitivo normal
+1|objetivo|14-11-23 Test de estimulo repetitivo dentro de parametros normales paciente con ptosis parpado superior izquierdo permanente, no dificulta la visión fisiológica del paciente, con fuerza generalizada de 4 exptremidades sin alteraciones.
+1|analisis|

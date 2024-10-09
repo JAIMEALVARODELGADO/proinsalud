@@ -1,0 +1,11 @@
+2|person|patologicos: negativos, quirurgicos: reseccion de polipo cervical cesarea #1, pomeroy, traumaticos: negativos, toxicos: fue fumadora hace 5 años, 2 cada dia, desde los 20 años, bebedora social, niega exposicion a otros toxicos, niega consumo de spa, alergicos: negativos, farmacologicos: negativos, ocupacion: docente, estado civil soltera, esquema de vacunacion covid completo, dic 3 2021, Habitos nutricionales saludables, actividad fisica nula, patron de sueño irregular. apetito alterado  con onapetencia.  niega fobias, sociales o personales,  perdidas familiares actuales (padre dic 2020), refiere ser victima de violencia intrafamiliar, niega ser victima de violencia fisica, sexual, emocional, psicologica, de genero, niega ser desplazado por la violencia o conflicto armado, no pertenece a etnias o grupos poblacionales especiales. FACTORES DE VULNERABILIDAD INDIVIDUAL Y SOCIAL: NO, ANTECEDENTES OCUPACIONALES: DOCENTE, SITIO DONDE LABORA: I.E SANTA TERESITA.   REALIZO TEST SRQ Y APGAR NECESITA INTERVENCION, LA RMEITO APSICOLOGIA., REMISION  A P Y M
+2|familia|padre insuficiencia renal, hipertension arterial madre hipertension arterial, cancer gastrico, depresion, abuela materna diabetes mellitus, padres hipotiroidismo, Niega antecedentes familiares,  de trastornos mentales, en lo interrogado niega consumo de spa, en familiares cercanos, niega antecedentes familiares de ceguera o hipoacusia, niega comportamientos suicidas, o suicidios en la familia, eventos cercanos al examen actual 
+2|metodo|
+2|gineco|menarca 11 años, sexarca: 16 años, parejas sexuales #10, citologia: hace 3 meses normal. planificacion pomeroy 
+2|gestan|3
+2|partos|2
+2|cesareas|1
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

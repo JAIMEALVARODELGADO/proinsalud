@@ -1,0 +1,11 @@
+2|person|Patologicos:  diabetes DIAGNOSTICADA EN 2013, dislipidemia,glaucoma,catarata, gastritis, Quriugicos: Colescistecomia , cesarea, traumaticos no, niega alergia a medicamentos, hogar. FARMACOLOGICOS:  insulina Glargina 8 UI cada 24 horas,vildagliptina 50 mg + metformina 850 mg cada 12 horas, atorvastatina 20mg cada 24 horas, ESOMEPRAZOL 20MG DIA,NIEGA SER   VITIMA DE  VIOLLENCIA O DESPLAZAMIENTO   VACUNA COVID 19 :  4 DOSIS***** INFLUENZA *****
+2|familia|diabetes la tia- NO REFIERE ANTECEDENTES FAMILIARES DE CEGUERA O HIPOACUSIA YA VAL PYM  ****
+2|metodo|
+2|gineco|menarca 12 años G1P1. FUM: 54 años.  - MAMOGRAFIA 20/ 09 / 2016  BI-RADS 1, CITOLOGIA  27 DE ENERO 2017 NEGATIVA MAMOGRAFIA  28 DE OCTUBRE 2018  BI-RADS 1 CITOLOGIA 28 DE OCTUBRE  2018 NEGATIVA.
+2|gestan|1
+2|partos|0
+2|cesareas|1
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

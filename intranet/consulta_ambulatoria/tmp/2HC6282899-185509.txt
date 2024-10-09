@@ -1,0 +1,11 @@
+2|person|PAT NIEGA, FARMACOS NIEGA, QX CESAREA + POMEROY, ALERGIA NIEGA
+2|familia|NO
+2|metodo|
+2|gineco|G3P2C1 FUM: 28/01/2019 CITOLOGIA HACE MUCHOS AÑOS NORMAL MAMOGRAFIA HACE MUCHOS AÑOS NORMAL
+2|gestan|3
+2|partos|2
+2|cesareas|1
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

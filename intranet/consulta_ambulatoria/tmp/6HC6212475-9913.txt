@@ -1,0 +1,14 @@
+6|clasemedi|1
+6|codmedi|003014
+6|desmedi|OLOPATADINA 0.2% 2MG/ 2.5 O 3ML SOLUCION OFTALMICA
+6|dosis|1
+6|unid|GOTAS
+6|frecu|1
+6|unidfrecu|Dias
+6|via|2211
+6|tiempo|30
+6|obsemed|APLICAR UNA GOTA EN CADA OJO UNA VEZ DIA
+6|canti|1
+6|diagmedi|H104
+6|justifi|N
+6|pos|N

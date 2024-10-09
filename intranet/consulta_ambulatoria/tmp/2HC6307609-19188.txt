@@ -1,0 +1,11 @@
+2|person|patológicos:  DISLIPIDEMIA  gastritis,  hipotiroidismo,  qX: colecistectomía, pomeroy, no alergias  medicmaentosas, FARMACOLOGICOS LEVOTIROXINA 50 MCG DIA de luens viernes  75mcg de sabado a domingo   -NO TOXICOS. ATORVASTATINA 20 MG CADA DIA. --- NO ATENCION RIAS. SE REMITE ----
+2|familia|PADRE LEUCEMIA. 
+2|metodo|
+2|gineco|POMEROY -CITOLOGIA ENERO 2020 ATROFIA, cervix eritematoso.  NEGATIVO PARA MALIGNIDAD MAMOGRAFIA 1/6/22 BI-RADS 1
+2|gestan|03
+2|partos|03
+2|cesareas|0
+2|abortos|0
+2|vivos|03
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RESECCION GANGLION MUÑECA, COLECISTECTOMIA
+2|neofarmacos|Negativo
+2|nuetoxico|CEFALEXINA?
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA:  13 AÑOS.  MAMOGRAFIA. 19/10/2021: BIR-RADS 1.  menopausia: 51  CITOLGIA DEL 25/04/2023 NEGATIVA PARA LOS GENOTIPOS DE VPH TIPIFICAOS EN EL ESTUDIO POR PCR. 
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

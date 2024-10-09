@@ -1,0 +1,11 @@
+2|person|Patologicos: artrosis, Quirurgicos: correccion de hallux pie derecho, cesarea #2 pomeroy.  Toxicos: negativos, niega exposicion a toxicos, niega consumo de spa, lergicos: PENICILINA, , farmacologicos: negativos, ocupacion: docente en municipio de Yacuanquer, facotores de riesgo y/o vulnerabilidad: NO -- estado civil casada --  habitos nutricionales saludables, actividad fisica moderada, patron de sueño regular, Niega fobias, sociales o personales, no perdidas familiares actuales, Niega ser victima de violencia, fisica, sexual, emocional, psicologica, de genero, niega ser desplazado por la violencia o conflicto armado, no pertenece a etnias o grupos poblacionales especiales 
+2|familia|niega antecedentes familiares de importancia, niega antecedentes familiares,  de trastornos mentales, niega antecedentes de hipoacusia o ceguera en familia, en lo interrogado niega consumo de spa, en familiares cercanos, niega comportamientos suicidas, o suicidios en la familia, eventos cercanos al examen actual 
+2|metodo|
+2|gineco|POMEROY G2A0C2V2 , CITOLOGIAS; HACE 1AÑOS NORMAL,  MAMOGRAFIA HACE 1 AÑOS  NORMAL 
+2|gestan|2
+2|partos|0
+2|cesareas|2
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

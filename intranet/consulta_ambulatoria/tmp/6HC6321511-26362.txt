@@ -1,0 +1,42 @@
+6|clasemedi|1
+6|codmedi|398004
+6|desmedi|DICLOfenaco 75 mg/3 ml*3 ml SOLUCION INYECTABLE
+6|dosis|75
+6|unid|MG
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2201
+6|tiempo|1
+6|obsemed|IM
+6|canti|1
+6|diagmedi|J068
+6|justifi|N
+6|pos|S
+6|clasemedi|1
+6|codmedi|399121
+6|desmedi|DEXAMEtasona 8 mg/2ml SOLUCION INYECTABLE
+6|dosis|8
+6|unid|MG
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2201
+6|tiempo|1
+6|obsemed|INTRAMUSCULAR 
+6|canti|1
+6|diagmedi|J068
+6|justifi|N
+6|pos|S
+6|clasemedi|2
+6|codmedi|3000005000328
+6|desmedi|JERINGA DESECHABLE 5ml  21G x 1 1/2 
+6|dosis|
+6|unid|
+6|frecu|
+6|unidfrecu|
+6|via|
+6|tiempo|
+6|obsemed|
+6|canti|2
+6|diagmedi|J068
+6|justifi|
+6|pos|

@@ -1,0 +1,80 @@
+5|claseorden|1
+5|codorden|902210
+5|desorden|902210 - HEMOGRAMA IV (HEMOGLOBINA HEMATOCRITO RECUENTO DE ERITROCITOS INDICES ERITROCITARIOS LEUCOGRAMA RECUENTO DE PLAQUETAS INDICES PLAQUETARIOS Y MORFOLOGIA ELECTRONICA E HISTOGRAMA) AUTOMATIZADO () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|D696
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903846
+5|desorden|903846 - HIERRO TOTAL () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|D649
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903016
+5|desorden|903016 - FERRITINA (S) 
+5|nivel|REFERENCIA
+5|obseorden|
+5|diagorden|D649
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903044
+5|desorden|903044 - SATURACION DE TRANSFERRINA () 
+5|nivel|REFERENCIA
+5|obseorden|
+5|diagorden|D649
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903867
+5|desorden|903867 - TRANSAMINASA GLUTAMICO OXALACETICA [ASPARTATO AMINO TRANSFERASA] () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|D696
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903866
+5|desorden|903866 - TRANSAMINASA GLUTAMICO-PIRUVICA [ALANINO AMINO TRANSFERASA] () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|D649
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903809
+5|desorden|903809 - BILIRRUBINAS TOTAL Y DIRECTA () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|D649
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903895
+5|desorden|903895 - CREATININA EN SUERO U OTROS FLUIDOS () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|D649
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903828
+5|desorden|903828 - DESHIDROGENASA LACTICA () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|D649
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|881302
+5|desorden|881302 - ECOGRAFIA DE ABDOMEN TOTAL (S) 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|D696
+5|cantorden|1
+5|cama|

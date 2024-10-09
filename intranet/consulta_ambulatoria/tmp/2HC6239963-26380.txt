@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|POMEROY, APENDICECTOMIA
+2|neofarmacos|LOSARTAN HCTZ
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|GASTRITIS, OBESIDAD
+2|gineco|mENARCA 13 años, sexarca: 16 años, CITOLOGIA:  NO RECUERDA , NEGATIVA PARA MALIGNIDAD, MAMOGRAFIA: NO  RECUAEDA, 2023-08-10  MAMOGRAFÍA NEGATIVA PARA PROCESO EVOLUTIVO MALIGNO  CATEGORÍA 1 DE LA CLASIFICACIÓN BI-RADS   
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

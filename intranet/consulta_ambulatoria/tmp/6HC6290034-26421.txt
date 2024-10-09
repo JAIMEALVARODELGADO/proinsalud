@@ -1,0 +1,28 @@
+6|clasemedi|1
+6|codmedi|001113
+6|desmedi|FLUVOXAMINA 100MG TBS TABLETA
+6|dosis|2
+6|unid|UND
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|90
+6|obsemed|TOMAR 2 TABALETAS EN LA MA�ANA
+6|canti|180
+6|diagmedi|F429
+6|justifi|N
+6|pos|N
+6|clasemedi|1
+6|codmedi|834030
+6|desmedi|QUETIAPINA 25 MG CUBIERTO PARA USO EN TRASTORNO AFECTIVO BIPOLAR EN TERAPIA COMBINADA CON ESTABILIZADORES DEL ANIMO TABLETA
+6|dosis|1
+6|unid|UND
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|90
+6|obsemed|TOMAR 1 TABLETA EN LA NOCHE
+6|canti|90
+6|diagmedi|F429
+6|justifi|N
+6|pos|S

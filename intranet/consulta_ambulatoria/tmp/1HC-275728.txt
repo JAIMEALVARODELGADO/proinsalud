@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9998
+1|escolaridad|7613
+1|estadocivil|A701
+1|direccion|CRA 9 N 5-15 LOS PINOS
+1|tidoacu|CC
+1|nudoacu|59178937
+1|pnomacu|Maribel
+1|snomacu|
+1|papeacu|Erazo
+1|sapeacu|
+1|parenacu|Madre
+1|direacu|Los
+1|teleacu|3128619773
+1|muniacu|52001
+1|nommuniacu|PASTO
+1|primera|1
+1|codciru|
+1|motivo|Paciente acude a control 
+1|enfeac|Paciente femenina de 15 años de edad, con antecedente de asinedad y rasgos de depresion, 
+1|revisi|APARIENCIA PERSONAL: Usuario en quien se identificó una adecuada presentación e higiene personal, vestimenta acorde, higiene corporal adecuada, posturas y mirada acordes, ingresa por sus propios medios, su tono de voz es normal, motivación estable, estado de ánimo sin alteración aparente, usuario mostro una actitud receptiva y de colaboración, durante la consulta, no se observa preocupación excesiva, preocupación acorde a la realidad. ÆÆFUNCIONES COGNITIVAS:  atención: sin alteraciones euprosexica responde a la estimulación visual y auditiva Conciencia:  se encuentra en estado de alerta responde a estímulos externos visuales, auditivos y táctiles; Orientación autosiquica y alopsiquica: sin alteraciones, conservada en tiempo, espacio y persona; Memoria: inmediata, reciente y remota conservadas; Pensamiento: Forma y curso de pensamiento: coherente sin neologismos; sin fuga de ideas; no presenta discurso superficial o lleno de divagaciones evasivas o detalles sin importancia, logra comunicar lo que desea; Inteligencia: impresiona dentro de lo normal; Juicio: La paciente no ha presentado alucinaciones o ideas delirantes por lo que no indica perdida del juicio de la realidad.     ÆÆESTADO EMOCIONAL: estado anímico moduladoÆÆMOTRICIDAD: sin alteraciones ÆÆLENGUAJE: La paciente demuestra capacidad articulatoria; fluidez adecuada; buena comprensión del habla; vocabulario adecuado; se muestra colaborativo; es coherente con su discurso; muestra coherencia; comprende las oraciones. ÆÆINTEGRIDAD COMPORTAMENTAL: La paciente no demuestra descuido en su autocuidado; No ruptura de normas sociales; No refiere desconfianza exagerada; No demuestra autoagresión. Ni disminución de la sociabilidad.
+1|informe|n/a
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

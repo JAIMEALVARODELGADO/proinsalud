@@ -1,0 +1,11 @@
+2|person|patologicos hipotiroidismo, nodulos tiroideos, artrosis , herpes zoster, coid-19 mayo/2021, desprendimiento de retina derecha --   quirurgicos: histerectomia, safenectomia, correccion de tunel del carpo, mamoplastia de reduccion, traumaticos: negativos, toxicos: fue fumadora hace 6 años, niega consumo de spa, niega exposicion a toxicos, alergicos: negativos, farmacologicos: acetaminofem + codeina cada dia, ocupacion: docente estado civil casada junio 1 2019 habitos nutricionales saludables, actividad fisica moderada, patron de sueño regular, Niega fobias, sociales o personales,  no perdidas familiares actuales Niega ser victima de violencia, fisica, sexual, emocional, psicologica, de genero, niega ser desplazado por la violencia o conflicto armado, no pertenece a etnias o grupos poblacionales especiales ---- NO ATENCION RIAS. SE REMITE----
+2|familia|madre hipertension arterial, evento cerebro vacular, hermanas hipertension arterial, niega antecedentes familiares,  de trastornos mentales, en lo interrogado niega consumo de spa, en familiares cercanos, niega comportamientos suicidas, o suicidos en la familia, eventos cercanos al examen actual 
+2|metodo|NIGNUNO 
+2|gineco|menarca: 9 años, menopausia: 45 años, parejas sexuales #1, citologia: junio 2019, negativa para malignidad, PACIENTE YA NO TIENE RANGO DE EDAD PARA CONTINUAR TAMIZAJE CA DE CUELLO UTERINO,  mamografia agosto 2018, nodulo mama derecha,  posible cicatriz quirurgica, nodulo de mama izquierda compatible con lipoma, bi rads 2
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

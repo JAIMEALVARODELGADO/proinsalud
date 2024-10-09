@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA 3, POMEROY, COLECISTECTOMIA
+2|neofarmacos|Negativo
+2|nuetoxico|PENICILINA
+2|neotransfin|Negativo
+2|neootros|OBESIDAD
+2|gineco|menarquia a los 10 años , CICLOS CADA 30/3 DIAS, ULTIMA CITOLOGIA: JUNIO DE 2021 NEGATIVA PARA MALIGNIDAD. FUM: 18/01/2023  FUR: 12/03/2023   CITOLOGIA:  15/11/2022  NEGATIVA PARA MALIGNIDAD   PLANIFICACION:  POMEROY  .  
+2|gestan|3
+2|partos|0
+2|cesareas|3
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

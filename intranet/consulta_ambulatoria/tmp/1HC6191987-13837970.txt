@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|3310
+1|escolaridad|7613
+1|estadocivil|A701
+1|direccion|CRA 23 # 11 - 44 B/ SANTIAGO
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|CONTROL PRENATAL. 
+1|enfeac|PACIENTE DE 29 AÑOS CON EMBARAZO DE 33.6 SEMANAS POR ECO  DEL I TRIMESTRE DEL 28/08/2023 PARA 11.4 SEMANAS  REFIERE SENTIRSE BIE NIEGA DOLOR NIEGA PERIDAS VAGIANLES NIEGA EDEMAS NIEGA  SINTOMAS VASOMOTORES MOVMIENTOS FETALES PRESENTES. 
+1|revisi|NO
+1|informe|ECOGRAFIA DEL 28/08/2023 EMBARAZO DE 11.4 SEMANAS CON FETO UNICO,VIVO FPP 14/03/2024 Æ19/08/2023 UROCULTIVO - 14/11/2023 HB 13.3 PL AQ 222000 SIFILIS - VIH - HB - 13/07/2023 TSH 2.3 
+1|grupo_poblacional|F112
+1|orientacion_sexual|F207
+1|medicoproc_ccl|

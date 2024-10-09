@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|ARTROSCOPIA RODILLA BILATERAL, 
+2|neofarmacos|LEVOTIROXINA, LOSARTAN
+2|nuetoxico|PENICILINA
+2|neotransfin|Negativo
+2|neootros|PREDIABETES, HIPOTIRODISMO
+2|gineco|menarca: 11 años, sexarca 18 años, citologia: feb 2019 atrofia negativa para malignidad, menopausia: 49 años, mamografia mayo 2019, bi rads 1, negativa para malignidad, MAMOGRAFIA.30/06/22: MAMOGRAFÍA NEGATIVA PARA LESIONES, CATEGORÍA 1 DE LA CLASIFICACIÓN BI-RADS. 
+2|gestan|3
+2|partos|2
+2|cesareas|0
+2|abortos|1
+2|vivos|2
+2|mortinatos|0
+2|feulme|

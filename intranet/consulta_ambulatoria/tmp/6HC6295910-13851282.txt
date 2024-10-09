@@ -1,0 +1,14 @@
+6|clasemedi|1
+6|codmedi|544010
+6|desmedi|CLONAzepam 0,5 mg TABLETA
+6|dosis|2
+6|unid|UND
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|30
+6|obsemed|2 tabletas noche
+6|canti|60
+6|diagmedi|F203
+6|justifi|N
+6|pos|S

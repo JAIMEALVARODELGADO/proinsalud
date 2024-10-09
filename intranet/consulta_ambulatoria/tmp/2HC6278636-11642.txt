@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|APENDICECTOMIA, POMEROY, CESAREA 2
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARCA 15 AÑOS, SEXARCA 18 AÑOS ULTIMA CITOLOGIA HACE 4 MESES NORMAL FUM 13/07/23 G2C2A0V2   
+2|gestan|2
+2|partos|0
+2|cesareas|2
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|2024-04-20

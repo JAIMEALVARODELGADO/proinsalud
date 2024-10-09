@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HEMICOLECTOMIA DERECHA
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|TUMOR DE COLON
+2|gineco|g1c1 menarrquia 14 años amenorrea 45 años citologia julio 2015 refier enormal + vaginosis bacteriana SE SOLICITA CITOLOGIA Y MAMOGRAFIA 
+2|gestan|1
+2|partos|0
+2|cesareas|1
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,11 @@
+2|person|Patologicos: niega. Farmacologicos: niega. Quriurgicos: cesareas. Alergicos: niega. Toxicos: niega 
+2|familia|Niega 
+2|metodo|
+2|gineco|menarquia alos 15 años
+2|gestan|2
+2|partos|1
+2|cesareas|1
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

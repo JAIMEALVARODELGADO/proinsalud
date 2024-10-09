@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLELAP, HERNIORRAFIA INGINAL BILATERAL, HERNIA CRURAL DERECHA 
+2|neofarmacos|LOSARTAN 50 MG CADA DIA,  LEVOTIROXINA 50 MCG  CADA DIA , PROPANOLOL 40 MG CADA DIA, ZOLPIDEN 10 MG CAD DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO 
+2|gineco|menarca: 15 años, sexarca negada, citologia nunca, menarca: 15 años,
+2|gestan|0
+2|partos|0
+2|cesareas|0
+2|abortos|0
+2|vivos|0
+2|mortinatos|0
+2|feulme|

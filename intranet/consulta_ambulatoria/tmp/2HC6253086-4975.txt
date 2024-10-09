@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|OOFORECTOMIA
+2|neofarmacos|LEVOTIROXINA 50 MCG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO 
+2|gineco|MAMOGRAFIA 22  NOVIEMBRE DEL 2015 NORMAL, CLASIFIACION BI-RADS 1 CITOLOGIA DEL DIA 16 DE ENERO DEL 2017: CON INFLAMACION , CON ATROFIA, MAMOGRAFÍA.
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

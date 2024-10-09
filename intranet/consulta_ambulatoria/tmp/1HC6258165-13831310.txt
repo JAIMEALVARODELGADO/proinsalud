@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A701
+1|direccion|URBANIZACIÓN LA AVENIDA
+1|tidoacu|CC
+1|nudoacu|1087196606
+1|pnomacu|LILIANA
+1|snomacu|
+1|papeacu|ORJUELA
+1|sapeacu|
+1|parenacu|MADRE
+1|direacu|SAMANIEGO
+1|teleacu|3166929686
+1|muniacu|52678
+1|nommuniacu|SAMANIEGO (NARI&#65533;O)
+1|primera|1
+1|codciru|
+1|motivo|VALORACION PREANESTESICA PARA TURBINOPLASTIA ENDOSCOPIA, ADENOIDECTOMIA
+1|enfeac|HIPERTROFIA CORNETES Y ADENOIDES
+1|revisi|NIEGA
+1|informe|
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

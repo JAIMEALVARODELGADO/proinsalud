@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|TIROIDECTOMIA, POMEROY
+2|neofarmacos|LEVOTIROXINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO
+2|gineco|MENARCA: 12 AÑOS   SEXARCA: 19 AÑOS  FUM: FEBRERO DEL 2022,  ULTIMA CITOLOGIA: MAYO DEL 2022: NORMAL , ULTIMA MAMOGAFIA: SEPTIEMBRE DEL 2022, MAMOGRFIA ALTERADA, ECOGRAFIA NORMAL
+2|gestan|2
+2|partos|1
+2|cesareas|1
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA 2
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIG}ADO GRADO, HIPOACUSIA SEVERA
+2|gineco|MENARCA 16  SEXARCA  18  CITOLOGIA 26/05/2022 REPORTE NORMAL  , CICLOS  PREVIOS NORMALES FUM 18/02/2024 
+2|gestan|3
+2|partos|0
+2|cesareas|1
+2|abortos|1
+2|vivos|1
+2|mortinatos|0
+2|feulme|2024-03-14

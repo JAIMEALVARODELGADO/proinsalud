@@ -1,0 +1,11 @@
+2|person|patologicos: hipertension arterial, gastritis cronica, quirurgicos: pomeroy, REEMPLAZO TOTAL DE CADERA DERECHA, traumaticos: politrauma moderado, toxicos: fue fumadora social hace 30 años, bebdora social, fumadora pasiva, niega consumo de spa, alergicos: negativos**** , farmacologicos: enalapril 20 mg c/dia, ocupacion: hogar, artesana, estado civil casada, junio 24 2020, 
+2|familia|padre cancer de prostata, hermano: cancer de prostata, madre tumor maligno de la piel, hipertension arterial hermana cancer de mama. *** PACIENTE HACE PARTE DE PROGRAMA DE CRONICOS 
+2|metodo|
+2|gineco|menarca: 13 años, sexarca: 20 años, parejas sexuales: #, menopausia: 40 años, PACIENTE YA NO TIENE RANGO DE EDAD PARA CONTINUAR TAMIZAJE CA DE MAMA Y CUELLO UTERINO. PACIENTE HACE PARTE DE CRONICOS. SE REMITE A PYM PROGRAMA VEJEZ
+2|gestan|2
+2|partos|1
+2|cesareas|0
+2|abortos|1
+2|vivos|1
+2|mortinatos|0
+2|feulme|

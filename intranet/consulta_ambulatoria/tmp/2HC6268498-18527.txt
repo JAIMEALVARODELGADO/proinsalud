@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS hipotiroidismo, dislipidemia, FARMACOLOGICOS: LEVOTIROXINA 50 MCG Y 75 MCG INTERDIA, FENOFIBRATO 200 MG DIA, ALERGICOS negativo, QUIRURGICOS: cesárea, TRAUMATICOS: negativos, TOXICOS negativos. Se remitió a psicología, nutrición, odontología (JULIO/2020) paciente no asiste// vacunación influenza: no ha realizado en último año, se remite. 
+2|familia|diabetes e hipertensa madre  fallecida y tias
+2|metodo|no aplica
+2|gineco|menopausia 4 años g2p0c2 v2 CITOLOGIA: 22/3/22 PENDIENTE RESULTADO -- MAMOGRAFIA 13/12/2019 CATEGORIA BI-RADS CE RO, SE SOLICITA ECOGRAFIA COMPLEMENTARIA, SIN EMBARGO PACIENTE REFIERE NO QUERER REALIZARSE DICHOS ESTUDIOS (se explica necesidad de estudios ya que están orientados a descartar patología tumoral) SIN EMBARGO PACIENTE REFIERE NO DESEA TOMAR.
+2|gestan|2
+2|partos|0
+2|cesareas|2
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|no aplica

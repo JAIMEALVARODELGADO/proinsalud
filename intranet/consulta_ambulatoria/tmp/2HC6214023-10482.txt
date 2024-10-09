@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLECISTECTOMIA ABIERTA, ALZAHIMER 
+2|neofarmacos|ECITALOPRAM 50 MG CADA DIA, BISACODILO 5 MG   CADA DIA, RISPERIDONA 2 MG  CADA DIA, FUROSEMIDA 40 MG CADA DIA, QUETIAPINA  25 MG CADA DIA. 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|DEMENCIA CENIL , ALZAHIMER 
+2|gineco|FAMILIAR DESCONOCE ULTIMA CITOLOGIA O MAMOGRAFIA. SE REMITIO A PYM PERO PACIENTE NO DESEA ACUDIR
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

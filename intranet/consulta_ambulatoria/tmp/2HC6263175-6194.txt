@@ -1,0 +1,11 @@
+2|person|Patológicos: DM, hipotiroidismo, AIT, dislipidemia  DEPRERSION  TRASTORNO DEPRESIVO   // QUIRÚRGICOS:  cesarea    osteosisnteis de codo   // ALERGIAS: ALIMENTOS, MEDICAMENTOS, PICADURAS DE MOSQUITO, TRAUMÁTICOS: fractura en codo  // FARMACOLÓGICO:: Levotiroxina 50 mcg cada ida, rosuvastatian 40 mg cada dia, Esomeprazol 40 mg cada dia, empaglifozina 25 mg cada dia, vildaglipina 50 mg cada 12 horas.  
+2|familia|Madre càncer gástrico, óseo, prostático, DM, hijos con depresión, hijo con TOC /, VIOLENCIAS, MENTALES, INTENTO DE SUICIDIO, CONSUMO DE SPA: NO REFIERE // 
+2|metodo|
+2|gineco|G5P5C1   PACIENTE HACE PARTE DE CRONICOS, 4-8-23 ACUDE A PYM PROGRAMA VEJEZ
+2|gestan|5
+2|partos|4
+2|cesareas|1
+2|abortos|0
+2|vivos|5
+2|mortinatos|0
+2|feulme|

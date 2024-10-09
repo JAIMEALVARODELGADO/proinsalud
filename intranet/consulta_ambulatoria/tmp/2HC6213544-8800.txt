@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|OSTEOSINTESIS DE RADIO IZQUIERDO, AMIGDALECTOMIA, 
+2|neofarmacos|OMEPRAZOL, FUROSEMIDA, CARVEDILOL, LACTULOSA, ESPIRINOLACTONA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|CIRROSIS HEPATICA
+2|gineco|MENOPAUSIA: 51 AÑOS ; PACIENTE NULIPARA  CITOLOGIA: NO SE HA REALIZADO MAMOGRAFIA. NO SE HA REALIZADO 
+2|gestan|0
+2|partos|0
+2|cesareas|0
+2|abortos|0
+2|vivos|0
+2|mortinatos|0
+2|feulme|

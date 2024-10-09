@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7603
+1|estadocivil|A701
+1|direccion|BALCONES DEL MAYO
+1|tidoacu|
+1|nudoacu|X
+1|pnomacu|SOLO-
+1|snomacu|X
+1|papeacu|X
+1|sapeacu|X
+1|parenacu|X
+1|direacu|X
+1|teleacu|X
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|para el control del joven- 
+1|enfeac|ASISTE PACIENTE CONTROL  INTEGRAL DE  ADOLESCENTE-  ASINTOMATICO- 
+1|revisi|NEGATIVO-
+1|informe|NO -
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

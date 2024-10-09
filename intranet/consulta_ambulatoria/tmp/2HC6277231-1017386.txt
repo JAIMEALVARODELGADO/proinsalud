@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RESECCION DE QUSITE DE MAMA IZQUIERDA 
+2|neofarmacos|GESTAVID CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|PACIENTE LACTANDO 
+2|gineco|menarca 12 años, sexarca: 25 años, ciclos menstruales regulares 28*3, parejas sexuales #2, citología: enero 2023, refiere normal, fum: 23 marzo 2023, planificación familiar negativa,  niega antecedentes de depresión postparto hiv-sida: : 12/05/2023 negativo    hepatitis b: 12/05/2023 negativo  prueba rápida treponemica: : 12/05/2023 negativo  ecografías previas: 03/ 05 / 2023 :  EMBARAZO DE  6.2 SEMANAS  //  20/10/2023  embarazo de 32 semanas flotante peso 1834 ILA 17.2 semanas placenta corporal anterior grado II, ULTIMA ECOGRAFIA  29 / NOV / 2023 :  EMBARAZO DE  35 SEMANAS POR   BIOMETRIA FETAL   clap: si  numero de controles prenatales: 7  fecha de ultimo parto o cesárea:  no aplica complicación de anterior embarazo: no aplica  periodo intergenesico: no aplica  hemoclasificacion materna: O +  escolaridad: Profesional   domicilio: mz 54 cs 16 tamasagra   estado civil: casada edad del padre: 32   escolaridad del padre: profesional  IVES anteriores noÆ
+2|gestan|2
+2|partos|1
+2|cesareas|0
+2|abortos|1
+2|vivos|1
+2|mortinatos|0
+2|feulme|

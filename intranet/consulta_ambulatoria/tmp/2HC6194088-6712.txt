@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HISTERECTOMIA APENDICECTOMIA COLELAP SIN COMPLICACIONES
+2|neofarmacos|LEVOTIROXINA 88 MCG
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO
+2|gineco|G3P3 MENARQUIA A LOS 12 AÑOS  MAMOGRAFIA 11/05/2022 NORMAL SEGUN REFIERE-- CITOLOGIA: 15/06/2020 NEGATIVA PARA MALIGNIDAD. MAMOGRAFIA 2022 BI-RADS 1 citologia  vaginal  del  27 de febrero  del  2023 negativa   para lesion  intraepitelial o malignidad 
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

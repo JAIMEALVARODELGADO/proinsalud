@@ -1,0 +1,32 @@
+5|claseorden|4
+5|codorden|0605
+5|desorden|
+5|nivel|
+5|obseorden|3 meses
+5|diagorden|F204
+5|cantorden|3
+5|cama|
+5|claseorden|1
+5|codorden|903867
+5|desorden|903867 - TRANSAMINASA GLUTAMICO OXALACETICA [ASPARTATO AMINO TRANSFERASA] () 
+5|nivel|CITAS
+5|obseorden|3 MESES
+5|diagorden|K769
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903866
+5|desorden|903866 - TRANSAMINASA GLUTAMICO-PIRUVICA [ALANINO AMINO TRANSFERASA] () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|K769
+5|cantorden|1
+5|cama|
+5|claseorden|2
+5|codorden|0621
+5|desorden|
+5|nivel|
+5|obseorden|REALIZAR UN SEGUIMIENTO 
+5|diagorden|0647
+5|cantorden|
+5|cama|

@@ -15,7 +15,7 @@ else{
 	<title>FACTURACION</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
-<?
+<?php
   include('php/conexion.php');
   include('php/funciones.php');
   if(!empty($fcie_fac)){$fcie_fac=cambiafecha($fcie_fac);}
@@ -34,27 +34,44 @@ else{
   $rowtot=mysql_fetch_array($constot);  
   $descuento=round(($rowtot[total]*($rowef[pdes_fac]/100)),0);
   
-  if($pref_fac=="FE"){
+  //Aqui se consulta el consecutivo
+  $consultaconsec="select c.prefijo, c.numero_fac from consecutivo c WHERE c.prefijo='$pref_fac'";
+  //echo $consultaconsec;
+  $consultaconsec=mysql_query($consultaconsec);
+  $rowconsec=mysql_fetch_array($consultaconsec);
+    
+  
+  /*if($pref_fac=="FE"){
 	  $consulta="SELECT codi_emp,pref_emp,nume_fac FROM empresa";
   }elseif($pref_fac=="PGP"){
 	  $consulta="SELECT codi_emp,pref3_emp AS pref_emp,num3_fac AS nume_fac FROM empresa";
   }
+  elseif($pref_fac=="PYM"){
+	  $consulta="SELECT codi_emp,pref4_emp AS pref_emp,num4_fac AS nume_fac FROM empresa";
+  }
   else{//Tipo Interna
       $consulta="SELECT codi_emp,pref2_emp AS pref_emp,num2_fac AS nume_fac FROM empresa";
-  }
+  }*/
   
   //echo "<br>".$consulta;
-  $consulta=mysql_query($consulta);
-  $rowemp=mysql_fetch_array($consulta);
+  
+  /*$consulta=mysql_query($consulta);
+  $rowemp=mysql_fetch_array($consulta);*/
   
   $hoy=cambiafecha(hoy());
   $vrneto=$rowtot[total]-$rowef[vcop_fac]-$rowef[cmod_fac]-$descuento;  
-  $sql="UPDATE encabezado_factura SET nume_fac='$rowemp[nume_fac]',pref_fac='$rowemp[pref_emp]',fcie_fac='$fcie_fac',frea_fac='$hoy',esta_fac='2',
+  /*$sql="UPDATE encabezado_factura SET nume_fac='$rowemp[nume_fac]',pref_fac='$rowemp[pref_emp]',fcie_fac='$fcie_fac',frea_fac='$hoy',esta_fac='2',
+          vtot_fac=$rowtot[total],vnet_fac=$vrneto WHERE iden_fac=$iden_fac";*/
+  $sql="UPDATE encabezado_factura SET nume_fac='$rowconsec[numero_fac]',pref_fac='$rowconsec[prefijo]',fcie_fac='$fcie_fac',frea_fac='$hoy',esta_fac='2',
           vtot_fac=$rowtot[total],vnet_fac=$vrneto WHERE iden_fac=$iden_fac";
   //echo $sql; 
   mysql_query($sql);
   if(mysql_affected_rows()==1){
-    $nume_ant=$rowemp[nume_fac];
+    $nume_ant=$rowconsec[numero_fac];
+    $numero_fac=$rowconsec[numero_fac]+1;
+    $sql="UPDATE consecutivo SET numero_fac='$numero_fac' WHERE prefijo='$rowconsec[prefijo]'";
+    //echo $sql;
+    /*$nume_ant=$rowemp[nume_fac];
     $nume_fac=$rowemp[nume_fac]+1;
     $nume_fac=str_pad($nume_fac,strlen($rowemp[nume_fac]),"0",STR_PAD_LEFT);
     if($pref_fac=="FE"){
@@ -64,7 +81,7 @@ else{
     }
     else{
         $sql="UPDATE empresa SET num2_fac='$nume_fac' WHERE codi_emp=$rowemp[codi_emp]";
-    }    
+    }*/
     mysql_query($sql);
 
     //Aqui debo genero los rips
@@ -72,10 +89,8 @@ else{
 
   }
   
-  //generarRips($iden_fac);
-
   mysql_free_result($constot);
-  mysql_free_result($consulta);
+  mysql_free_result($consultaconsec);
   mysql_free_result($consultaef);
   mysql_close();
 ?>

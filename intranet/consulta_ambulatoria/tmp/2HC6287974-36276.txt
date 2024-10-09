@@ -1,0 +1,11 @@
+2|person|PATLOGICOS:  DIABTES MELLITUS TIPO DOS INSULINODEPENDIENTE, HIPERTENSION ARTERIAL, DISLIPIDEMIA    enferemedad cardiovascular NO , cardiovasculares  infartos : NO  , Enfermedad  cerebrovasculares): NO  : , pulmonares (EPOC):  NO  , tuberculosis : NO  , cáncer:  NO  , alteraciones sensoriales (auditivas, vestibulares y visuales) .  NO  , defectos refractivos : NO  , glaucoma,: NO   estrabismo: NO  , enfermedades neurológicas: NO  , musculo eDsqueléticas: NO , mentales o del comportamiento: NO  , enfermedades trasmisibles: NO  , infecciones de trasmisión sexual: NO REFIERE  , urológicas: NO REIFERE ,  incontinencia urinaria: no ,    infecciones genitourinarias:  NIEGA  , delirio o estados confusionales :  NIEGA  , tratamientos farmacológicos: NO REIFERE   , alérgicos: NO REIFERE  , traumatismos:  NO  REIFERE  , transfusiones:  NO REIFERE  , QUIURGICOS           ESPLENECTOMIA   , RESECCION DE COLA DE PANCREAS , CESAREA      ALERgicos   NIEGA    hospitalizaciones:  NO REIFERE   vacunación : COMPLETA   , discapacidad: NO  REIFERE  , riesgo para osteoporosis:  NO  , enfermedades o accidentes laborales: NO REIFERE  ,riesgo de caidas  : NO  ,   toxicológicos : NO REFIERE EXPOSICION  NI   CONSUMO DE SUSTANCIAS  PSICOACTIVAS , NIEGA EXPOSICION  A   HUMO DE LLEÑA O BIOMASA    , NIEGA TABAQUISMO  ,  NI CONSUMO DE LICOR  .NUTRICIONALES :  DIETA RICA EN CARBOHIDRATOS  , BAJA E GRASA, ALTO CONSUMO DE PROTEINAS DE ORIGNE ANIMAL  ,  MEDICAENTOS, , DOSIS  ,   INTERACIONES MEDICAMENTOSAS O SIGNOS DE IATROGENIA :  NO PRESENTA   . Æ
+2|familia|hipertensión arterial: SI  MADRE   , diabetes mellitus : SI   MADRE  , dislipidemias NO  , enfermedad coronaria NO  , cáncer:NO , enfermedades cerebrovasculares: NO  , alergias :NO  , asma: NO  , tuberculosis: NO  , enfermedades degenerativa :NO  , genéticas: NO  , gota: NO , hemofilia: NO  , glaucoma: NO , trastornos o problemas mentales: NO , conducta suicida: NO  , consumo de alcohol y otras sustancias psicoactivas: NO , diversas formas de violencia:  NO  .Æ
+2|metodo|
+2|gineco|MENARQUIA: 11 AÑOS,SEXARCA  18  AÑOS ,  FECHA DE   ULTIMA REGLA :  A LOS    56  AÑOS ,  CITOLOGIA:    MARZO  2021: NORMAL,   MAMOGRAFIA: HACE  5   AÑOS  NORMAL
+2|gestan|2
+2|partos|1
+2|cesareas|1
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

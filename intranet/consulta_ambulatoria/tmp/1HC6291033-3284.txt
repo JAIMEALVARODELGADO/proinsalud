@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|3310
+1|escolaridad|7610
+1|estadocivil|A702
+1|direccion|CRA 7A No 7  14 FATIMA B/ Fatima
+1|tidoacu|
+1|nudoacu|X
+1|pnomacu|SOLA-
+1|snomacu|X
+1|papeacu|X
+1|sapeacu|X
+1|parenacu|X
+1|direacu|X
+1|teleacu|X
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|CONTROL CON  EL RESULTADO TSH
+1|enfeac|ASISTE  CONTROL CON  EL RESULTADO, TSH = 2.67  NORMAL,   META  IGUAL ,  TRATAMIENTO  -  CONTROL   4  MESES, ASE  DA  TRATAMEITN O POR  UN  POR EL  CONTRATO , HASTA  EL 30 DE ABRIL ES LA  ORDEN- 
+1|revisi|NEGATIVO-
+1|informe|TSH = 
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

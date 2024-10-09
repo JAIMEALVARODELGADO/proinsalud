@@ -1,0 +1,25 @@
+1|etnia|7505
+1|ocupacion|9998
+1|escolaridad|7613
+1|estadocivil|A701
+1|direccion|B/ CUIDAD DEL NUEVO HORIZONTE
+1|tidoacu|CC
+1|nudoacu|59679523
+1|pnomacu|VIVIANA
+1|snomacu|
+1|papeacu|CABEZAS
+1|sapeacu|
+1|parenacu|MAMA
+1|direacu|NUEVO HORIZONTE
+1|teleacu|.
+1|muniacu|52835
+1|nommuniacu|TUMACO (NARI&#65533;O)
+1|primera|1
+1|codciru|
+1|motivo|CONTROL DE PEDIATRIA 
+1|enfeac|SE TRATA DE LACTANTE DE 6 MESES Y POR EDAD CORREGIDA DE 4 MESES CON APP DE PREMATUREZ DE 32 SS MAS BAJO PESO DE 1500 GR EL CUAL ES TRAIDO POR SU MADRE PARA CONTROL , MADRE AGREGA HOSPITALIZACION EL 17/4/2024 HASTA EL 19/4/2024 CON DX BRONQUIOLITIS AGUDA
+1|revisi|NA
+1|informe|NA
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|Negativo
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA 13 AÑOS, CITOLOGIA HACE UN AÑO NORMAL , G3P2C0V2,  PERIODO INTERGENESICO 3 AÑOS NO TIENE CONTROLES PRENATALES, RH O POSITIVO- 04-07-19 CH NO LEUCOCITOSIS, NO NEUTROFILIA, NO ANEMIA, UROANALISIS NO PATOLOGICO, PRUEBA DE EMBARAZO POSITIVA, VIH, SEROLOGIA Y HEPATITIS B NO REACTIVOS
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

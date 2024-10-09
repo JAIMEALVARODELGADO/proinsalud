@@ -1,0 +1,24 @@
+12|apgar1|5
+12|apgar2|5
+12|apgar3|5
+12|apgar4|5
+12|apgar5|5
+12|httotal1|20
+12|apgarpunta|20
+12|apgarseve|Ninguna o mínima
+12|apgaracci|Control en un (1) año.
+12|apgarfrec|12
+12|phq1|1
+12|phq2|1
+12|phq3|1
+12|phq4|1
+12|phq5|1
+12|phq6|1
+12|phq7|1
+12|phq8|1
+12|phq9|1
+12|httotal2|0
+12|phqpunta|0
+12|phqseve|Ninguna o mínima
+12|phqacci|Control en un año
+12|phqfrec|12

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA, ICC
+2|nuepulmonar|Negativo
+2|nuequirurgicos|MASTECTOMIA SUBTOTAL MAAM IZQUIERDA MAS VACIAMIENTO AXILAR IZQERDA, HISTERECTOMIA ABDOMINAL TOTAL, COLELAP 
+2|neofarmacos|LOSARTAN 50 MG CADA DIA, CARVEDILOL  CADA DIA 
+2|nuetoxico|DICLOFENACO
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARcA: 11 AÑOS, sexarca: 20 años, menopausia: 47 años. CITOLOGIA: refiere especialista en ginecologia considera innecesaria toma de ctologia debido a antecedetnede  histerectomia total. MAMOGRAFIA   2023-02-13 MAMAS DENSAS CAMBIOS POSQUIRURGICOS MAMARIOS IZQUIERDOS. Categoría 0 de la clasificación BI-RADS Se recomienda ecografia complementaria de alta resolución REALIZA ECOGRAFIA DE MAMA PARTICULAR REFIERE NORMAL . 
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

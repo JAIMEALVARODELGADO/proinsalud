@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HERNIORRAFIA INGUINAL IZQUIERDA, CORRECION DEDO EN GATILLO MANO DERECHA 
+2|neofarmacos|LANZOPRASOL 1 CADA DIA, CITRATO DE CALCIO 1 CADA DIA 
+2|nuetoxico|YODO
+2|neotransfin|Negativo
+2|neootros|GASTRITIS CRONICA, OSTEOPOROSIS, LUMBAGO
+2|gineco|FUM: 41 AÑOS. CITOLOGIA Y MAMOGRAFIA A LOS 69 AÑOS NORMAL. ACUDIO A PYM A LOS 75 AÑOS. HACE PARTE DE CRONICOS
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

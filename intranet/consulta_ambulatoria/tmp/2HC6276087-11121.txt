@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|LIPECTOMIA, SEPTOPLASTIA
+2|neofarmacos|LEVOTIROXINA 75 MCG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO, 
+2|gineco|MENARCA: 13 AÑOS SEXARCA: 19 AÑOS MENOPAUSIA: 48 AÑOS,  ULTIMA CITOLOGIA: HACE DOS AÑOS. ULTIMA MAMOGRAFIA: 2022 NORMAL. 
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

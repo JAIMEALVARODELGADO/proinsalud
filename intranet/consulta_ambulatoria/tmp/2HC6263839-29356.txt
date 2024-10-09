@@ -1,0 +1,11 @@
+2|person|Patologicos: CA TIRIOIDES, Hipertension arterial, hipotiroidsmo postquirurgico 2009. Farmacologcos: Losartan 50 mg cda 12 hoas, hidroclorotiazid 25 mg cad dia, levotiroxina 100 mcg cada dia, rosuvsttaina 20 mg cad adia . Quirurgicos: tiroidectomia total, histerectomia , cesarea. Alergicos: niea. Toxicos: niega. DICLOFENA MAS TRAMADOL, PREGABALINA
+2|familia|HERMANA OBESIDAD, HTA EN MADRE . 
+2|metodo|
+2|gineco|MENARQUIA A LOS 12 AÑOS. CITOLOGÍA. HACE 6 MESES, NEGATIVA PARA MALIGNIDAD.
+2|gestan|5
+2|partos|3
+2|cesareas|1
+2|abortos|1
+2|vivos|4
+2|mortinatos|1
+2|feulme|

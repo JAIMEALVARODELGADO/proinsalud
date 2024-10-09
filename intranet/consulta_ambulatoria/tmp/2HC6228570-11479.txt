@@ -1,0 +1,11 @@
+2|person|Patológicos: insuficiencia venosa, hiperreactividad bronquial tipo asma, gastritis cronica, sindrome de colon irritable, trombosis venosa profunda, miomatosis uterina laringitis cronica, artrosis en rodillas, FARMACOLOGICOS: Esomeprazol 20 mg cada dia, levosulpiride mas simeticona, alginato de sodio  Quirurgicos reseccion de quiste ovarico izquierdo, artroscopia bilateral de rodillas, safenectomia dercha pomeroy, reseccion de pterigion ojo derecho, traumaticos: negativos, toxicos: negativos, niega exposicion a toxicos, niega consumo de spa, alergicos PENICILINA, DIPIRONA ???, -- OCUPACION: DOCENTE EN I.E.M. LA ROSA -- FACTORES DE RIESGO Y/O VULNERABILIDAD: NO, EN SEGUIMEITNO POR P Y M 05/22
+2|familia|.ABUELA HTA  ...............CA DE PIEL  .................
+2|metodo|
+2|gineco|menarca 12 años, sexarca. 22 años, parejas sexuales #1, menopausia: 50 años citologia: feb 2021 atrofia negativa para malignidad  mamografia, feb 2021, bi rads 0 mamas densas, eco de mama abril 2021, bi rads 1,  // MAMOGRAFIA 2023 BI-RADS 1
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|1
+2|feulme|

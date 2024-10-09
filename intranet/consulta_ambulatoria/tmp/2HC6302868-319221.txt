@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS: PRE TERMINO DE 36 SEMANAS, NACIMIENTO POR CESAREA POR RCIU, ANTECEDENTE DE HERMANO QUE MURIO A LOS 6 MESES CON ASOCIACION VACTERL (diferente padre). REFLUJO GASTROESOFAGICO EN MANEJO CON HARMETONE 1 CC CADA 8 HORAS. DIAGNOSTICO DE CIA. PESO: 2350 GRAMOS TALLA: 47 CM .,  VACUNAS AL DIA,  ALIMENTACION: integrada a dieta familiar, cia en manejo con hidroclorotiazida quirúrgicos: negativo , alergicos: proteina de leche y huevo. lenguaje : 10 no asocia palabras-----18-02-2022 ATENCION RIAS  . SE REMITE ----
+2|familia|HERMANA MURIO A LOS 6 MESES CON ASOCIACION VACTERL
+2|metodo|NINGUNO 
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

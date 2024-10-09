@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|LAMINECTOMIA L4-L5
+2|neofarmacos|LEVOTIROXINA 75 MCG CADA DIA, TERYPARATIDA 20 MCG CAD DIA SUBCUTANEO. 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO, CIRROSIS HEPATICA 
+2|gineco|citología 23/03/18 NEGATIVA PARA MALIGNIDAD  ATROFIA SUGESTVA DE VAGINOSIS -MAMOGRAFIA 17/03/18-BIRADS 2 NORMAL.YA NO TIENE RANGO DE EDAD PARA TOMA DE TAMIZAJES 
+2|gestan|4
+2|partos|4
+2|cesareas|0
+2|abortos|0
+2|vivos|4
+2|mortinatos|0
+2|feulme|

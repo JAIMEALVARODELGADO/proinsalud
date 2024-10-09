@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLELAP, LIPOREMODELACION ABDOMINAL 
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARCA 14 AÑOS, SEXARCA 18 AÑOS , PAREJAS SEXUALES  #3, ULTIMA CITOLOGIA HACE UN AÑO NORMAL SEGUN REFIERE, FUM 15-10/23  CITOLGIA HACE DOS AÑOS 
+2|gestan|0
+2|partos|0
+2|cesareas|0
+2|abortos|0
+2|vivos|0
+2|mortinatos|0
+2|feulme|

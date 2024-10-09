@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HIPERTENSION DE BATA BLANCA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HISTERECTOMIA CISTOPEXIA
+2|neofarmacos|LOSARTAN HCTZ
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|RINITIS
+2|gineco|MENARQUIA: 13 AÑOS. MENOSPAUSIA: HACE 10 AÑOS. CITOLOGIA HACE UN AÑO (SE ENVIA ORDEN) - MAMOGRAFIA HACE UN AÑO NORMAL 
+2|gestan|4
+2|partos|3
+2|cesareas|0
+2|abortos|1
+2|vivos|3
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9998
+1|escolaridad|7613
+1|estadocivil|A701
+1|direccion|CALLE 15C # 3A-33 B/CANTARANA BAJO
+1|tidoacu|CC
+1|nudoacu|1087751655
+1|pnomacu|PAOLA 
+1|snomacu|ANDREA 
+1|papeacu|VIVEROS 
+1|sapeacu|ROJAS 
+1|parenacu|MADRE
+1|direacu|MANZANA 8 CASA 8 BARRIO CANTARANA 
+1|teleacu|3214768343
+1|muniacu|52001
+1|nommuniacu|PASTO (NARI&#65533;O)
+1|primera|1
+1|codciru|
+1|motivo|VALORACION PREANESTESICA 
+1|enfeac|PACIENTE QUIEN ASISTE EN COMPAÑIA DE SU MADRE A VALORACION PREANESTESICA PARA REALIZACION DE  ADENOIDECTOMIA SECUNDARIO A  HIPERTROFIA DE ADENOIDES 
+1|revisi|.
+1|informe|.
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

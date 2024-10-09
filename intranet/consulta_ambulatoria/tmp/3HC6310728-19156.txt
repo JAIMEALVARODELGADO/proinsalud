@@ -1,0 +1,16 @@
+3|fin|
+3|tenar1|130
+3|tenar2|80
+3|freres|14
+3|fc|72
+3|tempe|37
+3|peso|78.3
+3|talla|155
+3|imc|32.591
+3|cintura|
+3|cadera|
+3|icc|
+3|dimc|Obesidad
+3|pc|
+3|otros|CUADRO DE IVU  PERO EN EL MOMENTO NO SINTOMAS.  OBESIDAD  FRACTURA. 
+3|saox_tri|

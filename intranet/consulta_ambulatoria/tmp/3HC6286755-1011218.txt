@@ -1,0 +1,16 @@
+3|fin|
+3|tenar1|120
+3|tenar2|80
+3|freres|17
+3|fc|70
+3|tempe|36
+3|peso|75
+3|talla|165
+3|imc|27.548
+3|cintura|
+3|cadera|
+3|icc|
+3|dimc|Sobre Peso
+3|pc|
+3|otros|CABEZA  NORMAL CUELLO NORMAL TROAX SISMTRICO CSPS NORMAL RSCS RTIMO NO SOPLO ABDOMEN NORMAL SNC Y SNP NORMAL 
+3|saox_tri|

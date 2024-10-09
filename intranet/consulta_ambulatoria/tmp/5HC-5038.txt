@@ -1,0 +1,8 @@
+5|claseorden|1
+5|codorden|931001
+5|desorden|931001 - TERAPIA FISICA INTEGRAL (S) 
+5|nivel|REFERENCIA
+5|obseorden|relajacion musculares 
+5|diagorden|G442
+5|cantorden|5
+5|cama|

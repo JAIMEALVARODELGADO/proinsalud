@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RESECCION DE LIPOMA SIN COMPLICACIONES, COLELAP, HERNIORRAFIA UMBILICAL 
+2|neofarmacos|LEVOTIROXINA 50 MCG CADA DIA, ATORVASTATINA 10 MG CADA DIA, GINGO BILOVA CADA DIA 
+2|nuetoxico|SULFAS 
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO
+2|gineco|menarquia 11 años    fum 45 años      CITOLOGIA FECHA 29/06/2021 : atrofia- NEGATIVA              mamografia 24/09/21 HALLAZGOS SUEGSTIVOS BENIGNOS CATEGORIA 2 BIRADS
+2|gestan|4
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|1
+2|feulme|

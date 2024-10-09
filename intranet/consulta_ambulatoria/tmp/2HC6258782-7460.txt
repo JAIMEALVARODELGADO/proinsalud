@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|REPARACOIN HALLUX VALGUS, AMIGDALECTOMIA
+2|neofarmacos|PREDNISOLONA, METROTEXATO, METFORMNA, LOSARTAN
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|ARTRITIS REUMATICA, PREDIABETES
+2|gineco|menopausia 50 años.
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

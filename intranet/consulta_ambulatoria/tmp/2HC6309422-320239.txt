@@ -1,0 +1,11 @@
+2|person|Antecedentes medicos. Hipotiroidismo , hipertension arterial. rinitis  Quirurgicos  Correccion de labio leporino y paladar hendido. Alergias No***. Traumas No. Toxicos  No. Ocupacion Docente. Estado civil  Soltera. No trastornos mentales ni intentos de suicidio VACUNA COVID 19  1 DOSIS**** TRAUMATICOS: NO, TOXICOS: NIEGA ---ALERGICOS: NO - FARMACOLOGICOS: NO ANTECEDENTES OCUPACIONALES: DOCENTE, , ESTADO CIVIL:  UNION LIBRE,  FACTORES DE VULNERABILIDAD INDIVIDUAL Y SOCIAL: NO HABITOS NUTRICIONALES SALUDABLES, NIEGA FOBIAS SOCIALES O PERSONALES, NO PERDIDAS FAMILIARES ACTUALES, REMISION A P Y M
+2|familia|Antecedentes patologicos familiares. Tios maternos hipotiroideos e hipertensos No consumo de spa, trastornos mentales, ni intentos de suicidio en la familia
+2|metodo|
+2|gineco|Citologia vaginal hace 3 meses con reporte negativo  , NO REFIERE   FUM :  18/01/24
+2|gestan|1
+2|partos|0
+2|cesareas|0
+2|abortos|1
+2|vivos|0
+2|mortinatos|0
+2|feulme|

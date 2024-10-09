@@ -1,0 +1,11 @@
+2|person|Antecedentes Patológicos: Tendinosis de supraespinoso (dolor cronico de hombro derecho); Farmacológicos: Niega; Quirúrgicos: Niega; Alérgicos: Niega; Vacunas: 3 dosis contra COVID 19; Transfusionales: Niega;ÆÆÆÆÆANTECEDENTES OCUPACIONALES: NOÆÆÆÆÆÆÆÆSITIO DONDE LABORA: NO APLCA. ES ABOGADO INDEPENDIENTEÆÆÆÆÆÆÆÆ
+2|familia|CANCER DE UTERO: MADRE. niega antecedentes familiares,  de trastornos mentales,, en lo interrogado niega consumo de spa, en familiares cercanos, niega comportamientos suicidas, o suicidios en la familia, eventos cercanos al examen actual
+2|metodo|
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

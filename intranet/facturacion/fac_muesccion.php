@@ -1,10 +1,10 @@
 <html>
 <head>
-<title>PROGRAMA DE FACTURACIÓN</title>
+<title>PROGRAMA DE FACTURACIï¿½N</title>
 <link rel="stylesheet" href="css/style.css" type="text/css" />
 <script language='javascript'>
 function crear(iden_,cont_){    //fac_editmedinsxcon.php?iden_ctr=$row[iden_ctr]
-    if(confirm("Desea tomar la parametrización de otro ontrato, para el contrato "+cont_)){
+    if(confirm("Desea tomar la parametrizaciï¿½n de otro ontrato, para el contrato "+cont_)){
         //alert(iden_);
         //alert(cont_);
         window.open("fac_duplicaccion.php?iden_ctr="+iden_,"fr02");
@@ -47,8 +47,8 @@ $sql=mysql_query($sql);
 //include("php/paginator.inc.php"); 
 if(mysql_num_rows($sql)!=0) {
   echo "<table class='Tbl0'>";
-  echo "<th class='Th0' width='20%' colspan='10'>OPCIONES</th>
-        <th class='Th0' width='15%'>Número</th>
+  echo "<th class='Th0' width='20%' colspan='11'>OPCIONES</th>
+        <th class='Th0' width='15%'>Nï¿½mero</th>
 	<th class='Th0' width='15%'>Fecha Inicial</th>
 	<th class='Th0' width='15%'>Fecha Final</th>
 	<th class='Th0' width='15%'>Monto</th>
@@ -68,6 +68,7 @@ if(mysql_num_rows($sql)!=0) {
     echo "<td class='Td4'><a href='#' onclick='crear($row[iden_ctr],\"$row[nume_ctr]\")' title='Tomar Actividades Parametrizadas de Otro Contrato'><img src='icons/herra.gif' border='0' alt='Tomar Actividades Parametrizadas de Otro Contrato' width='18' height='18'></a></td>";
     echo "<td class='Td4'><a href='fac_impreccion.php?iden_ctr=$row[iden_ctr]' target='blank' title='Listar lo contratado'><img src='icons/feed_magnify.png' border='0' alt='Listar lo contratado'></a></td>";
     echo "<td class='Td4'><a href='fac_editavaloractiv.php?iden_ctr=$row[iden_ctr]&codi_con=\"$codi_con\"' title='Incrementar o Decrementar el Valor'><img src='icons/feed_porcentaje2.png' border='0' alt='Incrementar o Decrementar el Valor' width='17' height='17'></a></td>";
+    echo "<td class='Td4'><a href='fac_parametrizartarifas1.php?iden_ctr=$row[iden_ctr]&codi_con=$codi_con' title='Parametrizar desde un archivo plano'><img src='icons/pos.png' border='0' alt='Parametrizar desde un archivo plano' width='17' height='17'></a></td>";
     echo "<td class='Td2'>$row[nume_ctr]</td>";
     echo "<td class='Td2'>".cambiafechadmy($row[fini_ctr])."</td>";
     echo "<td class='Td2'>".cambiafechadmy($row[ffin_ctr])."</td>";
