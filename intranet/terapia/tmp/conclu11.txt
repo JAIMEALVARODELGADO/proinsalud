@@ -1,0 +1,11 @@
+estfisico_ccl|50
+clafuncional_ccl|51
+aptociru_ccl|S
+anestesia_ccl|52
+reserva_ccl|53
+premedica_ccl|54
+tprograma_ccl|H
+anotacion_ccl|56
+reevaluar_ccl|
+observa_ccl|57
+concent_ccl|S
