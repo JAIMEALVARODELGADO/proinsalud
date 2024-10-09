@@ -1,0 +1,11 @@
+2|person|patologicos: no farmacologicos: no traumaticos: no toxicos: no quirurgicos: pomeroy apendicectomia osteosintesis rodilla derecha alergicos: no sociales o personales. no refiere hospitalarios: no refiere psiquiatricos: no refiere vacunacion: completas nutricionales: no refiere actividad fisica: ningunaÆhabitos alimentacion balanceada,  frutas verduras, lacteos ,carbohidratos, carnes, pollo, lacteos, ensaladas, pescado, no fuma , no licor, no uso de sustancias psicoactivas, patron de sueño 8 horas diarias reparador, niega infeccion de transmision sexual, refiere tener buenas relaciones interpersonales y familiares, orientacion sexual: heterosexual PY  M  ENERO 2021  ÆÆ
+2|familia|ABUELOS: CA GASTRICO, PULMONAR -- MADRE: HTA, DIABETES MELLITUS, OSTEOPOROSIS -- TIA Y ABUELA MATERNA: ARTRITIS REUMATOIDE
+2|metodo|
+2|gineco|ginecologicos: fum 15/03/2023 ciclos mestruales irregulares  planificacion familiar pomeroy citologia 2020 normal SEGUN REFIERE,  menarquia 14 años sexarquia 19 añosÆ
+2|gestan|3
+2|partos|1
+2|cesareas|1
+2|abortos|1
+2|vivos|2
+2|mortinatos|0
+2|feulme|

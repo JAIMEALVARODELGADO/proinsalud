@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9998
+1|escolaridad|7613
+1|estadocivil|A702
+1|direccion|CONDOMINIO AGUALONGO BLOQUE 4 APTO 203
+1|tidoacu|CC
+1|nudoacu|59829842
+1|pnomacu|NANCY 
+1|snomacu|DEL SOCORRO 
+1|papeacu|ERASO 
+1|sapeacu|MELO 
+1|parenacu|MADRE
+1|direacu|MANZA 9 CASA 19 QUINTAS DE SANPEDRO 
+1|teleacu|3207160317
+1|muniacu|52001
+1|nommuniacu|PASTO (NARI&#65533;O)
+1|primera|1
+1|codciru|
+1|motivo|VALORACION PREANESTESICA
+1|enfeac|PACIENTE QUIEN ASISTE A VALORACION PREANESTESICA PARA REALIZACION DE EXODONCIA Y RETIRO DE DIENTE SUPERNUMERARIO SECUNDARIO A  DIENTE SUPERNUMERARIO 
+1|revisi|.
+1|informe|.
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

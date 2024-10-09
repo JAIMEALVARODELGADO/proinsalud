@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|BIOPSIA ADENOPATIA CERVICAL, COLGAJO PIEL PIERNA
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA;  14 AÑOS,  SEXAERCA:  18 AÑOS, ULTIMA CITOLOGIA: NINGUNA, CICLOS MENSTRUALES: IRREGULARES, FUM: 26/08/2023 YADEL
+2|gestan|1
+2|partos|0
+2|cesareas|0
+2|abortos|1
+2|vivos|0
+2|mortinatos|1
+2|feulme|2024-01-31

@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS: NIEGA, QURURGICO CESAREA, ALERGICOS NIEGA 
+2|familia|HTA Y DM 
+2|metodo|
+2|gineco|G3P2C1
+2|gestan|3
+2|partos|2
+2|cesareas|1
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

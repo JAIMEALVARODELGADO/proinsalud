@@ -1,0 +1,11 @@
+2|person|depresion 
+2|familia|no
+2|metodo|
+2|gineco|POMEROY 
+2|gestan|6
+2|partos|6
+2|cesareas|0
+2|abortos|0
+2|vivos|6
+2|mortinatos|0
+2|feulme|

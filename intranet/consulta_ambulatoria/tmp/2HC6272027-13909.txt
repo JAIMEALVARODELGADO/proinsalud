@@ -1,0 +1,11 @@
+2|person|MEDICOS::MIOPIA Y ASTIGMATISMO, OBESIDAD;OCUPACIONALES:ESTUDIANTE;TRAUMATICOS:NO REFIERE ; QUIRURGICOS: CESÁREA; TOXICO-: NIEGA, TRAUMATICOS: NIEGA. ALERGICOS:NIEGAS ;habitos nutricionales saludables, actividad fisica moderada, patron de sueño regular, Niega fobias, sociales o personales, no perdidas familiares actuales, Niega ser victima de violencia, fisica, sexual, emocional, psicologica, de genero, niega ser desplazado por la violencia o conflicto armado, no pertenece a etnias o grupos poblacionales especiales citologia 2019 normal. SE APLICA CUESTIONARIO 21-5-22 APGAR FAMILIAR 19/20 SRQ 3/20-----10--11-2023 ATENCION RIAS AL DIA ----
+2|familia|ABUELA PATERNA: DIABETES - TIA: LUPUS niega antecedentes familiares,  de trastornos mentales, niega antecedentes de hipoacusia o ceguera en familia, en lo interrogado niega consumo de spa, en familiares cercanos, niega comportamientos suicidas, o suicidios en la familia, eventos cercanos al examen actual 
+2|metodo|
+2|gineco|MENARCA: 14 AÑOS.sexarca 17 años, citologia: nunca, fum 17/02/2024  rh: o+, materno, cpn+ NUMERO 2 - RH PATERNO O+ . CITOLOGIA 12-5-22 NEGATIVA PARA LESION INTRAEPITELIAL FLORA SUGESTIVA DE VAGINOSOS BACTERIANA. PACIENTE HACE PARTE DEL PROGRAMA DE CRONICOS, MPF:no , ENSEGUIMEINTO POR P Y M 12/22. CICLOS REGULARES 5*28
+2|gestan|1
+2|partos|0
+2|cesareas|1
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

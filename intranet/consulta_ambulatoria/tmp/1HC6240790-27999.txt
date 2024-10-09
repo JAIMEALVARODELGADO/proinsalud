@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9997
+1|escolaridad|7603
+1|estadocivil|A702
+1|direccion|CARRERA 23 # 21-26 CENTRO
+1|tidoacu|CC
+1|nudoacu|59817386
+1|pnomacu|NO
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|\\\"
+1|enfeac|ÆÆÆÆ
+1|revisi|.
+1|informe|NINGUNO
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

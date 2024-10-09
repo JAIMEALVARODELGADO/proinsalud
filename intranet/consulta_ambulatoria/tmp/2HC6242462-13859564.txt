@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLELAP SIN COMPLICACIONES
+2|neofarmacos|METFORMINA EMPAGLIFOZINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|DIABETES MELLITUS
+2|gineco|NO
+2|gestan|4
+2|partos|4
+2|cesareas|0
+2|abortos|0
+2|vivos|4
+2|mortinatos|0
+2|feulme|

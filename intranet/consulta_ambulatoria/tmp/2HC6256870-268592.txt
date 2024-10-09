@@ -1,0 +1,11 @@
+2|person|patologicos: tendinitis en hombro derecho, quirurgicos: pomeroy, traumaticos: negativos, toxicos: fumadora pasiva, niega exposicion a toxicos, niega consumo de spa,  alergicos: negativos, farmacologicos: analgesicos ocasionales, estado civil u. libre ocupacion: docente, nov 5 2019, habitos nutricionales poco saludables, actividad fisica escasa, patron de sueño regular, Niega fobias, sociales o personales, no perdidas familiares actuales Niega ser victima de violencia, fisica, sexual, emocional, psicologica, de genero, niega ser desplazado por la violencia o conflicto armado, no pertenece a etnias o grupos poblacionales especiales 
+2|familia|tia materna: cancer hepatico, tia materna hipertension arterial diabetes mellitus, abuela materna diabetes mellitus, tia paterna: cancer gastrico, niega antecedentes familiares,  de trastornos mentales, en lo interrogado niega consumo de spa, en familiares cercanos, niega comportamientos suicidas, o suicidios en la familia, eventos cercanos al examen actual 
+2|metodo|
+2|gineco|menarca 11 años, sexarca 21 años, parejas sexuales # 4, citologia FEBRERO/2020,  negativa para malignidad, planificacion pomeroy 
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

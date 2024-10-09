@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A701
+1|direccion|MZ A CASA 15 REMANSOS DEL NORTE
+1|tidoacu|
+1|nudoacu|NO
+1|pnomacu|NO
+1|snomacu|NO
+1|papeacu|NO
+1|sapeacu|NO
+1|parenacu|NOP
+1|direacu|NO
+1|teleacu|NO
+1|muniacu|52001
+1|nommuniacu|PASTO (NARI&#65533;O)
+1|primera|1
+1|codciru|
+1|motivo|X
+1|enfeac|X
+1|revisi|DIUREUIS NORMALES BUEN APÉTITO 
+1|informe|NO REPORTA
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

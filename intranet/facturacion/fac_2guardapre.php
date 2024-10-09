@@ -6,7 +6,7 @@ session_register('iden_fac');
 if(empty($Gidusufac)){
   ?>
   <script language='javascript'>
-  alert("La sesion ha finalizado, porfavor ingrese nuevamente a la aplicación");
+  alert("La sesion ha finalizado, porfavor ingrese nuevamente a la aplicaciï¿½n");
   window.top.close();
   </script>
   <?
@@ -23,7 +23,7 @@ function cargafurips(idenfac_){
     //,_blank
 }
 </script>
-<title>PROGRAMA DE FACTURACIÓN</title>
+<title>PROGRAMA DE FACTURACIï¿½N</title>
 </head>
 <body>
 <form name="form1" method="POST" action="fac_2factupre.php" target='fr02'>
@@ -50,7 +50,7 @@ if (!empty($cod_cie10)){
 if ($existe==0){
   $guarda="INSERT  INTO encabezado_factura(iden_fac,nume_fac,pref_fac,tipo_fac,feci_fac,fecf_fac,rela_fac,codi_usu,codi_con,iden_ctr,cod_cie10,area_fac,vtot_fac, pcop_fac,vcop_fac,pdes_fac,cmod_fac,vnet_fac ,esta_fac,enti_fac,anul_fac,usua_fac,frea_fac,nauto_fac)
 		                                   VALUES(0,'','','$tipo_fac','$feci_fac','$fecf_fac','$rela_fac','$codi_usu','$enti','$iden_ctr','$cod_cie10','$servicio',0,0,0,0,0,0,'1','$enti_fac','N','$Gidusufac','$frea_fac','$nauto_fac')";
-  //echo $guarda;
+  echo $guarda;
   mysql_query($guarda);
   $iden_fac=mysql_insert_id();
   //echo "<br>Afectadas: ".mysql_affected_rows();
@@ -75,3 +75,4 @@ if ($existe==0){
 <?php
 }
 ?>
+

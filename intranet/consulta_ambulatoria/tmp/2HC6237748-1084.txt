@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA, CARDIOLOGIA DESCARTO PATOLOGIA CARDIACA POR DOLOR TORACICO Y AUTORIZA PROCEDIMIENTO DR ARMANDO CHAMORRO
+2|nuepulmonar|Negativo
+2|nuequirurgicos|Negativo
+2|neofarmacos|HCTZ LOSARTAN LEVOTIROXINA AMLODIPINO ASA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO
+2|gineco|menarca: 12 años, sexarca: 25 años, menopausia. 47 años, citolOGIA: 22 DICIEMBRES DEK 2018 NORMAL ATROFIA mAMOGRAFIA: 2017 SETIEMBRE  BIRADS 2 
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|1
+2|mortinatos|1
+2|feulme|

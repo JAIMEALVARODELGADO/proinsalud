@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7602
+1|estadocivil|A701
+1|direccion|LLORENTE
+1|tidoacu|CC
+1|nudoacu|27091079
+1|pnomacu|CARMEN 
+1|snomacu|LUZ 
+1|papeacu|RODRIGUEZ 
+1|sapeacu|
+1|parenacu|TIA
+1|direacu|CATAMBUCO 
+1|teleacu|3187155222
+1|muniacu|52001
+1|nommuniacu|PASTO (NARI&#65533;O)
+1|primera|1
+1|codciru|
+1|motivo|VALORACION PREANETESICA 
+1|enfeac|PACIENTE QUIEN ASISTE A VALORACION PREANESTESICA EN COMPAÑIA DE SU TIA  PARA REALIZACION DE  HIDROCELECTOMIA  IZQUIERDA SECUNDARIO HIDROCEDELE IZQUIERDO 
+1|revisi|.
+1|informe|SE INFORMA A TIA QUE SI NO SE ENCUENTRA PADRES DE MENOR NO SE REALIZARA PROCEDIMIENTO 
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

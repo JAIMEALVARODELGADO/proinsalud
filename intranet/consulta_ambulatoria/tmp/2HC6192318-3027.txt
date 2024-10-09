@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|LAPAROTOMIA, CESAREA 3
+2|neofarmacos|METFORMINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|PREDIABETES
+2|gineco|MENARQUIA 13 AÑOS  MENOPAUSIA  SECXARQUIA  15 AÑOS  MAMOGRAFIA    YA REALZIADA EN EL PROGRAMA DE  PYP  ALS 55 AÑOS REFEIRE    CITOLOGIA  ULTIMA  HCE UN AÑO  Y MEDIO  REFEIR QEU S REALZIARA PARTICULAR   
+2|gestan|4
+2|partos|0
+2|cesareas|3
+2|abortos|1
+2|vivos|3
+2|mortinatos|0
+2|feulme|

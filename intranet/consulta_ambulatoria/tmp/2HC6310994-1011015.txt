@@ -1,0 +1,11 @@
+2|person|PATOLOGICO: NIEGA, CX NIEGA, ALERGICOS NIEGA, ETS NIEGA 
+2|familia|NIEGA 
+2|metodo|
+2|gineco|G1P0 C1
+2|gestan|1
+2|partos|0
+2|cesareas|1
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

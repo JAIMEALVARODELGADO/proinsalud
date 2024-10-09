@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A702
+1|direccion|MZ A  casa 7      B/ Portal de la sabana
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|Consulta de primera vez 
+1|enfeac|-
+1|revisi|.
+1|informe|.Recuento de Leucocitos 3.71 x10e3/uL 3.70 -ÆÆ% Neutrofilos 61.4 % 39.3 -ÆÆ% Linfocitos 27.9 % 18.0 -ÆÆ% Monocitos 7.5 % 4.40 -ÆÆ% Eosinofilos 1.8 % 0.600 -ÆÆ% Basofilos 1.2 % 0.00 -ÆÆ# Neutrofilos 2.27 x10e3/uL 1.63 -ÆÆ# Linfocitos 1.04 x10e3/uL 1.09 -ÆÆ# Monocitos 0.28 x10e3/uL 0.240 -ÆÆ# Eosinofilos 0.07 x10e3/uL 0.030 -ÆÆ# Basofilos 0.04 x10e3/uL 0.00 -ÆÆRecuento de Eritrocitos 3.77 x10e3/uL 4.06 -ÆÆHemoglobina 10.5 g/dL 12.9 -ÆÆHematocrito 33.0 % 37.7 -ÆÆVolumen Corpuscular Medio 87.5 fL 81.1 -ÆÆHB Corspuscular Media 27.9 pg 27.0 -ÆÆConcentración HB Corpucular Media 31.8 g/dL 31.8 -ÆÆAncho Distribución Eritrocitaria 14.7 % 11.5 -ÆÆRecuento de Plaquetas 419 x10e3/uL 150 -ÆÆVolumen Plaquetario Medio 9.3 fL 6.90 -ÆÆAncho de Distribución Plaquetas 15.7 10(GSD) 0.00 -ÆÆPlaquetocrito 0.39 % 0.00 -ÆÆCOLESTEROL DE ALTA DENSIDAD - HDL 41.3 mg/dlÆÆ Hombres Mujeres FÆÆRiesgo Menor : > 50 > 60 mg/dl FÆÆRiesgo Normal : 35-50 45-60 mg/dl FÆÆRiesgo Elevado: < 35 < 45 mg/dl FÆÆFÆÆMuestra: Suero FÆÆTécnica: Colorimetrica FÆÆObservaciones TÆÆFÆÆCOLESTEROL DE BAJA DENSIDAD - LDL 126.6 mg/dlÆÆValor de Referencia: FÆÆHasta 150mg/dl FÆÆMuestra: Suero FÆÆTécnica: Colorimetrica FÆÆFÆÆColesterol VLDL mg/dl 10ÆÆIndice Arterial mg/dlÆÆFÆÆObservaciones TÆÆFÆÆCOLESTEROL TOTAL 223.3 mg/dlÆÆOptimo : Hasta 200 mg/dl FÆÆModerado: 200 - 239 mg/dl FÆÆElevado : > 240 mg/dl FÆÆMuestra: Suero FÆÆTécnica: Colorimetrica FÆÆFÆÆObservaciones TÆÆFÆÆGlucosa 100.0 mÆÆ
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

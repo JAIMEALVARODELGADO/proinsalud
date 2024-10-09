@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A702
+1|direccion|MZ 56 CS 1 CHAMBU II B/ Chambu II etapa
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|control
+1|enfeac|Paciente en seguimiento clinico por el servicio de Oncologia clinica por hallazgos imagenologicos de lesion tipo masa en region petrosa y masa con caracteristicas de tejido blando de etiologia neoplasica localizda en en amigdala lingual tiene estudios complementarios ** TAC DE CRAEO Y CUELLO SIMPLE 10-10-23 Lesion litica que compromete la porcion Petrosa del hueso Temporal clivus y hueso Occipital en su aspecto anterior y medial ,Imagen irregular de densidad de tejidos blandos centrada en la Amigdala Lingualde foramen Lateral y predominio derecho con extension al espacio Preepiglotico y Glotis con calcificaciones generan efecto de masa que disminuye el calibre de la Orofaringe**. 30-9-23 RNM COLUMNA SIMPLE: Datos de enfermedad degenerativa ** RNM CEREBRAL 13-10-23 Masa a nivel del angulo pontocerebeloso derecho de 34X24X17mm con realce intenso en Clivus , Mastoides, y Petrosa del Hueso Temporal derecho infiltrativa** RNM CUELLO 13-10-23 Imagen irrigular en Amigdala Lingual con extension al espacio Pre epiglotico y glotis. S realizo ademas estudio de PET CT 4-11-23 Documentando porcion petrosa del Hueso Temporal derecho y clivus de 38 mm SUV MAX 13.9, Engrosamiento nodular hipermetabolico en Nasofaringe Æ hacia la pared medial y paramedial derecha SUV MAX 6.4, Granuloma calcificado posterior basal en Torax, Incremento focal a nivel de Ileon Terminal SUV MAX 8.1 Sin alteracion morfologica. En valoracion previa se solicito Electroforesis de Proteinas en las cuales se documenta incremento anormal policlonal Cadenas livianas Kappa elevadas( 137.8).   Por parte de Hematologia SE SOCLITo  ESTUDIO COMPLEMENTARIOS PARA EVALUAR CAUSAS DE HIPERGAMMAGLOBULINEMIA POLICLONAL .REPORTES  
+1|revisi|A
+1|informe|ARecuento de Leucocitos 5.16 x10e3/uL 3.70 -ÆÆÆ% Neutrofilos 59.8 % 39.3 -ÆÆÆ% Linfocitos 29.5 % 18.0 -ÆÆÆ% Monocitos 6.6 % 4.40 -ÆÆÆ% Eosinofilos 3.5 % 0.600 -ÆÆÆ% Basofilos 0.6 % 0.00 -ÆÆÆ# Neutrofilos 3.09 x10e3/uL 1.63 -ÆÆÆ# Linfocitos 1.52 x10e3/uL 1.09 -ÆÆÆ# Monocitos 0.3 x10e3/uL 0.240 -ÆÆÆ# Eosinofilos 0.1 x10e3/uL 0.030 -ÆÆÆ# Basofilos 0.0 x10e3/uL 0.00 -ÆÆÆRecuento de Eritrocitos 4.60 x10e3/uL 4.06 -ÆÆÆHemoglobina 14.9 g/dL 12.9 -ÆÆÆHematocrito 47.4 % 37.7 -ÆÆÆVolumen Corpuscular Medio 103.1 fL 81.1 -ÆÆÆHB Corspuscular Media 32.4 pg 27.0 -ÆÆÆConcentración HB Corpucular Media 31.4 g/dL 31.8 -ÆÆÆAncho Distribución Eritrocitaria 12.8 % 11.5 -ÆÆÆRecuento de Plaquetas 166 x10e3/uL 150 -ÆÆÆVolumen Plaquetario Medio 11.7 fL 6.90 -ÆÆÆAncho de Distribución Plaquetas 16.3 10(GSD) 0.00 -ÆÆÆPlaquetocrito 0.195 % 0.00 -ÆÆÆBILIRRUBINAS QÆÆÆFÆÆÆBilirrubina Total: 1.1 mg/dl Hasta 1.1ÆÆÆRecien Nacidos a Termino: FÆÆÆHasta 1.1 mg/dl FÆÆÆHasta las 48 Hs: 7.5 mg/dl FÆÆÆDe 3 a 5 días : 12.0 mg/dl FÆÆÆFÆÆÆBilirrubina Directa: 0.4 mg/dl Hasta 0.25ÆÆÆHasta: 0.25 mg/dl FÆÆÆBilirrubina Indirecta: 0.70 mg/dl Hasta 0.85ÆÆÆHasta 0.85 mg/dl FÆÆÆFÆÆÆ
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

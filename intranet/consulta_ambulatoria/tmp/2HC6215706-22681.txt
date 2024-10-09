@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|APENDICECTOMIA, CESAREA 3, POMEROY 
+2|neofarmacos|EMPAGLIFOZINA/ METFORMINA  12.5MG MAS 1000 MG CADA 12 HORAS, INSULINA  DEGLUDEC 35 U CADA NOCHE, PREGABALINA 75 MG CADA DIA,  ROSUVASTATINA 20 MG CADA DIA,  ESOMEPRAZOL 20 MG CADA DIA, 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|DMT, HERNIA DISCAL 
+2|gineco|MENARQUIA 12 AÑOS   citologia en marzo de 2014 normal     mamografia 2021 NORMAL (NO APORTA RESULTADO) FUM 45 AÑOS
+2|gestan|6
+2|partos|0
+2|cesareas|3
+2|abortos|3
+2|vivos|3
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,11 @@
+2|person|patologicos hipoglicemia                             alergicos negativos                                  quirurgicos colecistectomia pomeroy                            traumaticos negativos                        no fuma                 no ingesta de licor--POMEROY- 
+2|familia|mama hipertensa. HERMANA CON GLAUCOMA. 
+2|metodo|NA-
+2|gineco|MENARQUIA 14 AÑOS      citologia 11 de febrero de 2016 normal                pomeroy, FUM 14/06/21,        CCV 06/2019 NEGATIVA     FUM 16/05/2022
+2|gestan|2
+2|partos|1
+2|cesareas|1
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

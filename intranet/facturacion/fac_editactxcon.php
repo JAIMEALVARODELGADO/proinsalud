@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>PROGRAMA DE FACTURACIÓN</title>
+<title>PROGRAMA DE FACTURACIï¿½N</title>
 <link rel="stylesheet" href="css/style.css" type="text/css" />
 <script language='javascript'>
 function val_activa(estado_,activ_,iden_tco){
@@ -50,7 +50,7 @@ function validatip(scla_,codscl_){
   eval(cadena);
 }
 function validaelim(){
-  if(confirm("Recuerde: Si la actividad ya está facturada, no se eliminará\nDesea eliminar las actividades seleccionadas")){
+  if(confirm("Recuerde: Si la actividad ya estï¿½ facturada, no se eliminarï¿½\nDesea eliminar las actividades seleccionadas")){
     form1.control.value='2';
     form1.action="fac_geditactxcon.php";
     form1.submit();
@@ -120,9 +120,9 @@ echo "</table>";
 echo "<table class='Tbl0'><tr><td class='Td0' align='center'>EDICION DE ACTIVIDADES DEL CONTRATO</td></tr></table>";
 
 echo "<table class='Tbl0'><tr>";
-echo "<td class='Td0' width='10%' align='right'>Código:</td>";
+echo "<td class='Td0' width='10%' align='right'>Cï¿½digo:</td>";
 echo "<td class='Td0' width='15%' align='left'><input type='text' name='codigo' size='15' maxlength='15' value='$codigo'></td>";
-echo "<td class='Td0' width='15%' align='right'>Descripción:</td>";
+echo "<td class='Td0' width='15%' align='right'>Descripciï¿½n:</td>";
 echo "<td class='Td0' width='20%' align='left'><input type='text' name='descrip' size='20' maxlength='50' value='$descrip'></td>";
 echo "<td class='Td0' width='15%' align='right'>Clase de actividad:</td>";
 echo "<td class='Td0' width='25%'><select name='sclase'><option value=''>Todas";

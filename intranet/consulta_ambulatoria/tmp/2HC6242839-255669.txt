@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RESECCION DE QUISTE OVARIO IZQUIERDO,  POMEROY CESAREA 1
+2|neofarmacos|ESOMEPRAZOL 40 MG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|GASTRITIS CRONICA 
+2|gineco|menarquia 13 años CITOLOGIA 17/03/2022: NEGATIVA PARA LESION INTRAEPITELIAL. SIN OTROS HALLAZGOS. 
+2|gestan|2
+2|partos|1
+2|cesareas|1
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

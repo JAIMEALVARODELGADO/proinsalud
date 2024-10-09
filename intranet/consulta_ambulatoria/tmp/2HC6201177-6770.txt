@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|Negativo
+2|neofarmacos|GALVUS MET CADA 12 HORAS,  LEVOTIROXINA 50 MCG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|DMT II, HIPOTIROIDISMO 
+2|gineco|MENARQUIA:,13 AÑOS, MENOPAUSIA 50 AÑOS FECHA DE ULTIMA CITOLOGIA: 17/03/2022. MUESTRA SATISFACTORIA, ZONA DE TRANSICION PRESENTE, NEGATIVA PRA MALIGNIDAD. FLORA SUGESTIVA DE VAGINOSIS BACTERIANA. ATROFIA SEVERA. 
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

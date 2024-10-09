@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|Negativo
+2|neofarmacos|LOSARTAN 50 MG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA: 13 AÑOS.   MENOPAUSIA: 54 AÑOS. CITOLOGIA VAGINAL: DICIEMBRE DEL 2022 NORMAL.,  MAMOGRAFIA: 29/05/2023 BI-RADS 1. 
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

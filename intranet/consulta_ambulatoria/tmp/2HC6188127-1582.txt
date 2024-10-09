@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA 3, POMEROY, APENDICECTOMIA, OSTEOSINTESIS  DE RADIO IZQUIERDO 
+2|neofarmacos|LEVOTIROXINA 75 MCG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO 
+2|gineco|menarca 12 años cicloe reguelares 4 días citologix vaginal:  hace 1 año normal. 
+2|gestan|3
+2|partos|0
+2|cesareas|3
+2|abortos|00
+2|vivos|3
+2|mortinatos|0
+2|feulme|

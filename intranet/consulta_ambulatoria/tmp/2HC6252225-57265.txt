@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|TIMPANOPLASTIA DERECHA, OSTEOSINTESIS DE TIBIA Y PERONE DERECHO, OSTEOSINBTESIS DE RADIO DERECHO, CORRECCION DE HALLUX VALGUS BILATERAL 
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|menarca: 14 años sexarca: 19 años menopausia: 48 años, citologia, refiere ya tomada no hay reporte, mamografia junio 2019, bi rads 1, JULIO 2021 MAMOGRAFIA BIRADS 0 ECOGRAFIA BIRADS 2 QUISTES SIMPLES MAMARIOS DERECHOS. MAMOGRAFÍA 16-11-2022: NEGATIVA PARA PROCESO EVOLUTIVO MALIGNO, CATEGORÍA 1 DE LA CLASIFICACIÓN BI-RADS.
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

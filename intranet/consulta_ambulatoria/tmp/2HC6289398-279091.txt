@@ -1,0 +1,11 @@
+2|person|patologicos: sinusitis cronica, rinitis, migraña, gastritis cronica, enfermedad hemorroidal, pre diabetes, dislipidemia  // quirurgicos: pomeroy  traumaticos: negativos, toxicos: negativos, niega consumo de spa, niega exposicion a toxicos, alergicos: negativos, farmacologicos: METFORMINA (SUSPENDIDA), s, ocupacion: docente, estado civil divorciada, religion: catolica, esquema de vacunacion covid #3, mayo 7 2022 Niega ser victima de violencia, fisica, sexual, emocional, psicologica, de genero, niega ser desplazado por la violencia o conflicto armado, no pertenece a etnias o grupos poblacionales especiales habitos nutricionales saludables, actividad fisica moderada, patron de sueño regular, Niega fobias, sociales o personales,  no perdidas familiares actuales, *** ESQUEMA DE VACUNACION COVID 19  ,PFIZER 2 DOSIS, ASTRAZENECA 1 DOSIS ****- PSICOLOGIA 26-11-2021, ODONTOLOGIA 18-02-2021. otros antecedentes ya tomados en consultas previas PY M  MAYO  2022 
+2|familia|madre leucemia, abuela materna diabetes mellitus, niega antecedentes familiares,  de trastornos mentales, en lo interrogado niega consumo de spa, en familiares cercanos, niega comportamientos suicidas, o suicidos en la familia, eventos cercanos al examen actual 
+2|metodo|
+2|gineco|menarca 14 años, sexarca 17 años, CITOLOGIA FEBRERO DE 2020 negativa para lesion intraepitelial o malignidad. se entrega orden ya tomada, planificacion pomeroy. CICLOS REGULARES, CITOLOGIA 07-2021 NORMAL SEGUN PACIENTE . *** ASISTIO A PROGRAMA DE P. Y M. POR ADULTEZ MAYO/22 *** 
+2|gestan|1
+2|partos|1
+2|cesareas|0
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

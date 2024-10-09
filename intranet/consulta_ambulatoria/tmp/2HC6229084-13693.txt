@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS: ESCLERODERMIA-FIBROSIS PULMONAR SINUSITIS, SD SJOGREN-HIPORITOIDISMO-- FARMACOLOGICOS:DEPENICILAMINA, CICLOSPORINA, LEVOTIROXINA, VITAMINA D-LANSOPRAZOL. QX: CROSSLINKING 2019. CAPSULOTOMIA OJO DERECHO. PSEUDOFAQUIA AMBOS OJOS. PERFORACION OCULAR?? py  m  feb  2022  , FARMACOLOGICOS PREGABALINA 75 MG CADA 8 HORAS, BUPRENORFINA 10 MCG/H
+2|familia|NO REFIRE OCULARES.
+2|metodo|
+2|gineco|menarca 14 años, sexarca: 17 años, menopausia 45 años, citologia: julio 2020 atrofia negativa para malignidad, mamografia nov 2020, bi rads 2,  densitometria nov 2019, osteopenia
+2|gestan|4
+2|partos|1
+2|cesareas|2
+2|abortos|1
+2|vivos|3
+2|mortinatos|1
+2|feulme|

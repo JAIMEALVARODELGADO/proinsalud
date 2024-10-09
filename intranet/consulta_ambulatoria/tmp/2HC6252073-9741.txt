@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|LEGRADO, OSTEOSISNTESIS DE CODO DERECHO
+2|neofarmacos|LOSARTAN 1OO MG
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARCA: 17 AÑOS SEXARCA: 19 AÑOS ULTIMA CITOLOGIA: HACE DOS AÑOS CON RESULTADO NORMAL - ULTIMA MAMOGRAFIA: 
+2|gestan|4
+2|partos|3
+2|cesareas|0
+2|abortos|1
+2|vivos|3
+2|mortinatos|0
+2|feulme|

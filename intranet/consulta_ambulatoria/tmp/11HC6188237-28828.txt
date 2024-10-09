@@ -1,0 +1,8 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A702
+1|direccion|CALLE 3A NO. 12A-57
+1|subjetivo|\"  control    de  colon  \"
+1|objetivo|pacient e con    sindrome de  colon irritbale     refier e contipacin  
+1|analisis|

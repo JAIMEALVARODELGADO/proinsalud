@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA 2, LAPÁROTMIA POR PERITONITIS, POMEROY, HERNIORRAFIA UMBILICAL EPIGASTRICA, COLELAP
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|URTICARIA
+2|gineco|MENARQUIA: 13 AÑOS, SEXARCA: 19 AÑOS, NUMERO DE COMPAÑEROS SEXUALES: 3, NIEGA ENFERMEDADES DE TRANSMISIÓN SEXUAL. SE OFERTA PRUEBA VOLUNTARIA PARA VIH PACIENTE ACEPTA POR LO QUE FIRMA CONSENTIMIENTO INFORMADO, citologia: nov 2022 negativa para malignidad,  planificacion pomeroy
+2|gestan|2
+2|partos|0
+2|cesareas|2
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|2024-04-23

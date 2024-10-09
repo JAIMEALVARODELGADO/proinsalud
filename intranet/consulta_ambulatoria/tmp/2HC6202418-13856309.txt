@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|Negativo
+2|neofarmacos|METFOMINA, INSULINA GLARGINA 36 U AM, VIDAGLIPTINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|DM TIPO 2
+2|gineco|MENARCA 13 AÑOS.  
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

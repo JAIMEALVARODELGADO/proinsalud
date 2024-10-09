@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|LIGADURA VARICES ESOFAGICAS
+2|neofarmacos|RETROVIRALES, CARVEDILOL, ESPIRONOLACTONA
+2|nuetoxico|TRANFUSION PLAQUETAS Y PLASMA FRESCO CONGELADO
+2|neotransfin|Negativo
+2|neootros|VARICES ESOFAGICAS, HIV, CIRROSIS HEPATICA, GASTRITIS
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

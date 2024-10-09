@@ -1,0 +1,11 @@
+2|person|P atologicos : gastritis cronica, atrofica,   laringitis crónica. rinitis, DISCOPATIA.   Farmacologicos: niega. Qirurugicos:   colecistectomía. hemorroidectomia #2,  Trauma: negativo.  Toxicos :  Extabaquismo hasta los 61 años 4 pauetes año.  ---05-06-2023ATENCION RIAS AL DIA ---
+2|familia|Hermano con cancer  gástrico. a los 60 años  madre hipertensa. 
+2|metodo|
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|2320
+1|escolaridad|7613
+1|estadocivil|A701
+1|direccion|Cra 22B No. 5sur 21 Ap 806E B/ Balcones de San Jua
+1|tidoacu|
+1|nudoacu|NO
+1|pnomacu|,
+1|snomacu|NO
+1|papeacu|H
+1|sapeacu|NO
+1|parenacu|NO
+1|direacu|NO
+1|teleacu|NO
+1|muniacu|
+1|nommuniacu|NO
+1|primera|1
+1|codciru|
+1|motivo|,
+1|enfeac|,
+1|revisi|,
+1|informe|,
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

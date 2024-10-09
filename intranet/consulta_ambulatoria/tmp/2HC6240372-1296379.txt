@@ -1,0 +1,11 @@
+2|person|Patológicos: DM, IRC, hipotiroidismo, pérdida de peso en estudio, dislipidemia
+2|familia|Hermana leucemia, hermana linfoma, abuela materna ca de seno, abuela paterna ca cérvix. Hermano HTA, ------ EN LA   FAM,ILIA  NO HAY ANTEEDETNE DE  INTENTOS DE  SUIICIDIO
+2|metodo|
+2|gineco|G2P2V2 
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

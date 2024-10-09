@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA 1,  HISTERECTOMIA  ABOMINAL  TOTAL, COLELAP 
+2|neofarmacos|LEVOTIROXINA 50 MCG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO 
+2|gineco|MENARCA: 14  ciclos regulraes 28*5; CITOLOGIA:  1 DE MARZO DEL 2021 NEGATIVA PARA MALIGNIDAD -- MAMOGRAFIA JULIO/22: NEGATIVA PARA LESIONES BIRADS 1 (RECOMIENDA CONTROL MAMOGRAFICO AL AÑO)  *** VALORADA EN PROGRAMA DE P. Y M. EN JUNIO/22 *** 
+2|gestan|1
+2|partos|0
+2|cesareas|1
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

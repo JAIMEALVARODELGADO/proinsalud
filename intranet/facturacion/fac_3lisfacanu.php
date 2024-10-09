@@ -66,6 +66,14 @@ ventana= window.open(URL,titulo,"left="+x+",top="+y+",width="+ancho+",height="+a
  if(!ISSET($registros)){$registros=200;}
 	include('php/conexion.php');
 	//$condicion="ef.anul_fac =' ' AND ";
+
+  $consultafecha = "SELECT fechainifactura FROM empresa";
+  $consultafecha = mysql_query($consultafecha);
+  $rowfecha = mysql_fetch_array($consultafecha);
+  $fechainifactura = $rowfecha['fechainifactura'];
+
+  //echo "<br>".$fechainifactura;
+
 	$condicion="ef.esta_fac<>'3' AND ";
 	if(!empty($cod_usu)){
 	  $condicion=$condicion."usuario.NROD_USU='$cod_usu' AND ";}
@@ -87,22 +95,24 @@ ventana= window.open(URL,titulo,"left="+x+",top="+y+",width="+ancho+",height="+a
 	  $condicion=$condicion."ef.id_ing='$ingreso' AND ";}          
 	if($fabierta=='on'){
 	  $condicion=$condicion."ef.nume_fac='' AND ";
+    if(empty($fech_ini) AND empty($fech_fin)){
+      //$fech_ini=cambiafecha($fech_ini);
+      $condicion=$condicion."ef.feci_fac>='$fechainifactura' AND ";
+    }
 	}
 	if(!empty($condicion)){
 	  $condicion=substr($condicion,0,(strlen($condicion)-5));}
 	if(empty($orden)){
-	  $orden='nrod_usu';
+	  //$orden='nrod_usu';
+    $orden='feci_fac';
 	}
-        /*$_pagi_sql="SELECT ef.iden_fac,ef.rela_fac,ef.fcie_fac,ef.feci_fac,ef.fecf_fac,ef.codi_usu,ef.pref_fac,ef.nume_fac,ef.iden_ctr,ef.esta_fac,ef.anul_fac,
-            contrato.CODI_CON,contrato.NEPS_CON,contratacion.nume_ctr,
-            usuario.NROD_USU,usuario.PNOM_USU,usuario.SNOM_USU,usuario.PAPE_USU,usuario.SAPE_USU             
-            FROM ((encabezado_factura AS ef INNER JOIN contratacion ON ef.iden_ctr = contratacion.iden_ctr) INNER JOIN contrato ON contratacion.codi_con = contrato.CODI_CON) INNER JOIN usuario ON ef.codi_usu = usuario.CODI_USU ";*/
-        $_pagi_sql="SELECT ef.iden_fac,ef.id_ing,ef.rela_fac,ef.fcie_fac,ef.feci_fac,ef.fecf_fac,ef.codi_usu,ef.codi_con,ef.pref_fac,ef.nume_fac,ef.iden_ctr,ef.esta_fac,ef.anul_fac,
+  $_pagi_sql="SELECT ef.iden_fac,ef.id_ing,ef.rela_fac,ef.fcie_fac,ef.feci_fac,ef.fecf_fac,ef.codi_usu,ef.codi_con,ef.pref_fac,ef.nume_fac,ef.iden_ctr,ef.esta_fac,ef.anul_fac,
             usuario.NROD_USU,usuario.PNOM_USU,usuario.SNOM_USU,usuario.PAPE_USU,usuario.SAPE_USU,
-            contrato.CODI_CON,contrato.NEPS_CON
+            contrato.CODI_CON,contrato.NEPS_CON,cut.nomb_usua
             FROM encabezado_factura AS ef 
             INNER JOIN usuario ON ef.codi_usu = usuario.CODI_USU
-            INNER JOIN contrato ON ef.codi_con = contrato.CODI_CON ";
+            INNER JOIN contrato ON ef.codi_con = contrato.CODI_CON
+            LEFT JOIN general.cut cut ON cut.ide_usua = ef.usua_fac ";
 	if(!empty($condicion)){
             $_pagi_sql=$_pagi_sql."WHERE $condicion ORDER BY $orden LIMIT $registros";
         }
@@ -130,7 +140,8 @@ ventana= window.open(URL,titulo,"left="+x+",top="+y+",width="+ancho+",height="+a
       <th class='Th0'><a href='#' onclick=abrir('feci_fac')>F.INI</a></th>
       <th class='Th0'><a href='#' onclick=abrir('fecf_fac')>F.FIN</a></th>
       <th class='Th0'><a href='#' onclick=abrir('fcie_fac')>FECHA</a></th>
-      <th class='Th0'>ESTADO</th>";
+      <th class='Th0'>ESTADO</th>
+      <th class='Th0'>FACTURADOR</th>";
 		 while($row=mysql_fetch_array($_pagi_sql)){      
                      $fecf_fac=cambiafechadmy($row[fecf_fac]);                     
                      echo "<tr>";
@@ -191,6 +202,7 @@ ventana= window.open(URL,titulo,"left="+x+",top="+y+",width="+ancho+",height="+a
                         $colorest='#ff0033';
                       }
                       echo "<td class='Td2'><font color='$colorest'>$estado</font></td>";
+                      echo "<td class='Td2'>$row[nomb_usua]</td>";
                       echo"</tr>";		 
 		}
 		echo "<table class='Tbl2'>";

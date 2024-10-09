@@ -1,0 +1,11 @@
+2|person|Patologicos: DM tipo 2. Farmacologicos: niega. Quriurgicos: manguito rotador derecho. Alergicos: niega. Toxicos: niega. 
+2|familia|NO REFIERE
+2|metodo|NA-
+2|gineco|MENOPAUISA 45 AÑOS G3P3V3A0- MAMOGRAFIA NO RECEUNRDA LA FECHA 
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

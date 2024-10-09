@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS:DISLIPIDEMIA;hta:NO;etir:NO;epilepsia:NO;asma:NO;patologicos:NO;quirurgicos:NO;tromboembolicos:NO;traumaticos:NO;toxicos:NO;habitos de riesgo, otros:NO;/// NIEGA MALTRATO SEXUAL, FISICO O PSICOLOGICO// NIEGA DESPLAZAMENTO FOSOZO O POR GRUPOS ARMADOS// NIEGA EXPOSICION A HUMO D ELEÑA O DE CIGARRILLO// NIEGA ALGUN TIPO DE VIOLENCIA/// NIEGA CONSUMO DE SUSTACIAS PSICOACTIVAS O DE CIGARRILLO// 
+2|familia|Hta:NO;Diabetes:NO;Cardiopatias:NO;Infecciosas:NO;Congenitas:NO;Turbeculosis:NO;Transt:NO;Neoplasias:NO; NIEGA VIOLENCIA O DESPLZAMENTO POR CONFLICTOS ARMADOS, NIEGA CONSUMO DELICOR , TABACO O SUSTANCIAS PSICOACTIVAS. NIEGA , niega violencia o abuso sexual, físico, psicológico o sustancias psicoactivas
+2|metodo|NJO-
+2|gineco|MENARQUIA: 11 AÑOS. SEXARCA: 19 AÑOS. NO PLANIFICA. CITOLOGIA NOVIEMBRE 2019 NEGATIVA PARA MALIGNIDAD
+2|gestan|3
+2|partos|2
+2|cesareas|0
+2|abortos|1
+2|vivos|2
+2|mortinatos|0
+2|feulme|

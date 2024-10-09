@@ -1,0 +1,15 @@
+2|nuecardiovasculares|.
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RTR DERECHA, HISTERECTOMIA ABDOMINAL TOTAL, COLECISTECTOMIA ABIERTA 
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQIA A LOS 12  AÑOS DE CICLOS  REGULARES  POR  3 DIAS - CITOLOGIA VAGINALY MAMOGRAFIA: PACIENTE YA  NO TIENE RANGO DE EDAD PARA CONTINUAR TAMIZAJES CA DE MAMA Y CUELLO UTERINO. *** VALORADA EN PROGRAMA DE P. Y M. POR VEJEZ EN SEP/22 (76 AÑOS) *** 
+2|gestan|0
+2|partos|0
+2|cesareas|0
+2|abortos|0
+2|vivos|0
+2|mortinatos|x
+2|feulme|

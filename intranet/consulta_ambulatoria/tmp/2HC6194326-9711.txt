@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|POMEROY HERNIORRAFIA UMBILICAL HISTERECTOMIA SIN COMPLICAICONES ANESTESICAS
+2|neofarmacos|LOSARTAN HCTZDA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|.G2P2     CITOLOGIA VAGINAL 25/08/2022 SATISFACTORIA NEGATIVA ENDOCERVICAL AUSENTE POR HISTERECTOMIA, INFLAMACION PRESSENCIA DE ATROFIA,  DEL DIA 02/09/2022 MAMOGRAFIA NEGATIVA PARA LESIONES, BI RADS I. 
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

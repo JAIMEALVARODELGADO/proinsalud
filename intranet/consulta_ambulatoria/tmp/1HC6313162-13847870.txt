@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A704
+1|direccion|Aquine 2 casa 48
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|.
+1|enfeac|PACIENTE ACUDE A CONTROL CON RESULTADO DE ECOGRAFIA DE ABDOMEN TOTAL 
+1|revisi|.
+1|informe|INFORME DE ECOGRAFIA DE ABDOMEN TOTAL 24.04.24: Examen realizado vía transabdominal con transductor convexo de 3.5 MHz Hallazgos: Hígado de forma, tamaño y ecogenicidad normales, sin lesiones focales o difusas en su interior. Vías biliares intra y extrahepáticas de calibre normal. Vesícula biliar distendida, de paredes delgadas, con presencia de tres imágenes polipoideas, hacia cara anterior que miden 1.6 mm, 2.8 mm y 2.9 mm, no observando imágenes de litiasis a pesar de cambios de posición de paciente. Páncreas y retroperitoneo sin alteraciones Bazo de forma, tamaño y ecogenicidad normales, sin lesiones focales o difusas en su interior. Riñones de forma, tamaño y ecogenicidad normales, se observa calcificación gruesa en el parénquima renal izquierdo hacia cara anterior de 7 mm de diámetro. No se observan cálculos mayores de 4 mm o signos de hidronefrosis. Vejiga adecuadamente distendida de paredes delgadas sin imágenes en su interior. Próstata ligeramente aumentada de tamaño, de morfología y contornos regulares, con ecoestructura heterogénea dada la presencia de gruesa calcificación en zona transicional derecha de 6 x 5 mm. Próstata mide 31 x 51 x 30 mm volumen 25 cc No se observa líquido libre en cavidad abdominal. Opinión: Pólipos intra vesiculares. Calcificación del parénquima renal izquierdo. Crecimiento prostático Grado I con gruesa calcificación en zona transicional derecha de probable etiología benigna
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

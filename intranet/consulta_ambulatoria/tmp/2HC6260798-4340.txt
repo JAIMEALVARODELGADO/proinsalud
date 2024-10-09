@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|POMEROY, COLECISTECTOMIA, 
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|ARTROSIS
+2|gineco|POMEROY, MAMOGRAFIA 13-10-2021: NEGATIVA PARA MALIGNIDAD, BI-RADS 2 - CITOLOGIA 12-10-021: NEGATIVA PARA MALIGNIDAD ÆÆMUJERÆÆ
+2|gestan|3
+2|partos|2
+2|cesareas|1
+2|abortos|0
+2|vivos|3
+2|mortinatos|3
+2|feulme|

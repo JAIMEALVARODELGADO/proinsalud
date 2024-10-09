@@ -1,0 +1,24 @@
+5|claseorden|1
+5|codorden|901230
+5|desorden|901230 - MYCOBACTERIUM TUBERCULOSIS CULTIVO (S) 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|A154
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|908873
+5|desorden|908873 - MYCOBACTERIUM TUBERCULOSIS IDENTIFICACION POR PRUEBAS MOLECULARES (ESPECIFICO) (S) 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|A154
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|908885
+5|desorden|908885 - MYCOBACTERIUM TUBERCULOSIS PRUEBAS DE SENSIBILIDAD POR PRUEBAS MOLECULARES (ESPECIFICO) (S) 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|A154
+5|cantorden|1
+5|cama|

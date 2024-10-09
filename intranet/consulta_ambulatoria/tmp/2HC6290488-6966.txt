@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HISTERECTOMIA ABDOMINAL TOTAL, TIMPANOPLATIA OD 
+2|neofarmacos|GAVUS MET CADA 12 HORAS, LOVASTATINA 20 MG CADA DIA 
+2|nuetoxico|PLASIL 
+2|neotransfin|Negativo
+2|neootros|DMT II 
+2|gineco|MENARCA: 11 AÑOS SEXARCA: 20 AÑOS MENOPAUSIA : 48 AÑOS  NO CANDIDATA PARA TAMIZAJES PACIENT HISTERECTOMIZADA POR CANCER DE ENDOMETRIO
+2|gestan|5
+2|partos|3
+2|cesareas|0
+2|abortos|2
+2|vivos|3
+2|mortinatos|2
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|LITOTRIPSIA RENAL, ARTROSCOPIA RODILLA IZUIQERDA
+2|neofarmacos|PREPNISOLONA, DICLOFENAC, METROTEXATO
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|ARTRITIS
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

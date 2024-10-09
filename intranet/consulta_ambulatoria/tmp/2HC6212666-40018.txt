@@ -1,0 +1,11 @@
+2|person|HTA, HIDROCLOROTIAZIDA 25 MG DIA, LOSARTAN 50 MG CDA 12 HORAS, ASA 100 MG DIA
+2|familia|NO REFIERE
+2|metodo|
+2|gineco|MENARQUIA A LOS 14 AÑOS, MENOPAUSIA A LOS 45 AÑOS
+2|gestan|5
+2|partos|5
+2|cesareas|0
+2|abortos|0
+2|vivos|5
+2|mortinatos|0
+2|feulme|

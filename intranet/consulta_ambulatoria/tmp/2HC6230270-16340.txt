@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA TOLERANCIA A LA GLUCOSA ALTERADA DISLIPEMIA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA , POLIPECTOMIA, ENDOSCOPICA SIN COMPLICACIONES 
+2|neofarmacos|METFORMINA 850 MG CADA DIA ROSUVASTATINA 20  MG CADA DIA LOSARTAN 50 MG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|menarca: 11 años, sexarca: 27 años, parejas sexuales #1, menopausia: 45 años, citologia: feb 2019, atrofia negativo para malingidad, MAMOGRAFIA 22/12/2017: BIRADS 1  NORMAL  , CITOLOGIA 07/02/2019  ATROFIA  MAMOGRAFIA DEL 15/02/22 BIRADS 2 NORMA CITOLOGIA  ACTUALZIADAS  NINGUNA  L 
+2|gestan|4
+2|partos|2
+2|cesareas|1
+2|abortos|1
+2|vivos|3
+2|mortinatos|0
+2|feulme|

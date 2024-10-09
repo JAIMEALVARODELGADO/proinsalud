@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CORRECION DE CATARATAS BILATERAL 
+2|neofarmacos|INSULINA DEGLUDET 10 U PM, VILDAGLIPTINA 50 MG  CADA 12 HORAS, PREGABALINA 75 CADA 12 HORAS, COLESTIRAMINA 1 SOBRE CADA 12 HORAS , LEVOTIROXINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|POLINEUROPATIA DMT II, HIPOTIROIDISMO, ANSIEDAD DEPRESION
+2|gineco|menarca 11 años, sexarca: 20 años, parejas sexuales #2, citologia: abril 2023 refiere normal, planificacion aco, niega antecedente de depresion postparto, 
+2|gestan|1
+2|partos|1
+2|cesareas|0
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|2024-04-16

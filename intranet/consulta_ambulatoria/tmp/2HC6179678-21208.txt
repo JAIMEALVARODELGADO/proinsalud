@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|TIROIDECTOMIA, COLECISTECTOMIA, NISSEN
+2|neofarmacos|LEVOTIROXINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|METAPLASIA INTESTINAL, HIPOTIROIDISMO
+2|gineco|MENARQUIA: 12 AÑOS. FUM: 48 AÑOS. NO PLANIFICA, CITOLOGIA ANUAL NEGATIVA PARA MALIGNIDAD, POENDIENTE TOMA ESTE AÑO. MAMOGRAFIA HACE 2 AÑOS 21/10/2019 CATEGORIA 1
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

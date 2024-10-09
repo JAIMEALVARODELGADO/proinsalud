@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA 1 APENDCICETOMIA 
+2|neofarmacos|ATORVASTATINA 20 MG CADA DIA 
+2|nuetoxico|TRAMADOL 
+2|neotransfin|Negativo
+2|neootros|DISLIPIDEMIA 
+2|gineco|MENARQUIA: 13 AÑOS  / MENOPAUSIA 54 AÑOS / ULTIMA CITOLOGIA HACE 3 AÑOS NORMAL SEGUN REFIOERRE ULTIMA MAMOGRAFIA NO RECUERADA. PACIENTE HACE PARTE DE CRONICOS, VAÑLORADA POR PYM 17-12-2020. 
+2|gestan|4
+2|partos|2
+2|cesareas|1
+2|abortos|1
+2|vivos|3
+2|mortinatos|0
+2|feulme|

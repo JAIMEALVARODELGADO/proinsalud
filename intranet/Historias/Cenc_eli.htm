@@ -1,0 +1,164 @@
+<html>
+<head><title>V</title>
+<SCRIPT LANGUAGE=JavaScript>
+  function carga(page2) {
+    parent.Frm2.location.href=page2;
+  }
+</SCRIPT>
+
+<SCRIPT LANGUAGE=JavaScript>
+  function carga1(page2) {
+    parent.Frm3.location.href=page2;
+  }
+</SCRIPT>
+
+
+<!-Hoja de estilos del calendario --> 
+  <link rel="stylesheet" type="text/css" media="all" href="java/calendar/calendar-green.css" title="win2k-cold-1" /> 
+
+  <!-- librería principal del calendario --> 
+ <script type="text/javascript" src="java/calendar/calendar.js"></script> 
+
+ <!-- librería para cargar el lenguaje deseado --> 
+  <script type="text/javascript" src="java/calendar/lang/calendar-es.js"></script> 
+
+  <!-- librería que declara la función Calendar.setup, que ayuda a generar un calendario en unas pocas líneas de código --> 
+  <script type="text/javascript" src="java/calendar/calendar-setup.js"></script> 
+
+<SCRIPT LANGUAGE=JavaScript>
+function validar(form)
+{
+var error = "Por favor, para continuar,\ncomplete los siguientes campos:\n\n";
+var a = ""
+    
+    if (form.date.value == "") { a += " Fecha Inicio\n"; }
+ 
+         if (form.date2.value == "") { a += " Fecha Final\n"; }	
+    
+    
+    if (a != "") { alert(error + a); return true; }
+
+form.submit()
+}
+</script>
+
+
+
+
+
+
+</head>
+
+<form name="US_Add" method="POST" action="Celiminar_hor.html" target="Frm2">
+
+<body bgcolor="#E6E8FA">
+<IMG SRC="IMG/eli_CITA.BMP" width=100% >
+
+
+<p>
+
+<table width =90% >
+<tr>
+<td width=50% align="right">
+<b>Medico:</b>
+</td>
+<td width=50% align="left"><SELECT NAME="Medicos">
+<OPTION>Juan carlos Rosas
+<OPTION>Carlos Riascos
+<OPTION SELECTED>Sandra liz calvo
+<OPTION>Hernesto Moreno
+<OPTION>Oscar Guerrero
+<OPTION VALUE="11021075">Ricardo Burgos
+</SELECT> 
+</td>
+</tr>
+<tr>
+<td width=50% align="right">
+<b>Area:</b>
+</td>
+<td>
+<SELECT NAME="Areas">
+<OPTION SELECTED>Consulta General
+<OPTION>Consulta Especializada
+<OPTION>Urgencias
+<OPTION>Rayos X
+<OPTION>Laboratorios
+<OPTION VALUE="11021075">Promocion y Prevencion
+</SELECT>
+</td>
+</tr>
+
+<tr>
+<td width=50% align="right" ><b>Fecha Inicio:</b></td>
+<!-- formulario con el campo de texto y el botón para lanzar el calendario--> 
+ 
+<td><input type="text" name="date" id="campo_fecha11" /> 
+<input type="button" id="lanzador12" value="..." /> 
+</td>
+ 
+
+<!-- script que define y configura el calendario--> 
+<script type="text/javascript"> 
+   Calendar.setup({ 
+    inputField     :    "campo_fecha11",     // id del campo de texto 
+     ifFormat     :     "%d/%m/%Y",     // formato de la fecha que se escriba en el campo de texto 
+     button     :    "lanzador12"     // el id del botón que lanzará el calendario 
+}); 
+</script> 
+
+</tr>
+<tr>
+<td width=50% align="right"><b>Fecha Final:</b></td>  
+
+<!-- formulario con el campo de texto y el botón para lanzar el calendario--> 
+ 
+<td><input type="text" name="date2" id="campo_fecha22" /> 
+<input type="button" id="lanzador22" value="..." /> 
+</td>
+ 
+
+<!-- script que define y configura el calendario--> 
+<script type="text/javascript"> 
+   Calendar.setup({ 
+    inputField     :    "campo_fecha22",     // id del campo de texto 
+     ifFormat     :     "%d/%m/%Y",     // formato de la fecha que se escriba en el campo de texto 
+     button     :    "lanzador22"     // el id del botón que lanzará el calendario 
+}); 
+</script> 
+
+</tr>
+</table>
+<p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table>
+
+<td width="8%" align="center"><input type="button" value=" Consultar " onClick="validar(this.form)"></td>
+
+
+
+</table>
+</table>
+
+</body>
+
+
+
+
+
+
+</html>

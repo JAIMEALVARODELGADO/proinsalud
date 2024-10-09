@@ -1,0 +1,129 @@
+body{
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color:#000;
+	font-size:11px;
+	margin:10px;
+}
+
+td, input, select, textarea, file, text, button {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+img{
+	border:0;
+}
+
+hr{
+	width:50%;
+}
+
+table{
+  margin: 10px 0 10px 0;
+  spacing:5px;
+  border-collapse: collapse;
+}
+
+.tbl0{
+	width: 75%;
+	border: none;
+	text-align: justify;
+}
+
+.tbl1{
+  width:75%;
+  border:1px solid #000;
+}
+
+.tbl2{
+	width: 75%;
+	border: none;
+	text-align: justify;
+}
+
+.tbl3{
+	width:auto;
+	background-color:#DCDCDC;
+}
+
+thead td{
+	font-weight:bold;
+	color:#000;
+	background-color:#E0E0F8;
+	text-align: center;
+}
+
+td{
+	padding:0px 1px 0 2px;
+	text-align: middle;
+}
+
+.td0{ /*en informe.php*/
+	border-width:1px;
+	border-color:#DDD;
+	border-style:solid;
+	color:#000;
+	font-weight:normal;
+}
+
+.td1{
+	padding:0px 5px 0 5px;
+}
+
+.td2{
+	padding:0px 5px 0 5px;
+	background-color:#E0E0F8; 
+	color:#000;
+	font-weight: bold;
+}
+
+.td3{
+	padding-left: 10px;
+}
+
+.tableRollOverEffect{
+  /*Efecto cuando el mouse pasa por encima*/
+  background-color:#F7BE81;
+  color:#FFF;
+}
+
+.tableRowClickEffect{
+  /*Efecto cuando se ha realizado clic*/
+  background-color:#F7BE81;
+  color:#FFF;
+}
+
+.tit1{
+  color:#2E2EFE;
+  font-size:18px;
+}
+
+.tit2{
+  color:#2E2EFE;
+  font-size:12px;
+}
+
+
+a:link{
+	color: #2E2EFE;
+}
+
+a:visited{
+	color: #2E2EFE;
+}
+
+a:active{
+	color: #FF8000;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #FF8000;
+}
+
+a{
+	text-decoration: None;
+	font-weight:bold;
+}
+
+

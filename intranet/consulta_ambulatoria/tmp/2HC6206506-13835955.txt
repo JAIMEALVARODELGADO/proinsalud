@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESEREA, OSTEOSINTESIS DE RADIO DERECHO, CX MAXILAR
+2|neofarmacos|LEVOTIROXINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|INSOMNIO, HIPOTIROIDISMO
+2|gineco|MENARQUIA: 12 AÑOS, SEXARCA: 16 AÑOS, NUMERO DE COMPAÑEROS SEXUALES: 3, NIEGA ENFERMEDADES DE TRANSMISIÓN SEXUAL, SE OFERTA PRUEBA VOLUNTARIA PARA VIH PACIENTE NO ACEPTA , MENOPAUSIA POR HISTERECTOMIA A LOS 29 AÑOS, citologia: 2021 refiere normal,MAMOGRAFIA ENERO DE 2023 BI-RADS 0 , ECOGRAFIA DE MAMA BI-RADS 1
+2|gestan|3
+2|partos|0
+2|cesareas|2
+2|abortos|1
+2|vivos|2
+2|mortinatos|0
+2|feulme|

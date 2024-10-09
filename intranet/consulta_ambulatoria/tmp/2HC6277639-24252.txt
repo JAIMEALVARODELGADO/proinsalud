@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|LAPAROTOMIA GIENCOLOGICA SIN COMPLICACIONES
+2|neofarmacos|ESCITALOPRIMA ANTICONCEPTIVOS ORALES CARBEGOLINA OMEPRAZOL
+2|nuetoxico|METOCLOPRAMIDA
+2|neotransfin|Negativo
+2|neootros|HIPEROPROLACTINEMIA
+2|gineco|G0P0 FUR 16-07/23 Planificación: ACO
+2|gestan|0
+2|partos|0
+2|cesareas|0
+2|abortos|0
+2|vivos|0
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,35 @@
+CREATE VIEW censo_sllamado AS
+SELECT 
+  e.caac_ing, 
+  Max(e.id_ing) AS DCodHis, 
+  u.TDOC_USU, 
+  u.NROD_USU, 
+  d.nomb_des AS camaan, 
+  concat(u.Pnom_usu,' ',u.Snom_usu,' ',u.Pape_usu,' ',u.Sape_usu) AS DNom, 
+  u.FNAC_USU, 
+  uc.ESTA_UCO AS DEst, 
+  e.fecin_ing,
+  c.NEPS_CON AS DEps, 
+  IF ( ht.Horas_tra > -1, ht.Horas_tra, ( SUBSTRING( TIMEDIFF( SYSDATE( ) , CONCAT( DATE( ht.Fecin_tra ) , ' ', ht.Horin_tra ) ) , 1, ( LENGTH( TIMEDIFF( SYSDATE( ) , ht.Fecin_tra ) ) -6 ) ) +0 ) ) AS DHoras, 
+  CONCAT( DATE( ht.Fecin_tra ) , ' ', ht.Horin_tra ) AS DInicio, 
+  e.codius_ing AS DIdeUsu, 
+  u.PNOM_USU, 
+  u.SNOM_USU, 
+  u.PAPE_USU, 
+  u.SAPE_USU
+
+FROM 
+  ((((Ingreso_hospitalario AS e 
+  INNER JOIN Hist_traza AS ht ON e.id_ing = ht.id_ing) 
+  INNER JOIN Usuario AS u ON e.codius_ing = u.CODI_USU) 
+  INNER JOIN Ucontrato AS uc ON (e.contra_ing = uc.CONT_UCO) AND (e.codius_ing = uc.CUSU_UCO)) 
+  INNER JOIN Contrato AS c ON uc.CONT_UCO = c.CODI_CON)
+  INNER JOIN destipos AS d ON d.codi_des = e.caac_ing
+WHERE 
+  (((ht.ubica_tra)='04') 
+  AND ((ht.horas_tra)=-1) 
+  AND ((e.caac_ing)<>'RE'))
+GROUP BY 
+ e.caac_ing, u.TDOC_USU, u.NROD_USU, e.caac_ing, concat(u.Pnom_usu,' ',u.Snom_usu,' ',u.Pape_usu,' ',u.Sape_usu), u.FNAC_USU, uc.ESTA_UCO, c.NEPS_CON, IF ( ht.Horas_tra > -1, ht.Horas_tra, ( SUBSTRING( TIMEDIFF( SYSDATE( ) , CONCAT( DATE( ht.Fecin_tra ) , ' ', ht.Horin_tra ) ) , 1, ( LENGTH( TIMEDIFF( SYSDATE( ) , ht.Fecin_tra ) ) -6 ) ) +0 ) ), CONCAT( DATE( ht.Fecin_tra ) , ' ', ht.Horin_tra ), e.codius_ing, u.PNOM_USU, u.SNOM_USU, u.PAPE_USU, u.SAPE_USU
+ORDER BY 
+  e.caac_ing, u.PNOM_USU, u.SNOM_USU, u.PAPE_USU, u.SAPE_USU

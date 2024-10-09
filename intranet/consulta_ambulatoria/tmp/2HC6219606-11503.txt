@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLECISTECTOMIA, CESAREA, SIMPATECTOMIA TORACICA
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|g2c2 MENARQUIA 16 AÑOS. CITOLOGIA VAGINAL: 2019 NEGATIVA PARA MALIGNIDAD -- PF: DIU  - CITOLOGIA 28-02-2022 PENDIENTE REPORTE28/03/2022 CITOLOGIA NEGATIVA PARA MALIGNIDAD. 
+2|gestan|2
+2|partos|0
+2|cesareas|2
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|2024-03-04

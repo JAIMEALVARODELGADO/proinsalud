@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|ARTROSCOPIA RODILLA IZUQIREDA, POMEROY
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA 11 AÑOS, FUM: 52 AÑOS, CITOLOGIA 07/08/23 NEGATIVA PARA MALIGNIDAD, VPH DETECTADO, CONTROL EN 1 AÑO, MAMOGRAFIA 28/03/23 BI-RADS 1
+2|gestan|4
+2|partos|2
+2|cesareas|1
+2|abortos|1
+2|vivos|3
+2|mortinatos|0
+2|feulme|

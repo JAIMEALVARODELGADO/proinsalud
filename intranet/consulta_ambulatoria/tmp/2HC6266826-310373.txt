@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLECISTECTOMIA, HERNIORRAFIA UMBILIACAL, POMEROY, CESAREA
+2|neofarmacos|LEVOTIROXINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO, VITILIGO
+2|gineco|menarca: 15 años de ciclos regulares por 3 días, Sexarca: 18 años.  citología vaguinal Agosto/2020 Negativa para maliginidad . 20-92021 ACUDE A PYM PROGRAMA ADULTEZ
+2|gestan|2
+2|partos|1
+2|cesareas|1
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

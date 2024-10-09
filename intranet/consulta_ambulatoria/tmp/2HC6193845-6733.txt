@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLECISTECTOMIA, HISTERECTOMIA
+2|neofarmacos|LEVOTIROXINA 100 MCG CADA DIA, VALSARTAN 160 MG + HIDROCLOROTIAZIDA 12.5 MG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO, HIGADO GRASO
+2|gineco|/ MANARQUIA 8 AÑOS // SEXARQUIA 19 AÑOS // PACINTE DESORIENTADA  FAMILIAR NO BRINDA ANTECEDETES GINECOLOGICOS 
+2|gestan|3
+2|partos|2
+2|cesareas|0
+2|abortos|1
+2|vivos|2
+2|mortinatos|1
+2|feulme|

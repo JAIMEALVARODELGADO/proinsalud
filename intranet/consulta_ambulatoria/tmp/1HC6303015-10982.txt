@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9998
+1|escolaridad|7613
+1|estadocivil|A703
+1|direccion|VILLAMORENO - BUESACO
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|VENGO POR LOS RESUTADOS D ELA RADIOGRAFIA  QUE ME MANDARON EN UREGENCIAS.
+1|enfeac|PACIENTE  QUIEB HACE  3 DIAS PRESENTO CAIDA DESDE SU PROPIA ALTURA CONTRAUMATISMO A NIVEL DE PIE IZQUIERDO, CON DEFORMIDAD, LIMITACION FUNCIONAL, EDEMA, DEFORIMDAD DE PREDOMINIOEN MALEOLO EXTERNO, NO COMENTA AUTOMEDICARSE, NO REFIERE OTRA SINTOMATOLOGIA, MOTIVO POR EL CUAL ASISTE ACUDIO A UREGENCIAS DIONDE ORDENAS  RADIOGRAFIA DE TOBILLOS 
+1|revisi|. DIURESIS NORMALES BUEN A PETITO DE RAZA MESTIZA DE OCUPACION DOCENTE NO PERTENECE AL LGTBI NO SPA CON BUENAS RELACIONES SOCIO FAMILIARES NO VICTIMA DE VIOLENCI A INTRAFAMILIAR NO SEXUAL NO PSICOLOGIOCA NO MENTAL N NO FISICA NO LABORALÆ
+1|informe|NO REPORTA2024-04-24 17:11:20	Relaciones articulares del antepie, medio pie y retropié conservadas Densidad ósea satisfactoria. Edema de tejidos blandos del retropie       2024-04-24 17:13:23	Proyección AP y lateral. Fractura metadiafiaria y distal del peroné desplazada. Subluxación de la articulación tibioastragalo peronea. Edema de tejidos blandos bimaleolar Relaciones articulares conservadas Densidad ósea satisfactoria.
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

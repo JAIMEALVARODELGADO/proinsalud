@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CX ANTIRREFLUJO
+2|neofarmacos|AMITRIPTILINA PARA INSOMINOO
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|G2A2 MENARQUIA 14 AÑOS  MENOPAUSIA 48 AÑOS ULTIMA CITOLOGIA HACE 2 AÑOS NORMAL SEGUN REFIERE . 16-5-22 ACUED A PYM PROGRAMA VEJEZ
+2|gestan|2
+2|partos|0
+2|cesareas|0
+2|abortos|2
+2|vivos|0
+2|mortinatos|0
+2|feulme|

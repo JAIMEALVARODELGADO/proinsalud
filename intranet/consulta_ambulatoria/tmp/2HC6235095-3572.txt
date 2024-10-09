@@ -1,0 +1,11 @@
+2|person|ANTECEDENTES PATOLOGICOS:HERNIAS LUMBALES, GASTRITIS  FARMACOLOGICOS: LANZOPRASOL ACETAMINOFEN MAS CODEINA  QUIRURGICOS: TRASPLANTE DE CADERA  OFTALMOLOGICOS: NO CIRUGIAS.
+2|familia|-----
+2|metodo|
+2|gineco|menarca 12 años, citologia vaginal normal.
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

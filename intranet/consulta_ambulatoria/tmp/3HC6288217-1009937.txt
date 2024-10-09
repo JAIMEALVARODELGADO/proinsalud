@@ -1,0 +1,55 @@
+3|fin|13
+3|tenar1|120
+3|tenar2|80
+3|freres|18
+3|fc|80
+3|tempe|36.0
+3|peso|75
+3|talla|170
+3|imc|25.952
+3|cintura|
+3|cadera|
+3|icc|
+3|dimc|Sobre Peso
+3|pc|
+3|otros|resto de examen físico normal
+3|saox_tri|
+3|codiexa0|1001
+3|item0|1
+3|obseexa0|sobre peso
+3|codiexa1|1002
+3|item1|
+3|obseexa1|
+3|codiexa2|1003
+3|item2|1
+3|obseexa2|normocefalico
+3|codiexa3|1004
+3|item3|
+3|obseexa3|
+3|codiexa4|1005
+3|item4|
+3|obseexa4|
+3|codiexa5|1006
+3|item5|
+3|obseexa5|
+3|codiexa6|1007
+3|item6|1
+3|obseexa6|ruidos cardiacas rítmicos , campos pulmonares ventilados, glándulas mamarias desarrolladas acorde al género y edad.                                                                                                                                                                                                                                                                                                                               
+3|codiexa7|1008
+3|item7|
+3|obseexa7|
+3|codiexa8|1009
+3|item8|1
+3|obseexa8|ruidos hidroaereos presentes, abdomen blando no masas no megalias no signos de irritación peritoneal 
+3|codiexa9|1010
+3|item9|
+3|obseexa9|
+3|codiexa10|1011
+3|item10|
+3|obseexa10|
+3|codiexa11|1012
+3|item11|1
+3|obseexa11|paciente alerta, orientado en tiempo , lugar, persona, sin focalización neurológica, Glasgow 15/15 
+3|codiexa12|1013
+3|item12|
+3|obseexa12|

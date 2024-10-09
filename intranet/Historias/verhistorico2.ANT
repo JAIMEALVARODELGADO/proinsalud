@@ -1,0 +1,79 @@
+<?
+session_register('Garehci');
+?>
+<html>
+<style type="text/css"> 
+</style>
+<head>
+<SCRIPT LANGUAGE=JavaScript>
+function Muestra()
+{
+	uno.action='verhistorico2.php';
+	uno.target='Frmh1a';
+	uno.submit();		
+	uno.action='historico2.php';
+	uno.target='Frmh2a';
+	uno.submit();				
+}
+function salir()
+{
+	if (event.keyCode == 13)
+	{
+		uno.action='verhistorico2.php';
+		uno.target='Frmh1a';
+		uno.submit();		
+		uno.action='historico2.php';
+		uno.target='Frmh2a';
+		uno.submit();				
+		
+	}
+}
+</SCRIPT>
+<!--Hoja de estilos del calendario --> 
+  <link rel="stylesheet" type="text/css" media="all" href="java/calendar/calendar-green.css" title="win2k-cold-1" /> 
+  <!-- librería principal del calendario --> 
+ <script type="text/javascript" src="java/calendar/calendar.js"></script>
+ <!-- librería para cargar el lenguaje deseado --> 
+  <script type="text/javascript" src="java/calendar/lang/calendar-es.js"></script> 
+  <!-- librería que declara la función Calendar.setup, que ayuda a generar un calendario en unas pocas líneas de código --> 
+  <script type="text/javascript" src="java/calendar/calendar-setup.js"></script> 
+  <title><h6>PROGRAMA PARA EL MANEJO DE CITAS MEDICAS</h6></title>
+
+</head>
+<body  scroll = "no">
+<form name="uno" method="post">
+	<?	
+	echo"<table border='0' cellpadding='0' cellspacing='0' style='border-collapse: collapse' width=100% align='center'>";
+	include('php/funciones5.php');	
+	include('php/conexion5.php');
+	base_proinsalud();	
+	echo"<td>NUMERO DE CEDULA <input type=text name=cedula onKeydown='salir()' value=$cedula>";	
+	if(!empty($cedula))
+	{
+		$nusu=mysql_query("select * from usuario where NROD_USU ='$cedula'");	
+		while($row=mysql_fetch_array($nusu))	
+		{			
+			$nombre=$row['PNOM_USU'].' '.$row['SNOM_USU'].' '.$row['PAPE_USU'].' '.$row['SAPE_USU'];
+		}
+	}
+	echo "<td><select name='areac' onChange='Muestra();' >";
+	echo "<option >--------"; 
+	if($areac=='01' || $areac=='')
+	{
+		echo "<option value=01 selected>HISTORIA CLINICA</option>"; 
+		echo "<option value=02>EVOLUCIONES</option>";
+	}
+	if($areac=='02' || $areac=='')
+	{
+		echo "<option value=01>HISTORIA CLINICA</option>"; 
+		echo "<option value=02 selected>EVOLUCIONES</option>";
+	}
+	echo"</select></td>"; 
+	echo"<td>$cedula</td>";
+	echo"<td>$nombre</td>";
+	?>	
+	</tr>
+	</table>
+</form> 
+</body>
+</html>

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|FA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|OSTEOSINTESIS TOBILLO DERECHO
+2|neofarmacos|ZOPICLONA 7.5 MG  CADA DIA , CARVEDILOL, PROPANOL, FUROSEMIDAESPININOLACTONA
+2|nuetoxico|ALCHOLISMO CRONICO 
+2|neotransfin|Negativo
+2|neootros|TRANSTOSNO DEL SUEÑO, CIRROSIS HEPATICA
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

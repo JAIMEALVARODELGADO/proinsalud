@@ -1,0 +1,11 @@
+2|person|personales:  COVID 19 POSITIVO (CON 19 DIAS DE HOSPITALIZACION 11-2020) queratocono  ARTRITIS REUMATOIDEA  DESDE EL 2001, adelgazamiento corneal  HTA, CANCER DE mama DERECHO, MIOMATOSIs UTERINA. GASTRITIS CRONICA ENDOSCOPIA 31 01 17 H. PILORY NEGATIVA ALERGICA NIEGA.FARMACOLOGICOS: ENALAPRIL 20 MG X 1  PSICOSOCIALES : APGAR FAMILIAR 18 PUNTOS, NO IDEACION SUICIDA , NO CONSUMO DE SPA . COVID 19                         .          07-21-2021 hemograma normal , pcr normal  o menor a 6 21-12-2022 Æ CREATINITA NE 0.9 Æ PROTENIA C REACTIVA EN 11.9
+2|familia|tíos: Diabetes MELLITUS TIPO II.- Cardiopatias:NO;Infecciosas:NO;Congenitas:NO;Turbeculosis:NO;Transt:NO;Neoplasias:NO; Enfermedades mentales; NO 
+2|metodo|
+2|gineco|MENARQUIA: 11 AÑOS, ULTIMA CITOLOGIA 20-02-17 cervicitis ATROFIA , NORMAL. HISTERECTOMIA G0P0 . MAMOGRAFIA MANEJO POR ONCOLOGIA  02/2019 PENDIETNE RESULTADO
+2|gestan|1
+2|partos|0
+2|cesareas|0
+2|abortos|1
+2|vivos|0
+2|mortinatos|0
+2|feulme|

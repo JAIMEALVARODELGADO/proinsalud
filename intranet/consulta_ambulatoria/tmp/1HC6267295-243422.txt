@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9998
+1|escolaridad|7613
+1|estadocivil|A701
+1|direccion|CRRA 6 E 16-86 B/LORENZO
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|REMITIDA DE CRONICOS
+1|enfeac|PACIENTE DE 84AÑOS DE EDAD CON TRATAMIENTO PARA HTA CON VALSARTAN 160 X 2 Y NIFEDIPINO 30 X 1. MANEJO PARA OSTEOPOROSIS CON AC IBANDRONICO Y CALCIO + VITAMINA D.
+1|revisi|GASTRITIS CRONICA MODULADA.
+1|informe|EXAMENES DEL 18-12-23: HEMOGRAMA NORMAL, GLICEMIA: 97, COLESTEROL: 199, HDL: 30.8, LDL: 128, TG: 201,  TSH:  3.9, TGO:  19, TGP: 13, CREATININA:  0.9, MICROALBUMINURIA:  10.8, AC URICO: 4.7, POTASIO:  3.96.
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

@@ -1,0 +1,11 @@
+2|person|HIPERTENSA EN TTO CON LOSARTAN 50 MG CADA 12 HORAS, DISLIPIDEMIA CON ATORVASTATINA 40 MG NOCHE. ., ANTECEDENTES DE CIRUGIA DE CATARATA OJO DERECHO  EN CALI  amnesia parcial. encefalitis hace 20 años. 
+2|familia|-no reporta 
+2|metodo|
+2|gineco|g3p2c1 MAMOGRAFIA: 13/12/2018 CATEGORIA BI RADS I. NORMAL, CITOLOGIA 12/2019 NEGATIVA PARA MALIGNIDAD. . 
+2|gestan|3
+2|partos|2
+2|cesareas|1
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

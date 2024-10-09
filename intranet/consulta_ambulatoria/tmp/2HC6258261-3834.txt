@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLELAP, CESAREA. 
+2|neofarmacos|METFORMINA 850 MG CADA DIA, ATORVASTATINA 20 MG CADA, ORLISTAT 120 MG CADA 8 HORAS 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|PREDIABETES 
+2|gineco|menarca: 12 años, sexarca: 20 años, parejas sexuales #3, menopausia: 48 años, citologia: marzo 2019, refiere normal,  mamografia, junio 2019 refiere normal, sin embargo ultimo reporte en institucion 2012., externa ((YA TIENE ORDEN DE CITOLOGIA Y MAMOGRAFIA)).
+2|gestan|2
+2|partos|0
+2|cesareas|1
+2|abortos|1
+2|vivos|1
+2|mortinatos|0
+2|feulme|

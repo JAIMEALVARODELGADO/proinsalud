@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A702
+1|direccion|MZ I CASA 3 B/VIOLETAS II
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|CONTROL CON EXAMEN
+1|enfeac|PACIENTE DE 63 AÑOS DE EDAD CONTROLADA EN CRONICOS POR HIPERLIPIDEMIA E HIPOTIROIDISMO. MEDICACION: ATORVASTATINA 40 X 1 Y LT4 25 MCG DIA. APNEA DEL SUEÑO CONFIRMADA CON POLISOMNOGRAFIA DE DIC/23, IAH: 71.8, COMPATIBLE CON APNEA DEL SUEÑO SEVERA. SE REMITIO PARA VALORACION POR ORL. 
+1|revisi|EA
+1|informe|EXAMENES DEL 08-03-24: TSH: 4.09, COLESTEROL: 268, HDL: 41.8, LDL: 268, TG: 143, GLICEMIA: 90.7.
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

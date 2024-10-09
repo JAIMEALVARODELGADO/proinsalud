@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|AMIGDALECTOMIA, POMEROY, COLECISTECTOMIA, OOFORECTOMIA
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|DISCOPATIA LUMBAR, DISLIPIDEMIA
+2|gineco|MENARQUIA: 15 AÑOS -- MPF: POMEROY -- CITOLOGIA: ENERO DE 2022 NEGATIVA PARA MALIGNIDAD Y ATROFIA -- ULTIMA MAMOGRAFIA ENERO DE 2022 BI-RADS 1 -- MENOPAUSIA: A LOS 48 AÑOS DE EDAD. 30-3-22 ACUDE A PYM PROGRAMA VEJEZ
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

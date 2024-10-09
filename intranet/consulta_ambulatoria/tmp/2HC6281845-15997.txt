@@ -1,0 +1,11 @@
+2|person|HTA.
+2|familia|VARIOS HERMANOS FALLECIDOS CON IAM. 
+2|metodo|
+2|gineco|G9P9V9  menarquia  15  años   amenorrea 55 años  citología hace varios años. 
+2|gestan|9
+2|partos|9
+2|cesareas|0
+2|abortos|0
+2|vivos|9
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,16 @@
+3|fin|
+3|tenar1|120
+3|tenar2|80
+3|freres|20
+3|fc|80
+3|tempe|37
+3|peso|80
+3|talla|37
+3|imc|584.368
+3|cintura|80
+3|cadera|80
+3|icc|1,000
+3|dimc|Obesidad
+3|pc|
+3|otros|Paciente asiste silla de ruedas adecuada presentación personal adecuada al contexto, actitud y afecto modulado, con buen seguimiento visual y verbal , alerta orientado en tiempo, persona y espacio,  lenguaje bien articulado, nomina, repite con buena fluidez,  memoria de fijación y evocación conservada, juicio raciocinio, y abstracción conservada, campimetría de confrontación sin alteraciones, fundoscopia y oculmotilidad normales, simetría facial, no compromiso de pares craneales bajos fuerza tetraparesia predominuio crural 0/5 hipotonica hiporefletica reflejo medio plantar flexor bilateral  signos meníngeos no, p.cerebelosas pie y marcha no valorabler, sensibilidad superficial y profunda conservada edema miembro inferior izquierdo esfinteres no controlables 
+3|saox_tri|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RESECCION DE LIPOMAS, POMEROY 
+2|neofarmacos|Negativo
+2|nuetoxico|NITROFURANTOINA, CIPROFLOXACINA 
+2|neotransfin|Negativo
+2|neootros|GASTRITIS
+2|gineco|POMEROY , CITOLOGIA DICIMEBRE 2018 NEGATIVA PARA LESION INTRAEPITELIAL,CITOLOGIA 2021 NEGATIVA  MAMOGRAFIA DCIEMBRE 2021 NORMAL . 10-822 ACUDE A PYM PROGRAMA ADULTEZ
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

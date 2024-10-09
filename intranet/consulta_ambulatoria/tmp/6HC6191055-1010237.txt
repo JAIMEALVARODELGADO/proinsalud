@@ -1,0 +1,42 @@
+6|clasemedi|1
+6|codmedi|834102
+6|desmedi|DESLOratadina 2.5mg/ 5ml*60ml JARABE
+6|dosis|1
+6|unid|APLICACION
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|90
+6|obsemed|DAR 3CC SI TIENE PICAZON
+6|canti|3
+6|diagmedi|L209
+6|justifi|N
+6|pos|S
+6|clasemedi|1
+6|codmedi|061666
+6|desmedi|ACETATO DE ALUMINIO 0,059%/100ml*120ml LOCION
+6|dosis|1
+6|unid|APLICACION
+6|frecu|8
+6|unidfrecu|Horas
+6|via|2205
+6|tiempo|90
+6|obsemed|APLICAR SOBRE LA PIEL CADA 8HORAS 
+6|canti|6
+6|diagmedi|L209
+6|justifi|N
+6|pos|N
+6|clasemedi|1
+6|codmedi|395122
+6|desmedi|DESONIDA (0,10%)*15g CREMA TOPICA
+6|dosis|1
+6|unid|APLICACION
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2205
+6|tiempo|90
+6|obsemed|APLICAR SOBRE LESIONES CADA DIA POR 3M ESES
+6|canti|6
+6|diagmedi|L209
+6|justifi|N
+6|pos|N

@@ -1,0 +1,11 @@
+2|person|patológico: no refiere // quirúrgicos: no refiere // alergias: alimentos, medicamentos, picaduras de mosquito, traumáticos: no refiere // farmacológico: **** adecuada adherencia a medicamentos ambulatorios // tratamientos homeopáticos o similares: no refiere //tóxicos: no refiere // sociales o personales. no refiere // hospitalizaciones recientes: no refiere // psiquiátricos: no refiere // antecedentes transfusionales: no refiere. // antecedentes de consumo de sustancia psicoactivas: no refiere. // antecedentes de violencia intrafamiliar, sexual o infantil: no refiere // antecedentes de ideación o intento de suicidio: no refiere, // antecedentes nutricionales: no refiere // actividad física: ocasional.  //  vacunación: refiere tener esquema de vacunación completo // antecedentes de violencia, enfermedades mentales, intento de suicidio, consumo de spa: no refiere
+2|familia|hipotiroidismo mamá. violencias, mentales, intento de suicidio, consumo de spa: no refiere // 
+2|metodo|
+2|gineco|hospitalizaciones durante embarazo: niega  // hiv-sida: negativo // hepatitis b: negativo  // prueba rápida treponémica: negativo  // gota gruesa: no aplica  // ecografías previas: # 2 // vacunas: esquema al día  // clap: si // numero de controles prenatales: 4  /// menarquia: 11 años // sexarquia: 15 años-. // parejas sexuales: 1 // ciclos menstruales:  irregular //fecha de última menstruación: 11/06/23 // planificación: no refiere // método: no aplica. // antecedentes de interrupción voluntaria del embarazo: hemoclasificación materna: o+ // escolaridad: primaria. //  domicilio: sol de oriente. // estado civil: unión libre 4 años.  // edad del padre: 20 años.  // escolaridad del padre: 6 //ÆÆ
+2|gestan|1
+2|partos|0
+2|cesareas|0
+2|abortos|0
+2|vivos|0
+2|mortinatos|0
+2|feulme|

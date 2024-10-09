@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA, IMA HACE 15 AÑOS ASINTOMATICA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|REIMPLANTE URETERAL, 
+2|neofarmacos|METOPROLOL 50 MG CADA 12 HORAS , ATORVASTATINA 40 MG CADA DIA ,  ASA 100 MG CADA DIA , METFORMINA 850 MG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|PREDIABETES
+2|gineco|MENOPAUSEA: 50 AÑOS CITOLOGIA 22/01/2018 NORMAL , MAMOGRAFIA DEL 04/09/2018 BIRADS 2 NORMAL  MAMOGRAFIA 8 DE SEPTIEMBRE DEL 2021 BIRADS 2 
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

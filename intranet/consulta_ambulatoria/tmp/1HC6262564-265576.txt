@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A704
+1|direccion|MZ F C 13 B/VILLA COLOMBIA
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|-\\\"PARA VER UNOS EXAMENES\\\" 
+1|enfeac|-PACIENTE ACUDE CON REPORT E EPARACLINICOS TOMADOS EL DIA : 09-03-2024 ENOCNTRAMNDOSE: HDL: 23.5 BAJO-LDL: 137.2 ELEVADO - COLESTEROL: 190. GLUCOSA: 102.3 ELEVADO - TRIGLICERIDOS: 146.5 NORMAL -CREATININA: 0.9. UROANALISIS: NO PATOLOGICO. TIENE ECO DE PROSTATA TOMADA EL DIA04-03-2024 : HIPERPLASIA PROSTATICA GRADO II. 
+1|revisi|NO REFERIDOS. 
+1|informe|LO DESCRITO EN ENFERMEDAD ACTUAL. 
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

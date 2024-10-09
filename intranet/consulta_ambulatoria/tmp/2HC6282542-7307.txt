@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA 2
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|POMEROY. MENARQUIA 16 FUR 52 AÑOS, CITOLOGIA 09/11/2021 NEGATIVO PARA MALIGNIDAD, MAMOGRAFIA; 09/09/2022: BIRADS 0. CITOLOGIA VPH 16/11/2023 NO DETECTADO PARA TODOS LOS GENOTIPOS VPH
+2|gestan|3
+2|partos|1
+2|cesareas|2
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

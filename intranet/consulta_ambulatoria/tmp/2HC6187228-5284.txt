@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|OSTEOSINTESIS TOBILLO IZQUIERDO, POMEROY
+2|neofarmacos|CARVEDILOL, VALSARTAN MAS HCTZ
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|ULTIMA CITOLOGIA AÑO Y MEDIO NORMAL G4P3C0A1V3MO CITOLOGIA DE MARZO DEL 2019 NORMAL (SE ENVIA ORDEN 04/06/020) MAMOGRAFIA DE ABRIL DEL 2019 NORMAL
+2|gestan|4
+2|partos|3
+2|cesareas|0
+2|abortos|1
+2|vivos|3
+2|mortinatos|0
+2|feulme|

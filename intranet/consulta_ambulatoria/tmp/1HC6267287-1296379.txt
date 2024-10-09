@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9997
+1|escolaridad|7607
+1|estadocivil|A702
+1|direccion|barrio san ignacio cara 30 A 10-43
+1|tidoacu|CC
+1|nudoacu|
+1|pnomacu|Hernan 
+1|snomacu|.Tejar. 
+1|papeacu|.
+1|sapeacu|.
+1|parenacu|esposo. 
+1|direacu|san ignacio 
+1|teleacu|3012032120
+1|muniacu|52001
+1|nommuniacu|PASTO (NARI&#65533;O)
+1|primera|1
+1|codciru|
+1|motivo| **  TENGO MAREO  Y DISCONFORT  **
+1|enfeac|.
+1|revisi|cabeza: cefalea, trauma, alopecia, infecciones en cuero cabelludo: no refiere.Æojos:  pérdida de visión, secreción ocular, dolor, enrojecimiento, secreción, prurito: no refiere.Æotorrinolaringológico: nariz tapada, dolor de oídos, pérdida de la audición, dolor crónico con deglución, disfonía persistente, tinnitus, vértigo, secreción, epistaxis, halitosis: no refiere.Æaparato cardiocirculatorio: presión alta, palpitaciones, dolor de pecho, frialdad de alguna extremidad, claudicación: no refiere.Æaparato respiratorio: falta de aire al ejercitarse, tos frecuente, disnea, tos con sangre, sudoración nocturna, perdida de peso: no refiere.Æaparato digestivo: úlceras, dolor abdominal recurrente, deposición con sangre, nausea, vómito, diarrea, disfagia, nausea, eructos, pirosis, hematemesis, ictericia, estreñimiento: no refiereÆaparato urinario: disuria, nicturia, disminución de diuresis, incontinencia urinaria, cistitis a repetición: no refiere.Æaparato reproductor: secreción, dolor o sangrado genital anormal: no refiere.Æsistema nervioso: cefalea frecuente, alteraciones en la marcha, en la sensibilidad o la fuerza: no refiere.Æaparato locomotor: dolor o edema de articulaciones, limitaciones en la marcha, dolor en manos, dolor lumbar frecuente: no refiere.Æsistema tegumentario: lesiones en piel, enrojecimiento, picazón, urticaria, prurito: no refiere.Æsistema endocrino: intolerancia al calor o al frío, pérdida o aumento marcado de peso, distribución de la grasa, poliuria, polidipsia, polifagia, hirsutismo, terapia con hormonas: no refiere.ÆÆniega ser victima de maltrato o violencia sexual, no violencia en su circulo familiar, social o personal.  económica, laboral, física, institucional, simbólica o de género. no sintomático respiratorio ni de piel. niega ser victima de conflicto armado o de desplazamiento forzado. riesgo de vulnerabilidad: persona desplazada: no refugiado: no, repatriado: no, marginados, excluidos o desposeídos: no, niños: no, mujeres embarazadas y madres lactantes: no, personas de edad avanzada: no, discapacitados: no. ÆÆse explica misión y visión institucional, deberes y derechos del usuario, salidas de emergencia y existencia de buzón de sugerencias. se entrega folleto plegable. se educa al paciente y a su familia sobre los mecanismos de reclamar, sugerir y felicitar.
+1|informe|no. 
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

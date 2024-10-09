@@ -1,0 +1,11 @@
+2|person|HIPOTIROIDISMO.LEVOTIROXINA
+2|familia|PADRE FALLECIO CON CANCER DE ESOFAGO.
+2|metodo|
+2|gineco|G1C1V1, FUM HACE 2 AÑOS.
+2|gestan|1
+2|partos|1
+2|cesareas|1
+2|abortos|N
+2|vivos|1
+2|mortinatos|N
+2|feulme|

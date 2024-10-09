@@ -1,0 +1,11 @@
+2|person|Patologicos: DM tipo 2, dislipidemia . Farmacologicos: vildaglptina / metfomrina 50/850 mg cada 12 horas, atorvastatina 20 mg cada noche. Quirurgicos: urolitiasis en 5 episodios. Alergicos: niega. Toxicos: niega. 
+2|familia|Niega. 
+2|metodo|NO
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

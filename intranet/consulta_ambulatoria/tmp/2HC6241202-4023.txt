@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLECISTECTOMIA
+2|neofarmacos|Negativo
+2|nuetoxico|PREPNISOLONA
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|citologia 17 de diciembre de 2015 normal      mamografia 08/01/2020 NODULOS BILATERALES, CATEGORIA BIRADS-0   , ECOGRFIA MAMARIA 13/10/2021  ESTUDIO NORMAL, CATEGORIA I BIRADS    FUUM 52 AÑOS
+2|gestan|1
+2|partos|1
+2|cesareas|0
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

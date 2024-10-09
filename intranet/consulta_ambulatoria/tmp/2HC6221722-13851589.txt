@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA
+2|neofarmacos|Negativo
+2|nuetoxico|PENICILINA
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|ginecologicos: fum 14/04/2023 ciclos mestruales irregualres planificacion familiar no citologia febrero 2023 normal menarquia 15 años  sexarquia 21 años  compañeros sexuales 2ÆÆmultivitamínicos acido folico  hospitalizaciones durante embarazo: no  hiv-sida: 11/06/2023 negativo   hepatitis b:  11/06/2023 negativo  prueba rápida treponemica:  11/06/2023 negativo   ecografías previas: 06/06/2023 embarazo de 7.4 semanas clap: si numero de controles prenatales: 1 fecha de ultimo parto o cesárea:  no aplica  complicación de anterior embarazo:  no aplica periodo intergenesico:  no aplica  hemoclasificacion materna: O + escolaridad: tecnico domicilio: calle 20 c 279 el recuerdo estado civil: soltera edad del padre: 52 años   escolaridad del padre: secundaria IVES anteriores  NoÆÆÆ
+2|gestan|1
+2|partos|0
+2|cesareas|0
+2|abortos|0
+2|vivos|0
+2|mortinatos|0
+2|feulme|2024-02-04

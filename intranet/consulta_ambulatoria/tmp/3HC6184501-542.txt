@@ -1,0 +1,16 @@
+3|fin|
+3|tenar1|120
+3|tenar2|80
+3|freres|20
+3|fc|80
+3|tempe|36
+3|peso|60
+3|talla|160
+3|imc|23.437
+3|cintura|90
+3|cadera|60
+3|icc|1,500
+3|dimc|Peso Normal
+3|pc|
+3|otros|Paciente asiste solo por sus propios medios con buen actitud y afecto modulado,con buen seguimiento visual relacionado  al contexto, alerta orientado en tiempo persona y espacio,  lenguaje bien articulado, nomina, repite con buena fluidez,  memoria de fijación y evocación conservada, juicio raciocinio, y abstracción conservada, fundoscopia y oculmotilidad normales, fuerza conservada en las 4 extremidades, rot normales, rmp flexor bilateral, signos meníngeos no, p.cerebelosas pie y marcha normales, sensibilidad superficial y profunda conservada
+3|saox_tri|

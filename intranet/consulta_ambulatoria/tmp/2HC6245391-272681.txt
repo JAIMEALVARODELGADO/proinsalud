@@ -1,0 +1,11 @@
+2|person|patologcios: hipotiroidismo, quistes coloideos en tiroides miomatosis uterina,  quirugicos: cesarea #1,  biopsia seno izquierdo, histerectomia, traumaticos: negativos, toxicos: bebedora social, fumadora pasiva, niega consumo de spa, niega exposicion a toxicos, alergicos: negativos, fármacos: levotiroxina 50/25 mcg cada dia, ocupacion: hogar, estaod civil casada, feb 25 2019 niega ser victima de violencia, fisica, sexual, emocional, psicologica, de genero, niega ser desplazado por la violencia o conflicto armado, no pertenece a etnias o grupos poblacionales especiales , habitos nutricionales saludables, actividad fisica moderada, patron de sueño regular, niega fobias, sociales o personales,  no perdidas familiares actuales----14-07-2022 ATENCION RIAS AL DIA---
+2|familia|madre hipertension arterial, niega antecedentes familiares,  de trastornos mentales, en lo interrogado niega consumo de spa, en familiares cercanos, niega comportamientos suicidas, o suicidos en la familia, eventos cercanos al examen actual 
+2|metodo|
+2|gineco|FECHA DE PRIMERA MENSTRUACION A LOS 14 AÑOS, SEXARQUIA 18 AÑOS. MENOPAUSIA: 46 AÑOS  MAMOGRAIA: ABRIL/22 NEGATIVA PARA PROCESO  MALIGNO BIRADS 1 .  29/11/2023 ECOGRAFIA MAMARIA QUISTES SIMPLES BI-RADS 2 
+2|gestan|1
+2|partos|0
+2|cesareas|1
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

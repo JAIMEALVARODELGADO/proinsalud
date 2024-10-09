@@ -1,0 +1,11 @@
+2|person|FALLA CARDIACA, HERNIA UMBILICAL 
+2|familia|MADRE ALZHEIMER 
+2|metodo|NA-
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

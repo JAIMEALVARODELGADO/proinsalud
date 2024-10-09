@@ -1,0 +1,11 @@
+2|person|Patologicos: AR, Hipertension arterial, ldicopati lumbosacra. Farmacologicos: leflunomide 20 mg cada dia, prednisolona 5 mg cada dia, lansoprazol cada dia, tramadol 30 gotas cada 8 horas loartan 50 mg cada d12 horas, espironaolactona 25 mg cada dia. Qururgicos: cesareas. Alergicos: niega. Toxicos: Expoiscion a humo de leña hasta los 20 años. 
+2|familia|IAM en madre a los 73 años. DM en abuela. 
+2|metodo|NA-
+2|gineco|menarquia 15 años       citologia 22 de junio de 2016 normal                  mamografia 25 de septiembre de 2014 normal CITOLGIA. DOS AÑOS   fum 50 años
+2|gestan|5
+2|partos|0
+2|cesareas|4
+2|abortos|1
+2|vivos|4
+2|mortinatos|0
+2|feulme|

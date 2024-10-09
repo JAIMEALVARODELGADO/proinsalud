@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|PROSTATECTOMIA RADICAL, OSTEOSINTESIS DE RADIO DERECHO
+2|neofarmacos|LEVOTIROXINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|TUMOR DE PROSTATA TTO HORMONAL Y RADIOTERAPIA, HIPOTIROIDISMO
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

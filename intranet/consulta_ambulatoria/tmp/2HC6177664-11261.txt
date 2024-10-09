@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|APENDICECTOMNIA , HEMORROIDECTOMIA, COLECISTECTOMIA, OSTEOSINTESIS DE RADIO BIL
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|GASTRITIS, RINITIS
+2|gineco|MENARQUIA: 15 AÑOS  MENOPAUSIA: 48 AÑOS   CITOLOGIA: NOVIEMBRE DEL 2021 NORMAL. MAMOGRAFIA:  HACE MAS DE UN AÑO, REFIERE NORMAL. 
+2|gestan|01
+2|partos|01
+2|cesareas|00
+2|abortos|00
+2|vivos|1
+2|mortinatos|0
+2|feulme|

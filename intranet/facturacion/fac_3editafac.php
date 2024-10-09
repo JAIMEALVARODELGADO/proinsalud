@@ -32,12 +32,17 @@
     <td class="Td2" align='right' width='10%'><b>Identificaci�n:</td>
     <td class="Td2" align='left' width='15%'><input type='text' name='cod_usu' size='15' maxlength='20'></td>
     <td class="Td2" align='right' width='10%'><b>Factura:</td>
-    <td class="Td2" align='left' width='15%'><select name='pref_fac'>
+    <td class="Td2" align='left' width='15%'>
+        <select name='pref_fac'>
         <option value=""></option>
-        <option value="FE">FE</option>
-        <option value="I">I</option>
-		<option value="R">R</option>
-		<option value="PGP">PGP</option>
+        <?php
+            $consultaconsec="select c.prefijo from consecutivo c WHERE c.estado ='A' ORDER BY prefijo";
+            $consultaconsec=mysql_query($consultaconsec);
+            while($row=mysql_fetch_array($consultaconsec)){
+                echo "<option value='$row[prefijo]'>$row[prefijo]</option>";
+            }
+        ?>
+        
         </select>
         <input type='text' name='num_fac' size='10' maxlength='10'></td>
     <td class="Td2" align='right' width='10%'><b>Contrato:</td>

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|EPOC
+2|nuequirurgicos|Negativo
+2|neofarmacos|INSULINA GLARGINA  7 U CADA DIA,  VILDAGLIPTINA 50 MGF + METFORMINA 850 MG CADA 12 HORAS,  ATORVASTATINA  10 MG CADA DIA, PREGABALINA 75 MG CADA DIA, SALBUTAMOL  2 PUFF CADA 8 HORAS, BECLOMETASONA 2 PUFF CADA 12 HORAS 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|DMT II 
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

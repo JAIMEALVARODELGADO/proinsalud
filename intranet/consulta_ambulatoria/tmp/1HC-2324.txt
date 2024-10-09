@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A701
+1|direccion|CLL 13 N 25-34 APTO 302 B/ 
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|Paciente con antecedente de ansiedad, acude a control refiere: \\\"me he sentido estable, y muy tranquila\\\" 
+1|enfeac|Paciente femenina de 69 años de edad, con antecedente de ansiedad, en tratamiento psicologico sin medicamentos, con evolucion favorable, durante la consulta se observa tranquila, su postura es adecuada, establece contacto visual, su tono emocional es acorde a lo expresado, no hay alteración en el contenido de pensamiento o flujo de ideas, su lenguaje es eulalico, menciona que en los ultimo dias se ha sentido estable, tranquila en su contexto familiar, durante la sesion se brindan estrtaegias, para el manejo de comunicacion familiar y fortaleciinto de habilidades para enfrentar sintomas de ansiedad. 
+1|revisi|APARIENCIA PERSONAL: Usuario en quien se identificó una adecuada presentación e higiene personal, vestimenta acorde, higiene corporal adecuada, posturas y mirada acordes, ingresa por sus propios medios, su tono de voz es normal, motivación estable, estado de ánimo sin alteración aparente, usuario mostro una actitud receptiva y de colaboración, durante la consulta, no se observa preocupación excesiva, preocupación acorde a la realidad. ÆÆFUNCIONES COGNITIVAS:  atención: sin alteraciones euprosexica, responde a la estimulación visual y auditiva Conciencia:  se encuentra en estado de alerta responde a estímulos externos visuales, auditivos y táctiles; Orientación autosiquica y alopsiquica: sin alteraciones, conservada en tiempo, espacio y persona; Memoria: inmediata, reciente y remota conservadas; Pensamiento: Forma y curso de pensamiento: coherente sin neologismos; sin fuga de ideas; no presenta discurso superficial o lleno de divagaciones evasivas o detalles sin importancia, logra comunicar lo que desea; Inteligencia: impresiona dentro de lo normal; Juicio: La paciente no ha presentado alucinaciones o ideas delirantes por lo que no indica perdida del juicio de la realidad.     ÆÆESTADO EMOCIONAL: estado anímico moduladoÆÆMOTRICIDAD: sin alteraciones ÆÆLENGUAJE: La paciente demuestra capacidad articulatoria; fluidez adecuada; buena comprensión del habla; vocabulario adecuado; se muestra colaborativo; es coherente con su discurso; muestra coherencia; comprende las oraciones. ÆÆINTEGRIDAD COMPORTAMENTAL: La paciente no demuestra descuido en su autocuidado; No ruptura de normas sociales; No refiere desconfianza exagerada; No demuestra autoagresión. Ni disminución de la sociabilidad.ÆÆ
+1|informe|n/a
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

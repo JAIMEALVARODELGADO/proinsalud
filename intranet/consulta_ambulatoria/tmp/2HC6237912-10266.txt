@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREAS,
+2|neofarmacos|LOSARTAN, 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MAMOGRAFIA DEL 16/11/2017 BIRADS 0 ,  CITOLOGIA DEL 14 DE MARZO DEL 2019: ATROFIA NEGATIVA PARA MALIGNIDAD 
+2|gestan|3
+2|partos|0
+2|cesareas|3
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

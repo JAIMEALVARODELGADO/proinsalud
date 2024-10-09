@@ -1,0 +1,16 @@
+3|fin|
+3|tenar1|0
+3|tenar2|0
+3|freres|0
+3|fc|0
+3|tempe|0
+3|peso|0
+3|talla|0
+3|imc|NaN
+3|cintura|0
+3|cadera|0
+3|icc|NaN,000
+3|dimc|
+3|pc|
+3|otros|0
+3|saox_tri|

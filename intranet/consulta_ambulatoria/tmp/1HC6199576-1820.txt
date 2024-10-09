@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|2331
+1|escolaridad|7610
+1|estadocivil|A703
+1|direccion|CRA 18  No. 20 - 41  B/  FATIMA
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|SINACOMPAÑANTE
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|POR EL DOLOR
+1|enfeac|PACIENTE CON DOLOR EN  REGION PELVICA SIN MEJORIA A PESAR DE MANEJOS PREVIOS Y  VALORACIONES PREVIAS. 
+1|revisi|NO HAY SINTOMAS EN LA REVISION POR CADA SISTEMA. NO VIOLENCIA INTRAFAMILIAR,  FISICA, SEXUAL NI PSICOLOGICA. NO ES VICTIMA DE DESPLAZAMIENTO NI CONFLICTO ARMADO. NIEGA TRABAJO SEXUAL, ABANDONO, DISCRIMINACION CULTURAL, PRIVACION DE LIBERTAD EN CENTRO CARCELARIO.ÆÆ
+1|informe|NO APLICA
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

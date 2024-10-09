@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A703
+1|direccion|CRA 40# 17A 69 BARIO EL DORADO
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|ASISTE HIJO A LA CONSULTA: PABLO MORALES
+1|enfeac|PACIENTE DE 104 AÑOS DE EDAD, CON DX DE DM2, HTA, ARTROSIS E  INCONTINENCIA URINARIA. MEDICACION ACTUAL: VALSARTAN 80 X 1, FUROSEMIDA 40 X 1 Y ACETAMONOFEN. ADICIONALMENTE CON LUXACION DE CADERA DERECHA. POSTRADA CON ESCARAS DE DECUBITO. FAMILIA SOLICITA FORMULACION DE PAÑALES Y ATENCION DOMICILIARIA. 
+1|revisi|EA
+1|informe|EA
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

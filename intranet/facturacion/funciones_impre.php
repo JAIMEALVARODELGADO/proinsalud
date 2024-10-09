@@ -97,7 +97,7 @@ function titulo(&$pdf,&$fila){
     $pdf->multicell(190,4,$dire_emp." - Tel: ".$tele_emp,0,'C');
     $fila=$fila+4;
     $pdf->SetXY(15,$fila);
-    $pdf->multiCell(190,4,$enca_emp,0,'C');
+    $pdf->multiCell(190,4,utf8_decode($enca_emp),0,'C');
     $fila=$pdf->GetY();
     //$fila=$fila+4;
     //linea(15,$fila,190,'_',$pdf);
@@ -283,6 +283,14 @@ function imprefac($iden_fac,&$pdf){
                 $nom_cie10=SUBSTR($rowcie[nom_cie10],0,70);
             }
             mysql_free_result($consultacie);
+
+            //Aqui se consulta el encabezado de la factura de acuerdo al prefijo            
+            $consultaconsec = "select c.encabezado_fac from consecutivo c WHERE c.prefijo='$pref_fac'";
+            $consultaconsec = mysql_query($consultaconsec);
+            $rowconsec=mysql_fetch_array($consultaconsec);
+            global $enca_emp; 
+            $enca_emp = $rowconsec['encabezado_fac'];
+            //echo $enca_emp;
     }
     titulo($pdf,$fila);
 
@@ -636,6 +644,15 @@ function imprefac_2($iden_fac,&$pdf){
                 $nom_cie10=SUBSTR($rowcie[nom_cie10],0,70);
             }
             mysql_free_result($consultacie);
+
+            //Aqui se consulta el encabezado de la factura de acuerdo al prefijo            
+            $consultaconsec = "select c.encabezado_fac from consecutivo c WHERE c.prefijo='$pref_fac'";
+            $consultaconsec = mysql_query($consultaconsec);
+            $rowconsec=mysql_fetch_array($consultaconsec);
+            global $enca_emp; 
+            $enca_emp = $rowconsec['encabezado_fac'];
+            //echo $enca_emp;
+
     }
     titulo($pdf,$fila);
     $condet="SELECT iden_fac, tipo_dfa,iden_dfa, iden_fac,iden_tco, desc_dfa, cant_dfa, valu_dfa,servi_dfa,servicio,if(tipo_dfa='M','M',if(tipo_dfa='I','I',clas_map)) AS clas_map,clase 
@@ -856,5 +873,4 @@ function imprefac_2($iden_fac,&$pdf){
     $pdf->multiCell(190,2,$rowenca[pie_emp],0,'J');
     $pdf->AliasNbPages();
 }
-
 ?>

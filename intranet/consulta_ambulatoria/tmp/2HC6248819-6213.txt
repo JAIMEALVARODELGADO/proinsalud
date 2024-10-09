@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|AMIGDALECTOMIA ,  RTC BILATERAL,  HEMICOLECTOMIA, RESECCION DE MELANOMA GLUTEOS, VULVECTOMIA, CESAREA 
+2|neofarmacos|LEVOTIROXINA 50 MCG CADA DIA 
+2|nuetoxico|ANIBIOTICO NO RECUERDA 
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO 
+2|gineco|menarca: 15 años, citol. 1 año, menop. 55 años.
+2|gestan|2
+2|partos|1
+2|cesareas|1
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

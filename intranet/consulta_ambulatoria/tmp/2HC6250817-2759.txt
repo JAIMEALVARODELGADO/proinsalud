@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA , CARDIOPATIA NO ESPECIFICADA 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HEMORROIDECTOMIA, COLECISTECTOMIA ABIERTA , APENDICECTOMIA, CESAREA 2, POMEROY 
+2|neofarmacos|CARVEDILOL 6.25 MG CADA 12 HORAS, LOSARTAN 50 MG CADA 12 HORAS, HIDROCLOROTIAZIDA 25 MG CADA DIA 
+2|nuetoxico|METOCLOPRAMIDA, DIPIRONA 
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|menarca 16 años fum a los 54 años NO G3P1C2V3a0 citología hace 1 semana no trae resultados mamografía ultima por msas hace 20 años  se Envia orden .MAMOGRAFIA DEL 18 DE MARZO DEL 2017 OPINIÓN: MAMOGRAFÍA CON HALLAZGOS BENIGNOS. CATEGORÍA 2 DE LA CLASIFICACIÓN BI-RADS. 03*09/2018 CITOLOGIA: NEGATVA PARA MALIGNIDAD. ATRFIA NORMAL PARA LA EDAD. ****SE SOLICITA CONTROL ESTUDIOS TAMIZAJE 15/07/2020
+2|gestan|3
+2|partos|1
+2|cesareas|2
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

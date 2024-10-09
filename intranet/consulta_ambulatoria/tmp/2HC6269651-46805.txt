@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos| SEPTOPLASTIA FUNCIONAL, POMEROY 
+2|neofarmacos|CABERGOLINA 
+2|nuetoxico|CEFALEXINA, ASA 
+2|neotransfin|Negativo
+2|neootros|MICROADENOAMA HIPOFISIARIO PRODUCTOR DE PROLACTINA 
+2|gineco|menarquia 13 años       citologia 14/05/21 OPINON FROTIS DEMASIADO  INFLAMATORIO Y HEMORRAGICO CON PRESENCIA DE ESPORAS  POR HONGOS, RESPETUOSAMENTE SE SUGIERE TRATAMIENTO Y REPETIR CITOLOGIA PENDIENTE.
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

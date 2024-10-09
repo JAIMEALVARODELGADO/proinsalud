@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|Negativo
+2|neofarmacos|LEVOTIROXINA 50 MCG CADA DIA DE LUNES A SABADO. QUIMIOTERAPIA ULTIMO CICLO 2 DE NOV 2023
+2|nuetoxico|ESTATINAS 
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO, CA DE MAMA 
+2|gineco|menarca: 13 años, sexarca: 19 años, parejas sexuales #2, citologia. sep 2020, reifere normal, PACIENTE HACE PARTE DE CRONICOS CICLOS REGULARES 3*28
+2|gestan|1
+2|partos|0
+2|cesareas|0
+2|abortos|1
+2|vivos|0
+2|mortinatos|0
+2|feulme|

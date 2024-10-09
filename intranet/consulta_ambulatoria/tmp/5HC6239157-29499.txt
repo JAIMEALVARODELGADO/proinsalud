@@ -1,0 +1,32 @@
+5|claseorden|1
+5|codorden|902210
+5|desorden|902210 - HEMOGRAMA IV (HEMOGLOBINA HEMATOCRITO RECUENTO DE ERITROCITOS INDICES ERITROCITARIOS LEUCOGRAMA RECUENTO DE PLAQUETAS INDICES PLAQUETARIOS Y MORFOLOGIA ELECTRONICA E HISTOGRAMA) AUTOMATIZADO () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|I10X
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903843
+5|desorden|903843 - GLUCOSA PRE Y POST PRANDIAL () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|I10X
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903895
+5|desorden|903895 - CREATININA EN SUERO U OTROS FLUIDOS () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|I10X
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903869
+5|desorden|903869 - UREA EN SANGRE U OTROS FLUIDOS () 
+5|nivel|REFERENCIA
+5|obseorden|
+5|diagorden|I10X
+5|cantorden|1
+5|cama|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA 2, HISTERECTOMIA, COLECISTECTOMIA
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|RINITIS
+2|gineco|MENARQUIA 13 AÑOS, FUM : 42 AÑOS, G2C2A0V2. CITOLOGIA VAGINAL 2019 NEGATIVA PARA MALIGNIDAD, MAMOGRAFIA: 2018 NEGATIVA PARA MALIGNIDAD REFIERE. 
+2|gestan|2
+2|partos|0
+2|cesareas|2
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CORRECCION DE HERNIA HIATAL, CORRECCION DE PTERIGION CONJUNTIVAL, HEMORROIDECTOMIA 
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|- menarquia 11 años,  FUM JUNIO 2020-------  CITOLGIA 12/11/2020 NEGATIVA            -            - 22/07/21 ECOGRAFIA DE MAMA  : QUISTES SIMPLES AISLADOS EN AMBOS SENOS//     2022-09-21 mamogradia :HALLAZGOS BENIGNOS. MAMOGRAFÍA NEGATIVA PARA PROCESO EVOLUTIVO MALIGNO CATEGORÍA 2 DE LA CLASIFICACIÓN BI-RADS
+2|gestan|1
+2|partos|1
+2|cesareas|0
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

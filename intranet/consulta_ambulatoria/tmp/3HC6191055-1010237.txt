@@ -1,0 +1,16 @@
+3|fin|
+3|tenar1|90
+3|tenar2|80
+3|freres|18
+3|fc|80
+3|tempe|36
+3|peso|40
+3|talla|120
+3|imc|27.778
+3|cintura|
+3|cadera|
+3|icc|
+3|dimc|Sobre Peso
+3|pc|
+3|otros|SE OBSERVA XEROSIS DE LA PIEL 
+3|saox_tri|

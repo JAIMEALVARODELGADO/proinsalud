@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A701
+1|direccion|CRA 6A No 21B - 09 B/ESMERALDA
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|Primera  vez
+1|enfeac|Paciente con multiples  coomorbilidades  se  encuentra  en tratamento con Endocrinologia   remitida  por Trombocitopenia , y Anema. examenes  de control (18/03/24) 
+1|revisi|.
+1|informe|.Recuento de Leucocitos 4.34 x10e3/uL 3.70 -Æ% Neutrofilos 66.7 % 39.3 -Æ% Linfocitos 18.5 % 18.0 -Æ% Monocitos 11.5 % 4.40 -Æ% Eosinofilos 2.4 % 0.600 -Æ% Basofilos 0.7 % 0.00 -Æ# Neutrofilos 2.90 x10e3/uL 1.63 -Æ# Linfocitos 0.80 x10e3/uL 1.09 -Æ# Monocitos 0.50 x10e3/uL 0.240 -Æ# Eosinofilos 0.10 x10e3/uL 0.030 -Æ# Basofilos 0.03 x10e3/uL 0.00 -ÆRecuento de Eritrocitos 4.48 x10e3/uL 4.06 -ÆHemoglobina 10.1 g/dL 12.9 -ÆHematocrito 33.3 % 37.7 -ÆVolumen Corpuscular Medio 74.4 fL 81.1 -ÆHB Corspuscular Media 22.6 pg 27.0 -ÆConcentración HB Corpucular Media 30.3 g/dL 31.8 -ÆAncho Distribución Eritrocitaria 18.7 % 11.5 -ÆRecuento de Plaquetas 126 x10e3/uL 150 -ÆVolumen Plaquetario Medio 10.1 fL 6.90 -ÆAncho de Distribución Plaquetas 15.7 10(GSD) 0.00 -ÆPlaquetocrito 0.12 % 0.00 -ÆRecuento de Plaquetas Manual 131.000 xmm3Æ
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

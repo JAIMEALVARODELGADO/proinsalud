@@ -1,0 +1,11 @@
+2|person|patologicos: hipotiroidismo, litiasis urinaria,  artrosis,  enfermedad fibroquistica, condromalacia patelar bilateral, colon irritable // quirurgicos: apendicectomia, tiroidectomia, cistopexia, lipectomia, pomeroy, artroscopia y correccion rotuliana izquierda, traumaticos: negativos, toxicos: bebedora social en la juventud, niega exposicion a toxicos, niega consumo de spa, alergicos:*****DIPIRONA  *****,  farmacologicos: levotiroxina 50 mcg c/dia, trimebutina 200 mg, vitamina e 1 cada dia , meloxican 15 mg, ocasional, glucosamina + condroitin sulfato, Ocupacion: hogar, estado civil viuda. se interroga y niega ser vicitma de violencia intrafamiliar, fisica o psicologica, EN SEGUIMIENTO POR  P Y M 09/23
+2|familia|madre diabetes padres hipertension, niega antecedentes familiares,  de trastornos mentales, en lo interrogado niega consumo de spa, en familiares cercanos, niega comportamientos suicidas, o suicidos en la familia, eventos cercanos al examen actual 
+2|metodo|MENOAPUSIA
+2|gineco|menarca: 15 años, sexarca: 20 años, citologia: DICIEMBRE DE 2020, negativa para malignidad, MAMOGRAFIA  FEB 2021 BIRADS 1 NEGATIVA PARA MALIGNIDAD
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|MENOPAUSIA

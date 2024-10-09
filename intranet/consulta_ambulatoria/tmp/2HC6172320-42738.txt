@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|TIROIDECTOMIA, COLECISTECTOMIA, CESAREA, POMEROY
+2|neofarmacos|LEVOTIROXINA, LOSARTAN
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO
+2|gineco|MENARQUIA: 14 AÑOS -- CITLOGIA HACE MAS DE UN AÑO NORMAL SEGUN REFIERE  -- CICLOS REGULARES
+2|gestan|3
+2|partos|2
+2|cesareas|1
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

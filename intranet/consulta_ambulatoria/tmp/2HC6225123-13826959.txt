@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|OBESIDAD, DISLIPIDEMIA
+2|gineco|MENARQUIA: 14 AÑOS, SEXARCA: 18 AÑOS, NUMERO DE COMPAÑEROS SEXUALES: 1, NIEGA ENFERMEDADES DE TRANSMISIÓN SEXUAL. CITOLOGIA: DICIEMBRE DE 2022 NEGATIVA PARA MALIGNIDAD. MPF: PRESERVATIVO
+2|gestan|1
+2|partos|0
+2|cesareas|1
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|2024-02-15

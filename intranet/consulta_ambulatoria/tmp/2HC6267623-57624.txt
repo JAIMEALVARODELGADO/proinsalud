@@ -1,0 +1,11 @@
+2|person|patiologicos: gastritis cronica  quirurgicos: negativos, traumaticos: fisura de 5 metatarsiano derecho, toxicos: negativos, niega exposicion a toxicos, niega consumo de spa, alergicos: negativos, farmacologicos: esomeprazol c/dia, ocupacion: docente,  estado civil soltera, nov 15 2019, niega ser victima de violencia, fisica, sexual, emocional, psicologica, de genero, niega ser desplazado por la violencia o conflicto armado, no pertenece a etnias o grupos poblacionales especiales , habitos nutricionales saludables, actividad fisica moderada, patron de sueño regular, niega fobias, sociales o personales,  no perdidas familiares actuales py  m  nov  2022 
+2|familia|madre hipertension arterial, tio paterno cancer gastrico fallecido, niega antecedentes familiares,  de trastornos mentales, en lo interrogado niega consumo de spa, en familiares cercanos, niega comportamientos suicidas, o suicidos en la familia, eventos cercanos al examen actual 
+2|metodo|
+2|gineco|menarca: 14 años, sexarca: 35 años, citologia: feb 2019, inflamacion y atrofia, negativos para malignidad, mamografia: julio 2019 bi rads 2, menop 4 años 
+2|gestan|2
+2|partos|1
+2|cesareas|0
+2|abortos|1
+2|vivos|1
+2|mortinatos|0
+2|feulme|

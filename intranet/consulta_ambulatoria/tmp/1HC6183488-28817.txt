@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7603
+1|estadocivil|A702
+1|direccion|MZ 4 CS 5 TAMASAGRA II ETAPA
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|CALCULOS EN ALA VESICULA  BILAIR  
+1|enfeac| REFIERE CUADOR CCINICO DE   DOLRO ABDOMINALA  Y  DISTENSION MAS SISNTO AS DISPTICOS  TRAE REPRTE D EU S ENR ELAICON COCN COLEITAIS  , COCN PERSISTENCIA D ESISNTO AS POR LO QUE S EPRGRAM CX  
+1|revisi|NO REFIERE  
+1|informe|NO ESTUDIOS NUEVOS PARA AINTERPRETAR.
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

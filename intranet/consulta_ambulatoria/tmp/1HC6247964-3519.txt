@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|2320
+1|escolaridad|7608
+1|estadocivil|A702
+1|direccion|MANZANA A CASA 3  B/ROSALES 1 B/ 
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|LLEVA CON PSIQUIATRIA DESDE HACE TRES AÑOS.
+1|enfeac|TOMA CON JUICIO LOS MEDICAMENTOS ORIENTADA EN SUS ESFERAS AFECTO HIPOMODULADO.CON INTROSPECCION Y PROSPECCION CONSERVADA JUICIO Y RACIOCINIO CONSERVADOS,MARCHA MOTRICIDAD Y PRAXIA DISMINUIDOS SE AYUDA CON BASTON FRANCES,PARA SU DEAMBULAR.
+1|revisi|.DIFICULTAD PARA LA MARCHA POR TRASPLANTE TOTAL DE RODILLA DERECHA.
+1|informe|NINGUNO
+1|grupo_poblacional|F101
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

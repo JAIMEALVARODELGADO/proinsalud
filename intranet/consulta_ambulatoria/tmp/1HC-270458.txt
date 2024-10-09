@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|2320
+1|escolaridad|7609
+1|estadocivil|A704
+1|direccion|MZ I CASA 9 B/STA ANITA
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|\\\"se me esta cayendo mucho el cabello y no puedo conciliar el sueño\\\" 
+1|enfeac|Paciente femenina de 39 años de edad, 
+1|revisi|APARIENCIA PERSONAL: Usuario en quien se identificó una adecuada presentación e higiene personal, vestimenta acorde, higiene corporal adecuada, posturas y mirada acordes, ingresa por sus propios medios, su tono de voz es normal, motivación estable, estado de ánimo sin alteración aparente, usuario mostro una actitud receptiva y de colaboración, durante la consulta, no se observa preocupación excesiva, preocupación acorde a la realidad. ÆÆFUNCIONES COGNITIVAS:  atención: sin alteraciones euprosexica, responde a la estimulación visual y auditiva Conciencia:  se encuentra en estado de alerta responde a estímulos externos visuales, auditivos y táctiles; Orientación autosiquica y alopsiquica: sin alteraciones, conservada en tiempo, espacio y persona; Memoria: inmediata, reciente y remota conservadas; Pensamiento: Forma y curso de pensamiento: coherente sin neologismos; sin fuga de ideas; no presenta discurso superficial o lleno de divagaciones evasivas o detalles sin importancia, logra comunicar lo que desea; Inteligencia: impresiona dentro de lo normal; Juicio: La paciente no ha presentado alucinaciones o ideas delirantes por lo que no indica perdida del juicio de la realidad.     ÆÆESTADO EMOCIONAL: estado anímico moduladoÆÆMOTRICIDAD: sin alteraciones ÆÆLENGUAJE: La paciente demuestra capacidad articulatoria; fluidez adecuada; buena comprensión del habla; vocabulario adecuado; se muestra colaborativo; es coherente con su discurso; muestra coherencia; comprende las oraciones. ÆÆINTEGRIDAD COMPORTAMENTAL: La paciente no demuestra descuido en su autocuidado; No ruptura de normas sociales; No refiere desconfianza exagerada; No demuestra autoagresión. Ni disminución de la sociabilidad.ÆÆÆÆ
+1|informe|CONTEXTOS DE FUNCIONAMIENTOÆÆAREA PERSONAL: Se puede observar en sesión que la consultante presenta buena presentación y aseo personal, ingresa puntual a la consulta, se indagan ANTECEDENTES PERSONALES: Antecedentes quirúrgicos: rinitis, Ginecoobstetricos: cesarea , Método de planificación: DIU, Depresión posparto: no, Farmacológicos: hidorxicina, Toxico-alérgicos: niega alergias a medicamentos, Hábitos nutricionales: consumo de frutas y verduras regulares, bajo en grasas, harinas, azúcares, sal, Actividad física: 3-4 veces por semana duración de 30 minutos, Actividad sexual: no, Patrón de sueño: 6 horas diarias., Consumo de spa: niega, Violencia intrafamiliar, sexual, psicológica y física: niega, Niega ser víctima del conflicto armado, Fobias: niega, Pérdidas de familiares recientes: no, Riesgo suicida: no.   En ANTECEDENTES FAMILIARES: niega antecedentes de trastornos mentales en la familia, consumo de spa, suicidio, ansiedad y depresión, cardiopatías, antecedente de hipertensión por linea materna, diabetes en abuela materna y cancer en su hermana, ÆÆÁREA SOCIAL: Paciente menciona tener un círculo social estrecho, afirma tener habilidades para comunicarse y relacionarse con otras personas.  ÆÆÁREA AFECTIVA: Paciente menciona estar vivir en unión libre, desde hace 12 años con quien sostiene una relación estable, sólida, en donde se evidencia la buena comunicación y vínculo adecuado  ÆÆAREA FAMILIAR: familia demográficamente, urbana, integrada, nuclear, extensa, funcional.ÆÆÁREA ECONÓMICA: Menciona ingresos económicos compartidos en su hogar, afirma ingresos de su actividad laboral ÆÆÁREA LABORAL: Afirma desempeñarse como docente en el colegio ins. TeresianoÆÆÁREA ACADÉMICA: Menciona estudios de posgrado. ÆÆAREA RELIGIOSA: ningunaÆÆ
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

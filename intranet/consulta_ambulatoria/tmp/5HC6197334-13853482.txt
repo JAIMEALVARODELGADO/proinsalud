@@ -1,0 +1,8 @@
+5|claseorden|4
+5|codorden|0664
+5|desorden|
+5|nivel|
+5|obseorden|1 mes
+5|diagorden|E039
+5|cantorden|1
+5|cama|

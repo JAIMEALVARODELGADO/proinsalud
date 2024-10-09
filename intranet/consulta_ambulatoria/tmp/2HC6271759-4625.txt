@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|APENDICECTOMIA
+2|neofarmacos|LOSARTAN, AMLODIPINO
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA 14 AÑOS, CITOLOGIA NUNCA ,  FUM HACE 30 AÑOS, ULTIMA MAMOGRAFIA  HACE 15 AÑOS, G0P0C0V0
+2|gestan|0
+2|partos|0
+2|cesareas|0
+2|abortos|0
+2|vivos|0
+2|mortinatos|0
+2|feulme|

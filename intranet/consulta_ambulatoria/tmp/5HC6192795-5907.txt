@@ -1,0 +1,48 @@
+5|claseorden|1
+5|codorden|902210
+5|desorden|902210 - HEMOGRAMA IV (HEMOGLOBINA HEMATOCRITO RECUENTO DE ERITROCITOS INDICES ERITROCITARIOS LEUCOGRAMA RECUENTO DE PLAQUETAS INDICES PLAQUETARIOS Y MORFOLOGIA ELECTRONICA E HISTOGRAMA) AUTOMATIZADO () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|K580
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903605
+5|desorden|903605 - IONOGRAMA [CLORO SODIO POTASIO Y BICARBONATO O CALCIO] (S) 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|K580
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|907004
+5|desorden|907004 - COPROSCOPICO () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|K580
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|907008
+5|desorden|907008 - SANGRE OCULTA EN MATERIA FECAL [GUAYACO O EQUIVALENTE] () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|K580
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|907002
+5|desorden|907002 - COPROLOGICO () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|K580
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|903841
+5|desorden|903841 - GLUCOSA EN SUERO U OTRO FLUIDO DIFERENTE A ORINA () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|K580
+5|cantorden|1
+5|cama|

@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS:  HTA , xantogranuloma de plexo coroideo, GASTRITIS, DERMATITIS, RINITIS LAERGICA, TRASTORNO DE ANSIEDAD Y DEPRESION -- ALERGICOS: DIPIRONA, SULFATO FERROSO, METOCLOPRAMIDA, ESPARADRAPO, SULFAS,ESPARADRAPO DE TELA -- QUIRURGICOS: POMEROY, RESECCION PTERIGION,  COLECISTECTOMIA -- TRAUMATICOS: NIEGA -- TOXICOS: NIEGA -- FARMACOLOGICOS:  DIOVAN 2 AL DIA ACIDO VALPROICO  1 c/8 horas, (ordenada no consume, esomeprazol 20 mg c/dia,  hidroxido de alumino -- OCUPACION: DOCENTE habitos nutricionales saludables, actividad fisica moderada, patron de sueño regular, Niega fobias, sociales o personales, no perdidas familiares actuales, Niega ser victima de violencia, fisica, sexual, emocional, psicologica, de genero, niega ser desplazado por la violencia o conflicto armado, no pertenece a etnias o grupos poblacionales especialeMEDICINA INETERNA 12/03/21 , VACUNA COVID 19 3 DOSIS , INFLUENZA  MARZO DEL 2022 ANTECEDENTES TRANSFUSIONALES: NO REFIERE. ANTECEDENTES DE CONSUMO DE SUSTANCIA PSICOACTIVAS: NO REFIERE. ANTECEDENTES DE VIOLENCIA INTRAFAMILIAR, SEXUAL O INFANTIL: NO REFIERE, ANTECEDENTES DE IDEACIÓN O INTENTO DE SUICIDIO: NO REFIERE, ANTECEDENTES NUTRICIONALES: NO REFIERE, ACTIVIDAD FÍSICA: OCASIONAL.    VACUNACIÓN: REFIERE TENER ESQUEMA DE VACUNACIÓN COMPLETO. ANTECEDENTES DE VIOLENCIA, ENFERMEDADES MENTALES, INTENTO DE SUICIDIO, CONSUMO DE SPA: NO REFIERE.Æ---22-08-2023 ATENCION RIAS AL DIA ----Æ
+2|familia|madre neumopatia, no clara, padre, gastropatia no claraniega antecedentes familiares,  de trastornos mentales, niega antecedentes de hipoacusia o ceguera en familia, en lo interrogado niega consumo de spa, en familiares cercanos, niega comportamientos suicidas, o suicidios en la familia, eventos cercanos al examen actual
+2|metodo|MENOPAUSIA
+2|gineco|MENARCA: 16 AÑOS -- SEXARCA: 17 AÑOS -- CITOLOGIA  22/11/2021 NEGATIVO PARA MALIGNIDAD -- MAMOGRAFIA 2021
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|MENOPAUSIA

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HEMORROIDECTOMIA
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|menarquia: 15 años, sexarquia: 21 años, # compañeros: 2, menopausia: A LOS 48 AÑOS, CITOLOGIA: EN 2021 NORMAL, MAMOGRAFÍA 05-08-2022: NEGATIVA PARA PROCESO EVOLUTIVO MALIGNO, CATEGORÍA 1 DE LA CLASIFICACIÓN BI-RADS. 
+2|gestan|8
+2|partos|6
+2|cesareas|0
+2|abortos|1
+2|vivos|6
+2|mortinatos|1
+2|feulme|

@@ -1,0 +1,11 @@
+2|person|Patologicos: Hipotiroidimo DM T2 SIN MANEJO FARMACOLOGICO.  //            Farmacologicos: LEVOTIROXINA* 50 mcg*1, asa 100 mg *1 Quriurgicos: histerectomia hemorroidectomia .  //            Alergicos: niega.      //              Toxicos: niega . 
+2|familia|mama y hermanas diabeticas 
+2|metodo|NA-
+2|gineco|MENARQUIA 15 AÑOS     mamografia 28 de julio de 2015 norma    MENOPAUSIA 38 AÑOS  20/06/2018 MAMOGRAFÍA NEGATIVA PARA PROCESO EVOLUTIVO MALIGNO CATEGORÍA 1 DE LA CLASIFICACIÓN BI-RADS
+2|gestan|4
+2|partos|4
+2|cesareas|0
+2|abortos|0
+2|vivos|4
+2|mortinatos|0
+2|feulme|

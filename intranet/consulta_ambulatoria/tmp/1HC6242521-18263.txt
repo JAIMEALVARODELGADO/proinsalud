@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A702
+1|direccion|VEREDA LAS DELICIAS
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|Se realiza llamado para seguimiento de paciente por domicilio lejano en el municipio de Ipiales, atiende llamado hijo de paciente quien refiere ha estado estable sin cambios en su estado general 
+1|enfeac|Paciente femenina de 87 años de edad con antecedente de demencia senil asociada a enfermedad de Alzheimer, ulceras por decúbito, incontinencia urinaria, hta en seguimiento por medicina familiar, psiquiatría y programa de crónicos, al momento se llama a número de contacto atiende llamado hijo de paciente quien refiere ha estado estable sin cambios en su estado general, Paciente en cama con limitación marcada para su movilidad, con gastrostomía funcionante sin complicaciones, cuenta con atención por enfermería domiciliaria por 12 horas al día 
+1|revisi|Niega contacto estrecho y síntomas asociados a infección por SARS-CoV-2
+1|informe|-
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

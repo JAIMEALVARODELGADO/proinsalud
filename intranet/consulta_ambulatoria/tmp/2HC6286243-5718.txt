@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA, SECUELAS ACV ISQUEMICA CON LEVE HIPOESTESIA EN MIEMBRO INFERIOR DERECHO HACE 3 AÑOS, ENFEREMEDAD CORONARIA ASINTOMATICO HACE 10 AÑOS
+2|nuepulmonar|Negativo
+2|nuequirurgicos|Negativo
+2|neofarmacos|LEVOTIROXINA, AMLODIPINO, ENALAPRIL, ASA, METOPROLOL
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO, DIABETES MELLITUS
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS: NIEGA, ALERGICOS: NIEGA, QUIRURGICOS NIEGA, 
+2|familia|HTA MADRE 
+2|metodo|
+2|gineco|G4P3A1V3
+2|gestan|4
+2|partos|3
+2|cesareas|0
+2|abortos|1
+2|vivos|3
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,14 @@
+6|clasemedi|1
+6|codmedi|003151
+6|desmedi|MOXIFLOXACINA 5ml SOLUCION OFTALMICA
+6|dosis|1
+6|unid|GOTAS
+6|frecu|4
+6|unidfrecu|Horas
+6|via|2211
+6|tiempo|30
+6|obsemed|OJO IZQUIERDO 
+6|canti|1
+6|diagmedi|N390
+6|justifi|N
+6|pos|N

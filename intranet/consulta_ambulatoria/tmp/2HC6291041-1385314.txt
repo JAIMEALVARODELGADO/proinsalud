@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RESECCION DE MASA  DE MAMA IZQUIERDO 
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|FUM  50 AÑOS  ,   MAMOGRAFIA   18/07/23 BIRADS  0  ,   SANGRE OCULT A EN HECES DEL  21/07/23  NEGATIVO  , VPH   14/04/23  2023 NEGATIVO  , FUM  28/02/24 
+2|gestan|1
+2|partos|0
+2|cesareas|0
+2|abortos|1
+2|vivos|0
+2|mortinatos|0
+2|feulme|

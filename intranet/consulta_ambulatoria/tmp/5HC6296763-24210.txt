@@ -1,0 +1,8 @@
+5|claseorden|1
+5|codorden|904904
+5|desorden|904904 - HORMONA ESTIMULANTE DEL TIROIDES ULTRASENSIBLE () 
+5|nivel|CITAS
+5|obseorden|TOMAR  EN  3  MESES
+5|diagorden|E039
+5|cantorden|1
+5|cama|

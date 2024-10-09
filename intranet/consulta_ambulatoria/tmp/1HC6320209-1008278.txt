@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9998
+1|escolaridad|7613
+1|estadocivil|A701
+1|direccion|Casa # 253 B/ Av. Los estudiantes 
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|\\\\\\\"Por vertigo\\\"
+1|enfeac|Paciente asiste a consulta refiriendo cuadro clínico evolutivo de aproximadamente 8 dias el cual consiste en vertigo, cefalea en region occipital eva 4/10, otalgia izquierda, tinitus ipsilateral, niega fiebre, otorrea, otorragia,disnea, palpitaciones, precordalgia, plejias, paresias, disartria, diplopia u otro sintoma asociados. Refiere sintomas similares hace 3 años. // Refiere antecedente de trauma acustico en 2012 secudnario a explosio, refiere \"estuve el dia de la bomba de la policia, desde ahi me quedo el oido izquierdo malo\" 
+1|revisi|NO HAY SINTOMAS EN LA REVISION POR CADA SISTEMA.  PACIENTE CON ORIENTACION  SEXUAL   :HETEROSEXUAL , SIN   DISCAPACIDAD . ÆÆÆÆÆÆNIEGA  VIOLENCIA INTRAFAMILIAR, FISICA SEXUAL NI PSICOLOGICA. NO ES VICTIMA DE DESPLAZAMIENTO FORZADO   NI CONFLICTO ARMADO NIEGA VULNERABILIDAD   ( NIEGA ABANDONO SOCIAL  ,  NIEGA  DROGADICCION ,  NIEGA ENFERMEDAD MENTAL ) NIEGA TRABAJO SEXUAL, ABANDONO, DISCRIMINACION CULTURAL, PRIVACION DE LIBERTAD EN CENTRO CARCELARIO)
+1|informe|NO
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

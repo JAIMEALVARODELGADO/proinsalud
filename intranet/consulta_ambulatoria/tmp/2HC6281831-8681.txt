@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS HIPOTIROIDISMO, OJO SECO, GASTRITIS CRONICA,  - quirurgicos:maxiloetmoidectomia - RESECCION DE CATARATA //ocupaciones:fué docente//patologicos:hipotiroidismo;osteoartrosis;osteoporosis//alergicos:ninguno//farmacologicos:levotiroxina 50 MCG EN AYUNAS + alendronato cada 7 dias + vitamina d3/magnesio + meloxicam//apgar familiar  de octubre de 15/02/2016: ninguna o minma disfuncion familiar:ninguna accion tomada//phq9:4: ninguna o minima depresion: ninguna accion tomada, habitos nutricionales saludables, actividad fisica moderada, patron de sueño regular, Niega fobias, sociales o personales, no perdidas familiares actuales, Niega ser victima de violencia, fisica, sexual, emocional, psicologica, de genero, niega ser desplazado por la violencia o conflicto armado, no pertenece a etnias o grupos poblacionales especiales ----02-11-2022 ATENCION RIAS AL DIA ----
+2|familia|padre: ca de esofago niega antecedentes familiares,  de trastornos mentales, niega antecedentes de hipoacusia o ceguera en familia, en lo interrogado niega consumo de spa, en familiares cercanos, niega comportamientos suicidas, o suicidios en la familia, eventos cercanos al examen actual 
+2|metodo|NIGNUNO 
+2|gineco|menarca: 13 años, menop: 35 años/MAMOGRAFIA 69 AÑOS NORMAL. 26-5-22 ACUDE A PYM PROGRAMA VEJEZ PERTENECE A PROGRAMA DE CRONICOS 
+2|gestan|1
+2|partos|1
+2|cesareas|0
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

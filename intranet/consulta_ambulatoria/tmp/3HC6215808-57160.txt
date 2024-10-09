@@ -1,0 +1,55 @@
+3|fin|13
+3|tenar1|125
+3|tenar2|80
+3|freres|20
+3|fc|67
+3|tempe|36
+3|peso|61
+3|talla|162
+3|imc|23.243
+3|cintura|
+3|cadera|
+3|icc|
+3|dimc|Peso Normal
+3|pc|
+3|otros|
+3|saox_tri|
+3|codiexa0|1001
+3|item0|1
+3|obseexa0|Buenas condiciones generales, aspecto general dentro de limite adecuados, arreglo personal adecuado, acorde a estado general, higiene adecuada, estado nutricional, adecuado, vestimenta correcta, limpia, gesticulaciones normales
+3|codiexa1|1002
+3|item1|1
+3|obseexa1|Piel eutermica sin lesiones evidentes
+3|codiexa2|1003
+3|item2|1
+3|obseexa2|Normocéfalo
+3|codiexa3|1004
+3|item3|1
+3|obseexa3|Pupilas isocóricas fotorreactivas a la luz y acomodación, escleras anictéricas
+3|codiexa4|1005
+3|item4|1
+3|obseexa4|Otoscopia bilateral dentro de límites normales Nariz: Tabique central sin lesiones. Boca: Mucosa oral rosada húmeda
+3|codiexa5|1006
+3|item5|1
+3|obseexa5|Móvil; sin adenopatías
+3|codiexa6|1007
+3|item6|1
+3|obseexa6|Corazón rítmico sin soplos. Pulmones murmullo vesicular conservado sin sobreagregados 
+3|codiexa7|1008
+3|item7|
+3|obseexa7|
+3|codiexa8|1009
+3|item8|1
+3|obseexa8|RHA presentes, blando depresible no dolor, no masas ni organomegalias, no signos de irritación peritoneal,
+3|codiexa9|1010
+3|item9|
+3|obseexa9|
+3|codiexa10|1011
+3|item10|
+3|obseexa10|
+3|codiexa11|1012
+3|item11|1
+3|obseexa11|orientado en sus tres esferas sin déficit motor o sensitivo aparente, no ideas, ni comportamiento suicida al momento del examen, persona con adecuada atención, Consciente, alerta, orientada en 3 esferas, con memoria reciente y anterograda conservada, lenguaje claro, coherente, adecuada velocidad y tono en la voz, fluidez verbal adecuada, estado anímico adecuado, congruente, apariencia normal, comportamiento adecuado, afecto sin alteración, pensamiento coherente
+3|codiexa12|1013
+3|item12|1
+3|obseexa12|arcos de movilización preservados no dolorosos, pulsos distales presentes, llenado capilar menor de 2 segundos, sin edema.

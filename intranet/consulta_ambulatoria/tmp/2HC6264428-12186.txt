@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HISTERECTOMIA ABODMINAL TOTAL, CORRECCION DE PTERGION CONJUNTIVAL IZQUIERDO 
+2|neofarmacos|ORLISTAT 120 MG CADA 8 HORAS 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA 12 AÑOS, CITOLOGIA 30/1/2020 NEGATIVA PARA LESION INTRAEPITELIAL  INFLAMACION  ( ULTIMAS 3 CITOLOGIAS CON INFLAMACION ) 
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CIRUGIA COLUMNA LUMBAR # 6, PROSTATECTOMIA, HEMORROIDECTOMIA 
+2|neofarmacos|PREGABALINA, ACETAMINOFEN MAS CODEINA, LOSARTAN 50 MG, HCTZ 25 MG
+2|nuetoxico|TRAMADOL
+2|neotransfin|Negativo
+2|neootros|GASTRITIS, SECUELAS, SINDROME DE CONO MEDULAR
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

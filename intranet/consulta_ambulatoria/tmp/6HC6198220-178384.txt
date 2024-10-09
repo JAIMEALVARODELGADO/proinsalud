@@ -1,0 +1,14 @@
+6|clasemedi|1
+6|codmedi|363002
+6|desmedi|ALBENDAZOL 200 mg TABLETA
+6|dosis|2
+6|unid|UND
+6|frecu|1
+6|unidfrecu|Dias
+6|via|2203
+6|tiempo|2
+6|obsemed|
+6|canti|4
+6|diagmedi|B829
+6|justifi|N
+6|pos|S

@@ -1,0 +1,40 @@
+<!-- Captura la identificación del usuario a buscar -->
+<html>
+<head><title>Buscar Usuario</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<script language="Javascript">
+function validar(form)
+{
+   if ((form.usu.value == '') && (form.n_ord.value == '')) 
+    { 
+		alert("Por favor ingrese la identificación o Orden"); 
+		return; 
+	}
+
+form.submit();
+}
+</script>
+
+</head>
+<body bgcolor="#E6E8FA">
+<!--<link rel="stylesheet" href="css/style.css" type="text/css">-->
+<form name="cd_usuario" method="POST" action="actualiza.php" target="Fr04">
+
+<table class='Tbl0' border='0'>
+    <tr><td class='Td1' align='center'><STRONG>MODIFICACION DE PROCEDIMIENTOS DE LABORATORIO</strong></td></tr>
+</table>
+<!--<Table width="40%" border="1" align="center" cellpadding=0 Cellspacing=1 BorderColor="#fffff" BgColor="D0D0F0">-->
+<br>
+<table border='0' width="50%" align='center'>
+ <tr> 
+	
+	<td align="right"><b>Identificación:</font></td>
+	<td ><input type=text name="usu" size=20 maxlength=20>*</td>
+	<td align="right"><b>Nº Orden:</font></td>
+	<td ><input type=text name="n_ord" size=12 maxlength=12></td>
+    <td align="left"><input type="button" name="btn1" value="Buscar" onclick="validar(this.form)"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>

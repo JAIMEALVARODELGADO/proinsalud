@@ -1,0 +1,32 @@
+5|claseorden|1
+5|codorden|061002
+5|desorden|061002 - BIOPSIA DE GLANDULA TIROIDES VIA PERCUTANEA () 
+5|nivel|REFERENCIA
+5|obseorden|FAVOR TOMAR PRIORITARIO. NODULO TIROIDEO IZQUIERDO
+5|diagorden|E041
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|898003
+5|desorden|898003 - ESTUDIO DE COLORACION BASICA EN CITOLOGIA POR ASPIRACION DE CUALQUIER TEJIDO U ORGANO [BACAF] (2) 
+5|nivel|REFERENCIA
+5|obseorden|NODULO TIROIDEO IZQUIERDO
+5|diagorden|E041
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|881701
+5|desorden|881701 - ECOGRAFIA COMO GUIA PARA PROCEDIMIENTOS () 
+5|nivel|REFERENCIA
+5|obseorden|BIOPSIA DE NODULO TIROIDEO IZQUIERDO
+5|diagorden|E041
+5|cantorden|1
+5|cama|
+5|claseorden|2
+5|codorden|0643
+5|desorden|
+5|nivel|
+5|obseorden|FAVOR DAR PRIORITARIA  CITA DE CONTROL CON RESULTADOS DE BIOPSIA
+5|diagorden|0647
+5|cantorden|
+5|cama|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|POMEROY
+2|neofarmacos|LEVOTIROXINA 25 MCG
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIRODISMO
+2|gineco|menarca: 17 años, sexarca: 30 años, parejas sexuales #1, menopausia 45 años, citologia: 2 años, PACIENTE YA NO TIENE RANGO DE EDAD PARA CONTINUAR TAMIZAJE CA DE CUELLO UTERINO NI MAMA, mamografia julio 2021, bi rads 1
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

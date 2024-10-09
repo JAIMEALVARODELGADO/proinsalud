@@ -1,0 +1,15 @@
+2|nuecardiovasculares|ECTOPIA VENTRICULARES AISLADAS
+2|nuepulmonar|Negativo
+2|nuequirurgicos|NISSEN, RESECCION NODULO SENO IZUQIERDO, CESAREA,, ARTROSCPIA RODILLA
+2|neofarmacos|ESOMEPRAZOL, ESCITALOPRAN
+2|nuetoxico|ASA, AINES
+2|neotransfin|Negativo
+2|neootros|HIPOGLICEMIA, ANSIEDAD
+2|gineco|menarca: 13 años, sexarca: 18 años, citología : abril 2019, flora sugestiva de vaginosis bacteriana inflamacion, negativa para malignidad, planificaicon diu(5 años). CICLOS REGULARES. 6*28, PLANIFICACION DIU
+2|gestan|2
+2|partos|1
+2|cesareas|1
+2|abortos|0
+2|vivos|2
+2|mortinatos|.0
+2|feulme|2024-04-14

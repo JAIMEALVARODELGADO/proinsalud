@@ -1,0 +1,16 @@
+3|fin|
+3|tenar1|90
+3|tenar2|80
+3|freres|17
+3|fc|88
+3|tempe|36
+3|peso|20
+3|talla|108
+3|imc|17.147
+3|cintura|
+3|cadera|
+3|icc|
+3|dimc|Bajo Peso
+3|pc|
+3|otros|SE OBSERVA PAPULAS FOLICULARES EN MIEMBROS SUPERIORES XEROSIS GENERALIZADA
+3|saox_tri|

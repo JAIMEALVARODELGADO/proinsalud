@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLELAP, REPARACION DE MANGUITO ROTADOR DERECHO, CISTOPEXIA 
+2|neofarmacos|EUTIROX 50 MCG CADA DIA 
+2|nuetoxico|BRICANYL 
+2|neotransfin|Negativo
+2|neootros|HIPOITIROIDISMO, 
+2|gineco|Menarca: 15 años sexarca:  19 años , ultima citología: hace 3 años, normal, ultima mamografía: AGOSTO 2022: BIRADS 0, NODULO MAMARIO.  NORMAL  menopausia: 56 años.
+2|gestan|4
+2|partos|3
+2|cesareas|0
+2|abortos|1
+2|vivos|3
+2|mortinatos|0
+2|feulme|

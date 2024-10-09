@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A701
+1|direccion|BLOQUE 6 APTO 102 SUMATAMBO 
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|LLEVA CON PSIQUIATARIA DESDE HACE DOS AÑOS.
+1|enfeac|ANOCHE FUE UNA CRISS FIBROMIALGIA DURO,NO HABER GENDA PARA FISIATRIA Y NO HAVER PREGABALINA,SE SALIO HERPES POR EL ESTRES LA RILLA DERECHA Y TODO EL HEMIICUERPO INQUIRDO TENIA DOLOR QUE LE IMPIDE LA MOVILIDAZACION.DICE NO HABER ENCONTRADO MEDICACION PARA SU DOLOR.
+1|revisi|MUSCULO ESQUELETICO NERVIOSO
+1|informe|NINGUNO
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

@@ -1,0 +1,22 @@
+4|conti|1301
+4|causa|1213
+4|final|10
+4|sintorespi|N
+4|sintopiel|N
+4|causatrab|
+4|tipodiag|3
+4|patolocronicas|S
+4|map|DEMENCIA EN LA ENFERMEDAD DE ALZHEIMER, NO ESPECIFICADA (G30.9+)
+4|cod|f009
+4|obse|
+4|map1|ENFERMEDAD DE ALZHEIMER, NO ESPECIFICADA
+4|cod1|g309
+4|obse1|
+4|map2|ULCERA DE DECUBITO
+4|cod2|l89x
+4|obse2|
+4|map3|GASTROSTOMIA
+4|cod3|z931
+4|obse3|
+4|analpv|Paciente femenina de 87 años de edad con diagnósticos registrados, se realiza seguimiento telefónico por domicilio lejano en el municipio de Ipiales, se llama a número de contacto atiende llamado hijo de paciente quien refiere ha estado estable sin cambios en su estado general, paciente con gastrostomía funcionante sin complicaciones, desde jun/22, fue valorada por gastroenterología dr carlos julio guerrero en Ipiales quien realiza endoscopia y refiere \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"que no es necesario cambio de gastrostomía por ahora\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", por tiempo de evolución se dió nueva remisión a gastroenterología para valoración de gastrostomía pendiente, control por neurología el 06/02/24 quien indica continuar manejo instaurado, deja formula de memantina x 6 meses y control en 6 meses, al momento con limitación marcada para la movilidad y sus actividades diaria, refiere que cuenta con atención por enfermería 12 horas al día, se recuerda a la familia sobre la línea homecare y ubicación de servicio en sede pasto para posibles eventualidades, en caso de presentar una urgencia acudir a servicio de urgencias en su municipio, se indica continuar manejo instaurado y seguir las indicaciones de los especialistas tratantes, así mismo la importancia de solicitar las citas de control de manera oportuna según las indicaciones de los especialistas tratantes.
+4|vicviolencia|NO

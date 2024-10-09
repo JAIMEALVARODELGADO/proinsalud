@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RTR IZUQUIERDA
+2|neofarmacos|LEVOTIROXINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO
+2|gineco|ECOGRAFIA DE MAMA 26-10-2021: ESTUDIO DENTRO DE LÍMITES NORMALES CLASIFICACIÓN: BI-RADS CATEGORÍA 1 POR ULTRASONOGRAFÍA
+2|gestan|4
+2|partos|4
+2|cesareas|0
+2|abortos|0
+2|vivos|4
+2|mortinatos|0
+2|feulme|

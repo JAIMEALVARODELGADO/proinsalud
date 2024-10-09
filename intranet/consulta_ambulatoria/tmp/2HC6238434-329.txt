@@ -1,0 +1,11 @@
+2|person|DIABETES 
+2|familia|DIABETES 
+2|metodo|
+2|gineco|menarca: 11 años, sexarca: 26 años, menopausia: 47 años, -- CITOLOGIA: AGOSTO 2021 NEGATIVA PARA MALIGNIDAD -- MAMOGRAFIA: AGOSTO 2021 BI-RADS 0, ECOGRAFIA COMPLEMENTARIA BI-RADS 1. PTE HACE PARTE DEL PROGRAMA DE CRONICOS
+2|gestan|2
+2|partos|0
+2|cesareas|2
+2|abortos|0
+2|vivos|1
+2|mortinatos|1
+2|feulme|

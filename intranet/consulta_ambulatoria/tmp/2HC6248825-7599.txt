@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLECISTECTOMIA
+2|neofarmacos|Negativo
+2|nuetoxico|HIOSCINA
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|CITOLOGIA  09/08/2021 NEGATIVO PARA MALIGNIDAD CON FLORA SUGESTIVA DE VAGINOSIS BACTERIANA, NO PLANIFICA. FUR: 25/01/2021. MAMOGRAFIA 07/05/2022 BIRADS 0. CITOLOGIA VPH 25/10/2022 NO DETECTADO PRA TODOS LOS GENOTIPOS
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

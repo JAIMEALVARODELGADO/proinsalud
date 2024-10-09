@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|AMIGDALECTOMIA, HISTERECOTMIA, COLECISTECTOMIA
+2|neofarmacos|ENALAPRIL 5 MG
+2|nuetoxico|PENICILINA
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA: 11 AÑOS  MENOPAUSIA: 50 AÑOS  CITOLOGIA: NO APLICA 
+2|gestan|3
+2|partos|2
+2|cesareas|0
+2|abortos|1
+2|vivos|2
+2|mortinatos|0
+2|feulme|

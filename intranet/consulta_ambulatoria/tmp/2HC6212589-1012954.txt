@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|OSTEOSINTESIS RADIO IZUQRIEDO, PORMEROY
+2|neofarmacos|METROTEXATO, NAPROXENO, 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|ARTRIRTIS REUMATOIDEA
+2|gineco|NO
+2|gestan|00
+2|partos|0
+2|cesareas|00
+2|abortos|00
+2|vivos|00
+2|mortinatos|00
+2|feulme|

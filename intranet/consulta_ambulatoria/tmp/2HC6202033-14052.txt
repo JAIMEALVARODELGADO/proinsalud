@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|LAPAROTOMIA ABCESO TUBARICO, CESAREA, APENDICEC TOMIA
+2|neofarmacos|VALKOTE, LEVOTIROXINA, ESZOPICLONA
+2|nuetoxico|METRONIDAZOL, TRAMADOL
+2|neotransfin|Negativo
+2|neootros|EPILEPSIA ULTIMO EPISODIO HACE 10 AÑOS, HIPOTIRODISMO
+2|gineco|citologia vaginal: hace 2 años resultado normal / se remite para citologia. / mamografia: se remite MENOPAUSIA 
+2|gestan|3
+2|partos|2
+2|cesareas|1
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

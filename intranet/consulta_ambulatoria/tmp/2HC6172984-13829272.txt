@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA SIN COMPLICAICONES
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA: 13 AÑOS, CICLOS: 28 X 5, SEXARQUIA: 17 AÑOS, 18-10-2023 PRUEBA MOLECULAR PAPILOMAVIRUS HUMANO; NO DETECTABLE GENOTIPOS ESTUDIADOS, PF: INYECCION TRIMESTRAL
+2|gestan|1
+2|partos|0
+2|cesareas|1
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

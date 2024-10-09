@@ -1,0 +1,11 @@
+2|person|NEGATIVOS
+2|familia|NEGATIVOS
+2|metodo|
+2|gineco|.
+2|gestan|3
+2|partos|2
+2|cesareas|0
+2|abortos|1
+2|vivos|2
+2|mortinatos|0
+2|feulme|

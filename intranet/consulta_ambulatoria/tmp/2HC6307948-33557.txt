@@ -1,0 +1,11 @@
+2|person|patologia hta, ANEMIA, HIPERCOLESTEROLEMIA,  quirurgico no refiere traumatico no refiere, 
+2|familia|padre hta
+2|metodo|
+2|gineco|menarquia alos 14 años
+2|gestan|1
+2|partos|1
+2|cesareas|0
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

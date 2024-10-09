@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RTR DERECHA, AMPUTACION PIERNA DERECHA, REPARACOIN DE TENDON DE AQUILES BILATERAL, 
+2|neofarmacos|LEFLUNOMIDA, METROTEXATE, ACIDO FOLICO, IBERSARTAN, DEFLAZACORT, HCTZ
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|ARTRITIS, DM TIPO 2 EN TTO DIETA
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

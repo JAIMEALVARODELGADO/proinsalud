@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA 1, RTR DERECHA, RESECCION DE GANGLION MANO IZQUIERDA 
+2|neofarmacos|METOPROLOL 50 MG CADA 12 HORAS, AMLODIPINO 10 MG CAD DIA, LOSARTAN 50 MG CADA 12 HORAS, TRAZODONA 50 MG CADA DIA, ATORVASTINA 20 MG CADA DIA 
+2|nuetoxico|SULFAS 
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|menarca: 16 años, sexarca: 23 años, menopausia 50 años citologia a los 69 años, dentro de limites normales mamografia  2014 normal, 
+2|gestan|3
+2|partos|2
+2|cesareas|1
+2|abortos|1
+2|vivos|2
+2|mortinatos|0
+2|feulme|

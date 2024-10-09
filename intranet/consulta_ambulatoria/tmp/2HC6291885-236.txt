@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RTC DERECHA 
+2|neofarmacos|LEVOTIROXINA 50 MCG CADA DIA, ROSUVASTINA 20 MG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO 
+2|gineco|menarca: 13 años, sexarca: 20 años, parejas sexuales # 2, menopausia: 49 años, ULTIMA MAOGRAFIA HACE 1 AÑO NORMAL CITOLOGIA  FEBREOR DEL 2021  NEGATIVA PRA LESION . MAMOGRAFIA ENE/22 BI RADS 2 (SEGUN PACIENTE)
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

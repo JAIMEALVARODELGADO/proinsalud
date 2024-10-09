@@ -1,0 +1,24 @@
+12|apgar1|5
+12|apgar2|5
+12|apgar3|5
+12|apgar4|5
+12|apgar5|5
+12|httotal1|20
+12|apgarpunta|20
+12|apgarseve|Ninguna o mínima
+12|apgaracci|Control en un año
+12|apgarfrec|12
+12|phq1|4
+12|phq2|4
+12|phq3|4
+12|phq4|4
+12|phq5|4
+12|phq6|4
+12|phq7|4
+12|phq8|4
+12|phq9|4
+12|httotal2|27
+12|phqpunta|27
+12|phqseve|Severa
+12|phqacci|Inicio inmediato de farmacoterapia y valoración por psiquiatría, solicite intervención en medicina familiar (Control en 12 meses)
+12|phqfrec|12

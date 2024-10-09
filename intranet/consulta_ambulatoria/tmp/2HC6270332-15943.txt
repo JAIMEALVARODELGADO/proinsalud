@@ -1,0 +1,11 @@
+2|person|HTA.
+2|familia|28.12.20 Hemograma_: Leucocitos: 4600, Hb: 16.8, hto: 50.4% , Plaquetas: 283000, Leucocitos: 4600, L: 1800, N: 2200, microalubinuria negativa CT: 177, HDL: 48, LDL: 85, Trigliceridos: 215, Creatinina: 0.72, Glucosa: 88, uroanalisis : normal. . 04.01.21 EKG: ritmo sinusal , bloqueo incompleto d erama derecha
+2|metodo|
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

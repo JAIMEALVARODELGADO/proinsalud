@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|OSTEOSINTESIS DE HUMERO DERECHO, COLELAP, CISTOPEXIA, CESAREA, POMEROY 
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA  13 AÑOS . 4-3-2020 ACUDE A PYM PROGRAMA ADULTEZ 
+2|gestan|5
+2|partos|4
+2|cesareas|1
+2|abortos|0
+2|vivos|5
+2|mortinatos|0
+2|feulme|

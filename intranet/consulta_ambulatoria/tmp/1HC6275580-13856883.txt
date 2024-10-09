@@ -1,0 +1,25 @@
+1|etnia|7505
+1|ocupacion|9996
+1|escolaridad|7603
+1|estadocivil|A701
+1|direccion|B SAN  FELIPE 
+1|tidoacu|CC
+1|nudoacu|59678448
+1|pnomacu|   FLORIPE  
+1|snomacu|00
+1|papeacu|QUIÑONES
+1|sapeacu|00
+1|parenacu|MADRE
+1|direacu| B SAN FELIPE 
+1|teleacu|3182342312
+1|muniacu|52835
+1|nommuniacu|TUMACO
+1|primera|1
+1|codciru|
+1|motivo|TENGO DOLOR  DE LOS 
+1|enfeac|PACIENTE CON  UN  CUADRO  CLINICO DE .
+1|revisi|NO SINTOMAS, NO VICTIMA DE VIOLENCIA INTRAFAMILIAR FISICA, SEXUAL NI PSICOLOGICA, NO VICTIMA DE DESPLAZAMIENTO FORZADO POR CONFLICTO ARMADO, NIEGA NEXOS CON PERSONAS CON COVID 19, NO TRABAJO SEXUAL, NO VICTIMA DE ABANDONO. 
+1|informe|NO REFIERE
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

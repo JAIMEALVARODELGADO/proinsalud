@@ -1,0 +1,11 @@
+2|person|patologicos: negativos, quirurgicos: osteosintesis en 5 dedo mano derecho, traumaticos: fractura 5 dedo mano derecha, toxicos: bebedor social, niega exposicion a toxicos, niega consumo de spa, alergico: negativos, farmacologicos: negativos, ocupacion docente, estado civil u. libre, religion: catolico, esqeuma de vacunacion covid #3, agosto 26 2022, Hábitos nutricionales saludables, actividad física moderada (atletismo, baloncesto),  patrón de sueño irregular, niega fobias, sociales o personales, exámenes de protocolo mental, debido a su estado no pertinentes, al momento del examen, no perdidas familiares actuales, niega ser víctima de violencia, física, sexual, emocional, psicológica, de género, niega ser desplazado por la violencia o conflicto armado, no pertenece a etnias o grupos poblacionales especiales (migrante, carcelario, gestante), 
+2|familia|madre diabetes mellitus, padre cancer de esofago, Niega antecedentes familiares,  de trastornos mentales, en lo interrogado niega consumo de spa, en familiares cercanos, niega antecedentes familiares de ceguera o hipoacusia, niega comportamientos suicidas, o suicidios en la familia, eventos cercanos al examen actual
+2|metodo|
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

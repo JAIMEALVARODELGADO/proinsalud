@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A701
+1|direccion|CRA 40 No16-82 APART 27-4 B/ Avenida Panamericana 
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|control 
+1|enfeac|Pacinte   en seguimiento por Leucopenia  ciclica  en el momento asintomatica    paraclincos  de  control Plaquetocrito 0.191 % 0.00 - Ancho de Distribución Plaquetas 16.4 10(GSD) 0.00 - Volumen Plaquetario Medio 10.9 fL 6.90 - Recuento de Plaquetas 175 x10e3/uL 150 - Ancho Distribución Eritrocitaria 12.5 % 11.5 - Concentración HB Corpucular Media 33.0 g/dL 31.8 - HB Corspuscular Media 29.9 pg 27.0 - Volumen Corpuscular Medio 90.5 fL 81.1 - Hematocrito 46.3 % 37.7 - Hemoglobina 15.3 g/dL 12.9 - Recuento de Eritrocitos 5.11 x10e3/uL 4.06 - # Basofilos 0.0 x10e3/uL 0.00 - # Eosinofilos 0.0 x10e3/uL 0.030 - # Monocitos 0.1 x10e3/uL 0.240 - # Linfocitos 1.16 x10e3/uL 1.09 - # Neutrofilos 1.46 x10e3/uL 1.63 - % Basofilos 0.5 % 0.00 - % Eosinofilos 3.1 % 0.600 - % Monocitos 6.4 % 4.40 - % Linfocitos 40.0 % 18.0 - % Neutrofilos 50.0 % 39.3 - Recuento de Leucocitos 2.91 x10e3/uL 3.70  
+1|revisi|.
+1|informe|.
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

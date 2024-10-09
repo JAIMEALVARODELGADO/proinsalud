@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|OSTEOSINTESINTESIS DE 5TA FALANGE DE MANO DERECHA Y TERCER FALANMGE DE MANO IZQUEIRDA, RESECCION DE POLIPO  DE COLON 
+2|neofarmacos|TRAMADOL DICLOFENACO
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

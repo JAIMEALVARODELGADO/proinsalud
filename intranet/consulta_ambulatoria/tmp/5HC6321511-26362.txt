@@ -1,0 +1,16 @@
+5|claseorden|1
+5|codorden|871121
+5|desorden|871121 - RADIOGRAFIA DE TORAX (P.A. O A.P. Y LATERAL DECUBITO LATERAL OBLICUAS O LATERAL) () 
+5|nivel|CITAS
+5|obseorden|AP Y LATERAL 
+5|diagorden|J068
+5|cantorden|1
+5|cama|
+5|claseorden|1
+5|codorden|895100
+5|desorden|895100 - ELECTROCARDIOGRAMA DE RITMO O DE SUPERFICIE SOD () 
+5|nivel|REFERENCIA
+5|obseorden|
+5|diagorden|J068
+5|cantorden|1
+5|cama|

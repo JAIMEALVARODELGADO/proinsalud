@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RESECCION DE LESION EN LENGUA, MAS GLOSOPLASTIA PARCIAL, REPARACION DE MANGUITO ROTADOR DERECHO 
+2|neofarmacos|VALSARTAN 80 MG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARCA: 12 AÑOS, SEXARCA: 15 AÑOS, MENOPAUSIA: 54 AÑOS, CITOLOGIA: HACE APROXIMADAMENTE 2 AÑOS PERO PARTICULAR, NO RECIBIO RESULTADO.  MAMOGRAFIA: HACE 3 AÑOS. NORMAL. 
+2|gestan|4
+2|partos|3
+2|cesareas|1
+2|abortos|0
+2|vivos|4
+2|mortinatos|0
+2|feulme|

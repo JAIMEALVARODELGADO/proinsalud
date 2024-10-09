@@ -1,0 +1,140 @@
+* {margin:0; padding:0;}
+
+.tbl 
+{
+	border: 1px solid #bbbbff;
+	border-collapse: collapse;
+	empty-cells: show;
+	background: #FFFFFF;
+
+}
+.tbl td 
+{	
+	font=-family: tahoma;
+	color: #0240A3;
+	font-size: 8pt;
+	text-decoration: none;
+	font-weight: 500;
+	text-transform: uppercase;
+	border: 1px solid #ya sub;
+	padding:.3em .4em;	
+}
+.tbl th
+{
+	border: 1px solid #bbbbff;
+	padding:.6em .8em;
+	font=-family: tahoma;
+	color: #0240A3;
+	font-size: 8pt;
+	text-decoration: none;
+	font-weight: 700;
+	text-transform: uppercase;
+	background-Color:#E3E3ED;	
+}
+
+.tbl2
+{
+	border: 1px solid #bbbbff;
+	border-collapse: collapse;
+	empty-cells: show;
+	background: #FFFFFF;
+
+}
+.tbl2 td
+{	
+	font=-family: tahoma;
+	color: #0240A3;
+	font-size: 8pt;
+	text-decoration: none;
+	font-weight: 800;
+	text-transform: uppercase;
+	border: 1px solid #ya sub;
+	padding:.3em .4em;	
+}
+.tbl2 th
+{
+	border: 1px solid #bbbbff;
+	padding:.3em .4em;
+	font=-family: tahoma;
+	color: #0240A3;
+	font-size: 7pt;
+	text-decoration: none;
+	font-weight: 500;
+	text-transform: uppercase;
+	background-Color:#E3E3ED;	
+}
+.tbl3
+{
+	border: 1px solid #bbbbff;
+	border-collapse: collapse;
+	empty-cells: show;
+	background: #FFFFFF;
+
+}
+.tbl3 td
+{	
+	font=-family: tahoma;
+	color: #0240A3;
+	font-size: 7pt;
+	text-decoration: none;
+	font-weight: 500;
+	text-transform: uppercase;
+	border: 1px solid #ya sub;
+	padding:.3em .4em;	
+}
+.tbl3 th
+{
+	border: 1px solid #bbbbff;
+	padding:.3em .4em;
+	font=-family: tahoma;
+	color: #0240A3;
+	font-size: 7pt;
+	text-decoration: none;
+	font-weight: 500;
+	text-transform: uppercase;
+	background-Color:#E3E3ED;	
+}
+.boton 
+{
+	font=-family: arial,tahoma;
+	font-size: 7pt;
+	text-decoration: none;
+	background:#FFF;
+	font-weight: 500;
+	height:20;
+	color: #000080;
+	border: 3px double #aaaaff;
+	padding: .0em .2em;
+}
+.boton:hover 
+{
+	color: #9C0707;
+	border: 3px double #467333;
+}
+/*
+.caja
+{
+	font-family: arial,tahoma;
+	font-size: 7pt;
+	color:#000088;
+	font-weight: 900;
+	text-transform:uppercase;
+	background:#FFF;
+}
+*/
+.caja
+{
+	font-family: arial,tahoma;
+	font-size: 8pt;
+	color:#000088;
+	font-weight: 500;
+	text-transform:uppercase;
+	background:#FFF;
+}
+
+
+
+
+
+
+

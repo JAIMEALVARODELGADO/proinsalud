@@ -1,0 +1,11 @@
+2|person|HTA , HISTERECTOMIA 2006
+2|familia|NIEGA 
+2|metodo|
+2|gineco|FUM :
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

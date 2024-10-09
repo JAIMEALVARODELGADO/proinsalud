@@ -1,0 +1,28 @@
+6|clasemedi|1
+6|codmedi|548663
+6|desmedi|CIANOCObalamina - VIT. B 12- 1 mg/ml*1 ml SOLUCION INYECTABLE
+6|dosis|1
+6|unid|MG
+6|frecu|1
+6|unidfrecu|Dias
+6|via|2201
+6|tiempo|5
+6|obsemed|colocar im diaria
+6|canti|5
+6|diagmedi|G442
+6|justifi|N
+6|pos|S
+6|clasemedi|1
+6|codmedi|548663
+6|desmedi|CIANOCObalamina - VIT. B 12- 1 mg/ml*1 ml SOLUCION INYECTABLE
+6|dosis|1
+6|unid|MG
+6|frecu|1
+6|unidfrecu|Dias
+6|via|2201
+6|tiempo|5
+6|obsemed|i m diaria
+6|canti|5
+6|diagmedi|G442
+6|justifi|N
+6|pos|S

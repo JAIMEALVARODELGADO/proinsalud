@@ -1,0 +1,11 @@
+2|person|PAT: NIEGA, FARMACOS HEPATODREN, QX: REDUCCION ABDOMEN HISTERECTOMIA POR MIOMATOSIS UTERINA, ALERGIA NIEGA
+2|familia|NIEGA
+2|metodo|
+2|gineco|G5P4E1
+2|gestan|5
+2|partos|4
+2|cesareas|0
+2|abortos|1
+2|vivos|4
+2|mortinatos|0
+2|feulme|

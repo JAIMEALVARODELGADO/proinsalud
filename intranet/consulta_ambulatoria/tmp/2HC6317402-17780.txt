@@ -1,0 +1,11 @@
+2|person|patológicos : rinitis. quirúrgicos: cornetes, meniscos, artroscopia .IZQUIERDA, hipermetropia. ÆALEGICOS NIEGA
+2|familia|Hipertensión arterial: padre. Diabetes, abuela, tías. HIPOTIROIDISMO. 
+2|metodo|
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

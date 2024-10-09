@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A702
+1|direccion|MZ 6A CASA 4 SUMATAMBO
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|REMITIDA DE CRONICOS
+1|enfeac|PACIENTE DE 72 AÑOS DE EDAD, CONTROLADA EN EL PROGRAMA DE CRONICOS POR HTA. MANEJO CON LOSARTAN 50 X 2 + HCTZ 25 X 1 Y ATORVASTATINA 10 X 1. ANTECEDENTE DE GONARTROSIS Y COXARTROSIS BILATERAL, RTC DERECHA EN JULIO/22.
+1|revisi|RECIBE MANEJO PARA ARTROSIS E INSUFICIENCIA VENOSA DE MIIS
+1|informe|EXAMENES DEL 18-03-24: GLICEMIA: 90, COLESTEROL: 233, HDL: 58.7, LDL: 141,  TG: 165, CREATININA: 1.1, TFG: 50.
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

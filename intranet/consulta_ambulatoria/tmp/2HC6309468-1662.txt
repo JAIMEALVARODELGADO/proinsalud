@@ -1,0 +1,11 @@
+2|person|patologicos: , GASTRITIS        ,                  alergica a los imidazoles           ,,          traumaticos negativos         //             quirurgicos negativos          //        no fuma            //            no ingesta de licor, 
+2|familia|mama hipertensa y diabetica
+2|metodo|NA-
+2|gineco|MENARQUIA 11 AÑOS, SEXARQUIA 20 AÑOS,         citologia 28 de octubre de 2015 norml     MAMOGRAFIA NO SE HA REALZIADO
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

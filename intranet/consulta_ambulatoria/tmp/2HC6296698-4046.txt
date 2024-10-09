@@ -1,0 +1,11 @@
+2|person|Patologicos: migraña, hernia hiatal. bradicardia sinusal    //  Farmacologicos: anlgesicos.  //  Quiurgicos: amigdalectomia, procedimiento quiruricos rodilla derecha, cesarea, hernia hiatal.  //   traumaticos : fractira de cubibto y radio 2020 // . Toxicos: niega.   // farmacologico   // refeire antecedetne de utero infantil
+2|familia|papa cancer gastrico
+2|metodo|NA-
+2|gineco|menarquia 14 años            citologia 21 de enero  de 2016 normal            mamografia 22 de noviembre  de 2016 normal BI RADS 1        fum 25 años 
+2|gestan|1
+2|partos|0
+2|cesareas|1
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

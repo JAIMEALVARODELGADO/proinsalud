@@ -1,0 +1,11 @@
+2|person|Antecedentes Patológicos: Osteoporosis severa, hepatopatia cronica, discopatia cervical y lumbar, laringitis cronica tunel carpo leve; Farmacológicos: Calciitriol - bifosfonatos; Quirúrgicos: Procedimientos quirúrgicos a nivel de columna lumbar; Alérgicos: Niega; Vacunas: Esquema completo contra COVID 19; Transfusionales: Niega - PSICOLOGIA JUNIO 2023, PACIENTE TX DEPRESIVO, EPISODIO MODERADO, 
+2|familia|no refiere------------ NIEGA. NIEGA ANTECEDENTES FAMILIARES DE TRASTORNOS MENTALES, NIEGA CONSUMO DE SPA EN INTEGRANTES DE FAMILIA, NIEGA CASOS DE SUICIDIO  DENTRO DE SU FAMILIA.
+2|metodo|
+2|gineco|citología 23/03/18 NEGATIVA PARA MALIGNIDAD  ATROFIA SUGESTVA DE VAGINOSIS -MAMOGRAFIA 17/03/18-BIRADS 2 NORMAL.YA NO TIENE RANGO DE EDAD PARA TOMA DE TAMIZAJES 
+2|gestan|4
+2|partos|4
+2|cesareas|0
+2|abortos|0
+2|vivos|4
+2|mortinatos|0
+2|feulme|

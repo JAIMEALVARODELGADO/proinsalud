@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|SAFENOVARICECTOMIA DERECHA , CESAREA 1, ARTROCOPIA DE RODILLA DERECHA 
+2|neofarmacos|ATROVASTATINA 20 MG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|CITOLOGIA DIC DEL 2018 NORMAL  MAMOGRAFIA 16/11/2017 BIRADS 1, CITOLOGIA 5 DENOVIEMBRE DEL 2020 NEGATIVA PARA MALIGNIDAD
+2|gestan|2
+2|partos|1
+2|cesareas|1
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

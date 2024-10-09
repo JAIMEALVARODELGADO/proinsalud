@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7613
+1|estadocivil|A704
+1|direccion|DG 16 D NO 1-57 B/MIRAFLORES
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|Control con reporte de radiogrfia de columna dorso lumbar 
+1|enfeac|La paciente consulta para lectura de reporte de radiografia de columna lumbo sacra por presentar dolor de espalda, sintomatologia que aun persiste, ha mejorado con terapia fisica
+1|revisi|Paciente niega ser víctima de conflicto armado, violencia sexual, física, psicológica o intrafamiliarÆ
+1|informe|Radiografia de columna dorso lumbar Alineacion  muestra curva cifotica dorsal y lordotica lumbar sin antero  ni retrolistesis 
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

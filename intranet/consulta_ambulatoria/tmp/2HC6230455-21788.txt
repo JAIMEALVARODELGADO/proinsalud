@@ -1,0 +1,11 @@
+2|person|SIN ANTECEDENTES,ALGERGIAS, CIRUGIAS, NO BEBIDAS  ALCOHOLICS,  NO SUSTACNAIS  SICO ACTIVAS, ,LIBRE  DE TABACO-  NO  VIOLENCIAS  INTRAFAMIALRES,  DE  CONFLITO ARMADO - 
+2|familia|NO  REFIERE- 
+2|metodo|NA-
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HERNIORRAFIA INGUINAL ANTECEDENTES DE CEFALEA POSTPUNCIÓN CESÁREA SEPTOPLASTIA FUNCIONAL SIN COMPLICACIONES
+2|neofarmacos|PROPRANOLOL  ATORVASTATINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|MIGRAÑA
+2|gineco|MENARCA: 12 AÑOS  TEST DE VPH  11.04.2023 NEGATIVO 
+2|gestan|2
+2|partos|0
+2|cesareas|2
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

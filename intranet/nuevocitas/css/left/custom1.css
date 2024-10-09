@@ -1,0 +1,68 @@
+body {
+  background-color: #000080;
+}
+
+.navOpened,
+.navClosed {
+  background-color: #ffffff;
+}
+
+.navOpened .navTitle .titleText { 
+  color: #ff7f00;
+}
+
+.navOpened .navTitleOver .titleText {
+  color: #428eff;
+}
+
+.navTitle .titleHandle {
+  background-color: #ff7f00;
+}
+
+.navTitleOver .titleHandle {
+  background-color: #428eff;
+}
+
+.navClosed .navTitle .titleText {
+  color: #ff7f00;
+}
+
+.navClosed .navTitleOver .titleText {
+  color: #428eff;
+}
+
+div.tree {
+  background-color: #D0D0F0; 
+}
+
+.nodeActive .name {
+  background-color: #3878bf;
+}
+
+a:hover{text-decoration:underline;
+	color:#ff7f00;} 
+a{text-decoration:none;} 
+
+
+#contexthelp {
+  font-size: 11px;
+  color: #555555;
+  text-align: left;
+  padding-top: 5px;
+  margin: 0 15px 0 10px;
+  height: 100px;
+  border-top: 1px solid #A7B8EB;
+}
+
+#userInfo {
+  text-align: left;
+  padding-top: 2px;
+  margin: 0 15px 0 10px;
+  color: #555555;
+}
+
+#userInfo .name {
+  padding: 0;
+  margin: 0;
+}
+

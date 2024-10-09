@@ -1,0 +1,11 @@
+2|person|patologicos: hipotiroidismo, colelitiasis, quirurgicos: septoplastia, traumaticos: luxacion de tobillo izquierdo, fractura de huesos propios de la nariz, toxicos: fue fumadora hasta hace 10 años, niega consumo de spa, alergicos. negativos, farmacologicos 50 mcg c/dia, ocupacion docente, estado civil soltera, religion catolica, esquema de vacunacion covid #2, enero 302023, Hábitos nutricionales poco saludables, actividad física escasa, patrón de sueño irregular, niega fobias, sociales o personales, exámenes de protocolo mental, debido a su estado no pertinentes, al momento del examen, no perdidas familiares actuales, refiere ser víctima de violencia, física, y psicologia y emocional, por parte de expareja, paciente denuncia dicho evento ante entes de vigilancia, se orienta en programa de atencion de victimas de violencia , niega ser victima de violencia de género o sexua, comenta ser desplazado por la violencia o conflicto armado, (llorente - pasto 2002) no pertenece a etnias o grupos poblacionales especiales (migrante, carcelario, gestante), ----14-02-2024 ATENCION RIAS AL DIA ----
+2|familia|padre hipertension arterial, cardiopatia no especifica, leucemia, madre hipertension arterial, tios paternos hipotiroidismo, Niega antecedentes familiares,  de trastornos mentales, en lo interrogado niega consumo de spa, en familiares cercanos, niega antecedentes familiares de ceguera o hipoacusia, niega comportamientos suicidas, o suicidios en la familia, eventos cercanos al examen actual.
+2|metodo|NINGUNO 
+2|gineco|menarca 14 años, sexarca: 23 años, parejas sexuales #3, menopausia 2022, planificacion menoapusia, citologia: 2022, refiere normal, mamomgrafia 2021, refiere normal, refiere antecedentes de depresion post parto no tratada 
+2|gestan|2
+2|partos|1
+2|cesareas|0
+2|abortos|1
+2|vivos|1
+2|mortinatos|0
+2|feulme|

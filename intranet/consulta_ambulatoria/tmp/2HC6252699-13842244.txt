@@ -1,0 +1,11 @@
+2|person|personales: hernia umbilical  corregida  //  quirurgicos herniorrafia umbilical 2008, /// alergico niega /// traumaticos niega // farmacologics niega   // vacunacion covid-19: 3 dosis. 
+2|familia|madre problemas de cornea y tumor en cabeza, 
+2|metodo|NA-
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

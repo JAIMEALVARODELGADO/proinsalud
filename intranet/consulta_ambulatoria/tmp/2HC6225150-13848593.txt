@@ -1,0 +1,11 @@
+2|person|FX RADIO CUBITAL IZ1 OSTEOSINTESIS TRAUMA EN MOTOCICLETA  5-03-23
+2|familia|NO
+2|metodo|
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

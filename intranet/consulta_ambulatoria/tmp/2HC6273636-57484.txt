@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS: Sindrome de intestino irritable, osteoartrosis, menopausia, QUIRURGICOS: CRIOTERAPIA histerectomia, TRAUMATICOS: negativos, TOXICOLOGICOS: negativos,niega consumo de spa, niega exposiciona toxicos, ALERGICOS: negativos, FARMACOLOGICOS: negativo. -- OCUPACION DOCENTE INSTITUCION EDUCATIVA TECNICO INDUSTRIAL. -- FACTORES DE VULNERABILIDAD SOCIAL O INDIVIDUAL otros antecedentes ya tomados en historias clinicas previas. SE REALIZA APGAR FAMILIAR Y SRQ EL 23/03/23 POR RIESGO: PALPITACIONES, DOLOR TORACICO, ASTENIA, CON DISFUNCION FAMILIAR LEVE, SRQ NEGATIVA MENOR A 11-----12-10-2023 ATENCION RIAS AL DIA ----
+2|familia|abuela materna  cancer gastrico, madre osteoporosis, niega antecedentes familiares,  de trastornos mentales, en lo interrogado niega consumo de spa, en familiares cercanos, niega comportamientos suicidas, o suicidos en la familia, eventos cercanos al examen actual 
+2|metodo|NINGUNO
+2|gineco|menarca: 14 años, sexarca: 19 años, citologia  junio 2021, flora sugestiva de vaginosis bacteriana, negativo para malignidad histerectomia 2013 octubre MAMOGRAFIAjunio 2021, bi rads 1
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

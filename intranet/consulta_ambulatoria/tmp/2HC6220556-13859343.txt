@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HISTERECTOMIA ABDOMINAL TOTAL, CESAREA 1 , POMEROY 
+2|neofarmacos|LOSARTAN 50 MG CADA 12 HORAS, HIDROCLOROTIAZIDA 25 MG CADA DIA, LEVOTIROXINA 50 MCG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO 
+2|gineco|.
+2|gestan|4
+2|partos|3
+2|cesareas|1
+2|abortos|0
+2|vivos|4
+2|mortinatos|0
+2|feulme|

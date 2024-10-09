@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA, APENDICECTOMIA, RESECCION NODULO SENO DERECHO
+2|neofarmacos|LOSARTAN
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARCA: 15 AÑOS SEXARCA: 20 AÑOS ULTIMA CITOLOGIA: HACE MAS DE  UN AÑO NORMAL ULTIMA MAMOGRAFIA: HACE 8 MESES,  NORMAL,  MENOPAUSIA HACE 11 MESES 
+2|gestan|.1
+2|partos|.0
+2|cesareas|.1
+2|abortos|.0
+2|vivos|.1
+2|mortinatos|.0
+2|feulme|

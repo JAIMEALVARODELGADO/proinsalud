@@ -1,0 +1,22 @@
+4|conti|1301
+4|causa|1213
+4|final|10
+4|sintorespi|N
+4|sintopiel|N
+4|causatrab|
+4|tipodiag|1
+4|patolocronicas|N
+4|map|MALESTAR Y FATIGA
+4|cod|R53X
+4|obse|
+4|map1|FIEBRE RECURRENTE, NO ESPECIFICADA
+4|cod1|A689
+4|obse1|
+4|map2|
+4|cod2|
+4|obse2|
+4|map3|
+4|cod3|
+4|obse3|
+4|analpv|PACIENTE DE 
+4|vicviolencia|NO

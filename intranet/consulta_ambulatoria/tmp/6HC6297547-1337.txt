@@ -1,0 +1,42 @@
+6|clasemedi|1
+6|codmedi|568006
+6|desmedi|ESOMEPRAZOL 40 mg TABLETA
+6|dosis|1
+6|unid|UND
+6|frecu|24
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|30
+6|obsemed|
+6|canti|30
+6|diagmedi|K293
+6|justifi|N
+6|pos|S
+6|clasemedi|1
+6|codmedi|373396
+6|desmedi|SODIO ALGINATO 2,5mg/100ml*360ml SUSPENSION ORAL
+6|dosis|2
+6|unid|CC
+6|frecu|8
+6|unidfrecu|Horas
+6|via|2203
+6|tiempo|30
+6|obsemed|
+6|canti|2
+6|diagmedi|K293
+6|justifi|N
+6|pos|S
+6|clasemedi|1
+6|codmedi|139002
+6|desmedi|KETOTIFENO FUMARATO 0.5MG/ML * 5ML SOLUCION OFTALMICA
+6|dosis|1
+6|unid|APLICACION
+6|frecu|8
+6|unidfrecu|Horas
+6|via|2211
+6|tiempo|10
+6|obsemed|1
+6|canti|1
+6|diagmedi|K293
+6|justifi|N
+6|pos|S

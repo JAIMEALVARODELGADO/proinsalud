@@ -1,0 +1,15 @@
+2|nuecardiovasculares|ENFERMEDAD CORONARIA, FALLA CARDIACA POR CARDIOPATIA ISQUEMICA, BLOQUEO RAMA IZQUIERDA ASINTOMATICO
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CATETERISMO CARDIACO CON STENT HACE 3 AÑOS, POMEROY, APENDICECTMIA
+2|neofarmacos|ASA, ROSUVASTATINA, CARVEDILOL, SACUBITRILO, VALSARTAN,  DAPAGLIFOZINA, ESPIRINOLACTONA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|DM TIPO 2, POLINEUROPATIA DIABETICA
+2|gineco|G10A4P6V6 citologias :  hace 3 años no  recuerda  , mamografia :  no refiere 
+2|gestan|11
+2|partos|6
+2|cesareas|0
+2|abortos|5
+2|vivos|6
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,14 @@
+obs_|
+obs_|
+obs_|
+obs_|
+obs_|
+obs_|
+obs|1
+diab_ape|
+ref_|3,5-5,1 
+ref_|3,5-5,1 
+ref_|3,5-5,1 
+ref_|3,5-5,1 
+ref_|3,5-5,1 
+ref_|3,5-5,1 

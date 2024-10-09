@@ -1,0 +1,11 @@
+2|person|Patologicos: niega. Famracologicos: Calcio mas vitamina D cada dia. Quirurgicos: herniorrafia inguinal derecha. Alergicos: niega. Toxicos: niega. 
+2|familia|Glaucoma en madre y tio. 
+2|metodo|
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

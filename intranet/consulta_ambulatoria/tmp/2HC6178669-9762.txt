@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|EPOC EN ESTUDIO PENDIENTE TAC TORAX Y ESPIROMETRIA
+2|nuequirurgicos|APENDICECTOMIA, CISTOPEXIA, 
+2|neofarmacos|BUDESONIDA FORMOTEROL
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARCA: 13 AÑOS. FUM:  HACE 7 AÑOS, MENOPAUSIA HACE 7 AÑOS, CITOLOGIA: 16/08/2022 NORMAL, MAMOGRAFIA BI-RADS 1 01/08/2022 NORMAL
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

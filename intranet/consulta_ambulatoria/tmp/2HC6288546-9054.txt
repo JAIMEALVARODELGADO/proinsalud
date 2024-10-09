@@ -1,0 +1,11 @@
+2|person|patologicos INSUFICIENCIA VENOSA alergicos negativos traumaticos tec moderado hace 20 años quirurgicos cirugia de rodilla tendinitis rotuliana no fuma no ingesta de licor FARMACOLOGICOS
+2|familia|CA EN LARINGE MADRE 
+2|metodo|NA-
+2|gineco|MENARQUIA 15 AÑOS        citologia 27/02/2019 normal,        15/04/2021 MAMOGRAFÍA CON HALLAZGOS BENIGNOS CATEGORÍA 2 DE LA CLASIFICACIÓN BI-RADS.        FUM 23/06/2022
+2|gestan|1
+2|partos|1
+2|cesareas|0
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

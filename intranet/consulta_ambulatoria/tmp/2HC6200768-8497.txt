@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RESECCION DE LESION DE PARPADO IZQUIERDO, COLELAP,  RESCCION DE POLIPO CERVICAL 
+2|neofarmacos|CETIRIZINA 10 MG CADA DIA, ROSUVASTATINA 40 MG CADA DIA, DISOMINA 450MG CADA 12 HORAS
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|ANTECEDENTE DE DENGUE
+2|gineco|G3P3V3M0  FUM: 47 AÑOS, 22/02/2024 MAMOGRAFIA NO RECUERDA FECHA REFIERE NORMAL,    CITOLOGIA HACE 3 AÑOS NORMAL. NO TRAE REPORTE . NO INFECCIÓN DE  TRASMISIÓN SEXUAL.
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

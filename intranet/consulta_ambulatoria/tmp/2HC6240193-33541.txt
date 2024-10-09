@@ -1,0 +1,11 @@
+2|person|Patologicos: hipertension arterial, dislidpiemai. Farmacoloigos: Losartan suspendio por epigastralgia. Quriurgicos:histerectomia cesarea. Alergicos: niega. Toxicos: niega. Familiares: niega. 
+2|familia|NO REFIE. 
+2|metodo|
+2|gineco|CI9TLGIA HACE MAS D EUN AÑO REFIERE NORMAL. 
+2|gestan|3
+2|partos|0
+2|cesareas|3
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

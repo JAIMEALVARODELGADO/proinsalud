@@ -1,0 +1,11 @@
+2|person|patologicos: ARTROSIS, CANCER DE OVARIO DERECHO (2001), quirurgicos: legrado obstetrico #1, colecistectomia, cesarea #1, histerectomia, ooforectomia derecha, traumaticos; negativos, toxicos: bebedora social en la juventud, alergicos: contraste ?, farmacologicos: factores de transferencia, ocupacion: docente, estado civil: casada, mayo 11 2019 Niega ser victima de violencia, fisica, sexual, emocional, psicologica, de genero, niega ser desplazado por la violencia o conflicto armado, no pertenece a etnias o grupos poblacionales especiales  --------------- PATOLOGICOS, QXCOS, ALERGICOS, TOXICOS. NIEGA. ---13-06-2023 ATENCION RIAS AL DIA ----
+2|familia|sin antecedentes familiares de importancia - NIEGA
+2|metodo|NINGUNO 
+2|gineco|menarca: 12 años, sexarca: 22 años, menopauisa quirurgica 39 años, citologia: JULIO DE 2019 NORMAL,  SE SOLICITA - MAMOGRAFIA 2022 NEGATIVA PARA MALIGNIDAD SEGUN REFIERE
+2|gestan|7
+2|partos|2
+2|cesareas|1
+2|abortos|4
+2|vivos|3
+2|mortinatos|0
+2|feulme|

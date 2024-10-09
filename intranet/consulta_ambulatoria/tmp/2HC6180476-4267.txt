@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos| CESAREA 
+2|neofarmacos|LEVOTIROXINA 50 MCG CADA  DIA
+2|nuetoxico|DIPIRONA, IBUPROFENO 
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO 
+2|gineco|PACIENTE MENOPAUSICA, MENARCA: 12 AÑOS, SEXARCA: NO RECUERDA, FUM: 2021, RESULTADO NORMAL 
+2|gestan|06
+2|partos|04
+2|cesareas|01
+2|abortos|01
+2|vivos|05
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|TIROIDECTOMIA, REEMPLAZO TOTAL DE RODILLA IZQUIERDA
+2|neofarmacos|ENALAPRIL, HCTZ, LEVOTIROXINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO, LUMBAGO
+2|gineco|MENARQUIA   11 AÑOS   citologia 6 de agosto de 2015  normal        mamografia 12 de marzo de 2016 normal CITOLOGIA  TOMADA EL  25 MAYO DEL 2018  =( NEGATIVA PARA LESIÓN INTRAEPITELIAL, O MALIGNIDAD--  ATROFIA --    FUM 49 AÑOS
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

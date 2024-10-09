@@ -1,0 +1,8 @@
+5|claseorden|4
+5|codorden|0664
+5|desorden|
+5|nivel|
+5|obseorden|2 meses
+5|diagorden|M792
+5|cantorden|2
+5|cama|

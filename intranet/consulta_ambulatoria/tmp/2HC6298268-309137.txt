@@ -1,0 +1,11 @@
+2|person|gastritis cronica, hernia hiatal, sindrome de colon irritable, quirurgicos: negativos, traumaticos: negativos, toxicos: fue fumador hace 2 años, desde 38 años, bebedor social, niega exposicion a otros toxicos:niega consumo de spa, alergico: negativos, farmacologicos: mosaprida c/dia, esomperal, c/dia, ocupacion: docente, estado civil: u. libre, dic 11 2020, habitos nutricionales saludables, actividad fisica escasa, patron de sueño irregular, Niega fobias, sociales o personales, refiere perdiidas familiares actuales (tios diciembre 2020. mayo 2020, octubre 2020, HERMANO HACE 7 MESES, PADRES POR CA GATSRICO) Niega ser victima de violencia, fisica, sexual, emocional, psicologica, de genero, niega ser desplazado por la violencia o conflicto armado, no pertenece a etnias o grupos poblacionales especiales 
+2|familia|padres cancer gastrico, hermana artritis reumatoidea, niega antecedentes familiares,  de trastornos mentales, niega antecedentes de hipoacusia o ceguera en familia, en lo interrogado niega consumo de spa, en familiares cercanos, niega comportamientos suicidas, o suicidios en la familia, eventos cercanos al examen actual 
+2|metodo|NINGUNO 
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

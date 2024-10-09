@@ -1,0 +1,11 @@
+2|person|patologicos: migraña, epilepsia controlada(10 años), hiperplasia endometrial, quistes laringeos, trastorno depresivo, obesidad, infeccion por Covid-19 sep/21 // Quirurgicos: cesarea #2, pomeroy, colecistectomia, herniorrafia, traumaticos: negativos, toxicos: bebedora social, niega exposicion a toxicos, niega consumo de spa, alergicos: acetaminofen + codeína, tramadol // farmacologicos sertralina 50 mg  2 tab c/ 24 horas, analgesia ocasional, estado civil separada, ocupacion docente en IEM Eduardo Romo Rosero corregimiento de Buesaquillo,habitos nutricionales saludables, actividad fisica moderada, patron de sueño regular, Niega fobias, sociales o personales,  , niega ser desplazado por la violencia o conflicto armado, no pertenece a etnias o grupos poblacionales especiales // FACTORES DE VULNERABILIDAD INDIVIDUAL Y SOCIAL: NO, TRABAJA EN: EDUARDO ROMO ROSERO, BUESAQUILLO, VACUNACION COVID-19: SI, PFIZER LA ULTIMA DOSIS EL 27/06/21------08-08-2022 ATENCION RIAS LA DIA -----
+2|familia|madre hipertension arterial, diabetes mellitus, padre: diabetes mellitus, hermana cance uterino, niega antecedentes familiares,  de trastornos mentales, en lo interrogado niega consumo de spa, en familiares cercanos, niega comportamientos suicidas, o suicidios en la familia, eventos cercanos al examen actual 
+2|metodo|
+2|gineco|menarca 11 años, sexarca: 17 años, parejas sexuales # 6. citología: junio 2021, negativa para maligidad, flora sugestiva de vaginosis bacteriana planificacion pomeroy. --8-8-22 ACUDE A PYM PROGRAMA ADULTEZ 
+2|gestan|3
+2|partos|0
+2|cesareas|2
+2|abortos|1
+2|vivos|2
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|IAM 2020
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CATETERISMO MAS COLOCACION DE STENT  CORONARIO 2020, HERNIORRAFIA INGUINAL DERECHA 
+2|neofarmacos|ATORVASTINA 40 MG CADA DIA, CARVEDILOL 12.5 MG CADA 12 HORAS, ASA 100 MG CADA DIA, 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

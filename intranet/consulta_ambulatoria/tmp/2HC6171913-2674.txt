@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLECISTECTOMIA, HISTERECTOMIA, RESECCION TUMOR MAMARIO
+2|neofarmacos|LOSARTAN, HCTZ
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|citologia  vaginal hace 1 mes   CITOLOGIA DEL DÍA 8 DE OCTUBRE DEL 2017: NEGATIVA PARA LESIONES MALIGNAS O PREMALIGNAS. PACIENTE HACE PARTE DEL PROGRAMA DE CRONICOS. SE REMITE A PYM PROGRAMA VEJEZ
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

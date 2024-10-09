@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|Negativo
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|G3P3V3 CITOLOGIA 23/11/15 INFLAMACION Y ATROFIA NEGATIVA PARA NEOPLASIA MAMOGRAFIA BIRADS 2*Citologia (02.2020): zona de transformación ausente – negativa para lesión intraepitelial.  ** Mamografía (02.2020): BIRADS-2 , 
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

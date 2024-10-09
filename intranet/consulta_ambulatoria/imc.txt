@@ -1,0 +1,22 @@
+			  var imc_,red_,icc;
+			  imc_=form1.pes_pac.value/(Math.pow((form1.tall_pac.value)/100,2));
+			  red_=Math.round(imc_*1000)/1000;
+			  form1.imc_.value=red_;
+			  if(imc_<18.5){enut_="Bajo Peso"};
+			  if((imc_>=18.5) & (imc_<=24.9)){enut_="Peso Normal"};
+			  if((imc_>=25) & (imc_<=29.9)){enut_="Sobre Peso"};
+			  if(imc_>=30){enut_="Obesidad"};
+			  
+			  icc_=form1.icc_cin.value/form1.icc_cad.value;
+			  
+			  icc1_=Math.round(icc_*100)/100;
+			  form1.icc_pac.value=icc1_;
+	  
+			  form1.enut_.value=enut_;
+			  form1.imc_.disabled=false;
+			  form1.icc_pac.disabled=false;
+			  form1.enut_.disabled=false;
+		  
+			  q.focus();
+			  form1.target='';
+			  form1.submit();

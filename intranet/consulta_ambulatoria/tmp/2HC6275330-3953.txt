@@ -1,0 +1,15 @@
+2|nuecardiovasculares|ARRITMIA VENTRICULAR SIMPLE CONTROLADA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|RESECCION NODULO MAMARIO, CATETERISMO CARDIACO NORMAL
+2|neofarmacos|LEVOTIROXINA, CARVEDILOL
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO
+2|gineco|menarca: 13 años, sexarca: 24 años, menopausia 53 años, citologia: octubre 2016, atrofia, no se solicitan por edad 
+2|gestan|3
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|1
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESAREA, VARICOSAFENECTOMIA DERECHA, CORRECCION DE PTERIGION CONJUNTIVAL BILATERAL, CORRECCION DE CATARATAS
+2|neofarmacos|METOPROLOL 50 MG CADA 12 HORAS, AMLODIPINO 5 MG CADA DIA, VALSARTAN 160 MG / HIDROCLORTORIAZIDA 12.5 MG CADA DIA , LEVOTIROXINA 50 MCG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO 
+2|gineco|menarca: 12 años, sexarca: 25 años, citologia: 2 años, menopausia: 58 años citologia no aplica.mamografia del 14 de agosto del 2017 con hallazgos benignos , categoria 2 de la clasificación bi-rads
+2|gestan|4
+2|partos|3
+2|cesareas|1
+2|abortos|0
+2|vivos|4
+2|mortinatos|0
+2|feulme|

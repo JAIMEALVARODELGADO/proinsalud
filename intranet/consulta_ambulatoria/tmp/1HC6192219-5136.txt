@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|2320
+1|escolaridad|7610
+1|estadocivil|A702
+1|direccion|CL 7 N. 6-23 FATIMA B/ 
+1|tidoacu|
+1|nudoacu|NA
+1|pnomacu|SOLA-
+1|snomacu|NA
+1|papeacu|NA
+1|sapeacu|NA
+1|parenacu|NA
+1|direacu|NA
+1|teleacu|NA
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|N
+1|enfeac|N
+1|revisi|NEGATIVA-
+1|informe|NJO-
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

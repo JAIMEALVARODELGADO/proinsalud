@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|DISECTOMIA  ENDOSCOPICA. CESAREA 1, OOFORECTOMIA UNILATERAL, APENDICECTOMIA, COLELAP 
+2|neofarmacos|PREGABALINA 75 MG CADA DIA, ACETAMINOFEN MAS CODEINA TAB SEGUN DOLOR 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HERNIA DISCAL 
+2|gineco|MENARQUIA: 12 AÑOS --ULTIMA CITOLOGIA HACE UN AÑOS NORMALE SEGUN REFIERE, FUM 14/05/21 POMEROY 
+2|gestan|4
+2|partos|1
+2|cesareas|1
+2|abortos|2
+2|vivos|2
+2|mortinatos|0
+2|feulme|

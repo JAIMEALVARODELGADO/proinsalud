@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|PÓMEROY, COLELAP 
+2|neofarmacos|LEVOTIROXINA 75 MCG CADA DIA, PROPANOLOL 80 MG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIRIODISMO, MIGRAÑA 
+2|gineco|MENARQUIA: 16 AÑOS -- MENOPAUSIA: 51 AÑOS -- ULTIMA CITOLOGIA EN MARZO 2022 NORMAL SEGUN REFIERE 
+2|gestan|3
+2|partos|3
+2|cesareas|0
+2|abortos|0
+2|vivos|3
+2|mortinatos|0
+2|feulme|

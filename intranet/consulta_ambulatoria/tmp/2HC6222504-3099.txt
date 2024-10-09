@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLELAP SIN COMPLICACIONES, COLOSTOMIA 
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARCA: 13 AÑOS -- SEXARCA: 18 AÑOS -- MENOPAUSIA: 48 AÑOS - CITOLOGIA ENERO DE 2022 NEGATIVA PARA MALIGNIDAD, MAMOGRAFIA: HACE UN AÑO NORMAL SEGUN REFIERE 
+2|gestan|4
+2|partos|3
+2|cesareas|1
+2|abortos|0
+2|vivos|4
+2|mortinatos|0
+2|feulme|

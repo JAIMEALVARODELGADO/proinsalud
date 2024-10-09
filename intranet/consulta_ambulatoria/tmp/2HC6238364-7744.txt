@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CESEREA, RESECCION QUISTE PILONIDAL
+2|neofarmacos|LEVOTIROXINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO
+2|gineco|MENARQUIA 13 AÑOS----FUM : HASTA LOS 50 AÑOS DE EDAD. CITOLOGIA 22/11/2018 INFLAMACION, NEGATIVO PARA LIE---- MAMOGRAFIA 11/03/2016 NORMAL   
+2|gestan|4
+2|partos|1
+2|cesareas|2
+2|abortos|1
+2|vivos|2
+2|mortinatos|0
+2|feulme|

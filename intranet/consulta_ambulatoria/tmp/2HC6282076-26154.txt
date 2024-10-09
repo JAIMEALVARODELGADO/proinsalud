@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HERNIORRAFIA UMBILICAL
+2|neofarmacos|TAMSULOSINA 0.4 MG CADA DIA M ESOMEPRAZOL 40 MG CADA DIA , LOSARTAN HCTZ
+2|nuetoxico|IBUPROFENO, DICLOFENACO 
+2|neotransfin|Negativo
+2|neootros|HIPERPLASIA PROSTATICA 
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

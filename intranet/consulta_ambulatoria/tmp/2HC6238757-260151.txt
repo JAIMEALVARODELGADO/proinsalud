@@ -1,0 +1,11 @@
+2|person|PATOLÓGICO: ESCOLIOSIS. // QUIRÚRGICOS: NCESAREA  ...// ALERGIAS: NO REFIERE ...// TRAUMÁTICOS: NO REFIERE ...// FARMACOLÓGICO:  ANALGESICOS OCASIONAL ...// TÓXICOS: NO REFIERE ...// SOCIALES O PERSONALES. NO REFIERE ...// HOSPITALARIOS: NO REFIERE ..// PSIQUIÁTRICOS: NO REFIERE ...//  VACUNACIÓN: 2 DOSIS DE PFIZER ...// NUTRICIONALES: NO REFIERE  ...// ACTIVIDAD FÍSICA:  OCASIONAL---02-12-2022 atencion rias al dia -----
+2|familia|padre hipertensión arterial, infarto agudo de miocardio,  madre hipertiroidismo,
+2|metodo|ninguno 
+2|gineco|menarca: 17 años, sexarca. 25 años, parejas sexuales #2, menopausia: 50 años -- CITOLOGIA VAGINAL: -- MAMOGRAFIA:2022/11 BI-RADAS 1 . 
+2|gestan|1
+2|partos|0
+2|cesareas|1
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

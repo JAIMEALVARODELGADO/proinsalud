@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|APENDICECTOMIA, SAFENOVARICECTOMIA POMEROY
+2|neofarmacos|LEVOTIROXINA, METFORMINA, LEVOTIROXINA, DAPAGLIFOZINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDIMSO, DM TIPO 2
+2|gineco|MENARQUIA: 13 AÑOS, SEXARCA: 19 AÑOS, NUMERO DE COMPAÑEROS SEXUALES: 2, NIEGA ENFERMEDADES DE TRANSMISIÓN SEXUAL, MENOPAUSIA: 50 AÑOS, 
+2|gestan|6
+2|partos|6
+2|cesareas|0
+2|abortos|0
+2|vivos|5
+2|mortinatos|1
+2|feulme|

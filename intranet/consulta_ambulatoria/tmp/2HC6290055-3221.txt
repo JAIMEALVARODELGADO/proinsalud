@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CISTOPEXIA, CESAREA 1, COLELAP 
+2|neofarmacos|VILDAGLIPTINA 50 MG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|DMT II 
+2|gineco|menarca 15 años, sexarca 18 años, parejas sexuales #2, menopausia 46 años, citologia: Hace 3 semanas, pendiente resultado, mamografia 11/0/2021: asimetria focal en el cuadrante supero externo  del seno izquierdo , amerita  ultrasonido complementario para su caracterizacion.  birads 0.. 
+2|gestan|5
+2|partos|2
+2|cesareas|1
+2|abortos|1
+2|vivos|4
+2|mortinatos|1
+2|feulme|

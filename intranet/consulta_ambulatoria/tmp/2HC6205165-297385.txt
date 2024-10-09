@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|Negativo
+2|neofarmacos|Negativo
+2|nuetoxico|AINES
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARCA: 11 AÑOS -- SEXARCA: 17 AÑOS -- CICLOS REGULARES-- CITOLOGIA: 2020 NEGATIVA PARA MALIGNIDAD,  PF: PAREJA VASECTOMIA.26-6-23 ACUDE A PYM PROGRAMA ADULTEZ
+2|gestan|2
+2|partos|1
+2|cesareas|0
+2|abortos|1
+2|vivos|1
+2|mortinatos|0
+2|feulme|2024-01-10

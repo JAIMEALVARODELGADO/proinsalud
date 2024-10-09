@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HISTERECTOMIA ABDOMINAL TOTAL, ARTRODESIS LUMBAR 
+2|neofarmacos|ENALAPTRIL 20 MG CADA DIA, ATORVASTATINA 20 MG CADA DIA, LEVOTIROXINA 50 MCG CAD DIA. 
+2|nuetoxico|BUSCAPINA, PENICILINA 
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDISMO 
+2|gineco|menarquia: 16 añosÆÆmenopausia: 60 anos. 
+2|gestan|5
+2|partos|5
+2|cesareas|0
+2|abortos|0
+2|vivos|4
+2|mortinatos|0
+2|feulme|

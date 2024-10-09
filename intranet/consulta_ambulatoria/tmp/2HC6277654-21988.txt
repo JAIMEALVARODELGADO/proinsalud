@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CORRECCION DE ANEURISMO CEREBRAL
+2|neofarmacos|ATORVASTATINA 20 MG CADA DIA, LEVOTIROXINA 75 MCG CADA DIA, AMLODIPINO 5 MG CADA DIA, LOSARTAN 50 MG CADA 12 HORAS, VALSARTAN 180 MG CADA DIA 
+2|nuetoxico|PENICILINA 
+2|neotransfin|Negativo
+2|neootros|HIPOTIRODISMO
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA
+2|nuepulmonar|Negativo
+2|nuequirurgicos|REMPLAZO RODILLA DERECHA
+2|neofarmacos|VALSARTAN, AMLODIPINA, ORLISTAD, LIRAGLUTIDE
+2|nuetoxico|AINES, ESPARADRAPO
+2|neotransfin|Negativo
+2|neootros|OBESIDAD
+2|gineco|NO...CITOLOGIA 28/02/2018 NORMAL  ,  MAMOGRAFI FEBRERO DLE 2018 NORMAL  MAMOGRAFIA NOV DEL 2021 PENDIENTE REPORTE ,  MAMOGRAFIA DEL 13/11/21 BIRADS 1 NORMAL CITOLOGIA PENDIENTE REPORTE 
+2|gestan|4
+2|partos|3
+2|cesareas|1
+2|abortos|0
+2|vivos|4
+2|mortinatos|0
+2|feulme|

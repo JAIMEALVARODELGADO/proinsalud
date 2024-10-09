@@ -1,0 +1,11 @@
+2|person|traumaticos:NO;hipertension:NO;quirurgicos:SI;neumopatias:NO;cir_pelvica:NO;cardiopatias:NO;neuropatias:NO;tbc:NO;diabetes:NO;vih:NO;preclamsia:NO;ets_sifilis:NO;hepatitis_b:NO;infertilidad:NO;nefropatias:NO;laborales:NO;otros:MIGRAÑA, CIRUGIA POR GINECOMASTIA A LA EDAD DE 16 AÑOS.;
+2|familia|Hta:NO;Diabetes:NO;Cardiopatias:NO;Infecciosas:NO;Congenitas:NO;Turbeculosis:NO;Transt:NO;Neoplasias:NO;otros:NO;
+2|metodo|NA-
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

@@ -1,0 +1,28 @@
+6|clasemedi|1
+6|codmedi|839605
+6|desmedi|AMITRIPTILINA 25 mg TABLETA
+6|dosis|1
+6|unid|UND
+6|frecu|1
+6|unidfrecu|Dias
+6|via|2203
+6|tiempo|30
+6|obsemed|UNA TABVO NOCHE
+6|canti|30
+6|diagmedi|G442
+6|justifi|N
+6|pos|S
+6|clasemedi|1
+6|codmedi|602080
+6|desmedi|CLORHIDRATO DE CIPROHEPTADINA 4 mg TABLETA
+6|dosis|1
+6|unid|UND
+6|frecu|1
+6|unidfrecu|Dias
+6|via|2203
+6|tiempo|30
+6|obsemed|UNA ATBVO A2 AM
+6|canti|30
+6|diagmedi|G442
+6|justifi|N
+6|pos|N

@@ -1,0 +1,52 @@
+<?php
+session_register('contador'); 
+?>
+<html>
+<head>              
+
+<!--Step 1: Add the below SCRIPT to the head of your page:-->
+<script type="text/javascript" src="spinmenu.js"></script>
+
+</head>
+<!-- inicia -->
+<script language="JavaScript">
+
+var specifyimage=new Array() //Your images
+
+specifyimage[0]="img/proinsalud.gif"
+specifyimage[1]="img/icontec.gif"
+specifyimage[2]="img/iqnet.gif"
+var delay=3000 //3 seconds
+
+//Counter for array 
+var count =1;
+var cubeimage=new Array()
+for (i=0;i<specifyimage.length;i++){
+cubeimage[i]=new Image()
+cubeimage[i].src=specifyimage[i]
+}
+function movecube(){
+if (window.createPopup)
+cube.filters[0].apply()
+document.images.cube.src=cubeimage[count].src;
+if (window.createPopup)
+cube.filters[0].play()
+count++;
+if (count==cubeimage.length)
+count=0;
+setTimeout("movecube()",delay)
+}
+window.onload=new Function("setTimeout('movecube()',delay)")
+</script>
+
+<p align="center"><img src="img/proinsalud.gif" name="cube"  border=0 style="filter:progid:DXImageTransform.Microsoft.Stretch(stretchStyle='PUSH')"></p>
+
+<!-- termina -->
+
+<body Background="img/Fondo.jpg" scroll = "no">
+<!--Step 2: Add the below SCRIPT to the body of your page where you want it to appear:-->
+
+
+</body>
+
+</html>

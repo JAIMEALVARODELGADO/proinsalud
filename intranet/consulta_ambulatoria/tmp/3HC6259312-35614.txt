@@ -1,0 +1,16 @@
+3|fin|
+3|tenar1|120
+3|tenar2|80
+3|freres|16
+3|fc|72
+3|tempe|37
+3|peso|
+3|talla|
+3|imc|
+3|cintura|
+3|cadera|
+3|icc|
+3|dimc|
+3|pc|
+3|otros|Cabeza y cuello: Normocefalo, mucosas humedas ,  conjuntivas  palidas ÆCardiopulmnar : Sin agregados ÆABdomen: No masas no megalias 
+3|saox_tri|

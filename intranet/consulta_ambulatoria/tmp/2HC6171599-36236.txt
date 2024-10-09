@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|HISTEREECTOMIA OOFORECTOMIA LEGRADO SIN COMPICAONES
+2|neofarmacos|VALSARTAN CARVEDILOL GALVUS MET ASA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|DM TIPO 2
+2|gineco|MENARQUIA:  EDAD 13 AÑOS,   SEXARCA  17  ALOS ,   CITOLOGIA   2021  NORMAL  ,   MAMOGRAFIA   2023 NORMAL   FECHA     DE  ULTIMA REGLA    A LOS  45 AÑOS  
+2|gestan|1
+2|partos|0
+2|cesareas|0
+2|abortos|1
+2|vivos|0
+2|mortinatos|0
+2|feulme|

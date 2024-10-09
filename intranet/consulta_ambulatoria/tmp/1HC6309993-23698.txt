@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7602
+1|estadocivil|A702
+1|direccion|CL 13 A N 19-45 AVENIDA LAS AMERICAS
+1|tidoacu|
+1|nudoacu|
+1|pnomacu|
+1|snomacu|
+1|papeacu|
+1|sapeacu|
+1|parenacu|
+1|direacu|
+1|teleacu|
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|PACIENTE CON ANTECEDENTE DE TUMOR C EREBRAL Y DERIVACION VENTRICULOPERITONEAL, HA PRESENTADO CEFALEA INTENSA Y TINNITUS Y GASTRITIS 
+1|enfeac|LO MENCIONADO
+1|revisi|--
+1|informe|--
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

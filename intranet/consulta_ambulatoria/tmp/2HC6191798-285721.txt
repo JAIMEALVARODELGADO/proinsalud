@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|Negativo
+2|neofarmacos|KEPPRA 1000 MG CADA 8 HORAS 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|EPILEPSIA 
+2|gineco|MENARQUIA 14 AÑOS,  SEXARQUIA 16 AÑOS, CICLOS CADA 30/4 DIAS, FUM 10/12/2019, CCV NIEGA, HEMOCLASIFICACION A POSITIVO, ECOGRAFIAS 20/02/2020 EMB DE 9.5 SEM , NUMERO DE COMPAÑEROS SEXUALES: 5, NIEGA ENFERMEDADES DE TRANSMISIÓN SEXUAL. CITOLOGIA NUNCA *** ASISTIO A PROGRAMA DE P. Y M. AGOSTO/21 *** FUM 121/12/2022.
+2|gestan|1
+2|partos|1
+2|cesareas|0
+2|abortos|0
+2|vivos|1
+2|mortinatos|0
+2|feulme|

@@ -1,0 +1,11 @@
+2|person|Patológicos: trastorno de ansiedad ÆQuirúrgicos: colecistectomía  ÆFarmacológicos: niegaÆTóxicos: consumo de alcohol y varias SPA ÆAlérgicos: niega
+2|familia|Abuela DM - NIEGA TRASTORNO MENTAL EN FAMILIA , NIEGA CONSUMO DE SPA, NIEGA CONDUCTAS SUICIDAS
+2|metodo|
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

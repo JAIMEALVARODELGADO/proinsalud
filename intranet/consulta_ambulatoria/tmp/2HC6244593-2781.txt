@@ -1,0 +1,11 @@
+2|person|PATOLOGICOS: TUMOR CEREBRAL(MENINGIOMA), hipogluemia, quirúrgicos: colecistectomia,  cesareaS#2, , quirurgicos de  columna por discopatia en el 2010, ooforectomia por tumor ovarico, cirugia ocular, reseccion de meningioma craneotomia,traumaticos: negativos, toxicos fue fumadora hace varios años, bebedora social, alergicos: medios de contraste, farmacologicos: omega 3/6, ocupacion secretaria de educacion del departamento estado civil: casada, abril 6 2016, refiee y a realizar instrumento AP ALERGIA LÍQUIDOS DE CONTRASTE, NO TOLERA DIPIRONA  , NIEGA SER VICTIMA DE VIOLENCIA SEXUAL, FISICA O PSICOLOGICA, NIEGA SER VICTIMA DEL CONFLICTO ARMADO, NIEGA FOBIAS NO PERTENECE A GRUPOS ETNICOS U OTROS.FACTORES DE VULNERABILIDAD INDIVIDUAL Y SOCIAL: NO PY  M  OCT 2023
+2|familia|PADRE: DIABETES MELLITUS/ MADRE hipertension arterial. NIEGA TRASTORNOS MENTALES EN FAMILIA, NIEGA SUICIDIOS RECIENTES EN FAMILIARES, NIEGA CONSUMO DE SPA EN FAMILIARES.
+2|metodo|
+2|gineco|MENARCA:11 AÑOS, sexarca: 22 años, citologia: octubre 2015 normal
+2|gestan|2
+2|partos|0
+2|cesareas|2
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

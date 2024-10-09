@@ -1,0 +1,25 @@
+1|etnia|7505
+1|ocupacion|9998
+1|escolaridad|7602
+1|estadocivil|A701
+1|direccion|BARRIO PARAISO
+1|tidoacu|CC
+1|nudoacu|27124537
+1|pnomacu|JAZMIN
+1|snomacu|
+1|papeacu|CORTES
+1|sapeacu|
+1|parenacu|MADRE
+1|direacu|BARRIO PARAISO
+1|teleacu|00
+1|muniacu|52427
+1|nommuniacu|MAGUI - PAYAN (NARI&#65533;O)
+1|primera|1
+1|codciru|
+1|motivo|REFIERE \"VENIMOS POR EL COMPORTAMIENTO MIO, ESTOY REPITIENDO 10\"
+1|enfeac|A
+1|revisi|A
+1|informe|A
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

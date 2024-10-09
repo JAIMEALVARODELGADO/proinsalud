@@ -1,0 +1,15 @@
+2|nuecardiovasculares|HTA 
+2|nuepulmonar|Negativo
+2|nuequirurgicos|COLELAP, HISTERECTOMIA ABDOMINAL TOTAL,M  CPRE. 
+2|neofarmacos|LOSARTAN 50 MG CADA DIA, ATORVASTATINA 20 MG CADA DIA 
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|Ninguno
+2|gineco|MENARQUIA 12 -MENOPAUSIA QUIRURGICA 45 AÑOS  CITOLOGIA: EN EL 2020, REFIERE RESULTADO NORMAL. 
+2|gestan|2
+2|partos|2
+2|cesareas|0
+2|abortos|0
+2|vivos|2
+2|mortinatos|0
+2|feulme|

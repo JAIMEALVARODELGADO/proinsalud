@@ -1,0 +1,25 @@
+1|etnia|7506
+1|ocupacion|9999
+1|escolaridad|7610
+1|estadocivil|A702
+1|direccion|CORREGIMIENTO DE CABUYALES
+1|tidoacu|
+1|nudoacu|X
+1|pnomacu|LUIS 
+1|snomacu|X
+1|papeacu|LASSO
+1|sapeacu|X
+1|parenacu|X
+1|direacu|X
+1|teleacu|X
+1|muniacu|
+1|nommuniacu|
+1|primera|1
+1|codciru|
+1|motivo|VENGO CONTROL DE MI EMBARAZO , ESTOY PROGRAMA PARA  LA CESAREA, PARA EL 08/04/2024/ 
+1|enfeac|ASISTE PACIENTE CONTROL DE SU  EMBARAZO DE  38,5 SEMANAS, CON EMBARAZO, DE ALTO  RIESGO OBSTETRICO- POR EDAD  DE LA  PACIENTE  AÑOSA, PERIODO INTERNGENECICO , DE MAS   DE  17 AÑOS, CO CESAREA, PREVIA- SIN  NINGUN SINTOMAS  NO HAY SIGNOS DE  ALARMA,  NO SANGRADO , NO  FLUJOS  VAGINALES,  ,NO DOLOR, BAJO  - 
+1|revisi|NEGATIVO_ 
+1|informe|NO-.
+1|grupo_poblacional|F112
+1|orientacion_sexual|F201
+1|medicoproc_ccl|

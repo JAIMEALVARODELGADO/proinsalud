@@ -1,0 +1,11 @@
+2|person|NIEGA ALERGICO NIEGA QUIRURGICOS COLECISTECTOMIA  en el 200, MIOPIA 23-02-2021 ÆÆ INMUNOGLUBULINA E  159 ÆÆ HEMOGRAMA HEMOBLOBINA EN 17.3 HEMATOCRITO 53.7
+2|familia|NO REFIERE
+2|metodo|
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|LEGRADO # 7, COLECISTECTOMIA
+2|neofarmacos|Negativo
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|LES
+2|gineco|MENARCA 15 AÑOS SEXARCA 18 AÑOS COMPAÑERO SEXUALES 4 ULTIMA CITOLOGIA HACE 2 MESES FUM 20/05/23 CONTROLES PRENATALES 1 HEMOCLASIFICACION O POSITIVO 
+2|gestan|7
+2|partos|0
+2|cesareas|0
+2|abortos|6
+2|vivos|0
+2|mortinatos|0
+2|feulme|2024-02-04

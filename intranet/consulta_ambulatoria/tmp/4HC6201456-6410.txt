@@ -1,0 +1,22 @@
+4|conti|1301
+4|causa|1213
+4|final|10
+4|sintorespi|N
+4|sintopiel|N
+4|causatrab|
+4|tipodiag|1
+4|patolocronicas|S
+4|map|CERUMEN IMPACTADO
+4|cod|H612
+4|obse|
+4|map1|CERVICALGIA
+4|cod1|M542
+4|obse1|
+4|map2|RINOFARINGITIS AGUDA (RESFRIADO COMUN)
+4|cod2|J00X
+4|obse2|
+4|map3|
+4|cod3|
+4|obse3|
+4|analpv|Paciente con cerumen de oido derecho para lavado de oido, patologia articular de larga evolucion degenerativa, orofaringe congestiva tipo alergica
+4|vicviolencia|NO

@@ -1,0 +1,15 @@
+2|nuecardiovasculares|Negativo
+2|nuepulmonar|Negativo
+2|nuequirurgicos|CISTOPEXIA, MANGA GASTRICA
+2|neofarmacos|LEVOTIROXINA 50 MCG, EMPAGLIFOZINA, METFORMINA
+2|nuetoxico|Negativo
+2|neotransfin|Negativo
+2|neootros|HIPOTIROIDIMNSO, DM TIPO 2
+2|gineco|MENOPAUSIA: 52 AÑOS CITOLOGIA 02/2024 NEGATIVA PARA ADN VPH -  NEGATIVA PARA MALIGNIDAD.  - , MAMOGRAFIA 21-01-2022: NEGATIVA PARA MALIGNIDAD, BI-RADS 1
+2|gestan|0
+2|partos|0
+2|cesareas|0
+2|abortos|0
+2|vivos|0
+2|mortinatos|0
+2|feulme|

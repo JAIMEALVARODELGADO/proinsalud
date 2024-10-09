@@ -1,14 +1,14 @@
 <html>
 <head>
-<title>PROGRAMA DE FACTURACIÓN - FURIPS</title>
+<title>PROGRAMA DE FACTURACIï¿½N - FURIPS</title>
 <link rel="stylesheet" href="css/style.css" type="text/css" />
 <!--Hoja de estilos del calendario --> 
 <link rel="stylesheet" type="text/css" media="all" href="java/calendar/calendar-blue.css" title="win2k-cold-1" /> 
-<!-- librería principal del calendario --> 
+<!-- librerï¿½a principal del calendario --> 
 <script type="text/javascript" src="java/calendar/calendar.js"></script> 
-<!-- librería para cargar el lenguaje deseado --> 
+<!-- librerï¿½a para cargar el lenguaje deseado --> 
 <script type="text/javascript" src="java/calendar/lang/calendar-es.js"></script> 
-<!-- librería que declara la función Calendar.setup, que ayuda a generar un calendario en unas pocas líneas de código --> 
+<!-- librerï¿½a que declara la funciï¿½n Calendar.setup, que ayuda a generar un calendario en unas pocas lï¿½neas de cï¿½digo --> 
 <script type="text/javascript" src="java/calendar/calendar-setup.js"></script> 
 
 
@@ -39,15 +39,19 @@ function nuevo(){
 <?include('php/conexion.php');?>
 <center><table class="Tbl1" border="0">
 <tr>
-    <td class="Td2" align='right'><b>Identificación:</td>
+    <td class="Td2" align='right'><b>Identificaciï¿½n:</td>
     <td class="Td2" align='left'><input type='text' name='nrod_usu' size='15' maxlength='20'></td>
     <td class="Td2" align='right'><b>Factura:</td>
     <td class="Td2" align='left'><input type='text' name='num_fac' size='10' maxlength='10'></td>    
     <td class="Td2" align='right'><b>Prefijo:</td>
     <td class="Td2" align='left'><select name='pref_fac'>
-        <option value="FE">FE</option>
-        <option value="I">I</option>
-		<option value="R">R</option>
+        <?php
+            $consultaconsec="select c.prefijo from consecutivo c WHERE c.estado ='A' ORDER BY prefijo";
+            $consultaconsec=mysql_query($consultaconsec);
+            while($row=mysql_fetch_array($consultaconsec)){
+                echo "<option value='$row[prefijo]'>$row[prefijo]</option>";
+            }
+        ?>
         </select>
     </td>
     <td class="Td2" align='right'><b>Contrato:</td>
@@ -74,7 +78,7 @@ function nuevo(){
     Calendar.setup({ 
     inputField     :    "fenti",     // id del campo de texto 
     ifFormat     :     "%d/%m/%Y",     // formato de la fecha que se escriba en el campo de texto 
-    button     :    "lanzador1"     // el id del botón que lanzará el calendario 
+    button     :    "lanzador1"     // el id del botï¿½n que lanzarï¿½ el calendario 
     }); 
     </script> 
 
@@ -85,7 +89,7 @@ function nuevo(){
     Calendar.setup({ 
     inputField     :    "fenfi",     // id del campo de texto 
     ifFormat     :     "%d/%m/%Y",     // formato de la fecha que se escriba en el campo de texto 
-    button     :    "lanzador2"     // el id del botón que lanzará el calendario 
+    button     :    "lanzador2"     // el id del botï¿½n que lanzarï¿½ el calendario 
     }); 
     </script> 	
     </td>

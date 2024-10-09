@@ -1,0 +1,16 @@
+5|claseorden|1
+5|codorden|902210
+5|desorden|902210 - HEMOGRAMA IV (HEMOGLOBINA HEMATOCRITO RECUENTO DE ERITROCITOS INDICES ERITROCITARIOS LEUCOGRAMA RECUENTO DE PLAQUETAS INDICES PLAQUETARIOS Y MORFOLOGIA ELECTRONICA E HISTOGRAMA) AUTOMATIZADO () 
+5|nivel|CITAS
+5|obseorden|
+5|diagorden|I898
+5|cantorden|1
+5|cama|
+5|claseorden|4
+5|codorden|0632
+5|desorden|
+5|nivel|
+5|obseorden|3 meses
+5|diagorden|I898
+5|cantorden|3
+5|cama|

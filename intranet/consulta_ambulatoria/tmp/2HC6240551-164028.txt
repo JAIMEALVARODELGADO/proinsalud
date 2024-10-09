@@ -1,0 +1,11 @@
+2|person|ESTENOSIS   TRAQUEAL,  -----  NO ATENCION RIAS. SE REMITE----
+2|familia|abuelo paterno cancer esofagico, abuelo materno hipertension arterial, niega antecedentes familiares,  de trastornos mentales, en lo interrogado niega consumo de spa, en familiares cercanos, niega antecedentes familiares de ceguera o hipoacusia, niega comportamientos suicidas, o suicidios en la familia, eventos cercanos al examen actual .
+2|metodo|PRESERVATIVO. 
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|

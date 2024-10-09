@@ -1,0 +1,11 @@
+2|person|Patologicos: Gonartrosis,discopatia lumbar, ERGE, Angina estable  Farmcologicos: niega. Qurugicos: niega. Alergicos: niega a medicamentos . Toxicos: exfumador durante 3 años hasta los 20 años, INMUNIZACION COVID-19 APLCIADA 2DA DOSIS EN JUNIO CON PFIZER. TRAUMATICOS: FRACTURA HACE 10 AÑO MANO DERECHA, , FX DE CODO IZQUIERDO EN INFANCIA. , NIEGA SER VICTIMA DE VIOLENCIA SEXUAL, EMOCIONAL, PSICOLOGICA, DE GENERO, NIEGA SER DESPLAZADO POR LA VIOLENCIA O CONFLICTO ARMADO -tranmsfusionales:no refiere
+2|familia|DM y enfermedad coronaria  en padre  a los 70 años. NIEGA ANTECEDENTES FAMILIARES DE TRASTORNOS MENTALES, NIEGA CONSUMO DE SPA EN INTEGRANTES DE FAMILIA, NIEGA CASOS DE SUICIDIO RECIENTES DENTRO DE SU FAMILIA.
+2|metodo|
+2|gineco|
+2|gestan|
+2|partos|
+2|cesareas|
+2|abortos|
+2|vivos|
+2|mortinatos|
+2|feulme|
