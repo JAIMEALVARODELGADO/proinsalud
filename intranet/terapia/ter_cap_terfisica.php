@@ -8,8 +8,8 @@ $datos[1]='nomb_';
 <html>
 <head>
     <link rel="stylesheet" href="css/estilo_2.css">
-    <meta http-equiv="Content-Type" content="text/html; ISO-8859-1"/>
-    <!--<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />-->
+    <!--<meta http-equiv="Content-Type" content="text/html; ISO-8859-1"/>-->
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
     <title>Consulta de Terapia Fisica</title>
 <script languaje="javascript">
 
@@ -17,14 +17,14 @@ function validar(){
     error='';
     if(document.form1.servrem_.value==''){error+="Servicio que Remite\n";}
     if(document.form1.enfact_.value==''){error+="Enfermedad Actual\n";}
-    if(document.form1.estfis_.value==''){error+="Estado F韘ico\n";}
-    if(document.form1.dxprinc_.value==''){error+="Diagn髎tico Principal\n";}
+    if(document.form1.estfis_.value==''){error+="Estado F锟絪ico\n";}
+    if(document.form1.dxprinc_.value==''){error+="Diagn锟絪tico Principal\n";}
     if(document.form1.tpdxpr_.value==''){error+="Tipo de Dx Principal\n";}
     if(document.form1.cexter_.value==''){error+="Causa Externa\n";}
     if(document.form1.ambit_.value==''){error+="Ambito\n";}
     if(document.form1.sesion_.value==''){error+="Numero de Sesiones\n";}
     if(error!=''){
-        alert("Para continuar debe completar la siguiente informaci髇\n"+error);
+        alert("Para continuar debe completar la siguiente informaci锟絥\n"+error);
         return(false);
     }
     document.form1.submit();
@@ -132,7 +132,7 @@ $().ready(function() {
     </table>
     <table border="0" width='100%'>
         <tr>
-            <td align="left" colspan="5">Impresi髇 Diagn髎tica:</td>
+            <td align="left" colspan="5">Impresi贸n Diagn贸stica:</td>
         </tr>
         <tr>
             <td align="right">1</td>
@@ -141,7 +141,7 @@ $().ready(function() {
             <td align="right">Tipo:</td>
             <td align="left"><select name="tpdxpr_">
                     <option value=""></option>
-                    <option value="1">Impresi髇 Diagn髎tica</option>
+                    <option value="1">Impresi贸n Diagn贸stica</option>
                     <option value="2">Confirmado Nuevo</option>
                     <option value="3">Confirmado Repetido</option>
                 </select>
@@ -194,8 +194,8 @@ $().ready(function() {
             <td align="left" colspan="4">Conducta</td>
         </tr>
         <tr>
-            <td align="right">1 Modalidades F韘icas Convencionales:</td>
-            <td align="left"><input type="checkbox" name="calhum_" value="S">Calor H鷐edo</td>
+            <td align="right">1 Modalidades F铆sicas Convencionales:</td>
+            <td align="left"><input type="checkbox" name="calhum_" value="S">Calor H煤medo</td>
             <td align="left"><input type="checkbox" name="crioter_" value="S">Crioterapia</td>
             <td align="left"><input type="checkbox" name="contras_" value="S">Contraste</td>
         </tr>
@@ -204,7 +204,7 @@ $().ready(function() {
             <td align="left"><input type="checkbox" name="ultraso_" value="S"></td>
         </tr>
         <tr>
-            <td align="right">3 Estimulaci髇 Nerviosa Transcut醤ea:</td>
+            <td align="right">3 Estimulaci贸n Nerviosa Transcut谩nea:</td>
             <td align="left"><input type="checkbox" name="estrasc_" value="S"></td>
         </tr>
         <tr>
@@ -217,16 +217,16 @@ $().ready(function() {
             <td align="left"><input type="checkbox" name="pcasero_" value="S"></td>
         </tr>
         <tr>
-            <td align="right">6 T閏nicas Espec韋icas:</td>
+            <td align="right">6 T茅cnicas Espec铆ficas:</td>
             <td align="left" colspan="3">
                 <textarea name="tecnic_" cols="100" rows="4"><?php echo $tecnic_;?></textarea> 
             </td>
         </tr>
         <tr>
-            <td align="right">N鷐ero de Sesiones:</td>
+            <td align="right">N煤mero de Sesiones:</td>
             <td align="left"><select name="sesion_">
                     <option value=""></option>
-                    <option value="1">Sesi髇 Unica</option>
+                    <option value="1">Sesi贸n Unica</option>
                     <option value="3">3</option>
                     <option value="5">5</option>
                     <option value="10">10</option>

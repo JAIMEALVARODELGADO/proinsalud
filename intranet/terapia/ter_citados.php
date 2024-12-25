@@ -5,6 +5,7 @@ session_start();
 <head>
     <link rel="stylesheet" href="css/estilo_2.css">
     <meta http-equiv="Content-Type" content="text/html; ISO-8859-1"/>
+    <meta charset="UTF-8">
     <!--meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />-->
     <title>Citados de Terapia Fisica</title>
 <script languaje="javascript">
@@ -27,7 +28,7 @@ include('php/funciones.php');
     <center><h3><font color='#A60C63'>PACIENTES CITADOS</font></h3></center>
     <table border="1">
         <th colspan="2">Opciones</th>
-        <th>Identificación</th>
+        <th>IdentificaciÃ³n</th>
         <th>Nombre</th>
         <th>Contrato</th>
         <th>Fecha</th>
@@ -35,7 +36,7 @@ include('php/funciones.php');
         <th>Estado</th>
         <?php
         $hoy=cambiafecha(hoy());
-        //$hoy='2016-02-18';
+        $hoy='2024-10-11';
         $consulta="SELECT cit.id_cita,hor.fecha_horario,hor.hora_horario,
             usu.codi_usu,usu.nrod_usu,CONCAT(pnom_usu,' ',snom_usu,' ',pape_usu,' ',sape_usu) as nombre,
             con.neps_con,descrip_estaci

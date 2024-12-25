@@ -3,7 +3,6 @@ session_start();
 include('php/conexion.php');
 include('php/funciones.php');
 
-
 //Aqui consulto los datos del usuario
 $consulta="SELECT idusu_citas,cotra_citas FROM citas WHERE id_cita='$_SESSION[id_cita]'";
 //echo $consulta;

@@ -4,7 +4,8 @@ session_register('datos');
 $datos[0]='codi_';
 $datos[1]='nomb_';
 ?>
-<meta http-equiv="Context-Type" content="text/html; charset=UTF-8">
+<!--<meta http-equiv="Context-Type" content="text/html; charset=UTF-8">-->
+<meta charset="UTF-8">
 <html>
 <head>
     <link rel="stylesheet" href="css/estilo_2.css">
@@ -24,6 +25,7 @@ function validar(){
     document.form1.submit();
 }
 
+ 
 </script>
 <link rel="stylesheet" type="text/css" href="css/jquery.autocomplete.css">
 <script type="text/javascript" src="js/jquery.js"></script>
@@ -52,12 +54,19 @@ $().ready(function() {
     ?>
     <center><h3><font color='#A60C63'>EVOLUCION POR FISIOTERAPIA</font></h3></center>
     <?php
-    include('datos_usu.php');
+    include('datos_usu.php');    
+
+    //echo "Codigo usuario".$codi_usu;
+    $consultater="SELECT iden_this FROM ter_historia WHERE codi_usu='$codi_usu' and esta_this='A'";
+    echo $consultater;
+    $consultater=mysql_query($consultater);
+    $terapias_abiertas = mysql_num_rows($consultater);
+    
     ?>
 
     <table border="0" width='100%'>
         <tr>
-            <td align="right">Evoluci�n:</td>
+            <td align="right">Evolución:</td>
             <td align="left" colspan="5">
                 <textarea name="evolu_" cols="100" rows="4"></textarea>
             </td>
@@ -91,5 +100,62 @@ $().ready(function() {
         </tr>
     </table>
 </form>
+
+<!--<button id="myBtn">Abrir Ventana</button>-->
+<!-- La ventana emergente -->
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>El usuario no tiene una hitoria de terapia de primera vez abierta</p>
+        <p>Pulse el botón Continuar para ir a la historia de primera vez</p>
+        <center>
+        <a class="btn" href="ter_cap_terfisica.php">Continuar</a>
+        </center>        
+    </div>
+</div>
+
+
 </body>
-</html><html><head></head><body></body></html>
+</html>
+
+
+<script lang='JavaScript'>
+    // Obtener el modal
+    var modal = document.getElementById("myModal");
+
+    // Obtener el botón que abre el modal
+    var btn = document.getElementById("myBtn");
+
+    // Obtener el elemento <span> que cierra el modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // Cuando el usuario hace clic en el botón, abre el modal
+    btn.onclick = function() {    
+        modal.style.display = "block";
+    }
+
+    // Cuando el usuario hace clic en <span> (x), cierra el modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // Cuando el usuario hace clic fuera del modal, lo cierra
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+<?php
+//$terapias_abiertas=1;
+if($terapias_abiertas==0){
+    
+    ?>
+    <script>
+        modal.style.display = "block";
+    </script>
+    
+    <?php
+}
+?>

@@ -68,7 +68,7 @@ function estado($cod_){
   return $nom_;
 }
 
-//Calcula la edad en años, a partir de una fecha dada comparada con la fecha de hoy
+//Calcula la edad en aï¿½os, a partir de una fecha dada comparada con la fecha de hoy
 function calculaedad($fecha_){
   $ano_=substr($fecha_,0,4);
   $mes_=substr($fecha_,5,2);
@@ -104,9 +104,9 @@ function calculaedad($fecha_){
   {
     $edad_=$anos_;
     if($edad_==1){
-      $unidad_=" Año";}
+      $unidad_=" AÃ±o";}
     else{
-      $unidad_=" Años";}
+      $unidad_=" AÃ±os";}
   }
   else
   {
@@ -120,16 +120,16 @@ function calculaedad($fecha_){
     else{
       $edad_=$dias_;
       if($edad_==1){
-        $unidad_=" Día";}
+        $unidad_=" Dï¿½a";}
       else{
-        $unidad_=" Días";}
+        $unidad_=" Dï¿½as";}
     }
   }
   return($edad_.$unidad_);
 }
 
 //Valida si el estado del usuario es "AC" y la fecha de vencimiento de la novedad es mayor a hoy, retorna el estado "SU"
-//toma el estado del usuario, la fecha de finalización de la novedad y la descripcion de la novedad.
+//toma el estado del usuario, la fecha de finalizaciï¿½n de la novedad y la descripcion de la novedad.
 function valestado($estado_,$ffinal_,$descripcion)
 {
   if ($ffinal_<>"0000-00-00" and $estado_=="AC"){
@@ -170,7 +170,7 @@ function cambiafechadmy($xfecha_)
   return $xfecha_;
 }
 
-//Calcula la edad en años, meses o días, a partir de una fecha dada comparada con la fecha de hoy
+//Calcula la edad en aï¿½os, meses o dï¿½as, a partir de una fecha dada comparada con la fecha de hoy
 //la fecha viene en formato "dd/mm/yyyy"
 function calculaedad2($fecha_,&$unidad_){
   $ano_=substr($fecha_,0,4);
@@ -208,9 +208,9 @@ function calculaedad2($fecha_,&$unidad_){
   {
     $edad_=$anos_;
     if($edad_==1){
-      $unidad_="Año";}
+      $unidad_="Aï¿½o";}
     else{
-      $unidad_="Años";}
+      $unidad_="Aï¿½os";}
   }
   else
   {
@@ -224,9 +224,9 @@ function calculaedad2($fecha_,&$unidad_){
     else{
       $edad_=$dias_;
       if($edad_==1){
-        $unidad_="Día";}
+        $unidad_="Dï¿½a";}
       else{
-        $unidad_="Días";}
+        $unidad_="Dï¿½as";}
     }
   }
   return($edad_);
@@ -255,7 +255,7 @@ function sumadias($fecha_,$dias_){
 }
 
 //Calcula los dias trascurridos entre dos fechas
-//parámetros: fecha inicial, fechafinal en formato dd/mm/yyyy
+//parï¿½metros: fecha inicial, fechafinal en formato dd/mm/yyyy
 function calculadias($fecha1_,$fecha2_){
   $ano1_=substr($fecha1_,6,4);
   $mes1_=substr($fecha1_,3,2);
@@ -271,7 +271,7 @@ function calculadias($fecha1_,$fecha2_){
 }
 
 
-//Calcula la edad en años, meses o días, a partir de una fecha dada comparada con la segunda fecha dada
+//Calcula la edad en aï¿½os, meses o dï¿½as, a partir de una fecha dada comparada con la segunda fecha dada
 //la fecha viene en formato "yyyy/mm/dd"
 //ej: calculaedad3($fecha_final,$fecha_inicia,$unidad)
 function calculaedad3($fechaini_,$fechafin_,&$unidad_){
@@ -312,9 +312,9 @@ function calculaedad3($fechaini_,$fechafin_,&$unidad_){
   {
     $edad_=$anos_;
     if($edad_==1){
-      $unidad_="Año";}
+      $unidad_="Aï¿½o";}
     else{
-      $unidad_="Años";}
+      $unidad_="Aï¿½os";}
   }
   else
   {
@@ -328,9 +328,9 @@ function calculaedad3($fechaini_,$fechafin_,&$unidad_){
     else{
       $edad_=$dias_;
       if($edad_==1){
-        $unidad_="Día";}
+        $unidad_="Dï¿½a";}
       else{
-        $unidad_="Días";}
+        $unidad_="Dï¿½as";}
     }
   }
   return($edad_);
@@ -349,7 +349,7 @@ function traedx($cod_){
 function traetipdx($tipo_){
     switch ($tipo_){
         case '1':
-            $desc_='Impresión Diagnóstica';
+            $desc_='Impresiï¿½n Diagnï¿½stica';
             break;
         case '2':
             $desc_='Confirmado Nuevo';
