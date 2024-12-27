@@ -36,7 +36,7 @@ include('php/funciones.php');
         <th>Estado</th>
         <?php
         $hoy=cambiafecha(hoy());
-        $hoy='2024-10-11';
+        $hoy='2024-10-15';
         $consulta="SELECT cit.id_cita,hor.fecha_horario,hor.hora_horario,
             usu.codi_usu,usu.nrod_usu,CONCAT(pnom_usu,' ',snom_usu,' ',pape_usu,' ',sape_usu) as nombre,
             con.neps_con,descrip_estaci

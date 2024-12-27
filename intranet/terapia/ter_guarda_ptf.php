@@ -18,8 +18,8 @@ $consulta=mysql_query($consulta);
 $row=mysql_fetch_array($consulta);
 
 $fecha_=cambiafecha(hoy());
-$sql_="INSERT INTO ter_historia(iden_this,codi_usu,cont_this,servrem_this,medrem_this,enfact_this,estfis_this,dxprinc_this,tpdxpr_this,cexter_this,ambit_this,calhum_this,crioter_this,contras_this,ultraso_this,estrasc_this,msedat_this,mdesco_this,pcasero_this,tecnic_this,sesion_this,codmedi_this,esta_this)
-VALUES(0,'$row[idusu_citas]','$row[cotra_citas]','$servrem_','$medrem_','$enfact_','$estfis_','$dxprinc_','$tpdxpr_','$cexter_','$ambit_','$calhum_','$crioter_','$contras_','$ultraso_','$estrasc_','$msedat_','$mdesco_','$pcasero_','$tecnic_','$sesion_','$_SESSION[ter_codmedi]','A')";
+$sql_="INSERT INTO ter_historia(iden_this,codi_usu,cont_this,servrem_this,medrem_this,enfact_this,estfis_this,dxprinc_this,tpdxpr_this,cexter_this,ambit_this,calhum_this,crioter_this,contras_this,ultraso_this,estrasc_this,msedat_this,mdesco_this,pcasero_this,tecnic_this,sesion_this,codmedi_this,esta_this,numero_orden_this)
+VALUES(0,'$row[idusu_citas]','$row[cotra_citas]','$servrem_','$medrem_','$enfact_','$estfis_','$dxprinc_','$tpdxpr_','$cexter_','$ambit_','$calhum_','$crioter_','$contras_','$ultraso_','$estrasc_','$msedat_','$mdesco_','$pcasero_','$tecnic_','$sesion_','$_SESSION[ter_codmedi]','A','$numero_orden_this')";
 //echo "<br>".$sql_;
 mysql_query($sql_);
 $iden_this=mysql_insert_id();

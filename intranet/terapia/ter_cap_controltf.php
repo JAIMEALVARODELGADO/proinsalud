@@ -58,7 +58,7 @@ $().ready(function() {
 
     //echo "Codigo usuario".$codi_usu;
     $consultater="SELECT iden_this FROM ter_historia WHERE codi_usu='$codi_usu' and esta_this='A'";
-    echo $consultater;
+    //echo $consultater;
     $consultater=mysql_query($consultater);
     $terapias_abiertas = mysql_num_rows($consultater);
     

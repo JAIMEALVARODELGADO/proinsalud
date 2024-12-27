@@ -15,16 +15,23 @@ $datos[1]='nomb_';
 
 function validar(){
     error='';
+    var orden = parseInt(document.getElementById("numero_orden_this").value);
+    
+    if(isNaN(orden)){
+        error+="La orden debe ser un número\n";
+    }
+    
+    //if(document.form1.numero_orden_this.value==''){error+="Número de Orden\n";}    
     if(document.form1.servrem_.value==''){error+="Servicio que Remite\n";}
     if(document.form1.enfact_.value==''){error+="Enfermedad Actual\n";}
-    if(document.form1.estfis_.value==''){error+="Estado F�sico\n";}
-    if(document.form1.dxprinc_.value==''){error+="Diagn�stico Principal\n";}
+    if(document.form1.estfis_.value==''){error+="Estado Físico\n";}
+    if(document.form1.dxprinc_.value==''){error+="Diagnóstico Principal\n";}
     if(document.form1.tpdxpr_.value==''){error+="Tipo de Dx Principal\n";}
     if(document.form1.cexter_.value==''){error+="Causa Externa\n";}
     if(document.form1.ambit_.value==''){error+="Ambito\n";}
     if(document.form1.sesion_.value==''){error+="Numero de Sesiones\n";}
     if(error!=''){
-        alert("Para continuar debe completar la siguiente informaci�n\n"+error);
+        alert("Para continuar debe completar la siguiente información\n"+error);
         return(false);
     }
     document.form1.submit();
@@ -103,6 +110,10 @@ $().ready(function() {
     ?>
     
     <table border="0" width='100%'>
+        <tr>
+            <td align="right">Número de Orden:</td>
+            <td align="left"><input type='text' id='numero_orden_this' name='numero_orden_this' value='<?php echo $numero_orden_this;?>' size='7' maxlength='7'></td>
+        </tr>
         <tr>
             <td align="right">Del Servicio:</td>
             <td align="left"><select name="servrem_">
