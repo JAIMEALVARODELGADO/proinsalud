@@ -17,11 +17,13 @@ $rowhis=mysql_fetch_array($consultahis);
 
 $fecha_=cambiafecha(hoy());
 
-echo $fin_historia;
-echo "<br>".$resumen;
+//echo $fin_historia;
+//echo "<br>".$resumen;
 $fin_historia_tcon="N";
 if($fin_historia=='on'){
     $fin_historia_tcon='S';
+    $sql_tf="UPDATE ter_historia SET esta_this='C' WHERE iden_this='$rowhis[iden_this]'";
+    mysql_query($sql_tf);
 }
 
 $sql_="INSERT INTO ter_control(iden_tcon,iden_this,evolu_tcon,obser_tcon,codmedi_tcon,proced_tcon,fin_historia_tcon,resumen_tcon)
