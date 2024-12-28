@@ -15,17 +15,41 @@ $datos[1]='nomb_';
 <script languaje="javascript">
 function validar(){
     error='';
-    if(document.form1.evolu_.value==''){error+="Evoluci�n\n";}
-    if(document.form1.obser_.value==''){error+="Observaci�n\n";}
-    if(document.form1.proced_.value==''){error+="Procedimiento\n";}
+    if(document.form1.evolu_.value==''){error+="Evolución\n";}
+    if(document.form1.obser_.value==''){error+="Observación\n";}
+    if(document.form1.proced_.value==''){error+="Procedimiento\n";}    
+    if(document.getElementById("fin_historia").checked === true && document.getElementById("resumen").value === ""){
+        error+="Resumen de la historia \n";
+    }
+    var resumen = document.getElementById("resumen");    
+    if (resumen.value.length > 500) {
+        resumen.value = resumen.value.substring(0, 500);        
+        error+="El Resumen de la historia no puede superar los 500 caracteres \n";
+    }
     if(error!=''){
-        alert("Para continuar debe completar la siguiente informaci�n\n"+error);
+        alert("Para continuar debe completar la siguiente información\n"+error);
         return(false);
+    }
+    if(document.getElementById("fin_historia").checked === false && document.getElementById("resumen").value !== ""){
+        document.getElementById("resumen").value="";
     }
     document.form1.submit();
 }
 
- 
+function activar_resumen(){
+    var finalizar = document.getElementById("fin_historia").checked;
+    
+    if(finalizar){        
+        document.getElementById("resumen").style.display = "block";
+        document.getElementById("texto_resumen").style.display = "block";
+    }
+    else{        
+        document.getElementById("resumen").style.display = "none";
+        document.getElementById("texto_resumen").style.display = "none";
+    }
+
+}
+
 </script>
 <link rel="stylesheet" type="text/css" href="css/jquery.autocomplete.css">
 <script type="text/javascript" src="js/jquery.js"></script>
@@ -88,15 +112,21 @@ $().ready(function() {
                 <input type='hidden' id='course_val5' name='proced_' value='<?echo $proced_;?>' size='8' maxlength='8'>                
             </td>
             <td align="left"><input type="text" id='course5' class='texto' name="descproc" value="<?echo $descproc;?>" size="100" maxlength="70"></td>
-        </tr>
+        </tr>        
     </table>
+    <div>
+        <br><input type="checkbox" name="fin_historia" id="fin_historia" onclick="activar_resumen()"> Finalizar Terapias (Cerrar la historia de terapia)
+        <p class="oculto" id="texto_resumen">Resumen de la atención:</p>
+        <br><textarea id="resumen" name="resumen" cols="200" rows="4" class="oculto"></textarea>
+    </div>
+    <br>
     
     <!--<input type="hidden" name="controlva" value="0">
     <input type="hidden" name="controlviene" value="0">-->
     <table border="0" width="50%">
         <tr>
             <td><a href="#" onclick="validar()">Guardar</a></td>
-            <td><a href="ter_citados.php" target='fr02'>Finalizar</a></td>
+            <td><a href="ter_citados.php" target='fr02'>Salir</a></td>
         </tr>
     </table>
 </form>
@@ -148,7 +178,7 @@ $().ready(function() {
 </script>
 
 <?php
-//$terapias_abiertas=1;
+
 if($terapias_abiertas==0){
     
     ?>

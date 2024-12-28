@@ -306,7 +306,7 @@ $().ready(function() {
     <table border="0" width="50%">
         <tr>
             <td><a href="#" onclick="validar()">Guardar</a></td>
-            <td><a href="ter_citados.php" target='fr02'>Finalizar</a></td>
+            <td><a href="ter_citados.php" target='fr02'>Salir</a></td>
         </tr>
     </table>
 </form>
