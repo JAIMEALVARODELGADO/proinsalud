@@ -133,7 +133,7 @@ $().ready(function() {
 
 <!--<button id="myBtn">Abrir Ventana</button>-->
 <!-- La ventana emergente -->
-<div id="myModal" class="modal">
+<div id="modalRetornar" class="modal">
     <div class="modal-content">
         <span class="close">&times;</span>
         <p>El usuario no tiene una hitoria de terapia de primera vez abierta</p>
@@ -151,7 +151,7 @@ $().ready(function() {
 
 <script lang='JavaScript'>
     // Obtener el modal
-    var modal = document.getElementById("myModal");
+    var modal = document.getElementById("modalRetornar");
 
     // Obtener el botón que abre el modal
     var btn = document.getElementById("myBtn");

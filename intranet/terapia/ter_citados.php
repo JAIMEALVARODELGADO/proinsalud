@@ -9,12 +9,44 @@ session_start();
     <!--meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />-->
     <title>Citados de Terapia Fisica</title>
 <script languaje="javascript">
-function inasistencia(idcita){
-    if(confirm("Desea Marcar Inasistencia?")){
-        window.location.href="ter_inasistencia.php?iden_cita="+idcita;
+
+idcita=0;
+function inasistencia(cita,inasistencias_){
+    //alert(inasistencias_);
+    idcita=cita;
+    if(inasistencias_>1){        
+        modalCerrarHistoria.style.display = "block";
     }
-    retrun(false);
+    else{
+        if(confirm("Desea Marcar Inasistencia?")){
+            window.location.href="ter_inasistencia.php?iden_cita="+idcita;
+        }
+    }
+    
+    return(false);
 }
+
+function cerrar(){    
+    modalCerrarHistoria.style.display = "none";
+}
+
+function confirmar_Inasistencia(tipo_inasistencia){
+    //tipo_inasistencia:
+    //1=Confirmar Inasistencia sin cerrar historia
+    //2=Confirmar Inasistencia y cerrar historia
+    if(tipo_inasistencia===2 && document.getElementById("resumen").value===""){
+        alert("Debe digitar el resumen o justificación de cierre de la historia");
+    }
+    else{        
+        //alert(idcita);
+        //alert(tipo_inasistencia);
+        resumen = document.getElementById("resumen").value;
+        window.location.href="ter_inasistencia.php?iden_cita="+idcita+"&&tipo_inasistencia="+tipo_inasistencia+"&&resumen="+resumen;
+        //window.location.href="ter_inasistencia.php?iden_cita="+idcita;
+    }    
+    return false;
+}
+
 
 </script>
 
@@ -36,10 +68,28 @@ include('php/funciones.php');
         <th>Estado</th>
         <?php
         $hoy=cambiafecha(hoy());
-        $hoy='2024-10-15';
-        $consulta="SELECT cit.id_cita,hor.fecha_horario,hor.hora_horario,
+        $hoy='2024-10-17';
+        /*$consulta="SELECT cit.id_cita,hor.fecha_horario,hor.hora_horario,
             usu.codi_usu,usu.nrod_usu,CONCAT(pnom_usu,' ',snom_usu,' ',pape_usu,' ',sape_usu) as nombre,
             con.neps_con,descrip_estaci
+            FROM horarios AS hor
+            INNER JOIN (citas AS cit INNER JOIN esta_cita ON cod_estaci=cit.esta_cita)            
+            ON cit.id_horario=hor.id_horario
+            INNER JOIN usuario AS usu ON usu.codi_usu=cit.idusu_citas
+            INNER JOIN contrato AS con ON con.codi_con=cit.cotra_citas
+            WHERE cit.esta_cita='1' and hor.fecha_horario='$hoy' and cmed_horario='$_SESSION[ter_codmedi_cit]' and cserv_horario='$_SESSION[ter_area]'";*/
+
+            $consulta="SELECT cit.id_cita,hor.fecha_horario,hor.hora_horario,
+            usu.codi_usu,usu.nrod_usu,CONCAT(pnom_usu,' ',snom_usu,' ',pape_usu,' ',sape_usu) as nombre,
+            con.neps_con,descrip_estaci,
+            (
+            SELECT COUNT(*) 
+            FROM TER_HISTORIA AS th
+            INNER JOIN citas c  ON c.Idusu_citas = th.codi_usu 
+            INNER JOIN horarios h ON h.ID_horario = c.ID_horario  
+            WHERE th.esta_this = 'A' AND codi_usu =usu.codi_usu AND c.Esta_cita ='4' AND h.Cserv_horario ='$_SESSION[ter_area]' 
+            AND th.fecha_this >= h.Fecha_horario
+            ) AS inasistencias
             FROM horarios AS hor
             INNER JOIN (citas AS cit INNER JOIN esta_cita ON cod_estaci=cit.esta_cita)            
             ON cit.id_horario=hor.id_horario
@@ -53,7 +103,7 @@ include('php/funciones.php');
             while($row=mysql_fetch_array($consulta)){
                 echo "<tr>";
                 echo "<td align='center'><a href='ter_frmterfisica.php?idcita=$row[id_cita]&codiusu=$row[codi_usu]' title='Consultar'><img src='img/ir.jpg' width='20' height='20' alt='Consultar'></a></td>";
-                echo "<td align='center'><a href='#' onclick='inasistencia($row[id_cita])'><img src='img/stop.jpg' width='20' height='20' alt='Inasistencia'></a></td>";
+                echo "<td align='center'><a href='#' onclick='inasistencia($row[id_cita],$row[inasistencias])'><img src='img/stop.jpg' width='20' height='20' title='Inasistencia'></a></td>";
                 echo "<td>$row[nrod_usu]</td>";
                 echo "<td>$row[nombre]</td>";
                 echo "<td>$row[neps_con]</td>";
@@ -91,5 +141,22 @@ include('php/funciones.php');
         ?>
     </table>
 </form>
+
+<div id="modalCerrarHistoria" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>El usuario ya ha perdido mas de una cita</p>
+        <p>Debe cerrar la historia</p>
+        <p>Resumen o Justificación del cierre de la historia:</p>
+        <textarea id="resumen" name="resumen" cols="200" rows="4"></textarea>
+        <center>
+        <a class="btn" href="#" onclick="confirmar_Inasistencia(1)">Confirmar Inasistencia sin cerrar historia</a>
+        <a class="btn" href="#" onclick="confirmar_Inasistencia(2)">Confirmar Inasistencia y cerrar historia</a>
+        <a class="btn" href="#" onclick="cerrar()">Cerrar</a>
+        </center>        
+    </div>
+</div>
+
+
 </body>
 </html>
