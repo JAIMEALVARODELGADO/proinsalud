@@ -68,7 +68,8 @@ include('php/funciones.php');
         <th>Estado</th>
         <?php
         $hoy=cambiafecha(hoy());
-        $hoy='2024-10-17';
+        //$hoy='2024-10-17';
+        $hoy='2025-01-07';
         /*$consulta="SELECT cit.id_cita,hor.fecha_horario,hor.hora_horario,
             usu.codi_usu,usu.nrod_usu,CONCAT(pnom_usu,' ',snom_usu,' ',pape_usu,' ',sape_usu) as nombre,
             con.neps_con,descrip_estaci
