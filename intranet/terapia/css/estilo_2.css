@@ -163,7 +163,7 @@ table.table1{
 	padding:.3em .4em;
 	font-style: normal;    
 	border-collapse:collapse;
-	border: 1px solid #999;
+	border: 1px solid #999;  
 }
 table.table1 th{
 	font-size: .9em; 
@@ -234,4 +234,25 @@ table.table1 td{
 
 .oculto{  
   display: none;
+}
+
+.btnmenu{
+  background-color: #266a67; /* Color azul */
+  color: white; /* Texto blanco */
+  border: none; /* Sin borde */
+  padding: 5px; /* Espaciado interno */
+  text-align: center; /* Alineación del texto */
+  text-decoration: none; /* Sin subrayado */
+  display: inline-block; /* Mostrar en línea */
+  font-size: 14px; /* Tamaño de la fuente */
+  margin: 4px 2px; /* Margen */
+  cursor: pointer; /* Cursor de mano */
+  border-radius: 7px; /* Bordes redondeados */
+  transition-duration: 0.4s; /* Duración de la transición */
+  width: 150px;
+}
+
+.btnmenu:hover {
+  background-color: #1e403e ; /* Color azul más oscuro al pasar el ratón */
+  color: white; /* Texto blanco */
 }

@@ -125,8 +125,8 @@ $().ready(function() {
     <input type="hidden" name="controlviene" value="0">-->
     <table border="0" width="50%">
         <tr>
-            <td><a href="#" onclick="validar()">Guardar</a></td>
-            <td><a href="ter_citados.php" target='fr02'>Salir</a></td>
+            <td><a href="#" onclick="validar()" class='btn'>Guardar</a></td>
+            <td><a href="ter_citados.php" target='fr02' class='btn'>Salir</a></td>
         </tr>
     </table>
 </form>

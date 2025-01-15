@@ -37,11 +37,18 @@ function validar(){
     document.form1.submit();
 }
 
-function recargar(){
-    //form1.controlva.value=1;
-    //form1.controlviene.value=1;
-    document.form1.action='ter_cap_terfisica.php';
-    form1.submit();
+function recargar(){    
+    //document.form1.action='ter_cap_terfisica.php';
+    //form1.submit();
+}
+
+function cerrar(){    
+    modalInfo.style.display = "none";
+}
+
+function confirmar(){
+    //alert("Siiiii");
+    modalInfo.style.display = "block";
 }
 </script>
 
@@ -94,6 +101,18 @@ $().ready(function() {
 	$("#course4").result(function(event, data, formatted) {
 		$("#course_val4").val(data[1]);
 	});	
+
+    $("#course5").autocomplete("ter_autocompcup.php", {
+		width: 460,
+		matchContains: true,
+		mustMatch: true,
+		selectFirst: false
+	});
+	
+	$("#course5").result(function(event, data, formatted) {
+		$("#course_val5").val(data[1]);
+        $("#course_val6").val(data[2]);
+	});	
 });
 </script>
 
@@ -107,6 +126,11 @@ $().ready(function() {
     <center><h3><font color='#A60C63'>CONSULTA DE TERAPIA FISICA</font></h3></center>
     <?php
     include('datos_usu.php');
+
+    $consultater="SELECT iden_this FROM ter_historia WHERE codi_usu='$codi_usu' and esta_this='A'";
+    //echo $consultater;
+    $consultater=mysql_query($consultater);
+    $terapias_abiertas = mysql_num_rows($consultater);    
     ?>
     
     <table border="0" width='100%'>
@@ -141,37 +165,39 @@ $().ready(function() {
             </td>
         </tr>
     </table>
+    
     <table border="0" width='100%'>
         <tr>
             <td align="left" colspan="5">Impresión Diagnóstica:</td>
         </tr>
         <tr>
-            <td align="right">1</td>
-            <td align="left"><input type='text' id='course_val' name='dxprinc_' value='<?echo $dxprinc_;?>' size='4' maxlength='4' onblur="recargar()"></td>
-            <td align="left"><input type="text" id='course' class='texto' name="descdxpr" value="<?echo $descdxpr;?>" size="100" maxlength="70"></td>
-            <td align="right">Tipo:</td>
-            <td align="left"><select name="tpdxpr_">
+            <td align="right" width="2%">1</td>
+            <td align="left" width="8%"><input type='text' id='course_val' name='dxprinc_' value='<?echo $dxprinc_;?>' size='4' maxlength='4' onblur="recargar()"></td>
+            <td align="left" width="55%"><input type="text" id='course' class='texto' name="descdxpr" value="<?echo $descdxpr;?>" size="70" maxlength="70"></td>
+            <td align="right" width="5%">Tipo:</td>
+            <td align="left" width="30%">
+                <select name="tpdxpr_">
                     <option value=""></option>
                     <option value="1">Impresión Diagnóstica</option>
                     <option value="2">Confirmado Nuevo</option>
                     <option value="3">Confirmado Repetido</option>
                 </select>
             </td>
-        </tr>
+        </tr>    
         <tr>
             <td align="right">2</td>
             <td align="left"><input type='text' id='course_val2' name='dxrel1_' value='<?echo $dxrel1_;?>' size='4' maxlength='4' onblur="recargar()"></td>
-            <td align="left"><input type="text" id='course2' class='texto' name="descdxr1" value="<?echo $descdxr1;?>" size="100" maxlength="70"></td>
+            <td align="left"><input type="text" id='course2' class='texto' name="descdxr1" value="<?echo $descdxr1;?>" size="70" maxlength="70"></td>
         </tr>
         <tr>
             <td align="right">3</td>
             <td align="left"><input type='text' id='course_val3' name='dxrel2_' value='<?echo $dxrel2_;?>' size='4' maxlength='4' onblur="recargar()"></td>
-            <td align="left"><input type="text" id='course3' class='texto' name="descdxr2" value="<?echo $descdxr2;?>" size="100" maxlength="70"></td>
+            <td align="left"><input type="text" id='course3' class='texto' name="descdxr2" value="<?echo $descdxr2;?>" size="70" maxlength="70"></td>
         </tr>
         <tr>
             <td align="right">4</td>
             <td align="left"><input type='text' id='course_val4' name='dxrel3_' value='<?echo $dxrel3_;?>' size='4' maxlength='4' onblur="recargar()"></td>
-            <td align="left"><input type="text" id='course4' class='texto' name="descdxr3" value="<?echo $descdxr3;?>" size="100" maxlength="70"></td>
+            <td align="left"><input type="text" id='course4' class='texto' name="descdxr3" value="<?echo $descdxr3;?>" size="70" maxlength="70"></td>
         </tr>
     </table>
     <table border="0" width='100%'>
@@ -199,8 +225,16 @@ $().ready(function() {
                 </select>
             </td>
         </tr>
+        <tr>
+            <td align="right">Código CUPS</td>
+            <td align="left" colspan="3">
+                <input type='hidden' id='course_val5' name='proced_' value='<?echo $proced_;?>' size='8' maxlength='8'>
+                <input type="text" id='course5' class='texto' name="codigocups_" value="<?echo $descproc;?>" size="100" maxlength="70">
+            </td>            
+        </tr>
     </table>
-    <table border="1">
+    <br>
+    <table class="table1">
         <tr>
             <td align="left" colspan="4">Conducta</td>
         </tr>
@@ -305,15 +339,32 @@ $().ready(function() {
     <input type="hidden" name="controlviene" value="0">-->
     <table border="0" width="50%">
         <tr>
-            <td><a href="#" onclick="validar()">Guardar</a></td>
-            <td><a href="ter_citados.php" target='fr02'>Salir</a></td>
+            <td><a href="#" onclick="validar()" class='btn'>Guardar</a></td>
+            <td><a href="ter_citados.php" target='fr02' class='btn'>Salir</a></td>
         </tr>
     </table>
 </form>
+
+<div id="modalInfo" class="modal">
+    <div class="modal-content">
+        <!--<span class="close">&times;</span>-->
+        <p>El usuario ya ha tiene una o más hitorias abiertas</p>
+        <p>Si desea crear una nueva historia de primera vez, pulse el botón Nueva Historia</p>
+        <p>Si desea realizar la historia de control, pulse el botón Historia de Control</p>
+        <p>Si desea regresar a la lista de pacientes, pulse el botón Cerrar</p>
+        <center>
+        <a class="btn" title="Continúa con la creación de la historia de primera vez" href="#" onclick="cerrar()">Nueva Historia</a>
+        <a class="btn" title="Ir a la historia de control" href="ter_cap_controltf.php">Historia de Control</a>
+        <a class="btn" title="Ir a la lista de pacientes" href="ter_citados.php" target='fr02'" onclick="cerrar()">Cerrar</a>
+        </center>        
+    </div>
+</div>
+
+
 </body>
 </html>
 
-<?
+<?php
 function buscacie($codi_){
     $consultacie_=mysql_query("SELECT nom_cie10 FROM cie_10 WHERE cod_cie10='$codi_'");
     if(mysql_num_rows($consultacie_)<>0){
@@ -323,4 +374,39 @@ function buscacie($codi_){
     ///mysql_free_result($consultacie_);
     return($desc_);
 }
+
+if($terapias_abiertas>0){
+    ?>
+        <script>confirmar();</script>
+    <?php
+}
 ?>
+
+<script lang='JavaScript'>    
+    // Obtener el modal
+    var modal = document.getElementById("modalInfo");
+    //modal.style.display = "block";
+
+    // Obtener el botón que abre el modal
+    //var btn = document.getElementById("myBtn");
+
+    // Obtener el elemento <span> que cierra el modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // Cuando el usuario hace clic en el botón, abre el modal
+    /*btn.onclick = function() {    
+        modal.style.display = "block";
+    }*/
+
+    // Cuando el usuario hace clic en <span> (x), cierra el modal
+    /*span.onclick = function() {
+        modal.style.display = "none";
+    }*/
+
+    // Cuando el usuario hace clic fuera del modal, lo cierra
+    /*window.onclick = function(event) {        
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }*/
+</script>

@@ -58,18 +58,20 @@ include('php/funciones.php');
 ?>
 <form name="form1" method="post" action="ter_control.php">
     <center><h3><font color='#A60C63'>PACIENTES CITADOS</font></h3></center>
-    <table border="1">
+    <table border="1" class="table1">
         <th colspan="2">Opciones</th>
         <th>Identificación</th>
         <th>Nombre</th>
+        <th>Area</th>
         <th>Contrato</th>
         <th>Fecha</th>
         <th>Hora</th>
         <th>Estado</th>
         <?php
         $hoy=cambiafecha(hoy());
-        //$hoy='2024-10-17';
-        $hoy='2025-01-07';
+        //$hoy='2024-10-11';
+        $hoy='2024-10-22';
+        //$hoy='2025-01-07';
         /*$consulta="SELECT cit.id_cita,hor.fecha_horario,hor.hora_horario,
             usu.codi_usu,usu.nrod_usu,CONCAT(pnom_usu,' ',snom_usu,' ',pape_usu,' ',sape_usu) as nombre,
             con.neps_con,descrip_estaci
@@ -90,15 +92,17 @@ include('php/funciones.php');
             INNER JOIN horarios h ON h.ID_horario = c.ID_horario  
             WHERE th.esta_this = 'A' AND codi_usu =usu.codi_usu AND c.Esta_cita ='4' AND h.Cserv_horario ='$_SESSION[ter_area]' 
             AND th.fecha_this >= h.Fecha_horario
-            ) AS inasistencias
+            ) AS inasistencias,
+            a.nom_areas 
             FROM horarios AS hor
             INNER JOIN (citas AS cit INNER JOIN esta_cita ON cod_estaci=cit.esta_cita)            
             ON cit.id_horario=hor.id_horario
             INNER JOIN usuario AS usu ON usu.codi_usu=cit.idusu_citas
             INNER JOIN contrato AS con ON con.codi_con=cit.cotra_citas
+            INNER JOIN areas a ON a.cod_areas = hor.Cserv_horario
             WHERE cit.esta_cita='1' and hor.fecha_horario='$hoy' and cmed_horario='$_SESSION[ter_codmedi_cit]' and cserv_horario='$_SESSION[ter_area]'";
         
-        //echo $consulta;
+        echo $consulta;
         $consulta=mysql_query($consulta);
         if(mysql_num_rows($consulta)<>0){
             while($row=mysql_fetch_array($consulta)){
@@ -107,6 +111,7 @@ include('php/funciones.php');
                 echo "<td align='center'><a href='#' onclick='inasistencia($row[id_cita],$row[inasistencias])'><img src='img/stop.jpg' width='20' height='20' title='Inasistencia'></a></td>";
                 echo "<td>$row[nrod_usu]</td>";
                 echo "<td>$row[nombre]</td>";
+                echo "<td>$row[nom_areas]</td>";
                 echo "<td>$row[neps_con]</td>";
                 echo "<td>$row[fecha_horario]</td>";
                 echo "<td>".SUBSTR($row[hora_horario],11,5)."</td>";

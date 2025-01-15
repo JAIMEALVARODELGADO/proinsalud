@@ -4,6 +4,7 @@ include('php/conexion.php');
 ?>
 <html>
 <head>
+    <link rel="stylesheet" href="css/estilo_2.css">
 </head>
 <body bgcolor="#AAC1E9">
 <br>
@@ -29,16 +30,11 @@ $consultaopc=mysql_query($consultaopc);
 echo "<table>";
 while($rowopc=mysql_fetch_array($consultaopc)){
     echo "<tr>";
-    echo "<td style=font-size:14><img><a href='$rowopc[url_men]' target='fr04'>$rowopc[descr_men]</a><td>";
-    echo "</tr>";
+    echo "<td style=font-size:14><img><a href='$rowopc[url_men]' target='fr04' class='btnmenu'>$rowopc[descr_men]</a><td>";
+    echo "</tr>";    
 }
-echo "</table>";
-    /*echo "<br><a href='ter_cap_terfisica.php' target='fr04'>1.- Primera vez T.Física</a>";
-    echo "<br><a href='ter_cap_controltf.php' target='fr04'>2.- Control T.Fisica</a>";
-    echo "<br><a href='ter_cap_terrespirat.php' target='fr04'>3.- T. Respiratoria</a>";
-    echo "<br><br><a href='ter_muestratf.php' target='fr04'>4.- Historial de Terapia Fisica</a>";
-    echo "<br><a href='ter_muestratr.php' target='fr04'>5.- Historial de Terapia Respiratoria</a>";*/
+echo "</table>";    
 ?>        
-<br><br><br><a href='ter_citados.php' target='fr02'>Listado de Pacientes</a>
+<br><br><br><a href='ter_citados.php' target='fr02' class='btnmenu'>Listado de Pacientes</a>
 </body>
 </html>
