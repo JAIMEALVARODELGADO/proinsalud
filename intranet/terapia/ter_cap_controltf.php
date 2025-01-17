@@ -17,7 +17,10 @@ function validar(){
     error='';
     if(document.form1.evolu_.value==''){error+="Evolución\n";}
     if(document.form1.obser_.value==''){error+="Observación\n";}
-    if(document.form1.proced_.value==''){error+="Procedimiento\n";}    
+    if(document.form1.proced_.value==''){error+="Procedimiento\n";}
+    if(document.getElementById("iden_this").value===''){
+        error+="Debe seleccionar la historia de primera vez a la que pertenece el control\n";
+    }
     if(document.getElementById("fin_historia").checked === true && document.getElementById("resumen").value === ""){
         error+="Resumen de la historia \n";
     }
@@ -33,6 +36,7 @@ function validar(){
     if(document.getElementById("fin_historia").checked === false && document.getElementById("resumen").value !== ""){
         document.getElementById("resumen").value="";
     }
+    
     document.form1.submit();
 }
 
@@ -50,6 +54,10 @@ function activar_resumen(){
 
 }
 
+function seleccionar(id){
+    //alert(id);    
+    document.getElementById("iden_this").value=id;;
+}
 </script>
 <link rel="stylesheet" type="text/css" href="css/jquery.autocomplete.css">
 <script type="text/javascript" src="js/jquery.js"></script>
@@ -81,13 +89,50 @@ $().ready(function() {
     include('datos_usu.php');    
 
     //echo "Codigo usuario".$codi_usu;
-    $consultater="SELECT iden_this FROM ter_historia WHERE codi_usu='$codi_usu' and esta_this='A'";
+    $consultater="SELECT th.iden_this, th.fecha_this,th.enfact_this,th.dxprinc_this ,th.numero_orden_this,
+    d.nomb_des AS servicio_remitente,c.nom_cie10
+    FROM ter_historia th 
+    INNER JOIN cie_10 c ON c.cod_cie10 =th.dxprinc_this 
+    INNER JOIN destipos d ON d.codi_des = th.servrem_this 
+    WHERE codi_usu='$codi_usu' and esta_this='A'";    
     //echo $consultater;
+    
     $consultater=mysql_query($consultater);
     $terapias_abiertas = mysql_num_rows($consultater);
     
     ?>
-
+    <br><br>
+    <div>
+        
+        <table class='table1'>
+            <tr>
+                <th colspan='6'>HISTORIAS ABIERTAS</th>
+            </tr>
+            <tr>
+                <th>Sel</th>
+                <th>F.Apertura</th>
+                <th>Servicio Remitente</th>
+                <th>Diagnóstico</th>
+                <th>Enfermedad Actual</th>
+                <th>Orden</th>
+            </tr>
+            <?php
+                while($rowter = mysql_fetch_array($consultater)){                    
+                    echo "<tr>";                    
+                    echo "<td><input type='radio' id='sel_terapia' name='sel_terapia' onclick='seleccionar($rowter[iden_this])'></td>";
+                    echo "<td>$rowter[fecha_this]</td>";
+                    echo "<td>$rowter[servicio_remitente]</td>";
+                    echo "<td>$rowter[nom_cie10]</td>";
+                    echo "<td>$rowter[enfact_this]</td>";                    
+                    echo "<td>$rowter[numero_orden_this]</td>";
+                    echo "</tr>";
+                }
+            ?>
+            
+        </table>
+        <input type="hidden" name="iden_this" id="iden_this">
+    </div>
+    <br><br>
     <table border="0" width='100%'>
         <tr>
             <td align="right">Evolución:</td>
@@ -160,9 +205,9 @@ $().ready(function() {
     var span = document.getElementsByClassName("close")[0];
 
     // Cuando el usuario hace clic en el botón, abre el modal
-    btn.onclick = function() {    
+    /*btn.onclick = function() {    
         modal.style.display = "block";
-    }
+    }*/
 
     // Cuando el usuario hace clic en <span> (x), cierra el modal
     span.onclick = function() {

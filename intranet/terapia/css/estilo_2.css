@@ -166,10 +166,11 @@ table.table1{
 	border: 1px solid #999;  
 }
 table.table1 th{
-	font-size: .9em; 
+	font-size: .9em;
 	color: #000000;
 	padding:.3em .4em;
-	font-weight: bold;
+	/*font-weight: bold;*/
+  background-color:#9ba6a8;
 	border: 1px solid #999;
 }
 table.table1 td{

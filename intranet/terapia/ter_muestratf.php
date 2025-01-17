@@ -12,7 +12,7 @@ session_start();
 <body>
 <form name="form1" method="post" action="">
     <center><h3><font color='#A60C63'>HISTORIAL DE TERAPIA FISICA</font></h3></center>
-    <table border="1" bordercolor="#">
+    <table class="table1">
     <th>Opciones</th>
     <th>Fecha</th>
     <th>Remite</th>

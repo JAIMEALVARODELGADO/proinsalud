@@ -102,7 +102,7 @@ include('php/funciones.php');
             INNER JOIN areas a ON a.cod_areas = hor.Cserv_horario
             WHERE cit.esta_cita='1' and hor.fecha_horario='$hoy' and cmed_horario='$_SESSION[ter_codmedi_cit]' and cserv_horario='$_SESSION[ter_area]'";
         
-        echo $consulta;
+        //echo $consulta;
         $consulta=mysql_query($consulta);
         if(mysql_num_rows($consulta)<>0){
             while($row=mysql_fetch_array($consulta)){
