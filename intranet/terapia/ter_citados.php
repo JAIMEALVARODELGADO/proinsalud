@@ -147,6 +147,9 @@ include('php/funciones.php');
         ?>
     </table>
 </form>
+<div class="right">    
+    <a href="ter_frminformes.php" class="btnmenu">Informes</a>    
+</div>
 
 <div id="modalCerrarHistoria" class="modal">
     <div class="modal-content">

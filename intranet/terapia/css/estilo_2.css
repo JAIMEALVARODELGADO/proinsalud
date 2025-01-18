@@ -257,3 +257,8 @@ table.table1 td{
   background-color: #1e403e ; /* Color azul más oscuro al pasar el ratón */
   color: white; /* Texto blanco */
 }
+
+.right{  
+  padding: 10px 120px;
+  text-align: right;
+}
