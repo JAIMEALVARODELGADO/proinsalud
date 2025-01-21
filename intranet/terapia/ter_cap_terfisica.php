@@ -30,6 +30,7 @@ function validar(){
     if(document.form1.cexter_.value==''){error+="Causa Externa\n";}
     if(document.form1.ambit_.value==''){error+="Ambito\n";}
     if(document.form1.sesion_.value==''){error+="Numero de Sesiones\n";}
+    if(document.form1.tipoterapia_.value==''){error+="Tipo de Terapia\n";}    
     if(error!=''){
         alert("Para continuar debe completar la siguiente información\n"+error);
         return(false);
@@ -101,18 +102,7 @@ $().ready(function() {
 	$("#course4").result(function(event, data, formatted) {
 		$("#course_val4").val(data[1]);
 	});	
-
-    $("#course5").autocomplete("ter_autocompcup.php", {
-		width: 460,
-		matchContains: true,
-		mustMatch: true,
-		selectFirst: false
-	});
-	
-	$("#course5").result(function(event, data, formatted) {
-		$("#course_val5").val(data[1]);
-        $("#course_val6").val(data[2]);
-	});	
+    	
 });
 </script>
 
@@ -142,7 +132,7 @@ $().ready(function() {
             <td align="right">Del Servicio:</td>
             <td align="left"><select name="servrem_">
                     <option value=""></option>
-                    <?
+                    <?php
                     $consulta="SELECT codi_des,nomb_des FROM destipos WHERE codt_des='06' ORDER BY nomb_des";
                     $consulta=mysql_query($consulta);
                     while($row=mysql_fetch_array($consulta)){
@@ -226,11 +216,19 @@ $().ready(function() {
             </td>
         </tr>
         <tr>
-            <td align="right">Código CUPS</td>
-            <td align="left" colspan="3">
-                <input type='hidden' id='course_val5' name='proced_' value='<?echo $proced_;?>' size='8' maxlength='8'>
-                <input type="text" id='course5' class='texto' name="codigocups_" value="<?echo $descproc;?>" size="100" maxlength="70">
-            </td>            
+            <td align="right">Tipo de terapia</td>            
+            <td align="left">
+                <select name="tipoterapia_">
+                    <option value=""></option>
+                    <?php
+                        $consulta="SELECT codi_des,nomb_des FROM destipos WHERE codt_des='HC' ORDER BY nomb_des";
+                        $consulta=mysql_query($consulta);
+                        while($row=mysql_fetch_array($consulta)){
+                            echo "<option value='$row[codi_des]'>$row[nomb_des]</option>";
+                        }
+                    ?>
+                </select>
+            </td>
         </tr>
     </table>
     <br>
