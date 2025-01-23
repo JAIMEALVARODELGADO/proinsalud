@@ -1,10 +1,3 @@
-<?php
-//session_start();
-//session_register('serv_fac');
-//session_register('esta_fac');
-//session_register('fecha_ini');
-//session_register('fecha_fin');
-?>
 <html>
 <head>
     <title>TERAPIA</title>
@@ -21,32 +14,34 @@
         form1.submit();}  
     }
     </script>
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/estilo_2.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body lang=ES  style='tab-interval:35.4pt'  >
 <form name="form1" method="POST" action="ter_inf_tf_atendidos.php" target='fr04'>
-<table class="Tbl0"><tr><td class="Td0" align='center'>INFORME DE PACIENTES ATENDIDOS</td></tr></table><br>
+<center>
+<h1>INFORME DE PACIENTES ATENDIDOS</h1>
+</center>
 <?php
 include('php/conexion.php');
 include('php/funciones.php');
 ?>
-<center><table class="Tbl0" border='0'>
+<center><table class="table2" border='0'>
 	<tr>
-	  <td class="Td2" align='right'><b>Fecha Inicial:</td>
-	  <td class="Td2" align='left'><input type='text' name='fechaini' size='10' maxlength='10' value='<?echo hoy();?>'></td>
-	  <td class="Td2" align='right'><b>Contrato:</td>
-	  <td class="Td2" align='left'> 
+	  <td align='right'><b>Fecha Inicial:</td>
+	  <td align='left'><input type='text' name='fechaini' size='10' maxlength='10' value='<?echo hoy();?>'></td>
+	  <td align='right'><b>Contrato:</td>
+	  <td align='left'> 
 	  <select name='contra'><option value=''>
 	  <?php
-	    $consultacon=mysql_query("SELECT con.codi_con,con.neps_con FROM contrato AS con WHERE esta_con='A' ORDER BY con.neps_con");
+	    $consultacon=mysql_query("SELECT con.codi_con,con.neps_con FROM contrato AS con ORDER BY con.neps_con");
 		  while($rowcon=mysql_fetch_array($consultacon)){
 		    echo "<option value='$rowcon[codi_con]'>$rowcon[neps_con]";
 		  }
 	  ?>
-	  </select></td>
-	  <td class="Td2" align='left'><a href='#' onclick='validar()' class='btn' title='Buscar'>Buscar<i class="fa-solid fa-magnifying-glass"></i></a></td>
-    <!--<img src='icons/feed_add.png' border='0' alt='Continuar' width='20' height='20'>-->
+	  </select>
+      </td>
+	  <td class="Td2" align='left'><a href='#' onclick='validar()' class='btn' title='Buscar'>Buscar <i class="fa-solid fa-magnifying-glass"></i></a></td>    
 	</tr>
     <tr>
         <td class="Td2" align='right'><b>Fecha Final:</td>

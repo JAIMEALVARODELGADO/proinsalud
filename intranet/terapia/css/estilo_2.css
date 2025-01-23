@@ -158,7 +158,7 @@ input[type="submit"]:active {
   -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
 }
 table.table1{ 
-	font-family: "Trebuchet MS", sans-serif;
+	font-family: Trebuchet MS, sans-serif;
 	line-height: 1.4em; 
 	padding:.3em .4em;
 	font-style: normal;    
@@ -224,7 +224,7 @@ table.table1 td{
   font-size: 16px; /* Tamaño de la fuente */
   margin: 4px 2px; /* Margen */
   cursor: pointer; /* Cursor de mano */
-  border-radius: 12px; /* Bordes redondeados */
+  border-radius: 20px; /* Bordes redondeados */
   transition-duration: 0.4s; /* Duración de la transición */
 }
 
@@ -261,4 +261,34 @@ table.table1 td{
 .right{  
   padding: 10px 120px;
   text-align: right;
+}
+
+h1{
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+}
+
+table.table2{ 
+  width: 100%;
+  font-family: Trebuchet MS, sans-serif;
+  line-height: 1.4em; 
+  padding:.3em .4em;
+  font-style: normal;    
+  border-collapse:collapse;
+  border: none;
+}
+
+table.table2 th{
+	font-size: .8em;
+	color: #000000;
+	padding:.3em .4em;	
+  background-color:#9ba6a8;
+	border: 1px solid #999;
+}
+
+table.table2 td{
+	font-size: .8em;
+	padding:.3em .4em;
+	
 }
