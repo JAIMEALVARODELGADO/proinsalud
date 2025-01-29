@@ -52,7 +52,7 @@ $col_=$col_+177;
 $pdf->SetXY($col_,$fil_);
 $unidad='';
 $edad=calculaedad3($row[fnac_usu],$row[fecha_this],$unidad);
-$pdf->cell(30,5,"EDAD: ".$edad." ".$unidad,1,0,'L');
+$pdf->cell(30,5,utf8_decode("EDAD: ".$edad." ".$unidad),1,0,'L');
 
 $fil_=$fil_+9;
 $col_=5;
@@ -92,11 +92,11 @@ $pdf->MultiCell(207,5,$row[estfis_this],1,'L','J');
 
 $fil_=$pdf->GetY()+6;
 $pdf->SetXY($col_,$fil_);
-$pdf->Cell(125,5,"Impresi髇 Diagn髎tica: ",0,0,'L');
+$pdf->Cell(125,5,utf8_decode("Impresi贸n Diagn贸stica: "),0,0,'L');
 
 $fil_=$fil_+6;
 $pdf->SetXY($col_,$fil_);
-$pdf->cell(12,5,'C骴igo',1,0,'C');
+$pdf->cell(12,5,utf8_decode('C贸digo'),1,0,'C');
 $col_=$col_+12;
 $pdf->cell(150,5,'Nombre',1,0,'C');
 $col_=$col_+150;
@@ -134,7 +134,7 @@ $pdf->SetXY($col_,$fil_);
 $pdf->Cell(125,5,"Conducta: ",0,0,'L');
 $fil_=$fil_+6;
 $pdf->SetXY($col_,$fil_);
-$pdf->cell(65,5,'1. Modalidades F韘icas Convencionales: ',0,0,'L');
+$pdf->cell(65,5,'1. Modalidades F铆sicas Convencionales: ',0,0,'L');
 $col_=$col_+66;
 $pdf->SetXY($col_,$fil_);
 if($row[calhum_this]=='S'){
@@ -143,7 +143,7 @@ else{
     $pdf->cell(4,5,' ',1,0,'L');}
 $col_=$col_+5;
 $pdf->SetXY($col_,$fil_);
-$pdf->cell(25,5,'Calor H鷐edo',0,0,'L');
+$pdf->cell(25,5,'Calor H煤medo',0,0,'L');
 
 $col_=$col_+35;
 $pdf->SetXY($col_,$fil_);
@@ -153,7 +153,7 @@ else{
     $pdf->cell(4,5,' ',1,0,'L');}
 $col_=$col_+5;
 $pdf->SetXY($col_,$fil_);
-$pdf->cell(25,5,'Crioter醦ia',0,0,'L');
+$pdf->cell(25,5,utf8_decode('Crioter谩pia'),0,0,'L');
 
 $col_=$col_+35;
 $pdf->SetXY($col_,$fil_);
@@ -190,7 +190,7 @@ $pdf->cell(5,5,'No',0,0,'L');
 
 $col_=110;
 $pdf->SetXY($col_,$fil_);
-$pdf->cell(65,5,'3. Estimulaci髇 Nerviosa Transcut醤ea: ',0,0,'L');
+$pdf->cell(65,5,utf8_decode('3. Estimulaci贸n Nerviosa Transcut谩nea: '),0,0,'L');
 $col_=$col_+66;
 $pdf->SetXY($col_,$fil_);
 if($row[estrasc_this]=='S'){
@@ -262,7 +262,7 @@ $pdf->cell(5,5,'No',0,0,'L');
 $fil_=$fil_+6;
 $col_=5;
 $pdf->SetXY($col_,$fil_);
-$pdf->Cell(125,5,"T閏nicas Especiales: ",0,0,'L');
+$pdf->Cell(125,5,utf8_decode("T茅cnicas Especiales: "),0,0,'L');
 $fil_=$fil_+6;
 $pdf->SetXY($col_,$fil_);
 $pdf->MultiCell(207,5,$row[tecnic_this],1,'L','J');
@@ -270,7 +270,7 @@ $pdf->MultiCell(207,5,$row[tecnic_this],1,'L','J');
 $fil_=$pdf->GetY()+6;
 $col_=5;
 $pdf->SetXY($col_,$fil_);
-$pdf->Cell(125,5,"N鷐ero de Sesiones: ",0,0,'L');
+$pdf->Cell(125,5,utf8_decode("N煤mero de Sesiones: "),0,0,'L');
 
 $fil_=232;
 
@@ -312,6 +312,7 @@ $consultatc="SELECT tc.fecha_tcon,tc.evolu_tcon,tc.obser_tcon,tc.codmedi_tcon,tc
 FROM ter_control AS tc
 INNER JOIN ter_historia AS his ON his.iden_this=tc.iden_this
 WHERE tc.iden_this='$iden_this' ORDER BY tc.fecha_tcon DESC";
+//echo $consultatc;
 $consultatc=mysql_query($consultatc);
 while($rowtc=mysql_fetch_array($consultatc)){    
     $fil_=increfila($fil_,2,$pdf);

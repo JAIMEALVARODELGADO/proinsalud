@@ -208,9 +208,9 @@ function calculaedad2($fecha_,&$unidad_){
   {
     $edad_=$anos_;
     if($edad_==1){
-      $unidad_="A�o";}
+      $unidad_="Año";}
     else{
-      $unidad_="A�os";}
+      $unidad_="Años";}
   }
   else
   {
@@ -224,9 +224,9 @@ function calculaedad2($fecha_,&$unidad_){
     else{
       $edad_=$dias_;
       if($edad_==1){
-        $unidad_="D�a";}
+        $unidad_="Día";}
       else{
-        $unidad_="D�as";}
+        $unidad_="Días";}
     }
   }
   return($edad_);

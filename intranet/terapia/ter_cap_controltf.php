@@ -90,10 +90,11 @@ $().ready(function() {
 
     //echo "Codigo usuario".$codi_usu;
     $consultater="SELECT th.iden_this, th.fecha_this,th.enfact_this,th.dxprinc_this ,th.numero_orden_this,
-    d.nomb_des AS servicio_remitente,c.nom_cie10
+    d.nomb_des AS servicio_remitente,c.nom_cie10,t.nomb_des tipo_terapia
     FROM ter_historia th 
     INNER JOIN cie_10 c ON c.cod_cie10 =th.dxprinc_this 
-    INNER JOIN destipos d ON d.codi_des = th.servrem_this 
+    INNER JOIN destipos d ON d.codi_des = th.servrem_this
+    LEFT JOIN destipos t on t.codi_des = th.tipoterapia_this     
     WHERE codi_usu='$codi_usu' and esta_this='A'";    
     //echo $consultater;
     
@@ -106,21 +107,24 @@ $().ready(function() {
         
         <table class='table1'>
             <tr>
-                <th colspan='6'>HISTORIAS ABIERTAS</th>
+                <th colspan='7'>HISTORIAS ABIERTAS</th>
             </tr>
             <tr>
                 <th>Sel</th>
-                <th>F.Apertura</th>
+                <th>Fecha Apert</th>
+                <th>Tipo de Terapia</th>
                 <th>Servicio Remitente</th>
                 <th>Diagnóstico</th>
                 <th>Enfermedad Actual</th>
                 <th>Orden</th>
-            </tr>
+            </tr>            
             <?php
                 while($rowter = mysql_fetch_array($consultater)){                    
+                    
                     echo "<tr>";                    
                     echo "<td><input type='radio' id='sel_terapia' name='sel_terapia' onclick='seleccionar($rowter[iden_this])'></td>";
-                    echo "<td>$rowter[fecha_this]</td>";
+                    echo "<td><a href='#' onclick=\"window.open('ter_impretf.php?iden_this=$rowter[iden_this]', 'newwindow', 'width=800,height=600'); return false;\" title='Visualizar Historia'>$rowter[fecha_this]</a></td>";
+                    echo "<td><a href=''>$rowter[tipo_terapia]</a></td>";
                     echo "<td>$rowter[servicio_remitente]</td>";
                     echo "<td>$rowter[nom_cie10]</td>";
                     echo "<td>$rowter[enfact_this]</td>";                    

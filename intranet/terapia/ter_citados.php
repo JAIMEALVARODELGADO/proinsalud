@@ -56,6 +56,10 @@ function confirmar_Inasistencia(tipo_inasistencia){
 include('php/conexion.php');
 include('php/funciones.php');
 ?>
+<div class="right">    
+    <a href="ter_frminformes.php" class="btnmenu">Informes</a>
+    <a href="ter_param_aprobarterapia.php" class="btnmenu">Aprobar</a>
+</div>
 <form name="form1" method="post" action="ter_control.php">
     <center><h3><font color='#A60C63'>PACIENTES CITADOS</font></h3></center>
     <table border="1" class="table1">
@@ -100,7 +104,8 @@ include('php/funciones.php');
             INNER JOIN usuario AS usu ON usu.codi_usu=cit.idusu_citas
             INNER JOIN contrato AS con ON con.codi_con=cit.cotra_citas
             INNER JOIN areas a ON a.cod_areas = hor.Cserv_horario
-            WHERE cit.esta_cita='1' and hor.fecha_horario='$hoy' and cmed_horario='$_SESSION[ter_codmedi_cit]' and cserv_horario='$_SESSION[ter_area]'";
+            WHERE cit.esta_cita='1' and hor.fecha_horario='$hoy' and cmed_horario='$_SESSION[ter_codmedi_cit]' and cserv_horario='$_SESSION[ter_area]'
+            ORDER BY hor.hora_horario";
         
         //echo $consulta;
         $consulta=mysql_query($consulta);
@@ -147,9 +152,7 @@ include('php/funciones.php');
         ?>
     </table>
 </form>
-<div class="right">    
-    <a href="ter_frminformes.php" class="btnmenu">Informes</a>    
-</div>
+
 
 <div id="modalCerrarHistoria" class="modal">
     <div class="modal-content">
