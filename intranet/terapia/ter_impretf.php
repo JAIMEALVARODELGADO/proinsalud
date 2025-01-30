@@ -21,19 +21,31 @@ $pdf->SetFillColor(216,216,216);
 
 //Aqui consulto los datos de la usuaria y de la gestacion actual
 $consulta="SELECT u.nrod_usu,concat(u.pnom_usu,' ',u.snom_usu,' ',u.pape_usu,' ',u.sape_usu) as nombre,u.sexo_usu,u.dire_usu,u.tres_usu,u.mres_usu,u.fnac_usu,u.regi_usu,
-his.fecha_this,his.medrem_this,his.enfact_this,his.estfis_this,his.dxprinc_this,his.tpdxpr_this,his.calhum_this,his.crioter_this,his.contras_this,his.ultraso_this,his.estrasc_this,his.msedat_this,his.mdesco_this,his.pcasero_this,his.tecnic_this,his.sesion_this,his.codmedi_this,
+his.fecha_this,his.medrem_this,his.enfact_this,his.estfis_this,his.dxprinc_this,his.tpdxpr_this,his.calhum_this,his.crioter_this,his.contras_this,his.ultraso_this,his.estrasc_this,his.msedat_this,his.mdesco_this,his.pcasero_this,his.tecnic_this,his.sesion_this,his.codmedi_this,his.numero_orden_this,his.cont_this,his.servrem_this,his.tipoterapia_this,his.codigo_aprobador,
 serv.nomb_des,
-con.neps_con
+con.neps_con,
+tipo.nomb_des AS tipoterapia
 FROM ter_historia AS his
 INNER JOIN usuario AS u ON u.codi_usu=his.codi_usu
 INNER JOIN contrato AS con ON con.codi_con=his.cont_this
 INNER JOIN destipos AS serv ON serv.codi_des=his.servrem_this
+LEFT JOIN destipos AS tipo ON tipo.codi_des=his.tipoterapia_this
 WHERE his.iden_this='$iden_this'";
+//echo $consulta;
 $consulta=mysql_query($consulta);
 $row=mysql_fetch_array($consulta);
 
 $fil_=25;
 $col_=5;
+
+$pdf->SetXY($col_,$fil_);
+$pdf->cell(80,5,"NUMERO DE ORDEN: ".$row[numero_orden_this],1,0,'L');
+$col_=$col_+104;
+$pdf->SetXY($col_,$fil_);
+$pdf->cell(20,5,"TIPO DE TERAPIA: ".$row[tipoterapia],1,0,'L');
+
+$col_=5;
+$fil_=$fil_+9;
 $pdf->SetXY($col_,$fil_);
 $pdf->cell(80,5,"NUMERO DE IDENTIFICACION: ".$row[nrod_usu],1,0,'L');
 
@@ -286,10 +298,15 @@ $fil_=$fil_+15;
 
 
 $medico=trae_medico($row[codmedi_this]);
+$aprobador=trae_medico($row[codigo_aprobador]);
 
 $col_=5;
 $pdf->SetXY($col_,$fil_);
 $pdf->Cell(80,5,$medico,0,0,'L');
+
+$col_=$col_+126;
+$pdf->SetXY($col_,$fil_);
+$pdf->Cell(80,5,$aprobador,0,0,'L');
 
 $fil_=252;
 $col_=5;
@@ -308,7 +325,7 @@ $pdf->Cell(80,5,"Vo.Bo. AUTORIZADO",0,0,'C');
 //*************************************************
 //Aqui consulto la informacion del los controles
 //Aqui consulto los datos de los controles
-$consultatc="SELECT tc.fecha_tcon,tc.evolu_tcon,tc.obser_tcon,tc.codmedi_tcon,tc.proced_tcon
+$consultatc="SELECT tc.fecha_tcon,tc.evolu_tcon,tc.obser_tcon,tc.codmedi_tcon,tc.proced_tcon,tc.resumen_tcon
 FROM ter_control AS tc
 INNER JOIN ter_historia AS his ON his.iden_this=tc.iden_this
 WHERE tc.iden_this='$iden_this' ORDER BY tc.fecha_tcon DESC";
@@ -341,6 +358,18 @@ while($rowtc=mysql_fetch_array($consultatc)){
     $fil_=increfila($fil_,4,$pdf);
     $pdf->SetXY($col_,$fil_);
     $pdf->MultiCell(207,5,$rowtc[obser_tcon],1,'L','J');
+
+    if($rowtc['resumen_tcon']<>""){
+        $fil_=$pdf->GetY();
+        $fil_=increfila($fil_,2,$pdf);
+        $col_=5;
+        $pdf->SetXY($col_,$fil_);
+        $pdf->Cell(125,4,"RESUMEN: ",0,0,'L');
+        $fil_=increfila($fil_,4,$pdf);
+        $pdf->SetXY($col_,$fil_);
+        $pdf->MultiCell(207,5,$rowtc[resumen_tcon],1,'L','J');
+
+    }
 
     $medico=trae_medico($rowtc[codmedi_tcon]);
     $fil_=$pdf->GetY();

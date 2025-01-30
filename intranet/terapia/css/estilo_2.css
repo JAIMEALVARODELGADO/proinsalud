@@ -224,7 +224,7 @@ table.table1 td{
   font-size: 16px; /* Tamaño de la fuente */
   margin: 4px 2px; /* Margen */
   cursor: pointer; /* Cursor de mano */
-  border-radius: 20px; /* Bordes redondeados */
+  border-radius: 7px; /* Bordes redondeados */
   transition-duration: 0.4s; /* Duración de la transición */
 }
 
@@ -306,6 +306,24 @@ table.table2 td{
   width: 40%;
   height: 30%;
   background-color: rgba(3, 48, 85, 0.8);
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.modalControl{
+  text-align: center;
+  font-size: 18px;
+  /*display: none;*/
+  padding: 20px;
+  color: #171616;
+  position: fixed;
+  z-index: 1000;
+  left: 100px;
+  top: 50px;
+  width: 50%;
+  /*height: 30%;*/
+  background-color: rgba(237, 241, 243, 0.885);
   justify-content: center;
   align-items: center;
   border-radius: 15px;
