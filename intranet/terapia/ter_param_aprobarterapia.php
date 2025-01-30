@@ -26,6 +26,7 @@
 include('php/conexion.php');
 include('php/funciones.php');
 ?>
+
 <center><table class="table2" border='0'>
 	<tr>
 	  <td align='right'><b>Fecha Inicial:</td>
@@ -41,18 +42,33 @@ include('php/funciones.php');
 	  ?>
 	  </select>
       </td>
-	  <td class="Td2" align='left'><a href='#' onclick='validar()' class='btn' title='Buscar'>Buscar <i class="fa-solid fa-magnifying-glass"></i></a></td>    
+	  
 	</tr>
     <tr>
         <td class="Td2" align='right'><b>Fecha Final:</td>
 	    <td class="Td2" align='left'><input type='text' name='fechafin' size='10' maxlength='10' value='<?echo hoy();?>'></td>
+        <td class="Td2" align='right'><b>Tipo:</td>
+        <td align='left'> 
+            <select name='tipo_terapia'>
+            <option value=''></option>
+            <?php
+                $consultacon=mysql_query("SELECT d.codi_des,d.nomb_des FROM destipos d WHERE codt_des ='HC' ORDER BY d.nomb_des ");
+                while($rowcon=mysql_fetch_array($consultacon)){
+                    echo "<option value='$rowcon[codi_des]'>$rowcon[nomb_des]</option>";
+                }
+            ?>
+            </select>
+        </td>
         <td class="Td2" align='right'><b>Identificacion:</td>
-	  <td class="Td2" align='left'><input type='text' name='identif' size='13 ' maxlength='20'></td>
+	    <td class="Td2" align='left'><input type='text' name='identif' size='13 ' maxlength='20'></td>
+    </tr>
+    <tr>
+        <td class="Td2" align='center' colspan='4'><a href='#' onclick='validar()' class='btn' title='Buscar'>Buscar <i class="fa-solid fa-magnifying-glass"></i></a></td>
+        <td class="Td2" align='center' colspan='2'><a href="ter_citados.php" class="btnmenu">Regresar</a></td>
     </tr>
 </table></center>
-<div class="right">    
-    <a href="ter_citados.php" class="btnmenu">Regresar</a>    
-</div>
+
+
 </form>
 </body>
 </html>

@@ -58,7 +58,11 @@ include('php/funciones.php');
 ?>
 <div class="right">    
     <a href="ter_frminformes.php" class="btnmenu">Informes</a>
-    <a href="ter_param_aprobarterapia.php" class="btnmenu">Aprobar</a>
+    <?php    
+        if($_SESSION['ter_codmedi_cit']=='14021614'){
+            echo "<a href='ter_param_aprobarterapia.php' class='btnmenu'>Aprobar</a>";
+        }
+    ?>    
 </div>
 <form name="form1" method="post" action="ter_control.php">
     <center><h3><font color='#A60C63'>PACIENTES CITADOS</font></h3></center>

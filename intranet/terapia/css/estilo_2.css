@@ -292,3 +292,21 @@ table.table2 td{
 	padding:.3em .4em;
 	
 }
+
+.modalEspera{
+  text-align: center;
+  font-size: 18px;
+  display: none;
+  padding: 20px;
+  color: #FFFFFF;
+  position: fixed;
+  z-index: 1000;
+  left: 400px;
+  top: 100px;
+  width: 40%;
+  height: 30%;
+  background-color: rgba(3, 48, 85, 0.8);
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
