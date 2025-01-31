@@ -6,22 +6,23 @@ session_start();
 <head>
     <link rel="stylesheet" href="css/estilo_2.css">
     <meta http-equiv="Content-Type" content="text/html; ISO-8859-1"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />    
+    <script src="https://kit.fontawesome.com/6dd475346c.js" crossorigin="anonymous"></script>
     <title>Consulta de Terapia Fisica</title>
     
     <script lang='JavaScript'>
-        function mostrarControl(iden_this){
+        /*function mostrarControl(iden_this){
             alert(iden_this);
             for (var i = 0; i < controlesjs.length; i++) {
                 if (controlesjs[i].iden_this == iden_this) {
                     alert(controlesjs[i].iden_tcon);
                 }
             }
-        }
+        }*/
 
-        function imprimirControl(iden_tcon){
+        /*function imprimirControl(iden_tcon){
             alert(iden_tcon);
-        }
+        }*/
     </script>
 
 </head>
@@ -54,9 +55,9 @@ session_start();
     $consulta=mysql_query($consulta);    
     while($row=mysql_fetch_array($consulta)){
         
-        $control = traeControl($row['iden_this']);
+        /*$control = traeControl($row['iden_this']);
         echo "<br>".$control->iden_tcon;
-        $controles[] = traeControl($row['iden_this']);
+        $controles[] = traeControl($row['iden_this']);*/
 
         
 
@@ -64,8 +65,9 @@ session_start();
         
 
         echo "<tr>";
-        echo "<td align='center'><a href='ter_impretf.php?iden_this=$row[iden_this]' target='new'><img src='img/lupa.jpg' width='20' height='20' alt='Mirar'></a></td>";
-        echo "<td align='center'><a href='#' onclick='mostrarControl($row[iden_this])'>aaa</a></td>";
+        echo "<td align='center'><a href='ter_impretf.php?iden_this=$row[iden_this]' target='new' title='Ver historia completa'><img src='img/lupa.jpg' width='20' height='20' alt='Mirar'></a></td>";
+        //echo "<td align='center'><a href='#' onclick='mostrarControl($row[iden_this])'>aaa</a></td>";
+        echo "<td align='center'><a href='ter_impretf.php?iden_this=$row[iden_this]&ultimocontrol=1' target='new' title='Ver historia con último control'><i class='fa-brands fa-searchengin'></i></a></td>";
         echo "<td align='left'>$row[fecha_this]</td>";
         echo "<td align='left'>$row[nombre]</td>";
         echo "<td align='left'>$row[tipo_terapia]</td>";        
@@ -83,7 +85,7 @@ session_start();
         var controlesjs = <?php echo json_encode($controles); ?>;
     </script>
 </form>
-<div class="modalControl">
+<!--<div class="modalControl">
     <center>
     <h6>CONTROLES DE TERAPIA FISICA</h6>
     <table class="table1">
@@ -103,13 +105,13 @@ session_start();
         ?>
     </table>    
     </center>
-</div>
+</div>-->
 </body>
 </html>
 
 
 <?php
-class TerapiaControl{
+/*class TerapiaControl{
     public $iden_tcon;
     public $iden_this;
     public $fecha_tcon;
@@ -125,12 +127,12 @@ class TerapiaControl{
 
     public function mostrarInfo() {
         return "Nombre: $this->nombre, Edad: $this->edad";
-    }*/
-}
+    }
+}*/
 
 
-function traeControl($id_){
-    //include('php/conexion.php');
+/*function traeControl($id_){
+    
     $consultaControl="SELECT iden_tcon,iden_this,fecha_tcon,codmedi_tcon,resumen_tcon 
     FROM ter_control WHERE iden_this='$id_'";
     //echo $consultaControl;
@@ -143,5 +145,5 @@ function traeControl($id_){
     $terapiaControl->codmedi_tcon = $row['codmedi_tcon'];
     $terapiaControl->resumen_tcon = $row['resumen_tcon'];
     return $terapiaControl;
-}
+}*/
 ?>

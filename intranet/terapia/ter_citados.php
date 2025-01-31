@@ -78,7 +78,7 @@ include('php/funciones.php');
         <?php
         $hoy=cambiafecha(hoy());
         //$hoy='2024-10-11';
-        $hoy='2024-10-22';
+        //$hoy='2024-10-22';
         //$hoy='2025-01-07';
         /*$consulta="SELECT cit.id_cita,hor.fecha_horario,hor.hora_horario,
             usu.codi_usu,usu.nrod_usu,CONCAT(pnom_usu,' ',snom_usu,' ',pape_usu,' ',sape_usu) as nombre,
@@ -111,7 +111,7 @@ include('php/funciones.php');
             WHERE cit.esta_cita='1' and hor.fecha_horario='$hoy' and cmed_horario='$_SESSION[ter_codmedi_cit]' and cserv_horario='$_SESSION[ter_area]'
             ORDER BY hor.hora_horario";
         
-        echo $consulta;
+        //echo $consulta;
         $consulta=mysql_query($consulta);
         if(mysql_num_rows($consulta)<>0){
             while($row=mysql_fetch_array($consulta)){

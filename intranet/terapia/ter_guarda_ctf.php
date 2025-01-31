@@ -9,13 +9,6 @@ $consulta="SELECT idusu_citas,cotra_citas FROM citas WHERE id_cita='$_SESSION[id
 $consulta=mysql_query($consulta);
 $row=mysql_fetch_array($consulta);
 
-//Aqui consulto la historia para tomar la historia inicial
-/*$consultahis="SELECT iden_this FROM ter_historia WHERE codi_usu='$row[idusu_citas]' and esta_this='A'";
-//echo "<br>".$consultahis;
-$consultahis=mysql_query($consultahis);
-$rowhis=mysql_fetch_array($consultahis);*/
-
-
 $fecha_=cambiafecha(hoy());
 
 //echo $fin_historia;
@@ -27,28 +20,28 @@ if($fin_historia=='on'){
     mysql_query($sql_tf);
 }
 
-/*$sql_="INSERT INTO ter_control(iden_tcon,iden_this,evolu_tcon,obser_tcon,codmedi_tcon,proced_tcon,fin_historia_tcon,resumen_tcon)
-VALUES(0,'$rowhis[iden_this]','$evolu_','$obser_','$_SESSION[ter_codmedi]','$proced_','$fin_historia_tcon','$resumen')";*/
-
 $sql_="INSERT INTO ter_control(iden_tcon,iden_this,evolu_tcon,obser_tcon,codmedi_tcon,proced_tcon,fin_historia_tcon,resumen_tcon)
 VALUES(0,'$iden_this','$evolu_','$obser_','$_SESSION[ter_codmedi]','$proced_','$fin_historia_tcon','$resumen')";
 //echo "<br>".$sql_;
 mysql_query($sql_);
 
 $sql_="UPDATE citas SET esta_cita='2' WHERE id_cita='$_SESSION[id_cita]'";
-mysql_query($sql_);
+//mysql_query($sql_);
 ?>
 <html>
 <head>
     <title>Terapia</title>
-<script language="JavaScript">
-    function cargar(){
+    <script language="JavaScript">
+    function cargar(id_){
+        if(confirm("Desea imprimir la historia con el último control?")){
+            var url='ter_impretf.php?iden_this='+id_+'&ultimocontrol=1'
+            window.open(url);
+        }
         window.open('ter_citados.php','fr02');
-        //alert();
     }
 </script>
 </head>
-<body onload='cargar()'>
+<body onload="cargar('<?php echo $iden_this?>')">
 
 </body>
 </html>

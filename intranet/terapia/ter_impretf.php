@@ -2,6 +2,10 @@
 require('fpdf.php');
 include('php/funciones.php');
 include('php/conexion.php');
+$ultimoControl='N';
+if(isset($_GET['ultimocontrol'])){
+    $ultimoControl='S';
+}
 
 $pdf=new FPDF('P','mm','Letter');
 $pdf->AddPage();
@@ -328,7 +332,13 @@ $pdf->Cell(80,5,"Vo.Bo. AUTORIZADO",0,0,'C');
 $consultatc="SELECT tc.fecha_tcon,tc.evolu_tcon,tc.obser_tcon,tc.codmedi_tcon,tc.proced_tcon,tc.resumen_tcon
 FROM ter_control AS tc
 INNER JOIN ter_historia AS his ON his.iden_this=tc.iden_this
-WHERE tc.iden_this='$iden_this' ORDER BY tc.fecha_tcon DESC";
+WHERE tc.iden_this='$iden_this'";
+if($ultimoControl=='S'){
+    $consultatc=$consultatc." AND tc.iden_tcon=(SELECT MAX(tc2.iden_tcon) 
+    FROM ter_control AS tc2 WHERE tc2.iden_this='$iden_this')";
+}
+$consultatc=$consultatc." ORDER BY tc.fecha_tcon";
+
 //echo $consultatc;
 $consultatc=mysql_query($consultatc);
 while($rowtc=mysql_fetch_array($consultatc)){    

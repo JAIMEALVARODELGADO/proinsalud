@@ -72,8 +72,7 @@ $().ready(function() {
 	});
 	
 	$("#course5").result(function(event, data, formatted) {
-		$("#course_val5").val(data[1]);
-        $("#course_val6").val(data[2]);
+		$("#course_val5").val(data[1]);        
 	});	
 });
 </script>
