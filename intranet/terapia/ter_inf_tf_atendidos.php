@@ -10,7 +10,6 @@
     </script>
 </head>
 <body lang=ES>
-<!--<form name="form1" method="POST">-->
 
 <table class="table2" width="100%"><tr><th>INFORME DE PACIENTES ATENDIDOS</th></tr></table><br>
 
@@ -34,7 +33,8 @@ include('php/funciones.php');
         $condicion3=substr($condicion3,0,strlen($condicion3)-5);
 		//echo "<br>".$condicion;
         //Aqui se crea una vista uniendo las consultas de primera vez y las consultas de control
-        $sql_vista="CREATE OR REPLACE VIEW vista_terapia_fisica_informe AS
+        //$sql_vista="CREATE OR REPLACE VIEW vista_terapia_fisica_informe AS
+        $sql_vista="CREATE TEMPORARY TABLE temp_terapia_fisica_informe AS
         SELECT '' AS iden_tcon,th.iden_this ,DATE(th.fecha_this) AS fecha,th.numero_orden_this, 
             u.NROD_USU ,CONCAT(u.PNOM_USU,' ',u.SNOM_USU ,' ',u.PAPE_USU,' ' ,u.SAPE_USU) AS nombre,
             th.cont_this,c.NEPS_CON,
@@ -72,11 +72,14 @@ include('php/funciones.php');
         mysql_query($sql_vista);
 
 
-		$consulta="SELECT fecha,numero_orden_this,NROD_USU,nombre,NEPS_CON,servicio_remitente,nom_cie10,nom_medi,tipo_atencion,tipoterapia_this,tipo_terapia
+		/*$consulta="SELECT fecha,numero_orden_this,NROD_USU,nombre,NEPS_CON,servicio_remitente,nom_cie10,nom_medi,tipo_atencion,tipoterapia_this,tipo_terapia
                 FROM vista_terapia_fisica_informe 
                 WHERE $condicion3
-                ORDER BY fecha";
-
+                ORDER BY fecha";*/
+        $consulta="SELECT fecha,numero_orden_this,NROD_USU,nombre,NEPS_CON,servicio_remitente,nom_cie10,nom_medi,tipo_atencion,tipoterapia_this,tipo_terapia
+        FROM temp_terapia_fisica_informe
+        WHERE $condicion3
+        ORDER BY fecha";        
 		//echo "<br>".$consulta;
 
         $consulta=mysql_query($consulta);
