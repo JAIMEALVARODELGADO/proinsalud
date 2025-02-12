@@ -26,6 +26,7 @@ VALUES(0,'$iden_this','$evolu_','$obser_','$_SESSION[ter_codmedi]','$proced_','$
 mysql_query($sql_);
 
 $sql_="UPDATE citas SET esta_cita='2' WHERE id_cita='$_SESSION[id_cita]'";
+//echo $sql_;
 //mysql_query($sql_);
 ?>
 <html>

@@ -267,15 +267,8 @@ $().ready(function() {
         </tr>
         <tr>
             <td align="right">Número de Sesiones:</td>
-            <td align="left"><select name="sesion_">
-                    <option value=""></option>
-                    <option value="1">Sesión Unica</option>
-                    <option value="3">3</option>
-                    <option value="5">5</option>
-                    <option value="10">10</option>
-                    <option value="15">15</option>
-                    <option value="20">20</option>
-                </select>
+            <td align="left">
+                <input type='number' id='sesion_' name='sesion_'  min="1" max="30" step="1">                
             </td>
         </tr>
     </table>

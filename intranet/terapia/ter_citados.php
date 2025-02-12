@@ -90,7 +90,7 @@ include('php/funciones.php');
             INNER JOIN contrato AS con ON con.codi_con=cit.cotra_citas
             WHERE cit.esta_cita='1' and hor.fecha_horario='$hoy' and cmed_horario='$_SESSION[ter_codmedi_cit]' and cserv_horario='$_SESSION[ter_area]'";*/
 
-            $consulta="SELECT cit.id_cita,hor.fecha_horario,hor.hora_horario,
+            /*$consulta="SELECT cit.id_cita,hor.fecha_horario,hor.hora_horario,
             usu.codi_usu,usu.nrod_usu,CONCAT(pnom_usu,' ',snom_usu,' ',pape_usu,' ',sape_usu) as nombre,
             con.neps_con,descrip_estaci,
             (
@@ -109,9 +109,29 @@ include('php/funciones.php');
             INNER JOIN contrato AS con ON con.codi_con=cit.cotra_citas
             INNER JOIN areas a ON a.cod_areas = hor.Cserv_horario
             WHERE cit.esta_cita='1' and hor.fecha_horario='$hoy' and cmed_horario='$_SESSION[ter_codmedi_cit]' and cserv_horario='$_SESSION[ter_area]'
+            ORDER BY hor.hora_horario";*/
+            $consulta="SELECT cit.id_cita,hor.fecha_horario,hor.hora_horario,
+            usu.codi_usu,usu.nrod_usu,CONCAT(pnom_usu,' ',snom_usu,' ',pape_usu,' ',sape_usu) as nombre,
+            con.neps_con,descrip_estaci,
+            (
+            SELECT COUNT(*) 
+            FROM TER_HISTORIA AS th
+            INNER JOIN citas c  ON c.Idusu_citas = th.codi_usu 
+            INNER JOIN horarios h ON h.ID_horario = c.ID_horario  
+            WHERE th.esta_this = 'A' AND codi_usu =usu.codi_usu AND c.Esta_cita ='4' 
+            AND th.fecha_this >= h.Fecha_horario
+            ) AS inasistencias,
+            a.nom_areas 
+            FROM horarios AS hor
+            INNER JOIN (citas AS cit INNER JOIN esta_cita ON cod_estaci=cit.esta_cita)            
+            ON cit.id_horario=hor.id_horario
+            INNER JOIN usuario AS usu ON usu.codi_usu=cit.idusu_citas
+            INNER JOIN contrato AS con ON con.codi_con=cit.cotra_citas
+            INNER JOIN areas a ON a.cod_areas = hor.Cserv_horario
+            WHERE cit.esta_cita='1' and hor.fecha_horario='$hoy' and cmed_horario='$_SESSION[ter_codmedi_cit]' 
             ORDER BY hor.hora_horario";
         
-        echo $consulta;
+        //echo $consulta;
         $consulta=mysql_query($consulta);
         if(mysql_num_rows($consulta)<>0){
             while($row=mysql_fetch_array($consulta)){
