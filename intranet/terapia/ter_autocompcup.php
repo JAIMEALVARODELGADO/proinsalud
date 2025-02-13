@@ -8,7 +8,7 @@ if (!$q) RETURN;
 	//WHERE cup.descrip LIKE '%$q%' and  cup.esta_cup='AC' ORDER BY cup.descrip";
 	$sql = "SELECT DISTINCT vista_cups.codigo AS codi_,vista_cups.nombre_cups AS nomb_ FROM vista_cups
 	WHERE vista_cups.nombre_cups LIKE '%$q%' and  vista_cups.esta_cup='AC' ORDER BY vista_cups.nombre_cups";
-        //echo $sql;
+    //echo $sql;
 $rsd = mysql_query($sql);
 if($rsd){
 	while($rs = mysql_fetch_array($rsd)){

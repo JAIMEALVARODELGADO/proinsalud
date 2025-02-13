@@ -5,15 +5,16 @@ $datos[0]='codi_';
 $datos[1]='nomb_';
 ?>
 <!--<meta http-equiv="Context-Type" content="text/html; charset=UTF-8">-->
-<meta charset="UTF-8">
 <html>
 <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="css/estilo_2.css">
     <meta http-equiv="Content-Type" content="text/html; ISO-8859-1"/>
     <!--<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />-->
+    <!--<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>-->
     <title>EVOLUCION POR FISIOTERAPIA</title>
 <script languaje="javascript">
-function validar(){
+function validar(){    
     error='';
     if(document.form1.evolu_.value==''){error+="Evolución\n";}
     if(document.form1.obser_.value==''){error+="Observación\n";}
@@ -22,13 +23,15 @@ function validar(){
         error+="Debe seleccionar la historia de primera vez a la que pertenece el control\n";
     }
     if(document.getElementById("fin_historia").checked === true && document.getElementById("resumen").value === ""){
-        error+="Resumen de la historia \n";
+        error+="Resumen de la historia \n";        
     }
+    
     var resumen = document.getElementById("resumen");    
     if (resumen.value.length > 500) {
         resumen.value = resumen.value.substring(0, 500);        
         error+="El Resumen de la historia no puede superar los 500 caracteres \n";
     }
+    
     if(error!=''){
         alert("Para continuar debe completar la siguiente información\n"+error);
         return(false);
@@ -37,7 +40,72 @@ function validar(){
         document.getElementById("resumen").value="";
     }
     
-    document.form1.submit();
+    enviarDatos();    
+}
+
+function enviarDatos() {
+    //Aqui se muestra la ventana modal de espera para guardar el registro
+    modalEspera.style.display = "block";
+    document.getElementById("msjGuardar").innerHTML="Guardando el registro...";
+    
+    var iden_this = document.getElementById("iden_this").value;
+    var evolu_ = document.getElementById("evolu_").value;
+    var obser_ = document.getElementById("obser_").value;
+    var proced_ = document.getElementById("course_val5").value;
+    if(document.getElementById("fin_historia").checked){
+        var fin_historia = 1;
+    }
+    else{
+        var fin_historia = 0;
+    }    
+    var resumen = document.getElementById("resumen").value;
+    
+
+    $.ajax({
+        url: 'ter_guarda_ctf.php',
+        type: 'POST',
+        data: {
+        iden_this: iden_this,
+        evolu_: evolu_,
+        obser_: obser_,
+        proced_: proced_,
+        fin_historia: fin_historia,
+        resumen: resumen
+        },
+        success: function(response) {            
+            // Acceder a los datos de la respuesta
+            var parsedResponse = JSON.parse(response);
+            var mensaje = parsedResponse.mensaje;             
+            var codigo = parsedResponse.codigo;            
+            document.getElementById("msjGuardar").innerHTML=mensaje;
+            if(codigo==1){
+                botonAceptar.classList.remove('hidden');
+                botonAceptar.href = "ter_citados.php";
+                botonAceptar.target = "fr02";
+                //Aqui se oculta la ventana modal de espera
+                //modalEspera.style.display = "none";
+
+                if(fin_historia === 1){
+                    if(confirm("Desea imprimir la historia con el último control?")){
+                        var url='ter_impretf.php?iden_this='+iden_this+'&ultimocontrol=1'
+                        window.open(url);
+                    }
+                }
+                
+            }
+            else{
+                botonAceptar.classList.remove('hidden');
+                botonAceptar.href = "#";
+                botonAceptar.onclick = function() {
+                    modalEspera.style.display = "none";
+                    botonAceptar.classList.add('hidden');
+                }
+            }            
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+            alert("Error: " + textStatus + " " + errorThrown);
+        }
+    });
 }
 
 function activar_resumen(){
@@ -78,7 +146,7 @@ $().ready(function() {
 </script>
 </head>
 <body>
-<form name="form1" method="post" action="ter_guarda_ctf.php">
+<form name="form1" method="post">
     <?php
     include('php/conexion.php');
     include('php/funciones.php');
@@ -140,13 +208,13 @@ $().ready(function() {
         <tr>
             <td align="right">Evolución:</td>
             <td align="left" colspan="5">
-                <textarea name="evolu_" cols="100" rows="4"></textarea>
+                <textarea id="evolu_" name="evolu_" cols="100" rows="4"></textarea>
             </td>
         </tr>
         <tr>
             <td align="right">Observaciones:</td>
             <td align="left" colspan="5">
-                <textarea name="obser_" cols="100" rows="4"></textarea>
+                <textarea id="obser_" name="obser_" cols="100" rows="4"></textarea>
             </td>
         </tr>
     </table>
@@ -192,6 +260,12 @@ $().ready(function() {
     </div>
 </div>
 
+<div id="modalEspera" class="modalEspera">
+    <br><br>
+    <i id="msjGuardar"></i> 
+    <br><br>    
+    <a href="#" id='btnAceptar' class="btn">Aceptar</a>    
+</div>
 
 </body>
 </html>
@@ -202,7 +276,7 @@ $().ready(function() {
     var modal = document.getElementById("modalRetornar");
 
     // Obtener el botón que abre el modal
-    var btn = document.getElementById("myBtn");
+    //var btn = document.getElementById("myBtn");
 
     // Obtener el elemento <span> que cierra el modal
     var span = document.getElementsByClassName("close")[0];
@@ -223,6 +297,14 @@ $().ready(function() {
             modal.style.display = "none";
         }
     }
+
+    modalEspera=document.getElementById("modalEspera");
+    modalEspera.style.display = "none";
+
+    var botonAceptar = document.getElementById('btnAceptar');
+    botonAceptar.classList.add('hidden');
+    
+    
 </script>
 
 <?php
