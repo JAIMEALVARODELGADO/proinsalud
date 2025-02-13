@@ -35,7 +35,95 @@ function validar(){
         alert("Para continuar debe completar la siguiente información\n"+error);
         return(false);
     }
-    document.form1.submit();
+    enviarDatos(); 
+    //document.form1.submit();
+}
+
+function enviarDatos() {
+    //Aqui se muestra la ventana modal de espera para guardar el registro
+    modalEspera.style.display = "block";
+    document.getElementById("msjGuardar").innerHTML="Guardando el registro...";
+    
+    var servrem_ = document.getElementById("servrem_").value;
+    var medrem_ = "";
+    var enfact_ = document.getElementById("enfact_").value;
+    var estfis_ = document.getElementById("estfis_").value;
+    var dxprinc_ = document.getElementById("course_val").value;
+    var tpdxpr_ = document.getElementById("tpdxpr_").value;
+    var cexter_ = document.getElementById("cexter_").value;
+    var ambit_ = document.getElementById("ambit_").value;
+    var calhum_ = document.getElementById("calhum_").checked ? 'S' : 'N';
+    var crioter_ = document.getElementById("crioter_").checked ? 'S' : 'N';
+    var contras_ = document.getElementById("contras_").checked ? 'S' : 'N';
+    var ultraso_ = document.getElementById("ultraso_").checked ? 'S' : 'N';
+    var estrasc_ = document.getElementById("estrasc_").checked ? 'S' : 'N';
+    var msedat_ = document.getElementById("msedat_").checked ? 'S' : 'N';
+    var mdesco_ = document.getElementById("mdesco_").checked ? 'S' : 'N';
+    var pcasero_ = document.getElementById("pcasero_").checked ? 'S' : 'N';
+    var tecnic_ = document.getElementById("tecnic_").value;
+    var sesion_ = document.getElementById("sesion_").value;
+    var numero_orden_this = document.getElementById("numero_orden_this").value;
+    var tipoterapia_ = document.getElementById("tipoterapia_").value;
+
+    var dxrel1_ = document.getElementById("course_val2").value;
+    var dxrel2_ = document.getElementById("course_val3").value;
+    var dxrel3_ = document.getElementById("course_val4").value;        
+
+    $.ajax({
+        url: 'ter_guarda_ptf.php',
+        type: 'POST',
+        data: {
+            servrem_: servrem_,
+            medrem_: "",
+            enfact_: enfact_,
+            estfis_: estfis_,
+            dxprinc_: dxprinc_,
+            tpdxpr_: tpdxpr_,
+            cexter_: cexter_,
+            ambit_: ambit_,
+            calhum_: calhum_,
+            crioter_: crioter_,
+            contras_: contras_,
+            ultraso_: ultraso_,
+            estrasc_: estrasc_,
+            msedat_: msedat_,
+            mdesco_: mdesco_,
+            pcasero_: pcasero_,
+            tecnic_: tecnic_,
+            sesion_: sesion_,
+            numero_orden_this: numero_orden_this,
+            tipoterapia_: tipoterapia_,
+            dxrel1_: dxrel1_,
+            dxrel2_: dxrel2_,
+            dxrel3_: dxrel3_
+        },
+        success: function(response) {            
+            // Acceder a los datos de la respuesta
+            var parsedResponse = JSON.parse(response);
+            var mensaje = parsedResponse.mensaje;             
+            var codigo = parsedResponse.codigo;            
+            document.getElementById("msjGuardar").innerHTML=mensaje;            
+
+            if(codigo==1){
+                botonAceptar.classList.remove('hidden');
+                botonAceptar.href = "ter_citados.php";
+                botonAceptar.target = "fr02";
+                //Aqui se oculta la ventana modal de espera
+                //modalEspera.style.display = "none";                
+            }
+            else{
+                botonAceptar.classList.remove('hidden');
+                botonAceptar.href = "#";
+                botonAceptar.onclick = function() {
+                    modalEspera.style.display = "none";
+                    botonAceptar.classList.add('hidden');
+                }
+            }
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+            alert("Error: " + textStatus + " " + errorThrown);
+        }
+    });
 }
 
 function recargar(){    
@@ -108,7 +196,7 @@ $().ready(function() {
 
 </head>
 <body>
-<form name="form1" method="post" action="ter_guarda_ptf.php">
+<form name="form1" method="post">
     <?php
     include('php/conexion.php');
     include('php/funciones.php');
@@ -130,7 +218,7 @@ $().ready(function() {
         </tr>
         <tr>
             <td align="right">Del Servicio:</td>
-            <td align="left"><select name="servrem_">
+            <td align="left"><select name="servrem_" id="servrem_">
                     <option value=""></option>
                     <?php
                     $consulta="SELECT codi_des,nomb_des FROM destipos WHERE codt_des='06' ORDER BY nomb_des";
@@ -145,13 +233,13 @@ $().ready(function() {
         <tr>
             <td align="right">Resumen de Enfermedad Actual:</td>
             <td align="left" colspan="5">
-                <textarea name="enfact_" cols="100" rows="4"><?php echo $enfact_;?></textarea>
+                <textarea name="enfact_" id="enfact_" cols="100" rows="4"><?php echo $enfact_;?></textarea>
             </td>
         </tr>
         <tr>
             <td align="right">Estado Fisico(Datos Positivos):</td>
             <td align="left" colspan="5">
-                <textarea name="estfis_" cols="100" rows="4"><?php echo $estfis_;?></textarea>
+                <textarea name="estfis_" id="estfis_" cols="100" rows="4"><?php echo $estfis_;?></textarea>
             </td>
         </tr>
     </table>
@@ -166,7 +254,7 @@ $().ready(function() {
             <td align="left" width="55%"><input type="text" id='course' class='texto' name="descdxpr" value="<?echo $descdxpr;?>" size="70" maxlength="70"></td>
             <td align="right" width="5%">Tipo:</td>
             <td align="left" width="30%">
-                <select name="tpdxpr_">
+                <select name="tpdxpr_" id="tpdxpr_">
                     <option value=""></option>
                     <option value="1">Impresión Diagnóstica</option>
                     <option value="2">Confirmado Nuevo</option>
@@ -194,7 +282,7 @@ $().ready(function() {
         <tr>
             <td align="right">Causa Externa</td>
             <td align="left">
-                <select name="cexter_">
+                <select name="cexter_" id="cexter_">
                     <option value=""></option>
                     <?
                     $consulta="SELECT codi_des,nomb_des FROM destipos WHERE codt_des='12'";
@@ -207,7 +295,7 @@ $().ready(function() {
             </td>
             <td align="right">Ambito</td>
             <td align="left">
-                <select name="ambit_">
+                <select name="ambit_" id="ambit_">
                     <option value=""></option>
                     <option value='1'>Ambulatorio</option>
                     <option value='2'>Hospitalario</option>
@@ -218,7 +306,7 @@ $().ready(function() {
         <tr>
             <td align="right">Tipo de terapia</td>            
             <td align="left">
-                <select name="tipoterapia_">
+                <select name="tipoterapia_" id="tipoterapia_">
                     <option value=""></option>
                     <?php
                         $consulta="SELECT codi_des,nomb_des FROM destipos WHERE codt_des='HC' ORDER BY nomb_des";
@@ -238,31 +326,31 @@ $().ready(function() {
         </tr>
         <tr>
             <td align="right">1 Modalidades Físicas Convencionales:</td>
-            <td align="left"><input type="checkbox" name="calhum_" value="S">Calor Húmedo</td>
-            <td align="left"><input type="checkbox" name="crioter_" value="S">Crioterapia</td>
-            <td align="left"><input type="checkbox" name="contras_" value="S">Contraste</td>
+            <td align="left"><input type="checkbox" name="calhum_" id="calhum_" value="S">Calor Húmedo</td>
+            <td align="left"><input type="checkbox" name="crioter_" id="crioter_" value="S">Crioterapia</td>
+            <td align="left"><input type="checkbox" name="contras_" id="contras_" value="S">Contraste</td>
         </tr>
         <tr>
             <td align="right">2 Ultrasonido:</td>
-            <td align="left"><input type="checkbox" name="ultraso_" value="S"></td>
+            <td align="left"><input type="checkbox" name="ultraso_" id="ultraso_" value="S"></td>
         </tr>
         <tr>
             <td align="right">3 Estimulación Nerviosa Transcutánea:</td>
-            <td align="left"><input type="checkbox" name="estrasc_" value="S"></td>
+            <td align="left"><input type="checkbox" name="estrasc_" id="estrasc_" value="S"></td>
         </tr>
         <tr>
             <td align="right">4 Masaje:</td>
-            <td align="left"><input type="checkbox" name="msedat_" value="S">Sedativo</td>
-            <td align="left"><input type="checkbox" name="mdesco_" value="S">Descontracturante</td>
+            <td align="left"><input type="checkbox" name="msedat_" id="msedat_" value="S">Sedativo</td>
+            <td align="left"><input type="checkbox" name="mdesco_" id="mdesco_" value="S">Descontracturante</td>
         </tr>
         <tr>
             <td align="right">5 Plan Casero:</td>
-            <td align="left"><input type="checkbox" name="pcasero_" value="S"></td>
+            <td align="left"><input type="checkbox" name="pcasero_" id="pcasero_" value="S"></td>
         </tr>
         <tr>
             <td align="right">6 Técnicas Específicas:</td>
             <td align="left" colspan="3">
-                <textarea name="tecnic_" cols="100" rows="4"><?php echo $tecnic_;?></textarea> 
+                <textarea name="tecnic_" id="tecnic_" cols="100" rows="4"><?php echo $tecnic_;?></textarea> 
             </td>
         </tr>
         <tr>
@@ -351,6 +439,12 @@ $().ready(function() {
     </div>
 </div>
 
+<div id="modalEspera" class="modalEspera">
+    <br><br>
+    <i id="msjGuardar"></i> 
+    <br><br>    
+    <a href="#" id='btnAceptar' class="btn">Aceptar</a>    
+</div>
 
 </body>
 </html>
@@ -400,4 +494,10 @@ if($terapias_abiertas>0){
             modal.style.display = "none";
         }
     }*/
+
+    modalEspera=document.getElementById("modalEspera");
+    modalEspera.style.display = "none";
+
+    var botonAceptar = document.getElementById('btnAceptar');
+    botonAceptar.classList.add('hidden');
 </script>
