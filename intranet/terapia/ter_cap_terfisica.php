@@ -126,17 +126,34 @@ function enviarDatos() {
     });
 }
 
-function recargar(){    
-    //document.form1.action='ter_cap_terfisica.php';
-    //form1.submit();
+
+function trae_cie(varcodigo,varnombre){
+    
+    codigo_cie=document.getElementById(varcodigo).value;    
+
+    $.ajax({
+        url: 'ter_consultacie.php',
+        type: 'POST',
+        data: {
+            codigo_cie: codigo_cie
+        },
+        success: function(response) {            
+            // Acceder a los datos de la respuesta
+            var nombre_cie = response;
+            //document.getElementById("course").value=nombre_cie;
+            document.getElementById(varnombre).value=nombre_cie;
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+            alert("Error: " + textStatus + " " + errorThrown);
+        }
+    });
 }
 
 function cerrar(){    
     modalInfo.style.display = "none";
 }
 
-function confirmar(){
-    //alert("Siiiii");
+function confirmar(){    
     modalInfo.style.display = "block";
 }
 </script>
@@ -189,7 +206,7 @@ $().ready(function() {
 	
 	$("#course4").result(function(event, data, formatted) {
 		$("#course_val4").val(data[1]);
-	});	
+	});        
     	
 });
 </script>
@@ -250,7 +267,7 @@ $().ready(function() {
         </tr>
         <tr>
             <td align="right" width="2%">1</td>
-            <td align="left" width="8%"><input type='text' id='course_val' name='dxprinc_' value='<?echo $dxprinc_;?>' size='4' maxlength='4' onblur="recargar()"></td>
+            <td align="left" width="8%"><input type='text' id='course_val' name='dxprinc_' value='<?echo $dxprinc_;?>' size='4' maxlength='4' onblur="trae_cie('course_val','course')"></td>
             <td align="left" width="55%"><input type="text" id='course' class='texto' name="descdxpr" value="<?echo $descdxpr;?>" size="70" maxlength="70"></td>
             <td align="right" width="5%">Tipo:</td>
             <td align="left" width="30%">
@@ -264,17 +281,17 @@ $().ready(function() {
         </tr>    
         <tr>
             <td align="right">2</td>
-            <td align="left"><input type='text' id='course_val2' name='dxrel1_' value='<?echo $dxrel1_;?>' size='4' maxlength='4' onblur="recargar()"></td>
+            <td align="left"><input type='text' id='course_val2' name='dxrel1_' value='<?echo $dxrel1_;?>' size='4' maxlength='4' onblur="trae_cie('course_val2','course2')"></td>
             <td align="left"><input type="text" id='course2' class='texto' name="descdxr1" value="<?echo $descdxr1;?>" size="70" maxlength="70"></td>
         </tr>
         <tr>
             <td align="right">3</td>
-            <td align="left"><input type='text' id='course_val3' name='dxrel2_' value='<?echo $dxrel2_;?>' size='4' maxlength='4' onblur="recargar()"></td>
+            <td align="left"><input type='text' id='course_val3' name='dxrel2_' value='<?echo $dxrel2_;?>' size='4' maxlength='4' onblur="trae_cie('course_val3','course3')"></td>
             <td align="left"><input type="text" id='course3' class='texto' name="descdxr2" value="<?echo $descdxr2;?>" size="70" maxlength="70"></td>
         </tr>
         <tr>
             <td align="right">4</td>
-            <td align="left"><input type='text' id='course_val4' name='dxrel3_' value='<?echo $dxrel3_;?>' size='4' maxlength='4' onblur="recargar()"></td>
+            <td align="left"><input type='text' id='course_val4' name='dxrel3_' value='<?echo $dxrel3_;?>' size='4' maxlength='4' onblur="trae_cie('course_val4','course4')"></td>
             <td align="left"><input type="text" id='course4' class='texto' name="descdxr3" value="<?echo $descdxr3;?>" size="70" maxlength="70"></td>
         </tr>
     </table>
