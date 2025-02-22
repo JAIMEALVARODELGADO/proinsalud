@@ -31,6 +31,7 @@ if(mysql_affected_rows()==0){
 }
 else{
     $iden_this=mysql_insert_id();
+
     if($dxrel1_<>""){
         $sql_="INSERT INTO ter_dxhistoria(iden_dxh,iden_this,dxrel_dxh) VALUES (0,'$iden_this','$dxrel1_')";
         mysql_query($sql_);

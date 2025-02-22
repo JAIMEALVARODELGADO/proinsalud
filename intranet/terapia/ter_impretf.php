@@ -286,7 +286,7 @@ $pdf->MultiCell(207,5,$row[tecnic_this],1,'L','J');
 $fil_=$pdf->GetY()+6;
 $col_=5;
 $pdf->SetXY($col_,$fil_);
-$pdf->Cell(125,5,utf8_decode("Número de Sesiones: "),0,0,'L');
+$pdf->Cell(125,5,utf8_decode("Número de Sesiones: ".$row[sesion_this]),0,0,'L');
 
 $fil_=232;
 
